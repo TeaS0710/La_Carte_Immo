@@ -1,0 +1,48 @@
+{
+  "commune": "SAINT-MAUR-DES-FOSSES",
+  "code_insee": "94068",
+  "georisques_url": "https://www.georisques.gouv.fr/mes-risques/connaitre-les-risques-pres-de-chez-moi/rapport2/94068/SAINT-MAUR-DES-FOSSES/commune/94100",
+  "risks": {
+    "inondation": {
+      "category": "risquesNaturels",
+      "label": "Inondation",
+      "status": "Risque Existant"
+    },
+    "remonteeNappe": {
+      "category": "risquesNaturels",
+      "label": "Remontée de nappe",
+      "status": "Risque Existant"
+    },
+    "seisme": {
+      "category": "risquesNaturels",
+      "label": "Séisme",
+      "status": "Risque Existant - faible"
+    },
+    "mouvementTerrain": {
+      "category": "risquesNaturels",
+      "label": "Mouvements de terrain",
+      "status": "Risque Existant"
+    },
+    "retraitGonflementArgile": {
+      "category": "risquesNaturels",
+      "label": "Retrait gonflement des argiles",
+      "status": "Risque Existant - important"
+    },
+    "radon": {
+      "category": "risquesNaturels",
+      "label": "Radon",
+      "status": "Risque Existant - faible"
+    },
+    "canalisationsMatieresDangereuses": {
+      "category": "risquesTechnologiques",
+      "label": "Canalisations de transport de matières dangereuses",
+      "status": "Risque Concerne"
+    },
+    "pollutionSols": {
+      "category": "risquesTechnologiques",
+      "label": "Pollution des sols",
+      "status": "Risque Concerne"
+    }
+  },
+  "n_risks_present": 8
+}

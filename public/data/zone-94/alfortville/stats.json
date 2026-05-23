@@ -1,0 +1,125 @@
+{
+  "insee": "94002",
+  "commune": "Alfortville",
+  "generated_at": "2026-05-23T11:10:06.214912Z",
+  "total_sales": 6091,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 127,
+  "median_price": 270900.0,
+  "median_price_per_sqm": 5454.545454545455,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1534,
+      "median_price": 290100.0,
+      "median_ppsqm": 5711.627906976744
+    },
+    {
+      "year": 2022,
+      "sales": 1448,
+      "median_price": 295000.0,
+      "median_ppsqm": 5737.602459016393
+    },
+    {
+      "year": 2023,
+      "sales": 1094,
+      "median_price": 259000.0,
+      "median_ppsqm": 5476.190476190476
+    },
+    {
+      "year": 2024,
+      "sales": 851,
+      "median_price": 236000.0,
+      "median_ppsqm": 4957.147183525136
+    },
+    {
+      "year": 2025,
+      "sales": 1164,
+      "median_price": 264000.0,
+      "median_ppsqm": 5211.93853427896
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE VAILLANT COUTURIER",
+      "sales": 509,
+      "median_price_per_sqm": 5636.363636363636
+    },
+    {
+      "street_name": "RUE VERON",
+      "sales": 464,
+      "median_price_per_sqm": 5646.428571428572
+    },
+    {
+      "street_name": "RUE MARCEL BOURDARIAS",
+      "sales": 223,
+      "median_price_per_sqm": 5352.5952140208965
+    },
+    {
+      "street_name": "RUE DE SEINE",
+      "sales": 203,
+      "median_price_per_sqm": 5870.892857142857
+    },
+    {
+      "street_name": "RUE VICTOR HUGO",
+      "sales": 150,
+      "median_price_per_sqm": 5149.744680851064
+    },
+    {
+      "street_name": "RUE EDOUARD VAILLANT",
+      "sales": 147,
+      "median_price_per_sqm": 5215.277777777777
+    },
+    {
+      "street_name": "RUE ETIENNE DOLET",
+      "sales": 146,
+      "median_price_per_sqm": 4828.125
+    },
+    {
+      "street_name": "RUE MARCELIN BERTHELOT",
+      "sales": 143,
+      "median_price_per_sqm": 5349.0259740259735
+    },
+    {
+      "street_name": "RUE EMILE EUDES",
+      "sales": 134,
+      "median_price_per_sqm": 5083.076923076923
+    },
+    {
+      "street_name": "RUE MAL DE LATTRE DE TASSIGNY",
+      "sales": 134,
+      "median_price_per_sqm": 5854.052981273408
+    },
+    {
+      "street_name": "RUE LOUIS BLANC",
+      "sales": 130,
+      "median_price_per_sqm": 5466.002415458937
+    },
+    {
+      "street_name": "QUAI BLANQUI",
+      "sales": 122,
+      "median_price_per_sqm": 6111.111111111111
+    },
+    {
+      "street_name": "RUE DU QUATORZE JUILLET",
+      "sales": 121,
+      "median_price_per_sqm": 5434.782608695652
+    },
+    {
+      "street_name": "RUE PRESIDENT KENNEDY",
+      "sales": 120,
+      "median_price_per_sqm": 5478.724467622773
+    },
+    {
+      "street_name": "RUE DES CAMELIAS",
+      "sales": 118,
+      "median_price_per_sqm": 5384.483454398709
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "insee": "94076",
+  "commune": "Villejuif",
+  "generated_at": "2026-05-23T11:10:15.860557Z",
+  "total_sales": 6208,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 211,
+  "median_price": 280000.0,
+  "median_price_per_sqm": 5576.923076923077,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1441,
+      "median_price": 315000.0,
+      "median_ppsqm": 6227.478260869565
+    },
+    {
+      "year": 2022,
+      "sales": 1437,
+      "median_price": 282818.0,
+      "median_ppsqm": 5591.296296296296
+    },
+    {
+      "year": 2023,
+      "sales": 1182,
+      "median_price": 260000.0,
+      "median_ppsqm": 5452.132352941177
+    },
+    {
+      "year": 2024,
+      "sales": 969,
+      "median_price": 270000.0,
+      "median_ppsqm": 5269.047619047619
+    },
+    {
+      "year": 2025,
+      "sales": 1179,
+      "median_price": 273200.0,
+      "median_ppsqm": 5264.912280701755
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DE PARIS",
+      "sales": 487,
+      "median_price_per_sqm": 6071.825396825398
+    },
+    {
+      "street_name": "BD MAXIME GORKI",
+      "sales": 390,
+      "median_price_per_sqm": 5397.941176470588
+    },
+    {
+      "street_name": "RUE DE CHEVILLY",
+      "sales": 297,
+      "median_price_per_sqm": 4017.543859649123
+    },
+    {
+      "street_name": "RUE JEAN JAURES",
+      "sales": 282,
+      "median_price_per_sqm": 6388.888888888889
+    },
+    {
+      "street_name": "AV DE LA REPUBLIQUE",
+      "sales": 258,
+      "median_price_per_sqm": 5419.835714285715
+    },
+    {
+      "street_name": "ALL BERLIOZ",
+      "sales": 168,
+      "median_price_per_sqm": 4782.451379466305
+    },
+    {
+      "street_name": "RUE HENRI BARBUSSE",
+      "sales": 153,
+      "median_price_per_sqm": 5076.923076923077
+    },
+    {
+      "street_name": "ALL JEANNE VILLEPREUX POWER",
+      "sales": 131,
+      "median_price_per_sqm": 573168.9444444445
+    },
+    {
+      "street_name": "RUE MARGUERITE CHAPON",
+      "sales": 122,
+      "median_price_per_sqm": 5589.74358974359
+    },
+    {
+      "street_name": "AV PAUL VAILLANT COUTURIER",
+      "sales": 116,
+      "median_price_per_sqm": 5888.888888888889
+    },
+    {
+      "street_name": "AV LOUIS BLERIOT",
+      "sales": 111,
+      "median_price_per_sqm": 4060.6060606060605
+    },
+    {
+      "street_name": "RUE DE VERDUN",
+      "sales": 99,
+      "median_price_per_sqm": 4431.0344827586205
+    },
+    {
+      "street_name": "RUE CONDORCET",
+      "sales": 94,
+      "median_price_per_sqm": 5856.8452380952385
+    },
+    {
+      "street_name": "RUE JEAN LURCAT",
+      "sales": 92,
+      "median_price_per_sqm": 4508.196721311476
+    },
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 91,
+      "median_price_per_sqm": 5735.288298473713
+    }
+  ]
+}

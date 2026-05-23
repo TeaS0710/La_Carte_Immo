@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 3631,
+  "sales_delta_pct": 28.1,
+  "median_price": 386000.0,
+  "median_ppsqm": 6010.2040816326535,
+  "delta_ppsqm_pct": 0.2,
+  "notable_sales": [
+    {
+      "date": "2025-03-17",
+      "street": "QUAI DU PETIT PARC",
+      "type": "Maison",
+      "surface": 312,
+      "price": 2362000.0
+    },
+    {
+      "date": "2025-03-10",
+      "street": "BD DE LA MARNE",
+      "type": "Maison",
+      "surface": 320,
+      "price": 1976441.2
+    },
+    {
+      "date": "2025-01-24",
+      "street": "AV DE LATTRE DE TASSIGNY",
+      "type": "Maison",
+      "surface": 240,
+      "price": 1920000.0
+    },
+    {
+      "date": "2025-04-16",
+      "street": "QUAI WINSTON CHURCHILL",
+      "type": "Maison",
+      "surface": 260,
+      "price": 1850000.0
+    },
+    {
+      "date": "2025-12-12",
+      "street": "AV DE LATTRE DE TASSIGNY",
+      "type": "Maison",
+      "surface": 212,
+      "price": 1616500.0
+    }
+  ],
+  "generated_at": "2026-05-23T10:55:23.936358Z"
+}

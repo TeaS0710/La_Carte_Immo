@@ -1,0 +1,1068 @@
+[
+  {
+    "slug": "commune-94068",
+    "type": "commune",
+    "id": "94068",
+    "name": "Saint-Maur-des-Fossés",
+    "lat": 48.7999,
+    "lng": 2.4921,
+    "keywords": [
+      "saint-maur",
+      "94068",
+      "commune",
+      "val-de-marne",
+      "ile-de-france"
+    ],
+    "fiche_path": "fiches/commune-94068.md"
+  },
+  {
+    "slug": "iris-940680101-adamville-1",
+    "type": "iris",
+    "id": "940680101",
+    "name": "Adamville 1",
+    "lat": 48.803006,
+    "lng": 2.48441,
+    "keywords": [
+      "940680101",
+      "adamville 1",
+      "cadres",
+      "hlm",
+      "iris",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680101-adamville-1.md"
+  },
+  {
+    "slug": "iris-940680102-adamville-2",
+    "type": "iris",
+    "id": "940680102",
+    "name": "Adamville 2",
+    "lat": 48.80153,
+    "lng": 2.476135,
+    "keywords": [
+      "940680102",
+      "adamville 2",
+      "cadres",
+      "iris",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680102-adamville-2.md"
+  },
+  {
+    "slug": "iris-940680103-adamville-3",
+    "type": "iris",
+    "id": "940680103",
+    "name": "Adamville 3",
+    "lat": 48.799688,
+    "lng": 2.483923,
+    "keywords": [
+      "940680103",
+      "adamville 3",
+      "cadres",
+      "hlm",
+      "iris",
+      "locataires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680103-adamville-3.md"
+  },
+  {
+    "slug": "iris-940680104-adamville-4",
+    "type": "iris",
+    "id": "940680104",
+    "name": "Adamville 4",
+    "lat": 48.799866,
+    "lng": 2.493711,
+    "keywords": [
+      "940680104",
+      "adamville 4",
+      "cadres",
+      "hlm",
+      "iris",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680104-adamville-4.md"
+  },
+  {
+    "slug": "iris-940680105-adamville-5",
+    "type": "iris",
+    "id": "940680105",
+    "name": "Adamville 5",
+    "lat": 48.795774,
+    "lng": 2.479966,
+    "keywords": [
+      "940680105",
+      "adamville 5",
+      "cadres",
+      "hlm",
+      "iris",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680105-adamville-5.md"
+  },
+  {
+    "slug": "iris-940680106-adamville-6",
+    "type": "iris",
+    "id": "940680106",
+    "name": "Adamville 6",
+    "lat": 48.796354,
+    "lng": 2.486822,
+    "keywords": [
+      "940680106",
+      "adamville 6",
+      "cadres",
+      "hlm",
+      "iris",
+      "locataires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680106-adamville-6.md"
+  },
+  {
+    "slug": "iris-940680107-adamville-7",
+    "type": "iris",
+    "id": "940680107",
+    "name": "Adamville 7",
+    "lat": 48.795926,
+    "lng": 2.49545,
+    "keywords": [
+      "940680107",
+      "adamville 7",
+      "cadres",
+      "famille",
+      "hlm",
+      "iris",
+      "locataires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680107-adamville-7.md"
+  },
+  {
+    "slug": "iris-940680108-adamville-8",
+    "type": "iris",
+    "id": "940680108",
+    "name": "Adamville 8",
+    "lat": 48.792004,
+    "lng": 2.493243,
+    "keywords": [
+      "940680108",
+      "adamville 8",
+      "cadres",
+      "hlm",
+      "iris",
+      "locataires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680108-adamville-8.md"
+  },
+  {
+    "slug": "iris-940680109-adamville-9",
+    "type": "iris",
+    "id": "940680109",
+    "name": "Adamville 9",
+    "lat": 48.791725,
+    "lng": 2.485728,
+    "keywords": [
+      "940680109",
+      "adamville 9",
+      "cadres",
+      "iris",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680109-adamville-9.md"
+  },
+  {
+    "slug": "iris-940680201-le-vieux-saint-maur-1",
+    "type": "iris",
+    "id": "940680201",
+    "name": "Le Vieux Saint-Maur 1",
+    "lat": 48.812454,
+    "lng": 2.47346,
+    "keywords": [
+      "940680201",
+      "cadres",
+      "famille",
+      "iris",
+      "le vieux saint-maur 1",
+      "locataires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680201-le-vieux-saint-maur-1.md"
+  },
+  {
+    "slug": "iris-940680202-le-vieux-saint-maur-2",
+    "type": "iris",
+    "id": "940680202",
+    "name": "Le Vieux Saint-Maur 2",
+    "lat": 48.811879,
+    "lng": 2.481788,
+    "keywords": [
+      "940680202",
+      "cadres",
+      "iris",
+      "le vieux saint-maur 2",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680202-le-vieux-saint-maur-2.md"
+  },
+  {
+    "slug": "iris-940680203-le-vieux-saint-maur-3",
+    "type": "iris",
+    "id": "940680203",
+    "name": "Le Vieux Saint-Maur 3",
+    "lat": 48.808941,
+    "lng": 2.474866,
+    "keywords": [
+      "940680203",
+      "cadres",
+      "hlm",
+      "iris",
+      "le vieux saint-maur 3",
+      "locataires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680203-le-vieux-saint-maur-3.md"
+  },
+  {
+    "slug": "iris-940680204-le-vieux-saint-maur-4",
+    "type": "iris",
+    "id": "940680204",
+    "name": "Le Vieux Saint-Maur 4",
+    "lat": 48.808615,
+    "lng": 2.481146,
+    "keywords": [
+      "940680204",
+      "cadres",
+      "famille",
+      "iris",
+      "le vieux saint-maur 4",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680204-le-vieux-saint-maur-4.md"
+  },
+  {
+    "slug": "iris-940680301-le-parc-saint-maur-1",
+    "type": "iris",
+    "id": "940680301",
+    "name": "Le Parc Saint-Maur 1",
+    "lat": 48.808442,
+    "lng": 2.491832,
+    "keywords": [
+      "940680301",
+      "cadres",
+      "iris",
+      "le parc saint-maur 1",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680301-le-parc-saint-maur-1.md"
+  },
+  {
+    "slug": "iris-940680302-le-parc-saint-maur-2",
+    "type": "iris",
+    "id": "940680302",
+    "name": "Le Parc Saint-Maur 2",
+    "lat": 48.807411,
+    "lng": 2.503878,
+    "keywords": [
+      "940680302",
+      "cadres",
+      "iris",
+      "le parc saint-maur 2",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680302-le-parc-saint-maur-2.md"
+  },
+  {
+    "slug": "iris-940680303-le-parc-saint-maur-3",
+    "type": "iris",
+    "id": "940680303",
+    "name": "Le Parc Saint-Maur 3",
+    "lat": 48.804898,
+    "lng": 2.494681,
+    "keywords": [
+      "940680303",
+      "cadres",
+      "hlm",
+      "iris",
+      "le parc saint-maur 3",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680303-le-parc-saint-maur-3.md"
+  },
+  {
+    "slug": "iris-940680304-le-parc-saint-maur-4",
+    "type": "iris",
+    "id": "940680304",
+    "name": "Le Parc Saint-Maur 4",
+    "lat": 48.801536,
+    "lng": 2.501099,
+    "keywords": [
+      "940680304",
+      "cadres",
+      "famille",
+      "iris",
+      "le parc saint-maur 4",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680304-le-parc-saint-maur-4.md"
+  },
+  {
+    "slug": "iris-940680401-champignol-1",
+    "type": "iris",
+    "id": "940680401",
+    "name": "Champignol 1",
+    "lat": 48.800799,
+    "lng": 2.508377,
+    "keywords": [
+      "940680401",
+      "cadres",
+      "champignol 1",
+      "famille",
+      "hlm",
+      "iris",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680401-champignol-1.md"
+  },
+  {
+    "slug": "iris-940680402-champignol-2",
+    "type": "iris",
+    "id": "940680402",
+    "name": "Champignol 2",
+    "lat": 48.805368,
+    "lng": 2.514981,
+    "keywords": [
+      "940680402",
+      "cadres",
+      "champignol 2",
+      "iris",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680402-champignol-2.md"
+  },
+  {
+    "slug": "iris-940680501-la-varenne-1",
+    "type": "iris",
+    "id": "940680501",
+    "name": "La Varenne 1",
+    "lat": 48.794761,
+    "lng": 2.504094,
+    "keywords": [
+      "940680501",
+      "cadres",
+      "iris",
+      "la varenne 1",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680501-la-varenne-1.md"
+  },
+  {
+    "slug": "iris-940680502-la-varenne-2",
+    "type": "iris",
+    "id": "940680502",
+    "name": "La Varenne 2",
+    "lat": 48.798908,
+    "lng": 2.515416,
+    "keywords": [
+      "940680502",
+      "cadres",
+      "hlm",
+      "iris",
+      "la varenne 2",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680502-la-varenne-2.md"
+  },
+  {
+    "slug": "iris-940680503-la-varenne-3",
+    "type": "iris",
+    "id": "940680503",
+    "name": "La Varenne 3",
+    "lat": 48.791925,
+    "lng": 2.512236,
+    "keywords": [
+      "940680503",
+      "cadres",
+      "iris",
+      "la varenne 3",
+      "locataires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680503-la-varenne-3.md"
+  },
+  {
+    "slug": "iris-940680504-la-varenne-4",
+    "type": "iris",
+    "id": "940680504",
+    "name": "La Varenne 4",
+    "lat": 48.795708,
+    "lng": 2.519428,
+    "keywords": [
+      "940680504",
+      "cadres",
+      "iris",
+      "la varenne 4",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680504-la-varenne-4.md"
+  },
+  {
+    "slug": "iris-940680505-la-varenne-5",
+    "type": "iris",
+    "id": "940680505",
+    "name": "La Varenne 5",
+    "lat": 48.787978,
+    "lng": 2.514031,
+    "keywords": [
+      "940680505",
+      "cadres",
+      "iris",
+      "la varenne 5",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680505-la-varenne-5.md"
+  },
+  {
+    "slug": "iris-940680601-les-muriers-1",
+    "type": "iris",
+    "id": "940680601",
+    "name": "Les Mûriers 1",
+    "lat": 48.789625,
+    "lng": 2.505964,
+    "keywords": [
+      "940680601",
+      "cadres",
+      "iris",
+      "les mûriers 1",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680601-les-muriers-1.md"
+  },
+  {
+    "slug": "iris-940680602-les-muriers-2",
+    "type": "iris",
+    "id": "940680602",
+    "name": "Les Mûriers 2",
+    "lat": 48.79077,
+    "lng": 2.499429,
+    "keywords": [
+      "940680602",
+      "cadres",
+      "iris",
+      "les mûriers 2",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680602-les-muriers-2.md"
+  },
+  {
+    "slug": "iris-940680603-les-muriers-3",
+    "type": "iris",
+    "id": "940680603",
+    "name": "Les Mûriers 3",
+    "lat": 48.78631,
+    "lng": 2.500941,
+    "keywords": [
+      "940680603",
+      "cadres",
+      "hlm",
+      "iris",
+      "les mûriers 3",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680603-les-muriers-3.md"
+  },
+  {
+    "slug": "iris-940680701-la-pie-1",
+    "type": "iris",
+    "id": "940680701",
+    "name": "La Pie 1",
+    "lat": 48.78679,
+    "lng": 2.491616,
+    "keywords": [
+      "940680701",
+      "cadres",
+      "iris",
+      "la pie 1",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680701-la-pie-1.md"
+  },
+  {
+    "slug": "iris-940680702-la-pie-2",
+    "type": "iris",
+    "id": "940680702",
+    "name": "La Pie 2",
+    "lat": 48.787398,
+    "lng": 2.484652,
+    "keywords": [
+      "940680702",
+      "cadres",
+      "famille",
+      "hlm",
+      "iris",
+      "la pie 2",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680702-la-pie-2.md"
+  },
+  {
+    "slug": "iris-940680703-la-pie-3",
+    "type": "iris",
+    "id": "940680703",
+    "name": "La Pie 3",
+    "lat": 48.788802,
+    "lng": 2.479371,
+    "keywords": [
+      "940680703",
+      "cadres",
+      "famille",
+      "hlm",
+      "iris",
+      "la pie 3",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680703-la-pie-3.md"
+  },
+  {
+    "slug": "iris-940680704-la-pie-4",
+    "type": "iris",
+    "id": "940680704",
+    "name": "La Pie 4",
+    "lat": 48.794077,
+    "lng": 2.474556,
+    "keywords": [
+      "940680704",
+      "cadres",
+      "iris",
+      "la pie 4",
+      "propriétaires",
+      "saint-maur"
+    ],
+    "fiche_path": "fiches/iris-940680704-la-pie-4.md"
+  },
+  {
+    "slug": "iris-940680801-saint-maur-creteil-1",
+    "type": "iris",
+    "id": "940680801",
+    "name": "Saint-Maur Créteil 1",
+    "lat": 48.802619,
+    "lng": 2.470464,
+    "keywords": [
+      "940680801",
+      "cadres",
+      "hlm",
+      "iris",
+      "locataires",
+      "saint-maur",
+      "saint-maur créteil 1"
+    ],
+    "fiche_path": "fiches/iris-940680801-saint-maur-creteil-1.md"
+  },
+  {
+    "slug": "iris-940680802-saint-maur-creteil-2",
+    "type": "iris",
+    "id": "940680802",
+    "name": "Saint-Maur Créteil 2",
+    "lat": 48.805869,
+    "lng": 2.475465,
+    "keywords": [
+      "940680802",
+      "cadres",
+      "iris",
+      "locataires",
+      "saint-maur",
+      "saint-maur créteil 2"
+    ],
+    "fiche_path": "fiches/iris-940680802-saint-maur-creteil-2.md"
+  },
+  {
+    "slug": "iris-940680803-saint-maur-creteil-3",
+    "type": "iris",
+    "id": "940680803",
+    "name": "Saint-Maur Créteil 3",
+    "lat": 48.808398,
+    "lng": 2.467011,
+    "keywords": [
+      "940680803",
+      "cadres",
+      "iris",
+      "propriétaires",
+      "saint-maur",
+      "saint-maur créteil 3"
+    ],
+    "fiche_path": "fiches/iris-940680803-saint-maur-creteil-3.md"
+  },
+  {
+    "slug": "parcelle-940680000F0052",
+    "type": "parcelle",
+    "id": "940680000F0052",
+    "name": "7 RUE DU PETIT BEAUBOURG",
+    "lat": 48.813712,
+    "lng": 2.47363,
+    "keywords": [
+      "940680000F0052",
+      "Le Vieux Saint-Maur 1",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-940680000F0052.md"
+  },
+  {
+    "slug": "parcelle-94068000BY0224",
+    "type": "parcelle",
+    "id": "94068000BY0224",
+    "name": "1 RUE CAMILLE DESMOULINS",
+    "lat": 48.79907,
+    "lng": 2.498959,
+    "keywords": [
+      "94068000BY0224",
+      "Adamville 4",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000BY0224.md"
+  },
+  {
+    "slug": "parcelle-940680000H0033",
+    "type": "parcelle",
+    "id": "940680000H0033",
+    "name": "29 AV DE CONDE",
+    "lat": 48.811048,
+    "lng": 2.480038,
+    "keywords": [
+      "940680000H0033",
+      "Le Vieux Saint-Maur 2",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-940680000H0033.md"
+  },
+  {
+    "slug": "parcelle-94068000CD0091",
+    "type": "parcelle",
+    "id": "94068000CD0091",
+    "name": "14 AV DU MIDI",
+    "lat": 48.801516,
+    "lng": 2.496081,
+    "keywords": [
+      "94068000CD0091",
+      "Le Parc Saint-Maur 4",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000CD0091.md"
+  },
+  {
+    "slug": "parcelle-940680000E0065",
+    "type": "parcelle",
+    "id": "940680000E0065",
+    "name": "6 AV MAHIEU",
+    "lat": 48.81159,
+    "lng": 2.473452,
+    "keywords": [
+      "940680000E0065",
+      "Le Vieux Saint-Maur 1",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-940680000E0065.md"
+  },
+  {
+    "slug": "parcelle-940680000R0007",
+    "type": "parcelle",
+    "id": "940680000R0007",
+    "name": "4 AV DE BRETAGNE",
+    "lat": 48.806754,
+    "lng": 2.482411,
+    "keywords": [
+      "940680000R0007",
+      "Le Vieux Saint-Maur 4",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-940680000R0007.md"
+  },
+  {
+    "slug": "parcelle-940680000X0124",
+    "type": "parcelle",
+    "id": "940680000X0124",
+    "name": "1 ALL FRANCIS LEMARQUE",
+    "lat": 48.805579,
+    "lng": 2.489001,
+    "keywords": [
+      "940680000X0124",
+      "Le Parc Saint-Maur 3",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-940680000X0124.md"
+  },
+  {
+    "slug": "parcelle-94068000EY0069",
+    "type": "parcelle",
+    "id": "94068000EY0069",
+    "name": "4 VLA MARIOTTE",
+    "lat": 48.790921,
+    "lng": 2.517052,
+    "keywords": [
+      "94068000EY0069",
+      "La Varenne 5",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000EY0069.md"
+  },
+  {
+    "slug": "parcelle-94068000BX0132",
+    "type": "parcelle",
+    "id": "94068000BX0132",
+    "name": "186 BD DE CRETEIL",
+    "lat": 48.796932,
+    "lng": 2.49687,
+    "keywords": [
+      "94068000BX0132",
+      "Adamville 7",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000BX0132.md"
+  },
+  {
+    "slug": "parcelle-94068000EX0161",
+    "type": "parcelle",
+    "id": "94068000EX0161",
+    "name": "27 AV MICHELET",
+    "lat": 48.792154,
+    "lng": 2.510445,
+    "keywords": [
+      "94068000EX0161",
+      "La Varenne 3",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000EX0161.md"
+  },
+  {
+    "slug": "parcelle-94068000CN0140",
+    "type": "parcelle",
+    "id": "94068000CN0140",
+    "name": "1 RUE DELERUE",
+    "lat": 48.79641,
+    "lng": 2.484704,
+    "keywords": [
+      "94068000CN0140",
+      "Adamville 6",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000CN0140.md"
+  },
+  {
+    "slug": "parcelle-94068000EY0018",
+    "type": "parcelle",
+    "id": "94068000EY0018",
+    "name": "3 AV DE CHANZY",
+    "lat": 48.791974,
+    "lng": 2.514287,
+    "keywords": [
+      "94068000EY0018",
+      "La Varenne 3",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000EY0018.md"
+  },
+  {
+    "slug": "parcelle-94068000BI0155",
+    "type": "parcelle",
+    "id": "94068000BI0155",
+    "name": "4 RUE GEORGE SAND",
+    "lat": 48.792368,
+    "lng": 2.518824,
+    "keywords": [
+      "94068000BI0155",
+      "La Varenne 4",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000BI0155.md"
+  },
+  {
+    "slug": "parcelle-94068000BU0029",
+    "type": "parcelle",
+    "id": "94068000BU0029",
+    "name": "204 BD DE CRETEIL",
+    "lat": 48.797414,
+    "lng": 2.500709,
+    "keywords": [
+      "94068000BU0029",
+      "Adamville 7",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000BU0029.md"
+  },
+  {
+    "slug": "parcelle-94068000EI0073",
+    "type": "parcelle",
+    "id": "94068000EI0073",
+    "name": "37 AV DES PERDRIX",
+    "lat": 48.788224,
+    "lng": 2.496258,
+    "keywords": [
+      "94068000EI0073",
+      "Les Mûriers 2",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000EI0073.md"
+  },
+  {
+    "slug": "parcelle-940680000U0070",
+    "type": "parcelle",
+    "id": "940680000U0070",
+    "name": "57 AV GABRIEL PERI",
+    "lat": 48.810909,
+    "lng": 2.488132,
+    "keywords": [
+      "940680000U0070",
+      "Le Vieux Saint-Maur 2",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-940680000U0070.md"
+  },
+  {
+    "slug": "parcelle-94068000DF0230",
+    "type": "parcelle",
+    "id": "94068000DF0230",
+    "name": "4 RUE VASSAL",
+    "lat": 48.79286,
+    "lng": 2.476308,
+    "keywords": [
+      "94068000DF0230",
+      "La Pie 4",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000DF0230.md"
+  },
+  {
+    "slug": "parcelle-94068000ER0103",
+    "type": "parcelle",
+    "id": "94068000ER0103",
+    "name": "37 AV DES FALONNIERES",
+    "lat": 48.785954,
+    "lng": 2.50618,
+    "keywords": [
+      "94068000ER0103",
+      "Les Mûriers 3",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000ER0103.md"
+  },
+  {
+    "slug": "parcelle-94068000FG0102",
+    "type": "parcelle",
+    "id": "94068000FG0102",
+    "name": "32 AV DE CHANZY",
+    "lat": 48.789489,
+    "lng": 2.519089,
+    "keywords": [
+      "94068000FG0102",
+      "La Varenne 5",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000FG0102.md"
+  },
+  {
+    "slug": "parcelle-94068000DK0067",
+    "type": "parcelle",
+    "id": "94068000DK0067",
+    "name": "1 LES LOGIS DE LA PIE",
+    "lat": 48.78831,
+    "lng": 2.476329,
+    "keywords": [
+      "94068000DK0067",
+      "La Pie 3",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000DK0067.md"
+  },
+  {
+    "slug": "parcelle-94068000CD0065",
+    "type": "parcelle",
+    "id": "94068000CD0065",
+    "name": "2 AV DU MIDI",
+    "lat": 48.80218,
+    "lng": 2.494576,
+    "keywords": [
+      "94068000CD0065",
+      "Le Parc Saint-Maur 4",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000CD0065.md"
+  },
+  {
+    "slug": "parcelle-94068000AO0096",
+    "type": "parcelle",
+    "id": "94068000AO0096",
+    "name": "141 BD DE CHAMPIGNY",
+    "lat": 48.808777,
+    "lng": 2.5091,
+    "keywords": [
+      "94068000AO0096",
+      "Le Parc Saint-Maur 2",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000AO0096.md"
+  },
+  {
+    "slug": "parcelle-94068000BL0092",
+    "type": "parcelle",
+    "id": "94068000BL0092",
+    "name": "9 AV DU MESNIL",
+    "lat": 48.796366,
+    "lng": 2.514477,
+    "keywords": [
+      "94068000BL0092",
+      "La Varenne 2",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000BL0092.md"
+  },
+  {
+    "slug": "parcelle-94068000EY0068",
+    "type": "parcelle",
+    "id": "94068000EY0068",
+    "name": "3 VLA MARIOTTE",
+    "lat": 48.791026,
+    "lng": 2.516646,
+    "keywords": [
+      "94068000EY0068",
+      "La Varenne 5",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000EY0068.md"
+  },
+  {
+    "slug": "parcelle-94068000EM0179",
+    "type": "parcelle",
+    "id": "94068000EM0179",
+    "name": "90 AV DE BONNEUIL",
+    "lat": 48.788511,
+    "lng": 2.500247,
+    "keywords": [
+      "94068000EM0179",
+      "Les Mûriers 3",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000EM0179.md"
+  },
+  {
+    "slug": "parcelle-940680000J0006",
+    "type": "parcelle",
+    "id": "940680000J0006",
+    "name": "12 AV AUGUSTE MARIN",
+    "lat": 48.809994,
+    "lng": 2.473227,
+    "keywords": [
+      "940680000J0006",
+      "Le Vieux Saint-Maur 3",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-940680000J0006.md"
+  },
+  {
+    "slug": "parcelle-940680000I0174",
+    "type": "parcelle",
+    "id": "940680000I0174",
+    "name": "51 AV DE LA LIBERATION",
+    "lat": 48.810987,
+    "lng": 2.477513,
+    "keywords": [
+      "940680000I0174",
+      "Le Vieux Saint-Maur 4",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-940680000I0174.md"
+  },
+  {
+    "slug": "parcelle-940680000N0056",
+    "type": "parcelle",
+    "id": "940680000N0056",
+    "name": "13 RUE ANDRE BOLLIER",
+    "lat": 48.804323,
+    "lng": 2.474436,
+    "keywords": [
+      "940680000N0056",
+      "Saint-Maur Créteil 2",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-940680000N0056.md"
+  },
+  {
+    "slug": "parcelle-940680000K0171",
+    "type": "parcelle",
+    "id": "940680000K0171",
+    "name": "22 RUE DU PONT DE CRETEIL",
+    "lat": 48.807867,
+    "lng": 2.470486,
+    "keywords": [
+      "940680000K0171",
+      "Saint-Maur Créteil 3",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-940680000K0171.md"
+  },
+  {
+    "slug": "parcelle-94068000BN0118",
+    "type": "parcelle",
+    "id": "94068000BN0118",
+    "name": "40 AV DU BAC",
+    "lat": 48.795528,
+    "lng": 2.507858,
+    "keywords": [
+      "94068000BN0118",
+      "La Varenne 1",
+      "parcelle",
+      "dvf"
+    ],
+    "fiche_path": "fiches/parcelle-94068000BN0118.md"
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "insee": "94033",
+  "commune": "Fontenay-sous-Bois",
+  "generated_at": "2026-05-23T11:10:10.179779Z",
+  "total_sales": 8450,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 234,
+  "median_price": 408000.0,
+  "median_price_per_sqm": 7181.818181818182,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1805,
+      "median_price": 440000.0,
+      "median_ppsqm": 7196.774193548387
+    },
+    {
+      "year": 2022,
+      "sales": 1855,
+      "median_price": 409000.0,
+      "median_ppsqm": 7700.0
+    },
+    {
+      "year": 2023,
+      "sales": 1399,
+      "median_price": 374400.0,
+      "median_ppsqm": 6743.953488372093
+    },
+    {
+      "year": 2024,
+      "sales": 1782,
+      "median_price": 537385.0,
+      "median_ppsqm": 11624.68085106383
+    },
+    {
+      "year": 2025,
+      "sales": 1609,
+      "median_price": 322000.0,
+      "median_ppsqm": 5969.69696969697
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE ROGER SALENGRO",
+      "sales": 696,
+      "median_price_per_sqm": 720091.6666666666
+    },
+    {
+      "street_name": "RUE DALAYRAC",
+      "sales": 484,
+      "median_price_per_sqm": 6914.893617021276
+    },
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 354,
+      "median_price_per_sqm": 5580.645161290323
+    },
+    {
+      "street_name": "RUE MARGUERITE",
+      "sales": 245,
+      "median_price_per_sqm": 183025.63888888888
+    },
+    {
+      "street_name": "AV DE LA REPUBLIQUE",
+      "sales": 240,
+      "median_price_per_sqm": 6352.380952380952
+    },
+    {
+      "street_name": "AV FOCH",
+      "sales": 208,
+      "median_price_per_sqm": 8035.150190994328
+    },
+    {
+      "street_name": "RUE ROUBLOT",
+      "sales": 194,
+      "median_price_per_sqm": 6252.1146616541355
+    },
+    {
+      "street_name": "RUE PAUL LANGEVIN",
+      "sales": 186,
+      "median_price_per_sqm": 3048.4603386809267
+    },
+    {
+      "street_name": "RUE CHARLES BASSEE",
+      "sales": 152,
+      "median_price_per_sqm": 6367.69918699187
+    },
+    {
+      "street_name": "AV DE LA DAME BLANCHE",
+      "sales": 126,
+      "median_price_per_sqm": 8645.298660004542
+    },
+    {
+      "street_name": "RUE DU CLOS D ORLEANS",
+      "sales": 126,
+      "median_price_per_sqm": 7648.2558139534885
+    },
+    {
+      "street_name": "RUE ANDRE TESSIER",
+      "sales": 126,
+      "median_price_per_sqm": 5525.440313111546
+    },
+    {
+      "street_name": "AV DU MARECHAL JOFFRE",
+      "sales": 122,
+      "median_price_per_sqm": 4236.111111111111
+    },
+    {
+      "street_name": "AV DE STALINGRAD",
+      "sales": 120,
+      "median_price_per_sqm": 6009.072580645161
+    },
+    {
+      "street_name": "RUE DU CDT JEAN DUHAIL",
+      "sales": 119,
+      "median_price_per_sqm": 6641.80790960452
+    }
+  ]
+}

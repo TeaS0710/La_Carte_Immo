@@ -1,0 +1,171 @@
+{
+  "zone": "zone-94-courtage-prelys",
+  "generated_at": "2026-05-23T11:10:18.543497Z",
+  "communes": [
+    {
+      "insee": "94002",
+      "commune": "Alfortville",
+      "slug": "alfortville",
+      "total_sales": 6091,
+      "streets_with_sales": 127,
+      "median_price": 270900.0,
+      "median_price_per_sqm": 5454.545454545455,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "insee": "94017",
+      "commune": "Champigny-sur-Marne",
+      "slug": "champigny-sur-marne",
+      "total_sales": 8946,
+      "streets_with_sales": 416,
+      "median_price": 265673.0,
+      "median_price_per_sqm": 4244.672897196262,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "insee": "94028",
+      "commune": "Créteil",
+      "slug": "creteil",
+      "total_sales": 10924,
+      "streets_with_sales": 307,
+      "median_price": 255900.0,
+      "median_price_per_sqm": 4414.285714285715,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "insee": "94033",
+      "commune": "Fontenay-sous-Bois",
+      "slug": "fontenay-sous-bois",
+      "total_sales": 8450,
+      "streets_with_sales": 234,
+      "median_price": 408000.0,
+      "median_price_per_sqm": 7181.818181818182,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "insee": "94046",
+      "commune": "Maisons-Alfort",
+      "slug": "maisons-alfort",
+      "total_sales": 8865,
+      "streets_with_sales": 158,
+      "median_price": 326500.0,
+      "median_price_per_sqm": 6013.526315789473,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "insee": "94058",
+      "commune": "Le Perreux-sur-Marne",
+      "slug": "le-perreux-sur-marne",
+      "total_sales": 7792,
+      "streets_with_sales": 176,
+      "median_price": 373800.0,
+      "median_price_per_sqm": 6171.875,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "insee": "94068",
+      "commune": "Saint-Maur-des-Fossés",
+      "slug": "saint-maur-des-fosses",
+      "total_sales": 16786,
+      "streets_with_sales": 440,
+      "median_price": 386000.0,
+      "median_price_per_sqm": 6320.0,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "insee": "94076",
+      "commune": "Villejuif",
+      "slug": "villejuif",
+      "total_sales": 6208,
+      "streets_with_sales": 211,
+      "median_price": 280000.0,
+      "median_price_per_sqm": 5576.923076923077,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "insee": "94080",
+      "commune": "Vincennes",
+      "slug": "vincennes",
+      "total_sales": 11799,
+      "streets_with_sales": 125,
+      "median_price": 464000.0,
+      "median_price_per_sqm": 9333.333333333334,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "insee": "94081",
+      "commune": "Vitry-sur-Seine",
+      "slug": "vitry-sur-seine",
+      "total_sales": 8534,
+      "streets_with_sales": 321,
+      "median_price": 250000.0,
+      "median_price_per_sqm": 4640.59375,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    }
+  ],
+  "totals": {
+    "communes": 10,
+    "total_sales": 94395,
+    "total_streets": 2515
+  }
+}
