@@ -27,10 +27,14 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [marketOpen, setMarketOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [hintDismissed, setHintDismissed] = useState(false);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
+    const dismiss = () => setHintDismissed(true);
+    document.addEventListener("click", dismiss, { once: true });
+    return () => document.removeEventListener("click", dismiss);
   }, []);
 
   return (
@@ -92,9 +96,9 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
         </div>
       </div>
 
-      {/* Hint when nothing selected yet */}
-      {!selected && !selectedIris && !filtersOpen && (
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none">
+      {/* Hint when nothing selected yet — disparaît au premier clic */}
+      {!hintDismissed && !selected && !selectedIris && !filtersOpen && (
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none transition-opacity">
           <div className="bg-white/95 border border-[color:var(--line)] rounded-full px-4 py-2 text-[13px] text-ink-soft inline-flex items-center gap-2 shadow-sm">
             <Info size={14} className="text-brand-strong" />
             Cliquez sur un point (rue) ou une zone (quartier) pour voir les détails
