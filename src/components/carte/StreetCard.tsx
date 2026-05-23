@@ -388,17 +388,17 @@ function VentesTab({ txs, onExport }: { txs: Tx[]; onExport: () => void }) {
                 className="border-t border-[color:var(--line-soft)] hover:bg-surface-warm/40 transition"
               >
                 <td className="px-3 py-2 tabular text-ink-soft">
-                  {t.date ? new Date(t.date).toLocaleDateString("fr-FR") : "—"}
+                  {t.date ? new Date(t.date).toLocaleDateString("fr-FR") : "-"}
                 </td>
                 <td className="px-3 py-2 text-ink-soft truncate max-w-[100px]">
-                  {(t.type ?? "—").replace("Local industriel. commercial ou assimilé", "Commercial")}
+                  {(t.type ?? "-").replace("Local industriel. commercial ou assimilé", "Commercial")}
                 </td>
-                <td className="px-3 py-2 text-right tabular">{t.surface ?? "—"}</td>
+                <td className="px-3 py-2 text-right tabular">{t.surface ?? "-"}</td>
                 <td className="px-3 py-2 text-right tabular font-medium text-ink">
                   {formatEur(t.price)}
                 </td>
                 <td className="px-3 py-2 text-right tabular text-ink-soft">
-                  {t.ppsqm ? formatEurPerSqm(t.ppsqm) : "—"}
+                  {t.ppsqm ? formatEurPerSqm(t.ppsqm) : "-"}
                 </td>
               </tr>
             ))}
@@ -431,14 +431,14 @@ function QuartierTab({ iris, onOpenIris }: { iris: IrisProps | null; onOpenIris:
       <Row
         icon={<Users size={14} />}
         label="Population"
-        value={iris.population ? `${iris.population.toLocaleString("fr-FR")} hab.` : "—"}
-        detail={`${iris.pct_0_14 ?? "—"} % de 0-14 ans · ${iris.pct_65p ?? "—"} % de 65 ans+`}
+        value={iris.population ? `${iris.population.toLocaleString("fr-FR")} hab.` : "-"}
+        detail={`${iris.pct_0_14 ?? "-"} % de 0-14 ans · ${iris.pct_65p ?? "-"} % de 65 ans+`}
       />
 
       <Row
         icon={<Briefcase size={14} />}
         label="Profil socio-pro"
-        value={iris.pct_cadres != null ? `${iris.pct_cadres} % cadres` : "—"}
+        value={iris.pct_cadres != null ? `${iris.pct_cadres} % cadres` : "-"}
         detail={
           iris.pct_bac5p != null
             ? `${iris.pct_bac5p} % de Bac+5 et plus`
@@ -452,9 +452,9 @@ function QuartierTab({ iris, onOpenIris }: { iris: IrisProps | null; onOpenIris:
         value={
           iris.n_log
             ? `${iris.n_log.toLocaleString("fr-FR")} logements`
-            : "—"
+            : "-"
         }
-        detail={`${iris.pct_proprio ?? "—"} % propriétaires · ${iris.pct_hlm ?? "—"} % HLM`}
+        detail={`${iris.pct_proprio ?? "-"} % propriétaires · ${iris.pct_hlm ?? "-"} % HLM`}
       />
 
       <Row
@@ -464,7 +464,7 @@ function QuartierTab({ iris, onOpenIris }: { iris: IrisProps | null; onOpenIris:
         detail={
           iris.dvf_median_ppsqm
             ? `${formatEurPerSqm(iris.dvf_median_ppsqm)} médian · ${formatEur(iris.dvf_median_price)} médian`
-            : "—"
+            : "-"
         }
       />
 

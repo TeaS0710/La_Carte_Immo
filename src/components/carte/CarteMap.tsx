@@ -307,10 +307,10 @@ export default function CarteMap({
               if (!e.features?.length) return;
               map.getCanvas().style.cursor = "pointer";
               const p = (e.features[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
-              const addr = String(p.addr || "—");
+              const addr = String(p.addr || "-");
               const dpe = String(p.etiquette_dpe || "?");
               const score = Number(p.proba_sale_12m || 0);
-              const year = p.annee_construction ? String(p.annee_construction) : "—";
+              const year = p.annee_construction ? String(p.annee_construction) : "-";
               const surf = p.surface ? `${p.surface} m²` : "";
               type Sig = { label: string; logit_delta?: number; weight?: number };
               let signals: Sig[] = [];
@@ -433,7 +433,7 @@ export default function CarteMap({
             const p = f.properties as unknown as StreetProps;
             const eurPerSqm = p.median_price_per_sqm
               ? `${Math.round(p.median_price_per_sqm).toLocaleString("fr-FR")} €/m²`
-              : "—";
+              : "-";
             popup
               .setLngLat(e.lngLat)
               .setHTML(

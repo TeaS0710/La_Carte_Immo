@@ -217,8 +217,8 @@ export default function IrisCard({
           <div className="space-y-4">
             <BigStat
               label="Habitants"
-              value={iris.population ? `${iris.population.toLocaleString("fr-FR")} hab.` : "—"}
-              detail={`${iris.pct_0_14 ?? "—"} % de 0-14 ans · ${iris.pct_65p ?? "—"} % de 65 ans et +`}
+              value={iris.population ? `${iris.population.toLocaleString("fr-FR")} hab.` : "-"}
+              detail={`${iris.pct_0_14 ?? "-"} % de 0-14 ans · ${iris.pct_65p ?? "-"} % de 65 ans et +`}
               icon={<Users size={14} />}
             />
 
@@ -251,7 +251,7 @@ export default function IrisCard({
           <div className="space-y-4">
             <BigStat
               label="Parc total"
-              value={iris.n_log ? `${iris.n_log.toLocaleString("fr-FR")} logements` : "—"}
+              value={iris.n_log ? `${iris.n_log.toLocaleString("fr-FR")} logements` : "-"}
               detail={
                 iris.n_rp
                   ? `${iris.n_rp.toLocaleString("fr-FR")} résidences principales`
@@ -433,7 +433,7 @@ export default function IrisCard({
 
         {/* ── Sources footer ── */}
         <footer className="border-t border-[color:var(--line-soft)] pt-4 text-[11px] text-ink-mute leading-relaxed">
-          Sources : INSEE (population, logement, CSP, diplômes — bases
+          Sources : INSEE (population, logement, CSP, diplômes, bases
           infracommunales 2021) · BPE INSEE 2024 (équipements) · ADEME (DPE) ·
           DGFiP (DVF, transactions 2021-2025). Rang calculé sur les 34 IRIS de
           Saint-Maur-des-Fossés.
@@ -695,8 +695,8 @@ function PipelineRow({ logement }: { logement: PipelineLogement }) {
         <div className="min-w-0 flex-1">
           <div className="text-[13px] text-ink font-medium truncate">{logement.addr}</div>
           <div className="text-[11px] text-ink-mute mt-0.5">
-            {logement.type_bati ?? "—"} · {logement.annee_construction ?? "—"} ·{" "}
-            {logement.surface ? `${logement.surface} m²` : "—"}
+            {logement.type_bati ?? "-"} · {logement.annee_construction ?? "-"} ·{" "}
+            {logement.surface ? `${logement.surface} m²` : "-"}
           </div>
         </div>
         <div className="text-right shrink-0">

@@ -273,7 +273,7 @@ function ProjectionTab({ stats }: { stats: CommuneStats }) {
           />
           <Tooltip
             contentStyle={{ background: "white", border: "1px solid #eaecef", borderRadius: 8, fontSize: 13 }}
-            formatter={(v: unknown) => (v == null ? "—" : formatEur(Number(v)))}
+            formatter={(v: unknown) => (v == null ? "-" : formatEur(Number(v)))}
             labelFormatter={(l: unknown) => String(l).slice(0, 7)}
           />
           <Line

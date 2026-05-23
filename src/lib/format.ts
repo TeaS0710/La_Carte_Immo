@@ -7,13 +7,13 @@ const eur = new Intl.NumberFormat("fr-FR", {
 const nf = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 0 });
 
 export const formatEur = (v: number | null | undefined): string =>
-  v == null || Number.isNaN(v) ? "—" : eur.format(v);
+  v == null || Number.isNaN(v) ? "-" : eur.format(v);
 
 export const formatEurPerSqm = (v: number | null | undefined): string =>
-  v == null || Number.isNaN(v) ? "—" : `${nf.format(Math.round(v))} €/m²`;
+  v == null || Number.isNaN(v) ? "-" : `${nf.format(Math.round(v))} €/m²`;
 
 export const formatNum = (v: number | null | undefined): string =>
-  v == null || Number.isNaN(v) ? "—" : nf.format(v);
+  v == null || Number.isNaN(v) ? "-" : nf.format(v);
 
 export const formatDate = (iso: string): string => {
   const d = new Date(iso);

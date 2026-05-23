@@ -188,7 +188,7 @@ export default function FiltersBubble({
                 </span>
               </button>
               <p className="text-[11px] text-ink-mute mt-2 leading-relaxed">
-                Mises à jour cadastrales IGN — proxy fiable des permis,
+                Mises à jour cadastrales IGN, proxy fiable des permis,
                 extensions, démolitions et divisions parcellaires récentes.
               </p>
             </Section>
