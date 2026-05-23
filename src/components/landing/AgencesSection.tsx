@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { assetUrl } from "@/lib/url";
 
 const agences = [
   { img: "/prelys/6.png", name: "Saint-Maur-des-Fossés", region: "Île-de-France" },
@@ -41,7 +42,7 @@ export default function AgencesSection() {
               className="group relative aspect-[4/3] rounded-2xl overflow-hidden border border-[color:var(--line)] bg-[#f8f9fa]"
             >
               <Image
-                src={a.img}
+                src={assetUrl(a.img)}
                 alt={`Agence Prelys ${a.name}`}
                 fill
                 sizes="(min-width: 1024px) 22vw, (min-width: 640px) 33vw, 50vw"

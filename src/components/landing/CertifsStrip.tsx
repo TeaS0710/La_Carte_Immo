@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { assetUrl } from "@/lib/url";
 
 export default function CertifsStrip() {
   return (
@@ -6,7 +7,7 @@ export default function CertifsStrip() {
       <div className="max-w-6xl mx-auto px-6 flex flex-wrap items-center justify-center gap-x-10 gap-y-3 text-center text-[14px] text-ink-soft">
         <div className="flex items-center gap-3">
           <Image
-            src="/prelys/cncef.png"
+            src={assetUrl("/prelys/cncef.png")}
             alt="CNCEF"
             width={56}
             height={56}

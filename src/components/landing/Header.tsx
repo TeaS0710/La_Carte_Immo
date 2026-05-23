@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { assetUrl } from "@/lib/url";
 import Image from "next/image";
 import { Phone, MapPin } from "lucide-react";
 
@@ -8,7 +9,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 h-[68px] flex items-center justify-between gap-6">
         <Link href="/" className="flex items-center gap-3 shrink-0">
           <Image
-            src="/prelys/logo-2-0.png"
+            src={assetUrl("/prelys/logo-2-0.png")}
             alt="Prelys Courtage"
             width={120}
             height={38}

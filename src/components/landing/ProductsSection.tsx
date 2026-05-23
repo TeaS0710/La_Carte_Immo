@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { assetUrl } from "@/lib/url";
 import { ArrowRight } from "lucide-react";
 
 const products = [
@@ -60,7 +61,7 @@ export default function ProductsSection() {
             >
               <div className="aspect-[4/3] relative bg-[#f8f9fa] overflow-hidden mb-4">
                 <Image
-                  src={p.img}
+                  src={assetUrl(p.img)}
                   alt={p.title}
                   fill
                   sizes="(min-width: 1024px) 22vw, (min-width: 640px) 45vw, 95vw"

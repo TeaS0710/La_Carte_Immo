@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { assetUrl } from "@/lib/url";
 import { Phone } from "lucide-react";
 
 export default function Hero() {
@@ -52,7 +53,7 @@ export default function Hero() {
         <div className="hidden lg:block relative">
           <div className="aspect-[4/5] rounded overflow-hidden border border-white/15">
             <Image
-              src="/prelys/img-stmaur.png"
+              src={assetUrl("/prelys/img-stmaur.png")}
               alt="Agences Prelys Courtage"
               width={520}
               height={650}

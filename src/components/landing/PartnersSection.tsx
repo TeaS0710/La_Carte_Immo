@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { assetUrl } from "@/lib/url";
 
 const banks = [
   { src: "/prelys/bnp.png", alt: "BNP Paribas" },
@@ -51,7 +52,7 @@ export default function PartnersSection() {
                 className="relative h-16 grayscale opacity-65 hover:grayscale-0 hover:opacity-100 transition"
               >
                 <Image
-                  src={b.src}
+                  src={assetUrl(b.src)}
                   alt={b.alt}
                   fill
                   sizes="(min-width: 768px) 14vw, 33vw"
@@ -78,7 +79,7 @@ export default function PartnersSection() {
                 className="relative h-16 grayscale opacity-65 hover:grayscale-0 hover:opacity-100 transition"
               >
                 <Image
-                  src={i.src}
+                  src={assetUrl(i.src)}
                   alt={i.alt}
                   fill
                   sizes="(min-width: 768px) 16vw, 33vw"

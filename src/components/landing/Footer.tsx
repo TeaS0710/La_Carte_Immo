@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { assetUrl } from "@/lib/url";
 
 export default function Footer() {
   return (
@@ -6,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 pt-14 pb-10 grid md:grid-cols-[1.2fr_2fr] gap-10">
         <div>
           <Image
-            src="/prelys/logo-white-S.png"
+            src={assetUrl("/prelys/logo-white-S.png")}
             alt="Prelys Courtage"
             width={140}
             height={45}
