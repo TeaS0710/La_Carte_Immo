@@ -13,8 +13,8 @@
       "code_dept": "77",
       "nom_dept": "Seine-et-Marne",
       "communes_count_total": 507,
-      "communes_count_available": 188,
-      "total_sales": 138310
+      "communes_count_available": 207,
+      "total_sales": 149138
     },
     {
       "code_dept": "78",
@@ -60,13 +60,13 @@
     }
   ],
   "communes_count_total": 1286,
-  "communes_count_available": 198,
-  "total_sales_available": 232705,
+  "communes_count_available": 217,
+  "total_sales_available": 243533,
   "population_total": 14566845,
   "insights": [
     "Saint-Maur-des-Fossés (dept 94) est la commune IDF la plus active des données analysées : 16 786 ventes DVF.",
-    "Le département Seine-et-Marne compte le plus de communes couvertes (188 villes analysées).",
-    "Couverture progressive en cours : 198 communes IDF sur 1286 planifiées."
+    "Le département Seine-et-Marne compte le plus de communes couvertes (207 villes analysées).",
+    "Couverture progressive en cours : 217 communes IDF sur 1286 planifiées."
   ],
   "top_communes": [
     {
@@ -545,6 +545,25 @@
       "streets_with_sales": 121
     },
     {
+      "code_insee": "77258",
+      "slug": "lognes",
+      "nom": "Lognes",
+      "population": 15074,
+      "lng": 2.6366,
+      "lat": 48.8325,
+      "total_sales": 1899,
+      "median_price": 244000.0,
+      "median_price_per_sqm": 3888.8888888888887,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 88
+    },
+    {
       "code_insee": "77111",
       "slug": "chessy",
       "nom": "Chessy",
@@ -619,25 +638,6 @@
         2025
       ],
       "streets_with_sales": 147
-    },
-    {
-      "code_insee": "77018",
-      "slug": "bailly-romainvilliers",
-      "nom": "Bailly-Romainvilliers",
-      "population": 6980,
-      "lng": 2.8191,
-      "lat": 48.845,
-      "total_sales": 1332,
-      "median_price": 355000.0,
-      "median_price_per_sqm": 4540.540540540541,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 83
     }
   ]
 }

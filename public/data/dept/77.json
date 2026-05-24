@@ -2,16 +2,16 @@
   "code_dept": "77",
   "nom_dept": "Seine-et-Marne",
   "communes_count_total": 507,
-  "communes_count_available": 188,
-  "total_sales": 138310,
-  "median_price": 225000.0,
+  "communes_count_available": 207,
+  "total_sales": 149138,
+  "median_price": 222500.0,
   "population_total": 1468108,
-  "population_available": 606264,
-  "median_price_per_sqm": 2836.3636363636365,
+  "population_available": 656779,
+  "median_price_per_sqm": 2823.792931806869,
   "insights": [
     "Chelles concentre le plus de transactions du département (7 495 ventes DVF sur 5 ans).",
-    "Spread prix marqué : Jossigny à 51 862 €/m² vs Beaumont-du-Gâtinais à 1 316 €/m².",
-    "Les 5 communes les plus actives concentrent 18 % des transactions du département analysées."
+    "Spread prix marqué : Jossigny à 51 862 €/m² vs Livry-sur-Seine à 577 €/m².",
+    "Les 5 communes les plus actives concentrent 17 % des transactions du département analysées."
   ],
   "top_communes": [
     {
@@ -300,6 +300,25 @@
       "streets_with_sales": 121
     },
     {
+      "code_insee": "77258",
+      "slug": "lognes",
+      "nom": "Lognes",
+      "population": 15074,
+      "lng": 2.6366,
+      "lat": 48.8325,
+      "total_sales": 1899,
+      "median_price": 244000.0,
+      "median_price_per_sqm": 3888.8888888888887,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 88
+    },
+    {
       "code_insee": "77111",
       "slug": "chessy",
       "nom": "Chessy",
@@ -374,25 +393,6 @@
         2025
       ],
       "streets_with_sales": 147
-    },
-    {
-      "code_insee": "77018",
-      "slug": "bailly-romainvilliers",
-      "nom": "Bailly-Romainvilliers",
-      "population": 6980,
-      "lng": 2.8191,
-      "lat": 48.845,
-      "total_sales": 1332,
-      "median_price": 355000.0,
-      "median_price_per_sqm": 4540.540540540541,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 83
     }
   ],
   "all_communes_available": [
@@ -487,6 +487,12 @@
       "total_sales": 2373
     },
     {
+      "slug": "lognes",
+      "nom": "Lognes",
+      "code_insee": "77258",
+      "total_sales": 1899
+    },
+    {
       "slug": "chessy",
       "nom": "Chessy",
       "code_insee": "77111",
@@ -509,6 +515,12 @@
       "nom": "Bois-le-Roi",
       "code_insee": "77037",
       "total_sales": 1426
+    },
+    {
+      "slug": "magny-le-hongre",
+      "nom": "Magny-le-Hongre",
+      "code_insee": "77268",
+      "total_sales": 1341
     },
     {
       "slug": "bailly-romainvilliers",
@@ -625,6 +637,18 @@
       "total_sales": 904
     },
     {
+      "slug": "livry-sur-seine",
+      "nom": "Livry-sur-Seine",
+      "code_insee": "77255",
+      "total_sales": 901
+    },
+    {
+      "slug": "mareuil-les-meaux",
+      "nom": "Mareuil-lès-Meaux",
+      "code_insee": "77276",
+      "total_sales": 872
+    },
+    {
       "slug": "courtry",
       "nom": "Courtry",
       "code_insee": "77139",
@@ -677,6 +701,12 @@
       "nom": "Égreville",
       "code_insee": "77168",
       "total_sales": 725
+    },
+    {
+      "slug": "lorrez-le-bocage-preaux",
+      "nom": "Lorrez-le-Bocage-Préaux",
+      "code_insee": "77261",
+      "total_sales": 715
     },
     {
       "slug": "faremoutiers",
@@ -793,6 +823,12 @@
       "total_sales": 584
     },
     {
+      "slug": "longperrier",
+      "nom": "Longperrier",
+      "code_insee": "77259",
+      "total_sales": 584
+    },
+    {
       "slug": "coubert",
       "nom": "Coubert",
       "code_insee": "77127",
@@ -803,6 +839,18 @@
       "nom": "Chailly-en-Brie",
       "code_insee": "77070",
       "total_sales": 541
+    },
+    {
+      "slug": "lumigny-nesles-ormeaux",
+      "nom": "Lumigny-Nesles-Ormeaux",
+      "code_insee": "77264",
+      "total_sales": 538
+    },
+    {
+      "slug": "luzancy",
+      "nom": "Luzancy",
+      "code_insee": "77265",
+      "total_sales": 535
     },
     {
       "slug": "croissy-beaubourg",
@@ -835,6 +883,12 @@
       "total_sales": 494
     },
     {
+      "slug": "lizy-sur-ourcq",
+      "nom": "Lizy-sur-Ourcq",
+      "code_insee": "77257",
+      "total_sales": 494
+    },
+    {
       "slug": "acheres-la-foret",
       "nom": "Achères-la-Forêt",
       "code_insee": "77001",
@@ -863,6 +917,12 @@
       "nom": "Bazoches-lès-Bray",
       "code_insee": "77025",
       "total_sales": 459
+    },
+    {
+      "slug": "maincy",
+      "nom": "Maincy",
+      "code_insee": "77269",
+      "total_sales": 456
     },
     {
       "slug": "conde-sainte-libiaire",
@@ -916,6 +976,12 @@
       "slug": "gouaix",
       "nom": "Gouaix",
       "code_insee": "77208",
+      "total_sales": 425
+    },
+    {
+      "slug": "marles-en-brie",
+      "nom": "Marles-en-Brie",
+      "code_insee": "77277",
       "total_sales": 425
     },
     {
@@ -997,6 +1063,12 @@
       "total_sales": 357
     },
     {
+      "slug": "longueville",
+      "nom": "Longueville",
+      "code_insee": "77260",
+      "total_sales": 354
+    },
+    {
       "slug": "dammartin-sur-tigeaux",
       "nom": "Dammartin-sur-Tigeaux",
       "code_insee": "77154",
@@ -1007,6 +1079,12 @@
       "nom": "Buthiers",
       "code_insee": "77060",
       "total_sales": 352
+    },
+    {
+      "slug": "maisoncelles-en-brie",
+      "nom": "Maisoncelles-en-Brie",
+      "code_insee": "77270",
+      "total_sales": 351
     },
     {
       "slug": "arbonne-la-foret",
@@ -1141,6 +1219,12 @@
       "total_sales": 273
     },
     {
+      "slug": "marcilly",
+      "nom": "Marcilly",
+      "code_insee": "77274",
+      "total_sales": 271
+    },
+    {
       "slug": "bernay-vilbert",
       "nom": "Bernay-Vilbert",
       "code_insee": "77031",
@@ -1157,6 +1241,12 @@
       "nom": "La Brosse-Montceaux",
       "code_insee": "77054",
       "total_sales": 263
+    },
+    {
+      "slug": "louan-villegruis-fontaine",
+      "nom": "Louan-Villegruis-Fontaine",
+      "code_insee": "77262",
+      "total_sales": 260
     },
     {
       "slug": "everly",
@@ -1213,6 +1303,12 @@
       "total_sales": 245
     },
     {
+      "slug": "maison-rouge",
+      "nom": "Maison-Rouge",
+      "code_insee": "77272",
+      "total_sales": 245
+    },
+    {
       "slug": "coulombs-en-valois",
       "nom": "Coulombs-en-Valois",
       "code_insee": "77129",
@@ -1241,6 +1337,12 @@
       "nom": "Boutigny",
       "code_insee": "77049",
       "total_sales": 233
+    },
+    {
+      "slug": "machault",
+      "nom": "Machault",
+      "code_insee": "77266",
+      "total_sales": 228
     },
     {
       "slug": "cocherel",
@@ -1345,6 +1447,12 @@
       "total_sales": 192
     },
     {
+      "slug": "marchemoret",
+      "nom": "Marchémoret",
+      "code_insee": "77273",
+      "total_sales": 190
+    },
+    {
       "slug": "fouju",
       "nom": "Fouju",
       "code_insee": "77195",
@@ -1385,6 +1493,12 @@
       "nom": "Féricy",
       "code_insee": "77179",
       "total_sales": 170
+    },
+    {
+      "slug": "marolles-en-brie",
+      "nom": "Marolles-en-Brie",
+      "code_insee": "77278",
+      "total_sales": 169
     },
     {
       "slug": "boissettes",

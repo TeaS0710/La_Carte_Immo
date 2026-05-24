@@ -25,17 +25,27 @@ const DEPT_NAMES: Record<string, string> = {
 
 type PermitWithCoords = PermitFeature & { lng: number; lat: number };
 
+interface DataState {
+  hasIris: boolean;
+  hasPipeline: boolean;
+  hasAnalyses: boolean;
+  hasPermits: boolean;
+}
+
 export default function CarteClient({
   stats,
   commune = DEFAULT_COMMUNE,
   availableSlugs = [],
+  dataState,
 }: {
   stats: CommuneStats;
   commune?: CommuneRef;
   availableSlugs?: string[];
+  dataState?: DataState;
 }) {
   const codeInsee = commune.code_insee;
   const deptName = DEPT_NAMES[commune.code_dept] ?? `Dept ${commune.code_dept}`;
+  const isPartial = dataState && !dataState.hasIris;
   const minYear = useMemo(() => Math.min(...stats.years_covered), [stats]);
   const maxYear = useMemo(() => Math.max(...stats.years_covered), [stats]);
   const [filters, setFilters] = useState<MapFilters>({
@@ -84,6 +94,13 @@ export default function CarteClient({
 
   return (
     <main className="relative w-full" style={{ height: "calc(100vh - 68px)" }}>
+      {/* Bandeau "mode partiel" si la commune n'a pas encore les data avancées */}
+      {isPartial && (
+        <div className="absolute top-4 right-1/2 translate-x-1/2 z-30 sm:right-auto sm:left-1/2 sm:-translate-x-1/2 sm:top-20 bg-[color:var(--brand-soft)]/40 border border-[color:var(--brand-soft)] text-ink rounded-full px-3.5 py-1.5 text-[11px] font-medium shadow-sm">
+          ⓘ Mode partiel — quartiers IRIS, pipeline F/G et notes IA en cours de génération
+        </div>
+      )}
+
       {/* Barre de navigation flottante top-center : breadcrumb + sélecteur ville */}
       <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex flex-col sm:flex-row items-center gap-2 bg-white/95 backdrop-blur-sm border border-[color:var(--line)] rounded-full px-3 py-1.5 shadow-[0_4px_16px_rgba(0,0,0,0.10)] max-w-[calc(100vw-32px)]">
         <CarteBreadcrumb

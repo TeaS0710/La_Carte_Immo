@@ -63,6 +63,29 @@ async function loadStats(codeInsee: string): Promise<CommuneStats | null> {
   }
 }
 
+async function probeAvailableData(codeInsee: string): Promise<{
+  hasIris: boolean;
+  hasPipeline: boolean;
+  hasAnalyses: boolean;
+  hasPermits: boolean;
+}> {
+  const dir = path.join(PUBLIC_DATA, "commune", codeInsee);
+  async function exists(file: string): Promise<boolean> {
+    try {
+      const st = await fs.stat(path.join(dir, file));
+      return st.size > 100;
+    } catch {
+      return false;
+    }
+  }
+  return {
+    hasIris: await exists("iris.geojson"),
+    hasPipeline: await exists("pipeline.geojson"),
+    hasAnalyses: await exists("iris_analyses.json"),
+    hasPermits: await exists("permits.geojson"),
+  };
+}
+
 export default async function VillePage({
   params,
 }: {
@@ -77,11 +100,17 @@ export default async function VillePage({
   if (!stats) notFound();
 
   const availableSlugs = communes.map((c) => c.slug);
+  const dataState = await probeAvailableData(commune.code_insee);
 
   return (
     <>
       <Header />
-      <CarteClient stats={stats} commune={commune} availableSlugs={availableSlugs} />
+      <CarteClient
+        stats={stats}
+        commune={commune}
+        availableSlugs={availableSlugs}
+        dataState={dataState}
+      />
     </>
   );
 }

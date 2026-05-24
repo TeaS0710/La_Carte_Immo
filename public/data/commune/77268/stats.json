@@ -1,0 +1,120 @@
+{
+  "commune": "Magny-le-Hongre",
+  "insee": "77268",
+  "generated_at": "2026-05-24T21:24:03.096772Z",
+  "total_sales": 1341,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 87,
+  "median_price": 297000.0,
+  "median_price_per_sqm": 4652.272727272727,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 309,
+      "median_price": 293000.0
+    },
+    {
+      "year": 2022,
+      "sales": 349,
+      "median_price": 275000.0
+    },
+    {
+      "year": 2023,
+      "sales": 230,
+      "median_price": 343750.0
+    },
+    {
+      "year": 2024,
+      "sales": 198,
+      "median_price": 368460.0
+    },
+    {
+      "year": 2025,
+      "sales": 255,
+      "median_price": 291430.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE L EPINETTE",
+      "sales": 201,
+      "median_price_per_sqm": 4541.635408852213
+    },
+    {
+      "street_name": "RUE DES LABOURS",
+      "sales": 86,
+      "median_price_per_sqm": 4622.641509433963
+    },
+    {
+      "street_name": "RUE DU MOULIN A VENT",
+      "sales": 76,
+      "median_price_per_sqm": 4664.102564102564
+    },
+    {
+      "street_name": "RUE DE LA BOISERIE",
+      "sales": 53,
+      "median_price_per_sqm": 6682.249073226545
+    },
+    {
+      "street_name": "SQ PAUL GAUGUIN",
+      "sales": 48,
+      "median_price_per_sqm": 4625.31914893617
+    },
+    {
+      "street_name": "RUE BOUCLE DES HESPERIDES",
+      "sales": 47,
+      "median_price_per_sqm": 4542.168674698795
+    },
+    {
+      "street_name": "RUE DE LA HOUE",
+      "sales": 43,
+      "median_price_per_sqm": 4754.3859649122805
+    },
+    {
+      "street_name": "RUE DU MANOIR",
+      "sales": 40,
+      "median_price_per_sqm": 4666.666666666667
+    },
+    {
+      "street_name": "RUE DES CAMPANULES",
+      "sales": 39,
+      "median_price_per_sqm": 4253.731343283582
+    },
+    {
+      "street_name": "RUE DE LA CLE DES CHAMPS",
+      "sales": 37,
+      "median_price_per_sqm": 3356.25
+    },
+    {
+      "street_name": "RUE DES FERMES",
+      "sales": 36,
+      "median_price_per_sqm": 4544.444444444444
+    },
+    {
+      "street_name": "RUE DU SINOT",
+      "sales": 31,
+      "median_price_per_sqm": 4973.524590962213
+    },
+    {
+      "street_name": "RUE DES LONGS SILLONS",
+      "sales": 30,
+      "median_price_per_sqm": 4754.601226993865
+    },
+    {
+      "street_name": "RUE BOUCLE DES EPILLETS",
+      "sales": 26,
+      "median_price_per_sqm": 4388.888888888889
+    },
+    {
+      "street_name": "RUE DE L ORMOIE",
+      "sales": 25,
+      "median_price_per_sqm": 5243.427828868453
+    }
+  ]
+}

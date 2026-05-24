@@ -1,0 +1,120 @@
+{
+  "commune": "Maisoncelles-en-Brie",
+  "insee": "77270",
+  "generated_at": "2026-05-24T21:24:22.686695Z",
+  "total_sales": 351,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 44,
+  "median_price": 273000.0,
+  "median_price_per_sqm": 2785.714285714286,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 64,
+      "median_price": 240000.0
+    },
+    {
+      "year": 2022,
+      "sales": 62,
+      "median_price": 290000.0
+    },
+    {
+      "year": 2023,
+      "sales": 81,
+      "median_price": 2052000.0
+    },
+    {
+      "year": 2024,
+      "sales": 63,
+      "median_price": 129027.0
+    },
+    {
+      "year": 2025,
+      "sales": 81,
+      "median_price": 350000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LE PRE AU RAT",
+      "sales": 45,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOIS DE MORILLAS",
+      "sales": 43,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE MEROGER",
+      "sales": 29,
+      "median_price_per_sqm": 2658.227848101266
+    },
+    {
+      "street_name": "ETANG MORILLAS",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CHEMIN",
+      "sales": 22,
+      "median_price_per_sqm": 2716.7832167832166
+    },
+    {
+      "street_name": "RUE DU VIDE BOUTEILLE",
+      "sales": 15,
+      "median_price_per_sqm": 2562.5
+    },
+    {
+      "street_name": "COUR DES COMMERCANTS",
+      "sales": 15,
+      "median_price_per_sqm": 3492.822966507177
+    },
+    {
+      "street_name": "PRE DE LA MOTTE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA MOTTE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE MEAUX",
+      "sales": 9,
+      "median_price_per_sqm": 3182.014106583072
+    },
+    {
+      "street_name": "RUE LE CLOS DES EPISTOLIERS",
+      "sales": 9,
+      "median_price_per_sqm": 3149.1455370026797
+    },
+    {
+      "street_name": "LE CHEMIN",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PL DES LILAS",
+      "sales": 8,
+      "median_price_per_sqm": 2718.0555555555557
+    },
+    {
+      "street_name": "RUE DE CHANTEMERLE",
+      "sales": 7,
+      "median_price_per_sqm": 2165.9413281753705
+    },
+    {
+      "street_name": "RUE DE LA HAUTE BORNE",
+      "sales": 7,
+      "median_price_per_sqm": 3006.849315068493
+    }
+  ]
+}

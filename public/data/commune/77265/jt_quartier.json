@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 105,
+  "sales_delta_pct": 1.9,
+  "median_price": 45000.0,
+  "median_ppsqm": 1815.217391304348,
+  "delta_ppsqm_pct": -32.6,
+  "notable_sales": [
+    {
+      "date": "2025-07-15",
+      "street": "RUE DU CENT TROISIEME RI",
+      "type": "Maison",
+      "surface": 131,
+      "price": 305000.0
+    },
+    {
+      "date": "2025-10-23",
+      "street": "RUE DU CENT TROISIEME RI",
+      "type": "Maison",
+      "surface": 132,
+      "price": 287000.0
+    },
+    {
+      "date": "2025-06-25",
+      "street": "RUE DU FORT",
+      "type": "Maison",
+      "surface": 160,
+      "price": 277700.0
+    },
+    {
+      "date": "2025-12-08",
+      "street": "RUE BELLEVUE",
+      "type": "Maison",
+      "surface": 124,
+      "price": 255000.0
+    },
+    {
+      "date": "2025-12-02",
+      "street": "RUE DE MESSY",
+      "type": "Maison",
+      "surface": 76,
+      "price": 222000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:23:48.772812Z"
+}
