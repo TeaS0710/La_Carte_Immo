@@ -5,9 +5,9 @@ import CarteClient from "./CarteClient";
 import type { CommuneStats } from "@/lib/types";
 
 export const metadata = {
-  title: "La carte du marché · Saint-Maur | Prelys",
+  title: "La Carte Prelys · Saint-Maur",
   description:
-    "Carte interactive du marché immobilier de Saint-Maur-des-Fossés : transactions, prix médian, évolution et projections.",
+    "La Carte Prelys : outil interactif d'analyse du marché immobilier de Saint-Maur-des-Fossés à destination des agences immobilières partenaires.",
 };
 
 async function loadStats(): Promise<CommuneStats> {

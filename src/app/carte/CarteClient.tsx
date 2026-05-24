@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { assetUrl } from "@/lib/url";
-import { LineChart as LineChartIcon, Info } from "lucide-react";
+import { History, Info, Box } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
 import FiltersBubble from "@/components/carte/FiltersBubble";
 import StreetCard from "@/components/carte/StreetCard";
@@ -36,6 +36,7 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
   const [marketOpen, setMarketOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [hintDismissed, setHintDismissed] = useState(false);
+  const [is3d, setIs3d] = useState(false);
 
   // Quand on sélectionne un truc, on ferme tous les autres
   const handleStreet = (s: StreetProps | null) => {
@@ -70,6 +71,7 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
         <CarteMap
           filters={filters}
           selectedIrisCode={selectedIris?.code_iris ?? null}
+          is3d={is3d}
           onSelectStreet={handleStreet}
           onSelectIris={handleIris}
           onSelectPipeline={handlePipeline}
@@ -91,14 +93,30 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
         maxYear={maxYear}
       />
 
-      {/* Évolution / marché button (top-right under zoom controls) */}
+      {/* Historique button (top-right under zoom controls) — ouvre modal multi-onglets */}
       <button
         type="button"
         onClick={() => setMarketOpen(true)}
         className="absolute top-[140px] right-4 z-10 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
       >
-        <LineChartIcon size={17} />
-        Estimations
+        <History size={17} />
+        Historique
+      </button>
+
+      {/* Toggle 3D — sous le bouton Historique */}
+      <button
+        type="button"
+        onClick={() => setIs3d((v) => !v)}
+        aria-pressed={is3d}
+        title={is3d ? "Revenir en vue plate" : "Passer en vue 3D"}
+        className={`absolute top-[196px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[40px] ${
+          is3d
+            ? "bg-brand text-white border-brand"
+            : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
+        }`}
+      >
+        <Box size={15} />
+        3D
       </button>
 
 
@@ -169,9 +187,14 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
         <PermitCard permit={selectedPermit} onClose={() => setSelectedPermit(null)} />
       )}
 
-      {/* Market modal */}
+      {/* Market modal — multi-onglets Historique */}
       {marketOpen && (
-        <MarketModal stats={stats} onClose={() => setMarketOpen(false)} />
+        <MarketModal
+          stats={stats}
+          onClose={() => setMarketOpen(false)}
+          filters={filters}
+          setFilters={setFilters}
+        />
       )}
     </main>
   );

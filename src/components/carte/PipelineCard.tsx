@@ -46,13 +46,17 @@ export default function PipelineCard({
           </button>
         </div>
 
-        {/* Lookups : Pages Jaunes / Pages Blanches / Pappers */}
+        {/* Lookups : Maps / Street View / Pages Jaunes / Pages Blanches / Pappers */}
         <div className="flex flex-wrap gap-1.5">
           <ExternalLookup source="maps" query={logement.addr} />
+          <ExternalLookup source="streetview" query={logement.addr} />
           <ExternalLookup source="pagesblanches" query={logement.addr} />
           <ExternalLookup source="pagesjaunes" query={logement.addr} />
           <ExternalLookup source="pappers" query={logement.addr} />
         </div>
+        <p className="text-[10px] text-ink-mute mt-1.5 leading-snug">
+          Les liens ouvrent la recherche pré-remplie sur le site officiel. Une fiche n&apos;est pas garantie : seule la présence d&apos;une page jaune sur cette adresse permet la prospection.
+        </p>
       </header>
 
       <div className="p-5 space-y-5">

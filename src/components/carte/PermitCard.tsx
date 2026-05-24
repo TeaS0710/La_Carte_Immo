@@ -46,9 +46,10 @@ export default function PermitCard({
           </button>
         </div>
 
-        {/* Lookups */}
+        {/* Lookups — pour les permits on a les coords GPS donc Street View direct */}
         <div className="flex flex-wrap gap-1.5">
-          <ExternalLookup source="maps" query={approxQuery} />
+          <ExternalLookup source="maps" query={approxQuery} coords={{ lat: permit.lat, lng: permit.lng }} />
+          <ExternalLookup source="streetview" query={approxQuery} coords={{ lat: permit.lat, lng: permit.lng }} />
           <ExternalLookup source="pagesblanches" query={approxQuery} />
           <ExternalLookup source="pagesjaunes" query={approxQuery} />
           <ExternalLookup source="pappers" query={approxQuery} />

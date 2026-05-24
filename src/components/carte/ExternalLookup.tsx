@@ -1,19 +1,21 @@
 "use client";
 
-import { ExternalLink, MapPin, Phone, Building2, Briefcase } from "lucide-react";
+import { ExternalLink, MapPin, Phone, Building2, Briefcase, Footprints } from "lucide-react";
 
-type Source = "maps" | "pagesjaunes" | "pagesblanches" | "pappers" | "cadastre";
+type Source = "maps" | "streetview" | "pagesjaunes" | "pagesblanches" | "pappers" | "cadastre";
 
 const LABELS: Record<Source, string> = {
   maps: "Google Maps",
-  pagesjaunes: "Pages Jaunes",
-  pagesblanches: "Pages Blanches",
+  streetview: "Street View",
+  pagesjaunes: "Rechercher Pages Jaunes",
+  pagesblanches: "Rechercher Pages Blanches",
   pappers: "Pappers (SCI)",
   cadastre: "Cadastre",
 };
 
 const ICONS: Record<Source, React.ReactNode> = {
   maps: <MapPin size={11} />,
+  streetview: <Footprints size={11} />,
   pagesjaunes: <Briefcase size={11} />,
   pagesblanches: <Phone size={11} />,
   pappers: <Building2 size={11} />,
@@ -33,11 +35,18 @@ const ICONS: Record<Source, React.ReactNode> = {
  * affiche les particuliers listés sur l'ensemble de la commune ; pour un
  * lookup précis le courtier peut affiner ensuite dans leur formulaire.
  */
-function buildUrl(source: Source, query: string): string {
+function buildUrl(source: Source, query: string, coords?: { lat: number; lng: number }): string {
   const full = `${query}, Saint-Maur-des-Fossés`;
   switch (source) {
     case "maps":
       return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(full)}`;
+    case "streetview":
+      // Si on a les coords GPS on ouvre Street View directement à cette position,
+      // sinon on tombe sur la recherche Google Maps en mode "panorama".
+      if (coords) {
+        return `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${coords.lat},${coords.lng}`;
+      }
+      return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(full)}&layer=c`;
     case "pagesjaunes":
       // Recherche pro / entreprises à cette adresse exacte
       return `https://www.pagesjaunes.fr/annuaire/recherche?quoiqui=&ou=${encodeURIComponent(
@@ -61,16 +70,19 @@ function buildUrl(source: Source, query: string): string {
 export default function ExternalLookup({
   source,
   query,
+  coords,
   variant = "pill",
 }: {
   source: Source;
   query: string;
+  coords?: { lat: number; lng: number };
   variant?: "pill" | "inline";
 }) {
+  const url = buildUrl(source, query, coords);
   if (variant === "inline") {
     return (
       <a
-        href={buildUrl(source, query)}
+        href={url}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-1 text-[11px] text-ink-mute hover:text-brand-strong transition"
@@ -84,7 +96,7 @@ export default function ExternalLookup({
   }
   return (
     <a
-      href={buildUrl(source, query)}
+      href={url}
       target="_blank"
       rel="noopener noreferrer"
       className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full border border-[color:var(--line)] text-[11px] text-ink-soft hover:bg-surface-warm hover:text-ink transition"

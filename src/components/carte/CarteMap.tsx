@@ -16,6 +16,7 @@ function dpeColor(et: string): string {
 export default function CarteMap({
   filters,
   selectedIrisCode,
+  is3d,
   onSelectStreet,
   onSelectIris,
   onSelectPipeline,
@@ -23,6 +24,7 @@ export default function CarteMap({
 }: {
   filters: MapFilters;
   selectedIrisCode: string | null;
+  is3d: boolean;
   onSelectStreet: (s: StreetProps | null) => void;
   onSelectIris: (i: IrisProps | null) => void;
   onSelectPipeline: (p: PipelineLogement | null) => void;
@@ -37,38 +39,16 @@ export default function CarteMap({
     if (!containerRef.current || mapRef.current) return;
 
     try {
+      // Style vectoriel OpenFreeMap Positron (libre, sans clé, sans quota).
+      // Schéma OpenMapTiles → la source "openmaptiles" + source-layer "building"
+      // sont disponibles, ce qui permet d'ajouter une couche fill-extrusion
+      // pour la vue 3D des bâtiments en relief.
       const map = new maplibregl.Map({
         container: containerRef.current,
-        style: {
-          version: 8,
-          sources: {
-            base: {
-              type: "raster",
-              tiles: [
-                "https://a.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}@2x.png",
-                "https://b.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}@2x.png",
-                "https://c.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}@2x.png",
-              ],
-              tileSize: 256,
-              attribution:
-                '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/attributions">CARTO</a>',
-            },
-            labels: {
-              type: "raster",
-              tiles: [
-                "https://a.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}@2x.png",
-                "https://b.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}@2x.png",
-              ],
-              tileSize: 256,
-            },
-          },
-          layers: [
-            { id: "base-layer", type: "raster", source: "base" },
-            { id: "labels-layer", type: "raster", source: "labels", minzoom: 12 },
-          ],
-        },
+        style: "https://tiles.openfreemap.org/styles/positron",
         center: SAINT_MAUR_CENTER,
         zoom: 13.1,
+        pitch: 0,
         attributionControl: { compact: true },
         maxBounds: [
           [2.42, 48.77],
@@ -119,6 +99,30 @@ export default function CarteMap({
           map.addSource("streets", { type: "geojson", data: streets });
           map.addSource("transactions", { type: "geojson", data: transactions });
           map.addSource("iris", { type: "geojson", data: iris });
+
+          // ─── 3D buildings (source openmaptiles fournie par le style Positron)
+          // visibility: none par défaut → activé seulement quand l'utilisateur
+          // clique le bouton "3D" dans CarteClient (prop is3d).
+          if (map.getSource("openmaptiles")) {
+            map.addLayer({
+              id: "3d-buildings",
+              type: "fill-extrusion",
+              source: "openmaptiles",
+              "source-layer": "building",
+              minzoom: 13,
+              layout: { visibility: "none" },
+              paint: {
+                "fill-extrusion-color": "#c8b89a",
+                "fill-extrusion-height": [
+                  "coalesce",
+                  ["get", "render_height"],
+                  ["*", ["coalesce", ["get", "levels"], 2], 3.5],
+                ],
+                "fill-extrusion-base": ["coalesce", ["get", "render_min_height"], 0],
+                "fill-extrusion-opacity": 0.75,
+              },
+            });
+          }
 
           // ─── IRIS choropleth (dual use : click target + heatmap-by-quartier)
           // Color stops calibrated on the actual distribution of dvf_sales_total
@@ -589,6 +593,28 @@ export default function CarteMap({
       selectedIrisCode ?? "",
     ]);
   }, [selectedIrisCode, ready]);
+
+  // React to 3D toggle : pitch + visibility de la couche fill-extrusion
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !ready) return;
+    map.easeTo({
+      pitch: is3d ? 55 : 0,
+      bearing: is3d ? -15 : 0,
+      duration: 700,
+    });
+    if (map.getLayer("3d-buildings")) {
+      map.setLayoutProperty(
+        "3d-buildings",
+        "visibility",
+        is3d ? "visible" : "none",
+      );
+    }
+    // Atténuer la fill IRIS en 3D pour que les bâtiments restent lisibles
+    if (map.getLayer("iris-fill")) {
+      map.setPaintProperty("iris-fill", "fill-opacity", is3d ? 0.18 : 0.32);
+    }
+  }, [is3d, ready]);
 
   return (
     <>
