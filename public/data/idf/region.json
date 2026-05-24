@@ -1,0 +1,258 @@
+{
+  "region_slug": "idf",
+  "nom_region": "Île-de-France",
+  "depts": [
+    {
+      "code_dept": "75",
+      "nom_dept": "Paris",
+      "communes_count_total": 1,
+      "communes_count_available": 0,
+      "total_sales": 0
+    },
+    {
+      "code_dept": "77",
+      "nom_dept": "Seine-et-Marne",
+      "communes_count_total": 507,
+      "communes_count_available": 0,
+      "total_sales": 0
+    },
+    {
+      "code_dept": "78",
+      "nom_dept": "Yvelines",
+      "communes_count_total": 259,
+      "communes_count_available": 0,
+      "total_sales": 0
+    },
+    {
+      "code_dept": "91",
+      "nom_dept": "Essonne",
+      "communes_count_total": 194,
+      "communes_count_available": 0,
+      "total_sales": 0
+    },
+    {
+      "code_dept": "92",
+      "nom_dept": "Hauts-de-Seine",
+      "communes_count_total": 36,
+      "communes_count_available": 0,
+      "total_sales": 0
+    },
+    {
+      "code_dept": "93",
+      "nom_dept": "Seine-Saint-Denis",
+      "communes_count_total": 39,
+      "communes_count_available": 0,
+      "total_sales": 0
+    },
+    {
+      "code_dept": "94",
+      "nom_dept": "Val-de-Marne",
+      "communes_count_total": 47,
+      "communes_count_available": 10,
+      "total_sales": 94395
+    },
+    {
+      "code_dept": "95",
+      "nom_dept": "Val-d'Oise",
+      "communes_count_total": 183,
+      "communes_count_available": 0,
+      "total_sales": 0
+    }
+  ],
+  "communes_count_total": 1266,
+  "communes_count_available": 10,
+  "total_sales_available": 94395,
+  "population_total": 12463067,
+  "top_communes": [
+    {
+      "code_insee": "94068",
+      "slug": "saint-maur-des-fosses",
+      "nom": "Saint-Maur-des-Fossés",
+      "population": 76572,
+      "lng": 2.4921,
+      "lat": 48.7999,
+      "total_sales": 16786,
+      "median_price": 386000.0,
+      "median_price_per_sqm": 6320.0,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 440
+    },
+    {
+      "code_insee": "94080",
+      "slug": "vincennes",
+      "nom": "Vincennes",
+      "population": 48193,
+      "lng": 2.4383,
+      "lat": 48.8471,
+      "total_sales": 11799,
+      "median_price": 464000.0,
+      "median_price_per_sqm": 9333.333333333334,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 125
+    },
+    {
+      "code_insee": "94028",
+      "slug": "creteil",
+      "nom": "Créteil",
+      "population": 93397,
+      "lng": 2.4523,
+      "lat": 48.7845,
+      "total_sales": 10924,
+      "median_price": 255900.0,
+      "median_price_per_sqm": 4414.285714285715,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 307
+    },
+    {
+      "code_insee": "94017",
+      "slug": "champigny-sur-marne",
+      "nom": "Champigny-sur-Marne",
+      "population": 78072,
+      "lng": 2.5206,
+      "lat": 48.8173,
+      "total_sales": 8946,
+      "median_price": 265673.0,
+      "median_price_per_sqm": 4244.672897196262,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 416
+    },
+    {
+      "code_insee": "94046",
+      "slug": "maisons-alfort",
+      "nom": "Maisons-Alfort",
+      "population": 56799,
+      "lng": 2.44,
+      "lat": 48.8017,
+      "total_sales": 8865,
+      "median_price": 326500.0,
+      "median_price_per_sqm": 6013.526315789473,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 158
+    },
+    {
+      "code_insee": "94081",
+      "slug": "vitry-sur-seine",
+      "nom": "Vitry-sur-Seine",
+      "population": 93963,
+      "lng": 2.3951,
+      "lat": 48.7893,
+      "total_sales": 8534,
+      "median_price": 250000.0,
+      "median_price_per_sqm": 4640.59375,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 321
+    },
+    {
+      "code_insee": "94033",
+      "slug": "fontenay-sous-bois",
+      "nom": "Fontenay-sous-Bois",
+      "population": 53757,
+      "lng": 2.4736,
+      "lat": 48.8503,
+      "total_sales": 8450,
+      "median_price": 408000.0,
+      "median_price_per_sqm": 7181.818181818182,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 234
+    },
+    {
+      "code_insee": "94058",
+      "slug": "le-perreux-sur-marne",
+      "nom": "Le Perreux-sur-Marne",
+      "population": 35260,
+      "lng": 2.5045,
+      "lat": 48.8433,
+      "total_sales": 7792,
+      "median_price": 373800.0,
+      "median_price_per_sqm": 6171.875,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 176
+    },
+    {
+      "code_insee": "94076",
+      "slug": "villejuif",
+      "nom": "Villejuif",
+      "population": 60183,
+      "lng": 2.3603,
+      "lat": 48.7934,
+      "total_sales": 6208,
+      "median_price": 280000.0,
+      "median_price_per_sqm": 5576.923076923077,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 211
+    },
+    {
+      "code_insee": "94002",
+      "slug": "alfortville",
+      "nom": "Alfortville",
+      "population": 45531,
+      "lng": 2.4214,
+      "lat": 48.7963,
+      "total_sales": 6091,
+      "median_price": 270900.0,
+      "median_price_per_sqm": 5454.545454545455,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 127
+    }
+  ]
+}
