@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 96,
+  "sales_delta_pct": 84.6,
+  "median_price": 211000.0,
+  "median_ppsqm": 2040.0,
+  "delta_ppsqm_pct": -11.1,
+  "notable_sales": [
+    {
+      "date": "2025-03-31",
+      "street": "RUE DE LA CROISSETTE",
+      "type": "Maison",
+      "surface": 202,
+      "price": 341000.0
+    },
+    {
+      "date": "2025-05-15",
+      "street": "RUE DU PONT DE PIERRE",
+      "type": "Maison",
+      "surface": 162,
+      "price": 340000.0
+    },
+    {
+      "date": "2025-11-14",
+      "street": "RUE CHAMPENOIS",
+      "type": "Maison",
+      "surface": 164,
+      "price": 335000.0
+    },
+    {
+      "date": "2025-03-11",
+      "street": "RUE DE CROUPET",
+      "type": "Maison",
+      "surface": 161,
+      "price": 300000.0
+    },
+    {
+      "date": "2025-10-24",
+      "street": "RUE DE SAINT GERMAIN",
+      "type": "Maison",
+      "surface": 74,
+      "price": 275000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:02:47.866769Z"
+}

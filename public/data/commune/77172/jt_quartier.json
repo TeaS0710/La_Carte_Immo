@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 44,
+  "sales_delta_pct": -63.9,
+  "median_price": 235650.0,
+  "median_ppsqm": 1829.672062224091,
+  "delta_ppsqm_pct": -1.1,
+  "notable_sales": [
+    {
+      "date": "2025-07-31",
+      "street": "LE MOULIN BENOIST",
+      "type": "Maison",
+      "surface": 158,
+      "price": 337400.0
+    },
+    {
+      "date": "2025-12-11",
+      "street": "CHE DU MOULIN",
+      "type": "Maison",
+      "surface": 142,
+      "price": 260000.0
+    },
+    {
+      "date": "2025-08-29",
+      "street": "RUE DES ACACIAS",
+      "type": "Maison",
+      "surface": 134,
+      "price": 245000.0
+    },
+    {
+      "date": "2025-10-24",
+      "street": "RUE DES ACACIAS",
+      "type": "Maison",
+      "surface": 73,
+      "price": 226300.0
+    },
+    {
+      "date": "2025-03-31",
+      "street": "LES CHENEAUX",
+      "type": "Maison",
+      "surface": 56,
+      "price": 130000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:05:02.393677Z"
+}

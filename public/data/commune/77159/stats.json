@@ -1,0 +1,120 @@
+{
+  "commune": "Donnemarie-Dontilly",
+  "insee": "77159",
+  "generated_at": "2026-05-24T21:02:19.418627Z",
+  "total_sales": 849,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 124,
+  "median_price": 155000.0,
+  "median_price_per_sqm": 2066.6666666666665,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 178,
+      "median_price": 128000.0
+    },
+    {
+      "year": 2022,
+      "sales": 172,
+      "median_price": 178000.0
+    },
+    {
+      "year": 2023,
+      "sales": 142,
+      "median_price": 215000.0
+    },
+    {
+      "year": 2024,
+      "sales": 112,
+      "median_price": 172475.0
+    },
+    {
+      "year": 2025,
+      "sales": 245,
+      "median_price": 137000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "DONNEMARIE",
+      "sales": 44,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU MOULIN A TAN",
+      "sales": 37,
+      "median_price_per_sqm": 2190.909090909091
+    },
+    {
+      "street_name": "RUE MARIE CHAUBART",
+      "sales": 28,
+      "median_price_per_sqm": 2363.6363636363635
+    },
+    {
+      "street_name": "RTE DES JAVELOTTES",
+      "sales": 26,
+      "median_price_per_sqm": 2018.6206896551723
+    },
+    {
+      "street_name": "RTE DE MONS",
+      "sales": 26,
+      "median_price_per_sqm": 2681.818181818182
+    },
+    {
+      "street_name": "RUE DU MONTPENSIER",
+      "sales": 24,
+      "median_price_per_sqm": 2415.7303370786517
+    },
+    {
+      "street_name": "RUE DES AUGERES",
+      "sales": 24,
+      "median_price_per_sqm": 2439.759036144578
+    },
+    {
+      "street_name": "RUE DE LAGOURD",
+      "sales": 21,
+      "median_price_per_sqm": 1875.0
+    },
+    {
+      "street_name": "LA BICHARDE",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE SIGY",
+      "sales": 18,
+      "median_price_per_sqm": 2066.6666666666665
+    },
+    {
+      "street_name": "LE MOULIN D EN HAUT",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BOUCHOT",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PL DU MARCHE",
+      "sales": 14,
+      "median_price_per_sqm": 1109.7846441947565
+    },
+    {
+      "street_name": "LES MARNES",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES ECOLES",
+      "sales": 13,
+      "median_price_per_sqm": 1895.1612903225807
+    }
+  ]
+}

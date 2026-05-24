@@ -1,0 +1,120 @@
+{
+  "commune": "Cuisy",
+  "insee": "77150",
+  "generated_at": "2026-05-24T21:00:32.424823Z",
+  "total_sales": 147,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 28,
+  "median_price": 163000.0,
+  "median_price_per_sqm": 2718.4466019417478,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 23,
+      "median_price": 170000.0
+    },
+    {
+      "year": 2022,
+      "sales": 20,
+      "median_price": 240000.0
+    },
+    {
+      "year": 2023,
+      "sales": 42,
+      "median_price": 280000.0
+    },
+    {
+      "year": 2024,
+      "sales": 16,
+      "median_price": 140000.0
+    },
+    {
+      "year": 2025,
+      "sales": 46,
+      "median_price": 9711.24
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU BOURGET",
+      "sales": 40,
+      "median_price_per_sqm": 2718.4466019417478
+    },
+    {
+      "street_name": "RUE DE LA GLAISIERE",
+      "sales": 26,
+      "median_price_per_sqm": 7795.024590163935
+    },
+    {
+      "street_name": "RUE DU GENERAL DE GAULLE",
+      "sales": 10,
+      "median_price_per_sqm": 2328.5714285714284
+    },
+    {
+      "street_name": "LA HAREINIERE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA CLIQUETTE",
+      "sales": 6,
+      "median_price_per_sqm": 1884.6153846153845
+    },
+    {
+      "street_name": "LA GRANDE RUE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA MAIN BLEUE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE THIONVILLE",
+      "sales": 5,
+      "median_price_per_sqm": 3092.5555555555557
+    },
+    {
+      "street_name": "LA CLIQUETTE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "HAMEAU DE CHAMBRE FONTAINE",
+      "sales": 4,
+      "median_price_per_sqm": 821.917808219178
+    },
+    {
+      "street_name": "RUE DE LA MOTTE",
+      "sales": 4,
+      "median_price_per_sqm": 2470.5882352941176
+    },
+    {
+      "street_name": "L ENFER",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PATIS",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CLOS",
+      "sales": 2,
+      "median_price_per_sqm": 2625.625
+    },
+    {
+      "street_name": "THIONVILLE",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

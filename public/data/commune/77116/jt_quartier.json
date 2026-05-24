@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 99,
+  "sales_delta_pct": 35.6,
+  "median_price": 145000.0,
+  "median_ppsqm": 2041.4614121510674,
+  "delta_ppsqm_pct": -18.5,
+  "notable_sales": [
+    {
+      "date": "2025-10-13",
+      "street": "RUE DU CLOS GILLET",
+      "type": "Maison",
+      "surface": 170,
+      "price": 360000.0
+    },
+    {
+      "date": "2025-09-15",
+      "street": "RTE DE MELUN",
+      "type": "Maison",
+      "surface": 174,
+      "price": 350000.0
+    },
+    {
+      "date": "2025-09-30",
+      "street": "RUE DE LA BOCHETIERE",
+      "type": "Maison",
+      "surface": 136,
+      "price": 227000.0
+    },
+    {
+      "date": "2025-04-30",
+      "street": "RUE DU CLOS GILLET",
+      "type": "Maison",
+      "surface": 86,
+      "price": 226000.0
+    },
+    {
+      "date": "2025-07-09",
+      "street": "COFFERY",
+      "type": "Maison",
+      "surface": 81,
+      "price": 210000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:49:24.973723Z"
+}

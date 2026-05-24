@@ -1,0 +1,120 @@
+{
+  "commune": "Condé-Sainte-Libiaire",
+  "insee": "77125",
+  "generated_at": "2026-05-24T20:52:28.413432Z",
+  "total_sales": 454,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 43,
+  "median_price": 228500.0,
+  "median_price_per_sqm": 3478.2608695652175,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 155,
+      "median_price": 223100.0
+    },
+    {
+      "year": 2022,
+      "sales": 71,
+      "median_price": 210000.0
+    },
+    {
+      "year": 2023,
+      "sales": 81,
+      "median_price": 202650.0
+    },
+    {
+      "year": 2024,
+      "sales": 70,
+      "median_price": 145000.0
+    },
+    {
+      "year": 2025,
+      "sales": 77,
+      "median_price": 315000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 159,
+      "median_price_per_sqm": 3495.575221238938
+    },
+    {
+      "street_name": "L ILE",
+      "sales": 36,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CLAIRES FONTAINES",
+      "sales": 25,
+      "median_price_per_sqm": 4570.093457943925
+    },
+    {
+      "street_name": "RUE DE COUILLY",
+      "sales": 21,
+      "median_price_per_sqm": 3579.5454545454545
+    },
+    {
+      "street_name": "QUAI DE LA MARNE",
+      "sales": 18,
+      "median_price_per_sqm": 3357.1428571428573
+    },
+    {
+      "street_name": "RUE VICTOR HUGO",
+      "sales": 16,
+      "median_price_per_sqm": 3141.4441991168205
+    },
+    {
+      "street_name": "RUE DU GEN DE GAULLE",
+      "sales": 13,
+      "median_price_per_sqm": 2839.032258064516
+    },
+    {
+      "street_name": "QUAI DU CANAL",
+      "sales": 12,
+      "median_price_per_sqm": 3876.9763513513512
+    },
+    {
+      "street_name": "LES HALLIERS",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DES CLAIRES FONTAINES",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PRAIRIE DE LIARRY",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE RESIDENCE DU MOULIN",
+      "sales": 9,
+      "median_price_per_sqm": 3356.8627450980393
+    },
+    {
+      "street_name": "LES COQUENELLES",
+      "sales": 9,
+      "median_price_per_sqm": 2803.481818181818
+    },
+    {
+      "street_name": "ALL DES VERGERS",
+      "sales": 8,
+      "median_price_per_sqm": 3643.273516303073
+    },
+    {
+      "street_name": "RUE MAL DE LATTRE DE TASSIGNY",
+      "sales": 8,
+      "median_price_per_sqm": 4000.0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 491,
+  "sales_delta_pct": 53.9,
+  "median_price": 450000.0,
+  "median_ppsqm": 48258.33333333333,
+  "delta_ppsqm_pct": 971.9,
+  "notable_sales": [
+    {
+      "date": "2025-06-13",
+      "street": "BD DU CLOS DE L AUMONE",
+      "type": "Maison",
+      "surface": 259,
+      "price": 1775000.0
+    },
+    {
+      "date": "2025-06-13",
+      "street": "BD DU CLOS DE L AUMONE",
+      "type": "Maison",
+      "surface": 160,
+      "price": 1550000.0
+    },
+    {
+      "date": "2025-10-06",
+      "street": "AV ROBERT SCHUMAN",
+      "type": "Maison",
+      "surface": 140,
+      "price": 549000.0
+    },
+    {
+      "date": "2025-06-05",
+      "street": "AV ROBERT SCHUMAN",
+      "type": "Maison",
+      "surface": 130,
+      "price": 468000.0
+    },
+    {
+      "date": "2025-10-16",
+      "street": "RUE LAVOISIER",
+      "type": "Maison",
+      "surface": 155,
+      "price": 461600.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:04:34.443324Z"
+}

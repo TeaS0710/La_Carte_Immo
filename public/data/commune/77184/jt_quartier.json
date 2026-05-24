@@ -1,0 +1,39 @@
+{
+  "year": 2025,
+  "sales_year": 35,
+  "sales_delta_pct": -42.6,
+  "median_price": 50000.0,
+  "median_ppsqm": 2384.6153846153848,
+  "delta_ppsqm_pct": 8.6,
+  "notable_sales": [
+    {
+      "date": "2025-06-20",
+      "street": "RUE DU MOULIN BILLARD",
+      "type": "Maison",
+      "surface": 80,
+      "price": 250600.0
+    },
+    {
+      "date": "2025-11-04",
+      "street": "RTE DE SAINT ANGE",
+      "type": "Maison",
+      "surface": 70,
+      "price": 198000.0
+    },
+    {
+      "date": "2025-07-12",
+      "street": "RUE D EPISY",
+      "type": "Maison",
+      "surface": 73,
+      "price": 174000.0
+    },
+    {
+      "date": "2025-01-03",
+      "street": "RUE DE L HOTEL DIEU",
+      "type": "Maison",
+      "surface": 65,
+      "price": 155000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:09:10.736022Z"
+}

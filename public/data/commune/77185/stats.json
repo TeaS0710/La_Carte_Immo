@@ -1,0 +1,120 @@
+{
+  "commune": "Fleury-en-Bière",
+  "insee": "77185",
+  "generated_at": "2026-05-24T21:09:18.121346Z",
+  "total_sales": 192,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 32,
+  "median_price": 437500.0,
+  "median_price_per_sqm": 4117.64705882353,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 33,
+      "median_price": 435000.0
+    },
+    {
+      "year": 2022,
+      "sales": 42,
+      "median_price": 540100.0
+    },
+    {
+      "year": 2023,
+      "sales": 39,
+      "median_price": 486000.0
+    },
+    {
+      "year": 2024,
+      "sales": 45,
+      "median_price": 355000.0
+    },
+    {
+      "year": 2025,
+      "sales": 33,
+      "median_price": 425000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE LA FORET",
+      "sales": 33,
+      "median_price_per_sqm": 3429.498590713544
+    },
+    {
+      "street_name": "RUE DU CARD DE RICHELIEU",
+      "sales": 28,
+      "median_price_per_sqm": 4363.36898395722
+    },
+    {
+      "street_name": "AV DES SORBIERS",
+      "sales": 20,
+      "median_price_per_sqm": 4589.041095890411
+    },
+    {
+      "street_name": "RUE DU LORICARD",
+      "sales": 20,
+      "median_price_per_sqm": 4860.0
+    },
+    {
+      "street_name": "RUE DES TISSERANDS",
+      "sales": 11,
+      "median_price_per_sqm": 3188.4057971014495
+    },
+    {
+      "street_name": "RUE MONTPERRET",
+      "sales": 10,
+      "median_price_per_sqm": 5714.285714285715
+    },
+    {
+      "street_name": "RUE DE L ARMOISE",
+      "sales": 9,
+      "median_price_per_sqm": 10669.902912621359
+    },
+    {
+      "street_name": "RUE DES MEUNIERS",
+      "sales": 8,
+      "median_price_per_sqm": 3367.065868263473
+    },
+    {
+      "street_name": "RUE COSME CLAUSSE",
+      "sales": 5,
+      "median_price_per_sqm": 4621.848739495798
+    },
+    {
+      "street_name": "CHANTELOUP",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "FLEURY",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "L ARMOISE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU REBAIS",
+      "sales": 5,
+      "median_price_per_sqm": 3691.2003244120033
+    },
+    {
+      "street_name": "LA ROCHE FOURRE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "DEVANT LE CHATEAU",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

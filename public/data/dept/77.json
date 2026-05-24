@@ -2,11 +2,11 @@
   "code_dept": "77",
   "nom_dept": "Seine-et-Marne",
   "communes_count_total": 507,
-  "communes_count_available": 82,
-  "total_sales": 61919,
-  "median_price": 220000.0,
+  "communes_count_available": 142,
+  "total_sales": 109405,
+  "median_price": 224000.0,
   "population_total": 1468108,
-  "population_available": 277398,
+  "population_available": 495243,
   "top_communes": [
     {
       "code_insee": "77108",
@@ -85,6 +85,25 @@
       "streets_with_sales": 165
     },
     {
+      "code_insee": "77186",
+      "slug": "fontainebleau",
+      "nom": "Fontainebleau",
+      "population": 15583,
+      "lng": 2.6817,
+      "lat": 48.4236,
+      "total_sales": 3886,
+      "median_price": 300000.0,
+      "median_price_per_sqm": 4950.0,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 128
+    },
+    {
       "code_insee": "77053",
       "slug": "brie-comte-robert",
       "nom": "Brie-Comte-Robert",
@@ -104,6 +123,120 @@
       "streets_with_sales": 237
     },
     {
+      "code_insee": "77122",
+      "slug": "combs-la-ville",
+      "nom": "Combs-la-Ville",
+      "population": 23350,
+      "lng": 2.5765,
+      "lat": 48.6602,
+      "total_sales": 3825,
+      "median_price": 245000.0,
+      "median_price_per_sqm": 3372.093023255814,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 267
+    },
+    {
+      "code_insee": "77152",
+      "slug": "dammarie-les-lys",
+      "nom": "Dammarie-les-Lys",
+      "population": 23559,
+      "lng": 2.6199,
+      "lat": 48.5147,
+      "total_sales": 3386,
+      "median_price": 172000.0,
+      "median_price_per_sqm": 2916.6666666666665,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 173
+    },
+    {
+      "code_insee": "77131",
+      "slug": "coulommiers",
+      "nom": "Coulommiers",
+      "population": 16374,
+      "lng": 3.0918,
+      "lat": 48.8096,
+      "total_sales": 3212,
+      "median_price": 174900.0,
+      "median_price_per_sqm": 2654.5016327165295,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 211
+    },
+    {
+      "code_insee": "77118",
+      "slug": "claye-souilly",
+      "nom": "Claye-Souilly",
+      "population": 13353,
+      "lng": 2.68,
+      "lat": 48.941,
+      "total_sales": 2851,
+      "median_price": 280000.0,
+      "median_price_per_sqm": 3916.6666666666665,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 195
+    },
+    {
+      "code_insee": "77183",
+      "slug": "la-ferte-sous-jouarre",
+      "nom": "La Ferté-sous-Jouarre",
+      "population": 10254,
+      "lng": 3.1349,
+      "lat": 48.9562,
+      "total_sales": 2784,
+      "median_price": 191606.0,
+      "median_price_per_sqm": 2744.8630136986303,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 191
+    },
+    {
+      "code_insee": "77153",
+      "slug": "dammartin-en-goele",
+      "nom": "Dammartin-en-Goële",
+      "population": 11907,
+      "lng": 2.6777,
+      "lat": 49.0504,
+      "total_sales": 2427,
+      "median_price": 224000.0,
+      "median_price_per_sqm": 3400.0,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 173
+    },
+    {
       "code_insee": "77111",
       "slug": "chessy",
       "nom": "Chessy",
@@ -121,6 +254,25 @@
         2025
       ],
       "streets_with_sales": 109
+    },
+    {
+      "code_insee": "77169",
+      "slug": "emerainville",
+      "nom": "Émerainville",
+      "population": 7690,
+      "lng": 2.608,
+      "lat": 48.8186,
+      "total_sales": 1620,
+      "median_price": 320000.0,
+      "median_price_per_sqm": 4649.088145896656,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 102
     },
     {
       "code_insee": "77037",
@@ -218,15 +370,15 @@
       "streets_with_sales": 156
     },
     {
-      "code_insee": "77067",
-      "slug": "cesson",
-      "nom": "Cesson",
-      "population": 11222,
-      "lng": 2.5898,
-      "lat": 48.5693,
-      "total_sales": 1118,
-      "median_price": 260000.0,
-      "median_price_per_sqm": 3197.9704312833524,
+      "code_insee": "77171",
+      "slug": "esbly",
+      "nom": "Esbly",
+      "population": 6072,
+      "lng": 2.8123,
+      "lat": 48.9011,
+      "total_sales": 1129,
+      "median_price": 222000.0,
+      "median_price_per_sqm": 3600.0,
       "years_covered": [
         2021,
         2022,
@@ -234,159 +386,7 @@
         2024,
         2025
       ],
-      "streets_with_sales": 145
-    },
-    {
-      "code_insee": "77099",
-      "slug": "chateau-landon",
-      "nom": "Château-Landon",
-      "population": 3149,
-      "lng": 2.6976,
-      "lat": 48.149,
-      "total_sales": 1050,
-      "median_price": 130000.0,
-      "median_price_per_sqm": 1905.952380952381,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 176
-    },
-    {
-      "code_insee": "77107",
-      "slug": "chaumes-en-brie",
-      "nom": "Chaumes-en-Brie",
-      "population": 3503,
-      "lng": 2.8472,
-      "lat": 48.6635,
-      "total_sales": 1050,
-      "median_price": 240000.0,
-      "median_price_per_sqm": 2988.3720930232557,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 113
-    },
-    {
-      "code_insee": "77078",
-      "slug": "chamigny",
-      "nom": "Chamigny",
-      "population": 1480,
-      "lng": 3.1397,
-      "lat": 48.987,
-      "total_sales": 993,
-      "median_price": 10450.0,
-      "median_price_per_sqm": 2387.387387387387,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 131
-    },
-    {
-      "code_insee": "77048",
-      "slug": "bourron-marlotte",
-      "nom": "Bourron-Marlotte",
-      "population": 2774,
-      "lng": 2.6982,
-      "lat": 48.3366,
-      "total_sales": 920,
-      "median_price": 300000.0,
-      "median_price_per_sqm": 3800.0,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 98
-    },
-    {
-      "code_insee": "77085",
-      "slug": "chanteloup-en-brie",
-      "nom": "Chanteloup-en-Brie",
-      "population": 4130,
-      "lng": 2.7399,
-      "lat": 48.8581,
-      "total_sales": 910,
-      "median_price": 264000.0,
-      "median_price_per_sqm": 3902.439024390244,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 63
-    },
-    {
-      "code_insee": "77063",
-      "slug": "la-celle-sur-morin",
-      "nom": "La Celle-sur-Morin",
-      "population": 1235,
-      "lng": 2.9681,
-      "lat": 48.799,
-      "total_sales": 807,
-      "median_price": 252000.0,
-      "median_price_per_sqm": 2563.049853372434,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 77
-    },
-    {
-      "code_insee": "77005",
-      "slug": "annet-sur-marne",
-      "nom": "Annet-sur-Marne",
-      "population": 3408,
-      "lng": 2.7067,
-      "lat": 48.9232,
-      "total_sales": 784,
-      "median_price": 240000.0,
-      "median_price_per_sqm": 3795.0819672131147,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 61
-    },
-    {
-      "code_insee": "77022",
-      "slug": "barbizon",
-      "nom": "Barbizon",
-      "population": 1261,
-      "lng": 2.6034,
-      "lat": 48.4472,
-      "total_sales": 693,
-      "median_price": 640000.0,
-      "median_price_per_sqm": 4518.0722891566265,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 59
+      "streets_with_sales": 106
     }
   ],
   "all_communes_available": [
@@ -415,16 +415,64 @@
       "total_sales": 4021
     },
     {
+      "slug": "fontainebleau",
+      "nom": "Fontainebleau",
+      "code_insee": "77186",
+      "total_sales": 3886
+    },
+    {
       "slug": "brie-comte-robert",
       "nom": "Brie-Comte-Robert",
       "code_insee": "77053",
       "total_sales": 3847
     },
     {
+      "slug": "combs-la-ville",
+      "nom": "Combs-la-Ville",
+      "code_insee": "77122",
+      "total_sales": 3825
+    },
+    {
+      "slug": "dammarie-les-lys",
+      "nom": "Dammarie-les-Lys",
+      "code_insee": "77152",
+      "total_sales": 3386
+    },
+    {
+      "slug": "coulommiers",
+      "nom": "Coulommiers",
+      "code_insee": "77131",
+      "total_sales": 3212
+    },
+    {
+      "slug": "claye-souilly",
+      "nom": "Claye-Souilly",
+      "code_insee": "77118",
+      "total_sales": 2851
+    },
+    {
+      "slug": "la-ferte-sous-jouarre",
+      "nom": "La Ferté-sous-Jouarre",
+      "code_insee": "77183",
+      "total_sales": 2784
+    },
+    {
+      "slug": "dammartin-en-goele",
+      "nom": "Dammartin-en-Goële",
+      "code_insee": "77153",
+      "total_sales": 2427
+    },
+    {
       "slug": "chessy",
       "nom": "Chessy",
       "code_insee": "77111",
       "total_sales": 1877
+    },
+    {
+      "slug": "emerainville",
+      "nom": "Émerainville",
+      "code_insee": "77169",
+      "total_sales": 1620
     },
     {
       "slug": "bois-le-roi",
@@ -457,10 +505,28 @@
       "total_sales": 1133
     },
     {
+      "slug": "esbly",
+      "nom": "Esbly",
+      "code_insee": "77171",
+      "total_sales": 1129
+    },
+    {
       "slug": "cesson",
       "nom": "Cesson",
       "code_insee": "77067",
       "total_sales": 1118
+    },
+    {
+      "slug": "crecy-la-chapelle",
+      "nom": "Crécy-la-Chapelle",
+      "code_insee": "77142",
+      "total_sales": 1108
+    },
+    {
+      "slug": "la-ferte-gaucher",
+      "nom": "La Ferté-Gaucher",
+      "code_insee": "77182",
+      "total_sales": 1054
     },
     {
       "slug": "chateau-landon",
@@ -493,10 +559,40 @@
       "total_sales": 910
     },
     {
+      "slug": "evry-gregy-sur-yerre",
+      "nom": "Évry-Grégy-sur-Yerre",
+      "code_insee": "77175",
+      "total_sales": 904
+    },
+    {
+      "slug": "courtry",
+      "nom": "Courtry",
+      "code_insee": "77139",
+      "total_sales": 850
+    },
+    {
+      "slug": "donnemarie-dontilly",
+      "nom": "Donnemarie-Dontilly",
+      "code_insee": "77159",
+      "total_sales": 849
+    },
+    {
       "slug": "la-celle-sur-morin",
       "nom": "La Celle-sur-Morin",
       "code_insee": "77063",
       "total_sales": 807
+    },
+    {
+      "slug": "coupvray",
+      "nom": "Coupvray",
+      "code_insee": "77132",
+      "total_sales": 804
+    },
+    {
+      "slug": "ferrieres-en-brie",
+      "nom": "Ferrières-en-Brie",
+      "code_insee": "77181",
+      "total_sales": 790
     },
     {
       "slug": "annet-sur-marne",
@@ -505,16 +601,52 @@
       "total_sales": 784
     },
     {
+      "slug": "egreville",
+      "nom": "Égreville",
+      "code_insee": "77168",
+      "total_sales": 725
+    },
+    {
+      "slug": "faremoutiers",
+      "nom": "Faremoutiers",
+      "code_insee": "77176",
+      "total_sales": 700
+    },
+    {
+      "slug": "cregy-les-meaux",
+      "nom": "Crégy-lès-Meaux",
+      "code_insee": "77143",
+      "total_sales": 695
+    },
+    {
       "slug": "barbizon",
       "nom": "Barbizon",
       "code_insee": "77022",
       "total_sales": 693
     },
     {
+      "slug": "chevry-cossigny",
+      "nom": "Chevry-Cossigny",
+      "code_insee": "77114",
+      "total_sales": 690
+    },
+    {
+      "slug": "dampmart",
+      "nom": "Dampmart",
+      "code_insee": "77155",
+      "total_sales": 677
+    },
+    {
       "slug": "chartrettes",
       "nom": "Chartrettes",
       "code_insee": "77096",
       "total_sales": 646
+    },
+    {
+      "slug": "congis-sur-therouanne",
+      "nom": "Congis-sur-Thérouanne",
+      "code_insee": "77126",
+      "total_sales": 645
     },
     {
       "slug": "le-chatelet-en-brie",
@@ -529,6 +661,12 @@
       "total_sales": 632
     },
     {
+      "slug": "couilly-pont-aux-dames",
+      "nom": "Couilly-Pont-aux-Dames",
+      "code_insee": "77128",
+      "total_sales": 620
+    },
+    {
       "slug": "bellot",
       "nom": "Bellot",
       "code_insee": "77030",
@@ -541,16 +679,46 @@
       "total_sales": 609
     },
     {
+      "slug": "collegien",
+      "nom": "Collégien",
+      "code_insee": "77121",
+      "total_sales": 605
+    },
+    {
+      "slug": "crouy-sur-ourcq",
+      "nom": "Crouy-sur-Ourcq",
+      "code_insee": "77148",
+      "total_sales": 593
+    },
+    {
       "slug": "la-chapelle-la-reine",
       "nom": "La Chapelle-la-Reine",
       "code_insee": "77088",
       "total_sales": 586
     },
     {
+      "slug": "dormelles",
+      "nom": "Dormelles",
+      "code_insee": "77161",
+      "total_sales": 584
+    },
+    {
+      "slug": "coubert",
+      "nom": "Coubert",
+      "code_insee": "77127",
+      "total_sales": 560
+    },
+    {
       "slug": "chailly-en-brie",
       "nom": "Chailly-en-Brie",
       "code_insee": "77070",
       "total_sales": 541
+    },
+    {
+      "slug": "croissy-beaubourg",
+      "nom": "Croissy-Beaubourg",
+      "code_insee": "77146",
+      "total_sales": 525
     },
     {
       "slug": "chalifert",
@@ -595,10 +763,22 @@
       "total_sales": 464
     },
     {
+      "slug": "choisy-en-brie",
+      "nom": "Choisy-en-Brie",
+      "code_insee": "77116",
+      "total_sales": 462
+    },
+    {
       "slug": "bazoches-les-bray",
       "nom": "Bazoches-lès-Bray",
       "code_insee": "77025",
       "total_sales": 459
+    },
+    {
+      "slug": "conde-sainte-libiaire",
+      "nom": "Condé-Sainte-Libiaire",
+      "code_insee": "77125",
+      "total_sales": 454
     },
     {
       "slug": "bray-sur-seine",
@@ -619,10 +799,22 @@
       "total_sales": 431
     },
     {
+      "slug": "darvault",
+      "nom": "Darvault",
+      "code_insee": "77156",
+      "total_sales": 428
+    },
+    {
       "slug": "chenoise-cucharmoy",
       "nom": "Chenoise-Cucharmoy",
       "code_insee": "77109",
       "total_sales": 425
+    },
+    {
+      "slug": "coutevroult",
+      "nom": "Coutevroult",
+      "code_insee": "77141",
+      "total_sales": 420
     },
     {
       "slug": "changis-sur-marne",
@@ -631,16 +823,34 @@
       "total_sales": 414
     },
     {
+      "slug": "esmans",
+      "nom": "Esmans",
+      "code_insee": "77172",
+      "total_sales": 409
+    },
+    {
       "slug": "bouleurs",
       "nom": "Bouleurs",
       "code_insee": "77047",
       "total_sales": 406
     },
     {
+      "slug": "courpalay",
+      "nom": "Courpalay",
+      "code_insee": "77135",
+      "total_sales": 386
+    },
+    {
       "slug": "boissise-la-bertrand",
       "nom": "Boissise-la-Bertrand",
       "code_insee": "77039",
       "total_sales": 379
+    },
+    {
+      "slug": "citry",
+      "nom": "Citry",
+      "code_insee": "77117",
+      "total_sales": 377
     },
     {
       "slug": "amillis",
@@ -653,6 +863,18 @@
       "nom": "Chaintreaux",
       "code_insee": "77071",
       "total_sales": 370
+    },
+    {
+      "slug": "doue",
+      "nom": "Doue",
+      "code_insee": "77162",
+      "total_sales": 367
+    },
+    {
+      "slug": "dammartin-sur-tigeaux",
+      "nom": "Dammartin-sur-Tigeaux",
+      "code_insee": "77154",
+      "total_sales": 353
     },
     {
       "slug": "buthiers",
@@ -673,6 +895,12 @@
       "total_sales": 335
     },
     {
+      "slug": "la-croix-en-brie",
+      "nom": "La Croix-en-Brie",
+      "code_insee": "77147",
+      "total_sales": 323
+    },
+    {
       "slug": "la-chapelle-gauthier",
       "nom": "La Chapelle-Gauthier",
       "code_insee": "77086",
@@ -685,9 +913,21 @@
       "total_sales": 304
     },
     {
+      "slug": "chevry-en-sereine",
+      "nom": "Chevry-en-Sereine",
+      "code_insee": "77115",
+      "total_sales": 301
+    },
+    {
       "slug": "chalautre-la-grande",
       "nom": "Chalautre-la-Grande",
       "code_insee": "77072",
+      "total_sales": 294
+    },
+    {
+      "slug": "conches-sur-gondoire",
+      "nom": "Conches-sur-Gondoire",
+      "code_insee": "77124",
       "total_sales": 294
     },
     {
@@ -713,6 +953,12 @@
       "nom": "Bougligny",
       "code_insee": "77045",
       "total_sales": 284
+    },
+    {
+      "slug": "courtomer",
+      "nom": "Courtomer",
+      "code_insee": "77138",
+      "total_sales": 278
     },
     {
       "slug": "bombon",
@@ -745,9 +991,21 @@
       "total_sales": 263
     },
     {
+      "slug": "everly",
+      "nom": "Everly",
+      "code_insee": "77174",
+      "total_sales": 259
+    },
+    {
       "slug": "bannost-villegagnon",
       "nom": "Bannost-Villegagnon",
       "code_insee": "77020",
+      "total_sales": 258
+    },
+    {
+      "slug": "chevru",
+      "nom": "Chevru",
+      "code_insee": "77113",
       "total_sales": 258
     },
     {
@@ -763,16 +1021,40 @@
       "total_sales": 251
     },
     {
+      "slug": "coulombs-en-valois",
+      "nom": "Coulombs-en-Valois",
+      "code_insee": "77129",
+      "total_sales": 242
+    },
+    {
       "slug": "blandy",
       "nom": "Blandy",
       "code_insee": "77034",
       "total_sales": 238
     },
     {
+      "slug": "favieres",
+      "nom": "Favières",
+      "code_insee": "77177",
+      "total_sales": 238
+    },
+    {
+      "slug": "etrepilly",
+      "nom": "Étrépilly",
+      "code_insee": "77173",
+      "total_sales": 236
+    },
+    {
       "slug": "boutigny",
       "nom": "Boutigny",
       "code_insee": "77049",
       "total_sales": 233
+    },
+    {
+      "slug": "cocherel",
+      "nom": "Cocherel",
+      "code_insee": "77120",
+      "total_sales": 227
     },
     {
       "slug": "bransles",
@@ -793,6 +1075,18 @@
       "total_sales": 221
     },
     {
+      "slug": "crisenoy",
+      "nom": "Crisenoy",
+      "code_insee": "77145",
+      "total_sales": 221
+    },
+    {
+      "slug": "flagy",
+      "nom": "Flagy",
+      "code_insee": "77184",
+      "total_sales": 215
+    },
+    {
       "slug": "chalautre-la-petite",
       "nom": "Chalautre-la-Petite",
       "code_insee": "77073",
@@ -805,10 +1099,28 @@
       "total_sales": 211
     },
     {
+      "slug": "fay-les-nemours",
+      "nom": "Faÿ-lès-Nemours",
+      "code_insee": "77178",
+      "total_sales": 201
+    },
+    {
       "slug": "aufferville",
       "nom": "Aufferville",
       "code_insee": "77011",
       "total_sales": 196
+    },
+    {
+      "slug": "echouboulains",
+      "nom": "Échouboulains",
+      "code_insee": "77164",
+      "total_sales": 192
+    },
+    {
+      "slug": "fleury-en-biere",
+      "nom": "Fleury-en-Bière",
+      "code_insee": "77185",
+      "total_sales": 192
     },
     {
       "slug": "bussieres",
@@ -817,16 +1129,46 @@
       "total_sales": 183
     },
     {
+      "slug": "coulommes",
+      "nom": "Coulommes",
+      "code_insee": "77130",
+      "total_sales": 174
+    },
+    {
+      "slug": "fericy",
+      "nom": "Féricy",
+      "code_insee": "77179",
+      "total_sales": 170
+    },
+    {
       "slug": "boissettes",
       "nom": "Boissettes",
       "code_insee": "77038",
       "total_sales": 164
     },
     {
+      "slug": "les-ecrennes",
+      "nom": "Les Écrennes",
+      "code_insee": "77165",
+      "total_sales": 161
+    },
+    {
       "slug": "barcy",
       "nom": "Barcy",
       "code_insee": "77023",
       "total_sales": 159
+    },
+    {
+      "slug": "cuisy",
+      "nom": "Cuisy",
+      "code_insee": "77150",
+      "total_sales": 147
+    },
+    {
+      "slug": "ferolles-attilly",
+      "nom": "Férolles-Attilly",
+      "code_insee": "77180",
+      "total_sales": 139
     },
     {
       "slug": "balloy",
@@ -839,6 +1181,12 @@
       "nom": "Carnetin",
       "code_insee": "77062",
       "total_sales": 127
+    },
+    {
+      "slug": "compans",
+      "nom": "Compans",
+      "code_insee": "77123",
+      "total_sales": 126
     },
     {
       "slug": "breau",
@@ -875,6 +1223,18 @@
       "nom": "Bassevelle",
       "code_insee": "77024",
       "total_sales": 94
+    },
+    {
+      "slug": "crevecur-en-brie",
+      "nom": "Crèvecœur-en-Brie",
+      "code_insee": "77144",
+      "total_sales": 70
+    },
+    {
+      "slug": "douy-la-ramee",
+      "nom": "Douy-la-Ramée",
+      "code_insee": "77163",
+      "total_sales": 68
     },
     {
       "slug": "les-chapelles-bourbon",

@@ -13,8 +13,8 @@
       "code_dept": "77",
       "nom_dept": "Seine-et-Marne",
       "communes_count_total": 507,
-      "communes_count_available": 82,
-      "total_sales": 61919
+      "communes_count_available": 142,
+      "total_sales": 109405
     },
     {
       "code_dept": "78",
@@ -60,8 +60,8 @@
     }
   ],
   "communes_count_total": 1266,
-  "communes_count_available": 92,
-  "total_sales_available": 156314,
+  "communes_count_available": 152,
+  "total_sales_available": 203800,
   "population_total": 12463067,
   "top_communes": [
     {
@@ -331,6 +331,25 @@
       "streets_with_sales": 165
     },
     {
+      "code_insee": "77186",
+      "slug": "fontainebleau",
+      "nom": "Fontainebleau",
+      "population": 15583,
+      "lng": 2.6817,
+      "lat": 48.4236,
+      "total_sales": 3886,
+      "median_price": 300000.0,
+      "median_price_per_sqm": 4950.0,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 128
+    },
+    {
       "code_insee": "77053",
       "slug": "brie-comte-robert",
       "nom": "Brie-Comte-Robert",
@@ -350,6 +369,120 @@
       "streets_with_sales": 237
     },
     {
+      "code_insee": "77122",
+      "slug": "combs-la-ville",
+      "nom": "Combs-la-Ville",
+      "population": 23350,
+      "lng": 2.5765,
+      "lat": 48.6602,
+      "total_sales": 3825,
+      "median_price": 245000.0,
+      "median_price_per_sqm": 3372.093023255814,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 267
+    },
+    {
+      "code_insee": "77152",
+      "slug": "dammarie-les-lys",
+      "nom": "Dammarie-les-Lys",
+      "population": 23559,
+      "lng": 2.6199,
+      "lat": 48.5147,
+      "total_sales": 3386,
+      "median_price": 172000.0,
+      "median_price_per_sqm": 2916.6666666666665,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 173
+    },
+    {
+      "code_insee": "77131",
+      "slug": "coulommiers",
+      "nom": "Coulommiers",
+      "population": 16374,
+      "lng": 3.0918,
+      "lat": 48.8096,
+      "total_sales": 3212,
+      "median_price": 174900.0,
+      "median_price_per_sqm": 2654.5016327165295,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 211
+    },
+    {
+      "code_insee": "77118",
+      "slug": "claye-souilly",
+      "nom": "Claye-Souilly",
+      "population": 13353,
+      "lng": 2.68,
+      "lat": 48.941,
+      "total_sales": 2851,
+      "median_price": 280000.0,
+      "median_price_per_sqm": 3916.6666666666665,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 195
+    },
+    {
+      "code_insee": "77183",
+      "slug": "la-ferte-sous-jouarre",
+      "nom": "La Ferté-sous-Jouarre",
+      "population": 10254,
+      "lng": 3.1349,
+      "lat": 48.9562,
+      "total_sales": 2784,
+      "median_price": 191606.0,
+      "median_price_per_sqm": 2744.8630136986303,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 191
+    },
+    {
+      "code_insee": "77153",
+      "slug": "dammartin-en-goele",
+      "nom": "Dammartin-en-Goële",
+      "population": 11907,
+      "lng": 2.6777,
+      "lat": 49.0504,
+      "total_sales": 2427,
+      "median_price": 224000.0,
+      "median_price_per_sqm": 3400.0,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 173
+    },
+    {
       "code_insee": "77111",
       "slug": "chessy",
       "nom": "Chessy",
@@ -367,6 +500,25 @@
         2025
       ],
       "streets_with_sales": 109
+    },
+    {
+      "code_insee": "77169",
+      "slug": "emerainville",
+      "nom": "Émerainville",
+      "population": 7690,
+      "lng": 2.608,
+      "lat": 48.8186,
+      "total_sales": 1620,
+      "median_price": 320000.0,
+      "median_price_per_sqm": 4649.088145896656,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 102
     },
     {
       "code_insee": "77037",
@@ -464,15 +616,15 @@
       "streets_with_sales": 156
     },
     {
-      "code_insee": "77067",
-      "slug": "cesson",
-      "nom": "Cesson",
-      "population": 11222,
-      "lng": 2.5898,
-      "lat": 48.5693,
-      "total_sales": 1118,
-      "median_price": 260000.0,
-      "median_price_per_sqm": 3197.9704312833524,
+      "code_insee": "77171",
+      "slug": "esbly",
+      "nom": "Esbly",
+      "population": 6072,
+      "lng": 2.8123,
+      "lat": 48.9011,
+      "total_sales": 1129,
+      "median_price": 222000.0,
+      "median_price_per_sqm": 3600.0,
       "years_covered": [
         2021,
         2022,
@@ -480,159 +632,7 @@
         2024,
         2025
       ],
-      "streets_with_sales": 145
-    },
-    {
-      "code_insee": "77099",
-      "slug": "chateau-landon",
-      "nom": "Château-Landon",
-      "population": 3149,
-      "lng": 2.6976,
-      "lat": 48.149,
-      "total_sales": 1050,
-      "median_price": 130000.0,
-      "median_price_per_sqm": 1905.952380952381,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 176
-    },
-    {
-      "code_insee": "77107",
-      "slug": "chaumes-en-brie",
-      "nom": "Chaumes-en-Brie",
-      "population": 3503,
-      "lng": 2.8472,
-      "lat": 48.6635,
-      "total_sales": 1050,
-      "median_price": 240000.0,
-      "median_price_per_sqm": 2988.3720930232557,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 113
-    },
-    {
-      "code_insee": "77078",
-      "slug": "chamigny",
-      "nom": "Chamigny",
-      "population": 1480,
-      "lng": 3.1397,
-      "lat": 48.987,
-      "total_sales": 993,
-      "median_price": 10450.0,
-      "median_price_per_sqm": 2387.387387387387,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 131
-    },
-    {
-      "code_insee": "77048",
-      "slug": "bourron-marlotte",
-      "nom": "Bourron-Marlotte",
-      "population": 2774,
-      "lng": 2.6982,
-      "lat": 48.3366,
-      "total_sales": 920,
-      "median_price": 300000.0,
-      "median_price_per_sqm": 3800.0,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 98
-    },
-    {
-      "code_insee": "77085",
-      "slug": "chanteloup-en-brie",
-      "nom": "Chanteloup-en-Brie",
-      "population": 4130,
-      "lng": 2.7399,
-      "lat": 48.8581,
-      "total_sales": 910,
-      "median_price": 264000.0,
-      "median_price_per_sqm": 3902.439024390244,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 63
-    },
-    {
-      "code_insee": "77063",
-      "slug": "la-celle-sur-morin",
-      "nom": "La Celle-sur-Morin",
-      "population": 1235,
-      "lng": 2.9681,
-      "lat": 48.799,
-      "total_sales": 807,
-      "median_price": 252000.0,
-      "median_price_per_sqm": 2563.049853372434,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 77
-    },
-    {
-      "code_insee": "77005",
-      "slug": "annet-sur-marne",
-      "nom": "Annet-sur-Marne",
-      "population": 3408,
-      "lng": 2.7067,
-      "lat": 48.9232,
-      "total_sales": 784,
-      "median_price": 240000.0,
-      "median_price_per_sqm": 3795.0819672131147,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 61
-    },
-    {
-      "code_insee": "77022",
-      "slug": "barbizon",
-      "nom": "Barbizon",
-      "population": 1261,
-      "lng": 2.6034,
-      "lat": 48.4472,
-      "total_sales": 693,
-      "median_price": 640000.0,
-      "median_price_per_sqm": 4518.0722891566265,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 59
+      "streets_with_sales": 106
     }
   ]
 }

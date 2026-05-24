@@ -5,8 +5,13 @@ import Link from "next/link";
 import { Box, History, Info, MapPin } from "lucide-react";
 import { assetUrl } from "@/lib/url";
 import RegionMap from "@/components/carte/RegionMap";
+import AddressSearch from "@/components/carte/AddressSearch";
 
-export default function RegionCarteClient() {
+export default function RegionCarteClient({
+  availableSlugs = [],
+}: {
+  availableSlugs?: string[];
+}) {
   const [mounted, setMounted] = useState(false);
   const [hintDismissed, setHintDismissed] = useState(false);
   const [is3d, setIs3d] = useState(false);
@@ -29,18 +34,19 @@ export default function RegionCarteClient() {
         </div>
       )}
 
-      {/* Bandeau de contexte top-left */}
-      <div className="absolute top-4 left-4 z-10 bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] border border-[color:var(--line)] px-5 py-4 max-w-[320px]">
+      {/* Bandeau de contexte top-left avec recherche d'adresse */}
+      <div className="absolute top-4 left-4 z-10 bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] border border-[color:var(--line)] px-5 py-4 w-[340px] max-w-[calc(100vw-32px)]">
         <div className="text-[11px] uppercase tracking-[0.15em] text-brand-strong mb-1 inline-flex items-center gap-1.5">
           <MapPin size={11} />
           Région
         </div>
-        <h1 className="text-[17px] font-semibold text-ink leading-tight mb-1.5">
+        <h1 className="text-[17px] font-semibold text-ink leading-tight mb-3">
           Île-de-France
         </h1>
-        <p className="text-[12px] text-ink-soft leading-relaxed">
-          Cliquez sur une commune pour ouvrir sa carte détaillée (transactions
-          DVF, profil INSEE, pipeline ventes probables, Géorisques).
+        <AddressSearch availableSlugs={availableSlugs} placeholder="Tapez une adresse ou ville…" compact />
+        <p className="text-[11px] text-ink-soft leading-relaxed mt-2.5">
+          Recherche d&apos;adresse via la Base Adresse Nationale (data.gouv.fr).
+          Cliquez sur une commune sur la carte pour ouvrir sa fiche détaillée.
         </p>
       </div>
 

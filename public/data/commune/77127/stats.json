@@ -1,0 +1,120 @@
+{
+  "commune": "Coubert",
+  "insee": "77127",
+  "generated_at": "2026-05-24T20:54:09.092475Z",
+  "total_sales": 560,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 40,
+  "median_price": 199000.0,
+  "median_price_per_sqm": 3306.439393939394,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 147,
+      "median_price": 190000.0
+    },
+    {
+      "year": 2022,
+      "sales": 167,
+      "median_price": 205000.0
+    },
+    {
+      "year": 2023,
+      "sales": 79,
+      "median_price": 162000.0
+    },
+    {
+      "year": 2024,
+      "sales": 76,
+      "median_price": 158750.0
+    },
+    {
+      "year": 2025,
+      "sales": 91,
+      "median_price": 212800.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE EUGENE DORLET",
+      "sales": 97,
+      "median_price_per_sqm": 3918.8311688311687
+    },
+    {
+      "street_name": "PL EDMOND FLOURY",
+      "sales": 92,
+      "median_price_per_sqm": 2338.030303030303
+    },
+    {
+      "street_name": "RUE JEAN JAURES",
+      "sales": 73,
+      "median_price_per_sqm": 3732.142857142857
+    },
+    {
+      "street_name": "RUE ARISTIDE BRIAND",
+      "sales": 62,
+      "median_price_per_sqm": 3044.0
+    },
+    {
+      "street_name": "ALL DU CYGNE",
+      "sales": 49,
+      "median_price_per_sqm": 3372.5490196078435
+    },
+    {
+      "street_name": "LE HAUT COUBERT",
+      "sales": 24,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE CLAIRBELLE",
+      "sales": 19,
+      "median_price_per_sqm": 3901.25
+    },
+    {
+      "street_name": "RUE DES PETITES MAISONS",
+      "sales": 18,
+      "median_price_per_sqm": 2815.126050420168
+    },
+    {
+      "street_name": "LES PRES COMMUNS",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE ETIENNE TETROT",
+      "sales": 14,
+      "median_price_per_sqm": 2882.3529411764707
+    },
+    {
+      "street_name": "COUBERT",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES GRANDS CHAMPS",
+      "sales": 12,
+      "median_price_per_sqm": 3357.1428571428573
+    },
+    {
+      "street_name": "PELLE TOUT",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE LEGRAND",
+      "sales": 6,
+      "median_price_per_sqm": 4041.677005789909
+    },
+    {
+      "street_name": "CHE DU FORT",
+      "sales": 5,
+      "median_price_per_sqm": 6347.222222222223
+    }
+  ]
+}

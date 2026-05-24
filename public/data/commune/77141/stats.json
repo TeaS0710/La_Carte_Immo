@@ -1,0 +1,120 @@
+{
+  "commune": "Coutevroult",
+  "insee": "77141",
+  "generated_at": "2026-05-24T20:59:26.692819Z",
+  "total_sales": 420,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 52,
+  "median_price": 295000.0,
+  "median_price_per_sqm": 3534.4827586206898,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 94,
+      "median_price": 245700.0
+    },
+    {
+      "year": 2022,
+      "sales": 56,
+      "median_price": 183000.0
+    },
+    {
+      "year": 2023,
+      "sales": 32,
+      "median_price": 250000.0
+    },
+    {
+      "year": 2024,
+      "sales": 79,
+      "median_price": 264650.0
+    },
+    {
+      "year": 2025,
+      "sales": 159,
+      "median_price": 430000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RTE DE MELUN",
+      "sales": 66,
+      "median_price_per_sqm": 3865.979381443299
+    },
+    {
+      "street_name": "LE VIVIER",
+      "sales": 57,
+      "median_price_per_sqm": 21142.29142857143
+    },
+    {
+      "street_name": "RUE DE MONTAIGU",
+      "sales": 27,
+      "median_price_per_sqm": 3333.3333333333335
+    },
+    {
+      "street_name": "RUE DE LA TILLAYE",
+      "sales": 23,
+      "median_price_per_sqm": 3534.4827586206898
+    },
+    {
+      "street_name": "RUE DE DAINVILLE",
+      "sales": 22,
+      "median_price_per_sqm": 3090.6593406593406
+    },
+    {
+      "street_name": "RTE DE COUBERT",
+      "sales": 15,
+      "median_price_per_sqm": 2614.5833333333335
+    },
+    {
+      "street_name": "CHE DES GROSSES NELLES",
+      "sales": 14,
+      "median_price_per_sqm": 3505.799319727891
+    },
+    {
+      "street_name": "IMP DU VIVIER",
+      "sales": 14,
+      "median_price_per_sqm": 3693.548387096774
+    },
+    {
+      "street_name": "DAINVILLE",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES PRIEUSES",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 10,
+      "median_price_per_sqm": 3843.75
+    },
+    {
+      "street_name": "LES CARREAUX",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "COUTEVROULT",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "IMP DE LA FERME",
+      "sales": 9,
+      "median_price_per_sqm": 3436.7329047340736
+    },
+    {
+      "street_name": "RUE DE COTRAY",
+      "sales": 9,
+      "median_price_per_sqm": 1666.6666666666667
+    }
+  ]
+}

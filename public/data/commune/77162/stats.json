@@ -1,0 +1,120 @@
+{
+  "commune": "Doue",
+  "insee": "77162",
+  "generated_at": "2026-05-24T21:02:47.869219Z",
+  "total_sales": 367,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 62,
+  "median_price": 180000.0,
+  "median_price_per_sqm": 2041.3414634146343,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 87,
+      "median_price": 127000.0
+    },
+    {
+      "year": 2022,
+      "sales": 77,
+      "median_price": 246130.0
+    },
+    {
+      "year": 2023,
+      "sales": 55,
+      "median_price": 108000.0
+    },
+    {
+      "year": 2024,
+      "sales": 52,
+      "median_price": 143000.0
+    },
+    {
+      "year": 2025,
+      "sales": 96,
+      "median_price": 211000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LES NEUILLIS",
+      "sales": 35,
+      "median_price_per_sqm": 2397.7272727272725
+    },
+    {
+      "street_name": "BOIS BAUDRY",
+      "sales": 17,
+      "median_price_per_sqm": 1497.6525821596244
+    },
+    {
+      "street_name": "RUE CHAMPENOIS",
+      "sales": 16,
+      "median_price_per_sqm": 2051.0444337116637
+    },
+    {
+      "street_name": "SAUSSOY",
+      "sales": 16,
+      "median_price_per_sqm": 2094.520547945205
+    },
+    {
+      "street_name": "CROUPET",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CHAISES",
+      "sales": 14,
+      "median_price_per_sqm": 2131.868131868132
+    },
+    {
+      "street_name": "PL DE VERDUN",
+      "sales": 13,
+      "median_price_per_sqm": 1404.6335898845518
+    },
+    {
+      "street_name": "MELARCHEZ",
+      "sales": 12,
+      "median_price_per_sqm": 3153.2608695652175
+    },
+    {
+      "street_name": "RUE DES OUCHES",
+      "sales": 12,
+      "median_price_per_sqm": 2394.7368421052633
+    },
+    {
+      "street_name": "RUE DE LA CROISSETTE",
+      "sales": 12,
+      "median_price_per_sqm": 1973.09166400511
+    },
+    {
+      "street_name": "DOUE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE RAPPEL",
+      "sales": 10,
+      "median_price_per_sqm": 2388.938447814451
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 9,
+      "median_price_per_sqm": 1887.8968253968255
+    },
+    {
+      "street_name": "RUE MADAME RENOUX PRIEUX",
+      "sales": 9,
+      "median_price_per_sqm": 1611.0296684118675
+    },
+    {
+      "street_name": "RUE DE SAINT GERMAIN",
+      "sales": 9,
+      "median_price_per_sqm": 2843.685031185031
+    }
+  ]
+}

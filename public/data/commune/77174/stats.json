@@ -1,0 +1,120 @@
+{
+  "commune": "Everly",
+  "insee": "77174",
+  "generated_at": "2026-05-24T21:06:31.842989Z",
+  "total_sales": 259,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 49,
+  "median_price": 54000.0,
+  "median_price_per_sqm": 1714.2857142857142,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 31,
+      "median_price": 157350.0
+    },
+    {
+      "year": 2022,
+      "sales": 89,
+      "median_price": 130000.0
+    },
+    {
+      "year": 2023,
+      "sales": 66,
+      "median_price": 30000.0
+    },
+    {
+      "year": 2024,
+      "sales": 30,
+      "median_price": 11290.0
+    },
+    {
+      "year": 2025,
+      "sales": 43,
+      "median_price": 12000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "BOUT D EN BAS",
+      "sales": 26,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE CHALMAISON",
+      "sales": 20,
+      "median_price_per_sqm": 1714.2857142857142
+    },
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 17,
+      "median_price_per_sqm": 1314.5530939648586
+    },
+    {
+      "street_name": "EVERLY",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOIS DES AULNES",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PATURE DU BAS DU MEE",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA FONTAINE MARTIN",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PETIT BRUN",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOIS DE VEUVE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE GOUAIX",
+      "sales": 8,
+      "median_price_per_sqm": 1453.8461538461538
+    },
+    {
+      "street_name": "LE GUE DE VEUVE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BRUN",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PATURES DU GRAVIER",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DES HAPPES",
+      "sales": 6,
+      "median_price_per_sqm": 2000.0
+    },
+    {
+      "street_name": "ALL DE LA HAIE AUX OISEAUX",
+      "sales": 6,
+      "median_price_per_sqm": 2540.5405405405404
+    }
+  ]
+}

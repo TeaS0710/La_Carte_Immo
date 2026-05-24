@@ -1,0 +1,120 @@
+{
+  "commune": "Claye-Souilly",
+  "insee": "77118",
+  "generated_at": "2026-05-24T20:50:59.265382Z",
+  "total_sales": 2851,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 195,
+  "median_price": 280000.0,
+  "median_price_per_sqm": 3916.6666666666665,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 723,
+      "median_price": 270000.0
+    },
+    {
+      "year": 2022,
+      "sales": 627,
+      "median_price": 280000.0
+    },
+    {
+      "year": 2023,
+      "sales": 503,
+      "median_price": 260700.0
+    },
+    {
+      "year": 2024,
+      "sales": 404,
+      "median_price": 302500.0
+    },
+    {
+      "year": 2025,
+      "sales": 594,
+      "median_price": 291450.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE JEAN JAURES",
+      "sales": 213,
+      "median_price_per_sqm": 3653.846153846154
+    },
+    {
+      "street_name": "LA RESERVE",
+      "sales": 151,
+      "median_price_per_sqm": 118678.72
+    },
+    {
+      "street_name": "RUE DE BOURGOGNE",
+      "sales": 143,
+      "median_price_per_sqm": 4108.333333333333
+    },
+    {
+      "street_name": "BD DE SOAVE",
+      "sales": 136,
+      "median_price_per_sqm": 3833.3333333333335
+    },
+    {
+      "street_name": "RUE DE LA GABRIELLE",
+      "sales": 134,
+      "median_price_per_sqm": 250901.8759018759
+    },
+    {
+      "street_name": "RUE DE VOISINS",
+      "sales": 107,
+      "median_price_per_sqm": 3938.840155945419
+    },
+    {
+      "street_name": "RUE DE CHARNY",
+      "sales": 95,
+      "median_price_per_sqm": 3657.7464788732395
+    },
+    {
+      "street_name": "RUE DU HUIT MAI 1945",
+      "sales": 93,
+      "median_price_per_sqm": 3821.788575859395
+    },
+    {
+      "street_name": "AV ARISTIDE BRIAND",
+      "sales": 89,
+      "median_price_per_sqm": 8082.278481012659
+    },
+    {
+      "street_name": "ALL DES MARGUERITES",
+      "sales": 88,
+      "median_price_per_sqm": 3840.5797101449275
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 81,
+      "median_price_per_sqm": 3976.7441860465115
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 65,
+      "median_price_per_sqm": 3779.6155347384856
+    },
+    {
+      "street_name": "ALL DES LILAS",
+      "sales": 64,
+      "median_price_per_sqm": 3611.1111111111113
+    },
+    {
+      "street_name": "RUE DE SOUILLY",
+      "sales": 58,
+      "median_price_per_sqm": 3545.735884715332
+    },
+    {
+      "street_name": "RUE DE MESSY",
+      "sales": 55,
+      "median_price_per_sqm": 3965.5172413793102
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 501,
+  "sales_delta_pct": -7.4,
+  "median_price": 155650.0,
+  "median_ppsqm": 2682.9268292682927,
+  "delta_ppsqm_pct": -7.5,
+  "notable_sales": [
+    {
+      "date": "2025-12-23",
+      "street": "AV P VAILLANT COUTURIER",
+      "type": "Maison",
+      "surface": 122,
+      "price": 584000.0
+    },
+    {
+      "date": "2025-02-11",
+      "street": "AV P VAILLANT COUTURIER",
+      "type": "Maison",
+      "surface": 154,
+      "price": 495000.0
+    },
+    {
+      "date": "2025-02-24",
+      "street": "RUE FERNAND LEGER",
+      "type": "Maison",
+      "surface": 130,
+      "price": 480000.0
+    },
+    {
+      "date": "2025-03-24",
+      "street": "AV P VAILLANT COUTURIER",
+      "type": "Maison",
+      "surface": 131,
+      "price": 420000.0
+    },
+    {
+      "date": "2025-12-18",
+      "street": "AV MARCELIN BERTHELOT",
+      "type": "Maison",
+      "surface": 205,
+      "price": 420000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:00:37.313215Z"
+}

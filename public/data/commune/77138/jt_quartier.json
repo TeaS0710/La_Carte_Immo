@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 56,
+  "sales_delta_pct": -30.0,
+  "median_price": 43587.33,
+  "median_ppsqm": 2926.2507507507507,
+  "delta_ppsqm_pct": 15.8,
+  "notable_sales": [
+    {
+      "date": "2025-01-10",
+      "street": "RUE DES MICHELETTES",
+      "type": "Maison",
+      "surface": 142,
+      "price": 360000.0
+    },
+    {
+      "date": "2025-06-25",
+      "street": "RUE DE VERDUN",
+      "type": "Maison",
+      "surface": 102,
+      "price": 343000.0
+    },
+    {
+      "date": "2025-06-25",
+      "street": "LES PETITS BOIS",
+      "type": "Maison",
+      "surface": 111,
+      "price": 312200.0
+    },
+    {
+      "date": "2025-12-23",
+      "street": "RUE DES MICHELETTES",
+      "type": "Maison",
+      "surface": 74,
+      "price": 282000.0
+    },
+    {
+      "date": "2025-09-09",
+      "street": "RUE DE VERDUN",
+      "type": "Maison",
+      "surface": 90,
+      "price": 273590.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:58:53.849407Z"
+}

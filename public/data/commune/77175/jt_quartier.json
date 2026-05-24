@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 122,
+  "sales_delta_pct": -38.4,
+  "median_price": 315000.0,
+  "median_ppsqm": 3148.1481481481483,
+  "delta_ppsqm_pct": -0.4,
+  "notable_sales": [
+    {
+      "date": "2025-03-31",
+      "street": "RUE DU PONT DES ROMAINS",
+      "type": "Maison",
+      "surface": 203,
+      "price": 525000.0
+    },
+    {
+      "date": "2025-06-05",
+      "street": "GRANDE RUE D'EVRY",
+      "type": "Maison",
+      "surface": 138,
+      "price": 515300.0
+    },
+    {
+      "date": "2025-03-28",
+      "street": "RUE MADELEINE BOISSET",
+      "type": "Maison",
+      "surface": 146,
+      "price": 468330.0
+    },
+    {
+      "date": "2025-12-15",
+      "street": "CHE DE LA MARE AUX OISEAUX",
+      "type": "Maison",
+      "surface": 134,
+      "price": 467000.0
+    },
+    {
+      "date": "2025-10-30",
+      "street": "ALL DES FONTAINES",
+      "type": "Maison",
+      "surface": 149,
+      "price": 463000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:07:19.068464Z"
+}

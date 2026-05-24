@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 507,
+  "sales_delta_pct": 40.4,
+  "median_price": 165000.0,
+  "median_ppsqm": 3283.582089552239,
+  "delta_ppsqm_pct": 0.7,
+  "notable_sales": [
+    {
+      "date": "2025-12-19",
+      "street": "AV DU MARECHAL LECLERC",
+      "type": "Maison",
+      "surface": 150,
+      "price": 770000.0
+    },
+    {
+      "date": "2025-10-29",
+      "street": "AV DU MARECHAL LECLERC",
+      "type": "Maison",
+      "surface": 140,
+      "price": 680000.0
+    },
+    {
+      "date": "2025-10-29",
+      "street": "AV DU MARECHAL LECLERC",
+      "type": "Maison",
+      "surface": 113,
+      "price": 680000.0
+    },
+    {
+      "date": "2025-10-29",
+      "street": "AV DU MARECHAL LECLERC",
+      "type": "Maison",
+      "surface": 96,
+      "price": 680000.0
+    },
+    {
+      "date": "2025-12-17",
+      "street": "CHE DE SAINT LADRE PROLONGE",
+      "type": "Maison",
+      "surface": 137,
+      "price": 640000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:00:47.067363Z"
+}

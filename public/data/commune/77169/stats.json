@@ -1,0 +1,120 @@
+{
+  "commune": "Émerainville",
+  "insee": "77169",
+  "generated_at": "2026-05-24T21:04:34.445747Z",
+  "total_sales": 1620,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 102,
+  "median_price": 320000.0,
+  "median_price_per_sqm": 4649.088145896656,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 336,
+      "median_price": 325000.0
+    },
+    {
+      "year": 2022,
+      "sales": 293,
+      "median_price": 319000.0
+    },
+    {
+      "year": 2023,
+      "sales": 181,
+      "median_price": 292500.0
+    },
+    {
+      "year": 2024,
+      "sales": 319,
+      "median_price": 245000.0
+    },
+    {
+      "year": 2025,
+      "sales": 491,
+      "median_price": 450000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE VLADIMIR JANKELEVITCH",
+      "sales": 181,
+      "median_price_per_sqm": 89583.33333333333
+    },
+    {
+      "street_name": "AV DE L EUROPE",
+      "sales": 177,
+      "median_price_per_sqm": 40909.09090909091
+    },
+    {
+      "street_name": "RUE DE L ORANGERIE",
+      "sales": 161,
+      "median_price_per_sqm": 3787.5
+    },
+    {
+      "street_name": "AV DU QUATRE AOUT 1789",
+      "sales": 138,
+      "median_price_per_sqm": 124671.41552511416
+    },
+    {
+      "street_name": "ALL DE LA FORET",
+      "sales": 107,
+      "median_price_per_sqm": 4338.461538461538
+    },
+    {
+      "street_name": "RUE D EMERY",
+      "sales": 90,
+      "median_price_per_sqm": 3732.895457033388
+    },
+    {
+      "street_name": "ALL DE LA PIERRE ROUGE",
+      "sales": 69,
+      "median_price_per_sqm": 2672.4137931034484
+    },
+    {
+      "street_name": "RUE BORIS PASTERNAK",
+      "sales": 57,
+      "median_price_per_sqm": 3892.8571428571427
+    },
+    {
+      "street_name": "RUE DU CHAMP TORTU",
+      "sales": 53,
+      "median_price_per_sqm": 3062.7272727272725
+    },
+    {
+      "street_name": "AV CHARLES BRAS",
+      "sales": 49,
+      "median_price_per_sqm": 4157.894736842105
+    },
+    {
+      "street_name": "PL DE LA ROSE BLEUE",
+      "sales": 45,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ALL DE LA GRANDE PRAIRIE",
+      "sales": 39,
+      "median_price_per_sqm": 4511.256038647343
+    },
+    {
+      "street_name": "RUE PROUDHON",
+      "sales": 33,
+      "median_price_per_sqm": 3666.6666666666665
+    },
+    {
+      "street_name": "ALL DES MILLE ET UNE NUITS",
+      "sales": 24,
+      "median_price_per_sqm": 2627.3584905660377
+    },
+    {
+      "street_name": "BD DE BEAUBOURG",
+      "sales": 23,
+      "median_price_per_sqm": 1254.071661237785
+    }
+  ]
+}
