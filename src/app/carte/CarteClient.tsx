@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { assetUrl } from "@/lib/url";
+import { communeDataUrl } from "@/lib/url";
 import { History, Info, Box } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
+import { DEFAULT_COMMUNE, type CommuneRef } from "@/lib/commune";
 import FiltersBubble from "@/components/carte/FiltersBubble";
 import StreetCard from "@/components/carte/StreetCard";
 import IrisCard from "@/components/carte/IrisCard";
@@ -17,7 +18,14 @@ import type {
 
 type PermitWithCoords = PermitFeature & { lng: number; lat: number };
 
-export default function CarteClient({ stats }: { stats: CommuneStats }) {
+export default function CarteClient({
+  stats,
+  commune = DEFAULT_COMMUNE,
+}: {
+  stats: CommuneStats;
+  commune?: CommuneRef;
+}) {
+  const codeInsee = commune.code_insee;
   const minYear = useMemo(() => Math.min(...stats.years_covered), [stats]);
   const maxYear = useMemo(() => Math.max(...stats.years_covered), [stats]);
   const [filters, setFilters] = useState<MapFilters>({
@@ -69,6 +77,8 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
       {/* Map fills the whole area — only render after mount to avoid SSR/MapLibre conflict */}
       {mounted ? (
         <CarteMap
+          codeInsee={codeInsee}
+          center={[commune.lng ?? 2.4901, commune.lat ?? 48.8014]}
           filters={filters}
           selectedIrisCode={selectedIris?.code_iris ?? null}
           is3d={is3d}
@@ -165,12 +175,13 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
       {/* Selected street drawer (right panel) */}
       {selected && (
         <StreetCard
+          codeInsee={codeInsee}
           street={selected}
           onClose={() => setSelected(null)}
           onOpenIris={async () => {
             const code = (selected as unknown as { code_iris?: string }).code_iris;
             if (!code) return;
-            const data = await fetch(assetUrl("/data/commune/94068/iris.geojson")).then((r) => r.json());
+            const data = await fetch(communeDataUrl(codeInsee, "iris.geojson")).then((r) => r.json());
             const match = (data.features as { properties: IrisProps }[]).find(
               (f) => f.properties.code_iris === code,
             );
@@ -184,7 +195,7 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
 
       {/* Selected IRIS floating card */}
       {selectedIris && !selected && !selectedPipeline && !selectedPermit && (
-        <IrisCard iris={selectedIris} onClose={() => setSelectedIris(null)} />
+        <IrisCard codeInsee={codeInsee} iris={selectedIris} onClose={() => setSelectedIris(null)} />
       )}
 
       {/* Selected pipeline logement */}
@@ -200,6 +211,7 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
       {/* Market modal — multi-onglets Historique */}
       {marketOpen && (
         <MarketModal
+          codeInsee={codeInsee}
           stats={stats}
           onClose={() => setMarketOpen(false)}
           filters={filters}

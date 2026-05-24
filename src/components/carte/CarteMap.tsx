@@ -1,19 +1,19 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { assetUrl } from "@/lib/url";
+import { communeDataUrl } from "@/lib/url";
 import maplibregl, { Map, MapGeoJSONFeature } from "maplibre-gl";
 import type { StreetProps } from "@/lib/types";
 import { formatStreet } from "@/lib/format";
 import type { MapFilters, IrisProps, PipelineLogement, PermitFeature } from "./types";
-
-const SAINT_MAUR_CENTER: [number, number] = [2.4901, 48.8014];
 
 function dpeColor(et: string): string {
   return et === "G" ? "#7a2810" : et === "F" ? "#b54f3a" : "#c09b5a";
 }
 
 export default function CarteMap({
+  codeInsee,
+  center,
   filters,
   selectedIrisCode,
   is3d,
@@ -22,6 +22,8 @@ export default function CarteMap({
   onSelectPipeline,
   onSelectPermit,
 }: {
+  codeInsee: string;
+  center: [number, number];
   filters: MapFilters;
   selectedIrisCode: string | null;
   is3d: boolean;
@@ -46,14 +48,10 @@ export default function CarteMap({
       const map = new maplibregl.Map({
         container: containerRef.current,
         style: "https://tiles.openfreemap.org/styles/positron",
-        center: SAINT_MAUR_CENTER,
+        center,
         zoom: 13.1,
         pitch: 0,
         attributionControl: { compact: true },
-        maxBounds: [
-          [2.42, 48.77],
-          [2.56, 48.83],
-        ],
       });
 
       map.addControl(
@@ -99,9 +97,9 @@ export default function CarteMap({
       map.on("load", async () => {
         try {
           const [streetsRes, txRes, irisRes] = await Promise.all([
-            fetch(assetUrl("/data/commune/94068/streets.geojson")),
-            fetch(assetUrl("/data/commune/94068/transactions.geojson")),
-            fetch(assetUrl("/data/commune/94068/iris.geojson")),
+            fetch(communeDataUrl(codeInsee, "streets.geojson")),
+            fetch(communeDataUrl(codeInsee, "transactions.geojson")),
+            fetch(communeDataUrl(codeInsee, "iris.geojson")),
           ]);
           const streets = await streetsRes.json();
           const transactions = await txRes.json();
@@ -245,7 +243,7 @@ export default function CarteMap({
           });
 
           // ─── Pipeline layer : logements à fort potentiel de vente ──────────
-          const pipeRes = await fetch(assetUrl("/data/commune/94068/pipeline.geojson"));
+          const pipeRes = await fetch(communeDataUrl(codeInsee, "pipeline.geojson"));
           if (pipeRes.ok) {
             const pipeline = await pipeRes.json();
             map.addSource("pipeline", { type: "geojson", data: pipeline });
@@ -361,7 +359,7 @@ export default function CarteMap({
           }
 
           // ─── Permits / cadastral updates layer ─────────────────────────────
-          const permRes = await fetch(assetUrl("/data/commune/94068/permits.geojson"));
+          const permRes = await fetch(communeDataUrl(codeInsee, "permits.geojson"));
           if (permRes.ok) {
             const permits = await permRes.json();
             map.addSource("permits", { type: "geojson", data: permits });

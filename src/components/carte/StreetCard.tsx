@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { assetUrl } from "@/lib/url";
+import { communeDataUrl } from "@/lib/url";
 import {
   X,
   Home,
@@ -31,10 +31,12 @@ type Tx = {
 type Tab = "evolution" | "ventes" | "quartier";
 
 export default function StreetCard({
+  codeInsee,
   street,
   onClose,
   onOpenIris,
 }: {
+  codeInsee: string;
   street: StreetProps & { code_iris?: string; nom_iris?: string };
   onClose: () => void;
   onOpenIris: () => void;
@@ -48,14 +50,14 @@ export default function StreetCard({
   useEffect(() => {
     let cancelled = false;
     if (!allTransactions) {
-      fetch(assetUrl("/data/commune/94068/transactions.geojson"))
+      fetch(communeDataUrl(codeInsee, "transactions.geojson"))
         .then((r) => r.json())
         .then((data: { features: TxFeature[] }) => {
           if (!cancelled) setAllTransactions(data.features);
         });
     }
     if (street.code_iris && !iris) {
-      fetch(assetUrl("/data/commune/94068/iris.geojson"))
+      fetch(communeDataUrl(codeInsee, "iris.geojson"))
         .then((r) => r.json())
         .then((data: { features: { properties: IrisProps }[] }) => {
           const match = data.features.find(

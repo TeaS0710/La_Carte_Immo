@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { assetUrl } from "@/lib/url";
+import { communeDataUrl } from "@/lib/url";
 import {
   X, Users, Home, Building, Zap, TrendingUp, Award, Target, FileText,
   Train, ShieldAlert, Printer, Image as ImageIcon,
@@ -19,9 +19,11 @@ type Analysis = { ok: boolean; text?: string; error?: string; source?: string; m
 type PipelineFeature = { properties: PipelineLogement };
 
 export default function IrisCard({
+  codeInsee,
   iris,
   onClose,
 }: {
+  codeInsee: string;
   iris: IrisProps;
   onClose: () => void;
 }) {
@@ -33,7 +35,7 @@ export default function IrisCard({
 
   useEffect(() => {
     let cancelled = false;
-    fetch(assetUrl("/data/commune/94068/iris_analyses.json"))
+    fetch(communeDataUrl(codeInsee, "iris_analyses.json"))
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((all: Record<string, Analysis>) => {
         if (!cancelled) setAnalysis(all[iris.code_iris] ?? null);
@@ -41,7 +43,7 @@ export default function IrisCard({
       .catch(() => {
         if (!cancelled) setAnalysis(null);
       });
-    fetch(assetUrl("/data/commune/94068/pipeline.geojson"))
+    fetch(communeDataUrl(codeInsee, "pipeline.geojson"))
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((data: { features: PipelineFeature[] }) => {
         if (cancelled) return;
@@ -54,13 +56,13 @@ export default function IrisCard({
       .catch(() => {
         if (!cancelled) setPipeline([]);
       });
-    fetch(assetUrl("/data/commune/94068/commune_risks.json"))
+    fetch(communeDataUrl(codeInsee, "commune_risks.json"))
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((r: CommuneRisks) => {
         if (!cancelled) setRisks(r);
       })
       .catch(() => {});
-    fetch(assetUrl("/data/commune/94068/iris_analyses_audit.json"))
+    fetch(communeDataUrl(codeInsee, "iris_analyses_audit.json"))
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((data: { per_iris: Record<string, { factuality_score?: number; n_cited?: number; n_matched?: number }> }) => {
         if (cancelled) return;
@@ -77,7 +79,7 @@ export default function IrisCard({
     return () => {
       cancelled = true;
     };
-  }, [iris.code_iris]);
+  }, [iris.code_iris, codeInsee]);
 
   const ignOrthoUrl = `https://www.geoportail.gouv.fr/carte?c=${iris.lng ?? 2.49},${iris.lat ?? 48.80}&z=17&l0=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS(1)&permalink=yes`;
   const dpeMix = iris.dpe ? Object.entries(iris.dpe).sort((a, b) => b[1] - a[1])[0] : null;

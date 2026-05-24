@@ -12,6 +12,9 @@ export interface CommuneRef {
   slug: string;
   code_dept: string;
   code_postal: string;
+  population?: number;
+  lng?: number;
+  lat?: number;
 }
 
 export const DEFAULT_COMMUNE: CommuneRef = {
@@ -20,6 +23,9 @@ export const DEFAULT_COMMUNE: CommuneRef = {
   slug: "saint-maur-des-fosses",
   code_dept: "94",
   code_postal: "94100",
+  population: 75501,
+  lng: 2.4901,
+  lat: 48.8014,
 };
 
 export const COMMUNES: CommuneRef[] = [

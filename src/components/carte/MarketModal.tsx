@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { assetUrl } from "@/lib/url";
+import { communeDataUrl } from "@/lib/url";
 import { useEscape } from "@/lib/useEscape";
 import { X, LineChart as LineChartIcon } from "lucide-react";
 import {
@@ -28,11 +28,13 @@ const TABS: { id: Tab; label: string }[] = [
 ];
 
 export default function MarketModal({
+  codeInsee,
   stats,
   onClose,
   initialTab = "evolution",
   filters,
 }: {
+  codeInsee: string;
   stats: CommuneStats;
   onClose: () => void;
   initialTab?: Tab;
@@ -56,6 +58,7 @@ export default function MarketModal({
       >
         <ModalHeader onClose={onClose} />
         <ModalContent
+          codeInsee={codeInsee}
           stats={stats}
           initialTab={initialTab}
           filters={filters}
@@ -85,10 +88,12 @@ function ModalHeader({ onClose }: { onClose: () => void }) {
 }
 
 function ModalContent({
+  codeInsee,
   stats,
   initialTab,
   filters,
 }: {
+  codeInsee: string;
   stats: CommuneStats;
   initialTab: Tab;
   filters: MapFilters;
@@ -117,8 +122,8 @@ function ModalContent({
 
       <div className="p-6">
         {tab === "evolution" && <EvolutionTab stats={stats} yearRange={filters.yearRange} />}
-        {tab === "projection" && <ProjectionTab stats={stats} />}
-        {tab === "strates" && <StratesTab />}
+        {tab === "projection" && <ProjectionTab codeInsee={codeInsee} stats={stats} />}
+        {tab === "strates" && <StratesTab codeInsee={codeInsee} />}
       </div>
     </>
   );
@@ -191,14 +196,14 @@ function EvolutionTab({
   );
 }
 
-function ProjectionTab({ stats }: { stats: CommuneStats }) {
+function ProjectionTab({ codeInsee, stats }: { codeInsee: string; stats: CommuneStats }) {
   const [proj, setProj] = useState<ProjectionData | null>(null);
   useEffect(() => {
-    fetch(assetUrl("/data/commune/94068/projection.json"))
+    fetch(communeDataUrl(codeInsee, "projection.json"))
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then(setProj)
       .catch(() => setProj(null));
-  }, []);
+  }, [codeInsee]);
 
   if (!proj) {
     return (
@@ -308,14 +313,14 @@ function FallbackYearly({ stats }: { stats: CommuneStats }) {
 // Vraies données agrégées commune (issues de scripts/enrich_iris_aggregates.py)
 // disponibles via /data/commune/94068/commune.json — chargées en client.
 
-function StratesTab() {
+function StratesTab({ codeInsee }: { codeInsee: string }) {
   const [commune, setCommune] = useState<Record<string, number> | null>(null);
   useEffect(() => {
-    fetch(assetUrl("/data/commune/94068/commune.json"))
+    fetch(communeDataUrl(codeInsee, "commune.json"))
       .then((r) => r.json())
       .then(setCommune)
       .catch(() => setCommune(null));
-  }, []);
+  }, [codeInsee]);
 
   if (!commune) {
     return <div className="text-sm text-ink-mute">Chargement des indicateurs commune…</div>;
