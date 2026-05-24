@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 2014,
+  "sales_delta_pct": 32.7,
+  "median_price": 250000.0,
+  "median_ppsqm": 4654.761904761905,
+  "delta_ppsqm_pct": 18.0,
+  "notable_sales": [
+    {
+      "date": "2025-02-12",
+      "street": "ALL DES COUCOUS",
+      "type": "Maison",
+      "surface": 118,
+      "price": 1200000.0
+    },
+    {
+      "date": "2025-04-10",
+      "street": "RUE PAUL FRANCOIS AVET",
+      "type": "Appartement",
+      "surface": 40,
+      "price": 978000.0
+    },
+    {
+      "date": "2025-04-29",
+      "street": "RUE MICHEL",
+      "type": "Maison",
+      "surface": 125,
+      "price": 895000.0
+    },
+    {
+      "date": "2025-10-17",
+      "street": "RUE ROBERT LEGEAY",
+      "type": "Maison",
+      "surface": 194,
+      "price": 880000.0
+    },
+    {
+      "date": "2025-08-29",
+      "street": "ALL DES COUCOUS",
+      "type": "Maison",
+      "surface": 70,
+      "price": 875000.0
+    }
+  ],
+  "generated_at": "2026-05-24T18:02:44.933301Z"
+}

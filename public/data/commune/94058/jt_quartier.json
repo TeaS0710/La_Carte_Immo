@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 1401,
+  "sales_delta_pct": 22.6,
+  "median_price": 325600.0,
+  "median_ppsqm": 5649.621212121212,
+  "delta_ppsqm_pct": -1.0,
+  "notable_sales": [
+    {
+      "date": "2025-10-10",
+      "street": "BD FOCH",
+      "type": "Maison",
+      "surface": 169,
+      "price": 2750000.0
+    },
+    {
+      "date": "2025-11-13",
+      "street": "AV DU GENERAL DE GAULLE",
+      "type": "Maison",
+      "surface": 182,
+      "price": 2160000.0
+    },
+    {
+      "date": "2025-03-12",
+      "street": "AV DU CHATEAU",
+      "type": "Maison",
+      "surface": 178,
+      "price": 1890000.0
+    },
+    {
+      "date": "2025-05-27",
+      "street": "ALL DES ORMES",
+      "type": "Maison",
+      "surface": 130,
+      "price": 1370000.0
+    },
+    {
+      "date": "2025-04-22",
+      "street": "RUE DES ARTS",
+      "type": "Maison",
+      "surface": 215,
+      "price": 1302000.0
+    }
+  ],
+  "generated_at": "2026-05-24T18:03:24.495854Z"
+}

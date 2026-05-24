@@ -96,6 +96,8 @@ export default function CarteMap({
 
       map.on("load", async () => {
         try {
+          // Charge les data essentielles. iris.geojson est OPTIONNEL : les
+          // communes IDF non-flagship n'en ont pas encore (mode dégradé).
           const [streetsRes, txRes, irisRes] = await Promise.all([
             fetch(communeDataUrl(codeInsee, "streets.geojson")),
             fetch(communeDataUrl(codeInsee, "transactions.geojson")),
@@ -103,11 +105,13 @@ export default function CarteMap({
           ]);
           const streets = await streetsRes.json();
           const transactions = await txRes.json();
-          const iris = await irisRes.json();
+          const iris = irisRes.ok ? await irisRes.json() : null;
 
           map.addSource("streets", { type: "geojson", data: streets });
           map.addSource("transactions", { type: "geojson", data: transactions });
-          map.addSource("iris", { type: "geojson", data: iris });
+          if (iris) {
+            map.addSource("iris", { type: "geojson", data: iris });
+          }
 
           // ─── 3D buildings (source openmaptiles fournie par le style Positron)
           // visibility: none par défaut → activé seulement quand l'utilisateur
@@ -133,49 +137,50 @@ export default function CarteMap({
             });
           }
 
-          // ─── IRIS choropleth (dual use : click target + heatmap-by-quartier)
+          // ─── IRIS choropleth (uniquement si iris.geojson présent)
           // Color stops calibrated on the actual distribution of dvf_sales_total
           // across the 34 IRIS of Saint-Maur (min=38, q20=363, q40=447,
           // median=492, q60=513, q80=633, max=955).
-          map.addLayer({
-            id: "iris-fill",
-            type: "fill",
-            source: "iris",
-            paint: {
-              "fill-color": [
-                "interpolate",
-                ["linear"],
-                ["get", "dvf_sales_total"],
-                0, "#d9e0d4",
-                300, "#a8b8a3",
-                450, "#e6cf9a",
-                550, "#c09b5a",
-                700, "#b54f3a",
-                900, "#7a2810",
-              ],
-              // Grille permanente en transparence colorée — fusion avec les dots
-              "fill-opacity": 0.32,
-            },
-          });
-          map.addLayer({
-            id: "iris-outline",
-            type: "line",
-            source: "iris",
-            paint: {
-              "line-color": "rgba(33,37,41,0.35)",
-              "line-width": 0.7,
-            },
-          });
-          map.addLayer({
-            id: "iris-hover",
-            type: "line",
-            source: "iris",
-            paint: {
-              "line-color": "#9d7e44",
-              "line-width": 2.5,
-            },
-            filter: ["==", ["get", "code_iris"], ""],
-          });
+          if (iris) {
+            map.addLayer({
+              id: "iris-fill",
+              type: "fill",
+              source: "iris",
+              paint: {
+                "fill-color": [
+                  "interpolate",
+                  ["linear"],
+                  ["get", "dvf_sales_total"],
+                  0, "#d9e0d4",
+                  300, "#a8b8a3",
+                  450, "#e6cf9a",
+                  550, "#c09b5a",
+                  700, "#b54f3a",
+                  900, "#7a2810",
+                ],
+                "fill-opacity": 0.32,
+              },
+            });
+            map.addLayer({
+              id: "iris-outline",
+              type: "line",
+              source: "iris",
+              paint: {
+                "line-color": "rgba(33,37,41,0.35)",
+                "line-width": 0.7,
+              },
+            });
+            map.addLayer({
+              id: "iris-hover",
+              type: "line",
+              source: "iris",
+              paint: {
+                "line-color": "#9d7e44",
+                "line-width": 2.5,
+              },
+              filter: ["==", ["get", "code_iris"], ""],
+            });
+          }
 
           // ─── Street points — adaptive : few "headline" points when zoomed
           // out, full detail when zoomed in.

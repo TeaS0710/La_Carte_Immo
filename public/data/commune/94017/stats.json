@@ -1,0 +1,120 @@
+{
+  "commune": "Champigny-sur-Marne",
+  "insee": "94017",
+  "generated_at": "2026-05-24T18:02:31.190486Z",
+  "total_sales": 8946,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 416,
+  "median_price": 265673.0,
+  "median_price_per_sqm": 4244.672897196262,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 2079,
+      "median_price": 269100.0
+    },
+    {
+      "year": 2022,
+      "sales": 2161,
+      "median_price": 275000.0
+    },
+    {
+      "year": 2023,
+      "sales": 1558,
+      "median_price": 256500.0
+    },
+    {
+      "year": 2024,
+      "sales": 1488,
+      "median_price": 255000.0
+    },
+    {
+      "year": 2025,
+      "sales": 1660,
+      "median_price": 270000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GENERAL DE GAULLE",
+      "sales": 881,
+      "median_price_per_sqm": 4375.0
+    },
+    {
+      "street_name": "RUE DE VERDUN",
+      "sales": 449,
+      "median_price_per_sqm": 3896.7741935483873
+    },
+    {
+      "street_name": "RUE DIDEROT",
+      "sales": 325,
+      "median_price_per_sqm": 3940.2985074626868
+    },
+    {
+      "street_name": "RUE DE MUSSELBURGH",
+      "sales": 303,
+      "median_price_per_sqm": 3704.261954261954
+    },
+    {
+      "street_name": "AV ROGER SALENGRO",
+      "sales": 205,
+      "median_price_per_sqm": 4203.125
+    },
+    {
+      "street_name": "BD DE STALINGRAD",
+      "sales": 201,
+      "median_price_per_sqm": 3901.785714285714
+    },
+    {
+      "street_name": "RES GABRIEL PERI",
+      "sales": 191,
+      "median_price_per_sqm": 3812.5996810207334
+    },
+    {
+      "street_name": "BD ARISTIDE BRIAND",
+      "sales": 170,
+      "median_price_per_sqm": 6576.923076923077
+    },
+    {
+      "street_name": "RUE ALEXANDRE FOURNY",
+      "sales": 156,
+      "median_price_per_sqm": 3001.754385964912
+    },
+    {
+      "street_name": "RUE GUY MOQUET",
+      "sales": 154,
+      "median_price_per_sqm": 3587.209302325581
+    },
+    {
+      "street_name": "RUE JEAN JAURES",
+      "sales": 118,
+      "median_price_per_sqm": 4543.402777777777
+    },
+    {
+      "street_name": "AV CARNOT",
+      "sales": 117,
+      "median_price_per_sqm": 5166.666666666667
+    },
+    {
+      "street_name": "CHE DU PRE DE L ETANG",
+      "sales": 115,
+      "median_price_per_sqm": 4600.0
+    },
+    {
+      "street_name": "RUE ALBERT THOMAS",
+      "sales": 105,
+      "median_price_per_sqm": 8088.235294117647
+    },
+    {
+      "street_name": "AV MAURICE THOREZ",
+      "sales": 92,
+      "median_price_per_sqm": 2654.2847749853886
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Le Perreux-sur-Marne",
+  "insee": "94058",
+  "generated_at": "2026-05-24T18:03:24.498470Z",
+  "total_sales": 7792,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 176,
+  "median_price": 373800.0,
+  "median_price_per_sqm": 6171.875,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1797,
+      "median_price": 378800.0
+    },
+    {
+      "year": 2022,
+      "sales": 1979,
+      "median_price": 398000.0
+    },
+    {
+      "year": 2023,
+      "sales": 1472,
+      "median_price": 415000.0
+    },
+    {
+      "year": 2024,
+      "sales": 1143,
+      "median_price": 370000.0
+    },
+    {
+      "year": 2025,
+      "sales": 1401,
+      "median_price": 325600.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GENERAL DE GAULLE",
+      "sales": 641,
+      "median_price_per_sqm": 5937.5
+    },
+    {
+      "street_name": "AV PIERRE BROSSOLETTE",
+      "sales": 415,
+      "median_price_per_sqm": 6250.0
+    },
+    {
+      "street_name": "BD DE L ALSACE LORRAINE",
+      "sales": 412,
+      "median_price_per_sqm": 10822.777777777777
+    },
+    {
+      "street_name": "AV GABRIEL PERI",
+      "sales": 388,
+      "median_price_per_sqm": 5774.019607843137
+    },
+    {
+      "street_name": "AV LEDRU ROLLIN",
+      "sales": 351,
+      "median_price_per_sqm": 6583.333333333333
+    },
+    {
+      "street_name": "AV DU MARECHAL JOFFRE",
+      "sales": 252,
+      "median_price_per_sqm": 5723.050173869846
+    },
+    {
+      "street_name": "ALL DE BELLEVUE",
+      "sales": 197,
+      "median_price_per_sqm": 5582.579185520362
+    },
+    {
+      "street_name": "RUE DE L'EMBARCADERE",
+      "sales": 185,
+      "median_price_per_sqm": 5263.8
+    },
+    {
+      "street_name": "RUE VICTOR RECOURAT",
+      "sales": 179,
+      "median_price_per_sqm": 6463.414634146341
+    },
+    {
+      "street_name": "BD FOCH",
+      "sales": 179,
+      "median_price_per_sqm": 5755.813953488372
+    },
+    {
+      "street_name": "BD DE FONTENAY",
+      "sales": 178,
+      "median_price_per_sqm": 65182.488764044945
+    },
+    {
+      "street_name": "AV DU 8 MAI 1945",
+      "sales": 176,
+      "median_price_per_sqm": 10358.214553638409
+    },
+    {
+      "street_name": "RUE DE LA PAIX",
+      "sales": 152,
+      "median_price_per_sqm": 61890.10989010989
+    },
+    {
+      "street_name": "AV LAMARTINE",
+      "sales": 141,
+      "median_price_per_sqm": 5562.5
+    },
+    {
+      "street_name": "RUE DES FRATELLINI",
+      "sales": 128,
+      "median_price_per_sqm": 6436.920017675651
+    }
+  ]
+}

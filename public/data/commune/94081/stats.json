@@ -1,0 +1,120 @@
+{
+  "commune": "Vitry-sur-Seine",
+  "insee": "94081",
+  "generated_at": "2026-05-24T18:03:52.870302Z",
+  "total_sales": 8534,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 321,
+  "median_price": 250000.0,
+  "median_price_per_sqm": 4640.59375,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1886,
+      "median_price": 261130.44
+    },
+    {
+      "year": 2022,
+      "sales": 2027,
+      "median_price": 259000.0
+    },
+    {
+      "year": 2023,
+      "sales": 1672,
+      "median_price": 257000.0
+    },
+    {
+      "year": 2024,
+      "sales": 1586,
+      "median_price": 262000.0
+    },
+    {
+      "year": 2025,
+      "sales": 1363,
+      "median_price": 218000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE GABRIEL PERI",
+      "sales": 319,
+      "median_price_per_sqm": 4261.446886446886
+    },
+    {
+      "street_name": "AV ROUGET DE LISLE",
+      "sales": 258,
+      "median_price_per_sqm": 4408.333333333333
+    },
+    {
+      "street_name": "RUE EDOUARD TREMBLAY",
+      "sales": 249,
+      "median_price_per_sqm": 4173.210299744898
+    },
+    {
+      "street_name": "AV ANATOLE FRANCE",
+      "sales": 234,
+      "median_price_per_sqm": 4571.428571428572
+    },
+    {
+      "street_name": "RUE EDOUARD TIL",
+      "sales": 226,
+      "median_price_per_sqm": 98922.59139784946
+    },
+    {
+      "street_name": "RUE LOUISE AGLAE CRETTE",
+      "sales": 221,
+      "median_price_per_sqm": 3653.846153846154
+    },
+    {
+      "street_name": "AV PAUL VAILLANT COUTURIER",
+      "sales": 197,
+      "median_price_per_sqm": 5000.0
+    },
+    {
+      "street_name": "RUE EUGENE DERRIEN",
+      "sales": 192,
+      "median_price_per_sqm": 3333.3333333333335
+    },
+    {
+      "street_name": "AV MAXIMILIEN ROBESPIERRE",
+      "sales": 179,
+      "median_price_per_sqm": 3333.3333333333335
+    },
+    {
+      "street_name": "RUE CHARLES INFROIT",
+      "sales": 172,
+      "median_price_per_sqm": 4368.260737130673
+    },
+    {
+      "street_name": "RUE DU GEN MALLERET JOINVILLE",
+      "sales": 167,
+      "median_price_per_sqm": 121666.66666666667
+    },
+    {
+      "street_name": "BD STALINGRAD",
+      "sales": 161,
+      "median_price_per_sqm": 4729.784688995215
+    },
+    {
+      "street_name": "RUE ANTOINE MARIE COLIN",
+      "sales": 159,
+      "median_price_per_sqm": 3500.0
+    },
+    {
+      "street_name": "RUE CAMILLE BLANC",
+      "sales": 146,
+      "median_price_per_sqm": 3444.5519019987105
+    },
+    {
+      "street_name": "RUE JULES LAGAISSE",
+      "sales": 130,
+      "median_price_per_sqm": 4830.5084745762715
+    }
+  ]
+}

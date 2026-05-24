@@ -1,0 +1,120 @@
+{
+  "commune": "Maisons-Alfort",
+  "insee": "94046",
+  "generated_at": "2026-05-24T18:03:14.980968Z",
+  "total_sales": 8865,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 158,
+  "median_price": 326500.0,
+  "median_price_per_sqm": 6013.526315789473,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1991,
+      "median_price": 362000.0
+    },
+    {
+      "year": 2022,
+      "sales": 2084,
+      "median_price": 350000.0
+    },
+    {
+      "year": 2023,
+      "sales": 1616,
+      "median_price": 310000.0
+    },
+    {
+      "year": 2024,
+      "sales": 1369,
+      "median_price": 285600.0
+    },
+    {
+      "year": 2025,
+      "sales": 1805,
+      "median_price": 310000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GENERAL LECLERC",
+      "sales": 717,
+      "median_price_per_sqm": 5517.857142857143
+    },
+    {
+      "street_name": "AV DE LA REPUBLIQUE",
+      "sales": 435,
+      "median_price_per_sqm": 6517.441860465116
+    },
+    {
+      "street_name": "DNE DE CHATEAU GAILLARD",
+      "sales": 399,
+      "median_price_per_sqm": 4622.950819672131
+    },
+    {
+      "street_name": "RUE MARC SANGNIER",
+      "sales": 306,
+      "median_price_per_sqm": 5227.428515471994
+    },
+    {
+      "street_name": "AV GAMBETTA",
+      "sales": 299,
+      "median_price_per_sqm": 6503.370893812071
+    },
+    {
+      "street_name": "RUE DU 11 NOVEMBRE 1918",
+      "sales": 292,
+      "median_price_per_sqm": 5750.0
+    },
+    {
+      "street_name": "RUE CARNOT",
+      "sales": 289,
+      "median_price_per_sqm": 6234.215784215784
+    },
+    {
+      "street_name": "RUE VICTOR HUGO",
+      "sales": 278,
+      "median_price_per_sqm": 5282.528641571194
+    },
+    {
+      "street_name": "RUE JEAN JAURES",
+      "sales": 254,
+      "median_price_per_sqm": 5370.37037037037
+    },
+    {
+      "street_name": "AV DU GENERAL DE GAULLE",
+      "sales": 244,
+      "median_price_per_sqm": 6216.216216216216
+    },
+    {
+      "street_name": "RUE BOURGELAT",
+      "sales": 224,
+      "median_price_per_sqm": 285915.4929577465
+    },
+    {
+      "street_name": "CRS DES JUILLIOTTES",
+      "sales": 214,
+      "median_price_per_sqm": 4655.172413793103
+    },
+    {
+      "street_name": "AV GEORGES CLEMENCEAU",
+      "sales": 150,
+      "median_price_per_sqm": 5652.173913043478
+    },
+    {
+      "street_name": "RUE LT VAISSEAU ESTIENNE ORVES",
+      "sales": 146,
+      "median_price_per_sqm": 6278.911564625851
+    },
+    {
+      "street_name": "RUE DE LA CONCORDE",
+      "sales": 145,
+      "median_price_per_sqm": 85365.85365853658
+    }
+  ]
+}

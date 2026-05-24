@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 1164,
+  "sales_delta_pct": 36.8,
+  "median_price": 264000.0,
+  "median_ppsqm": 5211.93853427896,
+  "delta_ppsqm_pct": 5.1,
+  "notable_sales": [
+    {
+      "date": "2025-12-30",
+      "street": "RUE VAILLANT COUTURIER",
+      "type": "Maison",
+      "surface": 190,
+      "price": 1420000.0
+    },
+    {
+      "date": "2025-12-11",
+      "street": "RUE DE LA CARPE",
+      "type": "Maison",
+      "surface": 150,
+      "price": 1100000.0
+    },
+    {
+      "date": "2025-12-23",
+      "street": "QUAI JEAN BAPTISTE CLEMENT",
+      "type": "Appartement",
+      "surface": 88,
+      "price": 1000000.0
+    },
+    {
+      "date": "2025-12-30",
+      "street": "RUE VAILLANT COUTURIER",
+      "type": "Maison",
+      "surface": 80,
+      "price": 955000.0
+    },
+    {
+      "date": "2025-04-14",
+      "street": "RUE LAFAYETTE",
+      "type": "Maison",
+      "surface": 131,
+      "price": 910000.0
+    }
+  ],
+  "generated_at": "2026-05-24T18:02:17.915225Z"
+}
