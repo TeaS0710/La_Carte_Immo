@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 66,
+  "sales_delta_pct": -7.0,
+  "median_price": 95000.0,
+  "median_ppsqm": 2287.2340425531916,
+  "delta_ppsqm_pct": -25.1,
+  "notable_sales": [
+    {
+      "date": "2025-10-01",
+      "street": "RUE DU LAVOIR",
+      "type": "Maison",
+      "surface": 172,
+      "price": 395000.0
+    },
+    {
+      "date": "2025-10-31",
+      "street": "RUE DU LAVOIR",
+      "type": "Maison",
+      "surface": 151,
+      "price": 325000.0
+    },
+    {
+      "date": "2025-12-29",
+      "street": "RUE SAINT ROCH",
+      "type": "Maison",
+      "surface": 133,
+      "price": 306000.0
+    },
+    {
+      "date": "2025-03-17",
+      "street": "RUE DES CLOSEAUX",
+      "type": "Maison",
+      "surface": 147,
+      "price": 267000.0
+    },
+    {
+      "date": "2025-01-24",
+      "street": "RUE DES CLOSEAUX",
+      "type": "Maison",
+      "surface": 119,
+      "price": 265000.0
+    }
+  ],
+  "generated_at": "2026-05-24T19:20:42.134131Z"
+}

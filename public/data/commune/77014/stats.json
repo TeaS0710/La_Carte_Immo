@@ -1,0 +1,120 @@
+{
+  "commune": "Avon",
+  "insee": "77014",
+  "generated_at": "2026-05-24T19:22:09.458162Z",
+  "total_sales": 4865,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 95,
+  "median_price": 229000.0,
+  "median_price_per_sqm": 3806.686868686869,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 836,
+      "median_price": 222000.0
+    },
+    {
+      "year": 2022,
+      "sales": 925,
+      "median_price": 198778.0
+    },
+    {
+      "year": 2023,
+      "sales": 1597,
+      "median_price": 28904358.0
+    },
+    {
+      "year": 2024,
+      "sales": 777,
+      "median_price": 187000.0
+    },
+    {
+      "year": 2025,
+      "sales": 730,
+      "median_price": 199700.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DES BOULEAUX",
+      "sales": 801,
+      "median_price_per_sqm": 418903.73913043475
+    },
+    {
+      "street_name": "AV FRANKLIN ROOSEVELT",
+      "sales": 460,
+      "median_price_per_sqm": 4833.333333333333
+    },
+    {
+      "street_name": "RUE BERNARD PALISSY",
+      "sales": 293,
+      "median_price_per_sqm": 3507.6923076923076
+    },
+    {
+      "street_name": "AV DU GENERAL DE GAULLE",
+      "sales": 221,
+      "median_price_per_sqm": 580000.0
+    },
+    {
+      "street_name": "AV DE LA FORET",
+      "sales": 182,
+      "median_price_per_sqm": 1960.7843137254902
+    },
+    {
+      "street_name": "AVE DE GAULLE 27 FOUGERES",
+      "sales": 160,
+      "median_price_per_sqm": 1571.4285714285713
+    },
+    {
+      "street_name": "RUE REMY DUMONCEL",
+      "sales": 152,
+      "median_price_per_sqm": 3585.811111111111
+    },
+    {
+      "street_name": "RUE JEAN FONTENELLE",
+      "sales": 140,
+      "median_price_per_sqm": 27500.0
+    },
+    {
+      "street_name": "RES BERNARD PALISSY",
+      "sales": 132,
+      "median_price_per_sqm": 3277.3226773226775
+    },
+    {
+      "street_name": "RUE DE LA REPUBLIQUE",
+      "sales": 128,
+      "median_price_per_sqm": 3537.67942583732
+    },
+    {
+      "street_name": "RUE DU MONTCEAU",
+      "sales": 103,
+      "median_price_per_sqm": 4065.217391304348
+    },
+    {
+      "street_name": "RUE DES SAPINS",
+      "sales": 102,
+      "median_price_per_sqm": 1900.8620689655172
+    },
+    {
+      "street_name": "RUE CHARLES MEUNIER",
+      "sales": 99,
+      "median_price_per_sqm": 4301.135188157659
+    },
+    {
+      "street_name": "RUE GAMBETTA",
+      "sales": 99,
+      "median_price_per_sqm": 3728.813559322034
+    },
+    {
+      "street_name": "RUE DES CHENES",
+      "sales": 95,
+      "median_price_per_sqm": 1969.9507389162561
+    }
+  ]
+}

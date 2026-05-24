@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 35,
+  "sales_delta_pct": 40.0,
+  "median_price": 190000.0,
+  "median_ppsqm": 2139.772727272727,
+  "delta_ppsqm_pct": 46.0,
+  "notable_sales": [
+    {
+      "date": "2025-09-05",
+      "street": "RTE NATIONALE",
+      "type": "Maison",
+      "surface": 130,
+      "price": 300000.0
+    },
+    {
+      "date": "2025-08-27",
+      "street": "RUE DU DIX NEUF MARS 1962",
+      "type": "Maison",
+      "surface": 98,
+      "price": 254100.0
+    },
+    {
+      "date": "2025-12-11",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 160,
+      "price": 241780.0
+    },
+    {
+      "date": "2025-02-28",
+      "street": "MORVILLE",
+      "type": "Maison",
+      "surface": 144,
+      "price": 222000.0
+    },
+    {
+      "date": "2025-01-16",
+      "street": "RTE DE VERTEAU",
+      "type": "Maison",
+      "surface": 105,
+      "price": 198000.0
+    }
+  ],
+  "generated_at": "2026-05-24T19:20:55.945239Z"
+}

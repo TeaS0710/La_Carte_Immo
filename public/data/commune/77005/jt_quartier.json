@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 185,
+  "sales_delta_pct": 30.3,
+  "median_price": 223000.0,
+  "median_ppsqm": 3456.198347107438,
+  "delta_ppsqm_pct": -13.5,
+  "notable_sales": [
+    {
+      "date": "2025-03-28",
+      "street": "RUE DU GENERAL DE GAULLE",
+      "type": "Maison",
+      "surface": 175,
+      "price": 650000.0
+    },
+    {
+      "date": "2025-10-09",
+      "street": "RUE DE RIGAUDIN",
+      "type": "Maison",
+      "surface": 161,
+      "price": 630000.0
+    },
+    {
+      "date": "2025-11-19",
+      "street": "ALL JEAN FRANCOIS MILLET",
+      "type": "Maison",
+      "surface": 174,
+      "price": 575550.0
+    },
+    {
+      "date": "2025-02-13",
+      "street": "RUE PIGERON",
+      "type": "Maison",
+      "surface": 134,
+      "price": 530000.0
+    },
+    {
+      "date": "2025-10-10",
+      "street": "PAS DE LA TOURNELLE",
+      "type": "Maison",
+      "surface": 138,
+      "price": 500000.0
+    }
+  ],
+  "generated_at": "2026-05-24T19:19:07.771416Z"
+}

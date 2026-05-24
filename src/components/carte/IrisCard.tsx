@@ -177,13 +177,15 @@ export default function IrisCard({
               title="Analyse du marché immobilier"
               description="Croisement DVF · prix médian, volume, comparaison commune"
               buttonLabel="Lancer l'analyse du marché immobilier"
+              sources={["DGFiP DVF", "INSEE IRIS"]}
               steps={[
-                "Lecture des transactions DVF (DGFiP)…",
+                "Connexion à la base DVF (DGFiP)…",
+                "Extraction des transactions sur la période…",
                 "Calcul du prix médian et du €/m²…",
                 "Comparaison avec la moyenne communale…",
-                "Préparation des graphiques…",
+                "Préparation des graphiques de tendance…",
               ]}
-              durationMs={[2000, 3600]}
+              durationMs={[3200, 5400]}
             >
               <div className="grid grid-cols-3 gap-px bg-[color:var(--line-soft)] rounded-xl overflow-hidden border border-[color:var(--line)] mb-4">
                 <KPI label="Ventes" value={formatNum(iris.dvf_sales_total)} accent />
@@ -376,13 +378,16 @@ export default function IrisCard({
               title="Pipeline ventes probables"
               description={`${pipeline.length} candidats à scorer dans ce quartier`}
               buttonLabel="Lancer l'analyse du pipeline"
+              sources={["ADEME DPE", "DGFiP DVF", "Modèle sklearn"]}
               steps={[
-                "Filtrage des logements DPE F/G…",
-                "Croisement avec l'âge du bâti…",
-                "Application du modèle de probabilité de vente 12 mois…",
+                "Chargement de la base DPE (ADEME)…",
+                "Filtrage des logements étiquette F/G…",
+                "Croisement avec l'historique DVF de la rue…",
+                "Application du modèle calibré (LogisticReg)…",
+                "Calcul des facteurs explicatifs…",
                 "Ordonnancement par score décroissant…",
               ]}
-              durationMs={[3000, 5200]}
+              durationMs={[4200, 6400]}
             >
               <div className="text-[12px] text-ink-soft mb-3 leading-relaxed">
                 <strong className="text-ink">{pipeline.length}</strong> logements DPE F/G ou
@@ -411,16 +416,18 @@ export default function IrisCard({
             </SectionTitle>
             <AnalyseGate
               title="Note d'analyse contextuelle"
-              description="Rédaction automatique croisée avec les sources officielles"
+              description="Rédaction IA croisée avec vérification factuelle automatique"
               buttonLabel="Lancer la rédaction de la note"
+              sources={["INSEE 2021", "DGFiP DVF", "INSEE BPE", "Ollama gpt-oss"]}
               steps={[
+                "Chargement de la knowledge base IRIS…",
                 "Lecture des indicateurs INSEE, DVF, BPE…",
                 "Identification du profil acheteur cible…",
                 "Analyse de la dynamique du marché local…",
-                "Rédaction de la synthèse…",
-                "Vérification des chiffres cités…",
+                "Rédaction de la synthèse contextualisée…",
+                "Audit factualité : recoupement des chiffres cités…",
               ]}
-              durationMs={[4200, 6800]}
+              durationMs={[5800, 8400]}
             >
               <div className="border border-[color:var(--line)] rounded-lg p-5 bg-white">
                 <div className="flex items-center justify-between mb-4 pb-3 border-b border-[color:var(--line-soft)]">

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 730,
+  "sales_delta_pct": -6.0,
+  "median_price": 199700.0,
+  "median_ppsqm": 3259.493670886076,
+  "delta_ppsqm_pct": -2.2,
+  "notable_sales": [
+    {
+      "date": "2025-11-13",
+      "street": "AV FRANKLIN ROOSEVELT",
+      "type": "Maison",
+      "surface": 196,
+      "price": 1600000.0
+    },
+    {
+      "date": "2025-04-28",
+      "street": "RUE DU VIADUC",
+      "type": "Maison",
+      "surface": 238,
+      "price": 750000.0
+    },
+    {
+      "date": "2025-10-20",
+      "street": "RUE BERNARD PALISSY",
+      "type": "Appartement",
+      "surface": 35,
+      "price": 732300.0
+    },
+    {
+      "date": "2025-08-26",
+      "street": "RUE DE LA MOINERIE",
+      "type": "Maison",
+      "surface": 129,
+      "price": 640500.0
+    },
+    {
+      "date": "2025-07-22",
+      "street": "RUE MADAME MULLER",
+      "type": "Maison",
+      "surface": 182,
+      "price": 570000.0
+    }
+  ],
+  "generated_at": "2026-05-24T19:22:09.455518Z"
+}

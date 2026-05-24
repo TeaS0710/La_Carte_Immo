@@ -1,0 +1,120 @@
+{
+  "commune": "Amillis",
+  "insee": "77002",
+  "generated_at": "2026-05-24T19:18:06.019751Z",
+  "total_sales": 373,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 58,
+  "median_price": 166000.0,
+  "median_price_per_sqm": 2059.822695035461,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 45,
+      "median_price": 199000.0
+    },
+    {
+      "year": 2022,
+      "sales": 103,
+      "median_price": 207000.0
+    },
+    {
+      "year": 2023,
+      "sales": 69,
+      "median_price": 225000.0
+    },
+    {
+      "year": 2024,
+      "sales": 90,
+      "median_price": 135000.0
+    },
+    {
+      "year": 2025,
+      "sales": 66,
+      "median_price": 183000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU POINT DU JOUR",
+      "sales": 31,
+      "median_price_per_sqm": 1526.7094017094018
+    },
+    {
+      "street_name": "BELLEVUE",
+      "sales": 26,
+      "median_price_per_sqm": 2152.389705882353
+    },
+    {
+      "street_name": "LES BORDES",
+      "sales": 22,
+      "median_price_per_sqm": 2666.6666666666665
+    },
+    {
+      "street_name": "COURCELLES",
+      "sales": 20,
+      "median_price_per_sqm": 2064.677145284622
+    },
+    {
+      "street_name": "RUE DE LA CHAPELLE",
+      "sales": 17,
+      "median_price_per_sqm": 1321.4285714285713
+    },
+    {
+      "street_name": "LE VILLAGE",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES MARNIERES",
+      "sales": 12,
+      "median_price_per_sqm": 2763.8888888888887
+    },
+    {
+      "street_name": "RUE DE BALEINE",
+      "sales": 11,
+      "median_price_per_sqm": 1987.5
+    },
+    {
+      "street_name": "LA BONNETERIE",
+      "sales": 10,
+      "median_price_per_sqm": 1654.9295774647887
+    },
+    {
+      "street_name": "LE PARC",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES VIGNES DU MONT BAUCHET",
+      "sales": 10,
+      "median_price_per_sqm": 1991.8699186991869
+    },
+    {
+      "street_name": "RUE DU MOULIN",
+      "sales": 9,
+      "median_price_per_sqm": 2391.304347826087
+    },
+    {
+      "street_name": "DERRIERE LE BOIS HADENOT",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA FONTAINE D ARGENT",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA TUILERIE",
+      "sales": 8,
+      "median_price_per_sqm": 2049.645390070922
+    }
+  ]
+}

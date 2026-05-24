@@ -1,0 +1,120 @@
+{
+  "commune": "Armentières-en-Brie",
+  "insee": "77008",
+  "generated_at": "2026-05-24T19:20:23.168519Z",
+  "total_sales": 273,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 25,
+  "median_price": 182480.0,
+  "median_price_per_sqm": 2845.528455284553,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 51,
+      "median_price": 350000.0
+    },
+    {
+      "year": 2022,
+      "sales": 25,
+      "median_price": 220000.0
+    },
+    {
+      "year": 2023,
+      "sales": 29,
+      "median_price": 242000.0
+    },
+    {
+      "year": 2024,
+      "sales": 101,
+      "median_price": 15000.0
+    },
+    {
+      "year": 2025,
+      "sales": 67,
+      "median_price": 274500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LES COUVREUSES",
+      "sales": 61,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CHEF DE VILLE",
+      "sales": 33,
+      "median_price_per_sqm": 2641.3333333333335
+    },
+    {
+      "street_name": "LE PARADIS",
+      "sales": 28,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ARMENTIERES",
+      "sales": 24,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES VIGNETTES",
+      "sales": 22,
+      "median_price_per_sqm": 2713.1782945736436
+    },
+    {
+      "street_name": "RTE D ISLES",
+      "sales": 20,
+      "median_price_per_sqm": 3115.787738958471
+    },
+    {
+      "street_name": "RUE DE MARY",
+      "sales": 13,
+      "median_price_per_sqm": 4413.333333333333
+    },
+    {
+      "street_name": "RUE DES CERISIERS",
+      "sales": 12,
+      "median_price_per_sqm": 2845.528455284553
+    },
+    {
+      "street_name": "CHE DE SAINT JEAN",
+      "sales": 6,
+      "median_price_per_sqm": 3053.9347826086955
+    },
+    {
+      "street_name": "RUE DE L ABREUVOIR",
+      "sales": 6,
+      "median_price_per_sqm": 3006.060606060606
+    },
+    {
+      "street_name": "RUE DE MEAUX",
+      "sales": 5,
+      "median_price_per_sqm": 3578.8793103448274
+    },
+    {
+      "street_name": "RUE DU PRESSOIR",
+      "sales": 5,
+      "median_price_per_sqm": 3412.5636672325977
+    },
+    {
+      "street_name": "LES CARRIERES",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES VIGNES DU BOIS CHAUDRO",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE FOUR A CHAUX",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

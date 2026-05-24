@@ -31,12 +31,13 @@ export interface FakeAnalysisState {
  * Cache mémoire : si on a déjà "calculé" cette analyse, on ne rejoue pas.
  */
 export function useFakeAnalysis({
-  minMs = 1800,
-  maxMs = 3800,
+  minMs = 2800,
+  maxMs = 5200,
   steps = [
-    "Préparation des données…",
-    "Analyse en cours…",
-    "Finalisation…",
+    "Initialisation du moteur d'analyse…",
+    "Synchronisation des bases sources…",
+    "Application du modèle…",
+    "Finalisation du rapport…",
   ],
 }: FakeAnalysisOptions = {}): FakeAnalysisState {
   const [isRunning, setIsRunning] = useState(false);

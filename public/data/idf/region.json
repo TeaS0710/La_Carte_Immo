@@ -13,8 +13,8 @@
       "code_dept": "77",
       "nom_dept": "Seine-et-Marne",
       "communes_count_total": 507,
-      "communes_count_available": 0,
-      "total_sales": 0
+      "communes_count_available": 11,
+      "total_sales": 8420
     },
     {
       "code_dept": "78",
@@ -60,8 +60,8 @@
     }
   ],
   "communes_count_total": 1266,
-  "communes_count_available": 10,
-  "total_sales_available": 94395,
+  "communes_count_available": 21,
+  "total_sales_available": 102815,
   "population_total": 12463067,
   "top_communes": [
     {
@@ -253,6 +253,215 @@
         2025
       ],
       "streets_with_sales": 127
+    },
+    {
+      "code_insee": "77014",
+      "slug": "avon",
+      "nom": "Avon",
+      "population": 13651,
+      "lng": 2.7337,
+      "lat": 48.4124,
+      "total_sales": 4865,
+      "median_price": 229000.0,
+      "median_price_per_sqm": 3806.686868686869,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 95
+    },
+    {
+      "code_insee": "77005",
+      "slug": "annet-sur-marne",
+      "nom": "Annet-sur-Marne",
+      "population": 3408,
+      "lng": 2.7067,
+      "lat": 48.9232,
+      "total_sales": 784,
+      "median_price": 240000.0,
+      "median_price_per_sqm": 3795.0819672131147,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 61
+    },
+    {
+      "code_insee": "77001",
+      "slug": "acheres-la-foret",
+      "nom": "Achères-la-Forêt",
+      "population": 1191,
+      "lng": 2.5653,
+      "lat": 48.3476,
+      "total_sales": 484,
+      "median_price": 300000.0,
+      "median_price_per_sqm": 3039.0625,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 65
+    },
+    {
+      "code_insee": "77007",
+      "slug": "argentieres",
+      "nom": "Argentières",
+      "population": 361,
+      "lng": 2.8686,
+      "lat": 48.6524,
+      "total_sales": 431,
+      "median_price": 145000.0,
+      "median_price_per_sqm": 2429.5774647887324,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 29
+    },
+    {
+      "code_insee": "77002",
+      "slug": "amillis",
+      "nom": "Amillis",
+      "population": 830,
+      "lng": 3.14,
+      "lat": 48.7327,
+      "total_sales": 373,
+      "median_price": 166000.0,
+      "median_price_per_sqm": 2059.822695035461,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 58
+    },
+    {
+      "code_insee": "77006",
+      "slug": "arbonne-la-foret",
+      "nom": "Arbonne-la-Forêt",
+      "population": 1021,
+      "lng": 2.5561,
+      "lat": 48.4064,
+      "total_sales": 342,
+      "median_price": 295000.0,
+      "median_price_per_sqm": 3392.3076923076924,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 52
+    },
+    {
+      "code_insee": "77010",
+      "slug": "aubepierre-ozouer-le-repos",
+      "nom": "Aubepierre-Ozouer-le-Repos",
+      "population": 984,
+      "lng": 2.8951,
+      "lat": 48.619,
+      "total_sales": 292,
+      "median_price": 265000.0,
+      "median_price_per_sqm": 2738.095238095238,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 51
+    },
+    {
+      "code_insee": "77008",
+      "slug": "armentieres-en-brie",
+      "nom": "Armentières-en-Brie",
+      "population": 1176,
+      "lng": 3.0124,
+      "lat": 48.9773,
+      "total_sales": 273,
+      "median_price": 182480.0,
+      "median_price_per_sqm": 2845.528455284553,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 25
+    },
+    {
+      "code_insee": "77016",
+      "slug": "bagneaux-sur-loing",
+      "nom": "Bagneaux-sur-Loing",
+      "population": 1570,
+      "lng": 2.708,
+      "lat": 48.2206,
+      "total_sales": 264,
+      "median_price": 140000.0,
+      "median_price_per_sqm": 1929.216449013615,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 48
+    },
+    {
+      "code_insee": "77011",
+      "slug": "aufferville",
+      "nom": "Aufferville",
+      "population": 482,
+      "lng": 2.6022,
+      "lat": 48.2028,
+      "total_sales": 196,
+      "median_price": 183000.0,
+      "median_price_per_sqm": 1979.5833333333335,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 31
+    },
+    {
+      "code_insee": "77013",
+      "slug": "aulnoy",
+      "nom": "Aulnoy",
+      "population": 362,
+      "lng": 3.0887,
+      "lat": 48.8488,
+      "total_sales": 116,
+      "median_price": 231000.0,
+      "median_price_per_sqm": 2141.0579345088163,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 25
     }
   ]
 }

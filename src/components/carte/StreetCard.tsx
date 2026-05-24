@@ -231,13 +231,15 @@ export default function StreetCard({
             title="Évolution de la rue dans le temps"
             description="Calcul du delta de prix et de volume par année"
             buttonLabel="Lancer l'analyse d'évolution"
+            sources={["DGFiP DVF"]}
             steps={[
-              "Lecture des transactions DVF de la rue…",
+              "Connexion à la base DVF (DGFiP)…",
+              "Extraction des transactions de la rue…",
               "Agrégation par année…",
               "Calcul des deltas de prix médian et de volume…",
-              "Préparation du graphique…",
+              "Préparation du graphique de tendance…",
             ]}
-            durationMs={[1800, 3400]}
+            durationMs={[3000, 4800]}
           >
             <EvolutionTab byYear={byYear} street={street} />
           </AnalyseGate>
@@ -246,14 +248,16 @@ export default function StreetCard({
           <AnalyseGate
             key="ventes-gate"
             title="Détail des transactions"
-            description="Liste complète des ventes recensées DGFiP sur la rue"
+            description="Liste complète des ventes recensées sur la rue"
             buttonLabel="Charger le détail des ventes"
+            sources={["DGFiP DVF"]}
             steps={[
-              "Extraction des transactions DVF…",
+              "Connexion à la base DVF (DGFiP)…",
+              "Extraction des transactions de la rue…",
               "Tri chronologique inverse…",
               "Mise en forme du tableau…",
             ]}
-            durationMs={[1400, 2800]}
+            durationMs={[2800, 4400]}
           >
             <VentesTab txs={streetTxs} onExport={exportCSV} />
           </AnalyseGate>
@@ -264,12 +268,13 @@ export default function StreetCard({
             title="Fiche quartier rattaché"
             description="Récupération du profil IRIS INSEE associé"
             buttonLabel="Charger la fiche du quartier"
+            sources={["INSEE 2021", "Spatial join"]}
             steps={[
               "Identification de l'IRIS de rattachement…",
               "Chargement des indicateurs INSEE…",
               "Mise en relation avec la rue…",
             ]}
-            durationMs={[1600, 3000]}
+            durationMs={[3000, 4600]}
           >
             <QuartierTab iris={iris} onOpenIris={onOpenIris} />
           </AnalyseGate>
