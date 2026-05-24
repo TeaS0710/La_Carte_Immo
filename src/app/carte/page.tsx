@@ -11,7 +11,7 @@ export const metadata = {
 };
 
 async function loadStats(): Promise<CommuneStats> {
-  const file = path.join(process.cwd(), "public", "data", "saint-maur", "stats.json");
+  const file = path.join(process.cwd(), "public", "data", "commune", "94068", "stats.json");
   return JSON.parse(await fs.readFile(file, "utf-8"));
 }
 

@@ -99,9 +99,9 @@ export default function CarteMap({
       map.on("load", async () => {
         try {
           const [streetsRes, txRes, irisRes] = await Promise.all([
-            fetch(assetUrl("/data/saint-maur/streets.geojson")),
-            fetch(assetUrl("/data/saint-maur/transactions.geojson")),
-            fetch(assetUrl("/data/saint-maur/iris.geojson")),
+            fetch(assetUrl("/data/commune/94068/streets.geojson")),
+            fetch(assetUrl("/data/commune/94068/transactions.geojson")),
+            fetch(assetUrl("/data/commune/94068/iris.geojson")),
           ]);
           const streets = await streetsRes.json();
           const transactions = await txRes.json();
@@ -245,7 +245,7 @@ export default function CarteMap({
           });
 
           // ─── Pipeline layer : logements à fort potentiel de vente ──────────
-          const pipeRes = await fetch(assetUrl("/data/saint-maur/pipeline.geojson"));
+          const pipeRes = await fetch(assetUrl("/data/commune/94068/pipeline.geojson"));
           if (pipeRes.ok) {
             const pipeline = await pipeRes.json();
             map.addSource("pipeline", { type: "geojson", data: pipeline });
@@ -361,7 +361,7 @@ export default function CarteMap({
           }
 
           // ─── Permits / cadastral updates layer ─────────────────────────────
-          const permRes = await fetch(assetUrl("/data/saint-maur/permits.geojson"));
+          const permRes = await fetch(assetUrl("/data/commune/94068/permits.geojson"));
           if (permRes.ok) {
             const permits = await permRes.json();
             map.addSource("permits", { type: "geojson", data: permits });

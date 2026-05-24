@@ -1,22 +1,39 @@
 #!/usr/bin/env python3
 """
-Enrichit la KB avec :
+Enrichit la KB d'UNE commune avec :
   - Risques Géorisques détaillés (résumé + ICPE + radon + PPR)
-  - Distance haversine de chaque IRIS aux 4 gares RER A de Saint-Maur
+  - Distance haversine de chaque IRIS aux gares de transport proches
+
+Usage :
+  ./scripts/enrich_commune_extras.py --code-insee 94068
+  ./scripts/enrich_commune_extras.py --code-insee 75056 --gares-json scripts/gares_paris.json
 
 Outputs :
-  - public/data/saint-maur/commune_risks.json
-  - public/data/saint-maur/iris.geojson  (in-place enrichment)
+  - public/data/commune/{code_insee}/commune_risks.json
+  - public/data/commune/{code_insee}/iris.geojson  (in-place enrichment)
 """
+import argparse
 import json
 import math
 from pathlib import Path
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
-IRIS_GEO = ROOT / "public" / "data" / "saint-maur" / "iris.geojson"
-RISKS_OUT = ROOT / "public" / "data" / "saint-maur" / "commune_risks.json"
-CODE_INSEE = "94068"
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--code-insee", required=True, help="Code INSEE 5 chiffres de la commune")
+parser.add_argument(
+    "--gares-json",
+    default=None,
+    help="JSON optionnel { nom: [lat, lng] } des gares à mesurer (défaut : RER A Saint-Maur)",
+)
+args = parser.parse_args()
+
+CODE_INSEE = args.code_insee
+COMMUNE_DIR = ROOT / "public" / "data" / "commune" / CODE_INSEE
+COMMUNE_DIR.mkdir(parents=True, exist_ok=True)
+IRIS_GEO = COMMUNE_DIR / "iris.geojson"
+RISKS_OUT = COMMUNE_DIR / "commune_risks.json"
 
 # Mapping libellé Géorisques → niveau d'intensité normalisé
 # Géorisques retourne "Risque Existant", "Risque Existant - faible",
@@ -167,12 +184,18 @@ for k, v in risks.items():
     print(f"    {v['label']:35} [{v['intensity']:8}] {v['raw_status']}")
 
 # ── 5. Distance RER par IRIS ─────────────────────────────────────────────────
-GARES_RER_A = {
-    "Saint-Maur-Créteil": (48.7958, 2.4902),
-    "Le Parc-de-Saint-Maur": (48.8105, 2.4824),
-    "Champigny (RER A)": (48.8081, 2.5159),
-    "La Varenne-Chennevières": (48.7977, 2.5152),
-}
+if args.gares_json:
+    GARES = {name: tuple(coords) for name, coords in json.loads(Path(args.gares_json).read_text()).items()}
+elif CODE_INSEE == "94068":
+    GARES = {
+        "Saint-Maur-Créteil": (48.7958, 2.4902),
+        "Le Parc-de-Saint-Maur": (48.8105, 2.4824),
+        "Champigny (RER A)": (48.8081, 2.5159),
+        "La Varenne-Chennevières": (48.7977, 2.5152),
+    }
+else:
+    # Fallback : pas d'enrichissement gare si pas de référentiel
+    GARES = {}
 
 def haversine_m(lat1, lng1, lat2, lng2):
     R = 6371000
@@ -183,25 +206,28 @@ def haversine_m(lat1, lng1, lat2, lng2):
     return 2 * R * math.asin(math.sqrt(a))
 
 
-print("\nComputing RER distances per IRIS…")
-geo = json.loads(IRIS_GEO.read_text())
-n_close = 0
-for f in geo["features"]:
-    p = f["properties"]
-    from shapely.geometry import shape
-    centroid = shape(f["geometry"]).centroid
-    lat, lng = centroid.y, centroid.x
-    dists = {
-        name: round(haversine_m(lat, lng, gare_lat, gare_lng))
-        for name, (gare_lat, gare_lng) in GARES_RER_A.items()
-    }
-    nearest_name, nearest_dist = min(dists.items(), key=lambda x: x[1])
-    p["rer_distance_m"] = nearest_dist
-    p["rer_nearest"] = nearest_name
-    p["rer_walking_min"] = round(nearest_dist / 80, 1)
-    if nearest_dist <= 800:
-        n_close += 1
+if GARES and IRIS_GEO.exists():
+    print("\nComputing transit distances per IRIS…")
+    geo = json.loads(IRIS_GEO.read_text())
+    n_close = 0
+    for f in geo["features"]:
+        p = f["properties"]
+        from shapely.geometry import shape
+        centroid = shape(f["geometry"]).centroid
+        lat, lng = centroid.y, centroid.x
+        dists = {
+            name: round(haversine_m(lat, lng, gare_lat, gare_lng))
+            for name, (gare_lat, gare_lng) in GARES.items()
+        }
+        nearest_name, nearest_dist = min(dists.items(), key=lambda x: x[1])
+        p["rer_distance_m"] = nearest_dist
+        p["rer_nearest"] = nearest_name
+        p["rer_walking_min"] = round(nearest_dist / 80, 1)
+        if nearest_dist <= 800:
+            n_close += 1
 
-IRIS_GEO.write_text(json.dumps(geo, ensure_ascii=False))
-print(f"  {n_close}/{len(geo['features'])} IRIS à <= 800 m d'une gare RER A")
-print(f"Wrote {IRIS_GEO.name} ({IRIS_GEO.stat().st_size // 1024} KB)")
+    IRIS_GEO.write_text(json.dumps(geo, ensure_ascii=False))
+    print(f"  {n_close}/{len(geo['features'])} IRIS à <= 800 m d'une gare")
+    print(f"Wrote {IRIS_GEO.name} ({IRIS_GEO.stat().st_size // 1024} KB)")
+else:
+    print("\nSkipping transit enrichment (no gares mapping or iris.geojson missing)")

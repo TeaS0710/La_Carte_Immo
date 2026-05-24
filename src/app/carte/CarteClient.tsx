@@ -170,7 +170,7 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
           onOpenIris={async () => {
             const code = (selected as unknown as { code_iris?: string }).code_iris;
             if (!code) return;
-            const data = await fetch(assetUrl("/data/saint-maur/iris.geojson")).then((r) => r.json());
+            const data = await fetch(assetUrl("/data/commune/94068/iris.geojson")).then((r) => r.json());
             const match = (data.features as { properties: IrisProps }[]).find(
               (f) => f.properties.code_iris === code,
             );

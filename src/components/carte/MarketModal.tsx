@@ -194,7 +194,7 @@ function EvolutionTab({
 function ProjectionTab({ stats }: { stats: CommuneStats }) {
   const [proj, setProj] = useState<ProjectionData | null>(null);
   useEffect(() => {
-    fetch(assetUrl("/data/saint-maur/projection.json"))
+    fetch(assetUrl("/data/commune/94068/projection.json"))
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then(setProj)
       .catch(() => setProj(null));
@@ -306,12 +306,12 @@ function FallbackYearly({ stats }: { stats: CommuneStats }) {
 }
 
 // Vraies données agrégées commune (issues de scripts/enrich_iris_aggregates.py)
-// disponibles via /data/saint-maur/commune.json — chargées en client.
+// disponibles via /data/commune/94068/commune.json — chargées en client.
 
 function StratesTab() {
   const [commune, setCommune] = useState<Record<string, number> | null>(null);
   useEffect(() => {
-    fetch(assetUrl("/data/saint-maur/commune.json"))
+    fetch(assetUrl("/data/commune/94068/commune.json"))
       .then((r) => r.json())
       .then(setCommune)
       .catch(() => setCommune(null));

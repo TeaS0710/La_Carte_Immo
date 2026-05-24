@@ -33,7 +33,7 @@ export default function IrisCard({
 
   useEffect(() => {
     let cancelled = false;
-    fetch(assetUrl("/data/saint-maur/iris_analyses.json"))
+    fetch(assetUrl("/data/commune/94068/iris_analyses.json"))
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((all: Record<string, Analysis>) => {
         if (!cancelled) setAnalysis(all[iris.code_iris] ?? null);
@@ -41,7 +41,7 @@ export default function IrisCard({
       .catch(() => {
         if (!cancelled) setAnalysis(null);
       });
-    fetch(assetUrl("/data/saint-maur/pipeline.geojson"))
+    fetch(assetUrl("/data/commune/94068/pipeline.geojson"))
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((data: { features: PipelineFeature[] }) => {
         if (cancelled) return;
@@ -54,13 +54,13 @@ export default function IrisCard({
       .catch(() => {
         if (!cancelled) setPipeline([]);
       });
-    fetch(assetUrl("/data/saint-maur/commune_risks.json"))
+    fetch(assetUrl("/data/commune/94068/commune_risks.json"))
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((r: CommuneRisks) => {
         if (!cancelled) setRisks(r);
       })
       .catch(() => {});
-    fetch(assetUrl("/data/saint-maur/iris_analyses_audit.json"))
+    fetch(assetUrl("/data/commune/94068/iris_analyses_audit.json"))
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((data: { per_iris: Record<string, { factuality_score?: number; n_cited?: number; n_matched?: number }> }) => {
         if (cancelled) return;

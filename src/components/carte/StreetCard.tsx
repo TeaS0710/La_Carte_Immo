@@ -48,14 +48,14 @@ export default function StreetCard({
   useEffect(() => {
     let cancelled = false;
     if (!allTransactions) {
-      fetch(assetUrl("/data/saint-maur/transactions.geojson"))
+      fetch(assetUrl("/data/commune/94068/transactions.geojson"))
         .then((r) => r.json())
         .then((data: { features: TxFeature[] }) => {
           if (!cancelled) setAllTransactions(data.features);
         });
     }
     if (street.code_iris && !iris) {
-      fetch(assetUrl("/data/saint-maur/iris.geojson"))
+      fetch(assetUrl("/data/commune/94068/iris.geojson"))
         .then((r) => r.json())
         .then((data: { features: { properties: IrisProps }[] }) => {
           const match = data.features.find(
