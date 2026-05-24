@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 86,
+  "sales_delta_pct": 132.4,
+  "median_price": 422200.0,
+  "median_ppsqm": 52380.95238095238,
+  "delta_ppsqm_pct": 1905.0,
+  "notable_sales": [
+    {
+      "date": "2025-06-09",
+      "street": "RUE DE FOREST",
+      "type": "Maison",
+      "surface": 163,
+      "price": 422200.0
+    },
+    {
+      "date": "2025-03-06",
+      "street": "RUE DU CHATEAU",
+      "type": "Maison",
+      "surface": 154,
+      "price": 369000.0
+    },
+    {
+      "date": "2025-07-04",
+      "street": "IMP DE LA CORNEFLUTTE",
+      "type": "Maison",
+      "surface": 107,
+      "price": 270000.0
+    },
+    {
+      "date": "2025-03-07",
+      "street": "RUE DU LAVOIR",
+      "type": "Maison",
+      "surface": 95,
+      "price": 249000.0
+    },
+    {
+      "date": "2025-07-11",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 100,
+      "price": 225000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:37:52.455921Z"
+}

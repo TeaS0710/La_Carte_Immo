@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 115,
+  "sales_delta_pct": 59.7,
+  "median_price": 115000.0,
+  "median_ppsqm": 1727.2727272727273,
+  "delta_ppsqm_pct": -27.0,
+  "notable_sales": [
+    {
+      "date": "2025-11-25",
+      "street": "RUE GRANDE",
+      "type": "Appartement",
+      "surface": 54,
+      "price": 750000.0
+    },
+    {
+      "date": "2025-04-30",
+      "street": "RUE VICTOR HUGO",
+      "type": "Appartement",
+      "surface": 18,
+      "price": 293000.0
+    },
+    {
+      "date": "2025-02-27",
+      "street": "RUE DU DOCTEUR SCHWEITZER",
+      "type": "Maison",
+      "surface": 133,
+      "price": 250000.0
+    },
+    {
+      "date": "2025-08-29",
+      "street": "ALL DES HIRONDELLES",
+      "type": "Maison",
+      "surface": 126,
+      "price": 224000.0
+    },
+    {
+      "date": "2025-07-25",
+      "street": "RUE MARIE CURIE",
+      "type": "Maison",
+      "surface": 91,
+      "price": 200000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:38:53.728211Z"
+}

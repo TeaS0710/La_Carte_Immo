@@ -1,0 +1,120 @@
+{
+  "commune": "Chanteloup-en-Brie",
+  "insee": "77085",
+  "generated_at": "2026-05-24T20:43:36.993123Z",
+  "total_sales": 910,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 63,
+  "median_price": 264000.0,
+  "median_price_per_sqm": 3902.439024390244,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 179,
+      "median_price": 267800.0
+    },
+    {
+      "year": 2022,
+      "sales": 251,
+      "median_price": 278636.53
+    },
+    {
+      "year": 2023,
+      "sales": 235,
+      "median_price": 262836.0
+    },
+    {
+      "year": 2024,
+      "sales": 106,
+      "median_price": 264000.0
+    },
+    {
+      "year": 2025,
+      "sales": 139,
+      "median_price": 246675.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RTE DE LA FERME DU PAVILLON",
+      "sales": 354,
+      "median_price_per_sqm": 3628.35
+    },
+    {
+      "street_name": "AV DE LA JONCHERE",
+      "sales": 79,
+      "median_price_per_sqm": 4114.796610169492
+    },
+    {
+      "street_name": "AV DU CHENE SAINT FIACRE",
+      "sales": 55,
+      "median_price_per_sqm": 4200.450450450451
+    },
+    {
+      "street_name": "AV DU BOIS DE CHIGNY",
+      "sales": 54,
+      "median_price_per_sqm": 4433.12693498452
+    },
+    {
+      "street_name": "ALL DU PRE MALLARD",
+      "sales": 53,
+      "median_price_per_sqm": 4284.223918575064
+    },
+    {
+      "street_name": "RTE DU MOULIN BOURCIER",
+      "sales": 34,
+      "median_price_per_sqm": 3859.6491228070176
+    },
+    {
+      "street_name": "RUE DES CAPUCINES",
+      "sales": 31,
+      "median_price_per_sqm": 4294.24512987013
+    },
+    {
+      "street_name": "BD DE LA PLAINE",
+      "sales": 28,
+      "median_price_per_sqm": 3348.6349897400823
+    },
+    {
+      "street_name": "RUE DES CHAMPS ROBAILLES",
+      "sales": 24,
+      "median_price_per_sqm": 4108.43993596059
+    },
+    {
+      "street_name": "LE VILLAGE",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA GARE",
+      "sales": 15,
+      "median_price_per_sqm": 4031.649616368286
+    },
+    {
+      "street_name": "RUE DES TERRES FORTES",
+      "sales": 11,
+      "median_price_per_sqm": 1135.0974930362117
+    },
+    {
+      "street_name": "RUE QUI CHANTE",
+      "sales": 11,
+      "median_price_per_sqm": 3782.5757575757575
+    },
+    {
+      "street_name": "LE CHAMP MALLARD",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA MARNIERE",
+      "sales": 10,
+      "median_price_per_sqm": 3719.4444444444443
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "year": 2025,
+  "sales_year": 15,
+  "sales_delta_pct": -25.0,
+  "median_price": 275000.0,
+  "median_ppsqm": 2182.5396825396824,
+  "delta_ppsqm_pct": 125.0,
+  "notable_sales": [
+    {
+      "date": "2025-06-18",
+      "street": "RUE DE NOGENT L ARTAUD",
+      "type": "Maison",
+      "surface": 126,
+      "price": 275000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:34:57.500762Z"
+}

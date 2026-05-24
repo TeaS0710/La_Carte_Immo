@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 87,
+  "sales_delta_pct": 31.8,
+  "median_price": 207000.0,
+  "median_ppsqm": 2906.25,
+  "delta_ppsqm_pct": 19.9,
+  "notable_sales": [
+    {
+      "date": "2025-09-24",
+      "street": "HAM DE BESSONVILLE",
+      "type": "Maison",
+      "surface": 60,
+      "price": 520000.0
+    },
+    {
+      "date": "2025-03-31",
+      "street": "RUE DU GEN DE GAULLE",
+      "type": "Appartement",
+      "surface": 160,
+      "price": 465000.0
+    },
+    {
+      "date": "2025-12-10",
+      "street": "CHE DE RONDE",
+      "type": "Maison",
+      "surface": 116,
+      "price": 365000.0
+    },
+    {
+      "date": "2025-08-20",
+      "street": "CHE DES CONTR OUCHES",
+      "type": "Maison",
+      "surface": 94,
+      "price": 334000.0
+    },
+    {
+      "date": "2025-05-27",
+      "street": "RUE DU DOC ANTOINE BATTESTI",
+      "type": "Appartement",
+      "surface": 61,
+      "price": 289000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:43:51.764182Z"
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 70,
+  "sales_delta_pct": -31.4,
+  "median_price": 50500.0,
+  "median_ppsqm": 1428.5714285714287,
+  "delta_ppsqm_pct": -6.6,
+  "notable_sales": [
+    {
+      "date": "2025-08-28",
+      "street": "RUE DE LA POTERNE",
+      "type": "Maison",
+      "surface": 106,
+      "price": 219845.0
+    },
+    {
+      "date": "2025-09-19",
+      "street": "RUE DU LAVOIR",
+      "type": "Maison",
+      "surface": 111,
+      "price": 208000.0
+    },
+    {
+      "date": "2025-06-27",
+      "street": "CHE DE LA TOUR",
+      "type": "Maison",
+      "surface": 112,
+      "price": 185000.0
+    },
+    {
+      "date": "2025-04-18",
+      "street": "RUE NEUVE",
+      "type": "Maison",
+      "surface": 86,
+      "price": 170000.0
+    },
+    {
+      "date": "2025-11-13",
+      "street": "CHE DES FOSSES SUD",
+      "type": "Maison",
+      "surface": 74,
+      "price": 164000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:35:07.926965Z"
+}

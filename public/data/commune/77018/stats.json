@@ -1,0 +1,120 @@
+{
+  "commune": "Bailly-Romainvilliers",
+  "insee": "77018",
+  "generated_at": "2026-05-24T20:33:58.516500Z",
+  "total_sales": 1332,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 83,
+  "median_price": 355000.0,
+  "median_price_per_sqm": 4540.540540540541,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 236,
+      "median_price": 270000.0
+    },
+    {
+      "year": 2022,
+      "sales": 242,
+      "median_price": 334000.0
+    },
+    {
+      "year": 2023,
+      "sales": 228,
+      "median_price": 288000.0
+    },
+    {
+      "year": 2024,
+      "sales": 359,
+      "median_price": 10500000.0
+    },
+    {
+      "year": 2025,
+      "sales": 267,
+      "median_price": 315000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "BD DE LA MARSANGE",
+      "sales": 229,
+      "median_price_per_sqm": 164062.5
+    },
+    {
+      "street_name": "RUE DES BERGES",
+      "sales": 138,
+      "median_price_per_sqm": 4048.913043478261
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 91,
+      "median_price_per_sqm": 5347.826086956522
+    },
+    {
+      "street_name": "ESP DES GUINANDIERS",
+      "sales": 47,
+      "median_price_per_sqm": 4044.285714285714
+    },
+    {
+      "street_name": "RUE DES FRONTAILLES",
+      "sales": 47,
+      "median_price_per_sqm": 44736.84210526316
+    },
+    {
+      "street_name": "RUE DES MURONS",
+      "sales": 45,
+      "median_price_per_sqm": 4552.822580645161
+    },
+    {
+      "street_name": "RUE DES VENVOLLES",
+      "sales": 37,
+      "median_price_per_sqm": 4052.9411764705883
+    },
+    {
+      "street_name": "RUE DU COCHET",
+      "sales": 35,
+      "median_price_per_sqm": 4105.787476280835
+    },
+    {
+      "street_name": "BD DES SPORTS",
+      "sales": 35,
+      "median_price_per_sqm": 4220.338903944596
+    },
+    {
+      "street_name": "PL DE L EUROPE",
+      "sales": 30,
+      "median_price_per_sqm": 4741.379310344828
+    },
+    {
+      "street_name": "AV CHRISTIAN DOPPLER",
+      "sales": 29,
+      "median_price_per_sqm": 2384.0
+    },
+    {
+      "street_name": "RUE DU BOIS DE TROU",
+      "sales": 26,
+      "median_price_per_sqm": 3816.2530637254904
+    },
+    {
+      "street_name": "RUE DES BERLAUDEURS",
+      "sales": 26,
+      "median_price_per_sqm": 3799.7775119617227
+    },
+    {
+      "street_name": "RUE DE MAGNY",
+      "sales": 25,
+      "median_price_per_sqm": 5131.578947368421
+    },
+    {
+      "street_name": "BD DES ECOLES",
+      "sales": 17,
+      "median_price_per_sqm": 4110.266666666666
+    }
+  ]
+}

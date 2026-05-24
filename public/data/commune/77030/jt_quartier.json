@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 129,
+  "sales_delta_pct": -12.8,
+  "median_price": 11200.0,
+  "median_ppsqm": 1727.0535417359492,
+  "delta_ppsqm_pct": -13.6,
+  "notable_sales": [
+    {
+      "date": "2025-06-13",
+      "street": "RUE DU TARTRE",
+      "type": "Maison",
+      "surface": 110,
+      "price": 225000.0
+    },
+    {
+      "date": "2025-06-26",
+      "street": "RUE DE BRETAGNE",
+      "type": "Maison",
+      "surface": 81,
+      "price": 159000.0
+    },
+    {
+      "date": "2025-06-30",
+      "street": "RUE DES AVOSNES",
+      "type": "Maison",
+      "surface": 97,
+      "price": 152000.0
+    },
+    {
+      "date": "2025-09-08",
+      "street": "LE CHAMP COBART",
+      "type": "Maison",
+      "surface": 67,
+      "price": 145000.0
+    },
+    {
+      "date": "2025-11-17",
+      "street": "COUR DU SAUTE A PIED",
+      "type": "Maison",
+      "surface": 62,
+      "price": 117000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:35:47.103609Z"
+}

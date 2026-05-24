@@ -1,0 +1,120 @@
+{
+  "commune": "Champs-sur-Marne",
+  "insee": "77083",
+  "generated_at": "2026-05-24T20:43:19.865472Z",
+  "total_sales": 4021,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 165,
+  "median_price": 285000.0,
+  "median_price_per_sqm": 4333.333333333333,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 726,
+      "median_price": 260000.0
+    },
+    {
+      "year": 2022,
+      "sales": 833,
+      "median_price": 256065.0
+    },
+    {
+      "year": 2023,
+      "sales": 562,
+      "median_price": 260000.0
+    },
+    {
+      "year": 2024,
+      "sales": 1133,
+      "median_price": 6700000.0
+    },
+    {
+      "year": 2025,
+      "sales": 767,
+      "median_price": 265000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "ALL DE LA LISIERE",
+      "sales": 334,
+      "median_price_per_sqm": 211990.73134328358
+    },
+    {
+      "street_name": "ALL DE LA CLAIRIERE",
+      "sales": 248,
+      "median_price_per_sqm": 3069.6202531645567
+    },
+    {
+      "street_name": "ALL GEORGES BRAQUE",
+      "sales": 222,
+      "median_price_per_sqm": 144612.67605633804
+    },
+    {
+      "street_name": "BD COPERNIC",
+      "sales": 190,
+      "median_price_per_sqm": 820166.1666666666
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 178,
+      "median_price_per_sqm": 4000.0
+    },
+    {
+      "street_name": "BD DE LA REPUBLIQUE",
+      "sales": 174,
+      "median_price_per_sqm": 6849.315068493151
+    },
+    {
+      "street_name": "PL PABLO PICASSO",
+      "sales": 165,
+      "median_price_per_sqm": 77011.49425287357
+    },
+    {
+      "street_name": "RUE DE MALNOUE",
+      "sales": 109,
+      "median_price_per_sqm": 4357.142857142857
+    },
+    {
+      "street_name": "PL DES AUBEPINES",
+      "sales": 105,
+      "median_price_per_sqm": 3064.516129032258
+    },
+    {
+      "street_name": "ALL DES CORNOUILLERS",
+      "sales": 104,
+      "median_price_per_sqm": 3042.46440844379
+    },
+    {
+      "street_name": "RUE ALBERT EINSTEIN",
+      "sales": 99,
+      "median_price_per_sqm": 23673.469387755104
+    },
+    {
+      "street_name": "AV DU GENERAL DE GAULLE",
+      "sales": 75,
+      "median_price_per_sqm": 6373.717948717948
+    },
+    {
+      "street_name": "ALL EMILE ROUX",
+      "sales": 75,
+      "median_price_per_sqm": 3053.846153846154
+    },
+    {
+      "street_name": "ALL DES SOUCHES VERTES",
+      "sales": 72,
+      "median_price_per_sqm": 3089.74358974359
+    },
+    {
+      "street_name": "RUE ALBERT SCHWEITZER",
+      "sales": 67,
+      "median_price_per_sqm": 48112.07970679012
+    }
+  ]
+}

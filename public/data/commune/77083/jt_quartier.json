@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 767,
+  "sales_delta_pct": -32.3,
+  "median_price": 265000.0,
+  "median_ppsqm": 4538.745098039216,
+  "delta_ppsqm_pct": -95.4,
+  "notable_sales": [
+    {
+      "date": "2025-11-28",
+      "street": "PROM DES PATIS",
+      "type": "Maison",
+      "surface": 199,
+      "price": 710000.0
+    },
+    {
+      "date": "2025-08-01",
+      "street": "CHE D EMERAINVILLE",
+      "type": "Maison",
+      "surface": 220,
+      "price": 643000.0
+    },
+    {
+      "date": "2025-06-30",
+      "street": "RUE DE LA SAUGE",
+      "type": "Appartement",
+      "surface": 33,
+      "price": 599000.0
+    },
+    {
+      "date": "2025-11-04",
+      "street": "RUE DE LA SAUGE",
+      "type": "Maison",
+      "surface": 101,
+      "price": 596000.0
+    },
+    {
+      "date": "2025-09-10",
+      "street": "RUE DES LIBELLULES",
+      "type": "Maison",
+      "surface": 142,
+      "price": 595000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:43:19.862841Z"
+}

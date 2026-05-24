@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 108,
+  "sales_delta_pct": -21.2,
+  "median_price": 225000.0,
+  "median_ppsqm": 1716.2162162162163,
+  "delta_ppsqm_pct": -17.5,
+  "notable_sales": [
+    {
+      "date": "2025-08-06",
+      "street": "RUE DE LA GARE",
+      "type": "Maison",
+      "surface": 143,
+      "price": 242000.0
+    },
+    {
+      "date": "2025-11-12",
+      "street": "RUE DE LA GARE",
+      "type": "Maison",
+      "surface": 125,
+      "price": 216000.0
+    },
+    {
+      "date": "2025-11-14",
+      "street": "RUE DE LA CLOTURE",
+      "type": "Maison",
+      "surface": 108,
+      "price": 192000.0
+    },
+    {
+      "date": "2025-08-14",
+      "street": "RUE DE LA MUETTE",
+      "type": "Maison",
+      "surface": 77,
+      "price": 172000.0
+    },
+    {
+      "date": "2025-06-03",
+      "street": "RUE DE CHAUPRY",
+      "type": "Maison",
+      "surface": 90,
+      "price": 169000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:45:53.274171Z"
+}

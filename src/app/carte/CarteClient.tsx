@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { communeDataUrl } from "@/lib/url";
+import { assetUrl, communeDataUrl } from "@/lib/url";
 import { History, Info, Box } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
 import { DEFAULT_COMMUNE, type CommuneRef } from "@/lib/commune";
@@ -12,20 +12,30 @@ import PipelineCard from "@/components/carte/PipelineCard";
 import PermitCard from "@/components/carte/PermitCard";
 import MarketModal from "@/components/carte/MarketModal";
 import CarteMap from "@/components/carte/CarteMap";
+import CarteBreadcrumb from "@/components/carte/CarteBreadcrumb";
+import VilleSelector from "@/components/carte/VilleSelector";
 import type {
   MapFilters, IrisProps, PipelineLogement, PermitFeature,
 } from "@/components/carte/types";
+
+const DEPT_NAMES: Record<string, string> = {
+  "75": "Paris", "77": "Seine-et-Marne", "78": "Yvelines", "91": "Essonne",
+  "92": "Hauts-de-Seine", "93": "Seine-Saint-Denis", "94": "Val-de-Marne", "95": "Val-d'Oise",
+};
 
 type PermitWithCoords = PermitFeature & { lng: number; lat: number };
 
 export default function CarteClient({
   stats,
   commune = DEFAULT_COMMUNE,
+  availableSlugs = [],
 }: {
   stats: CommuneStats;
   commune?: CommuneRef;
+  availableSlugs?: string[];
 }) {
   const codeInsee = commune.code_insee;
+  const deptName = DEPT_NAMES[commune.code_dept] ?? `Dept ${commune.code_dept}`;
   const minYear = useMemo(() => Math.min(...stats.years_covered), [stats]);
   const maxYear = useMemo(() => Math.max(...stats.years_covered), [stats]);
   const [filters, setFilters] = useState<MapFilters>({
@@ -74,6 +84,18 @@ export default function CarteClient({
 
   return (
     <main className="relative w-full" style={{ height: "calc(100vh - 68px)" }}>
+      {/* Barre de navigation flottante top-center : breadcrumb + sélecteur ville */}
+      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex flex-col sm:flex-row items-center gap-2 bg-white/95 backdrop-blur-sm border border-[color:var(--line)] rounded-full px-3 py-1.5 shadow-[0_4px_16px_rgba(0,0,0,0.10)] max-w-[calc(100vw-32px)]">
+        <CarteBreadcrumb
+          items={[
+            { label: deptName, href: assetUrl(`/carte/dept/${commune.code_dept}`) },
+            { label: commune.nom },
+          ]}
+        />
+        <span className="hidden sm:inline-block w-px h-4 bg-[color:var(--line)]" />
+        <VilleSelector availableSlugs={availableSlugs} currentSlug={commune.slug} compact />
+      </div>
+
       {/* Map fills the whole area — only render after mount to avoid SSR/MapLibre conflict */}
       {mounted ? (
         <CarteMap

@@ -1,0 +1,120 @@
+{
+  "commune": "La Chapelle-Rablais",
+  "insee": "77089",
+  "generated_at": "2026-05-24T20:44:05.146406Z",
+  "total_sales": 251,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 32,
+  "median_price": 250000.0,
+  "median_price_per_sqm": 2455.3921568627447,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 51,
+      "median_price": 196000.0
+    },
+    {
+      "year": 2022,
+      "sales": 46,
+      "median_price": 264500.0
+    },
+    {
+      "year": 2023,
+      "sales": 26,
+      "median_price": 264000.0
+    },
+    {
+      "year": 2024,
+      "sales": 94,
+      "median_price": 4680000.0
+    },
+    {
+      "year": 2025,
+      "sales": 34,
+      "median_price": 227000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LES MOYEUX",
+      "sales": 42,
+      "median_price_per_sqm": 63375.0
+    },
+    {
+      "street_name": "RUE DU BOIS CHAPELLE",
+      "sales": 34,
+      "median_price_per_sqm": 2120.0
+    },
+    {
+      "street_name": "LES MONTILS",
+      "sales": 26,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU BOIS DE L ILE",
+      "sales": 20,
+      "median_price_per_sqm": 2233.3333333333335
+    },
+    {
+      "street_name": "RUE DE LA CHAUDRONNERIE",
+      "sales": 14,
+      "median_price_per_sqm": 2007.4626865671642
+    },
+    {
+      "street_name": "RUE DES VIEUX PRES",
+      "sales": 14,
+      "median_price_per_sqm": 2478.1746031746034
+    },
+    {
+      "street_name": "RTE DE COUTENCON",
+      "sales": 12,
+      "median_price_per_sqm": 2592.5925925925926
+    },
+    {
+      "street_name": "LE MOULIN A VENT",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE AUX GRAINS",
+      "sales": 8,
+      "median_price_per_sqm": 2326.3888888888887
+    },
+    {
+      "street_name": "RUE DES MOULINEAUX",
+      "sales": 8,
+      "median_price_per_sqm": 1896.5517241379312
+    },
+    {
+      "street_name": "RUE DE LA MARE A LA CANE",
+      "sales": 7,
+      "median_price_per_sqm": 2326.782945736434
+    },
+    {
+      "street_name": "RUE DU MINOTIER",
+      "sales": 6,
+      "median_price_per_sqm": 2345.1327433628317
+    },
+    {
+      "street_name": "LES SABLES",
+      "sales": 6,
+      "median_price_per_sqm": 41785.71428571428
+    },
+    {
+      "street_name": "LA CHAPELLE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CHEMIN BLANC",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

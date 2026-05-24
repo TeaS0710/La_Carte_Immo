@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 151,
+  "sales_delta_pct": 37.3,
+  "median_price": 244999.0,
+  "median_ppsqm": 2760.4166666666665,
+  "delta_ppsqm_pct": 4.7,
+  "notable_sales": [
+    {
+      "date": "2025-10-27",
+      "street": "ALL DE LA COMTESSE DE NOAILLES",
+      "type": "Maison",
+      "surface": 218,
+      "price": 422149.0
+    },
+    {
+      "date": "2025-07-25",
+      "street": "RTE DE LA COUDRE",
+      "type": "Maison",
+      "surface": 170,
+      "price": 370000.0
+    },
+    {
+      "date": "2025-10-31",
+      "street": "RTE DE FONTAINE LE PORT",
+      "type": "Maison",
+      "surface": 117,
+      "price": 360000.0
+    },
+    {
+      "date": "2025-09-09",
+      "street": "ALL MARION DELORME",
+      "type": "Maison",
+      "surface": 165,
+      "price": 355000.0
+    },
+    {
+      "date": "2025-12-10",
+      "street": "RLE DES ROCHES",
+      "type": "Maison",
+      "surface": 106,
+      "price": 348000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:45:36.704688Z"
+}

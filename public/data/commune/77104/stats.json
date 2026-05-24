@@ -1,0 +1,120 @@
+{
+  "commune": "Châtres",
+  "insee": "77104",
+  "generated_at": "2026-05-24T20:46:04.036828Z",
+  "total_sales": 211,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 37,
+  "median_price": 300000.0,
+  "median_price_per_sqm": 3137.378640776699,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 30,
+      "median_price": 179000.0
+    },
+    {
+      "year": 2022,
+      "sales": 79,
+      "median_price": 315000.0
+    },
+    {
+      "year": 2023,
+      "sales": 40,
+      "median_price": 187500.0
+    },
+    {
+      "year": 2024,
+      "sales": 24,
+      "median_price": 346500.0
+    },
+    {
+      "year": 2025,
+      "sales": 38,
+      "median_price": 272500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RTE DE CHAUMES",
+      "sales": 25,
+      "median_price_per_sqm": 2079.958100558659
+    },
+    {
+      "street_name": "LA RUE",
+      "sales": 24,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CHATELET",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES BOULAYES",
+      "sales": 16,
+      "median_price_per_sqm": 3167.575757575758
+    },
+    {
+      "street_name": "LE PETIT LORIBEAU",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE GRAND MESNIL",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHATRES",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE FONTENAY",
+      "sales": 11,
+      "median_price_per_sqm": 8484.672619047618
+    },
+    {
+      "street_name": "RUE DES VILLAS PATRICE",
+      "sales": 9,
+      "median_price_per_sqm": 3125.0670480958343
+    },
+    {
+      "street_name": "IMP DE LORIBEAU",
+      "sales": 7,
+      "median_price_per_sqm": 3622.047244094488
+    },
+    {
+      "street_name": "LE PETIT MESNIL",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LIVERDY",
+      "sales": 6,
+      "median_price_per_sqm": 2598.4848484848485
+    },
+    {
+      "street_name": "RUE DU LAVOIR",
+      "sales": 6,
+      "median_price_per_sqm": 3110.355987055016
+    },
+    {
+      "street_name": "LA BELLE EPINE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L ECOLE",
+      "sales": 5,
+      "median_price_per_sqm": 3066.7821782178216
+    }
+  ]
+}

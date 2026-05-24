@@ -1,0 +1,120 @@
+{
+  "commune": "Boissettes",
+  "insee": "77038",
+  "generated_at": "2026-05-24T20:36:52.052891Z",
+  "total_sales": 164,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 24,
+  "median_price": 442500.0,
+  "median_price_per_sqm": 4073.958333333333,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 33,
+      "median_price": 180000.0
+    },
+    {
+      "year": 2022,
+      "sales": 57,
+      "median_price": 440000.0
+    },
+    {
+      "year": 2023,
+      "sales": 29,
+      "median_price": 979000.0
+    },
+    {
+      "year": 2024,
+      "sales": 16,
+      "median_price": 370000.0
+    },
+    {
+      "year": 2025,
+      "sales": 29,
+      "median_price": 478357.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE BROUARD",
+      "sales": 27,
+      "median_price_per_sqm": 6696.428571428572
+    },
+    {
+      "street_name": "IMP DE LA VARENNE",
+      "sales": 17,
+      "median_price_per_sqm": 3005.464480874317
+    },
+    {
+      "street_name": "AV DU GEN DE GAULLE",
+      "sales": 14,
+      "median_price_per_sqm": 3431.818181818182
+    },
+    {
+      "street_name": "PL DU GEN CLINCHANT",
+      "sales": 11,
+      "median_price_per_sqm": 5905.641975308642
+    },
+    {
+      "street_name": "RUE DES SABLES",
+      "sales": 10,
+      "median_price_per_sqm": 4126.984126984127
+    },
+    {
+      "street_name": "LA PRAIRIE DES PRAILLONS",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES ROCHES",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DES PRAILLONS",
+      "sales": 8,
+      "median_price_per_sqm": 4500.0
+    },
+    {
+      "street_name": "LOTISSEMENT DE LA VARENNE",
+      "sales": 8,
+      "median_price_per_sqm": 5377.142857142857
+    },
+    {
+      "street_name": "RUE DES ROCHES",
+      "sales": 8,
+      "median_price_per_sqm": 2727.8688524590166
+    },
+    {
+      "street_name": "RUE DES UZELLES",
+      "sales": 7,
+      "median_price_per_sqm": 3147.590361445783
+    },
+    {
+      "street_name": "RUE DE LA VARENNE",
+      "sales": 6,
+      "median_price_per_sqm": 4489.7959183673465
+    },
+    {
+      "street_name": "RUE DES VIGNES",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES ROTISSERIES ET LES GAR",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PARC DE LA VARENNE",
+      "sales": 4,
+      "median_price_per_sqm": 5277.777777777777
+    }
+  ]
+}

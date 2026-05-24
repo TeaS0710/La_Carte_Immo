@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 71,
+  "sales_delta_pct": 42.0,
+  "median_price": 195000.0,
+  "median_ppsqm": 2590.7118055555557,
+  "delta_ppsqm_pct": 55.4,
+  "notable_sales": [
+    {
+      "date": "2025-12-19",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 187,
+      "price": 362750.0
+    },
+    {
+      "date": "2025-05-07",
+      "street": "RUE DU CHATEAU D EAU",
+      "type": "Maison",
+      "surface": 128,
+      "price": 361000.0
+    },
+    {
+      "date": "2025-11-28",
+      "street": "RUE DES ROCHES",
+      "type": "Maison",
+      "surface": 108,
+      "price": 335000.0
+    },
+    {
+      "date": "2025-05-27",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 105,
+      "price": 309500.0
+    },
+    {
+      "date": "2025-09-12",
+      "street": "RUE DES ROCHES",
+      "type": "Maison",
+      "surface": 108,
+      "price": 255000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:40:25.040533Z"
+}

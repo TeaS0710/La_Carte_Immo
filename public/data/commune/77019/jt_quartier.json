@@ -1,0 +1,46 @@
+{
+  "year": 2022,
+  "sales_year": 42,
+  "sales_delta_pct": -52.3,
+  "median_price": 231000.0,
+  "median_ppsqm": 2421.0526315789475,
+  "delta_ppsqm_pct": 19.2,
+  "notable_sales": [
+    {
+      "date": "2022-03-25",
+      "street": "RUE DES RICHARDS",
+      "type": "Maison",
+      "surface": 142,
+      "price": 262000.0
+    },
+    {
+      "date": "2022-04-07",
+      "street": "RUE DES RICHARDS",
+      "type": "Maison",
+      "surface": 70,
+      "price": 250000.0
+    },
+    {
+      "date": "2022-07-08",
+      "street": "RUE DE GRAVON",
+      "type": "Maison",
+      "surface": 99,
+      "price": 250000.0
+    },
+    {
+      "date": "2022-03-15",
+      "street": "RUE DES PATURES",
+      "type": "Maison",
+      "surface": 61,
+      "price": 231000.0
+    },
+    {
+      "date": "2022-08-03",
+      "street": "RUE DE LA FONTAINE",
+      "type": "Maison",
+      "surface": 95,
+      "price": 230000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:34:05.813161Z"
+}

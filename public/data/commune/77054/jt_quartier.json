@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 29,
+  "sales_delta_pct": -39.6,
+  "median_price": 173400.0,
+  "median_ppsqm": 1709.967320261438,
+  "delta_ppsqm_pct": -28.8,
+  "notable_sales": [
+    {
+      "date": "2025-03-05",
+      "street": "RUE DE LA VALLEE",
+      "type": "Maison",
+      "surface": 100,
+      "price": 225000.0
+    },
+    {
+      "date": "2025-02-18",
+      "street": "CHE DES GROSEILLERS",
+      "type": "Maison",
+      "surface": 144,
+      "price": 220000.0
+    },
+    {
+      "date": "2025-06-30",
+      "street": "CHE DES GROSEILLERS",
+      "type": "Maison",
+      "surface": 96,
+      "price": 210000.0
+    },
+    {
+      "date": "2025-03-29",
+      "street": "IMP DU CLOITRE",
+      "type": "Maison",
+      "surface": 80,
+      "price": 195000.0
+    },
+    {
+      "date": "2025-03-11",
+      "street": "RUE DE LA VALLEE",
+      "type": "Maison",
+      "surface": 102,
+      "price": 193000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:39:25.097470Z"
+}

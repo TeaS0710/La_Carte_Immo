@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 24,
+  "sales_delta_pct": 41.2,
+  "median_price": 269500.0,
+  "median_ppsqm": 1576.3157894736842,
+  "delta_ppsqm_pct": -18.6,
+  "notable_sales": [
+    {
+      "date": "2025-10-21",
+      "street": "RUE BONNADOT",
+      "type": "Maison",
+      "surface": 190,
+      "price": 295000.0
+    },
+    {
+      "date": "2025-11-25",
+      "street": "RUE PROSPER DESPLATS",
+      "type": "Maison",
+      "surface": 175,
+      "price": 280000.0
+    },
+    {
+      "date": "2025-10-07",
+      "street": "RUE PROSPER DESPLATS",
+      "type": "Maison",
+      "surface": 175,
+      "price": 266000.0
+    },
+    {
+      "date": "2025-08-01",
+      "street": "RUE SAINT GOND",
+      "type": "Maison",
+      "surface": 142,
+      "price": 232750.0
+    },
+    {
+      "date": "2025-11-12",
+      "street": "RUE DES LYS",
+      "type": "Maison",
+      "surface": 80,
+      "price": 175000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:45:05.003906Z"
+}

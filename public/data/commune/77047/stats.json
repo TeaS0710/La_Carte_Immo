@@ -1,0 +1,120 @@
+{
+  "commune": "Bouleurs",
+  "insee": "77047",
+  "generated_at": "2026-05-24T20:38:13.249517Z",
+  "total_sales": 406,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 51,
+  "median_price": 220000.0,
+  "median_price_per_sqm": 3354.542807221899,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 81,
+      "median_price": 240000.0
+    },
+    {
+      "year": 2022,
+      "sales": 111,
+      "median_price": 300000.0
+    },
+    {
+      "year": 2023,
+      "sales": 85,
+      "median_price": 122400.0
+    },
+    {
+      "year": 2024,
+      "sales": 70,
+      "median_price": 201770.0
+    },
+    {
+      "year": 2025,
+      "sales": 59,
+      "median_price": 173000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU MONT",
+      "sales": 63,
+      "median_price_per_sqm": 3000.0
+    },
+    {
+      "street_name": "RUE ROMAIN ROLLAND",
+      "sales": 40,
+      "median_price_per_sqm": 3760.4938271604938
+    },
+    {
+      "street_name": "RUE DE MONTPICHET",
+      "sales": 37,
+      "median_price_per_sqm": 3485.496085226543
+    },
+    {
+      "street_name": "RUE DES ROCHES",
+      "sales": 25,
+      "median_price_per_sqm": 2973.0
+    },
+    {
+      "street_name": "RUE DU HAMEAU DE SARCY",
+      "sales": 23,
+      "median_price_per_sqm": 3178.5714285714284
+    },
+    {
+      "street_name": "RUE DE LA REPUBLIQUE",
+      "sales": 21,
+      "median_price_per_sqm": 4040.0
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 20,
+      "median_price_per_sqm": 2961.2903225806454
+    },
+    {
+      "street_name": "RUE DE CRECY",
+      "sales": 19,
+      "median_price_per_sqm": 3288.7012230634828
+    },
+    {
+      "street_name": "LE BUAT",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BAS DE LA HUTTE",
+      "sales": 13,
+      "median_price_per_sqm": 7.328571428571428
+    },
+    {
+      "street_name": "RUE DE VIGNOT",
+      "sales": 13,
+      "median_price_per_sqm": 2475.0
+    },
+    {
+      "street_name": "RUE DU TILLEUL",
+      "sales": 12,
+      "median_price_per_sqm": 3231.746031746032
+    },
+    {
+      "street_name": "LE PRE BON",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CORBIER",
+      "sales": 10,
+      "median_price_per_sqm": 3168.8311688311687
+    },
+    {
+      "street_name": "RLE OISELARD",
+      "sales": 6,
+      "median_price_per_sqm": 3242.1052631578946
+    }
+  ]
+}

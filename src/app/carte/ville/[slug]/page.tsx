@@ -76,10 +76,12 @@ export default async function VillePage({
   const stats = await loadStats(commune.code_insee);
   if (!stats) notFound();
 
+  const availableSlugs = communes.map((c) => c.slug);
+
   return (
     <>
       <Header />
-      <CarteClient stats={stats} commune={commune} />
+      <CarteClient stats={stats} commune={commune} availableSlugs={availableSlugs} />
     </>
   );
 }

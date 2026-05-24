@@ -6,12 +6,34 @@ import maplibregl, { Map, MapGeoJSONFeature } from "maplibre-gl";
 import { assetUrl } from "@/lib/url";
 
 /**
- * Carte interactive à l'échelle Île-de-France.
+ * Carte interactive à l'échelle Île-de-France ou département.
  * Chaque commune analysée = un marker dont la taille reflète le volume
  * de ventes DVF et la couleur le prix médian au m². Hover = popup,
  * clic = navigation vers /carte/ville/{slug}.
+ *
+ * Si `deptFilter` est passé (ex: "94"), seules les communes du dept
+ * sont affichées et la carte zoome automatiquement sur leur emprise.
  */
-export default function RegionMap({ is3d = false }: { is3d?: boolean }) {
+
+// Centres approximatifs par département (pour pré-zoom)
+const DEPT_CENTERS: Record<string, { center: [number, number]; zoom: number }> = {
+  "75": { center: [2.3522, 48.8566], zoom: 11.5 },
+  "77": { center: [3.0, 48.62], zoom: 9 },
+  "78": { center: [1.85, 48.78], zoom: 9.5 },
+  "91": { center: [2.30, 48.55], zoom: 9.5 },
+  "92": { center: [2.22, 48.85], zoom: 11 },
+  "93": { center: [2.48, 48.92], zoom: 11 },
+  "94": { center: [2.48, 48.78], zoom: 10.5 },
+  "95": { center: [2.20, 49.06], zoom: 9.8 },
+};
+
+export default function RegionMap({
+  is3d = false,
+  deptFilter,
+}: {
+  is3d?: boolean;
+  deptFilter?: string;
+}) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<Map | null>(null);
   const [ready, setReady] = useState(false);
@@ -22,11 +44,14 @@ export default function RegionMap({ is3d = false }: { is3d?: boolean }) {
     if (!containerRef.current || mapRef.current) return;
 
     try {
+      const cfg = deptFilter && DEPT_CENTERS[deptFilter]
+        ? DEPT_CENTERS[deptFilter]
+        : { center: [2.4, 48.86] as [number, number], zoom: 9.2 };
       const map = new maplibregl.Map({
         container: containerRef.current,
         style: "https://tiles.openfreemap.org/styles/positron",
-        center: [2.4, 48.86],
-        zoom: 9.2,
+        center: cfg.center,
+        zoom: cfg.zoom,
         pitch: 0,
         attributionControl: { compact: true },
       });
@@ -57,7 +82,17 @@ export default function RegionMap({ is3d = false }: { is3d?: boolean }) {
         try {
           const res = await fetch(assetUrl("/data/idf/communes_map.geojson"));
           if (!res.ok) throw new Error("Carte régionale non générée");
-          const geo = await res.json();
+          const geoRaw = await res.json();
+          // Filtre éventuel par département
+          const geo = deptFilter
+            ? {
+                type: "FeatureCollection",
+                features: geoRaw.features.filter(
+                  (f: { properties: { code_dept?: string } }) =>
+                    f.properties.code_dept === deptFilter,
+                ),
+              }
+            : geoRaw;
           map.addSource("communes", { type: "geojson", data: geo });
 
           // 3D buildings (visible quand pitch activé)

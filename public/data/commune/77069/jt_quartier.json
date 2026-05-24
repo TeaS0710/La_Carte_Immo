@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 107,
+  "sales_delta_pct": 0.9,
+  "median_price": 217000.0,
+  "median_ppsqm": 3115.133836650652,
+  "delta_ppsqm_pct": -5.2,
+  "notable_sales": [
+    {
+      "date": "2025-10-06",
+      "street": "RUE DE LA FOSSE AUX LOUPS",
+      "type": "Maison",
+      "surface": 90,
+      "price": 1200000.0
+    },
+    {
+      "date": "2025-03-24",
+      "street": "RUE DES BICHES",
+      "type": "Maison",
+      "surface": 360,
+      "price": 1160000.0
+    },
+    {
+      "date": "2025-06-19",
+      "street": "CHE VERT",
+      "type": "Maison",
+      "surface": 227,
+      "price": 910000.0
+    },
+    {
+      "date": "2025-09-17",
+      "street": "CHE DES ROCHES MARCEAUX",
+      "type": "Maison",
+      "surface": 165,
+      "price": 634000.0
+    },
+    {
+      "date": "2025-11-21",
+      "street": "RUE DES TILLEULS",
+      "type": "Maison",
+      "surface": 124,
+      "price": 390000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:41:32.177426Z"
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Châteaubleau",
+  "insee": "77098",
+  "generated_at": "2026-05-24T20:45:05.007541Z",
+  "total_sales": 111,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 20,
+  "median_price": 185000.0,
+  "median_price_per_sqm": 1758.6206896551723,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 45,
+      "median_price": 204500.0
+    },
+    {
+      "year": 2022,
+      "sales": 17,
+      "median_price": 60000.0
+    },
+    {
+      "year": 2023,
+      "sales": 8,
+      "median_price": 42826.875
+    },
+    {
+      "year": 2024,
+      "sales": 17,
+      "median_price": 120000.0
+    },
+    {
+      "year": 2025,
+      "sales": 24,
+      "median_price": 269500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE BONNADOT",
+      "sales": 25,
+      "median_price_per_sqm": 2190.0826446280994
+    },
+    {
+      "street_name": "RUE PROSPER DESPLATS",
+      "sales": 16,
+      "median_price_per_sqm": 1520.0
+    },
+    {
+      "street_name": "RUE DES LYS",
+      "sales": 11,
+      "median_price_per_sqm": 1935.483870967742
+    },
+    {
+      "street_name": "CHATEAUBLEAU",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA TANNERIE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE SAINT GOND",
+      "sales": 9,
+      "median_price_per_sqm": 1639.0845070422536
+    },
+    {
+      "street_name": "LES PRES VERTS",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU TEMPLE",
+      "sales": 5,
+      "median_price_per_sqm": 1496.3235294117646
+    },
+    {
+      "street_name": "LA CROIX CARREAU",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES ROSIERS",
+      "sales": 2,
+      "median_price_per_sqm": 2448.2758620689656
+    },
+    {
+      "street_name": "LA JUSTICE",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BOIS DE CHATEAUBLEAU",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "SAINT GOND",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES PICARDS",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA HAUTE BORNE",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Blandy",
+  "insee": "77034",
+  "generated_at": "2026-05-24T20:36:18.698430Z",
+  "total_sales": 238,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 43,
+  "median_price": 306000.0,
+  "median_price_per_sqm": 2794.875,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 42,
+      "median_price": 240000.0
+    },
+    {
+      "year": 2022,
+      "sales": 40,
+      "median_price": 326000.0
+    },
+    {
+      "year": 2023,
+      "sales": 32,
+      "median_price": 222500.0
+    },
+    {
+      "year": 2024,
+      "sales": 18,
+      "median_price": 299900.0
+    },
+    {
+      "year": 2025,
+      "sales": 106,
+      "median_price": 1171900.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 37,
+      "median_price_per_sqm": 2808.3333333333335
+    },
+    {
+      "street_name": "BLANDY",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MOCPANIER",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE SAINT MARTIN",
+      "sales": 16,
+      "median_price_per_sqm": 2938.144329896907
+    },
+    {
+      "street_name": "RUE VAUCHEVRES",
+      "sales": 15,
+      "median_price_per_sqm": 3296.296296296296
+    },
+    {
+      "street_name": "LA GRANDE COUTURE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA MALASSISE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHEMIN DE PROVINS",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "VILLEBOULON",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE MARCHAIS DE LA HUCHE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA CROIX BLANCHE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE MOISENAY",
+      "sales": 6,
+      "median_price_per_sqm": 2336.969696969697
+    },
+    {
+      "street_name": "RUE RAOUL KOURILSKY",
+      "sales": 5,
+      "median_price_per_sqm": 2147.6745562130177
+    },
+    {
+      "street_name": "LES NEUF ARPENTS",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA VERMENEUSE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

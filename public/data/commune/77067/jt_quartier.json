@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 213,
+  "sales_delta_pct": 11.5,
+  "median_price": 241039.0,
+  "median_ppsqm": 2981.651376146789,
+  "delta_ppsqm_pct": -5.6,
+  "notable_sales": [
+    {
+      "date": "2025-10-03",
+      "street": "SQ DE LA CHEVECHE",
+      "type": "Maison",
+      "surface": 133,
+      "price": 702000.0
+    },
+    {
+      "date": "2025-12-12",
+      "street": "RUE DE L EOLIENNE",
+      "type": "Maison",
+      "surface": 174,
+      "price": 570100.0
+    },
+    {
+      "date": "2025-12-30",
+      "street": "RUE DE LA ROSE DES VENTS",
+      "type": "Maison",
+      "surface": 145,
+      "price": 485000.0
+    },
+    {
+      "date": "2025-12-03",
+      "street": "RUE DU MISTRAL",
+      "type": "Maison",
+      "surface": 160,
+      "price": 460300.0
+    },
+    {
+      "date": "2025-02-12",
+      "street": "RUE DE L EOLIENNE",
+      "type": "Maison",
+      "surface": 146,
+      "price": 455000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:41:15.682340Z"
+}

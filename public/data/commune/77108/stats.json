@@ -1,0 +1,120 @@
+{
+  "commune": "Chelles",
+  "insee": "77108",
+  "generated_at": "2026-05-24T20:46:57.960347Z",
+  "total_sales": 7495,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 475,
+  "median_price": 224000.0,
+  "median_price_per_sqm": 3709.6774193548385,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1805,
+      "median_price": 219000.0
+    },
+    {
+      "year": 2022,
+      "sales": 1752,
+      "median_price": 237056.5
+    },
+    {
+      "year": 2023,
+      "sales": 1410,
+      "median_price": 217600.0
+    },
+    {
+      "year": 2024,
+      "sales": 1088,
+      "median_price": 218000.0
+    },
+    {
+      "year": 2025,
+      "sales": 1440,
+      "median_price": 235000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU MARECHAL FOCH",
+      "sales": 472,
+      "median_price_per_sqm": 3984.848484848485
+    },
+    {
+      "street_name": "RUE ALEXANDRE BICKART",
+      "sales": 222,
+      "median_price_per_sqm": 2875.491286614757
+    },
+    {
+      "street_name": "AV DU BOIS MADAME",
+      "sales": 195,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE RENE SALLE",
+      "sales": 195,
+      "median_price_per_sqm": 2878.787878787879
+    },
+    {
+      "street_name": "RUE GUSTAVE NAST",
+      "sales": 191,
+      "median_price_per_sqm": 3983.819134199134
+    },
+    {
+      "street_name": "AV DE LA RESISTANCE",
+      "sales": 184,
+      "median_price_per_sqm": 4375.0
+    },
+    {
+      "street_name": "RUE DE GOURNAY",
+      "sales": 158,
+      "median_price_per_sqm": 5541.666666666667
+    },
+    {
+      "street_name": "RUE FELIX BUCHIN",
+      "sales": 133,
+      "median_price_per_sqm": 3856.0161408657373
+    },
+    {
+      "street_name": "RUE HENRI ROL TANGUY",
+      "sales": 121,
+      "median_price_per_sqm": 3674.61568782026
+    },
+    {
+      "street_name": "AV FRANCOIS MITTERRAND",
+      "sales": 119,
+      "median_price_per_sqm": 3655.7377049180327
+    },
+    {
+      "street_name": "RUE DU REVEREND PERE CHAILLET",
+      "sales": 116,
+      "median_price_per_sqm": 3163.265306122449
+    },
+    {
+      "street_name": "AV DU GENERAL DE GAULLE",
+      "sales": 113,
+      "median_price_per_sqm": 2816.9014084507044
+    },
+    {
+      "street_name": "RUE SAINT HUBERT",
+      "sales": 110,
+      "median_price_per_sqm": 3925.222816399287
+    },
+    {
+      "street_name": "RUE DU TIR",
+      "sales": 103,
+      "median_price_per_sqm": 3591.3081395348836
+    },
+    {
+      "street_name": "AV GENDARME CASTERMANT",
+      "sales": 102,
+      "median_price_per_sqm": 4618.27761627907
+    }
+  ]
+}

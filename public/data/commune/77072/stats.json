@@ -1,0 +1,120 @@
+{
+  "commune": "Chalautre-la-Grande",
+  "insee": "77072",
+  "generated_at": "2026-05-24T20:41:55.048859Z",
+  "total_sales": 294,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 67,
+  "median_price": 67500.0,
+  "median_price_per_sqm": 1726.081081081081,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 91,
+      "median_price": 28335.0
+    },
+    {
+      "year": 2022,
+      "sales": 43,
+      "median_price": 94500.0
+    },
+    {
+      "year": 2023,
+      "sales": 68,
+      "median_price": 45350.0
+    },
+    {
+      "year": 2024,
+      "sales": 31,
+      "median_price": 95000.0
+    },
+    {
+      "year": 2025,
+      "sales": 61,
+      "median_price": 12000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "CHALAUTRE LA GRANDE",
+      "sales": 32,
+      "median_price_per_sqm": 1359.4771241830065
+    },
+    {
+      "street_name": "RUE DE L AVENIR",
+      "sales": 22,
+      "median_price_per_sqm": 1753.4297520661157
+    },
+    {
+      "street_name": "VALLEE AU ZABLE",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CACREES",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE COURTELLEMONT",
+      "sales": 13,
+      "median_price_per_sqm": 1896.2025316455697
+    },
+    {
+      "street_name": "RUE D ORDON",
+      "sales": 10,
+      "median_price_per_sqm": 1241.3793103448277
+    },
+    {
+      "street_name": "FOUCHERES",
+      "sales": 10,
+      "median_price_per_sqm": 1318.1818181818182
+    },
+    {
+      "street_name": "LA CHASSIEUSE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CHAISES",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES LONGS CHAMPS",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GILBOUTS",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "GRIGNE DENT",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES HOUCHES",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA GRANDE COUR",
+      "sales": 5,
+      "median_price_per_sqm": 2092.1052631578946
+    },
+    {
+      "street_name": "LES PLEUX PHILBERT",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

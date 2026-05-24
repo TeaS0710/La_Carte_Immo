@@ -1,0 +1,120 @@
+{
+  "commune": "La Celle-sur-Morin",
+  "insee": "77063",
+  "generated_at": "2026-05-24T20:40:56.378500Z",
+  "total_sales": 807,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 77,
+  "median_price": 252000.0,
+  "median_price_per_sqm": 2563.049853372434,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 159,
+      "median_price": 180000.0
+    },
+    {
+      "year": 2022,
+      "sales": 92,
+      "median_price": 130000.0
+    },
+    {
+      "year": 2023,
+      "sales": 148,
+      "median_price": 229000.0
+    },
+    {
+      "year": 2024,
+      "sales": 316,
+      "median_price": 680000.0
+    },
+    {
+      "year": 2025,
+      "sales": 92,
+      "median_price": 215000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LES CENT SIX VINGTS ARPENT",
+      "sales": 176,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "GRANDE RUE",
+      "sales": 76,
+      "median_price_per_sqm": 2073.8636363636365
+    },
+    {
+      "street_name": "RTE DU GRAND MORIN",
+      "sales": 51,
+      "median_price_per_sqm": 2704.081632653061
+    },
+    {
+      "street_name": "LES PETITS PRES",
+      "sales": 49,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES BOIS DU CAS ROUGE",
+      "sales": 47,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CLOS CHARRETIER",
+      "sales": 29,
+      "median_price_per_sqm": 2750.0
+    },
+    {
+      "street_name": "LA CELLE EN HAUT",
+      "sales": 28,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA CELLE",
+      "sales": 24,
+      "median_price_per_sqm": 2413.793103448276
+    },
+    {
+      "street_name": "RUE DE MONTLEVON",
+      "sales": 22,
+      "median_price_per_sqm": 2815.0
+    },
+    {
+      "street_name": "LES FICHES",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU BOIS",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES TERRES ROUGES",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GARENNES DE MONTSAVOT",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA FOLLE EMPRISE",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PARADIS",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

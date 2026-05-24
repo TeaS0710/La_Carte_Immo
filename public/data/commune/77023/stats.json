@@ -1,0 +1,120 @@
+{
+  "commune": "Barcy",
+  "insee": "77023",
+  "generated_at": "2026-05-24T20:34:39.171921Z",
+  "total_sales": 159,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 20,
+  "median_price": 150000.0,
+  "median_price_per_sqm": 2823.792931806869,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 9,
+      "median_price": 299250.0
+    },
+    {
+      "year": 2022,
+      "sales": 25,
+      "median_price": 233000.0
+    },
+    {
+      "year": 2023,
+      "sales": 58,
+      "median_price": 125000.0
+    },
+    {
+      "year": 2024,
+      "sales": 41,
+      "median_price": 143249.0
+    },
+    {
+      "year": 2025,
+      "sales": 26,
+      "median_price": 196500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "BARCY",
+      "sales": 32,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES PRES",
+      "sales": 32,
+      "median_price_per_sqm": 2674.9414519906322
+    },
+    {
+      "street_name": "RUE DE MARDELLE",
+      "sales": 24,
+      "median_price_per_sqm": 3186.0057983942907
+    },
+    {
+      "street_name": "RUE CHATEL",
+      "sales": 17,
+      "median_price_per_sqm": 2719.626168224299
+    },
+    {
+      "street_name": "RUE DE MEAUX",
+      "sales": 16,
+      "median_price_per_sqm": 2225.0915750915747
+    },
+    {
+      "street_name": "IMP DU PRE L'EVEQUE",
+      "sales": 11,
+      "median_price_per_sqm": 2883.3983031414814
+    },
+    {
+      "street_name": "HAMEAU DE PRINGY",
+      "sales": 4,
+      "median_price_per_sqm": 3536.3636363636365
+    },
+    {
+      "street_name": "RLE DU CURE",
+      "sales": 4,
+      "median_price_per_sqm": 2398.8690476190477
+    },
+    {
+      "street_name": "RUE DU POTAGER",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ALL DE LA MARNIERE",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PIECE JOIE",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CLOSEAU",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CLOS VERGER",
+      "sales": 2,
+      "median_price_per_sqm": 3115.3382300884955
+    },
+    {
+      "street_name": "LES PLANTES",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHEMIN D ETREPILLY",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

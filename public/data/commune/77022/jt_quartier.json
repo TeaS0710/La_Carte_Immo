@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 100,
+  "sales_delta_pct": -47.6,
+  "median_price": 702500.0,
+  "median_ppsqm": 4523.809523809524,
+  "delta_ppsqm_pct": -14.0,
+  "notable_sales": [
+    {
+      "date": "2025-12-12",
+      "street": "CHE DES MAZETTES",
+      "type": "Maison",
+      "surface": 172,
+      "price": 1800000.0
+    },
+    {
+      "date": "2025-10-09",
+      "street": "RUE DIAZ",
+      "type": "Maison",
+      "surface": 348,
+      "price": 1776000.0
+    },
+    {
+      "date": "2025-07-17",
+      "street": "PL DE L ANGELUS",
+      "type": "Maison",
+      "surface": 100,
+      "price": 1306500.0
+    },
+    {
+      "date": "2025-03-19",
+      "street": "RUE DU CHEMIN DE LA MESSE",
+      "type": "Maison",
+      "surface": 210,
+      "price": 950000.0
+    },
+    {
+      "date": "2025-01-16",
+      "street": "RUE DE LA BARBIZONNIERE",
+      "type": "Maison",
+      "surface": 250,
+      "price": 860000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:34:26.523138Z"
+}

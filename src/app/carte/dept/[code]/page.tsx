@@ -3,7 +3,9 @@ import path from "node:path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Header from "@/components/landing/Header";
+import CarteBreadcrumb from "@/components/carte/CarteBreadcrumb";
 import { assetUrl } from "@/lib/url";
+import DeptCarteClient from "./DeptCarteClient";
 
 interface CommuneSummary {
   code_insee: string;
@@ -87,14 +89,13 @@ export default async function DeptPage({
   return (
     <>
       <Header />
-      <main className="max-w-5xl mx-auto px-5 py-10 space-y-10">
-        <nav className="text-[12px] text-ink-soft">
-          <Link href={assetUrl("/carte/region/idf")} className="hover:text-ink">
-            Île-de-France
-          </Link>
-          <span className="mx-1.5 text-ink-mute">›</span>
-          <span className="text-ink">{dept.nom_dept}</span>
-        </nav>
+      <main className="max-w-5xl mx-auto px-5 py-10 space-y-8">
+        <CarteBreadcrumb
+          items={[
+            { label: "Île-de-France", href: assetUrl("/carte/region/idf") },
+            { label: dept.nom_dept },
+          ]}
+        />
 
         <header>
           <div className="text-[11px] uppercase tracking-[0.15em] text-brand-strong mb-1">
@@ -115,6 +116,22 @@ export default async function DeptPage({
           <KPIBox label="Ventes DVF" value={fmt(dept.total_sales)} sub="2021-2025" />
           <KPIBox label="Population couverte" value={fmt(dept.population_available)} sub={`/ ${fmt(dept.population_total)}`} />
           <KPIBox label="Prix médian dept" value={fmtEur(dept.median_price)} sub="médiane communale" />
+        </section>
+
+        {/* Carte interactive du département */}
+        <section>
+          <h2 className="text-[12px] uppercase tracking-[0.15em] text-ink-soft mb-3">
+            Carte du département
+          </h2>
+          <DeptCarteClient
+            code={code}
+            nom={dept.nom_dept}
+            availableSlugsCount={dept.communes_count_available}
+          />
+          <p className="text-[11px] text-ink-mute mt-2 leading-relaxed">
+            Cliquer sur une commune pour ouvrir sa carte détaillée. Taille des
+            cercles = volume de ventes DVF (5 ans). Couleur = prix au m² médian.
+          </p>
         </section>
 
         <section>

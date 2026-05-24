@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 38,
+  "sales_delta_pct": 58.3,
+  "median_price": 272500.0,
+  "median_ppsqm": 3101.818181818182,
+  "delta_ppsqm_pct": 6.5,
+  "notable_sales": [
+    {
+      "date": "2025-06-19",
+      "street": "RUE DU CHENE",
+      "type": "Maison",
+      "surface": 125,
+      "price": 424400.0
+    },
+    {
+      "date": "2025-10-13",
+      "street": "RUE DES BOULAYES",
+      "type": "Maison",
+      "surface": 110,
+      "price": 341200.0
+    },
+    {
+      "date": "2025-06-06",
+      "street": "RUE DE LA MAIRIE",
+      "type": "Maison",
+      "surface": 116,
+      "price": 340000.0
+    },
+    {
+      "date": "2025-08-29",
+      "street": "RUE DES VILLAS PATRICE",
+      "type": "Maison",
+      "surface": 125,
+      "price": 320000.0
+    },
+    {
+      "date": "2025-10-14",
+      "street": "RUE DU CHATELET",
+      "type": "Maison",
+      "surface": 88,
+      "price": 320000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:46:04.034245Z"
+}

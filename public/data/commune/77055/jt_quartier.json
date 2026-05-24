@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 209,
+  "sales_delta_pct": -4.6,
+  "median_price": 173000.0,
+  "median_ppsqm": 2788.6039132734004,
+  "delta_ppsqm_pct": -15.3,
+  "notable_sales": [
+    {
+      "date": "2025-03-21",
+      "street": "RUE DE CHANTEREINE",
+      "type": "Maison",
+      "surface": 76,
+      "price": 471185.12
+    },
+    {
+      "date": "2025-09-16",
+      "street": "RUE LAZARE CARNOT",
+      "type": "Maison",
+      "surface": 175,
+      "price": 399350.0
+    },
+    {
+      "date": "2025-02-26",
+      "street": "RUE LAZARE CARNOT",
+      "type": "Maison",
+      "surface": 78,
+      "price": 375000.0
+    },
+    {
+      "date": "2025-06-26",
+      "street": "RUE PIERRE MENDES FRANCE",
+      "type": "Maison",
+      "surface": 115,
+      "price": 374000.0
+    },
+    {
+      "date": "2025-06-27",
+      "street": "RUE PIERRE MENDES FRANCE",
+      "type": "Maison",
+      "surface": 80,
+      "price": 364200.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:39:33.310140Z"
+}
