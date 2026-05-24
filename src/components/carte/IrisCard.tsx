@@ -564,8 +564,17 @@ function Gauge({ value }: { value: number }) {
 
 /** Sober markdown renderer : **bold** + paragraphs. No HTML injection. */
 function MarkdownLite({ text }: { text: string }) {
+  // Nettoyage des marqueurs IA typiques avant rendu :
+  // - les "->" lazy markdown deviennent une vraie flèche unicode
+  // - les "—" / "–" double-tirets se normalisent en " · " (séparateur visuel sobre)
+  // - les "..." se normalisent en "…"
+  const cleaned = text
+    .replace(/\s+->\s+/g, " → ")
+    .replace(/\s+—\s+/g, " · ")
+    .replace(/\s+–\s+/g, " · ")
+    .replace(/\.{3}/g, "…");
   // Split on blank lines into blocks; each block can be a heading (** wrap) or paragraph
-  const blocks = text.trim().split(/\n\s*\n/);
+  const blocks = cleaned.trim().split(/\n\s*\n/);
   return (
     <div className="space-y-3 text-[13.5px] text-ink leading-relaxed">
       {blocks.map((b, i) => {

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { assetUrl } from "@/lib/url";
 import { useEscape } from "@/lib/useEscape";
-import { X, LineChart as LineChartIcon, Target, Hammer } from "lucide-react";
+import { X, LineChart as LineChartIcon } from "lucide-react";
 import {
   Bar,
   CartesianGrid,
@@ -19,13 +19,12 @@ import type { CommuneStats } from "@/lib/types";
 import { formatEur, formatNum } from "@/lib/format";
 import type { MapFilters } from "./types";
 
-type Tab = "evolution" | "projection" | "strates" | "couches";
+type Tab = "evolution" | "projection" | "strates";
 
 const TABS: { id: Tab; label: string }[] = [
   { id: "evolution", label: "Évolution dans le temps" },
   { id: "projection", label: "Suivi des prix" },
   { id: "strates", label: "Profil de la population" },
-  { id: "couches", label: "Couches d'analyse" },
 ];
 
 export default function MarketModal({
@@ -33,13 +32,11 @@ export default function MarketModal({
   onClose,
   initialTab = "evolution",
   filters,
-  setFilters,
 }: {
   stats: CommuneStats;
   onClose: () => void;
   initialTab?: Tab;
   filters: MapFilters;
-  setFilters: (f: MapFilters) => void;
 }) {
   useEscape(true, onClose);
   return (
@@ -62,7 +59,6 @@ export default function MarketModal({
           stats={stats}
           initialTab={initialTab}
           filters={filters}
-          setFilters={setFilters}
         />
       </div>
     </div>
@@ -92,12 +88,10 @@ function ModalContent({
   stats,
   initialTab,
   filters,
-  setFilters,
 }: {
   stats: CommuneStats;
   initialTab: Tab;
   filters: MapFilters;
-  setFilters: (f: MapFilters) => void;
 }) {
   const [tab, setTab] = useState<Tab>(initialTab);
 
@@ -122,100 +116,35 @@ function ModalContent({
       </div>
 
       <div className="p-6">
-        {tab === "evolution" && <EvolutionTab stats={stats} />}
+        {tab === "evolution" && <EvolutionTab stats={stats} yearRange={filters.yearRange} />}
         {tab === "projection" && <ProjectionTab stats={stats} />}
         {tab === "strates" && <StratesTab />}
-        {tab === "couches" && <CouchesTab filters={filters} setFilters={setFilters} />}
       </div>
     </>
   );
 }
 
-function CouchesTab({
-  filters,
-  setFilters,
-}: {
-  filters: MapFilters;
-  setFilters: (f: MapFilters) => void;
-}) {
-  return (
-    <div className="space-y-5">
-      <p className="text-ink-soft text-[15px] leading-relaxed">
-        Activez les couches d&apos;analyse à superposer sur la carte. Ces
-        couches révèlent les opportunités de prospection : logements à fort
-        potentiel de mise en vente et bâtiments récemment modifiés (proxy des
-        permis de construire).
-      </p>
-
-      <div className="space-y-3">
-        <button
-          type="button"
-          onClick={() => setFilters({ ...filters, showPipeline: !filters.showPipeline })}
-          className={`w-full inline-flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl border text-[14px] transition ${
-            filters.showPipeline
-              ? "bg-brand border-brand text-white"
-              : "bg-white border-[color:var(--line)] text-ink-soft hover:border-brand hover:text-ink"
-          }`}
-        >
-          <span className="inline-flex items-center gap-3">
-            <Target size={18} />
-            <span className="text-left">
-              <span className="block font-medium">Logements à fort potentiel</span>
-              <span className={`block text-[12px] mt-0.5 ${filters.showPipeline ? "text-white/85" : "text-ink-mute"}`}>
-                7 922 candidats — DPE F/G + bâti ancien sur quartiers actifs
-              </span>
-            </span>
-          </span>
-          <span
-            className={`px-2.5 py-1 rounded-full text-[11px] font-semibold ${
-              filters.showPipeline ? "bg-white/20 text-white" : "bg-surface-warm text-ink-mute"
-            }`}
-          >
-            {filters.showPipeline ? "Activée" : "Activer"}
-          </span>
-        </button>
-
-        <button
-          type="button"
-          onClick={() => setFilters({ ...filters, showPermits: !filters.showPermits })}
-          className={`w-full inline-flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl border text-[14px] transition ${
-            filters.showPermits
-              ? "bg-brand border-brand text-white"
-              : "bg-white border-[color:var(--line)] text-ink-soft hover:border-brand hover:text-ink"
-          }`}
-        >
-          <span className="inline-flex items-center gap-3">
-            <Hammer size={18} />
-            <span className="text-left">
-              <span className="block font-medium">Bâtiments modifiés (2019-2026)</span>
-              <span className={`block text-[12px] mt-0.5 ${filters.showPermits ? "text-white/85" : "text-ink-mute"}`}>
-                1 005 points — mises à jour cadastrales IGN (permis, extensions, divisions)
-              </span>
-            </span>
-          </span>
-          <span
-            className={`px-2.5 py-1 rounded-full text-[11px] font-semibold ${
-              filters.showPermits ? "bg-white/20 text-white" : "bg-surface-warm text-ink-mute"
-            }`}
-          >
-            {filters.showPermits ? "Activée" : "Activer"}
-          </span>
-        </button>
-      </div>
-
-      <p className="text-[11px] text-ink-mute leading-relaxed pt-3 border-t border-[color:var(--line-soft)]">
-        Cliquez sur un point pour ouvrir sa fiche avec les liens directs vers
-        Pages Jaunes, Pages Blanches, Pappers et Street View. Les fiches
-        ouvrent toujours dans un nouvel onglet, sans redirection automatique.
-      </p>
-    </div>
-  );
-}
-
 /* ---------- Sub-content ---------- */
 
-function EvolutionTab({ stats }: { stats: CommuneStats }) {
-  const data = stats.by_year;
+function EvolutionTab({
+  stats,
+  yearRange,
+}: {
+  stats: CommuneStats;
+  yearRange: [number, number];
+}) {
+  // Filtre période d'analyse (issu de la bulle Projections)
+  const data = stats.by_year.filter(
+    (y) => y.year >= yearRange[0] && y.year <= yearRange[1],
+  );
+  if (data.length === 0) {
+    return (
+      <div className="rounded-lg bg-surface-warm border border-[color:var(--line)] p-5 text-[13px] text-ink-soft">
+        Aucune donnée pour la période sélectionnée ({yearRange[0]}–{yearRange[1]}).
+        Élargissez la période d&apos;analyse dans le panneau Projections.
+      </div>
+    );
+  }
   const first = data[0];
   const last = data[data.length - 1];
   const salesDelta = Math.round(((last.sales - first.sales) / first.sales) * 100);

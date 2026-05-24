@@ -1,6 +1,6 @@
 "use client";
 
-import { SlidersHorizontal, X, Home, Building2, Eye } from "lucide-react";
+import { SlidersHorizontal, X, Home, Building2, Eye, Target, Hammer } from "lucide-react";
 import type { MapFilters, TypeFilter } from "./types";
 
 export default function FiltersBubble({
@@ -133,22 +133,47 @@ export default function FiltersBubble({
               </div>
             </Section>
 
-            <p className="text-[11px] text-ink-mute leading-relaxed pt-2 border-t border-[color:var(--line-soft)]">
-              Pour activer les couches d&apos;analyse avancées (pipeline de
-              ventes probables, bâtiments modifiés), ouvrez le panneau
-              <strong className="text-ink"> Historique </strong>
-              en haut à droite.
-            </p>
-          </div>
-
-          <div className="px-5 py-3 border-t border-[color:var(--line-soft)] bg-surface-warm">
-            <button
-              type="button"
-              onClick={() => setOpen(false)}
-              className="w-full inline-flex items-center justify-center px-4 py-2.5 rounded-lg bg-brand text-white font-medium text-[15px] hover:bg-brand-strong transition min-h-[44px]"
-            >
-              Appliquer
-            </button>
+            {/* Couches d'analyse — réintégrées ici (anciennement dans le panneau Historique) */}
+            <Section title="Couches d'analyse">
+              <div className="space-y-2">
+                <button
+                  type="button"
+                  onClick={() => setFilters({ ...filters, showPipeline: !filters.showPipeline })}
+                  className={`w-full inline-flex items-center justify-between gap-2 px-3 py-2.5 rounded-lg border text-[13px] min-h-[44px] transition ${
+                    filters.showPipeline
+                      ? "bg-brand border-brand text-white"
+                      : "bg-white border-[color:var(--line)] text-ink-soft hover:border-brand hover:text-ink"
+                  }`}
+                  aria-pressed={filters.showPipeline}
+                >
+                  <span className="inline-flex items-center gap-2">
+                    <Target size={15} aria-hidden="true" />
+                    Logements à fort potentiel
+                  </span>
+                  <span className={`text-[11px] ${filters.showPipeline ? "text-white/85" : "text-ink-mute"}`}>
+                    7 922
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setFilters({ ...filters, showPermits: !filters.showPermits })}
+                  className={`w-full inline-flex items-center justify-between gap-2 px-3 py-2.5 rounded-lg border text-[13px] min-h-[44px] transition ${
+                    filters.showPermits
+                      ? "bg-brand border-brand text-white"
+                      : "bg-white border-[color:var(--line)] text-ink-soft hover:border-brand hover:text-ink"
+                  }`}
+                  aria-pressed={filters.showPermits}
+                >
+                  <span className="inline-flex items-center gap-2">
+                    <Hammer size={15} aria-hidden="true" />
+                    Bâtiments modifiés
+                  </span>
+                  <span className={`text-[11px] ${filters.showPermits ? "text-white/85" : "text-ink-mute"}`}>
+                    1 005
+                  </span>
+                </button>
+              </div>
+            </Section>
           </div>
         </div>
       )}

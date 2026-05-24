@@ -203,7 +203,6 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
           stats={stats}
           onClose={() => setMarketOpen(false)}
           filters={filters}
-          setFilters={setFilters}
         />
       )}
     </main>
