@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 36,
+  "sales_delta_pct": -16.3,
+  "median_price": 202000.0,
+  "median_ppsqm": 1607.142857142857,
+  "delta_ppsqm_pct": -40.9,
+  "notable_sales": [
+    {
+      "date": "2025-01-07",
+      "street": "PICARDIE",
+      "type": "Maison",
+      "surface": 200,
+      "price": 316500.0
+    },
+    {
+      "date": "2025-03-17",
+      "street": "RUE DU PRE DES CYGNES",
+      "type": "Maison",
+      "surface": 168,
+      "price": 270000.0
+    },
+    {
+      "date": "2025-10-17",
+      "street": "RUE SAINT CHRISTOPHE",
+      "type": "Maison",
+      "surface": 132,
+      "price": 266400.0
+    },
+    {
+      "date": "2025-03-17",
+      "street": "RUE DE BRINCHE",
+      "type": "Maison",
+      "surface": 110,
+      "price": 247060.0
+    },
+    {
+      "date": "2025-03-20",
+      "street": "RUE DE BRINCHE",
+      "type": "Maison",
+      "surface": 93,
+      "price": 202000.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:05:31.223250Z"
+}

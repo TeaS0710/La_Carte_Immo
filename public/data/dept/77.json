@@ -2,16 +2,16 @@
   "code_dept": "77",
   "nom_dept": "Seine-et-Marne",
   "communes_count_total": 507,
-  "communes_count_available": 338,
-  "total_sales": 264004,
+  "communes_count_available": 387,
+  "total_sales": 297772,
   "median_price": 224000.0,
   "population_total": 1468108,
-  "population_available": 1260482,
-  "median_price_per_sqm": 2800.925925925926,
+  "population_available": 1426182,
+  "median_price_per_sqm": 2786.8852459016393,
   "insights": [
     "Meaux concentre le plus de transactions du département (8 765 ventes DVF sur 5 ans).",
     "Spread prix marqué : Le Mesnil-Amelot à 78 452 €/m² vs Livry-sur-Seine à 577 €/m².",
-    "Les 5 communes les plus actives concentrent 13 % des transactions du département analysées."
+    "Les 5 communes les plus actives concentrent 11 % des transactions du département analysées."
   ],
   "top_communes": [
     {
@@ -165,6 +165,25 @@
         2025
       ],
       "streets_with_sales": 165
+    },
+    {
+      "code_insee": "77514",
+      "slug": "villeparisis",
+      "nom": "Villeparisis",
+      "population": 26946,
+      "lng": 2.6178,
+      "lat": 48.9408,
+      "total_sales": 3971,
+      "median_price": 200000.0,
+      "median_price_per_sqm": 3439.0889830508477,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 184
     },
     {
       "code_insee": "77186",
@@ -374,25 +393,6 @@
         2025
       ],
       "streets_with_sales": 182
-    },
-    {
-      "code_insee": "77118",
-      "slug": "claye-souilly",
-      "nom": "Claye-Souilly",
-      "population": 13353,
-      "lng": 2.68,
-      "lat": 48.941,
-      "total_sales": 2851,
-      "median_price": 280000.0,
-      "median_price_per_sqm": 3916.6666666666665,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 195
     }
   ],
   "all_communes_available": [
@@ -443,6 +443,12 @@
       "nom": "Champs-sur-Marne",
       "code_insee": "77083",
       "total_sales": 4021
+    },
+    {
+      "slug": "villeparisis",
+      "nom": "Villeparisis",
+      "code_insee": "77514",
+      "total_sales": 3971
     },
     {
       "slug": "fontainebleau",
@@ -511,6 +517,12 @@
       "total_sales": 2980
     },
     {
+      "slug": "torcy",
+      "nom": "Torcy",
+      "code_insee": "77468",
+      "total_sales": 2970
+    },
+    {
       "slug": "claye-souilly",
       "nom": "Claye-Souilly",
       "code_insee": "77118",
@@ -577,6 +589,18 @@
       "total_sales": 2107
     },
     {
+      "slug": "vaux-le-penil",
+      "nom": "Vaux-le-Pénil",
+      "code_insee": "77487",
+      "total_sales": 2048
+    },
+    {
+      "slug": "thorigny-sur-marne",
+      "nom": "Thorigny-sur-Marne",
+      "code_insee": "77464",
+      "total_sales": 1984
+    },
+    {
       "slug": "serris",
       "nom": "Serris",
       "code_insee": "77449",
@@ -607,6 +631,12 @@
       "total_sales": 1869
     },
     {
+      "slug": "vaires-sur-marne",
+      "nom": "Vaires-sur-Marne",
+      "code_insee": "77479",
+      "total_sales": 1743
+    },
+    {
       "slug": "gretz-armainvilliers",
       "nom": "Gretz-Armainvilliers",
       "code_insee": "77215",
@@ -625,6 +655,12 @@
       "total_sales": 1585
     },
     {
+      "slug": "tournan-en-brie",
+      "nom": "Tournan-en-Brie",
+      "code_insee": "77470",
+      "total_sales": 1459
+    },
+    {
       "slug": "pommeuse",
       "nom": "Pommeuse",
       "code_insee": "77371",
@@ -635,6 +671,12 @@
       "nom": "Bois-le-Roi",
       "code_insee": "77037",
       "total_sales": 1426
+    },
+    {
+      "slug": "souppes-sur-loing",
+      "nom": "Souppes-sur-Loing",
+      "code_insee": "77458",
+      "total_sales": 1380
     },
     {
       "slug": "montigny-sur-loing",
@@ -667,6 +709,12 @@
       "total_sales": 1331
     },
     {
+      "slug": "vert-saint-denis",
+      "nom": "Vert-Saint-Denis",
+      "code_insee": "77495",
+      "total_sales": 1322
+    },
+    {
       "slug": "jouarre",
       "nom": "Jouarre",
       "code_insee": "77238",
@@ -683,6 +731,12 @@
       "nom": "Saint-Pierre-lès-Nemours",
       "code_insee": "77431",
       "total_sales": 1242
+    },
+    {
+      "slug": "villenoy",
+      "nom": "Villenoy",
+      "code_insee": "77513",
+      "total_sales": 1241
     },
     {
       "slug": "othis",
@@ -841,10 +895,22 @@
       "total_sales": 901
     },
     {
+      "slug": "trilport",
+      "nom": "Trilport",
+      "code_insee": "77475",
+      "total_sales": 896
+    },
+    {
       "slug": "mareuil-les-meaux",
       "nom": "Mareuil-lès-Meaux",
       "code_insee": "77276",
       "total_sales": 872
+    },
+    {
+      "slug": "thomery",
+      "nom": "Thomery",
+      "code_insee": "77463",
+      "total_sales": 871
     },
     {
       "slug": "courtry",
@@ -967,6 +1033,12 @@
       "total_sales": 690
     },
     {
+      "slug": "varreddes",
+      "nom": "Varreddes",
+      "code_insee": "77483",
+      "total_sales": 690
+    },
+    {
       "slug": "dampmart",
       "nom": "Dampmart",
       "code_insee": "77155",
@@ -983,6 +1055,12 @@
       "nom": "Grez-sur-Loing",
       "code_insee": "77216",
       "total_sales": 671
+    },
+    {
+      "slug": "vernou-la-celle-sur-seine",
+      "nom": "Vernou-la-Celle-sur-Seine",
+      "code_insee": "77494",
+      "total_sales": 669
     },
     {
       "slug": "la-rochette",
@@ -1063,6 +1141,12 @@
       "total_sales": 603
     },
     {
+      "slug": "servon",
+      "nom": "Servon",
+      "code_insee": "77450",
+      "total_sales": 603
+    },
+    {
       "slug": "samois-sur-seine",
       "nom": "Samois-sur-Seine",
       "code_insee": "77441",
@@ -1075,10 +1159,22 @@
       "total_sales": 596
     },
     {
+      "slug": "soignolles-en-brie",
+      "nom": "Soignolles-en-Brie",
+      "code_insee": "77455",
+      "total_sales": 595
+    },
+    {
       "slug": "crouy-sur-ourcq",
       "nom": "Crouy-sur-Ourcq",
       "code_insee": "77148",
       "total_sales": 593
+    },
+    {
+      "slug": "varennes-sur-seine",
+      "nom": "Varennes-sur-Seine",
+      "code_insee": "77482",
+      "total_sales": 592
     },
     {
       "slug": "la-chapelle-la-reine",
@@ -1153,6 +1249,12 @@
       "total_sales": 548
     },
     {
+      "slug": "villeneuve-sur-bellot",
+      "nom": "Villeneuve-sur-Bellot",
+      "code_insee": "77512",
+      "total_sales": 544
+    },
+    {
       "slug": "chailly-en-brie",
       "nom": "Chailly-en-Brie",
       "code_insee": "77070",
@@ -1169,6 +1271,12 @@
       "nom": "Luzancy",
       "code_insee": "77265",
       "total_sales": 535
+    },
+    {
+      "slug": "le-vaudoue",
+      "nom": "Le Vaudoué",
+      "code_insee": "77485",
+      "total_sales": 534
     },
     {
       "slug": "perthes",
@@ -1219,6 +1327,12 @@
       "total_sales": 499
     },
     {
+      "slug": "vendrest",
+      "nom": "Vendrest",
+      "code_insee": "77490",
+      "total_sales": 499
+    },
+    {
       "slug": "cely",
       "nom": "Cély",
       "code_insee": "77065",
@@ -1231,10 +1345,28 @@
       "total_sales": 494
     },
     {
+      "slug": "la-tretoire",
+      "nom": "La Trétoire",
+      "code_insee": "77472",
+      "total_sales": 493
+    },
+    {
       "slug": "rozay-en-brie",
       "nom": "Rozay-en-Brie",
       "code_insee": "77393",
       "total_sales": 490
+    },
+    {
+      "slug": "sourdun",
+      "nom": "Sourdun",
+      "code_insee": "77459",
+      "total_sales": 485
+    },
+    {
+      "slug": "villemarechal",
+      "nom": "Villemaréchal",
+      "code_insee": "77504",
+      "total_sales": 485
     },
     {
       "slug": "acheres-la-foret",
@@ -1253,6 +1385,12 @@
       "nom": "Saint-Rémy-de-la-Vanne",
       "code_insee": "77432",
       "total_sales": 481
+    },
+    {
+      "slug": "touquin",
+      "nom": "Touquin",
+      "code_insee": "77469",
+      "total_sales": 479
     },
     {
       "slug": "saint-simeon",
@@ -1339,6 +1477,12 @@
       "total_sales": 435
     },
     {
+      "slug": "solers",
+      "nom": "Solers",
+      "code_insee": "77457",
+      "total_sales": 433
+    },
+    {
       "slug": "nanteau-sur-lunain",
       "nom": "Nanteau-sur-Lunain",
       "code_insee": "77329",
@@ -1387,10 +1531,22 @@
       "total_sales": 425
     },
     {
+      "slug": "thoury-ferottes",
+      "nom": "Thoury-Férottes",
+      "code_insee": "77465",
+      "total_sales": 422
+    },
+    {
       "slug": "coutevroult",
       "nom": "Coutevroult",
       "code_insee": "77141",
       "total_sales": 420
+    },
+    {
+      "slug": "verdelot",
+      "nom": "Verdelot",
+      "code_insee": "77492",
+      "total_sales": 416
     },
     {
       "slug": "changis-sur-marne",
@@ -1432,6 +1588,12 @@
       "slug": "le-mesnil-amelot",
       "nom": "Le Mesnil-Amelot",
       "code_insee": "77291",
+      "total_sales": 398
+    },
+    {
+      "slug": "verneuil-l-etang",
+      "nom": "Verneuil-l'Étang",
+      "code_insee": "77493",
       "total_sales": 398
     },
     {
@@ -1481,6 +1643,12 @@
       "nom": "Citry",
       "code_insee": "77117",
       "total_sales": 377
+    },
+    {
+      "slug": "villeneuve-le-comte",
+      "nom": "Villeneuve-le-Comte",
+      "code_insee": "77508",
+      "total_sales": 376
     },
     {
       "slug": "amillis",
@@ -1597,10 +1765,22 @@
       "total_sales": 340
     },
     {
+      "slug": "villemer",
+      "nom": "Villemer",
+      "code_insee": "77506",
+      "total_sales": 339
+    },
+    {
       "slug": "may-en-multien",
       "nom": "May-en-Multien",
       "code_insee": "77283",
       "total_sales": 338
+    },
+    {
+      "slug": "soisy-bouy",
+      "nom": "Soisy-Bouy",
+      "code_insee": "77456",
+      "total_sales": 337
     },
     {
       "slug": "charny",
@@ -1636,6 +1816,12 @@
       "slug": "la-chapelle-gauthier",
       "nom": "La Chapelle-Gauthier",
       "code_insee": "77086",
+      "total_sales": 317
+    },
+    {
+      "slug": "ussy-sur-marne",
+      "nom": "Ussy-sur-Marne",
+      "code_insee": "77478",
       "total_sales": 317
     },
     {
@@ -1687,6 +1873,12 @@
       "total_sales": 294
     },
     {
+      "slug": "villecerf",
+      "nom": "Villecerf",
+      "code_insee": "77501",
+      "total_sales": 293
+    },
+    {
       "slug": "aubepierre-ozouer-le-repos",
       "nom": "Aubepierre-Ozouer-le-Repos",
       "code_insee": "77010",
@@ -1705,6 +1897,12 @@
       "total_sales": 290
     },
     {
+      "slug": "ury",
+      "nom": "Ury",
+      "code_insee": "77477",
+      "total_sales": 288
+    },
+    {
       "slug": "beton-bazoches",
       "nom": "Beton-Bazoches",
       "code_insee": "77032",
@@ -1714,6 +1912,12 @@
       "slug": "marolles-sur-seine",
       "nom": "Marolles-sur-Seine",
       "code_insee": "77279",
+      "total_sales": 286
+    },
+    {
+      "slug": "sognolles-en-montois",
+      "nom": "Sognolles-en-Montois",
+      "code_insee": "77454",
       "total_sales": 286
     },
     {
@@ -1729,6 +1933,12 @@
       "total_sales": 283
     },
     {
+      "slug": "villeneuve-les-bordes",
+      "nom": "Villeneuve-les-Bordes",
+      "code_insee": "77509",
+      "total_sales": 280
+    },
+    {
       "slug": "courtomer",
       "nom": "Courtomer",
       "code_insee": "77138",
@@ -1738,6 +1948,12 @@
       "slug": "gouvernes",
       "nom": "Gouvernes",
       "code_insee": "77209",
+      "total_sales": 276
+    },
+    {
+      "slug": "villeneuve-saint-denis",
+      "nom": "Villeneuve-Saint-Denis",
+      "code_insee": "77510",
       "total_sales": 276
     },
     {
@@ -1762,6 +1978,12 @@
       "slug": "armentieres-en-brie",
       "nom": "Armentières-en-Brie",
       "code_insee": "77008",
+      "total_sales": 273
+    },
+    {
+      "slug": "treuzy-levelay",
+      "nom": "Treuzy-Levelay",
+      "code_insee": "77473",
       "total_sales": 273
     },
     {
@@ -1792,6 +2014,12 @@
       "slug": "louan-villegruis-fontaine",
       "nom": "Louan-Villegruis-Fontaine",
       "code_insee": "77262",
+      "total_sales": 260
+    },
+    {
+      "slug": "tigeaux",
+      "nom": "Tigeaux",
+      "code_insee": "77466",
       "total_sales": 260
     },
     {
@@ -1855,6 +2083,12 @@
       "total_sales": 248
     },
     {
+      "slug": "signy-signets",
+      "nom": "Signy-Signets",
+      "code_insee": "77451",
+      "total_sales": 246
+    },
+    {
       "slug": "lesches",
       "nom": "Lesches",
       "code_insee": "77248",
@@ -1873,6 +2107,12 @@
       "total_sales": 245
     },
     {
+      "slug": "villebeon",
+      "nom": "Villebéon",
+      "code_insee": "77500",
+      "total_sales": 245
+    },
+    {
       "slug": "coulombs-en-valois",
       "nom": "Coulombs-en-Valois",
       "code_insee": "77129",
@@ -1883,6 +2123,12 @@
       "nom": "Saint-Sauveur-sur-École",
       "code_insee": "77435",
       "total_sales": 241
+    },
+    {
+      "slug": "trilbardou",
+      "nom": "Trilbardou",
+      "code_insee": "77474",
+      "total_sales": 240
     },
     {
       "slug": "meilleray",
@@ -1907,6 +2153,12 @@
       "nom": "Étrépilly",
       "code_insee": "77173",
       "total_sales": 236
+    },
+    {
+      "slug": "vaudoy-en-brie",
+      "nom": "Vaudoy-en-Brie",
+      "code_insee": "77486",
+      "total_sales": 234
     },
     {
       "slug": "boutigny",
@@ -2041,6 +2293,18 @@
       "total_sales": 206
     },
     {
+      "slug": "sivry-courtry",
+      "nom": "Sivry-Courtry",
+      "code_insee": "77453",
+      "total_sales": 206
+    },
+    {
+      "slug": "thieux",
+      "nom": "Thieux",
+      "code_insee": "77462",
+      "total_sales": 206
+    },
+    {
       "slug": "saint-ouen-sur-morin",
       "nom": "Saint-Ouen-sur-Morin",
       "code_insee": "77429",
@@ -2069,6 +2333,12 @@
       "nom": "Mauperthuis",
       "code_insee": "77281",
       "total_sales": 195
+    },
+    {
+      "slug": "villenauxe-la-petite",
+      "nom": "Villenauxe-la-Petite",
+      "code_insee": "77507",
+      "total_sales": 193
     },
     {
       "slug": "echouboulains",
@@ -2137,6 +2407,12 @@
       "total_sales": 179
     },
     {
+      "slug": "villeneuve-sous-dammartin",
+      "nom": "Villeneuve-sous-Dammartin",
+      "code_insee": "77511",
+      "total_sales": 179
+    },
+    {
       "slug": "montceaux-les-meaux",
       "nom": "Montceaux-lès-Meaux",
       "code_insee": "77300",
@@ -2153,6 +2429,12 @@
       "nom": "Isles-les-Meldeuses",
       "code_insee": "77231",
       "total_sales": 174
+    },
+    {
+      "slug": "valence-en-brie",
+      "nom": "Valence-en-Brie",
+      "code_insee": "77480",
+      "total_sales": 172
     },
     {
       "slug": "fericy",
@@ -2195,6 +2477,12 @@
       "nom": "Saint-Ouen-en-Brie",
       "code_insee": "77428",
       "total_sales": 163
+    },
+    {
+      "slug": "villeroy",
+      "nom": "Villeroy",
+      "code_insee": "77515",
+      "total_sales": 162
     },
     {
       "slug": "les-ecrennes",
@@ -2261,6 +2549,12 @@
       "nom": "Férolles-Attilly",
       "code_insee": "77180",
       "total_sales": 139
+    },
+    {
+      "slug": "villemareuil",
+      "nom": "Villemareuil",
+      "code_insee": "77505",
+      "total_sales": 138
     },
     {
       "slug": "le-plessis-feu-aussoux",

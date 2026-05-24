@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 143,
+  "sales_delta_pct": 33.6,
+  "median_price": 520000.0,
+  "median_ppsqm": 2388.169329908129,
+  "delta_ppsqm_pct": -13.8,
+  "notable_sales": [
+    {
+      "date": "2025-06-04",
+      "street": "GRANDE RUE LA CELLE",
+      "type": "Maison",
+      "surface": 245,
+      "price": 520000.0
+    },
+    {
+      "date": "2025-04-17",
+      "street": "RUE DU PANORAMA",
+      "type": "Maison",
+      "surface": 193,
+      "price": 448333.0
+    },
+    {
+      "date": "2025-05-27",
+      "street": "LE CHEMIN AUX ANES",
+      "type": "Maison",
+      "surface": 103,
+      "price": 316050.0
+    },
+    {
+      "date": "2025-02-27",
+      "street": "RUE DES PEUPLIERS",
+      "type": "Maison",
+      "surface": 116,
+      "price": 300000.0
+    },
+    {
+      "date": "2025-02-14",
+      "street": "RTE DE VALENCE",
+      "type": "Maison",
+      "surface": 119,
+      "price": 291951.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:03:32.989831Z"
+}

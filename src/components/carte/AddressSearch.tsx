@@ -124,7 +124,7 @@ export default function AddressSearch({
       return;
     }
     setOpen(false);
-    router.push(assetUrl(`/carte/ville/${commune.slug}`));
+    router.push(`/carte/ville/${commune.slug}`);
   }
 
   return (

@@ -3,7 +3,6 @@ import path from "node:path";
 import Link from "next/link";
 import Header from "@/components/landing/Header";
 import CarteBreadcrumb from "@/components/carte/CarteBreadcrumb";
-import { assetUrl } from "@/lib/url";
 
 /**
  * Page hub Paris : Paris est traitée comme une "super-ville" qui
@@ -57,8 +56,8 @@ export default async function ParisHubPage() {
       <main className="max-w-5xl mx-auto px-5 py-10 space-y-8">
         <CarteBreadcrumb
           items={[
-            { label: "Île-de-France", href: assetUrl("/carte/region/idf") },
-            { label: "Paris", href: assetUrl("/carte/dept/75") },
+            { label: "Île-de-France", href: "/carte/region/idf" },
+            { label: "Paris", href: "/carte/dept/75" },
             { label: "Vue d'ensemble" },
           ]}
         />
@@ -97,7 +96,7 @@ export default async function ParisHubPage() {
               return hasData ? (
                 <Link
                   key={arr.code_insee}
-                  href={assetUrl(`/carte/ville/${arr.slug}`)}
+                  href={`/carte/ville/${arr.slug}`}
                   className="block rounded-xl border border-[color:var(--line)] bg-white p-4 hover:border-brand hover:bg-surface-warm/50 transition group focus:outline-none focus:ring-2 focus:ring-brand-strong/30"
                 >
                   <div className="text-[10px] uppercase tracking-[0.12em] text-brand-strong mb-0.5">

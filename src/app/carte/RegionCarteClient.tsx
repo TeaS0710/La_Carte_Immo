@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Box, History, Info, MapPin, Train } from "lucide-react";
-import { assetUrl } from "@/lib/url";
 import RegionMap from "@/components/carte/RegionMap";
 import AddressSearch from "@/components/carte/AddressSearch";
 
@@ -53,7 +52,7 @@ export default function RegionCarteClient({
 
       {/* Bouton Comparer (vue tableau régionale) */}
       <Link
-        href={assetUrl("/carte/region/idf")}
+        href={"/carte/region/idf"}
         className="absolute top-[140px] right-4 z-10 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
       >
         <History size={17} />
@@ -96,11 +95,14 @@ export default function RegionCarteClient({
 
       {/* Légende */}
       <div
-        aria-label="Légende : taille des cercles proportionnelle au volume de ventes DVF, couleur reflétant le prix au m² médian."
-        className="absolute bottom-4 left-4 z-10 bg-white rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.10)] border border-[color:var(--line)] px-4 py-3 text-[13px] text-ink max-w-[calc(100vw-32px)]"
+        aria-label="Légende : heatmap pondérée par le volume de ventes DVF, cercles cliquables au-dessus avec couleur reflétant le prix au m² médian."
+        className="no-presentation absolute bottom-4 left-4 z-10 bg-white rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.10)] border border-[color:var(--line)] px-4 py-3 text-[13px] text-ink max-w-[calc(100vw-32px)]"
       >
-        <div className="text-[11px] uppercase tracking-[0.15em] text-ink-soft mb-2">
-          Prix au m² médian (commune)
+        <div className="text-[11px] uppercase tracking-[0.15em] text-ink-soft mb-1">
+          Heatmap des transactions
+        </div>
+        <div className="text-[11px] text-ink-soft mb-2">
+          Densité = volume de ventes DVF 5 ans
         </div>
         <div className="flex items-center gap-1.5">
           <span className="inline-block h-2.5 w-7 rounded-l-sm bg-[#d9e0d4]" />
@@ -111,11 +113,11 @@ export default function RegionCarteClient({
           <span className="inline-block h-2.5 w-7 rounded-r-sm bg-[#7a2810]" />
         </div>
         <div className="flex items-center justify-between text-[11px] text-ink-soft mt-1 w-44">
-          <span>3 k €</span>
-          <span>13 k €</span>
+          <span>Calme</span>
+          <span>Très actif</span>
         </div>
         <div className="text-[11px] text-ink-soft mt-2 pt-2 border-t border-[color:var(--line-soft)]">
-          ⬤ taille = volume de ventes DVF (5 ans)
+          ⬤ cercles cliquables · couleur = prix €/m²
         </div>
       </div>
 

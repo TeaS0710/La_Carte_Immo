@@ -1,0 +1,120 @@
+{
+  "commune": "Verneuil-l'Étang",
+  "insee": "77493",
+  "generated_at": "2026-05-24T22:03:25.695741Z",
+  "total_sales": 398,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 40,
+  "median_price": 272000.0,
+  "median_price_per_sqm": 2475.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 183,
+      "median_price": 159000.0
+    },
+    {
+      "year": 2022,
+      "sales": 70,
+      "median_price": 382300.0
+    },
+    {
+      "year": 2023,
+      "sales": 44,
+      "median_price": 293000.0
+    },
+    {
+      "year": 2024,
+      "sales": 40,
+      "median_price": 264125.0
+    },
+    {
+      "year": 2025,
+      "sales": 61,
+      "median_price": 275000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 67,
+      "median_price_per_sqm": 1857.142857142857
+    },
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 54,
+      "median_price_per_sqm": 3131.868131868132
+    },
+    {
+      "street_name": "RUE DE LA GARE",
+      "sales": 44,
+      "median_price_per_sqm": 4413.333333333333
+    },
+    {
+      "street_name": "RUE ARTHUR CHAUSSY",
+      "sales": 36,
+      "median_price_per_sqm": 2885.245901639344
+    },
+    {
+      "street_name": "RUE JEAN JAURES",
+      "sales": 24,
+      "median_price_per_sqm": 2214.285714285714
+    },
+    {
+      "street_name": "RUE JULES GUESDE",
+      "sales": 20,
+      "median_price_per_sqm": 3107.52688172043
+    },
+    {
+      "street_name": "RUE L OREE DU PARC",
+      "sales": 13,
+      "median_price_per_sqm": 2818.181818181818
+    },
+    {
+      "street_name": "RUE EDITH PIAF",
+      "sales": 12,
+      "median_price_per_sqm": 3037.489943684634
+    },
+    {
+      "street_name": "RUE EMILE ZOLA",
+      "sales": 11,
+      "median_price_per_sqm": 2608.695652173913
+    },
+    {
+      "street_name": "RUE DES MESANGES",
+      "sales": 9,
+      "median_price_per_sqm": 2837.2138826785904
+    },
+    {
+      "street_name": "RUE DENIS PAPIN",
+      "sales": 9,
+      "median_price_per_sqm": 1174.8148148148148
+    },
+    {
+      "street_name": "RUE DE L EGALITE",
+      "sales": 8,
+      "median_price_per_sqm": 2918.9189189189187
+    },
+    {
+      "street_name": "RUE DES PLATANES",
+      "sales": 8,
+      "median_price_per_sqm": 3053.909632034632
+    },
+    {
+      "street_name": "FONTAINES DE VERNOUILLET",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ALL DES PEUPLIERS",
+      "sales": 5,
+      "median_price_per_sqm": 2577.281906657819
+    }
+  ]
+}

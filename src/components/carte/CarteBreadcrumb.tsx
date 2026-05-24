@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { ChevronRight, Home } from "lucide-react";
-import { assetUrl } from "@/lib/url";
 
 interface Crumb {
   label: string;
@@ -19,7 +18,7 @@ export default function CarteBreadcrumb({ items }: { items: Crumb[] }) {
       className="text-[12px] text-ink-soft inline-flex items-center gap-1 flex-wrap"
     >
       <Link
-        href={assetUrl("/carte")}
+        href={"/carte"}
         className="inline-flex items-center gap-1 hover:text-ink transition"
         aria-label="Carte région IDF"
       >

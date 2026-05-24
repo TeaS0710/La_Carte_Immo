@@ -1,0 +1,120 @@
+{
+  "commune": "Villeparisis",
+  "insee": "77514",
+  "generated_at": "2026-05-24T22:07:31.423686Z",
+  "total_sales": 3971,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 184,
+  "median_price": 200000.0,
+  "median_price_per_sqm": 3439.0889830508477,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1052,
+      "median_price": 200000.0
+    },
+    {
+      "year": 2022,
+      "sales": 939,
+      "median_price": 205100.0
+    },
+    {
+      "year": 2023,
+      "sales": 672,
+      "median_price": 200000.0
+    },
+    {
+      "year": 2024,
+      "sales": 614,
+      "median_price": 180000.0
+    },
+    {
+      "year": 2025,
+      "sales": 694,
+      "median_price": 205000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DES TILLEULS",
+      "sales": 283,
+      "median_price_per_sqm": 3233.5087719298244
+    },
+    {
+      "street_name": "AV EUGENE VARLIN",
+      "sales": 249,
+      "median_price_per_sqm": 3520.564516129032
+    },
+    {
+      "street_name": "AV DU GENERAL DE GAULLE",
+      "sales": 244,
+      "median_price_per_sqm": 3366.7832672196178
+    },
+    {
+      "street_name": "BD DE L OURCQ",
+      "sales": 145,
+      "median_price_per_sqm": 3684.2105263157896
+    },
+    {
+      "street_name": "RUE JEAN JAURES",
+      "sales": 144,
+      "median_price_per_sqm": 2566.6666666666665
+    },
+    {
+      "street_name": "RUE DE LA MARNE",
+      "sales": 144,
+      "median_price_per_sqm": 4337.301587301587
+    },
+    {
+      "street_name": "AV ARISTIDE BRIAND",
+      "sales": 104,
+      "median_price_per_sqm": 4379.518072289156
+    },
+    {
+      "street_name": "AV LAMARTINE",
+      "sales": 97,
+      "median_price_per_sqm": 108574.58227848102
+    },
+    {
+      "street_name": "BD MARCEL SEMBAT",
+      "sales": 96,
+      "median_price_per_sqm": 3790.3225806451615
+    },
+    {
+      "street_name": "RUE DES PLATANES",
+      "sales": 74,
+      "median_price_per_sqm": 3109.8901098901097
+    },
+    {
+      "street_name": "RUE DES PEUPLIERS",
+      "sales": 74,
+      "median_price_per_sqm": 3463.2911392405063
+    },
+    {
+      "street_name": "PL FRANCOIS MAURIAC",
+      "sales": 69,
+      "median_price_per_sqm": 3217.391304347826
+    },
+    {
+      "street_name": "CITE LES CHATAIGNIERS",
+      "sales": 68,
+      "median_price_per_sqm": 2520.0
+    },
+    {
+      "street_name": "RUE DU MARECHAL FOCH",
+      "sales": 67,
+      "median_price_per_sqm": 4270.27027027027
+    },
+    {
+      "street_name": "AV DES ROSSIGNOLS",
+      "sales": 66,
+      "median_price_per_sqm": 2998.7718005404076
+    }
+  ]
+}

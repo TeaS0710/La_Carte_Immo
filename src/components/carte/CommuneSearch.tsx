@@ -84,7 +84,7 @@ export default function CommuneSearch({
               <li key={c.code_insee}>
                 {isAvailable ? (
                   <Link
-                    href={assetUrl(`/carte/ville/${c.slug}`)}
+                    href={`/carte/ville/${c.slug}`}
                     className="flex items-center justify-between px-4 py-2.5 hover:bg-surface-warm transition"
                   >
                     <span>

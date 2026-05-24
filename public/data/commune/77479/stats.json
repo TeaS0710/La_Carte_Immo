@@ -1,0 +1,120 @@
+{
+  "commune": "Vaires-sur-Marne",
+  "insee": "77479",
+  "generated_at": "2026-05-24T21:59:55.572089Z",
+  "total_sales": 1743,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 85,
+  "median_price": 277000.0,
+  "median_price_per_sqm": 4250.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 443,
+      "median_price": 329900.0
+    },
+    {
+      "year": 2022,
+      "sales": 428,
+      "median_price": 306000.0
+    },
+    {
+      "year": 2023,
+      "sales": 265,
+      "median_price": 270000.0
+    },
+    {
+      "year": 2024,
+      "sales": 247,
+      "median_price": 275000.0
+    },
+    {
+      "year": 2025,
+      "sales": 360,
+      "median_price": 243000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DES PINSONS",
+      "sales": 109,
+      "median_price_per_sqm": 3202.3809523809523
+    },
+    {
+      "street_name": "AV DES MESANGES",
+      "sales": 108,
+      "median_price_per_sqm": 2252.205882352941
+    },
+    {
+      "street_name": "RUE DE CHELLES",
+      "sales": 99,
+      "median_price_per_sqm": 8575.0
+    },
+    {
+      "street_name": "RUE DE LA LIBERTE",
+      "sales": 98,
+      "median_price_per_sqm": 4239.780144280316
+    },
+    {
+      "street_name": "AV HENRI BARBUSSE",
+      "sales": 80,
+      "median_price_per_sqm": 4179.142441860466
+    },
+    {
+      "street_name": "RUE DE LA GARE",
+      "sales": 63,
+      "median_price_per_sqm": 4258.016591251886
+    },
+    {
+      "street_name": "AV JEAN JAURES",
+      "sales": 58,
+      "median_price_per_sqm": 4897.727272727272
+    },
+    {
+      "street_name": "BD DE LORRAINE",
+      "sales": 58,
+      "median_price_per_sqm": 4893.617021276596
+    },
+    {
+      "street_name": "RUE DE TORCY",
+      "sales": 56,
+      "median_price_per_sqm": 4299.914917753828
+    },
+    {
+      "street_name": "RUE HENRI MENIER",
+      "sales": 50,
+      "median_price_per_sqm": 156250.0
+    },
+    {
+      "street_name": "RUE DES LORIOTS",
+      "sales": 49,
+      "median_price_per_sqm": 3171.6867469879517
+    },
+    {
+      "street_name": "RUE ALPHONSE MANCEAU",
+      "sales": 45,
+      "median_price_per_sqm": 4756.280344014426
+    },
+    {
+      "street_name": "RUE DES PECHEURS",
+      "sales": 41,
+      "median_price_per_sqm": 3589.7212543554006
+    },
+    {
+      "street_name": "RUE PAUL ALGIS",
+      "sales": 38,
+      "median_price_per_sqm": 4268.244315177155
+    },
+    {
+      "street_name": "RUE JULES FERRY",
+      "sales": 34,
+      "median_price_per_sqm": 4613.299039005087
+    }
+  ]
+}

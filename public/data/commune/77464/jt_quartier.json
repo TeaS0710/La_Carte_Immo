@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 418,
+  "sales_delta_pct": 53.7,
+  "median_price": 258000.0,
+  "median_ppsqm": 3631.747572815534,
+  "delta_ppsqm_pct": 2.4,
+  "notable_sales": [
+    {
+      "date": "2025-01-02",
+      "street": "RUE RAYMOND POINCARE",
+      "type": "Maison",
+      "surface": 100,
+      "price": 1500000.0
+    },
+    {
+      "date": "2025-03-05",
+      "street": "RUE DU HAUT SOLEIL",
+      "type": "Maison",
+      "surface": 190,
+      "price": 850000.0
+    },
+    {
+      "date": "2025-10-07",
+      "street": "RUE CARNOT",
+      "type": "Maison",
+      "surface": 147,
+      "price": 770000.0
+    },
+    {
+      "date": "2025-01-06",
+      "street": "RUE RAYMOND POINCARE",
+      "type": "Maison",
+      "surface": 130,
+      "price": 750000.0
+    },
+    {
+      "date": "2025-10-24",
+      "street": "RUE VICTOR HUGO",
+      "type": "Maison",
+      "surface": 138,
+      "price": 715000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:53:47.186598Z"
+}

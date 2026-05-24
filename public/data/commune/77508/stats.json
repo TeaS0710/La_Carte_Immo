@@ -1,0 +1,120 @@
+{
+  "commune": "Villeneuve-le-Comte",
+  "insee": "77508",
+  "generated_at": "2026-05-24T22:06:10.093432Z",
+  "total_sales": 376,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 58,
+  "median_price": 350000.0,
+  "median_price_per_sqm": 3672.02881152461,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 56,
+      "median_price": 317900.0
+    },
+    {
+      "year": 2022,
+      "sales": 104,
+      "median_price": 359000.0
+    },
+    {
+      "year": 2023,
+      "sales": 95,
+      "median_price": 455000.0
+    },
+    {
+      "year": 2024,
+      "sales": 63,
+      "median_price": 291000.0
+    },
+    {
+      "year": 2025,
+      "sales": 58,
+      "median_price": 356500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE LA LIBERATION",
+      "sales": 30,
+      "median_price_per_sqm": 27777.777777777777
+    },
+    {
+      "street_name": "RUE DU PONT DE COUILLY",
+      "sales": 27,
+      "median_price_per_sqm": 2804.1164658634534
+    },
+    {
+      "street_name": "BD DE L EST",
+      "sales": 22,
+      "median_price_per_sqm": 3121.3821138211383
+    },
+    {
+      "street_name": "VILLENEUVE-LE-COMTE",
+      "sales": 22,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CARDINAUX",
+      "sales": 21,
+      "median_price_per_sqm": 3813.5975545350175
+    },
+    {
+      "street_name": "RUE DE PROVINS",
+      "sales": 17,
+      "median_price_per_sqm": 3736.734693877551
+    },
+    {
+      "street_name": "FORET DE CRECY",
+      "sales": 17,
+      "median_price_per_sqm": 7446.450500000001
+    },
+    {
+      "street_name": "RUE DU GENERAL DE GAULLE",
+      "sales": 11,
+      "median_price_per_sqm": 7931.0344827586205
+    },
+    {
+      "street_name": "SEN DU PRE CLOS",
+      "sales": 11,
+      "median_price_per_sqm": 4006.1728395061727
+    },
+    {
+      "street_name": "RUE BASSES DES FOSSES",
+      "sales": 9,
+      "median_price_per_sqm": 3467.1532846715327
+    },
+    {
+      "street_name": "ALL THIBAUT DE CHAMPAGNE",
+      "sales": 8,
+      "median_price_per_sqm": 4510.98560910308
+    },
+    {
+      "street_name": "L EPINETTE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOIS DU JARIEL",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ALL ANTOINE COYSEVOX",
+      "sales": 8,
+      "median_price_per_sqm": 4403.614457831325
+    },
+    {
+      "street_name": "LES BATARDS",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 694,
+  "sales_delta_pct": 13.0,
+  "median_price": 205000.0,
+  "median_ppsqm": 3461.5384615384614,
+  "delta_ppsqm_pct": 6.5,
+  "notable_sales": [
+    {
+      "date": "2025-11-17",
+      "street": "BD MARCEL SEMBAT",
+      "type": "Appartement",
+      "surface": 66,
+      "price": 840000.0
+    },
+    {
+      "date": "2025-05-26",
+      "street": "AV MISTRAL",
+      "type": "Maison",
+      "surface": 78,
+      "price": 750000.0
+    },
+    {
+      "date": "2025-06-27",
+      "street": "RUE JOSEPH LHOSTE",
+      "type": "Appartement",
+      "surface": 35,
+      "price": 697000.0
+    },
+    {
+      "date": "2025-10-08",
+      "street": "AV DU GENERAL DE GAULLE",
+      "type": "Maison",
+      "surface": 80,
+      "price": 620000.0
+    },
+    {
+      "date": "2025-09-19",
+      "street": "RUE DU MARECHAL FOCH",
+      "type": "Appartement",
+      "surface": 28,
+      "price": 530000.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:07:31.421194Z"
+}

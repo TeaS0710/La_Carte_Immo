@@ -1,0 +1,120 @@
+{
+  "commune": "Villebéon",
+  "insee": "77500",
+  "generated_at": "2026-05-24T22:04:41.462846Z",
+  "total_sales": 245,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 59,
+  "median_price": 160000.0,
+  "median_price_per_sqm": 2083.3333333333335,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 41,
+      "median_price": 60000.0
+    },
+    {
+      "year": 2022,
+      "sales": 43,
+      "median_price": 220000.0
+    },
+    {
+      "year": 2023,
+      "sales": 59,
+      "median_price": 160429.0
+    },
+    {
+      "year": 2024,
+      "sales": 40,
+      "median_price": 142854.0
+    },
+    {
+      "year": 2025,
+      "sales": 62,
+      "median_price": 130000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE LA CHAPELLE",
+      "sales": 21,
+      "median_price_per_sqm": 2532.051282051282
+    },
+    {
+      "street_name": "LE PUITS AUX ZIEBLES",
+      "sales": 11,
+      "median_price_per_sqm": 2776.6990291262136
+    },
+    {
+      "street_name": "VILLEBEON",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES PATOUILLATS",
+      "sales": 9,
+      "median_price_per_sqm": 2063.4920634920636
+    },
+    {
+      "street_name": "LA CHAPELLE DES TUILLIERS",
+      "sales": 9,
+      "median_price_per_sqm": 2168.6746987951806
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 8,
+      "median_price_per_sqm": 3767.7411294352823
+    },
+    {
+      "street_name": "LES THIERRIS",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES SABLIERES",
+      "sales": 8,
+      "median_price_per_sqm": 2145.5555555555557
+    },
+    {
+      "street_name": "LE CHATEAU GAILLARD",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA BUSSIERE",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE TAILLIS DE LA JOIE",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE JOUY",
+      "sales": 7,
+      "median_price_per_sqm": 1933.3333333333333
+    },
+    {
+      "street_name": "LA POULONNERIE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA VALLEE DE CHEROY",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES GRANGES",
+      "sales": 6,
+      "median_price_per_sqm": 1855.4932211313699
+    }
+  ]
+}

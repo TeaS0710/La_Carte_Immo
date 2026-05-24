@@ -13,8 +13,8 @@
       "code_dept": "77",
       "nom_dept": "Seine-et-Marne",
       "communes_count_total": 507,
-      "communes_count_available": 338,
-      "total_sales": 264004
+      "communes_count_available": 387,
+      "total_sales": 297772
     },
     {
       "code_dept": "78",
@@ -60,13 +60,13 @@
     }
   ],
   "communes_count_total": 1286,
-  "communes_count_available": 368,
-  "total_sales_available": 765324,
+  "communes_count_available": 417,
+  "total_sales_available": 799092,
   "population_total": 14566845,
   "insights": [
     "Paris 15e Arrondissement (dept 75) est la commune IDF la plus active des données analysées : 43 608 ventes DVF.",
-    "Le département Seine-et-Marne compte le plus de communes couvertes (338 villes analysées).",
-    "Couverture progressive en cours : 368 communes IDF sur 1286 planifiées."
+    "Le département Seine-et-Marne compte le plus de communes couvertes (387 villes analysées).",
+    "Couverture progressive en cours : 417 communes IDF sur 1286 planifiées."
   ],
   "top_communes": [
     {

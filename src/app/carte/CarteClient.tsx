@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { assetUrl, communeDataUrl } from "@/lib/url";
+import { communeDataUrl } from "@/lib/url";
 import { History, Info, Box, Printer, Maximize2, Minimize2 } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
 import { DEFAULT_COMMUNE, type CommuneRef } from "@/lib/commune";
@@ -118,7 +118,7 @@ export default function CarteClient({
       <div className="no-presentation absolute top-4 left-1/2 -translate-x-1/2 z-20 flex flex-col sm:flex-row items-center gap-2 bg-white/95 backdrop-blur-sm border border-[color:var(--line)] rounded-full px-3 py-1.5 shadow-[0_4px_16px_rgba(0,0,0,0.10)] max-w-[calc(100vw-32px)]">
         <CarteBreadcrumb
           items={[
-            { label: deptName, href: assetUrl(`/carte/dept/${commune.code_dept}`) },
+            { label: deptName, href: `/carte/dept/${commune.code_dept}` },
             { label: commune.nom },
           ]}
         />

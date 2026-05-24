@@ -4,7 +4,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Header from "@/components/landing/Header";
 import CarteBreadcrumb from "@/components/carte/CarteBreadcrumb";
-import { assetUrl } from "@/lib/url";
 import DeptCarteClient from "./DeptCarteClient";
 
 interface CommuneSummary {
@@ -94,7 +93,7 @@ export default async function DeptPage({
       <main className="max-w-5xl mx-auto px-5 py-10 space-y-8">
         <CarteBreadcrumb
           items={[
-            { label: "Île-de-France", href: assetUrl("/carte/region/idf") },
+            { label: "Île-de-France", href: "/carte/region/idf" },
             { label: dept.nom_dept },
           ]}
         />
@@ -181,7 +180,7 @@ export default async function DeptPage({
                     <td className="px-4 py-2.5 text-right tabular text-ink-soft">{fmtEur(c.median_price_per_sqm)}</td>
                     <td className="px-4 py-2.5 text-right">
                       <Link
-                        href={assetUrl(`/carte/ville/${c.slug}`)}
+                        href={`/carte/ville/${c.slug}`}
                         className="text-brand-strong hover:text-ink text-[13px]"
                       >
                         Carte →

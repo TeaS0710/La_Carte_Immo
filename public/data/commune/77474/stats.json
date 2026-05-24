@@ -1,0 +1,120 @@
+{
+  "commune": "Trilbardou",
+  "insee": "77474",
+  "generated_at": "2026-05-24T21:58:42.715126Z",
+  "total_sales": 240,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 28,
+  "median_price": 208000.0,
+  "median_price_per_sqm": 3033.3333333333335,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 46,
+      "median_price": 220000.0
+    },
+    {
+      "year": 2022,
+      "sales": 48,
+      "median_price": 92000.0
+    },
+    {
+      "year": 2023,
+      "sales": 59,
+      "median_price": 165997.34
+    },
+    {
+      "year": 2024,
+      "sales": 39,
+      "median_price": 258000.0
+    },
+    {
+      "year": 2025,
+      "sales": 48,
+      "median_price": 205000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE LA LIBERATION",
+      "sales": 59,
+      "median_price_per_sqm": 3139.622641509434
+    },
+    {
+      "street_name": "DERRIERE LES MOULINS",
+      "sales": 39,
+      "median_price_per_sqm": 6727.272727272727
+    },
+    {
+      "street_name": "RUE DU MARECHAL GALLIENI",
+      "sales": 26,
+      "median_price_per_sqm": 2301.9012082444915
+    },
+    {
+      "street_name": "LES SABLES SUD",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE EMILE ET ROBERT DEBEAUPUIS",
+      "sales": 12,
+      "median_price_per_sqm": 3229.1666666666665
+    },
+    {
+      "street_name": "LES HAUTES PANETTES",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES CORNOUILLERS",
+      "sales": 8,
+      "median_price_per_sqm": 2648.447204968944
+    },
+    {
+      "street_name": "RTE DE CHARMENTRAY",
+      "sales": 8,
+      "median_price_per_sqm": 3229.1666666666665
+    },
+    {
+      "street_name": "RLE DES PRES",
+      "sales": 7,
+      "median_price_per_sqm": 2285.0
+    },
+    {
+      "street_name": "RUE DES LAVANDIERES",
+      "sales": 7,
+      "median_price_per_sqm": 2722.222222222222
+    },
+    {
+      "street_name": "LES BASSES PANETTES",
+      "sales": 7,
+      "median_price_per_sqm": 611.1111111111111
+    },
+    {
+      "street_name": "IMP DE L HARMONIE",
+      "sales": 5,
+      "median_price_per_sqm": 2906.618610747051
+    },
+    {
+      "street_name": "TRILBARDOU",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "IMP DES VIOLETTES",
+      "sales": 5,
+      "median_price_per_sqm": 2804.166666666667
+    },
+    {
+      "street_name": "IMP DES BLEUETS",
+      "sales": 4,
+      "median_price_per_sqm": 2167.784090909091
+    }
+  ]
+}

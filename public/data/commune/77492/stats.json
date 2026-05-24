@@ -1,0 +1,120 @@
+{
+  "commune": "Verdelot",
+  "insee": "77492",
+  "generated_at": "2026-05-24T22:03:18.529095Z",
+  "total_sales": 416,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 94,
+  "median_price": 100000.0,
+  "median_price_per_sqm": 1503.225806451613,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 122,
+      "median_price": 150000.0
+    },
+    {
+      "year": 2022,
+      "sales": 53,
+      "median_price": 105000.0
+    },
+    {
+      "year": 2023,
+      "sales": 84,
+      "median_price": 22792.9
+    },
+    {
+      "year": 2024,
+      "sales": 122,
+      "median_price": 163850.0
+    },
+    {
+      "year": 2025,
+      "sales": 35,
+      "median_price": 7500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LA FEE",
+      "sales": 47,
+      "median_price_per_sqm": 925.925925925926
+    },
+    {
+      "street_name": "RUE PASCAL JARDIN",
+      "sales": 22,
+      "median_price_per_sqm": 1497.3867595818815
+    },
+    {
+      "street_name": "LE BOIS CHAMBON",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GACHOTS",
+      "sales": 14,
+      "median_price_per_sqm": 2058.4795321637425
+    },
+    {
+      "street_name": "LA HTE CROIX",
+      "sales": 13,
+      "median_price_per_sqm": 1302.7777777777778
+    },
+    {
+      "street_name": "LE BOIS DE LA PLANCHE",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "AU DSO DE LA CRX VIORNEE",
+      "sales": 9,
+      "median_price_per_sqm": 1365.4166666666667
+    },
+    {
+      "street_name": "LES PRES DE L EPINOCHE",
+      "sales": 9,
+      "median_price_per_sqm": 22008.040935672514
+    },
+    {
+      "street_name": "LE PRIEURE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BOIS DE VERTILLARD",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE POINT DU JOUR",
+      "sales": 8,
+      "median_price_per_sqm": 1503.225806451613
+    },
+    {
+      "street_name": "CHE DE L'EGREFIN",
+      "sales": 8,
+      "median_price_per_sqm": 1931.931931931932
+    },
+    {
+      "street_name": "RUE DE L'EGLISE",
+      "sales": 8,
+      "median_price_per_sqm": 1544.1176470588234
+    },
+    {
+      "street_name": "FONTAINE JAMETTE",
+      "sales": 7,
+      "median_price_per_sqm": 5748.913043478261
+    },
+    {
+      "street_name": "LA COUARDE",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

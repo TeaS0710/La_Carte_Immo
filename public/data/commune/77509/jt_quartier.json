@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 91,
+  "sales_delta_pct": 295.7,
+  "median_price": 230000.0,
+  "median_ppsqm": 2750.0,
+  "delta_ppsqm_pct": 18.8,
+  "notable_sales": [
+    {
+      "date": "2025-08-18",
+      "street": "PL DE LA MAIRIE",
+      "type": "Maison",
+      "surface": 21,
+      "price": 420000.0
+    },
+    {
+      "date": "2025-10-21",
+      "street": "RUE DE LA MARGOTTIERE",
+      "type": "Maison",
+      "surface": 177,
+      "price": 420000.0
+    },
+    {
+      "date": "2025-01-07",
+      "street": "RUE DES FOSSES",
+      "type": "Maison",
+      "surface": 111,
+      "price": 358900.0
+    },
+    {
+      "date": "2025-07-04",
+      "street": "PIECE DES PELERINS",
+      "type": "Maison",
+      "surface": 116,
+      "price": 255195.0
+    },
+    {
+      "date": "2025-06-10",
+      "street": "RUE DE LA MARGOTTIERE",
+      "type": "Maison",
+      "surface": 102,
+      "price": 250500.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:06:17.175127Z"
+}

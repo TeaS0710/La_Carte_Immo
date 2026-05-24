@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 72,
+  "sales_delta_pct": -8.9,
+  "median_price": 104000.0,
+  "median_ppsqm": 1694.062671797691,
+  "delta_ppsqm_pct": -17.1,
+  "notable_sales": [
+    {
+      "date": "2025-08-27",
+      "street": "RUE RAPIN",
+      "type": "Maison",
+      "surface": 114,
+      "price": 240000.0
+    },
+    {
+      "date": "2025-12-23",
+      "street": "RUE DE BRAY",
+      "type": "Maison",
+      "surface": 125,
+      "price": 237000.0
+    },
+    {
+      "date": "2025-07-26",
+      "street": "RUE DU BOIS AUX DAMES",
+      "type": "Maison",
+      "surface": 129,
+      "price": 200000.0
+    },
+    {
+      "date": "2025-10-31",
+      "street": "RUE HAUTE",
+      "type": "Maison",
+      "surface": 107,
+      "price": 180000.0
+    },
+    {
+      "date": "2025-11-12",
+      "street": "CHE DES PORTES DE BOUY",
+      "type": "Maison",
+      "surface": 102,
+      "price": 174000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:51:42.472766Z"
+}

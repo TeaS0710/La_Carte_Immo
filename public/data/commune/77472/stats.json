@@ -1,0 +1,120 @@
+{
+  "commune": "La Trétoire",
+  "insee": "77472",
+  "generated_at": "2026-05-24T21:57:48.185795Z",
+  "total_sales": 493,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 87,
+  "median_price": 10029.09,
+  "median_price_per_sqm": 1619.8257080610022,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 126,
+      "median_price": 19500.0
+    },
+    {
+      "year": 2022,
+      "sales": 149,
+      "median_price": 10029.09
+    },
+    {
+      "year": 2023,
+      "sales": 112,
+      "median_price": 9641.51
+    },
+    {
+      "year": 2024,
+      "sales": 58,
+      "median_price": 5500.0
+    },
+    {
+      "year": 2025,
+      "sales": 48,
+      "median_price": 112000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LAUNOY",
+      "sales": 41,
+      "median_price_per_sqm": 1736.842105263158
+    },
+    {
+      "street_name": "LA TRETOIRE",
+      "sales": 28,
+      "median_price_per_sqm": 1477.4774774774776
+    },
+    {
+      "street_name": "LA FORGE",
+      "sales": 22,
+      "median_price_per_sqm": 1500.0
+    },
+    {
+      "street_name": "CHAMPLION",
+      "sales": 20,
+      "median_price_per_sqm": 1592.5925925925926
+    },
+    {
+      "street_name": "BOIS BAUDRY",
+      "sales": 19,
+      "median_price_per_sqm": 1987.6282991202347
+    },
+    {
+      "street_name": "LA PILLOTERIE",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES BERGERESSES",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA TERANNERIE",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHP POULET",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOIS DE COTON",
+      "sales": 10,
+      "median_price_per_sqm": 1978.328173374613
+    },
+    {
+      "street_name": "LES VIEILLES COURS",
+      "sales": 10,
+      "median_price_per_sqm": 373.3333333333333
+    },
+    {
+      "street_name": "LE CHP BRISSOT",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CHP CLAUDE GUTEL",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE MOQUE FRIAND",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE D ARGENT",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

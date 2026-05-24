@@ -120,7 +120,48 @@ export default function RegionMap({
             });
           }
 
-          // Cercles communes : rayon ∝ ventes, couleur ∝ €/m²
+          // ─── Heatmap des communes pondérée par les ventes DVF ──
+          // Couleur basée sur la densité (pas le prix), pour montrer
+          // visuellement les zones les plus actives du marché immo.
+          // Disparaît progressivement quand on zoom (laisse place aux cercles).
+          map.addLayer({
+            id: "communes-heat",
+            type: "heatmap",
+            source: "communes",
+            maxzoom: 13,
+            paint: {
+              "heatmap-weight": [
+                "interpolate", ["linear"], ["get", "total_sales"],
+                0, 0, 5000, 0.5, 15000, 1,
+              ],
+              "heatmap-intensity": [
+                "interpolate", ["linear"], ["zoom"],
+                8, 1, 11, 1.8, 13, 2.5,
+              ],
+              "heatmap-color": [
+                "interpolate", ["linear"], ["heatmap-density"],
+                0, "rgba(217,224,212,0)",
+                0.1, "rgba(217,224,212,0.4)",
+                0.25, "#a8b8a3",
+                0.45, "#e6cf9a",
+                0.65, "#c09b5a",
+                0.85, "#b54f3a",
+                1, "#7a2810",
+              ],
+              "heatmap-radius": [
+                "interpolate", ["linear"], ["zoom"],
+                8, 18, 11, 32, 13, 48,
+              ],
+              "heatmap-opacity": [
+                "interpolate", ["linear"], ["zoom"],
+                8, 0.85, 11, 0.7, 13, 0.3,
+              ],
+            },
+          });
+
+          // ─── Cercles communes cliquables ─────────────────────────
+          // Visibles dès le début mais petits, grandissent au zoom.
+          // Couleur = prix €/m² (palette identique aux fiches villes).
           map.addLayer({
             id: "communes-dot",
             type: "circle",
@@ -130,15 +171,15 @@ export default function RegionMap({
                 "interpolate", ["linear"], ["zoom"],
                 8, [
                   "interpolate", ["linear"], ["get", "total_sales"],
-                  100, 3, 1000, 7, 5000, 12, 15000, 18,
+                  100, 2, 1000, 4, 5000, 7, 15000, 10,
                 ],
                 11, [
                   "interpolate", ["linear"], ["get", "total_sales"],
-                  100, 5, 1000, 10, 5000, 18, 15000, 26,
+                  100, 4, 1000, 8, 5000, 14, 15000, 20,
                 ],
                 14, [
                   "interpolate", ["linear"], ["get", "total_sales"],
-                  100, 8, 1000, 14, 5000, 24, 15000, 34,
+                  100, 7, 1000, 12, 5000, 22, 15000, 32,
                 ],
               ],
               "circle-color": [
@@ -156,7 +197,10 @@ export default function RegionMap({
               ],
               "circle-stroke-color": "#ffffff",
               "circle-stroke-width": 1.5,
-              "circle-opacity": 0.92,
+              "circle-opacity": [
+                "interpolate", ["linear"], ["zoom"],
+                8, 0.6, 11, 0.85, 13, 0.95,
+              ],
             },
           });
 
@@ -220,7 +264,7 @@ export default function RegionMap({
           map.on("click", "communes-dot", (e) => {
             if (!e.features?.length) return;
             const p = (e.features[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
-            router.push(assetUrl(`/carte/ville/${p.slug}`));
+            router.push(`/carte/ville/${p.slug}`);
           });
 
           // ─── Calque GPE (gares futures Grand Paris Express) ─────────────

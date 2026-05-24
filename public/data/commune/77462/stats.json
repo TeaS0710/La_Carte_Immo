@@ -1,0 +1,120 @@
+{
+  "commune": "Thieux",
+  "insee": "77462",
+  "generated_at": "2026-05-24T21:53:11.825167Z",
+  "total_sales": 206,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 31,
+  "median_price": 196500.0,
+  "median_price_per_sqm": 3410.714285714286,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 88,
+      "median_price": 400000.0
+    },
+    {
+      "year": 2022,
+      "sales": 19,
+      "median_price": 155000.0
+    },
+    {
+      "year": 2023,
+      "sales": 12,
+      "median_price": 161160.0
+    },
+    {
+      "year": 2024,
+      "sales": 47,
+      "median_price": 47000.0
+    },
+    {
+      "year": 2025,
+      "sales": 40,
+      "median_price": 177000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 54,
+      "median_price_per_sqm": 7272.727272727273
+    },
+    {
+      "street_name": "RUE DE LA GRANGE",
+      "sales": 25,
+      "median_price_per_sqm": 3363.404255319149
+    },
+    {
+      "street_name": "RUE DE LA FERME",
+      "sales": 18,
+      "median_price_per_sqm": 3100.0
+    },
+    {
+      "street_name": "RUE DES TROIS VILLES",
+      "sales": 17,
+      "median_price_per_sqm": 2737.470318181818
+    },
+    {
+      "street_name": "RUE CLOSME",
+      "sales": 16,
+      "median_price_per_sqm": 3201.754385964912
+    },
+    {
+      "street_name": "RUE DU SAULE MADAME",
+      "sales": 9,
+      "median_price_per_sqm": 3410.714285714286
+    },
+    {
+      "street_name": "IMP DU SAULE MADAME",
+      "sales": 6,
+      "median_price_per_sqm": 3019.80198019802
+    },
+    {
+      "street_name": "L ALLEE AUX PRETRES",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA VALLEE DU MONTCEL",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE LEVANT DU HAUT TERTRE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE COUCHANT DES PRES D AUL",
+      "sales": 5,
+      "median_price_per_sqm": 347.3557692307692
+    },
+    {
+      "street_name": "L ANCIEN ETANG",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES TROIS VILLES",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA FLACHE AUX OIES",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DE RICHEBOURG",
+      "sales": 3,
+      "median_price_per_sqm": 2090.909090909091
+    }
+  ]
+}

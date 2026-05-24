@@ -1,0 +1,120 @@
+{
+  "commune": "Villemaréchal",
+  "insee": "77504",
+  "generated_at": "2026-05-24T22:05:18.392579Z",
+  "total_sales": 485,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 98,
+  "median_price": 120000.0,
+  "median_price_per_sqm": 2228.3464566929133,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 111,
+      "median_price": 140000.0
+    },
+    {
+      "year": 2022,
+      "sales": 131,
+      "median_price": 173000.0
+    },
+    {
+      "year": 2023,
+      "sales": 65,
+      "median_price": 135000.0
+    },
+    {
+      "year": 2024,
+      "sales": 66,
+      "median_price": 77000.0
+    },
+    {
+      "year": 2025,
+      "sales": 112,
+      "median_price": 94480.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE LA FONTAINE",
+      "sales": 31,
+      "median_price_per_sqm": 2370.3703703703704
+    },
+    {
+      "street_name": "VILLEMARECHAL",
+      "sales": 29,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES TOURNELLES",
+      "sales": 22,
+      "median_price_per_sqm": 2500.0
+    },
+    {
+      "street_name": "LES CAILLOUX",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOISROUX",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 15,
+      "median_price_per_sqm": 2211.1111111111113
+    },
+    {
+      "street_name": "RTE DE VILLEMARECHAL",
+      "sales": 13,
+      "median_price_per_sqm": 1779.4117647058824
+    },
+    {
+      "street_name": "RTE DE FLAGY",
+      "sales": 13,
+      "median_price_per_sqm": 2506.868131868132
+    },
+    {
+      "street_name": "LA FONTAINE",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU TREMBLAY",
+      "sales": 13,
+      "median_price_per_sqm": 1893.258426966292
+    },
+    {
+      "street_name": "RUE DES FOSSES VILLEMARECHAL",
+      "sales": 12,
+      "median_price_per_sqm": 1750.0
+    },
+    {
+      "street_name": "RUE DE LA MAIRIE ST ANGE",
+      "sales": 11,
+      "median_price_per_sqm": 2822.5806451612902
+    },
+    {
+      "street_name": "RTE DE VOULX",
+      "sales": 10,
+      "median_price_per_sqm": 2290.7843137254904
+    },
+    {
+      "street_name": "BOIS DES ROCHES",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES FERMES",
+      "sales": 8,
+      "median_price_per_sqm": 2729.4117647058824
+    }
+  ]
+}

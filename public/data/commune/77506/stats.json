@@ -1,0 +1,120 @@
+{
+  "commune": "Villemer",
+  "insee": "77506",
+  "generated_at": "2026-05-24T22:05:52.059414Z",
+  "total_sales": 339,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 66,
+  "median_price": 160000.0,
+  "median_price_per_sqm": 2163.5329045027215,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 44,
+      "median_price": 166000.0
+    },
+    {
+      "year": 2022,
+      "sales": 43,
+      "median_price": 140562.0
+    },
+    {
+      "year": 2023,
+      "sales": 91,
+      "median_price": 614910.0
+    },
+    {
+      "year": 2024,
+      "sales": 112,
+      "median_price": 871397.0
+    },
+    {
+      "year": 2025,
+      "sales": 49,
+      "median_price": 80000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU CHATEAU",
+      "sales": 26,
+      "median_price_per_sqm": 3874.2153891859775
+    },
+    {
+      "street_name": "REBOURS",
+      "sales": 25,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MONTMERY",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "DEVANT LA VIENNERIE",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA VACHE",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DU COIGNET",
+      "sales": 12,
+      "median_price_per_sqm": 9020.102040816326
+    },
+    {
+      "street_name": "MARE DES ARDENS",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "AV DU GEN DE GAULLE",
+      "sales": 11,
+      "median_price_per_sqm": 2396.2244897959185
+    },
+    {
+      "street_name": "LES CHATAIGNIERS",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MOULIN DU COIGNET",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MARE MARION",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOIS L HERMITE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE TRIN",
+      "sales": 8,
+      "median_price_per_sqm": 2065.7894736842104
+    },
+    {
+      "street_name": "ROCHES DU COUDRAY",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES VIEILLES VIGNES",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

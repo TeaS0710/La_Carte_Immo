@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { Database, ShieldCheck, ExternalLink } from "lucide-react";
-import { assetUrl } from "@/lib/url";
 
 interface Source {
   short: string;
@@ -103,7 +102,7 @@ export default function DataSourcesBanner({
           Toutes les sources sont publiques et sous Licence Ouverte 2.0
         </div>
         <Link
-          href={assetUrl("/methodo")}
+          href={"/methodo"}
           className="inline-flex items-center gap-1 text-[11.5px] text-brand-strong font-medium hover:text-ink"
         >
           Méthodologie détaillée

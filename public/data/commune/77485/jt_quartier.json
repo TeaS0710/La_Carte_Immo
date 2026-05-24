@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 147,
+  "sales_delta_pct": 70.9,
+  "median_price": 401860.0,
+  "median_ppsqm": 3240.8064516129034,
+  "delta_ppsqm_pct": -9.0,
+  "notable_sales": [
+    {
+      "date": "2025-12-02",
+      "street": "CHE DE LA MONTAGNE BLANCHE",
+      "type": "Maison",
+      "surface": 494,
+      "price": 1241000.0
+    },
+    {
+      "date": "2025-11-07",
+      "street": "RUE DE LA FORET",
+      "type": "Maison",
+      "surface": 296,
+      "price": 950000.0
+    },
+    {
+      "date": "2025-09-30",
+      "street": "CHE DE LA FONTENELLE",
+      "type": "Maison",
+      "surface": 177,
+      "price": 870000.0
+    },
+    {
+      "date": "2025-12-22",
+      "street": "RUE DE LA FORET",
+      "type": "Maison",
+      "surface": 190,
+      "price": 839000.0
+    },
+    {
+      "date": "2025-06-13",
+      "street": "RUE DE SAINT LOUP",
+      "type": "Maison",
+      "surface": 154,
+      "price": 556000.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:01:50.534234Z"
+}

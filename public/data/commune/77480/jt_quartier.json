@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 41,
+  "sales_delta_pct": 70.8,
+  "median_price": 199000.0,
+  "median_ppsqm": 2425.465367965368,
+  "delta_ppsqm_pct": 15.6,
+  "notable_sales": [
+    {
+      "date": "2025-03-10",
+      "street": "RUE HENRI PELLE",
+      "type": "Maison",
+      "surface": 135,
+      "price": 276360.0
+    },
+    {
+      "date": "2025-08-29",
+      "street": "RUE DES CORNOUILLERS",
+      "type": "Maison",
+      "surface": 136,
+      "price": 270000.0
+    },
+    {
+      "date": "2025-03-05",
+      "street": "RUE EMILE PARQUET",
+      "type": "Maison",
+      "surface": 90,
+      "price": 255000.0
+    },
+    {
+      "date": "2025-04-07",
+      "street": "RUE MARCEL DESONNES",
+      "type": "Maison",
+      "surface": 99,
+      "price": 244500.0
+    },
+    {
+      "date": "2025-09-10",
+      "street": "RUE DES CARROIS",
+      "type": "Maison",
+      "surface": 68,
+      "price": 232000.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:00:32.417547Z"
+}
