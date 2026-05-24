@@ -115,7 +115,7 @@ export default function CarteClient({
       )}
 
       {/* Barre de navigation flottante top-center : breadcrumb + sélecteur ville */}
-      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex flex-col sm:flex-row items-center gap-2 bg-white/95 backdrop-blur-sm border border-[color:var(--line)] rounded-full px-3 py-1.5 shadow-[0_4px_16px_rgba(0,0,0,0.10)] max-w-[calc(100vw-32px)]">
+      <div className="no-presentation absolute top-4 left-1/2 -translate-x-1/2 z-20 flex flex-col sm:flex-row items-center gap-2 bg-white/95 backdrop-blur-sm border border-[color:var(--line)] rounded-full px-3 py-1.5 shadow-[0_4px_16px_rgba(0,0,0,0.10)] max-w-[calc(100vw-32px)]">
         <CarteBreadcrumb
           items={[
             { label: deptName, href: assetUrl(`/carte/dept/${commune.code_dept}`) },
@@ -159,7 +159,7 @@ export default function CarteClient({
       <button
         type="button"
         onClick={() => setMarketOpen(true)}
-        className="absolute top-[140px] right-4 z-10 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
+        className="no-presentation absolute top-[140px] right-4 z-10 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
       >
         <History size={17} />
         Historique
@@ -196,7 +196,7 @@ export default function CarteClient({
         aria-pressed={is3d}
         aria-label={is3d ? "Désactiver la vue 3D" : "Activer la vue 3D"}
         title={is3d ? "Revenir en vue plate" : "Passer en vue 3D"}
-        className={`absolute top-[196px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
+        className={`no-presentation absolute top-[196px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
           is3d
             ? "bg-brand text-white border-brand"
             : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
@@ -212,7 +212,7 @@ export default function CarteClient({
           pas cacher l'info utile. */}
       <div
         aria-label="Légende de la carte : intensité du volume de ventes, du plus faible au plus fort. Ronds = rues. Fonds colorés = quartiers IRIS."
-        className={`absolute bottom-4 left-4 z-10 bg-white rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.10)] border border-[color:var(--line)] px-4 py-3 text-[13px] text-ink max-w-[calc(100vw-32px)] ${
+        className={`no-presentation absolute bottom-4 left-4 z-10 bg-white rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.10)] border border-[color:var(--line)] px-4 py-3 text-[13px] text-ink max-w-[calc(100vw-32px)] ${
           (selected || selectedIris || selectedPipeline || selectedPermit)
             ? "hidden sm:block"
             : ""

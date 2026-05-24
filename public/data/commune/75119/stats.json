@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 19e Arrondissement",
+  "insee": "75119",
+  "generated_at": "2026-05-24T21:44:05.083325Z",
+  "total_sales": 22448,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 219,
+  "median_price": 405000.0,
+  "median_price_per_sqm": 9024.390243902439,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 4414,
+      "median_price": 428750.0
+    },
+    {
+      "year": 2022,
+      "sales": 5046,
+      "median_price": 425000.0
+    },
+    {
+      "year": 2023,
+      "sales": 4846,
+      "median_price": 442000.0
+    },
+    {
+      "year": 2024,
+      "sales": 3719,
+      "median_price": 361111.12
+    },
+    {
+      "year": 2025,
+      "sales": 4423,
+      "median_price": 398000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV JEAN JAURES",
+      "sales": 1416,
+      "median_price_per_sqm": 9227.272727272728
+    },
+    {
+      "street_name": "RUE DE L OURCQ",
+      "sales": 1053,
+      "median_price_per_sqm": 8260.869565217392
+    },
+    {
+      "street_name": "RUE DE CRIMEE",
+      "sales": 1040,
+      "median_price_per_sqm": 8776.851851851852
+    },
+    {
+      "street_name": "AV SIMON BOLIVAR",
+      "sales": 969,
+      "median_price_per_sqm": 9459.45945945946
+    },
+    {
+      "street_name": "RUE MANIN",
+      "sales": 955,
+      "median_price_per_sqm": 10081.967213114754
+    },
+    {
+      "street_name": "AV DE FLANDRE",
+      "sales": 751,
+      "median_price_per_sqm": 8596.212121212122
+    },
+    {
+      "street_name": "RUE DE BELLEVILLE",
+      "sales": 505,
+      "median_price_per_sqm": 9293.71921182266
+    },
+    {
+      "street_name": "RUE DE ROMAINVILLE",
+      "sales": 474,
+      "median_price_per_sqm": 8266.666666666666
+    },
+    {
+      "street_name": "RUE DE MEAUX",
+      "sales": 467,
+      "median_price_per_sqm": 9804.0
+    },
+    {
+      "street_name": "RUE CLAVEL",
+      "sales": 428,
+      "median_price_per_sqm": 10070.491803278688
+    },
+    {
+      "street_name": "AV SECRETAN",
+      "sales": 415,
+      "median_price_per_sqm": 10172.413793103447
+    },
+    {
+      "street_name": "RUE CURIAL",
+      "sales": 382,
+      "median_price_per_sqm": 7055.555555555556
+    },
+    {
+      "street_name": "RUE D HAUTPOUL",
+      "sales": 379,
+      "median_price_per_sqm": 8846.153846153846
+    },
+    {
+      "street_name": "RUE ARCHEREAU",
+      "sales": 356,
+      "median_price_per_sqm": 7744.233378561737
+    },
+    {
+      "street_name": "RUE D AUBERVILLIERS",
+      "sales": 349,
+      "median_price_per_sqm": 6955.357142857143
+    }
+  ]
+}

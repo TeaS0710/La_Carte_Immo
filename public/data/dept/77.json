@@ -2,12 +2,12 @@
   "code_dept": "77",
   "nom_dept": "Seine-et-Marne",
   "communes_count_total": 507,
-  "communes_count_available": 327,
-  "total_sales": 254210,
-  "median_price": 222000.0,
+  "communes_count_available": 338,
+  "total_sales": 264004,
+  "median_price": 224000.0,
   "population_total": 1468108,
-  "population_available": 1201948,
-  "median_price_per_sqm": 2794.875,
+  "population_available": 1260482,
+  "median_price_per_sqm": 2800.925925925926,
   "insights": [
     "Meaux concentre le plus de transactions du département (8 765 ventes DVF sur 5 ans).",
     "Spread prix marqué : Le Mesnil-Amelot à 78 452 €/m² vs Livry-sur-Seine à 577 €/m².",
@@ -205,6 +205,25 @@
       "streets_with_sales": 237
     },
     {
+      "code_insee": "77445",
+      "slug": "savigny-le-temple",
+      "nom": "Savigny-le-Temple",
+      "population": 31148,
+      "lng": 2.5759,
+      "lat": 48.5846,
+      "total_sales": 3835,
+      "median_price": 232000.0,
+      "median_price_per_sqm": 2871.276595744681,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 306
+    },
+    {
       "code_insee": "77122",
       "slug": "combs-la-ville",
       "nom": "Combs-la-Ville",
@@ -374,25 +393,6 @@
         2025
       ],
       "streets_with_sales": 195
-    },
-    {
-      "code_insee": "77183",
-      "slug": "la-ferte-sous-jouarre",
-      "nom": "La Ferté-sous-Jouarre",
-      "population": 10254,
-      "lng": 3.1349,
-      "lat": 48.9562,
-      "total_sales": 2784,
-      "median_price": 191606.0,
-      "median_price_per_sqm": 2744.8630136986303,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 191
     }
   ],
   "all_communes_available": [
@@ -455,6 +455,12 @@
       "nom": "Brie-Comte-Robert",
       "code_insee": "77053",
       "total_sales": 3847
+    },
+    {
+      "slug": "savigny-le-temple",
+      "nom": "Savigny-le-Temple",
+      "code_insee": "77445",
+      "total_sales": 3835
     },
     {
       "slug": "combs-la-ville",
@@ -569,6 +575,12 @@
       "nom": "Nemours",
       "code_insee": "77333",
       "total_sales": 2107
+    },
+    {
+      "slug": "serris",
+      "nom": "Serris",
+      "code_insee": "77449",
+      "total_sales": 1954
     },
     {
       "slug": "noisiel",
@@ -731,6 +743,12 @@
       "nom": "Saint-Cyr-sur-Morin",
       "code_insee": "77405",
       "total_sales": 1071
+    },
+    {
+      "slug": "saint-thibault-des-vignes",
+      "nom": "Saint-Thibault-des-Vignes",
+      "code_insee": "77438",
+      "total_sales": 1055
     },
     {
       "slug": "la-ferte-gaucher",
@@ -1045,6 +1063,12 @@
       "total_sales": 603
     },
     {
+      "slug": "samois-sur-seine",
+      "nom": "Samois-sur-Seine",
+      "code_insee": "77441",
+      "total_sales": 599
+    },
+    {
       "slug": "saint-soupplets",
       "nom": "Saint-Soupplets",
       "code_insee": "77437",
@@ -1105,6 +1129,12 @@
       "total_sales": 560
     },
     {
+      "slug": "savins",
+      "nom": "Savins",
+      "code_insee": "77446",
+      "total_sales": 560
+    },
+    {
       "slug": "saint-jean-les-deux-jumeaux",
       "nom": "Saint-Jean-les-Deux-Jumeaux",
       "code_insee": "77415",
@@ -1114,6 +1144,12 @@
       "slug": "saint-mard",
       "nom": "Saint-Mard",
       "code_insee": "77420",
+      "total_sales": 548
+    },
+    {
+      "slug": "seine-port",
+      "nom": "Seine-Port",
+      "code_insee": "77447",
       "total_sales": 548
     },
     {
@@ -1363,6 +1399,12 @@
       "total_sales": 414
     },
     {
+      "slug": "samoreau",
+      "nom": "Samoreau",
+      "code_insee": "77442",
+      "total_sales": 413
+    },
+    {
       "slug": "saint-loup-de-naud",
       "nom": "Saint-Loup-de-Naud",
       "code_insee": "77418",
@@ -1505,6 +1547,12 @@
       "nom": "Maisoncelles-en-Brie",
       "code_insee": "77270",
       "total_sales": 351
+    },
+    {
+      "slug": "sammeron",
+      "nom": "Sammeron",
+      "code_insee": "77440",
+      "total_sales": 348
     },
     {
       "slug": "mortcerf",
@@ -1793,6 +1841,12 @@
       "nom": "La Chapelle-Rablais",
       "code_insee": "77089",
       "total_sales": 251
+    },
+    {
+      "slug": "salins",
+      "nom": "Salins",
+      "code_insee": "77439",
+      "total_sales": 249
     },
     {
       "slug": "fontenailles",
@@ -2149,6 +2203,12 @@
       "total_sales": 161
     },
     {
+      "slug": "sept-sorts",
+      "nom": "Sept-Sorts",
+      "code_insee": "77448",
+      "total_sales": 160
+    },
+    {
       "slug": "barcy",
       "nom": "Barcy",
       "code_insee": "77023",
@@ -2339,6 +2399,12 @@
       "nom": "Bassevelle",
       "code_insee": "77024",
       "total_sales": 94
+    },
+    {
+      "slug": "sancy",
+      "nom": "Sancy",
+      "code_insee": "77443",
+      "total_sales": 73
     },
     {
       "slug": "crevecur-en-brie",

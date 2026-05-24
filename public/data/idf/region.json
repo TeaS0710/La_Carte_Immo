@@ -6,15 +6,15 @@
       "code_dept": "75",
       "nom_dept": "Paris",
       "communes_count_total": 21,
-      "communes_count_available": 17,
-      "total_sales": 322769
+      "communes_count_available": 20,
+      "total_sales": 406925
     },
     {
       "code_dept": "77",
       "nom_dept": "Seine-et-Marne",
       "communes_count_total": 507,
-      "communes_count_available": 327,
-      "total_sales": 254210
+      "communes_count_available": 338,
+      "total_sales": 264004
     },
     {
       "code_dept": "78",
@@ -60,13 +60,13 @@
     }
   ],
   "communes_count_total": 1286,
-  "communes_count_available": 354,
-  "total_sales_available": 671374,
+  "communes_count_available": 368,
+  "total_sales_available": 765324,
   "population_total": 14566845,
   "insights": [
     "Paris 15e Arrondissement (dept 75) est la commune IDF la plus active des données analysées : 43 608 ventes DVF.",
-    "Le département Seine-et-Marne compte le plus de communes couvertes (327 villes analysées).",
-    "Couverture progressive en cours : 354 communes IDF sur 1286 planifiées."
+    "Le département Seine-et-Marne compte le plus de communes couvertes (338 villes analysées).",
+    "Couverture progressive en cours : 368 communes IDF sur 1286 planifiées."
   ],
   "top_communes": [
     {
@@ -108,6 +108,25 @@
       "streets_with_sales": 425
     },
     {
+      "code_insee": "75118",
+      "slug": "paris-18e-arrondissement",
+      "nom": "Paris 18e Arrondissement",
+      "population": 183127,
+      "lng": 2.3487,
+      "lat": 48.8919,
+      "total_sales": 36660,
+      "median_price": 377000.0,
+      "median_price_per_sqm": 9836.734693877552,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 327
+    },
+    {
       "code_insee": "75117",
       "slug": "paris-17e-arrondissement",
       "nom": "Paris 17e Arrondissement",
@@ -146,6 +165,25 @@
       "streets_with_sales": 235
     },
     {
+      "code_insee": "75120",
+      "slug": "paris-20e-arrondissement",
+      "nom": "Paris 20e Arrondissement",
+      "population": 185140,
+      "lng": 2.3966,
+      "lat": 48.8625,
+      "total_sales": 25048,
+      "median_price": 396850.0,
+      "median_price_per_sqm": 9123.611111111111,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 257
+    },
+    {
       "code_insee": "75112",
       "slug": "paris-12e-arrondissement",
       "nom": "Paris 12e Arrondissement",
@@ -163,6 +201,25 @@
         2025
       ],
       "streets_with_sales": 180
+    },
+    {
+      "code_insee": "75119",
+      "slug": "paris-19e-arrondissement",
+      "nom": "Paris 19e Arrondissement",
+      "population": 178691,
+      "lng": 2.3878,
+      "lat": 48.8871,
+      "total_sales": 22448,
+      "median_price": 405000.0,
+      "median_price_per_sqm": 9024.390243902439,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 219
     },
     {
       "code_insee": "75114",
@@ -581,63 +638,6 @@
         2025
       ],
       "streets_with_sales": 211
-    },
-    {
-      "code_insee": "94002",
-      "slug": "alfortville",
-      "nom": "Alfortville",
-      "population": 45531,
-      "lng": 2.4214,
-      "lat": 48.7963,
-      "total_sales": 6091,
-      "median_price": 270900.0,
-      "median_price_per_sqm": 5454.545454545455,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 127
-    },
-    {
-      "code_insee": "77373",
-      "slug": "pontault-combault",
-      "nom": "Pontault-Combault",
-      "population": 39096,
-      "lng": 2.6173,
-      "lat": 48.7885,
-      "total_sales": 5629,
-      "median_price": 283500.0,
-      "median_price_per_sqm": 4166.666666666667,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 301
-    },
-    {
-      "code_insee": "75102",
-      "slug": "paris-2e-arrondissement",
-      "nom": "Paris 2e Arrondissement",
-      "population": 19847,
-      "lng": 2.3411,
-      "lat": 48.8677,
-      "total_sales": 5307,
-      "median_price": 605000.0,
-      "median_price_per_sqm": 12400.0,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 112
     }
   ]
 }

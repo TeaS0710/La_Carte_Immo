@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 20e Arrondissement",
+  "insee": "75120",
+  "generated_at": "2026-05-24T21:44:30.394781Z",
+  "total_sales": 25048,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 257,
+  "median_price": 396850.0,
+  "median_price_per_sqm": 9123.611111111111,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 4836,
+      "median_price": 436000.0
+    },
+    {
+      "year": 2022,
+      "sales": 5647,
+      "median_price": 402000.0
+    },
+    {
+      "year": 2023,
+      "sales": 4483,
+      "median_price": 366500.0
+    },
+    {
+      "year": 2024,
+      "sales": 4665,
+      "median_price": 370000.0
+    },
+    {
+      "year": 2025,
+      "sales": 5417,
+      "median_price": 400000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DES PYRENEES",
+      "sales": 1664,
+      "median_price_per_sqm": 9188.611491108071
+    },
+    {
+      "street_name": "RUE PELLEPORT",
+      "sales": 1067,
+      "median_price_per_sqm": 8666.859099804306
+    },
+    {
+      "street_name": "AV GAMBETTA",
+      "sales": 965,
+      "median_price_per_sqm": 9485.653235653235
+    },
+    {
+      "street_name": "BD DAVOUT",
+      "sales": 728,
+      "median_price_per_sqm": 9142.857142857143
+    },
+    {
+      "street_name": "RUE DE BAGNOLET",
+      "sales": 632,
+      "median_price_per_sqm": 8857.142857142857
+    },
+    {
+      "street_name": "RUE SAINT FARGEAU",
+      "sales": 580,
+      "median_price_per_sqm": 8090.909090909091
+    },
+    {
+      "street_name": "RUE DE BELLEVILLE",
+      "sales": 558,
+      "median_price_per_sqm": 9475.0
+    },
+    {
+      "street_name": "BD DE CHARONNE",
+      "sales": 518,
+      "median_price_per_sqm": 9734.69387755102
+    },
+    {
+      "street_name": "RUE DES MONTIBOEUFS",
+      "sales": 514,
+      "median_price_per_sqm": 157500.0
+    },
+    {
+      "street_name": "RUE ORFILA",
+      "sales": 513,
+      "median_price_per_sqm": 10105.313765182185
+    },
+    {
+      "street_name": "RUE VILLIERS ISLE ADAM",
+      "sales": 503,
+      "median_price_per_sqm": 9174.074074074073
+    },
+    {
+      "street_name": "RUE D AVRON",
+      "sales": 488,
+      "median_price_per_sqm": 8674.242424242424
+    },
+    {
+      "street_name": "RUE DU BORREGO",
+      "sales": 457,
+      "median_price_per_sqm": 8053.571428571428
+    },
+    {
+      "street_name": "RUE PIXERECOURT",
+      "sales": 428,
+      "median_price_per_sqm": 8338.541666666668
+    },
+    {
+      "street_name": "RUE DE MENILMONTANT",
+      "sales": 388,
+      "median_price_per_sqm": 9125.0
+    }
+  ]
+}

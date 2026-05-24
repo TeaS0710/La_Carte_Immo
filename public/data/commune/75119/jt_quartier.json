@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 4423,
+  "sales_delta_pct": 18.9,
+  "median_price": 398000.0,
+  "median_ppsqm": 8388.059701492537,
+  "delta_ppsqm_pct": 1.6,
+  "notable_sales": [
+    {
+      "date": "2025-05-23",
+      "street": "RUE DE L EGALITE",
+      "type": "Maison",
+      "surface": 122,
+      "price": 2275000.0
+    },
+    {
+      "date": "2025-06-23",
+      "street": "PL RHIN ET DANUBE",
+      "type": "Maison",
+      "surface": 180,
+      "price": 2220000.0
+    },
+    {
+      "date": "2025-12-12",
+      "street": "RUE DU GENERAL BRUNET",
+      "type": "Maison",
+      "surface": 105,
+      "price": 2091650.0
+    },
+    {
+      "date": "2025-10-31",
+      "street": "VLA D HAUTERIVE",
+      "type": "Maison",
+      "surface": 120,
+      "price": 2015100.0
+    },
+    {
+      "date": "2025-03-28",
+      "street": "VC HAM DU DANUBE",
+      "type": "Maison",
+      "surface": 91,
+      "price": 1884500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:44:05.079593Z"
+}

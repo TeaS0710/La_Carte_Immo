@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 73,
+  "sales_delta_pct": -31.1,
+  "median_price": 496900.0,
+  "median_ppsqm": 4160.087719298245,
+  "delta_ppsqm_pct": 16.1,
+  "notable_sales": [
+    {
+      "date": "2025-09-12",
+      "street": "QUAI FRANKLIN ROOSEVELT",
+      "type": "Maison",
+      "surface": 395,
+      "price": 2030000.0
+    },
+    {
+      "date": "2025-09-18",
+      "street": "AV DU GEN LECLERC",
+      "type": "Maison",
+      "surface": 191,
+      "price": 910000.0
+    },
+    {
+      "date": "2025-07-23",
+      "street": "RUE DE COURBUISSON",
+      "type": "Maison",
+      "surface": 95,
+      "price": 859700.0
+    },
+    {
+      "date": "2025-07-29",
+      "street": "QUAI FRANKLIN ROOSEVELT",
+      "type": "Maison",
+      "surface": 190,
+      "price": 805000.0
+    },
+    {
+      "date": "2025-04-07",
+      "street": "AV DE LA LIBERATION",
+      "type": "Maison",
+      "surface": 165,
+      "price": 720000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:44:21.750821Z"
+}

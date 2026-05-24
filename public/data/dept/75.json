@@ -2,16 +2,16 @@
   "code_dept": "75",
   "nom_dept": "Paris",
   "communes_count_total": 21,
-  "communes_count_available": 17,
-  "total_sales": 322769,
-  "median_price": 595000.0,
+  "communes_count_available": 20,
+  "total_sales": 406925,
+  "median_price": 545000.0,
   "population_total": 4207556,
-  "population_available": 1556820,
-  "median_price_per_sqm": 11932.159090909092,
+  "population_available": 2103778,
+  "median_price_per_sqm": 11757.511283043197,
   "insights": [
     "Paris 15e Arrondissement concentre le plus de transactions du département (43 608 ventes DVF sur 5 ans).",
-    "Spread prix marqué : Paris 6e Arrondissement à 16 095 €/m² vs Paris 13e Arrondissement à 9 433 €/m².",
-    "Les 5 communes les plus actives concentrent 53 % des transactions du département analysées."
+    "Spread prix marqué : Paris 6e Arrondissement à 16 095 €/m² vs Paris 19e Arrondissement à 9 024 €/m².",
+    "Les 5 communes les plus actives concentrent 45 % des transactions du département analysées."
   ],
   "top_communes": [
     {
@@ -53,6 +53,25 @@
       "streets_with_sales": 425
     },
     {
+      "code_insee": "75118",
+      "slug": "paris-18e-arrondissement",
+      "nom": "Paris 18e Arrondissement",
+      "population": 183127,
+      "lng": 2.3487,
+      "lat": 48.8919,
+      "total_sales": 36660,
+      "median_price": 377000.0,
+      "median_price_per_sqm": 9836.734693877552,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 327
+    },
+    {
       "code_insee": "75117",
       "slug": "paris-17e-arrondissement",
       "nom": "Paris 17e Arrondissement",
@@ -91,6 +110,25 @@
       "streets_with_sales": 235
     },
     {
+      "code_insee": "75120",
+      "slug": "paris-20e-arrondissement",
+      "nom": "Paris 20e Arrondissement",
+      "population": 185140,
+      "lng": 2.3966,
+      "lat": 48.8625,
+      "total_sales": 25048,
+      "median_price": 396850.0,
+      "median_price_per_sqm": 9123.611111111111,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 257
+    },
+    {
       "code_insee": "75112",
       "slug": "paris-12e-arrondissement",
       "nom": "Paris 12e Arrondissement",
@@ -108,6 +146,25 @@
         2025
       ],
       "streets_with_sales": 180
+    },
+    {
+      "code_insee": "75119",
+      "slug": "paris-19e-arrondissement",
+      "nom": "Paris 19e Arrondissement",
+      "population": 178691,
+      "lng": 2.3878,
+      "lat": 48.8871,
+      "total_sales": 22448,
+      "median_price": 405000.0,
+      "median_price_per_sqm": 9024.390243902439,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 219
     },
     {
       "code_insee": "75114",
@@ -352,6 +409,12 @@
       "total_sales": 40324
     },
     {
+      "slug": "paris-18e-arrondissement",
+      "nom": "Paris 18e Arrondissement",
+      "code_insee": "75118",
+      "total_sales": 36660
+    },
+    {
       "slug": "paris-17e-arrondissement",
       "nom": "Paris 17e Arrondissement",
       "code_insee": "75117",
@@ -364,10 +427,22 @@
       "total_sales": 30843
     },
     {
+      "slug": "paris-20e-arrondissement",
+      "nom": "Paris 20e Arrondissement",
+      "code_insee": "75120",
+      "total_sales": 25048
+    },
+    {
       "slug": "paris-12e-arrondissement",
       "nom": "Paris 12e Arrondissement",
       "code_insee": "75112",
       "total_sales": 23235
+    },
+    {
+      "slug": "paris-19e-arrondissement",
+      "nom": "Paris 19e Arrondissement",
+      "code_insee": "75119",
+      "total_sales": 22448
     },
     {
       "slug": "paris-14e-arrondissement",

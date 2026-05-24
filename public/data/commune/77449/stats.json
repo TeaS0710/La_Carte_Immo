@@ -1,0 +1,120 @@
+{
+  "commune": "Serris",
+  "insee": "77449",
+  "generated_at": "2026-05-24T21:47:31.665142Z",
+  "total_sales": 1954,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 76,
+  "median_price": 306143.1,
+  "median_price_per_sqm": 4962.7664728682175,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 309,
+      "median_price": 304220.0
+    },
+    {
+      "year": 2022,
+      "sales": 427,
+      "median_price": 326000.0
+    },
+    {
+      "year": 2023,
+      "sales": 428,
+      "median_price": 280000.0
+    },
+    {
+      "year": 2024,
+      "sales": 378,
+      "median_price": 308000.0
+    },
+    {
+      "year": 2025,
+      "sales": 412,
+      "median_price": 330000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "CRS DU TAGE",
+      "sales": 201,
+      "median_price_per_sqm": 4713.840183960909
+    },
+    {
+      "street_name": "CRS DU DANUBE",
+      "sales": 186,
+      "median_price_per_sqm": 6516.129032258064
+    },
+    {
+      "street_name": "CRS DE L ELBE",
+      "sales": 153,
+      "median_price_per_sqm": 4966.39
+    },
+    {
+      "street_name": "CRS DE LA GARONNE",
+      "sales": 112,
+      "median_price_per_sqm": 4544.096385542169
+    },
+    {
+      "street_name": "RUE EMILE CLOUD",
+      "sales": 100,
+      "median_price_per_sqm": 4028.0701754385964
+    },
+    {
+      "street_name": "RUE DES SCANDINAVES",
+      "sales": 93,
+      "median_price_per_sqm": 5516.648351648351
+    },
+    {
+      "street_name": "RUE DE L HERMIERE",
+      "sales": 89,
+      "median_price_per_sqm": 115476.19047619047
+    },
+    {
+      "street_name": "RUE DE LA MEDITERRANEE",
+      "sales": 79,
+      "median_price_per_sqm": 5349.206349206349
+    },
+    {
+      "street_name": "AV DE SARIA",
+      "sales": 74,
+      "median_price_per_sqm": 23549.469230769228
+    },
+    {
+      "street_name": "RUE DE NAVARRE",
+      "sales": 72,
+      "median_price_per_sqm": 4876.923076923077
+    },
+    {
+      "street_name": "RUE DE MAGELLAN",
+      "sales": 70,
+      "median_price_per_sqm": 5088.082107843137
+    },
+    {
+      "street_name": "PL D AMILLY",
+      "sales": 58,
+      "median_price_per_sqm": 4246.296296296296
+    },
+    {
+      "street_name": "RUE JACQUES CARTIER",
+      "sales": 55,
+      "median_price_per_sqm": 5313.613684960798
+    },
+    {
+      "street_name": "BD ROBERT THIBOUST",
+      "sales": 51,
+      "median_price_per_sqm": 4975.609756097561
+    },
+    {
+      "street_name": "CRS DU RHIN",
+      "sales": 50,
+      "median_price_per_sqm": 11607.407619047619
+    }
+  ]
+}

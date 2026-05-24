@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 18e Arrondissement",
+  "insee": "75118",
+  "generated_at": "2026-05-24T21:43:37.882506Z",
+  "total_sales": 36660,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 327,
+  "median_price": 377000.0,
+  "median_price_per_sqm": 9836.734693877552,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 7414,
+      "median_price": 420000.0
+    },
+    {
+      "year": 2022,
+      "sales": 8978,
+      "median_price": 410000.0
+    },
+    {
+      "year": 2023,
+      "sales": 7017,
+      "median_price": 368050.0
+    },
+    {
+      "year": 2024,
+      "sales": 5698,
+      "median_price": 317615.0
+    },
+    {
+      "year": 2025,
+      "sales": 7553,
+      "median_price": 352850.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DAMREMONT",
+      "sales": 1627,
+      "median_price_per_sqm": 10208.333333333334
+    },
+    {
+      "street_name": "RUE MARCADET",
+      "sales": 1387,
+      "median_price_per_sqm": 9709.677419354839
+    },
+    {
+      "street_name": "RUE CHAMPIONNET",
+      "sales": 1326,
+      "median_price_per_sqm": 9501.515151515152
+    },
+    {
+      "street_name": "RUE ORDENER",
+      "sales": 1050,
+      "median_price_per_sqm": 9340.54054054054
+    },
+    {
+      "street_name": "RUE DOUDEAUVILLE",
+      "sales": 860,
+      "median_price_per_sqm": 8724.454365079364
+    },
+    {
+      "street_name": "RUE LAMARCK",
+      "sales": 850,
+      "median_price_per_sqm": 10753.846153846154
+    },
+    {
+      "street_name": "RUE BOUCRY",
+      "sales": 806,
+      "median_price_per_sqm": 902777.7777777778
+    },
+    {
+      "street_name": "RUE DE CLIGNANCOURT",
+      "sales": 793,
+      "median_price_per_sqm": 9280.0
+    },
+    {
+      "street_name": "RUE CAULAINCOURT",
+      "sales": 664,
+      "median_price_per_sqm": 11931.487500000001
+    },
+    {
+      "street_name": "RUE DU MONT CENIS",
+      "sales": 662,
+      "median_price_per_sqm": 9987.5
+    },
+    {
+      "street_name": "RUE MARX DORMOY",
+      "sales": 599,
+      "median_price_per_sqm": 7777.777777777777
+    },
+    {
+      "street_name": "RUE PHILIPPE DE GIRARD",
+      "sales": 568,
+      "median_price_per_sqm": 22043.055555555555
+    },
+    {
+      "street_name": "RUE VAUVENARGUES",
+      "sales": 558,
+      "median_price_per_sqm": 9236.800148312941
+    },
+    {
+      "street_name": "RUE DE LA CHAPELLE",
+      "sales": 532,
+      "median_price_per_sqm": 7233.333333333333
+    },
+    {
+      "street_name": "AV DE SAINT OUEN",
+      "sales": 531,
+      "median_price_per_sqm": 9232.91038858049
+    }
+  ]
+}
