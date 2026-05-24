@@ -29,7 +29,7 @@ export default function Footer() {
           <FooterCol
             title="Outils"
             links={[
-              { label: "La carte du marché", href: "/carte" },
+              { label: "La carte", href: "/carte" },
             ]}
           />
           <FooterCol

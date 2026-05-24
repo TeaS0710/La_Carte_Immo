@@ -33,7 +33,7 @@ export default function Header() {
             className="text-ink font-semibold hover:text-[color:var(--brand-strong)] transition inline-flex items-center gap-1.5"
           >
             <MapPin size={14} className="text-[color:var(--brand-strong)]" />
-            La carte du marché
+            La carte
           </Link>
         </nav>
 

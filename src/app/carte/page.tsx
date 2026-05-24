@@ -1,26 +1,17 @@
-import fs from "node:fs/promises";
-import path from "node:path";
 import Header from "@/components/landing/Header";
-import CarteClient from "./CarteClient";
-import type { CommuneStats } from "@/lib/types";
+import RegionCarteClient from "./RegionCarteClient";
 
 export const metadata = {
-  title: "La Carte Prelys · Saint-Maur",
+  title: "La Carte · Île-de-France",
   description:
-    "La Carte Prelys : outil interactif d'analyse du marché immobilier de Saint-Maur-des-Fossés à destination des agences immobilières partenaires.",
+    "La Carte Prelys : analyse interactive du marché immobilier de l'Île-de-France. Cliquez une commune pour ouvrir sa carte détaillée (DVF, INSEE, DPE, Géorisques, pipeline ventes probables).",
 };
 
-async function loadStats(): Promise<CommuneStats> {
-  const file = path.join(process.cwd(), "public", "data", "commune", "94068", "stats.json");
-  return JSON.parse(await fs.readFile(file, "utf-8"));
-}
-
-export default async function CartePage() {
-  const stats = await loadStats();
+export default function CartePage() {
   return (
     <>
       <Header />
-      <CarteClient stats={stats} />
+      <RegionCarteClient />
     </>
   );
 }

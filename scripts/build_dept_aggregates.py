@@ -135,6 +135,35 @@ def main() -> int:
     (IDF_DIR / "region.json").write_text(json.dumps(region_payload, ensure_ascii=False, indent=2))
     print(f"\n  Région IDF : {region_total['communes_count']}/{len(manifest)} communes disponibles")
     print(f"  Total ventes DVF : {region_total['total_sales']:,}")
+
+    # GeoJSON markers communes (utilisé par la carte régionale frontend)
+    features = []
+    for c in all_communes_summary:
+        if c["lng"] is None or c["lat"] is None:
+            continue
+        features.append({
+            "type": "Feature",
+            "geometry": {"type": "Point", "coordinates": [c["lng"], c["lat"]]},
+            "properties": {
+                "code_insee": c["code_insee"],
+                "slug": c["slug"],
+                "nom": c["nom"],
+                "code_dept": next(
+                    (m["code_dept"] for m in manifest.values() if m["code_insee"] == c["code_insee"]),
+                    None,
+                ),
+                "population": c["population"],
+                "total_sales": c["total_sales"],
+                "median_price": c["median_price"],
+                "median_price_per_sqm": c["median_price_per_sqm"],
+            },
+        })
+    (IDF_DIR / "communes_map.geojson").write_text(json.dumps({
+        "type": "FeatureCollection",
+        "features": features,
+    }, ensure_ascii=False))
+    print(f"  GeoJSON markers : {len(features)} communes")
+
     return 0
 
 
