@@ -352,7 +352,7 @@ export default function CarteMap({
                       <span style="color:#5a554f;font-size:12px">probabilité de vente 12 mois (modèle calibré)</span>
                     </div>
                     ${signalsHtml}
-                    <div style="margin-top:8px;font-size:11px;color:#9b9690">Cliquez pour ouvrir la fiche du logement</div>
+                    <div style="margin-top:8px;font-size:11px;color:#9d7e44;font-weight:500">↗ Clic : ouvre Pages Blanches + fiche d&eacute;taill&eacute;e</div>
                   </div>`,
                 )
                 .addTo(map);
@@ -362,10 +362,14 @@ export default function CarteMap({
               pipePopup.remove();
             });
 
-            // Click : ouvre la fiche en local (pas d'auto-redirect)
+            // Click : ouvre PB en nouvel onglet ET la fiche locale (pour
+            // accéder ensuite à Street View / PJ / Pappers via les boutons).
             map.on("click", "pipeline-dot", (e) => {
               if (!e.features?.length) return;
               const p = (e.features[0] as MapGeoJSONFeature).properties as unknown as PipelineLogement;
+              const addr = `${p.addr}, Saint-Maur-des-Fossés`;
+              const pbUrl = `https://www.pagesjaunes.fr/pagesblanches/recherche?quoiqui=&ou=${encodeURIComponent(addr)}`;
+              window.open(pbUrl, "_blank", "noopener,noreferrer");
               onSelectPipeline(p);
               onSelectStreet(null);
               onSelectIris(null);
@@ -409,15 +413,26 @@ export default function CarteMap({
             map.on("mousemove", "permits-dot", (e) => {
               if (!e.features?.length) return;
               map.getCanvas().style.cursor = "pointer";
-              const p = (e.features[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
+              const f = e.features[0] as MapGeoJSONFeature;
+              const p = f.properties as Record<string, unknown>;
+              const coords = (f.geometry as GeoJSON.Point).coordinates as [number, number];
+              const area = p.area_m2 && Number(p.area_m2) > 0
+                ? `<div style="color:#5a554f">Emprise au sol : <strong>~${Math.round(Number(p.area_m2))} m²</strong></div>`
+                : "";
+              const updated = new Date(String(p.updated)).toLocaleDateString("fr-FR", {
+                day: "numeric", month: "long", year: "numeric",
+              });
               permPopup
                 .setLngLat(e.lngLat)
                 .setHTML(
-                  `<div style="font-family:var(--font-poppins),sans-serif;font-size:13px;line-height:1.5;color:#212529;min-width:180px">
-                    <div style="font-weight:600;margin-bottom:4px">Activité bâti récente</div>
-                    <div style="color:#5a554f">Mise à jour cadastrale : <strong>${p.updated}</strong></div>
-                    <div style="color:#5a554f">${p.type_bati}</div>
+                  `<div style="font-family:var(--font-poppins),sans-serif;font-size:13px;line-height:1.5;color:#212529;min-width:220px;max-width:260px">
+                    <div style="font-weight:600;margin-bottom:6px">Activité bâti récente</div>
+                    <div style="color:#5a554f">Mise à jour cadastrale : <strong>${updated}</strong></div>
+                    <div style="color:#5a554f">Type : <strong>${p.type_bati}</strong></div>
+                    ${area}
                     <div style="color:#9b9690;font-size:11px;margin-top:4px">Quartier ${p.nom_iris || "?"}</div>
+                    <div style="color:#9b9690;font-size:11px">GPS ${coords[1].toFixed(5)}, ${coords[0].toFixed(5)}</div>
+                    <div style="margin-top:8px;font-size:11px;color:#9d7e44;font-weight:500">↗ Clic : ouvre Pages Blanches + fiche d&eacute;taill&eacute;e</div>
                   </div>`,
                 )
                 .addTo(map);
@@ -431,6 +446,9 @@ export default function CarteMap({
               const f = e.features[0] as MapGeoJSONFeature;
               const p = f.properties as unknown as PermitFeature;
               const coords = (f.geometry as GeoJSON.Point).coordinates as [number, number];
+              const ouQuery = `${p.nom_iris || ""}, Saint-Maur-des-Fossés`.trim();
+              const pbUrl = `https://www.pagesjaunes.fr/pagesblanches/recherche?quoiqui=&ou=${encodeURIComponent(ouQuery)}`;
+              window.open(pbUrl, "_blank", "noopener,noreferrer");
               onSelectPermit({ ...p, lng: coords[0], lat: coords[1] });
               onSelectStreet(null);
               onSelectIris(null);
