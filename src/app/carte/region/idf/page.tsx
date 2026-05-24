@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import Link from "next/link";
 import Header from "@/components/landing/Header";
+import CommuneSearch from "@/components/carte/CommuneSearch";
 import { assetUrl } from "@/lib/url";
 
 interface DeptSummary {
@@ -81,6 +82,14 @@ export default async function RegionPage() {
             Données ouvertes DGFiP (transactions DVF 2021-2025).
           </p>
         </header>
+
+        {/* Recherche commune autocomplete */}
+        <section>
+          <h2 className="text-[12px] uppercase tracking-[0.15em] text-ink-soft mb-3">
+            Trouver une commune
+          </h2>
+          <CommuneSearch availableSlugs={region.top_communes.map((c) => c.slug)} />
+        </section>
 
         {/* KPI globaux */}
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
