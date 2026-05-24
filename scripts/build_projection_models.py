@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 """
-Améliore la projection prix Saint-Maur en :
+Améliore la projection prix d'une commune en :
   - reconstruisant la série en mensuel (60 points au lieu de 5)
   - fittant 3 modèles : linear, polynomial deg 2, ARIMA(1,1,1)
   - bootstrapant les résidus pour intervalles de confiance honnêtes
   - back-test prospectif : train 2021-2023, test 2024-2025
   - sortant les métriques R², MAPE, par modèle
 
-Output : public/data/saint-maur/projection.json
+Output : public/data/commune/{code_insee}/projection.json
+
+Usage :
+  ./scripts/build_projection_models.py --code-insee 94068
 """
+import argparse
 import json
 import math
 from pathlib import Path
@@ -27,10 +31,19 @@ except ImportError:
     HAVE_SM = False
 
 ROOT = Path(__file__).resolve().parent.parent
-DVF_DIR = ROOT / "data" / "raw"
-OUT = ROOT / "public" / "data" / "saint-maur" / "projection.json"
 
-INSEE = "94068"
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--code-insee", required=True, help="Code INSEE 5 chiffres de la commune")
+args = parser.parse_args()
+
+CODE_INSEE = args.code_insee
+COMMUNE_DIR = ROOT / "public" / "data" / "commune" / CODE_INSEE
+COMMUNE_DIR.mkdir(parents=True, exist_ok=True)
+
+DVF_DIR = ROOT / "data" / "raw"
+OUT = COMMUNE_DIR / "projection.json"
+
+INSEE = CODE_INSEE
 HORIZON_MONTHS = 12  # projeter 12 mois
 
 # ── 1. Load + monthly aggregation ────────────────────────────────────────────

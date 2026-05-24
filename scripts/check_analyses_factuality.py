@@ -10,19 +10,36 @@ Pour chaque IRIS analysé :
 
 Tolerance : on accepte un nombre si on le retrouve à ± 1 % dans la fiche source.
 On ignore les chiffres triviaux (rangs 1-5, % au-dessus de 200, etc.).
+
+Usage :
+  ./scripts/check_analyses_factuality.py --code-insee 94068
 """
+import argparse
 import json
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-ANALYSES = ROOT / "public" / "data" / "saint-maur" / "iris_analyses.json"
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--code-insee", required=True, help="Code INSEE 5 chiffres de la commune")
+args = parser.parse_args()
+
+CODE_INSEE = args.code_insee
+COMMUNE_DIR = ROOT / "public" / "data" / "commune" / CODE_INSEE
+COMMUNE_DIR.mkdir(parents=True, exist_ok=True)
+ANALYSES = COMMUNE_DIR / "iris_analyses.json"
 FICHES = ROOT / "data" / "knowledge_base" / "fiches"
-COMMUNE = ROOT / "public" / "data" / "saint-maur" / "commune.json"
-OUT = ROOT / "public" / "data" / "saint-maur" / "iris_analyses_audit.json"
+COMMUNE = COMMUNE_DIR / "commune.json"
+OUT = COMMUNE_DIR / "iris_analyses_audit.json"
 
 NUM_RE = re.compile(r"(?<![A-Za-z\-])(\d+(?:[,.]\d+)?)")
-IGNORE_LITERAL = {"5", "12", "100", "1", "2", "3", "4", "10", "21", "1948", "1974", "2025", "2024", "2021", "2022", "2023", "94068"}
+# On ignore les chiffres triviaux + le code INSEE de la commune analysée
+IGNORE_LITERAL = {
+    "5", "12", "100", "1", "2", "3", "4", "10", "21",
+    "1948", "1974", "2025", "2024", "2021", "2022", "2023",
+    CODE_INSEE,
+}
 
 
 def parse_num(s: str) -> float:

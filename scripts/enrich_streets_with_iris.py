@@ -2,7 +2,11 @@
 """
 Spatial-join : add code_iris to each street feature in streets.geojson
 based on point-in-polygon against the IRIS polygons.
+
+Usage :
+  ./scripts/enrich_streets_with_iris.py --code-insee 94068
 """
+import argparse
 import json
 from pathlib import Path
 
@@ -10,8 +14,16 @@ from shapely.geometry import shape, Point
 from shapely.prepared import prep
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = ROOT / "public" / "data" / "saint-maur" / "streets.geojson"
-IRIS = ROOT / "public" / "data" / "saint-maur" / "iris.geojson"
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--code-insee", required=True, help="Code INSEE 5 chiffres de la commune")
+args = parser.parse_args()
+
+CODE_INSEE = args.code_insee
+COMMUNE_DIR = ROOT / "public" / "data" / "commune" / CODE_INSEE
+COMMUNE_DIR.mkdir(parents=True, exist_ok=True)
+SRC = COMMUNE_DIR / "streets.geojson"
+IRIS = COMMUNE_DIR / "iris.geojson"
 
 streets = json.loads(SRC.read_text())
 iris = json.loads(IRIS.read_text())

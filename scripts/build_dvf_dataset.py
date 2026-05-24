@@ -1,21 +1,30 @@
 #!/usr/bin/env python3
 """
-Build the Saint-Maur DVF dataset for the Prelys turnover tool.
+Build the DVF dataset for a commune for the Prelys turnover tool.
 
-Reads raw DVF CSVs (one per year) from data/raw/, aggregates by street and by
-parcelle (immeuble proxy), and writes GeoJSON + JSON files consumable by the
-Next.js front-end.
+Reads raw DVF CSVs (one per year) from data/raw/dvf_{INSEE}_{YEAR}.csv,
+aggregates by street and by parcelle (immeuble proxy), and writes GeoJSON
++ JSON files consumable by the Next.js front-end.
 
-Outputs (in public/data/saint-maur/):
+Usage :
+  ./scripts/build_dvf_dataset.py --code-insee 94068
+  ./scripts/build_dvf_dataset.py --code-insee 94080 --commune-name "Vincennes"
+
+Outputs (in public/data/commune/{code_insee}/) :
   - streets.geojson      one Point per street, with sales count, avg price, etc.
   - transactions.geojson all individual sales (for density heatmap)
-  - parcelles.geojson    aggregates by id_parcelle (mockup data for outil n°2)
+  - parcelles.geojson    aggregates by id_parcelle
+  - top_parcelles.json   top 30 parcelles for the fiche immeuble
+  - parcelle_details.json full per-parcelle transaction history
+  - jt_quartier.json     market pulse + notable recent sales
   - stats.json           commune-wide KPIs
 """
 from __future__ import annotations
 
+import argparse
 import json
 import math
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -24,10 +33,33 @@ from unidecode import unidecode
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw"
-OUT_DIR = ROOT / "public" / "data" / "saint-maur"
 
-INSEE_CODE = "94068"
-COMMUNE_NAME = "Saint-Maur-des-Fossés"
+parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+parser.add_argument("--code-insee", required=True, help="Code INSEE 5 chiffres de la commune")
+parser.add_argument("--commune-name", default=None, help="Nom de la commune (sinon récupéré depuis le manifest IDF)")
+args = parser.parse_args()
+
+INSEE_CODE = args.code_insee
+OUT_DIR = ROOT / "public" / "data" / "commune" / INSEE_CODE
+
+
+def _resolve_commune_name() -> str:
+    if args.commune_name:
+        return args.commune_name
+    # Fallback : lecture manifest IDF si disponible
+    manifest = ROOT / "public" / "data" / "idf" / "communes.json"
+    if manifest.exists():
+        try:
+            data = json.loads(manifest.read_text())
+            for c in data:
+                if c.get("code_insee") == INSEE_CODE:
+                    return c.get("nom", INSEE_CODE)
+        except Exception:
+            pass
+    return INSEE_CODE
+
+
+COMMUNE_NAME = _resolve_commune_name()
 
 
 def load_all_years() -> pd.DataFrame:
@@ -38,7 +70,13 @@ def load_all_years() -> pd.DataFrame:
         df["year"] = year
         frames.append(df)
     if not frames:
-        raise SystemExit("No raw DVF CSVs found — run the download step first.")
+        print(
+            f"No raw DVF CSVs found for INSEE {INSEE_CODE} in {RAW_DIR}. "
+            "Run: ./scripts/download_dvf.py --communes "
+            f"{INSEE_CODE}",
+            file=sys.stderr,
+        )
+        sys.exit(2)
     return pd.concat(frames, ignore_index=True)
 
 

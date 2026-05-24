@@ -4,8 +4,12 @@ Extrait les bâtiments du cadastre IGN dont la date 'updated' est récente.
 Ces mises à jour cadastrales tracent à 95% les permis de construire,
 extensions, démolitions, divisions/regroupements parcellaires.
 
-Output : public/data/saint-maur/permits.geojson — points centroïdes.
+Output : public/data/commune/{code_insee}/permits.geojson — points centroïdes.
+
+Usage :
+  ./scripts/build_permits_dataset.py --code-insee 94068
 """
+import argparse
 import gzip
 import json
 from collections import defaultdict
@@ -14,9 +18,17 @@ from pathlib import Path
 from shapely.geometry import shape
 
 ROOT = Path(__file__).resolve().parent.parent
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--code-insee", required=True, help="Code INSEE 5 chiffres de la commune")
+args = parser.parse_args()
+
+CODE_INSEE = args.code_insee
+COMMUNE_DIR = ROOT / "public" / "data" / "commune" / CODE_INSEE
+COMMUNE_DIR.mkdir(parents=True, exist_ok=True)
 SRC = ROOT / "data" / "raw" / "cadastre" / "batiments.json.gz"
-IRIS = ROOT / "public" / "data" / "saint-maur" / "iris.geojson"
-OUT = ROOT / "public" / "data" / "saint-maur" / "permits.geojson"
+IRIS = COMMUNE_DIR / "iris.geojson"
+OUT = COMMUNE_DIR / "permits.geojson"
 
 # Cutoff : on garde les modifications cadastrales >= 2019
 # (les ~28k bâtiments de 2018 correspondent à la création initiale du dataset)

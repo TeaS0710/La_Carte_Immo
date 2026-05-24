@@ -7,13 +7,25 @@ Enrichit iris.geojson avec :
 
 Le résultat permet d'afficher des barres comparatives + badges de classement
 dans IrisCard côté front.
+
+Usage :
+  ./scripts/enrich_iris_aggregates.py --code-insee 94068
 """
+import argparse
 import json
 import statistics
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = ROOT / "public" / "data" / "saint-maur" / "iris.geojson"
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--code-insee", required=True, help="Code INSEE 5 chiffres de la commune")
+args = parser.parse_args()
+
+CODE_INSEE = args.code_insee
+COMMUNE_DIR = ROOT / "public" / "data" / "commune" / CODE_INSEE
+COMMUNE_DIR.mkdir(parents=True, exist_ok=True)
+SRC = COMMUNE_DIR / "iris.geojson"
 
 geo = json.loads(SRC.read_text())
 features = geo["features"]
@@ -105,7 +117,7 @@ def composite(p):
     if p.get("pct_proprio"):
         parts.append(p["pct_proprio"] / 90)
     if p.get("dvf_median_ppsqm"):
-        # Plus le €/m² est haut, plus le quartier est attractif (sur Saint-Maur)
+        # Plus le €/m² est haut, plus le quartier est attractif (calibré IDF cossue)
         parts.append(min(1.0, (p["dvf_median_ppsqm"] - 4000) / 6000))
     if p.get("bpe_total"):
         parts.append(min(1.0, p["bpe_total"] / 200))
@@ -129,7 +141,7 @@ SRC.write_text(json.dumps(geo, ensure_ascii=False))
 print(f"\nWrote {SRC} ({SRC.stat().st_size // 1024} KB)")
 
 # Also write commune.json separately (lighter for landing/strate use)
-COMMUNE_OUT = SRC.parent / "commune.json"
+COMMUNE_OUT = COMMUNE_DIR / "commune.json"
 COMMUNE_OUT.write_text(json.dumps(commune, ensure_ascii=False, indent=2))
 print(f"Wrote {COMMUNE_OUT}")
 

@@ -1,23 +1,22 @@
 #!/usr/bin/env python3
 """
-Build the unified knowledge base for Saint-Maur-des-Fossés (94068).
+Build the unified knowledge base for ONE commune.
 
-Reads all sources in `data/raw/<source>/`, joins them at three granularities
-(commune, IRIS, parcelle) and writes:
+Reads all sources in `data/raw/<source>/<file>_{code_insee}.<ext>` when
+available (graceful skip if a source is missing for a non-flagship commune),
+joins them at three granularities (commune, IRIS, parcelle) and writes :
 
-  data/knowledge_base/entities.jsonl   - one JSON line per entity
-  data/knowledge_base/fiches/*.md      - one Markdown briefing per entity
-  data/knowledge_base/INDEX.json       - lookup {slug -> {path, type, lat, lng, keywords}}
+  data/knowledge_base/{code_insee}/entities.jsonl
+  data/knowledge_base/{code_insee}/fiches/*.md
+  data/knowledge_base/{code_insee}/INDEX.json
 
-The script uses only pandas + shapely (no geopandas dependency).  Point-in-polygon
-joins are done manually with shapely.prepared. Coordinates are EPSG:4326 (WGS84)
-because all raw sources are already in that CRS.
-
-Run:
-  python3 scripts/build_knowledge_base.py
+Usage :
+  ./scripts/build_knowledge_base.py --code-insee 94068
+  ./scripts/build_knowledge_base.py --code-insee 94080 --commune-name "Vincennes"
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import gzip
 import io
@@ -36,16 +35,37 @@ from shapely.geometry import Point, shape
 from shapely.prepared import prep
 
 # ---------------------------------------------------------------------------
-# Paths
+# Paths & args
 # ---------------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
-KB = ROOT / "data" / "knowledge_base"
+
+parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+parser.add_argument("--code-insee", required=True, help="Code INSEE 5 chiffres")
+parser.add_argument("--commune-name", default=None, help="Nom (sinon récupéré du manifest)")
+args = parser.parse_args()
+
+COM_CODE = args.code_insee
+
+
+def _resolve_name() -> str:
+    if args.commune_name:
+        return args.commune_name
+    m = ROOT / "public" / "data" / "idf" / "communes.json"
+    if m.exists():
+        try:
+            for c in json.loads(m.read_text()):
+                if c.get("code_insee") == COM_CODE:
+                    return c.get("nom", COM_CODE)
+        except Exception:
+            pass
+    return COM_CODE
+
+
+COM_NAME = _resolve_name()
+KB = ROOT / "data" / "knowledge_base" / COM_CODE
 FICHES = KB / "fiches"
 FICHES.mkdir(parents=True, exist_ok=True)
-
-COM_CODE = "94068"
-COM_NAME = "Saint-Maur-des-Fossés"
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -100,7 +120,7 @@ def fmt_pct(x, digits=1):
 # 1. Load IRIS contours (also gives us the polygons for point-in-polygon)
 # ---------------------------------------------------------------------------
 def load_iris_polygons() -> list[dict]:
-    fc = json.loads((RAW / "iris" / "iris_94068.geojson").read_text())
+    fc = json.loads((RAW / "iris" / f"iris_{COM_CODE}.geojson").read_text())
     irises = []
     for feat in fc["features"]:
         props = feat["properties"]
@@ -120,10 +140,10 @@ def load_iris_polygons() -> list[dict]:
 # 2. Load INSEE IRIS tables
 # ---------------------------------------------------------------------------
 def load_insee_iris() -> dict[str, dict]:
-    pop = pd.read_csv(RAW / "insee" / "base_pop_2021_94068.csv", dtype={"IRIS": str, "COM": str})
-    log = pd.read_csv(RAW / "insee" / "base_log_2021_94068.csv", dtype={"IRIS": str, "COM": str})
-    cfm = pd.read_csv(RAW / "insee" / "base_cfm_2021_94068.csv", dtype={"IRIS": str, "COM": str})
-    dpl = pd.read_csv(RAW / "insee" / "base_dpl_2021_94068.csv", dtype={"IRIS": str, "COM": str})
+    pop = pd.read_csv(RAW / "insee" / f"base_pop_2021_{COM_CODE}.csv", dtype={"IRIS": str, "COM": str})
+    log = pd.read_csv(RAW / "insee" / f"base_log_2021_{COM_CODE}.csv", dtype={"IRIS": str, "COM": str})
+    cfm = pd.read_csv(RAW / "insee" / f"base_cfm_2021_{COM_CODE}.csv", dtype={"IRIS": str, "COM": str})
+    dpl = pd.read_csv(RAW / "insee" / f"base_dpl_2021_{COM_CODE}.csv", dtype={"IRIS": str, "COM": str})
 
     out: dict[str, dict] = defaultdict(dict)
     for df, prefix in [(pop, "pop"), (log, "log"), (cfm, "cfm"), (dpl, "dpl")]:
@@ -244,7 +264,7 @@ def load_cadastre_parcelles() -> dict[str, dict]:
 # 5. BAN — addresses (used to enrich parcelle fiches with normalised street names)
 # ---------------------------------------------------------------------------
 def load_ban_by_parcel() -> dict[str, list[dict]]:
-    df = pd.read_csv(RAW / "ban" / "adresses-94068.csv", sep=";", dtype=str, low_memory=False)
+    df = pd.read_csv(RAW / "ban" / f"adresses-{COM_CODE}.csv", sep=";", dtype=str, low_memory=False)
     out: dict[str, list[dict]] = defaultdict(list)
     for _, r in df.iterrows():
         cad = r.get("cad_parcelles") or ""
@@ -280,7 +300,7 @@ SDOM_LABELS = {
 
 def load_bpe_by_iris() -> tuple[dict[str, dict], dict[str, int]]:
     """Returns (iris -> {label_dom: count}, commune-level counts)."""
-    df = pd.read_parquet(RAW / "bpe" / "BPE24_94068.parquet")
+    df = pd.read_parquet(RAW / "bpe" / f"BPE24_{COM_CODE}.parquet")
     df["DCIRIS"] = df["DCIRIS"].astype(str).str.zfill(9)
     per_iris: dict[str, dict] = defaultdict(lambda: defaultdict(int))
     commune_counts: dict[str, int] = defaultdict(int)
@@ -313,7 +333,7 @@ NAF_LABELS = {
 
 
 def load_sirene_targets() -> tuple[dict[str, int], list[dict]]:
-    data = json.loads((RAW / "sirene" / "sirene_94068_targets.json").read_text())
+    data = json.loads((RAW / "sirene" / f"sirene_{COM_CODE}_targets.json").read_text())
     counts: dict[str, int] = Counter()
     agencies = []
     for r in data:
@@ -339,7 +359,7 @@ def load_sirene_targets() -> tuple[dict[str, int], list[dict]]:
 # 8. OSM — POIs aggregated per IRIS via point-in-polygon
 # ---------------------------------------------------------------------------
 def load_osm_pois() -> list[dict]:
-    data = json.loads((RAW / "osm" / "osm_94068.json").read_text())
+    data = json.loads((RAW / "osm" / f"osm_{COM_CODE}.json").read_text())
     pois = []
     for e in data["elements"]:
         tags = e.get("tags") or {}
@@ -378,7 +398,7 @@ def agg_osm_per_iris(pois: list[dict], irises: list[dict]) -> dict[str, dict]:
 # 9. DPE — count per IRIS + global commune profile
 # ---------------------------------------------------------------------------
 def load_dpe() -> tuple[dict[str, dict], dict[str, int]]:
-    data = json.loads((RAW / "dpe" / "dpe_94068.json").read_text())
+    data = json.loads((RAW / "dpe" / f"dpe_{COM_CODE}.json").read_text())
     commune = Counter()
     rows = []
     for d in data:
@@ -413,7 +433,7 @@ def agg_dpe_per_iris(rows, irises):
 # 10. Délinquance — commune
 # ---------------------------------------------------------------------------
 def load_delinquance() -> dict[str, Any]:
-    df = pd.read_parquet(RAW / "delinquance" / "delinquance_94068.parquet")
+    df = pd.read_parquet(RAW / "delinquance" / f"delinquance_{COM_CODE}.parquet")
     # Most recent year only
     latest = df["annee"].max()
     recent = df[df["annee"] == latest].copy()
@@ -436,7 +456,7 @@ def load_delinquance() -> dict[str, Any]:
 # ---------------------------------------------------------------------------
 def load_elections() -> dict[str, Any]:
     out = {}
-    for tour, fname in [("T1", "pres2022_t1_94068.csv"), ("T2", "pres2022_t2_94068.csv")]:
+    for tour, fname in [("T1", f"pres2022_t1_{COM_CODE}.csv"), ("T2", f"pres2022_t2_{COM_CODE}.csv")]:
         df = pd.read_csv(RAW / "elections" / fname)
         meta_row = df.iloc[0]
         candidates = []
@@ -460,7 +480,7 @@ def load_elections() -> dict[str, Any]:
 # 12. Éducation
 # ---------------------------------------------------------------------------
 def load_education() -> dict[str, Any]:
-    data = json.loads((RAW / "education" / "annuaire_94068.json").read_text())
+    data = json.loads((RAW / "education" / f"annuaire_{COM_CODE}.json").read_text())
     results = data.get("results", [])
     counts = Counter()
     by_type = defaultdict(list)
@@ -558,7 +578,7 @@ def build_iris_fiche(
     md = [
         f"# IRIS {nom} ({code})",
         "",
-        f"- Commune : Saint-Maur-des-Fossés (94068)",
+        f"- Commune : {COM_NAME} ({COM_CODE})",
         f"- Type IRIS : {iris.get('type_iris', '?')} ({type_label})",
         f"- Centroïde : lat={cy:.5f}, lng={cx:.5f}",
         "",
@@ -610,7 +630,7 @@ def build_iris_fiche(
 
     body = "\n".join(md)
     keywords = [
-        nom, code, "iris", "saint-maur",
+        nom, code, "iris", COM_CODE,
         "cadres" if cs3 and pop and cs3 / max(pop, 1) > 0.05 else None,
         "propriétaires" if rp_prop and n_rp and rp_prop / n_rp > 0.55 else None,
         "locataires" if rp_loc and n_rp and rp_loc / n_rp > 0.4 else None,
@@ -775,7 +795,7 @@ def build_commune_fiche(
             "n_agencies_immo": len(agencies),
             "delinquance_annee": delinquance["annee"],
         },
-        "keywords": ["saint-maur", "94068", "commune", "val-de-marne", "ile-de-france"],
+        "keywords": [COM_CODE, "commune"],
     }
     return body, meta
 

@@ -4,12 +4,16 @@ Pipeline de ventes probables avec **scoring calibré empiriquement**.
 
 Le score est désormais une vraie probabilité issue d'une régression logistique
 entraînée sur 11 865 DPE × DVF (cf. scripts/calibrate_pipeline_model.py).
-Cf. public/data/saint-maur/model_coefficients.json.
+Cf. public/data/commune/{code_insee}/model_coefficients.json.
 
 Chaque logement reçoit :
   - `proba_sale_12m`     : probabilité 0-100 % (modèle calibré)
   - `signals` (list)      : décomposition explicable (feature × coef)
+
+Usage :
+  ./scripts/build_pipeline_dataset.py --code-insee 94068
 """
+import argparse
 import json
 import math
 from collections import defaultdict
@@ -19,10 +23,19 @@ from shapely.geometry import shape, Point
 from shapely.prepared import prep
 
 ROOT = Path(__file__).resolve().parent.parent
-DPE_SRC = ROOT / "data" / "raw" / "dpe" / "dpe_94068.json"
-IRIS_SRC = ROOT / "public" / "data" / "saint-maur" / "iris.geojson"
-COEF_SRC = ROOT / "public" / "data" / "saint-maur" / "model_coefficients.json"
-OUT_DIR = ROOT / "public" / "data" / "saint-maur"
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--code-insee", required=True, help="Code INSEE 5 chiffres de la commune")
+args = parser.parse_args()
+
+CODE_INSEE = args.code_insee
+COMMUNE_DIR = ROOT / "public" / "data" / "commune" / CODE_INSEE
+COMMUNE_DIR.mkdir(parents=True, exist_ok=True)
+
+DPE_SRC = ROOT / "data" / "raw" / "dpe" / f"dpe_{CODE_INSEE}.json"
+IRIS_SRC = COMMUNE_DIR / "iris.geojson"
+COEF_SRC = COMMUNE_DIR / "model_coefficients.json"
+OUT_DIR = COMMUNE_DIR
 
 # Friendly labels for each calibrated feature (for the signals breakdown)
 FEATURE_LABELS = {

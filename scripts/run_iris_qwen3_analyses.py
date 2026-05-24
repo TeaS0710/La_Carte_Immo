@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """
-Génère pour chaque IRIS une analyse "qualité industrielle" via Ollama qwen3:32b
-avec :
+Génère pour chaque IRIS d'une commune une analyse "qualité industrielle" via
+Ollama qwen3:32b / gpt-oss:120b-cloud avec :
   - Few-shot prompting (2 exemples calibrés)
   - Format structuré obligatoire (Profil acheteur / Bien dominant / Dynamique /
     Risques / Recommandation tactique)
   - Décomposition explicite des signaux quantifiés citée par le modèle
 
-Output : public/data/saint-maur/iris_analyses.json (incrémental, reprend après
-interruption). Une exécution ~3 min par IRIS — 34 IRIS = ~100 min.
+Output : public/data/commune/{code_insee}/iris_analyses.json (incrémental,
+reprend après interruption). Une exécution ~3 min par IRIS — 34 IRIS = ~100 min.
 
 Usage :
-  python3 scripts/run_iris_qwen3_analyses.py            # tous
-  python3 scripts/run_iris_qwen3_analyses.py --limit 5  # premiers 5 par attractivity
-  python3 scripts/run_iris_qwen3_analyses.py --code 940680101  # un seul
+  python3 scripts/run_iris_qwen3_analyses.py --code-insee 94068
+  python3 scripts/run_iris_qwen3_analyses.py --code-insee 94068 --limit 5
+  python3 scripts/run_iris_qwen3_analyses.py --code-insee 94068 --code 940680101
 """
 from __future__ import annotations
 
@@ -26,9 +26,7 @@ from pathlib import Path
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
-IRIS_GEO = ROOT / "public" / "data" / "saint-maur" / "iris.geojson"
 FICHES_DIR = ROOT / "data" / "knowledge_base" / "fiches"
-OUT = ROOT / "public" / "data" / "saint-maur" / "iris_analyses.json"
 
 MODEL = "gpt-oss:120b-cloud"
 OLLAMA_URL = "http://localhost:11434/api/generate"
@@ -181,13 +179,19 @@ def call_ollama(prompt: str) -> tuple[bool, str]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--code-insee", required=True, help="Code INSEE 5 chiffres de la commune")
     parser.add_argument("--limit", type=int, default=0)
-    parser.add_argument("--code", type=str, default="")
+    parser.add_argument("--code", type=str, default="", help="Code IRIS spécifique (sinon tous)")
     parser.add_argument("--force", action="store_true", help="re-run even cached")
     args = parser.parse_args()
 
-    geo = json.loads(IRIS_GEO.read_text())
+    commune_dir = ROOT / "public" / "data" / "commune" / args.code_insee
+    commune_dir.mkdir(parents=True, exist_ok=True)
+    iris_geo_path = commune_dir / "iris.geojson"
+    out_path = commune_dir / "iris_analyses.json"
+
+    geo = json.loads(iris_geo_path.read_text())
     features = geo["features"]
     if args.code:
         features = [f for f in features if f["properties"].get("code_iris") == args.code]
@@ -199,9 +203,10 @@ def main() -> None:
         )[: args.limit]
 
     existing: dict[str, dict] = {}
-    if OUT.exists():
-        existing = json.loads(OUT.read_text())
+    if out_path.exists():
+        existing = json.loads(out_path.read_text())
 
+    print(f"Commune : {args.code_insee}")
     print(f"Model : {MODEL}")
     print(f"Targets : {len(features)} IRIS  ·  cache : {len(existing)} déjà fait")
 
@@ -229,10 +234,10 @@ def main() -> None:
         else:
             existing[code] = {"ok": False, "error": text, "model": MODEL}
             print(f"  [{i}/{len(features)}] {code} {name} ÉCHEC : {text[:100]}")
-        OUT.write_text(json.dumps(existing, ensure_ascii=False, indent=2))
+        out_path.write_text(json.dumps(existing, ensure_ascii=False, indent=2))
 
     ok_n = sum(1 for v in existing.values() if v.get("ok"))
-    print(f"\nDone : {ok_n}/{len(existing)} succès — {OUT}")
+    print(f"\nDone : {ok_n}/{len(existing)} succès — {out_path}")
 
 
 if __name__ == "__main__":
