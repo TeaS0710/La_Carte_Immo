@@ -1,0 +1,120 @@
+{
+  "commune": "Fublaines",
+  "insee": "77199",
+  "generated_at": "2026-05-24T21:11:56.746106Z",
+  "total_sales": 398,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 44,
+  "median_price": 225000.0,
+  "median_price_per_sqm": 3126.5664160401,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 93,
+      "median_price": 159000.0
+    },
+    {
+      "year": 2022,
+      "sales": 156,
+      "median_price": 294075.0
+    },
+    {
+      "year": 2023,
+      "sales": 35,
+      "median_price": 288000.0
+    },
+    {
+      "year": 2024,
+      "sales": 51,
+      "median_price": 120000.0
+    },
+    {
+      "year": 2025,
+      "sales": 63,
+      "median_price": 245000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE LA FONTAINE DU TOIT",
+      "sales": 76,
+      "median_price_per_sqm": 2936.5079365079364
+    },
+    {
+      "street_name": "FUBLAINES",
+      "sales": 42,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE BRINCHES",
+      "sales": 42,
+      "median_price_per_sqm": 8289.855072463768
+    },
+    {
+      "street_name": "RUE ALPHONSE CABON",
+      "sales": 29,
+      "median_price_per_sqm": 2913.466097676624
+    },
+    {
+      "street_name": "RTE DE NANTEUIL A TRILPORT",
+      "sales": 20,
+      "median_price_per_sqm": 3356.422018348624
+    },
+    {
+      "street_name": "RUE DE TRILPORT",
+      "sales": 19,
+      "median_price_per_sqm": 2662.6506024096384
+    },
+    {
+      "street_name": "RUE DES BRANDONS",
+      "sales": 19,
+      "median_price_per_sqm": 3371.590909090909
+    },
+    {
+      "street_name": "RUE DE NANTEUIL",
+      "sales": 15,
+      "median_price_per_sqm": 2495.8333333333335
+    },
+    {
+      "street_name": "LES ANGOTTES",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 8,
+      "median_price_per_sqm": 2899.0384615384614
+    },
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 8,
+      "median_price_per_sqm": 2310.924369747899
+    },
+    {
+      "street_name": "CHE DE LA CROQUAINE",
+      "sales": 7,
+      "median_price_per_sqm": 3153.061224489796
+    },
+    {
+      "street_name": "IMP DU BOIS LE COMTE",
+      "sales": 7,
+      "median_price_per_sqm": 2880.0
+    },
+    {
+      "street_name": "LA LIERE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES MAUVES",
+      "sales": 6,
+      "median_price_per_sqm": 3271.604938271605
+    }
+  ]
+}

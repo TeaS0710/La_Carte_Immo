@@ -1,0 +1,120 @@
+{
+  "commune": "Gretz-Armainvilliers",
+  "insee": "77215",
+  "generated_at": "2026-05-24T21:13:59.093853Z",
+  "total_sales": 1651,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 103,
+  "median_price": 269000.0,
+  "median_price_per_sqm": 3521.034996276992,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 349,
+      "median_price": 310000.0
+    },
+    {
+      "year": 2022,
+      "sales": 334,
+      "median_price": 328300.0
+    },
+    {
+      "year": 2023,
+      "sales": 284,
+      "median_price": 207800.0
+    },
+    {
+      "year": 2024,
+      "sales": 291,
+      "median_price": 218000.0
+    },
+    {
+      "year": 2025,
+      "sales": 393,
+      "median_price": 245000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 230,
+      "median_price_per_sqm": 3378.676470588235
+    },
+    {
+      "street_name": "BD VICTOR HUGO",
+      "sales": 165,
+      "median_price_per_sqm": 3838.3534136546186
+    },
+    {
+      "street_name": "AV CARNOT",
+      "sales": 162,
+      "median_price_per_sqm": 112966.60114754098
+    },
+    {
+      "street_name": "BD ARISTIDE BRIAND",
+      "sales": 137,
+      "median_price_per_sqm": 14077.669902912621
+    },
+    {
+      "street_name": "RUE D ALSACE",
+      "sales": 79,
+      "median_price_per_sqm": 3224.7191011235955
+    },
+    {
+      "street_name": "AV DES HETRES POURPRES",
+      "sales": 78,
+      "median_price_per_sqm": 3012.8205128205127
+    },
+    {
+      "street_name": "RUE GAMBETTA",
+      "sales": 65,
+      "median_price_per_sqm": 3212.121212121212
+    },
+    {
+      "street_name": "PARC PEREIRE",
+      "sales": 55,
+      "median_price_per_sqm": 2935.943060498221
+    },
+    {
+      "street_name": "RUE DE VIGNOLLES",
+      "sales": 51,
+      "median_price_per_sqm": 2612.121212121212
+    },
+    {
+      "street_name": "RUE THIERS",
+      "sales": 34,
+      "median_price_per_sqm": 3639.7994129158515
+    },
+    {
+      "street_name": "AV ISAAC PEREIRE",
+      "sales": 33,
+      "median_price_per_sqm": 3450.4504504504503
+    },
+    {
+      "street_name": "RUE DE MAISON ROUGE",
+      "sales": 25,
+      "median_price_per_sqm": 2875.0
+    },
+    {
+      "street_name": "GRETZ",
+      "sales": 21,
+      "median_price_per_sqm": 2297.2972972972975
+    },
+    {
+      "street_name": "AV DU CHEMIN DE FER",
+      "sales": 21,
+      "median_price_per_sqm": 3578.4313725490197
+    },
+    {
+      "street_name": "BD ROMAIN ROLLAND",
+      "sales": 19,
+      "median_price_per_sqm": 3221.9469026548672
+    }
+  ]
+}

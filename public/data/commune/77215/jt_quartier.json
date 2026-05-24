@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 393,
+  "sales_delta_pct": 35.1,
+  "median_price": 245000.0,
+  "median_ppsqm": 3633.333333333333,
+  "delta_ppsqm_pct": 6.8,
+  "notable_sales": [
+    {
+      "date": "2025-12-30",
+      "street": "IMP DENIS PAPIN",
+      "type": "Appartement",
+      "surface": 114,
+      "price": 1780000.0
+    },
+    {
+      "date": "2025-12-17",
+      "street": "AV DES ERABLES",
+      "type": "Maison",
+      "surface": 158,
+      "price": 600000.0
+    },
+    {
+      "date": "2025-11-26",
+      "street": "ALL DU CLOS",
+      "type": "Maison",
+      "surface": 168,
+      "price": 498500.0
+    },
+    {
+      "date": "2025-09-19",
+      "street": "RUE ARTHUR PAPON",
+      "type": "Maison",
+      "surface": 69,
+      "price": 455000.0
+    },
+    {
+      "date": "2025-08-05",
+      "street": "AV DU CENTRE",
+      "type": "Maison",
+      "surface": 184,
+      "price": 449000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:13:59.090943Z"
+}

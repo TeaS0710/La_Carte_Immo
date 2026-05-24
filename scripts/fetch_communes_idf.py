@@ -47,6 +47,21 @@ for dept in DEPTS_IDF:
     )
     r.raise_for_status()
     data = r.json()
+    # CAS PARIS : l'API retourne juste 75056 (Paris entière) mais on veut
+    # aussi les 20 arrondissements 75101-75120 comme communes à part entière.
+    if dept == "75":
+        for arr in range(1, 21):
+            code = f"751{arr:02d}"
+            try:
+                rr = requests.get(
+                    f"https://geo.api.gouv.fr/communes/{code}",
+                    params={"fields": "nom,code,codeDepartement,codesPostaux,population,centre"},
+                    timeout=15,
+                )
+                if rr.ok:
+                    data.append(rr.json())
+            except Exception:
+                pass
     for c in data:
         nom = c["nom"]
         code = c["code"]

@@ -1,0 +1,120 @@
+{
+  "commune": "Grandpuits-Bailly-Carrois",
+  "insee": "77211",
+  "generated_at": "2026-05-24T21:13:38.832124Z",
+  "total_sales": 217,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 40,
+  "median_price": 214000.0,
+  "median_price_per_sqm": 2217.391304347826,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 31,
+      "median_price": 199000.0
+    },
+    {
+      "year": 2022,
+      "sales": 65,
+      "median_price": 229900.0
+    },
+    {
+      "year": 2023,
+      "sales": 47,
+      "median_price": 210000.0
+    },
+    {
+      "year": 2024,
+      "sales": 15,
+      "median_price": 252250.0
+    },
+    {
+      "year": 2025,
+      "sales": 59,
+      "median_price": 230000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "GRANDPUITS",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA BELLE IDEE",
+      "sales": 17,
+      "median_price_per_sqm": 2327.5
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 13,
+      "median_price_per_sqm": 2166.6666666666665
+    },
+    {
+      "street_name": "RUE DE LA GARANDINE",
+      "sales": 13,
+      "median_price_per_sqm": 1935.7142857142858
+    },
+    {
+      "street_name": "RUE DE LA PICARDIE",
+      "sales": 11,
+      "median_price_per_sqm": 7282.608695652174
+    },
+    {
+      "street_name": "RUE DE VILLEREAU",
+      "sales": 10,
+      "median_price_per_sqm": 2678.5714285714284
+    },
+    {
+      "street_name": "RUE DE LA VALLEE AUX PRIEURS",
+      "sales": 9,
+      "median_price_per_sqm": 2000.0
+    },
+    {
+      "street_name": "RUE DE LA SALLE",
+      "sales": 9,
+      "median_price_per_sqm": 2673.684210526316
+    },
+    {
+      "street_name": "RUE DU VIEUX PONT",
+      "sales": 8,
+      "median_price_per_sqm": 2000.0
+    },
+    {
+      "street_name": "LA PICARDIE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MAISON ROUGE",
+      "sales": 7,
+      "median_price_per_sqm": 2242.4242424242425
+    },
+    {
+      "street_name": "RUE DU CHATEAU FORT",
+      "sales": 7,
+      "median_price_per_sqm": 2217.391304347826
+    },
+    {
+      "street_name": "RTE NATIONALE 19",
+      "sales": 7,
+      "median_price_per_sqm": 818.1818181818181
+    },
+    {
+      "street_name": "RUE DE MONTEREAU",
+      "sales": 6,
+      "median_price_per_sqm": 1230.1587301587301
+    },
+    {
+      "street_name": "BELLE IDEE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Fouju",
+  "insee": "77195",
+  "generated_at": "2026-05-24T21:11:11.047418Z",
+  "total_sales": 185,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 21,
+  "median_price": 265900.0,
+  "median_price_per_sqm": 2869.719298245614,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 29,
+      "median_price": 265900.0
+    },
+    {
+      "year": 2022,
+      "sales": 32,
+      "median_price": 343140.0
+    },
+    {
+      "year": 2023,
+      "sales": 27,
+      "median_price": 305000.0
+    },
+    {
+      "year": 2024,
+      "sales": 37,
+      "median_price": 163574.0
+    },
+    {
+      "year": 2025,
+      "sales": 60,
+      "median_price": 245000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "FOUJU",
+      "sales": 42,
+      "median_price_per_sqm": 2205.2631578947367
+    },
+    {
+      "street_name": "RUE DU GEN DE GAULLE",
+      "sales": 30,
+      "median_price_per_sqm": 2813.839285714286
+    },
+    {
+      "street_name": "RUE DU CHATEAU D EAU",
+      "sales": 28,
+      "median_price_per_sqm": 2864.0263157894738
+    },
+    {
+      "street_name": "RUE SALVADOR ALLENDE",
+      "sales": 12,
+      "median_price_per_sqm": 3169.69696969697
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 12,
+      "median_price_per_sqm": 3479.70167263044
+    },
+    {
+      "street_name": "RUE DES TOURNELLES",
+      "sales": 10,
+      "median_price_per_sqm": 2264.0
+    },
+    {
+      "street_name": "SAUSSAIE MONTARGON",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE JULIETTE ROUSSEAU",
+      "sales": 7,
+      "median_price_per_sqm": 3256.537549407115
+    },
+    {
+      "street_name": "RUE DES PRES HAUTS",
+      "sales": 7,
+      "median_price_per_sqm": 2905.982905982906
+    },
+    {
+      "street_name": "RUE DE LA FERME AUX DOUVES",
+      "sales": 6,
+      "median_price_per_sqm": 1397.0588235294117
+    },
+    {
+      "street_name": "PAS STE MADELEINE",
+      "sales": 4,
+      "median_price_per_sqm": 1732.9545454545455
+    },
+    {
+      "street_name": "ALL DE LA ROSERAIE",
+      "sales": 2,
+      "median_price_per_sqm": 2611.5107913669067
+    },
+    {
+      "street_name": "ALL DE LA NOUETTE",
+      "sales": 2,
+      "median_price_per_sqm": 2573.529411764706
+    },
+    {
+      "street_name": "LES PRES HAUTS",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "L ORME AU POIGNANT",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

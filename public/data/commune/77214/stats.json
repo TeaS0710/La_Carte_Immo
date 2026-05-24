@@ -1,0 +1,120 @@
+{
+  "commune": "Gressy",
+  "insee": "77214",
+  "generated_at": "2026-05-24T21:13:45.865960Z",
+  "total_sales": 102,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 25,
+  "median_price": 395000.0,
+  "median_price_per_sqm": 3521.1267605633802,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 32,
+      "median_price": 350000.0
+    },
+    {
+      "year": 2022,
+      "sales": 27,
+      "median_price": 520200.0
+    },
+    {
+      "year": 2023,
+      "sales": 13,
+      "median_price": 434978.0
+    },
+    {
+      "year": 2024,
+      "sales": 16,
+      "median_price": 385360.0
+    },
+    {
+      "year": 2025,
+      "sales": 14,
+      "median_price": 433875.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE SAINT DENIS",
+      "sales": 24,
+      "median_price_per_sqm": 4037.0370370370374
+    },
+    {
+      "street_name": "ALL D ARIANE",
+      "sales": 8,
+      "median_price_per_sqm": 3524.4210526315787
+    },
+    {
+      "street_name": "ALL CERES",
+      "sales": 7,
+      "median_price_per_sqm": 4309.870078740158
+    },
+    {
+      "street_name": "ALL DES 9 MUSES",
+      "sales": 6,
+      "median_price_per_sqm": 3260.8695652173915
+    },
+    {
+      "street_name": "CHE DE LA ROSEE",
+      "sales": 6,
+      "median_price_per_sqm": 2561.1111111111113
+    },
+    {
+      "street_name": "ALL DES NAIADES",
+      "sales": 6,
+      "median_price_per_sqm": 3715.714285714286
+    },
+    {
+      "street_name": "ALL DES DRYADES",
+      "sales": 5,
+      "median_price_per_sqm": 3536.0
+    },
+    {
+      "street_name": "LES PETITES PARTS",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ALL DES PLEIADES",
+      "sales": 4,
+      "median_price_per_sqm": 4558.306150978565
+    },
+    {
+      "street_name": "BOUGIE",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "AV DU CHATEAU",
+      "sales": 3,
+      "median_price_per_sqm": 3434.782608695652
+    },
+    {
+      "street_name": "ALL DES SYLPHIDES",
+      "sales": 3,
+      "median_price_per_sqm": 2653.061224489796
+    },
+    {
+      "street_name": "ALL DE LA BEUVRONNE",
+      "sales": 2,
+      "median_price_per_sqm": 3021.417322834646
+    },
+    {
+      "street_name": "ALL DE CASSIOPEE",
+      "sales": 2,
+      "median_price_per_sqm": 4382.113821138211
+    },
+    {
+      "street_name": "ALL D ORION",
+      "sales": 2,
+      "median_price_per_sqm": 739.4366197183099
+    }
+  ]
+}

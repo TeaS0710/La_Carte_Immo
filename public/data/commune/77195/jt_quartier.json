@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 60,
+  "sales_delta_pct": 62.2,
+  "median_price": 245000.0,
+  "median_ppsqm": 3021.173271173271,
+  "delta_ppsqm_pct": 2.3,
+  "notable_sales": [
+    {
+      "date": "2025-08-12",
+      "street": "RUE DES PRES HAUTS",
+      "type": "Maison",
+      "surface": 117,
+      "price": 340000.0
+    },
+    {
+      "date": "2025-03-21",
+      "street": "RUE DU CHATEAU D EAU",
+      "type": "Maison",
+      "surface": 120,
+      "price": 328835.0
+    },
+    {
+      "date": "2025-05-26",
+      "street": "RUE DU GEN DE GAULLE",
+      "type": "Maison",
+      "surface": 132,
+      "price": 306900.0
+    },
+    {
+      "date": "2025-02-21",
+      "street": "RUE SALVADOR ALLENDE",
+      "type": "Maison",
+      "surface": 100,
+      "price": 290000.0
+    },
+    {
+      "date": "2025-02-07",
+      "street": "RUE DU GEN DE GAULLE",
+      "type": "Maison",
+      "surface": 59,
+      "price": 267500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:11:11.044694Z"
+}

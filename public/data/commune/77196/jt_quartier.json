@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 44,
+  "sales_delta_pct": 83.3,
+  "median_price": 229000.0,
+  "median_ppsqm": 3161.6326530612246,
+  "delta_ppsqm_pct": 5.5,
+  "notable_sales": [
+    {
+      "date": "2025-12-15",
+      "street": "RUE PIERRE FORGET",
+      "type": "Maison",
+      "surface": 196,
+      "price": 619680.0
+    },
+    {
+      "date": "2025-08-29",
+      "street": "RUE JEAN-REMI DRIEUX",
+      "type": "Maison",
+      "surface": 161,
+      "price": 471850.0
+    },
+    {
+      "date": "2025-06-27",
+      "street": "RUE DES PETITS JARDINS",
+      "type": "Maison",
+      "surface": 93,
+      "price": 390000.0
+    },
+    {
+      "date": "2025-11-17",
+      "street": "RUE DU COMTE DE SEGUR",
+      "type": "Maison",
+      "surface": 83,
+      "price": 340000.0
+    },
+    {
+      "date": "2025-02-14",
+      "street": "RUE ERNEST PELLETIER",
+      "type": "Maison",
+      "surface": 63,
+      "price": 296400.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:11:24.732510Z"
+}
