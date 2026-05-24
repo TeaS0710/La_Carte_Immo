@@ -121,14 +121,12 @@ export default function RegionMap({
           }
 
           // ─── Heatmap des communes pondérée par les ventes DVF ──
-          // Couleur basée sur la densité (pas le prix), pour montrer
-          // visuellement les zones les plus actives du marché immo.
-          // Disparaît progressivement quand on zoom (laisse place aux cercles).
+          // Transparence CONSTANTE pour rester visible à tous les zooms,
+          // les cercles cliquables s'ajoutent par-dessus avec leurs données.
           map.addLayer({
             id: "communes-heat",
             type: "heatmap",
             source: "communes",
-            maxzoom: 13,
             paint: {
               "heatmap-weight": [
                 "interpolate", ["linear"], ["get", "total_sales"],
@@ -136,26 +134,22 @@ export default function RegionMap({
               ],
               "heatmap-intensity": [
                 "interpolate", ["linear"], ["zoom"],
-                8, 1, 11, 1.8, 13, 2.5,
+                8, 1, 11, 1.6, 14, 2.2,
               ],
               "heatmap-color": [
                 "interpolate", ["linear"], ["heatmap-density"],
                 0, "rgba(217,224,212,0)",
-                0.1, "rgba(217,224,212,0.4)",
-                0.25, "#a8b8a3",
-                0.45, "#e6cf9a",
-                0.65, "#c09b5a",
-                0.85, "#b54f3a",
-                1, "#7a2810",
+                0.1, "rgba(168,184,163,0.35)",
+                0.3, "rgba(230,207,154,0.55)",
+                0.5, "rgba(192,155,90,0.7)",
+                0.7, "rgba(181,79,58,0.78)",
+                1, "rgba(122,40,16,0.85)",
               ],
               "heatmap-radius": [
                 "interpolate", ["linear"], ["zoom"],
-                8, 18, 11, 32, 13, 48,
+                8, 22, 11, 40, 14, 60,
               ],
-              "heatmap-opacity": [
-                "interpolate", ["linear"], ["zoom"],
-                8, 0.85, 11, 0.7, 13, 0.3,
-              ],
+              "heatmap-opacity": 0.62,
             },
           });
 
@@ -229,42 +223,66 @@ export default function RegionMap({
             },
           });
 
-          // Hover popup
+          // ─── Hover popup : utilise queryRenderedFeatures sur tout le
+          // canvas, pas juste sur le layer dots. Comme ça la heatmap
+          // déclenche aussi le popup quand on survole sa zone.
           const popup = new maplibregl.Popup({
             closeButton: false,
             closeOnClick: false,
             offset: 12,
             maxWidth: "280px",
           });
-          map.on("mousemove", "communes-dot", (e) => {
-            if (!e.features?.length) return;
-            map.getCanvas().style.cursor = "pointer";
-            const p = (e.features[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
+          const fmt = (n: number) => Math.round(n).toLocaleString("fr-FR");
+          const renderPopupHTML = (p: Record<string, unknown>): string => {
             const ventes = Number(p.total_sales);
             const med = p.median_price ? Number(p.median_price) : null;
             const medSqm = p.median_price_per_sqm ? Number(p.median_price_per_sqm) : null;
-            const fmt = (n: number) => Math.round(n).toLocaleString("fr-FR");
-            popup
-              .setLngLat(e.lngLat)
-              .setHTML(
-                `<div style="font-family:var(--font-poppins),sans-serif;font-size:13px;line-height:1.5;color:#212529;min-width:220px">
-                  <div style="font-weight:600;font-size:14px;margin-bottom:4px">${p.nom}</div>
-                  <div style="color:#5a554f;display:flex;justify-content:space-between"><span>Ventes DVF (5 ans) :</span><strong>${fmt(ventes)}</strong></div>
-                  ${med ? `<div style="color:#5a554f;display:flex;justify-content:space-between"><span>Prix médian :</span><strong>${fmt(med)} €</strong></div>` : ""}
-                  ${medSqm ? `<div style="color:#5a554f;display:flex;justify-content:space-between"><span>Prix au m² :</span><strong style="color:#9d7e44">${fmt(medSqm)} €/m²</strong></div>` : ""}
-                  <div style="margin-top:8px;font-size:11px;color:#9d7e44;font-weight:500">Cliquer : ouvrir la carte de la ville</div>
-                </div>`,
-              )
-              .addTo(map);
+            const pop = p.population ? Number(p.population) : null;
+            return `<div style="font-family:var(--font-poppins),sans-serif;font-size:13px;line-height:1.5;color:#212529;min-width:240px">
+              <div style="font-weight:600;font-size:14px;margin-bottom:6px;color:#1a1815">${p.nom}</div>
+              ${pop ? `<div style="color:#5a554f;display:flex;justify-content:space-between"><span>Population :</span><strong>${fmt(pop)} hab.</strong></div>` : ""}
+              <div style="color:#5a554f;display:flex;justify-content:space-between"><span>Ventes DVF (5 ans) :</span><strong>${fmt(ventes)}</strong></div>
+              ${med ? `<div style="color:#5a554f;display:flex;justify-content:space-between"><span>Prix médian :</span><strong>${fmt(med)} €</strong></div>` : ""}
+              ${medSqm ? `<div style="color:#5a554f;display:flex;justify-content:space-between"><span>Prix au m² :</span><strong style="color:#9d7e44">${fmt(medSqm)} €/m²</strong></div>` : ""}
+              <div style="margin-top:8px;font-size:11px;color:#9d7e44;font-weight:500">↗ Cliquer pour ouvrir la carte détaillée</div>
+            </div>`;
+          };
+
+          // Hover : recherche le marker le plus proche dans un rayon
+          map.on("mousemove", (e) => {
+            const feats = map.queryRenderedFeatures(
+              [
+                [e.point.x - 20, e.point.y - 20],
+                [e.point.x + 20, e.point.y + 20],
+              ],
+              { layers: ["communes-dot"] },
+            );
+            if (feats.length > 0) {
+              map.getCanvas().style.cursor = "pointer";
+              const f = feats[0] as MapGeoJSONFeature;
+              const coords = (f.geometry as GeoJSON.Point).coordinates as [number, number];
+              popup
+                .setLngLat(coords)
+                .setHTML(renderPopupHTML(f.properties as Record<string, unknown>))
+                .addTo(map);
+            } else {
+              map.getCanvas().style.cursor = "";
+              popup.remove();
+            }
           });
-          map.on("mouseleave", "communes-dot", () => {
-            map.getCanvas().style.cursor = "";
-            popup.remove();
-          });
-          map.on("click", "communes-dot", (e) => {
-            if (!e.features?.length) return;
-            const p = (e.features[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
-            router.push(`/carte/ville/${p.slug}`);
+
+          map.on("click", (e) => {
+            const feats = map.queryRenderedFeatures(
+              [
+                [e.point.x - 20, e.point.y - 20],
+                [e.point.x + 20, e.point.y + 20],
+              ],
+              { layers: ["communes-dot"] },
+            );
+            if (feats.length > 0) {
+              const p = (feats[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
+              router.push(`/carte/ville/${p.slug}`);
+            }
           });
 
           // ─── Calque GPE (gares futures Grand Paris Express) ─────────────

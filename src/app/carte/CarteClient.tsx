@@ -153,6 +153,8 @@ export default function CarteClient({
         setFilters={setFilters}
         minYear={minYear}
         maxYear={maxYear}
+        hasPipeline={dataState?.hasPipeline ?? true}
+        hasPermits={dataState?.hasPermits ?? true}
       />
 
       {/* Historique button (top-right under zoom controls) — ouvre modal multi-onglets */}

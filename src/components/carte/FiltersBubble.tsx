@@ -10,6 +10,8 @@ export default function FiltersBubble({
   setFilters,
   minYear,
   maxYear,
+  hasPipeline = true,
+  hasPermits = true,
 }: {
   open: boolean;
   setOpen: (v: boolean) => void;
@@ -17,6 +19,8 @@ export default function FiltersBubble({
   setFilters: (f: MapFilters) => void;
   minYear: number;
   maxYear: number;
+  hasPipeline?: boolean;
+  hasPermits?: boolean;
 }) {
   return (
     <>
@@ -138,9 +142,13 @@ export default function FiltersBubble({
               <div className="space-y-2">
                 <button
                   type="button"
-                  onClick={() => setFilters({ ...filters, showPipeline: !filters.showPipeline })}
+                  disabled={!hasPipeline}
+                  onClick={() => hasPipeline && setFilters({ ...filters, showPipeline: !filters.showPipeline })}
+                  title={hasPipeline ? "" : "Pipeline ventes probables : données en cours de génération pour cette commune"}
                   className={`w-full inline-flex items-center justify-between gap-2 px-3 py-2.5 rounded-lg border text-[13px] min-h-[44px] transition ${
-                    filters.showPipeline
+                    !hasPipeline
+                      ? "bg-surface-warm border-[color:var(--line-soft)] text-ink-mute cursor-not-allowed"
+                      : filters.showPipeline
                       ? "bg-brand border-brand text-white"
                       : "bg-white border-[color:var(--line)] text-ink-soft hover:border-brand hover:text-ink"
                   }`}
@@ -150,15 +158,22 @@ export default function FiltersBubble({
                     <Target size={15} aria-hidden="true" />
                     Logements à fort potentiel
                   </span>
-                  <span className={`text-[11px] ${filters.showPipeline ? "text-white/85" : "text-ink-mute"}`}>
-                    7 922
+                  <span className={`text-[11px] ${
+                    !hasPipeline ? "text-ink-mute italic"
+                    : filters.showPipeline ? "text-white/85" : "text-ink-mute"
+                  }`}>
+                    {hasPipeline ? "DPE F/G" : "à venir"}
                   </span>
                 </button>
                 <button
                   type="button"
-                  onClick={() => setFilters({ ...filters, showPermits: !filters.showPermits })}
+                  disabled={!hasPermits}
+                  onClick={() => hasPermits && setFilters({ ...filters, showPermits: !filters.showPermits })}
+                  title={hasPermits ? "" : "Bâtiments modifiés cadastre : données en cours pour cette commune"}
                   className={`w-full inline-flex items-center justify-between gap-2 px-3 py-2.5 rounded-lg border text-[13px] min-h-[44px] transition ${
-                    filters.showPermits
+                    !hasPermits
+                      ? "bg-surface-warm border-[color:var(--line-soft)] text-ink-mute cursor-not-allowed"
+                      : filters.showPermits
                       ? "bg-brand border-brand text-white"
                       : "bg-white border-[color:var(--line)] text-ink-soft hover:border-brand hover:text-ink"
                   }`}
@@ -168,11 +183,20 @@ export default function FiltersBubble({
                     <Hammer size={15} aria-hidden="true" />
                     Bâtiments modifiés
                   </span>
-                  <span className={`text-[11px] ${filters.showPermits ? "text-white/85" : "text-ink-mute"}`}>
-                    1 005
+                  <span className={`text-[11px] ${
+                    !hasPermits ? "text-ink-mute italic"
+                    : filters.showPermits ? "text-white/85" : "text-ink-mute"
+                  }`}>
+                    {hasPermits ? "cadastre" : "à venir"}
                   </span>
                 </button>
               </div>
+              {(!hasPipeline || !hasPermits) && (
+                <p className="text-[10.5px] text-ink-mute leading-snug mt-2">
+                  Ces couches nécessitent les bases DPE (ADEME) et cadastre
+                  (IGN) par commune. En cours de génération pour cette ville.
+                </p>
+              )}
             </Section>
           </div>
         </div>
