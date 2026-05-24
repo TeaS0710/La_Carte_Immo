@@ -16,6 +16,7 @@ import type { StreetProps } from "@/lib/types";
 import type { IrisProps } from "./types";
 import { formatEur, formatEurPerSqm, formatNum, formatStreet } from "@/lib/format";
 import ExternalLookup from "./ExternalLookup";
+import AnalyseGate from "@/components/ui/AnalyseGate";
 import { useEscape } from "@/lib/useEscape";
 
 type Tx = {
@@ -223,13 +224,53 @@ export default function StreetCard({
 
       <div className="flex-1 p-5">
         {tab === "evolution" && (
-          <EvolutionTab byYear={byYear} street={street} />
+          <AnalyseGate
+            key="evolution-gate"
+            title="Évolution de la rue dans le temps"
+            description="Calcul du delta de prix et de volume par année"
+            buttonLabel="Lancer l'analyse d'évolution"
+            steps={[
+              "Lecture des transactions DVF de la rue…",
+              "Agrégation par année…",
+              "Calcul des deltas de prix médian et de volume…",
+              "Préparation du graphique…",
+            ]}
+            durationMs={[1800, 3400]}
+          >
+            <EvolutionTab byYear={byYear} street={street} />
+          </AnalyseGate>
         )}
         {tab === "ventes" && (
-          <VentesTab txs={streetTxs} onExport={exportCSV} />
+          <AnalyseGate
+            key="ventes-gate"
+            title="Détail des transactions"
+            description="Liste complète des ventes recensées DGFiP sur la rue"
+            buttonLabel="Charger le détail des ventes"
+            steps={[
+              "Extraction des transactions DVF…",
+              "Tri chronologique inverse…",
+              "Mise en forme du tableau…",
+            ]}
+            durationMs={[1400, 2800]}
+          >
+            <VentesTab txs={streetTxs} onExport={exportCSV} />
+          </AnalyseGate>
         )}
         {tab === "quartier" && (
-          <QuartierTab iris={iris} onOpenIris={onOpenIris} />
+          <AnalyseGate
+            key="quartier-gate"
+            title="Fiche quartier rattaché"
+            description="Récupération du profil IRIS INSEE associé"
+            buttonLabel="Charger la fiche du quartier"
+            steps={[
+              "Identification de l'IRIS de rattachement…",
+              "Chargement des indicateurs INSEE…",
+              "Mise en relation avec la rue…",
+            ]}
+            durationMs={[1600, 3000]}
+          >
+            <QuartierTab iris={iris} onOpenIris={onOpenIris} />
+          </AnalyseGate>
         )}
       </div>
     </aside>

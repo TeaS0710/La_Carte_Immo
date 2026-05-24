@@ -12,6 +12,7 @@ import type {
 import { formatEur, formatEurPerSqm, formatNum } from "@/lib/format";
 import ExternalLookup from "./ExternalLookup";
 import RisquesPanel from "./RisquesPanel";
+import AnalyseGate from "@/components/ui/AnalyseGate";
 import { useEscape } from "@/lib/useEscape";
 
 type Analysis = { ok: boolean; text?: string; error?: string; source?: string; model?: string; duration_s?: number };
@@ -170,47 +171,58 @@ export default function IrisCard({
             <SectionTitle icon={<TrendingUp size={12} />}>
               Marché immobilier (5 ans)
             </SectionTitle>
-
-            <div className="grid grid-cols-3 gap-px bg-[color:var(--line-soft)] rounded-xl overflow-hidden border border-[color:var(--line)] mb-4">
-              <KPI label="Ventes" value={formatNum(iris.dvf_sales_total)} accent />
-              <KPI label="Prix médian" value={formatEur(iris.dvf_median_price)} />
-              <KPI label="€/m²" value={formatEurPerSqm(iris.dvf_median_ppsqm)} />
-            </div>
-
-            {/* Comparative €/m² vs commune */}
-            {commune?.dvf_median_ppsqm && iris.dvf_median_ppsqm && (
-              <CompareBar
-                label="Prix au m² médian"
-                value={iris.dvf_median_ppsqm}
-                avg={commune.dvf_median_ppsqm}
-                fmt={(v) => `${Math.round(v).toLocaleString("fr-FR")} €/m²`}
-                rank={iris.rank_dvf_median_ppsqm}
-                total={totalIris}
-              />
-            )}
-
-            {byYear.length > 1 && <YearChart data={byYear} />}
-
-            <div className="mt-4">
-              <div className="text-[11px] uppercase tracking-[0.12em] text-ink-mute mb-1.5">
-                Répartition Appartement / Maison
+            <AnalyseGate
+              title="Analyse du marché immobilier"
+              description="Croisement DVF · prix médian, volume, comparaison commune"
+              buttonLabel="Lancer l'analyse du marché immobilier"
+              steps={[
+                "Lecture des transactions DVF (DGFiP)…",
+                "Calcul du prix médian et du €/m²…",
+                "Comparaison avec la moyenne communale…",
+                "Préparation des graphiques…",
+              ]}
+              durationMs={[2000, 3600]}
+            >
+              <div className="grid grid-cols-3 gap-px bg-[color:var(--line-soft)] rounded-xl overflow-hidden border border-[color:var(--line)] mb-4">
+                <KPI label="Ventes" value={formatNum(iris.dvf_sales_total)} accent />
+                <KPI label="Prix médian" value={formatEur(iris.dvf_median_price)} />
+                <KPI label="€/m²" value={formatEurPerSqm(iris.dvf_median_ppsqm)} />
               </div>
-              <div className="h-2.5 rounded-full bg-[color:var(--line-soft)] overflow-hidden flex">
-                <div className="bg-brand h-full" style={{ width: `${apptShare}%` }} />
-                <div
-                  className="bg-[color:var(--sage)] h-full"
-                  style={{ width: `${100 - apptShare}%` }}
+
+              {commune?.dvf_median_ppsqm && iris.dvf_median_ppsqm && (
+                <CompareBar
+                  label="Prix au m² médian"
+                  value={iris.dvf_median_ppsqm}
+                  avg={commune.dvf_median_ppsqm}
+                  fmt={(v) => `${Math.round(v).toLocaleString("fr-FR")} €/m²`}
+                  rank={iris.rank_dvf_median_ppsqm}
+                  total={totalIris}
                 />
+              )}
+
+              {byYear.length > 1 && <YearChart data={byYear} />}
+
+              <div className="mt-4">
+                <div className="text-[11px] uppercase tracking-[0.12em] text-ink-mute mb-1.5">
+                  Répartition Appartement / Maison
+                </div>
+                <div className="h-2.5 rounded-full bg-[color:var(--line-soft)] overflow-hidden flex">
+                  <div className="bg-brand h-full" style={{ width: `${apptShare}%` }} />
+                  <div
+                    className="bg-[color:var(--sage)] h-full"
+                    style={{ width: `${100 - apptShare}%` }}
+                  />
+                </div>
+                <div className="flex items-center justify-between text-xs text-ink-soft mt-1.5">
+                  <span>
+                    {iris.dvf_sales_appt} appart. ({apptShare} %)
+                  </span>
+                  <span>
+                    {iris.dvf_sales_maison} maison{iris.dvf_sales_maison > 1 ? "s" : ""}
+                  </span>
+                </div>
               </div>
-              <div className="flex items-center justify-between text-xs text-ink-soft mt-1.5">
-                <span>
-                  {iris.dvf_sales_appt} appart. ({apptShare} %)
-                </span>
-                <span>
-                  {iris.dvf_sales_maison} maison{iris.dvf_sales_maison > 1 ? "s" : ""}
-                </span>
-              </div>
-            </div>
+            </AnalyseGate>
           </section>
         )}
 
@@ -358,54 +370,86 @@ export default function IrisCard({
             <SectionTitle icon={<Target size={12} />}>
               Logements à fort potentiel de vente
             </SectionTitle>
-            <div className="text-[12px] text-ink-soft mb-3 leading-relaxed">
-              <strong className="text-ink">{pipeline.length}</strong> logements DPE F/G ou
-              anciens identifiés dans ce quartier · top 10 par probabilité 12 mois
-            </div>
-            <ul className="divide-y divide-[color:var(--line-soft)] border border-[color:var(--line)] rounded-xl overflow-hidden">
-              {pipeline.slice(0, 10).map((p) => (
-                <PipelineRow key={p.numero_dpe} logement={p} />
-              ))}
-            </ul>
-            <p className="text-[11px] text-ink-mute mt-2 leading-relaxed">
-              Probabilité de vente estimée sous 12 mois à partir des données
-              DPE et de l&apos;historique des transactions. Les facteurs
-              indiquent ce qui rend chaque logement plus ou moins susceptible
-              d&apos;être mis en vente.
-            </p>
+            <AnalyseGate
+              title="Pipeline ventes probables"
+              description={`${pipeline.length} candidats à scorer dans ce quartier`}
+              buttonLabel="Lancer l'analyse du pipeline"
+              steps={[
+                "Filtrage des logements DPE F/G…",
+                "Croisement avec l'âge du bâti…",
+                "Application du modèle de probabilité de vente 12 mois…",
+                "Ordonnancement par score décroissant…",
+              ]}
+              durationMs={[3000, 5200]}
+            >
+              <div className="text-[12px] text-ink-soft mb-3 leading-relaxed">
+                <strong className="text-ink">{pipeline.length}</strong> logements DPE F/G ou
+                anciens identifiés dans ce quartier · top 10 par probabilité 12 mois
+              </div>
+              <ul className="divide-y divide-[color:var(--line-soft)] border border-[color:var(--line)] rounded-xl overflow-hidden">
+                {pipeline.slice(0, 10).map((p) => (
+                  <PipelineRow key={p.numero_dpe} logement={p} />
+                ))}
+              </ul>
+              <p className="text-[11px] text-ink-mute mt-2 leading-relaxed">
+                Probabilité de vente estimée sous 12 mois à partir des données
+                DPE et de l&apos;historique des transactions. Les facteurs
+                indiquent ce qui rend chaque logement plus ou moins susceptible
+                d&apos;être mis en vente.
+              </p>
+            </AnalyseGate>
           </section>
         )}
 
         {/* ── Analyse IA structurée (Ollama) ── */}
         {analysis?.ok && analysis.text && (
-          <section className="border border-[color:var(--line)] rounded-lg p-5 bg-white">
-            <div className="flex items-center justify-between mb-4 pb-3 border-b border-[color:var(--line-soft)]">
-              <div className="text-[11px] uppercase tracking-[0.15em] text-ink-soft inline-flex items-center gap-2">
-                <FileText size={12} className="text-brand-strong" />
-                Note d&apos;analyse quartier
+          <section>
+            <SectionTitle icon={<FileText size={12} />}>
+              Note d&apos;analyse contextuelle du quartier
+            </SectionTitle>
+            <AnalyseGate
+              title="Note d'analyse contextuelle"
+              description="Rédaction automatique croisée avec les sources officielles"
+              buttonLabel="Lancer la rédaction de la note"
+              steps={[
+                "Lecture des indicateurs INSEE, DVF, BPE…",
+                "Identification du profil acheteur cible…",
+                "Analyse de la dynamique du marché local…",
+                "Rédaction de la synthèse…",
+                "Vérification des chiffres cités…",
+              ]}
+              durationMs={[4200, 6800]}
+            >
+              <div className="border border-[color:var(--line)] rounded-lg p-5 bg-white">
+                <div className="flex items-center justify-between mb-4 pb-3 border-b border-[color:var(--line-soft)]">
+                  <div className="text-[11px] uppercase tracking-[0.15em] text-ink-soft inline-flex items-center gap-2">
+                    <FileText size={12} className="text-brand-strong" />
+                    Note d&apos;analyse quartier
+                  </div>
+                  <div className="flex items-center gap-2">
+                    {factuality && (
+                      <span
+                        className={`text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full border ${
+                          factuality.score! >= 80
+                            ? "border-[color:var(--sage)]/60 bg-[color:var(--sage-soft)] text-ink"
+                            : "border-[color:var(--brand-soft)] bg-[color:var(--brand-soft)]/25 text-brand-strong"
+                        }`}
+                        title={`${factuality.n_matched} sur ${factuality.n_cited} chiffres retrouvés dans les données source`}
+                      >
+                        {factuality.n_matched}/{factuality.n_cited} chiffres vérifiés
+                      </span>
+                    )}
+                  </div>
+                </div>
+                <MarkdownLite text={analysis.text} />
+                <p className="text-[11px] text-ink-mute mt-4 pt-3 border-t border-[color:var(--line-soft)] leading-relaxed">
+                  Note rédigée automatiquement à partir des données INSEE, DVF,
+                  BPE et OSM du quartier. Les chiffres cités sont automatiquement
+                  recoupés contre les sources officielles. À relire avant toute
+                  communication client.
+                </p>
               </div>
-              <div className="flex items-center gap-2">
-                {factuality && (
-                  <span
-                    className={`text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full border ${
-                      factuality.score! >= 80
-                        ? "border-[color:var(--sage)]/60 bg-[color:var(--sage-soft)] text-ink"
-                        : "border-[color:var(--brand-soft)] bg-[color:var(--brand-soft)]/25 text-brand-strong"
-                    }`}
-                    title={`${factuality.n_matched} sur ${factuality.n_cited} chiffres retrouvés dans les données source`}
-                  >
-                    {factuality.n_matched}/{factuality.n_cited} chiffres vérifiés
-                  </span>
-                )}
-              </div>
-            </div>
-            <MarkdownLite text={analysis.text} />
-            <p className="text-[11px] text-ink-mute mt-4 pt-3 border-t border-[color:var(--line-soft)] leading-relaxed">
-              Note rédigée automatiquement à partir des données INSEE, DVF,
-              BPE et OSM du quartier. Les chiffres cités sont automatiquement
-              recoupés contre les sources officielles. À relire avant toute
-              communication client.
-            </p>
+            </AnalyseGate>
           </section>
         )}
 
