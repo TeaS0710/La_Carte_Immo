@@ -30,9 +30,12 @@ const DEPT_CENTERS: Record<string, { center: [number, number]; zoom: number }> =
 export default function RegionMap({
   is3d = false,
   deptFilter,
+  showGPE = false,
 }: {
   is3d?: boolean;
   deptFilter?: string;
+  /** Affiche le calque des futures gares Grand Paris Express */
+  showGPE?: boolean;
 }) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<Map | null>(null);
@@ -220,6 +223,73 @@ export default function RegionMap({
             router.push(assetUrl(`/carte/ville/${p.slug}`));
           });
 
+          // ─── Calque GPE (gares futures Grand Paris Express) ─────────────
+          try {
+            const gpeRes = await fetch(assetUrl("/data/idf/gpe_stations.json"));
+            if (gpeRes.ok) {
+              const gpeGeo = await gpeRes.json();
+              map.addSource("gpe", { type: "geojson", data: gpeGeo });
+              map.addLayer({
+                id: "gpe-dot",
+                type: "circle",
+                source: "gpe",
+                layout: { visibility: "none" },
+                paint: {
+                  "circle-radius": 6,
+                  "circle-color": "#9d7e44",
+                  "circle-stroke-color": "#ffffff",
+                  "circle-stroke-width": 2,
+                  "circle-opacity": 0.95,
+                },
+              });
+              map.addLayer({
+                id: "gpe-label",
+                type: "symbol",
+                source: "gpe",
+                layout: {
+                  visibility: "none",
+                  "text-field": ["concat", ["get", "name"], "  •  L", ["get", "ligne"]],
+                  "text-font": ["Noto Sans Regular"],
+                  "text-size": 11,
+                  "text-offset": [0, 1.1],
+                  "text-anchor": "top",
+                  "text-allow-overlap": false,
+                  "text-optional": true,
+                },
+                paint: {
+                  "text-color": "#5a554f",
+                  "text-halo-color": "rgba(255,255,255,0.92)",
+                  "text-halo-width": 1.5,
+                },
+              });
+              const gpePopup = new maplibregl.Popup({
+                closeButton: false,
+                closeOnClick: false,
+                offset: 12,
+                maxWidth: "260px",
+              });
+              map.on("mousemove", "gpe-dot", (e) => {
+                if (!e.features?.length) return;
+                map.getCanvas().style.cursor = "pointer";
+                const p = (e.features[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
+                gpePopup.setLngLat(e.lngLat).setHTML(
+                  `<div style="font-family:var(--font-poppins),sans-serif;font-size:13px;line-height:1.5;color:#212529;min-width:200px">
+                    <div style="font-weight:600;color:#9d7e44;margin-bottom:4px">${p.name}</div>
+                    <div style="color:#5a554f">Ligne <strong>${p.ligne}</strong></div>
+                    <div style="color:#9b9690;font-size:11px">Mise en service : ${p.ouverture}</div>
+                    <div style="margin-top:6px;font-size:11px;color:#5a554f;font-style:italic">Source : Société des Grands Projets</div>
+                  </div>`,
+                ).addTo(map);
+              });
+              map.on("mouseleave", "gpe-dot", () => {
+                map.getCanvas().style.cursor = "";
+                gpePopup.remove();
+              });
+            }
+          } catch {
+            /* GPE optional */
+          }
+
           setReady(true);
         } catch (err) {
           const e = err as Error;
@@ -255,6 +325,15 @@ export default function RegionMap({
       map.setLayoutProperty("3d-buildings", "visibility", is3d ? "visible" : "none");
     }
   }, [is3d, ready]);
+
+  // React to GPE toggle
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !ready) return;
+    const vis = showGPE ? "visible" : "none";
+    if (map.getLayer("gpe-dot")) map.setLayoutProperty("gpe-dot", "visibility", vis);
+    if (map.getLayer("gpe-label")) map.setLayoutProperty("gpe-label", "visibility", vis);
+  }, [showGPE, ready]);
 
   return (
     <>

@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 16e Arrondissement",
+  "insee": "75116",
+  "generated_at": "2026-05-24T21:43:01.074269Z",
+  "total_sales": 40324,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 425,
+  "median_price": 865000.0,
+  "median_price_per_sqm": 11757.511283043197,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 8033,
+      "median_price": 893000.0
+    },
+    {
+      "year": 2022,
+      "sales": 9308,
+      "median_price": 912000.0
+    },
+    {
+      "year": 2023,
+      "sales": 7731,
+      "median_price": 834615.4
+    },
+    {
+      "year": 2024,
+      "sales": 7064,
+      "median_price": 780000.0
+    },
+    {
+      "year": 2025,
+      "sales": 8188,
+      "median_price": 890000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV VICTOR HUGO",
+      "sales": 948,
+      "median_price_per_sqm": 14506.767676767678
+    },
+    {
+      "street_name": "AV DE VERSAILLES",
+      "sales": 892,
+      "median_price_per_sqm": 9727.272727272728
+    },
+    {
+      "street_name": "RUE DE LA POMPE",
+      "sales": 880,
+      "median_price_per_sqm": 13065.09167303285
+    },
+    {
+      "street_name": "AV FOCH",
+      "sales": 851,
+      "median_price_per_sqm": 15124.535629854778
+    },
+    {
+      "street_name": "RUE DE L ASSOMPTION",
+      "sales": 847,
+      "median_price_per_sqm": 16338.028169014084
+    },
+    {
+      "street_name": "BD SUCHET",
+      "sales": 695,
+      "median_price_per_sqm": 11173.235294117647
+    },
+    {
+      "street_name": "RUE MICHEL ANGE",
+      "sales": 692,
+      "median_price_per_sqm": 10226.415094339623
+    },
+    {
+      "street_name": "RUE LAURISTON",
+      "sales": 676,
+      "median_price_per_sqm": 11154.342431761786
+    },
+    {
+      "street_name": "RUE JEAN DE LA FONTAINE",
+      "sales": 610,
+      "median_price_per_sqm": 10875.0
+    },
+    {
+      "street_name": "BD EXELMANS",
+      "sales": 598,
+      "median_price_per_sqm": 10187.32492997199
+    },
+    {
+      "street_name": "RUE DE LA FAISANDERIE",
+      "sales": 592,
+      "median_price_per_sqm": 12416.326530612245
+    },
+    {
+      "street_name": "RUE DE LA TOUR",
+      "sales": 572,
+      "median_price_per_sqm": 12411.702127659575
+    },
+    {
+      "street_name": "AV MOZART",
+      "sales": 507,
+      "median_price_per_sqm": 11328.5
+    },
+    {
+      "street_name": "BD MURAT",
+      "sales": 497,
+      "median_price_per_sqm": 9691.842207539838
+    },
+    {
+      "street_name": "AV PAUL DOUMER",
+      "sales": 490,
+      "median_price_per_sqm": 12763.636363636364
+    }
+  ]
+}

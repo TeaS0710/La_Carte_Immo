@@ -1,0 +1,120 @@
+{
+  "commune": "Ocquerre",
+  "insee": "77343",
+  "generated_at": "2026-05-24T21:33:00.115194Z",
+  "total_sales": 219,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 33,
+  "median_price": 157000.0,
+  "median_price_per_sqm": 2147.0588235294117,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 32,
+      "median_price": 169000.0
+    },
+    {
+      "year": 2022,
+      "sales": 53,
+      "median_price": 236500.0
+    },
+    {
+      "year": 2023,
+      "sales": 58,
+      "median_price": 157000.0
+    },
+    {
+      "year": 2024,
+      "sales": 35,
+      "median_price": 120000.0
+    },
+    {
+      "year": 2025,
+      "sales": 41,
+      "median_price": 158000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "OCQUERRE",
+      "sales": 24,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU COQ",
+      "sales": 21,
+      "median_price_per_sqm": 2465.753424657534
+    },
+    {
+      "street_name": "VIEUX MOULIN",
+      "sales": 16,
+      "median_price_per_sqm": 5328.017397607829
+    },
+    {
+      "street_name": "RUE DES CANES",
+      "sales": 16,
+      "median_price_per_sqm": 2254.5454545454545
+    },
+    {
+      "street_name": "RUE DE MARNOUE LES MOINES",
+      "sales": 14,
+      "median_price_per_sqm": 2166.6666666666665
+    },
+    {
+      "street_name": "GRANDE RUE",
+      "sales": 12,
+      "median_price_per_sqm": 1744.1860465116279
+    },
+    {
+      "street_name": "RUE DE CROUY",
+      "sales": 11,
+      "median_price_per_sqm": 1746.8509984639018
+    },
+    {
+      "street_name": "RUE DES MERISIERS",
+      "sales": 11,
+      "median_price_per_sqm": 544.2408376963351
+    },
+    {
+      "street_name": "FOND DE GRAND CHAMP",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 8,
+      "median_price_per_sqm": 1579.4101731601731
+    },
+    {
+      "street_name": "MARNOUE LES MOINES",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU PRIEURE",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CHALET",
+      "sales": 6,
+      "median_price_per_sqm": 1970.8333333333333
+    },
+    {
+      "street_name": "LE FOND DES NUES",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA REMISE DE LURY",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

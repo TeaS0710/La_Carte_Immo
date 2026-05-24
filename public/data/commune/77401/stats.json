@@ -1,0 +1,120 @@
+{
+  "commune": "Sainte-Aulde",
+  "insee": "77401",
+  "generated_at": "2026-05-24T21:38:38.069703Z",
+  "total_sales": 585,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 100,
+  "median_price": 45000.0,
+  "median_price_per_sqm": 2528.0898876404494,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 141,
+      "median_price": 23748.0
+    },
+    {
+      "year": 2022,
+      "sales": 111,
+      "median_price": 205000.0
+    },
+    {
+      "year": 2023,
+      "sales": 134,
+      "median_price": 5416.4
+    },
+    {
+      "year": 2024,
+      "sales": 96,
+      "median_price": 18000.0
+    },
+    {
+      "year": 2025,
+      "sales": 103,
+      "median_price": 184000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DES VERNETS",
+      "sales": 30,
+      "median_price_per_sqm": 2714.285714285714
+    },
+    {
+      "street_name": "LES FOURNEAUX",
+      "sales": 22,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PASSOIR",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA MALFOSSE",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES GRANDS PRES",
+      "sales": 20,
+      "median_price_per_sqm": 2536.764705882353
+    },
+    {
+      "street_name": "RUE DU BOURG",
+      "sales": 20,
+      "median_price_per_sqm": 2427.0435446906035
+    },
+    {
+      "street_name": "CAUMONT",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES MARAIS",
+      "sales": 15,
+      "median_price_per_sqm": 2613.6363636363635
+    },
+    {
+      "street_name": "LE CLOS HUBERT",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE SAVART LA GLANE",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GRANDS PRES",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE ANDRE MIRAT",
+      "sales": 14,
+      "median_price_per_sqm": 2308.0808080808083
+    },
+    {
+      "street_name": "CHE DE LA MONTAGNE AU CERF",
+      "sales": 14,
+      "median_price_per_sqm": 2338.921640874478
+    },
+    {
+      "street_name": "LE HAUT DU PASSOIR",
+      "sales": 12,
+      "median_price_per_sqm": 800.0
+    },
+    {
+      "street_name": "RUE PIERRE BAHIN",
+      "sales": 12,
+      "median_price_per_sqm": 2612.5
+    }
+  ]
+}

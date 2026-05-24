@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 15e Arrondissement",
+  "insee": "75115",
+  "generated_at": "2026-05-24T21:42:43.624511Z",
+  "total_sales": 43608,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 346,
+  "median_price": 495000.0,
+  "median_price_per_sqm": 10385.29484029484,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 8732,
+      "median_price": 522000.0
+    },
+    {
+      "year": 2022,
+      "sales": 10178,
+      "median_price": 520000.0
+    },
+    {
+      "year": 2023,
+      "sales": 7787,
+      "median_price": 476000.0
+    },
+    {
+      "year": 2024,
+      "sales": 8189,
+      "median_price": 497500.0
+    },
+    {
+      "year": 2025,
+      "sales": 8722,
+      "median_price": 467000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE VAUGIRARD",
+      "sales": 1926,
+      "median_price_per_sqm": 10405.323166303559
+    },
+    {
+      "street_name": "RUE LECOURBE",
+      "sales": 1826,
+      "median_price_per_sqm": 10731.171299596102
+    },
+    {
+      "street_name": "RUE DE LA CROIX NIVERT",
+      "sales": 1225,
+      "median_price_per_sqm": 10945.945945945947
+    },
+    {
+      "street_name": "RUE DE LA CONVENTION",
+      "sales": 968,
+      "median_price_per_sqm": 10061.370481927712
+    },
+    {
+      "street_name": "RUE DE LOURMEL",
+      "sales": 963,
+      "median_price_per_sqm": 9857.142857142857
+    },
+    {
+      "street_name": "AV FELIX FAURE",
+      "sales": 822,
+      "median_price_per_sqm": 9741.481481481482
+    },
+    {
+      "street_name": "BD DE GRENELLE",
+      "sales": 821,
+      "median_price_per_sqm": 10727.272727272728
+    },
+    {
+      "street_name": "RUE DE L ABBE GROULT",
+      "sales": 790,
+      "median_price_per_sqm": 10863.636363636364
+    },
+    {
+      "street_name": "RUE D ALLERAY",
+      "sales": 747,
+      "median_price_per_sqm": 10413.333333333332
+    },
+    {
+      "street_name": "RUE SAINT CHARLES",
+      "sales": 702,
+      "median_price_per_sqm": 10517.241379310344
+    },
+    {
+      "street_name": "AV DE SUFFREN",
+      "sales": 701,
+      "median_price_per_sqm": 12424.657534246575
+    },
+    {
+      "street_name": "RUE BLOMET",
+      "sales": 630,
+      "median_price_per_sqm": 10813.953488372093
+    },
+    {
+      "street_name": "RUE DU THEATRE",
+      "sales": 619,
+      "median_price_per_sqm": 10719.82558139535
+    },
+    {
+      "street_name": "RUE DE JAVEL",
+      "sales": 590,
+      "median_price_per_sqm": 9747.448979591838
+    },
+    {
+      "street_name": "RUE BALARD",
+      "sales": 531,
+      "median_price_per_sqm": 614658.5585585586
+    }
+  ]
+}

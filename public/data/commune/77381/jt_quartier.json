@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 30,
+  "sales_delta_pct": 57.9,
+  "median_price": 244425.0,
+  "median_ppsqm": 2007.142857142857,
+  "delta_ppsqm_pct": -10.8,
+  "notable_sales": [
+    {
+      "date": "2025-06-10",
+      "street": "RUE DE SAINT MARTIN",
+      "type": "Maison",
+      "surface": 180,
+      "price": 303500.0
+    },
+    {
+      "date": "2025-10-13",
+      "street": "RLE DU LAVOIR",
+      "type": "Maison",
+      "surface": 115,
+      "price": 295000.0
+    },
+    {
+      "date": "2025-10-27",
+      "street": "RUE DE LA NOUE",
+      "type": "Maison",
+      "surface": 140,
+      "price": 281000.0
+    },
+    {
+      "date": "2025-01-17",
+      "street": "RUE DU FORT",
+      "type": "Maison",
+      "surface": 105,
+      "price": 250000.0
+    },
+    {
+      "date": "2025-02-14",
+      "street": "RUE ST JACQUES",
+      "type": "Maison",
+      "surface": 89,
+      "price": 238850.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:36:25.039483Z"
+}

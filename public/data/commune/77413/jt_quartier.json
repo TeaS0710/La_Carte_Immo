@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 172,
+  "sales_delta_pct": 8.2,
+  "median_price": 263000.0,
+  "median_ppsqm": 3500.0,
+  "delta_ppsqm_pct": 2.1,
+  "notable_sales": [
+    {
+      "date": "2025-10-01",
+      "street": "RUE DE MELUN",
+      "type": "Maison",
+      "surface": 114,
+      "price": 436000.0
+    },
+    {
+      "date": "2025-02-12",
+      "street": "CHE DES BOULANGERS",
+      "type": "Maison",
+      "surface": 166,
+      "price": 420300.0
+    },
+    {
+      "date": "2025-07-15",
+      "street": "CHE DE LA PIE",
+      "type": "Maison",
+      "surface": 114,
+      "price": 385000.0
+    },
+    {
+      "date": "2025-09-12",
+      "street": "RUE GASTON CHEMIN",
+      "type": "Maison",
+      "surface": 98,
+      "price": 375000.0
+    },
+    {
+      "date": "2025-12-22",
+      "street": "CHE DE LA PIE",
+      "type": "Maison",
+      "surface": 102,
+      "price": 369000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:40:02.562231Z"
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 108,
+  "sales_delta_pct": 96.4,
+  "median_price": 7278.6,
+  "median_ppsqm": 1833.3333333333333,
+  "delta_ppsqm_pct": -28.1,
+  "notable_sales": [
+    {
+      "date": "2025-11-07",
+      "street": "GRANDE RUE DE COUTURE",
+      "type": "Maison",
+      "surface": 100,
+      "price": 270000.0
+    },
+    {
+      "date": "2025-09-10",
+      "street": "SEN DE LA MESSE",
+      "type": "Maison",
+      "surface": 117,
+      "price": 205000.0
+    },
+    {
+      "date": "2025-03-25",
+      "street": "GRANDE RUE DE COUTURE",
+      "type": "Maison",
+      "surface": 100,
+      "price": 169000.0
+    },
+    {
+      "date": "2025-02-28",
+      "street": "RUE DE L ABREUVOIR",
+      "type": "Maison",
+      "surface": 90,
+      "price": 165000.0
+    },
+    {
+      "date": "2025-03-28",
+      "street": "RTE NATIONALE",
+      "type": "Maison",
+      "surface": 84,
+      "price": 160000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:33:21.705702Z"
+}

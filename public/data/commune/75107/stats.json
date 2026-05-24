@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 7e Arrondissement",
+  "insee": "75107",
+  "generated_at": "2026-05-24T21:40:42.262482Z",
+  "total_sales": 14582,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 152,
+  "median_price": 1170825.0,
+  "median_price_per_sqm": 15234.647817460318,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 2669,
+      "median_price": 1196500.0
+    },
+    {
+      "year": 2022,
+      "sales": 3368,
+      "median_price": 1053850.0
+    },
+    {
+      "year": 2023,
+      "sales": 2690,
+      "median_price": 1055800.0
+    },
+    {
+      "year": 2024,
+      "sales": 2645,
+      "median_price": 1130000.0
+    },
+    {
+      "year": 2025,
+      "sales": 3210,
+      "median_price": 1370000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE GRENELLE",
+      "sales": 813,
+      "median_price_per_sqm": 16027.41935483871
+    },
+    {
+      "street_name": "RUE DE L UNIVERSITE",
+      "sales": 751,
+      "median_price_per_sqm": 15496.208791208792
+    },
+    {
+      "street_name": "RUE ST DOMINIQUE",
+      "sales": 618,
+      "median_price_per_sqm": 14080.459770114943
+    },
+    {
+      "street_name": "AV DE LA BOURDONNAIS",
+      "sales": 487,
+      "median_price_per_sqm": 14560.687432867884
+    },
+    {
+      "street_name": "RUE DU BAC",
+      "sales": 468,
+      "median_price_per_sqm": 20235.0
+    },
+    {
+      "street_name": "BD SAINT GERMAIN",
+      "sales": 451,
+      "median_price_per_sqm": 146511.62790697673
+    },
+    {
+      "street_name": "RUE VANEAU",
+      "sales": 381,
+      "median_price_per_sqm": 16059.907834101381
+    },
+    {
+      "street_name": "AV BOSQUET",
+      "sales": 356,
+      "median_price_per_sqm": 13884.615384615385
+    },
+    {
+      "street_name": "AV DE LA MOTTE PICQUET",
+      "sales": 343,
+      "median_price_per_sqm": 15508.956002982848
+    },
+    {
+      "street_name": "RUE DE LILLE",
+      "sales": 288,
+      "median_price_per_sqm": 17611.475409836065
+    },
+    {
+      "street_name": "RUE DE VARENNE",
+      "sales": 280,
+      "median_price_per_sqm": 16823.541666666664
+    },
+    {
+      "street_name": "AV DE BRETEUIL",
+      "sales": 251,
+      "median_price_per_sqm": 15584.415584415585
+    },
+    {
+      "street_name": "AV DE SEGUR",
+      "sales": 251,
+      "median_price_per_sqm": 13660.287081339713
+    },
+    {
+      "street_name": "RUE DE VERNEUIL",
+      "sales": 244,
+      "median_price_per_sqm": 17041.2784679089
+    },
+    {
+      "street_name": "BD DE LA TOUR MAUBOURG",
+      "sales": 237,
+      "median_price_per_sqm": 15234.920634920634
+    }
+  ]
+}

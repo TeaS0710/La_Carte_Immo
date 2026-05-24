@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 10e Arrondissement",
+  "insee": "75110",
+  "generated_at": "2026-05-24T21:41:28.685074Z",
+  "total_sales": 18538,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 150,
+  "median_price": 420000.0,
+  "median_price_per_sqm": 10196.47351652728,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 3714,
+      "median_price": 414000.0
+    },
+    {
+      "year": 2022,
+      "sales": 4464,
+      "median_price": 505050.0
+    },
+    {
+      "year": 2023,
+      "sales": 3787,
+      "median_price": 410000.0
+    },
+    {
+      "year": 2024,
+      "sales": 2990,
+      "median_price": 365000.0
+    },
+    {
+      "year": 2025,
+      "sales": 3583,
+      "median_price": 380000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU FBG SAINT DENIS",
+      "sales": 1152,
+      "median_price_per_sqm": 9541.958041958042
+    },
+    {
+      "street_name": "RUE DU FBG ST MARTIN",
+      "sales": 1009,
+      "median_price_per_sqm": 10476.190476190477
+    },
+    {
+      "street_name": "RUE LA FAYETTE",
+      "sales": 886,
+      "median_price_per_sqm": 9992.083333333334
+    },
+    {
+      "street_name": "BD DE MAGENTA",
+      "sales": 810,
+      "median_price_per_sqm": 9782.196969696968
+    },
+    {
+      "street_name": "QUAI DE JEMMAPES",
+      "sales": 559,
+      "median_price_per_sqm": 11382.978723404256
+    },
+    {
+      "street_name": "RUE LA GRANGE AUX BELLES",
+      "sales": 455,
+      "median_price_per_sqm": 11202.46
+    },
+    {
+      "street_name": "BD DE STRASBOURG",
+      "sales": 387,
+      "median_price_per_sqm": 9588.956365272155
+    },
+    {
+      "street_name": "RUE LOUIS BLANC",
+      "sales": 383,
+      "median_price_per_sqm": 10308.51485148515
+    },
+    {
+      "street_name": "QUAI DE VALMY",
+      "sales": 378,
+      "median_price_per_sqm": 11056.709701837757
+    },
+    {
+      "street_name": "RUE D HAUTEVILLE",
+      "sales": 373,
+      "median_price_per_sqm": 10104.166666666666
+    },
+    {
+      "street_name": "RUE DE PARADIS",
+      "sales": 366,
+      "median_price_per_sqm": 10428.57142857143
+    },
+    {
+      "street_name": "RUE DE LANCRY",
+      "sales": 346,
+      "median_price_per_sqm": 10300.0
+    },
+    {
+      "street_name": "RUE EUGENE VARLIN",
+      "sales": 338,
+      "median_price_per_sqm": 10752.358490566037
+    },
+    {
+      "street_name": "RUE DU FBG POISSONNIERE",
+      "sales": 327,
+      "median_price_per_sqm": 10938.920454545456
+    },
+    {
+      "street_name": "RUE DU CHATEAU D EAU",
+      "sales": 323,
+      "median_price_per_sqm": 10082.258064516129
+    }
+  ]
+}

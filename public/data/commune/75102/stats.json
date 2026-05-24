@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 2e Arrondissement",
+  "insee": "75102",
+  "generated_at": "2026-05-24T21:39:49.231358Z",
+  "total_sales": 5307,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 112,
+  "median_price": 605000.0,
+  "median_price_per_sqm": 12400.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1096,
+      "median_price": 560000.0
+    },
+    {
+      "year": 2022,
+      "sales": 1185,
+      "median_price": 607000.0
+    },
+    {
+      "year": 2023,
+      "sales": 998,
+      "median_price": 580234.0
+    },
+    {
+      "year": 2024,
+      "sales": 1050,
+      "median_price": 672500.0
+    },
+    {
+      "year": 2025,
+      "sales": 978,
+      "median_price": 600000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE SAINT-DENIS",
+      "sales": 510,
+      "median_price_per_sqm": 12744.444444444445
+    },
+    {
+      "street_name": "RUE D ABOUKIR",
+      "sales": 289,
+      "median_price_per_sqm": 12000.0
+    },
+    {
+      "street_name": "RUE MONTMARTRE",
+      "sales": 215,
+      "median_price_per_sqm": 11603.77358490566
+    },
+    {
+      "street_name": "RUE POISSONNIERE",
+      "sales": 172,
+      "median_price_per_sqm": 18218.115942028984
+    },
+    {
+      "street_name": "RUE DE CLERY",
+      "sales": 160,
+      "median_price_per_sqm": 11666.666666666666
+    },
+    {
+      "street_name": "RUE DU CAIRE",
+      "sales": 153,
+      "median_price_per_sqm": 11776.437847866418
+    },
+    {
+      "street_name": "RUE BEAUREGARD",
+      "sales": 145,
+      "median_price_per_sqm": 11105.555555555555
+    },
+    {
+      "street_name": "RUE TIQUETONNE",
+      "sales": 145,
+      "median_price_per_sqm": 11598.333333333332
+    },
+    {
+      "street_name": "RUE SAINT-SAUVEUR",
+      "sales": 142,
+      "median_price_per_sqm": 11883.445945945947
+    },
+    {
+      "street_name": "RUE GRENETA",
+      "sales": 135,
+      "median_price_per_sqm": 11930.232558139534
+    },
+    {
+      "street_name": "RUE REAUMUR",
+      "sales": 133,
+      "median_price_per_sqm": 24588.557993730406
+    },
+    {
+      "street_name": "RUE SAINT FIACRE",
+      "sales": 111,
+      "median_price_per_sqm": 9961.642857142857
+    },
+    {
+      "street_name": "RUE DE RICHELIEU",
+      "sales": 110,
+      "median_price_per_sqm": 10649.724146714212
+    },
+    {
+      "street_name": "RUE DES JEUNEURS",
+      "sales": 105,
+      "median_price_per_sqm": 10962.566844919786
+    },
+    {
+      "street_name": "RUE VIVIENNE",
+      "sales": 97,
+      "median_price_per_sqm": 41702.12765957447
+    }
+  ]
+}

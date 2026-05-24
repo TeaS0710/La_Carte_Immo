@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Box, History, Info, MapPin } from "lucide-react";
+import { Box, History, Info, MapPin, Train } from "lucide-react";
 import { assetUrl } from "@/lib/url";
 import RegionMap from "@/components/carte/RegionMap";
 import AddressSearch from "@/components/carte/AddressSearch";
@@ -15,6 +15,7 @@ export default function RegionCarteClient({
   const [mounted, setMounted] = useState(false);
   const [hintDismissed, setHintDismissed] = useState(false);
   const [is3d, setIs3d] = useState(false);
+  const [showGPE, setShowGPE] = useState(false);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -27,7 +28,7 @@ export default function RegionCarteClient({
   return (
     <main className="relative w-full" style={{ height: "calc(100vh - 68px)" }}>
       {mounted ? (
-        <RegionMap is3d={is3d} />
+        <RegionMap is3d={is3d} showGPE={showGPE} />
       ) : (
         <div className="absolute inset-0 flex items-center justify-center bg-surface-warm text-sm text-ink-mute">
           Chargement de la carte régionale…
@@ -74,6 +75,23 @@ export default function RegionCarteClient({
       >
         <Box size={15} aria-hidden="true" />
         3D
+      </button>
+
+      {/* Toggle Grand Paris Express */}
+      <button
+        type="button"
+        onClick={() => setShowGPE((v) => !v)}
+        aria-pressed={showGPE}
+        aria-label={showGPE ? "Masquer les gares Grand Paris Express" : "Afficher les futures gares Grand Paris Express"}
+        title="Calque des futures gares Grand Paris Express (catalyseur de prix)"
+        className={`absolute top-[248px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
+          showGPE
+            ? "bg-brand text-white border-brand"
+            : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
+        }`}
+      >
+        <Train size={15} aria-hidden="true" />
+        Gares GPE
       </button>
 
       {/* Légende */}

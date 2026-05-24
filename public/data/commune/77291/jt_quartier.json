@@ -1,0 +1,39 @@
+{
+  "year": 2025,
+  "sales_year": 212,
+  "sales_delta_pct": 488.9,
+  "median_price": 5020899.0,
+  "median_ppsqm": 98449.0,
+  "delta_ppsqm_pct": 3973.8,
+  "notable_sales": [
+    {
+      "date": "2025-04-07",
+      "street": "SEN DES PRES",
+      "type": "Maison",
+      "surface": 92,
+      "price": 335000.0
+    },
+    {
+      "date": "2025-12-23",
+      "street": "RUE DE CLAYE",
+      "type": "Maison",
+      "surface": 136,
+      "price": 310000.0
+    },
+    {
+      "date": "2025-10-28",
+      "street": "RUE DE CLAYE",
+      "type": "Maison",
+      "surface": 60,
+      "price": 240000.0
+    },
+    {
+      "date": "2025-11-05",
+      "street": "RUE DE CLAYE",
+      "type": "Maison",
+      "surface": 40,
+      "price": 198000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:28:10.251827Z"
+}

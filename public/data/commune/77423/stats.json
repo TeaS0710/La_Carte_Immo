@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Martin-des-Champs",
+  "insee": "77423",
+  "generated_at": "2026-05-24T21:41:16.801638Z",
+  "total_sales": 245,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 50,
+  "median_price": 160000.0,
+  "median_price_per_sqm": 1951.923076923077,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 64,
+      "median_price": 205500.0
+    },
+    {
+      "year": 2022,
+      "sales": 41,
+      "median_price": 160000.0
+    },
+    {
+      "year": 2023,
+      "sales": 75,
+      "median_price": 42141.6
+    },
+    {
+      "year": 2024,
+      "sales": 39,
+      "median_price": 190000.0
+    },
+    {
+      "year": 2025,
+      "sales": 26,
+      "median_price": 209000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DES VIEILLEUX",
+      "sales": 21,
+      "median_price_per_sqm": 1662.7906976744187
+    },
+    {
+      "street_name": "RUE DE LA CROIX BELLE CHAIR",
+      "sales": 20,
+      "median_price_per_sqm": 2049.446353570065
+    },
+    {
+      "street_name": "ST MARTIN DES CHPS",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 16,
+      "median_price_per_sqm": 1675.2155172413793
+    },
+    {
+      "street_name": "RUE DE LA CURE",
+      "sales": 11,
+      "median_price_per_sqm": 2260.8695652173915
+    },
+    {
+      "street_name": "RUE DE LA VIGNE",
+      "sales": 10,
+      "median_price_per_sqm": 1740.4580152671756
+    },
+    {
+      "street_name": "LE BOIS MAHU",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA CURE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE MOULIN A HUILE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "IMP DE LA BARRIERE",
+      "sales": 7,
+      "median_price_per_sqm": 1678.9473684210527
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 7,
+      "median_price_per_sqm": 2705.8823529411766
+    },
+    {
+      "street_name": "IMP DU MIDI DES PRES",
+      "sales": 6,
+      "median_price_per_sqm": 1660.7142857142858
+    },
+    {
+      "street_name": "LA FREVILLARD",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "IMP DU CLOS DES VIGNES",
+      "sales": 5,
+      "median_price_per_sqm": 3146.067415730337
+    },
+    {
+      "street_name": "RUE DE CHAMPGRIS",
+      "sales": 5,
+      "median_price_per_sqm": 1333.3333333333333
+    }
+  ]
+}

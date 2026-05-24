@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 37,
+  "sales_delta_pct": 5.7,
+  "median_price": 389000.0,
+  "median_ppsqm": 2461.235614778922,
+  "delta_ppsqm_pct": -19.9,
+  "notable_sales": [
+    {
+      "date": "2025-02-05",
+      "street": "RLE DES GRANDS JARDINS",
+      "type": "Maison",
+      "surface": 79,
+      "price": 389000.0
+    },
+    {
+      "date": "2025-11-21",
+      "street": "RLE SAINT PIERRE",
+      "type": "Maison",
+      "surface": 127,
+      "price": 293000.0
+    },
+    {
+      "date": "2025-10-14",
+      "street": "RUE DE LA LOI",
+      "type": "Maison",
+      "surface": 99,
+      "price": 280000.0
+    },
+    {
+      "date": "2025-12-30",
+      "street": "IMP DE L ARABIE",
+      "type": "Maison",
+      "surface": 61,
+      "price": 235000.0
+    },
+    {
+      "date": "2025-07-03",
+      "street": "RLE SAINT PIERRE",
+      "type": "Maison",
+      "surface": 78,
+      "price": 204000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:29:52.837890Z"
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 78,
+  "sales_delta_pct": -50.6,
+  "median_price": 250000.0,
+  "median_ppsqm": 3043.478260869565,
+  "delta_ppsqm_pct": 0.9,
+  "notable_sales": [
+    {
+      "date": "2025-11-28",
+      "street": "RUE DU BOURGET",
+      "type": "Maison",
+      "surface": 131,
+      "price": 469400.0
+    },
+    {
+      "date": "2025-05-19",
+      "street": "RUE DES PANOUFLES",
+      "type": "Maison",
+      "surface": 125,
+      "price": 370000.0
+    },
+    {
+      "date": "2025-09-01",
+      "street": "RUE DE L ETRILLE",
+      "type": "Maison",
+      "surface": 88,
+      "price": 360000.0
+    },
+    {
+      "date": "2025-03-21",
+      "street": "RUE DU POMMIER ROUGE",
+      "type": "Maison",
+      "surface": 133,
+      "price": 349850.0
+    },
+    {
+      "date": "2025-02-25",
+      "street": "RUE DE MAULNY",
+      "type": "Maison",
+      "surface": 110,
+      "price": 337000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:43:09.935694Z"
+}

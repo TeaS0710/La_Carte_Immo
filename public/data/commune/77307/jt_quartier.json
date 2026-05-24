@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 574,
+  "sales_delta_pct": 11.5,
+  "median_price": 254450.0,
+  "median_ppsqm": 4488.461538461538,
+  "delta_ppsqm_pct": 3.1,
+  "notable_sales": [
+    {
+      "date": "2025-05-22",
+      "street": "ALL DES ELEGANTES",
+      "type": "Maison",
+      "surface": 158,
+      "price": 885000.0
+    },
+    {
+      "date": "2025-09-29",
+      "street": "CHE DES GUEDAS",
+      "type": "Maison",
+      "surface": 243,
+      "price": 795000.0
+    },
+    {
+      "date": "2025-10-06",
+      "street": "CHE DU PORT",
+      "type": "Maison",
+      "surface": 121,
+      "price": 644231.0
+    },
+    {
+      "date": "2025-12-11",
+      "street": "RUE DU PUITS DU GUE",
+      "type": "Maison",
+      "surface": 170,
+      "price": 610985.0
+    },
+    {
+      "date": "2025-07-07",
+      "street": "RUE DU PUITS DU GUE",
+      "type": "Maison",
+      "surface": 168,
+      "price": 609800.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:29:41.725939Z"
+}

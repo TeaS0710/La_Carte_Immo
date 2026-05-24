@@ -1,0 +1,120 @@
+{
+  "commune": "May-en-Multien",
+  "insee": "77283",
+  "generated_at": "2026-05-24T21:26:15.474759Z",
+  "total_sales": 338,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 51,
+  "median_price": 160000.0,
+  "median_price_per_sqm": 2386.3636363636365,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 63,
+      "median_price": 95000.0
+    },
+    {
+      "year": 2022,
+      "sales": 138,
+      "median_price": 254951.0
+    },
+    {
+      "year": 2023,
+      "sales": 34,
+      "median_price": 211750.0
+    },
+    {
+      "year": 2024,
+      "sales": 26,
+      "median_price": 56000.0
+    },
+    {
+      "year": 2025,
+      "sales": 77,
+      "median_price": 160000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "MAY-EN-MULTIEN",
+      "sales": 80,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA TETE AUX LOUPS",
+      "sales": 25,
+      "median_price_per_sqm": 2468.8524590163934
+    },
+    {
+      "street_name": "RUE DE SOISSONS",
+      "sales": 24,
+      "median_price_per_sqm": 1111.8012422360248
+    },
+    {
+      "street_name": "MARNOUE",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU PRE GAULT",
+      "sales": 15,
+      "median_price_per_sqm": 1749.6478873239437
+    },
+    {
+      "street_name": "RUE DE GLATIGNY",
+      "sales": 15,
+      "median_price_per_sqm": 2536.4583333333335
+    },
+    {
+      "street_name": "RUE DU MOUTIER",
+      "sales": 15,
+      "median_price_per_sqm": 1910.0
+    },
+    {
+      "street_name": "VERNELLE",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CHAT QUI PECHE",
+      "sales": 9,
+      "median_price_per_sqm": 3060.0
+    },
+    {
+      "street_name": "RUE DE LA RIVIERE",
+      "sales": 9,
+      "median_price_per_sqm": 2583.3333333333335
+    },
+    {
+      "street_name": "RUE DE BLUTEAU",
+      "sales": 9,
+      "median_price_per_sqm": 2747.1264367816093
+    },
+    {
+      "street_name": "LE GRAND JARDIN",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE AUX CHIENS",
+      "sales": 8,
+      "median_price_per_sqm": 2580.5470370370367
+    },
+    {
+      "street_name": "RUE DU PARC FLOBERT",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE CROUY",
+      "sales": 6,
+      "median_price_per_sqm": 2287.2340425531916
+    }
+  ]
+}

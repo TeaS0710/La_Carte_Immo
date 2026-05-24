@@ -6,15 +6,15 @@
       "code_dept": "75",
       "nom_dept": "Paris",
       "communes_count_total": 21,
-      "communes_count_available": 0,
-      "total_sales": 0
+      "communes_count_available": 17,
+      "total_sales": 322769
     },
     {
       "code_dept": "77",
       "nom_dept": "Seine-et-Marne",
       "communes_count_total": 507,
-      "communes_count_available": 207,
-      "total_sales": 149138
+      "communes_count_available": 327,
+      "total_sales": 254210
     },
     {
       "code_dept": "78",
@@ -60,15 +60,167 @@
     }
   ],
   "communes_count_total": 1286,
-  "communes_count_available": 217,
-  "total_sales_available": 243533,
+  "communes_count_available": 354,
+  "total_sales_available": 671374,
   "population_total": 14566845,
   "insights": [
-    "Saint-Maur-des-Fossés (dept 94) est la commune IDF la plus active des données analysées : 16 786 ventes DVF.",
-    "Le département Seine-et-Marne compte le plus de communes couvertes (207 villes analysées).",
-    "Couverture progressive en cours : 217 communes IDF sur 1286 planifiées."
+    "Paris 15e Arrondissement (dept 75) est la commune IDF la plus active des données analysées : 43 608 ventes DVF.",
+    "Le département Seine-et-Marne compte le plus de communes couvertes (327 villes analysées).",
+    "Couverture progressive en cours : 354 communes IDF sur 1286 planifiées."
   ],
   "top_communes": [
+    {
+      "code_insee": "75115",
+      "slug": "paris-15e-arrondissement",
+      "nom": "Paris 15e Arrondissement",
+      "population": 229713,
+      "lng": 2.2937,
+      "lat": 48.8417,
+      "total_sales": 43608,
+      "median_price": 495000.0,
+      "median_price_per_sqm": 10385.29484029484,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 346
+    },
+    {
+      "code_insee": "75116",
+      "slug": "paris-16e-arrondissement",
+      "nom": "Paris 16e Arrondissement",
+      "population": 159386,
+      "lng": 2.263,
+      "lat": 48.8572,
+      "total_sales": 40324,
+      "median_price": 865000.0,
+      "median_price_per_sqm": 11757.511283043197,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 425
+    },
+    {
+      "code_insee": "75117",
+      "slug": "paris-17e-arrondissement",
+      "nom": "Paris 17e Arrondissement",
+      "population": 159212,
+      "lng": 2.305,
+      "lat": 48.8874,
+      "total_sales": 34542,
+      "median_price": 527460.0,
+      "median_price_per_sqm": 11093.892543859649,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 274
+    },
+    {
+      "code_insee": "75111",
+      "slug": "paris-11e-arrondissement",
+      "nom": "Paris 11e Arrondissement",
+      "population": 138170,
+      "lng": 2.3816,
+      "lat": 48.8601,
+      "total_sales": 30843,
+      "median_price": 439010.0,
+      "median_price_per_sqm": 10751.851851851852,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 235
+    },
+    {
+      "code_insee": "75112",
+      "slug": "paris-12e-arrondissement",
+      "nom": "Paris 12e Arrondissement",
+      "population": 138024,
+      "lng": 2.4173,
+      "lat": 48.8342,
+      "total_sales": 23235,
+      "median_price": 456000.0,
+      "median_price_per_sqm": 9891.304347826086,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 180
+    },
+    {
+      "code_insee": "75114",
+      "slug": "paris-14e-arrondissement",
+      "nom": "Paris 14e Arrondissement",
+      "population": 136455,
+      "lng": 2.323,
+      "lat": 48.8297,
+      "total_sales": 20933,
+      "median_price": 446500.0,
+      "median_price_per_sqm": 10350.0,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 232
+    },
+    {
+      "code_insee": "75113",
+      "slug": "paris-13e-arrondissement",
+      "nom": "Paris 13e Arrondissement",
+      "population": 181271,
+      "lng": 2.3656,
+      "lat": 48.8303,
+      "total_sales": 19998,
+      "median_price": 415000.0,
+      "median_price_per_sqm": 9433.333333333334,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 239
+    },
+    {
+      "code_insee": "75110",
+      "slug": "paris-10e-arrondissement",
+      "nom": "Paris 10e Arrondissement",
+      "population": 83873,
+      "lng": 2.3624,
+      "lat": 48.876,
+      "total_sales": 18538,
+      "median_price": 420000.0,
+      "median_price_per_sqm": 10196.47351652728,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 150
+    },
     {
       "code_insee": "94068",
       "slug": "saint-maur-des-fosses",
@@ -87,6 +239,63 @@
         2025
       ],
       "streets_with_sales": 440
+    },
+    {
+      "code_insee": "75109",
+      "slug": "paris-9e-arrondissement",
+      "nom": "Paris 9e Arrondissement",
+      "population": 57271,
+      "lng": 2.3379,
+      "lat": 48.8771,
+      "total_sales": 16034,
+      "median_price": 660000.0,
+      "median_price_per_sqm": 11932.159090909092,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 163
+    },
+    {
+      "code_insee": "75107",
+      "slug": "paris-7e-arrondissement",
+      "nom": "Paris 7e Arrondissement",
+      "population": 48015,
+      "lng": 2.3115,
+      "lat": 48.8548,
+      "total_sales": 14582,
+      "median_price": 1170825.0,
+      "median_price_per_sqm": 15234.647817460318,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 152
+    },
+    {
+      "code_insee": "75108",
+      "slug": "paris-8e-arrondissement",
+      "nom": "Paris 8e Arrondissement",
+      "population": 35317,
+      "lng": 2.3111,
+      "lat": 48.8732,
+      "total_sales": 14026,
+      "median_price": 1285600.0,
+      "median_price_per_sqm": 14840.714285714286,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 166
     },
     {
       "code_insee": "94080",
@@ -108,6 +317,25 @@
       "streets_with_sales": 125
     },
     {
+      "code_insee": "75106",
+      "slug": "paris-6e-arrondissement",
+      "nom": "Paris 6e Arrondissement",
+      "population": 40389,
+      "lng": 2.3307,
+      "lat": 48.8495,
+      "total_sales": 11223,
+      "median_price": 990000.0,
+      "median_price_per_sqm": 16095.404191616766,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 141
+    },
+    {
       "code_insee": "94028",
       "slug": "creteil",
       "nom": "Créteil",
@@ -125,6 +353,25 @@
         2025
       ],
       "streets_with_sales": 307
+    },
+    {
+      "code_insee": "75105",
+      "slug": "paris-5e-arrondissement",
+      "nom": "Paris 5e Arrondissement",
+      "population": 55252,
+      "lng": 2.3514,
+      "lat": 48.8454,
+      "total_sales": 10442,
+      "median_price": 545000.0,
+      "median_price_per_sqm": 12674.0,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 164
     },
     {
       "code_insee": "94017",
@@ -165,6 +412,25 @@
       "streets_with_sales": 158
     },
     {
+      "code_insee": "77284",
+      "slug": "meaux",
+      "nom": "Meaux",
+      "population": 56905,
+      "lng": 2.9035,
+      "lat": 48.9573,
+      "total_sales": 8765,
+      "median_price": 179000.0,
+      "median_price_per_sqm": 3206.1068702290077,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 376
+    },
+    {
       "code_insee": "94081",
       "slug": "vitry-sur-seine",
       "nom": "Vitry-sur-Seine",
@@ -201,6 +467,44 @@
         2025
       ],
       "streets_with_sales": 234
+    },
+    {
+      "code_insee": "75103",
+      "slug": "paris-3e-arrondissement",
+      "nom": "Paris 3e Arrondissement",
+      "population": 32179,
+      "lng": 2.3593,
+      "lat": 48.8626,
+      "total_sales": 8263,
+      "median_price": 595000.0,
+      "median_price_per_sqm": 12609.10973084886,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 102
+    },
+    {
+      "code_insee": "77288",
+      "slug": "melun",
+      "nom": "Melun",
+      "population": 45995,
+      "lng": 2.6552,
+      "lat": 48.5421,
+      "total_sales": 8066,
+      "median_price": 156800.0,
+      "median_price_per_sqm": 2978.723404255319,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 241
     },
     {
       "code_insee": "94058",
@@ -241,6 +545,25 @@
       "streets_with_sales": 475
     },
     {
+      "code_insee": "75104",
+      "slug": "paris-4e-arrondissement",
+      "nom": "Paris 4e Arrondissement",
+      "population": 27332,
+      "lng": 2.3569,
+      "lat": 48.8541,
+      "total_sales": 6607,
+      "median_price": 658000.0,
+      "median_price_per_sqm": 13600.0,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 125
+    },
+    {
       "code_insee": "94076",
       "slug": "villejuif",
       "nom": "Villejuif",
@@ -279,15 +602,15 @@
       "streets_with_sales": 127
     },
     {
-      "code_insee": "77243",
-      "slug": "lagny-sur-marne",
-      "nom": "Lagny-sur-Marne",
-      "population": 21461,
-      "lng": 2.7045,
-      "lat": 48.8716,
-      "total_sales": 5190,
-      "median_price": 325000.0,
-      "median_price_per_sqm": 4433.333333333333,
+      "code_insee": "77373",
+      "slug": "pontault-combault",
+      "nom": "Pontault-Combault",
+      "population": 39096,
+      "lng": 2.6173,
+      "lat": 48.7885,
+      "total_sales": 5629,
+      "median_price": 283500.0,
+      "median_price_per_sqm": 4166.666666666667,
       "years_covered": [
         2021,
         2022,
@@ -295,18 +618,18 @@
         2024,
         2025
       ],
-      "streets_with_sales": 218
+      "streets_with_sales": 301
     },
     {
-      "code_insee": "77014",
-      "slug": "avon",
-      "nom": "Avon",
-      "population": 13651,
-      "lng": 2.7337,
-      "lat": 48.4124,
-      "total_sales": 4865,
-      "median_price": 229000.0,
-      "median_price_per_sqm": 3806.686868686869,
+      "code_insee": "75102",
+      "slug": "paris-2e-arrondissement",
+      "nom": "Paris 2e Arrondissement",
+      "population": 19847,
+      "lng": 2.3411,
+      "lat": 48.8677,
+      "total_sales": 5307,
+      "median_price": 605000.0,
+      "median_price_per_sqm": 12400.0,
       "years_covered": [
         2021,
         2022,
@@ -314,330 +637,7 @@
         2024,
         2025
       ],
-      "streets_with_sales": 95
-    },
-    {
-      "code_insee": "77058",
-      "slug": "bussy-saint-georges",
-      "nom": "Bussy-Saint-Georges",
-      "population": 27498,
-      "lng": 2.7091,
-      "lat": 48.8297,
-      "total_sales": 4688,
-      "median_price": 261000.0,
-      "median_price_per_sqm": 4461.538461538462,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 228
-    },
-    {
-      "code_insee": "77083",
-      "slug": "champs-sur-marne",
-      "nom": "Champs-sur-Marne",
-      "population": 27451,
-      "lng": 2.594,
-      "lat": 48.8485,
-      "total_sales": 4021,
-      "median_price": 285000.0,
-      "median_price_per_sqm": 4333.333333333333,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 165
-    },
-    {
-      "code_insee": "77186",
-      "slug": "fontainebleau",
-      "nom": "Fontainebleau",
-      "population": 15583,
-      "lng": 2.6817,
-      "lat": 48.4236,
-      "total_sales": 3886,
-      "median_price": 300000.0,
-      "median_price_per_sqm": 4950.0,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 128
-    },
-    {
-      "code_insee": "77053",
-      "slug": "brie-comte-robert",
-      "nom": "Brie-Comte-Robert",
-      "population": 19003,
-      "lng": 2.6131,
-      "lat": 48.6904,
-      "total_sales": 3847,
-      "median_price": 220000.0,
-      "median_price_per_sqm": 3637.4125874125875,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 237
-    },
-    {
-      "code_insee": "77122",
-      "slug": "combs-la-ville",
-      "nom": "Combs-la-Ville",
-      "population": 23350,
-      "lng": 2.5765,
-      "lat": 48.6602,
-      "total_sales": 3825,
-      "median_price": 245000.0,
-      "median_price_per_sqm": 3372.093023255814,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 267
-    },
-    {
-      "code_insee": "77152",
-      "slug": "dammarie-les-lys",
-      "nom": "Dammarie-les-Lys",
-      "population": 23559,
-      "lng": 2.6199,
-      "lat": 48.5147,
-      "total_sales": 3386,
-      "median_price": 172000.0,
-      "median_price_per_sqm": 2916.6666666666665,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 173
-    },
-    {
-      "code_insee": "77131",
-      "slug": "coulommiers",
-      "nom": "Coulommiers",
-      "population": 16374,
-      "lng": 3.0918,
-      "lat": 48.8096,
-      "total_sales": 3212,
-      "median_price": 174900.0,
-      "median_price_per_sqm": 2654.5016327165295,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 211
-    },
-    {
-      "code_insee": "77118",
-      "slug": "claye-souilly",
-      "nom": "Claye-Souilly",
-      "population": 13353,
-      "lng": 2.68,
-      "lat": 48.941,
-      "total_sales": 2851,
-      "median_price": 280000.0,
-      "median_price_per_sqm": 3916.6666666666665,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 195
-    },
-    {
-      "code_insee": "77183",
-      "slug": "la-ferte-sous-jouarre",
-      "nom": "La Ferté-sous-Jouarre",
-      "population": 10254,
-      "lng": 3.1349,
-      "lat": 48.9562,
-      "total_sales": 2784,
-      "median_price": 191606.0,
-      "median_price_per_sqm": 2744.8630136986303,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 191
-    },
-    {
-      "code_insee": "77219",
-      "slug": "guerard",
-      "nom": "Guérard",
-      "population": 2688,
-      "lng": 2.9533,
-      "lat": 48.8128,
-      "total_sales": 2696,
-      "median_price": 107200.0,
-      "median_price_per_sqm": 3016.586893203884,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 251
-    },
-    {
-      "code_insee": "77153",
-      "slug": "dammartin-en-goele",
-      "nom": "Dammartin-en-Goële",
-      "population": 11907,
-      "lng": 2.6777,
-      "lat": 49.0504,
-      "total_sales": 2427,
-      "median_price": 224000.0,
-      "median_price_per_sqm": 3400.0,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 173
-    },
-    {
-      "code_insee": "77251",
-      "slug": "lieusaint",
-      "nom": "Lieusaint",
-      "population": 14017,
-      "lng": 2.549,
-      "lat": 48.6277,
-      "total_sales": 2373,
-      "median_price": 227000.0,
-      "median_price_per_sqm": 3606.55737704918,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 121
-    },
-    {
-      "code_insee": "77258",
-      "slug": "lognes",
-      "nom": "Lognes",
-      "population": 15074,
-      "lng": 2.6366,
-      "lat": 48.8325,
-      "total_sales": 1899,
-      "median_price": 244000.0,
-      "median_price_per_sqm": 3888.8888888888887,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 88
-    },
-    {
-      "code_insee": "77111",
-      "slug": "chessy",
-      "nom": "Chessy",
-      "population": 7771,
-      "lng": 2.7697,
-      "lat": 48.8718,
-      "total_sales": 1877,
-      "median_price": 306460.0,
-      "median_price_per_sqm": 4717.439664804469,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 109
-    },
-    {
-      "code_insee": "77215",
-      "slug": "gretz-armainvilliers",
-      "nom": "Gretz-Armainvilliers",
-      "population": 8825,
-      "lng": 2.7272,
-      "lat": 48.7536,
-      "total_sales": 1651,
-      "median_price": 269000.0,
-      "median_price_per_sqm": 3521.034996276992,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 103
-    },
-    {
-      "code_insee": "77169",
-      "slug": "emerainville",
-      "nom": "Émerainville",
-      "population": 7690,
-      "lng": 2.608,
-      "lat": 48.8186,
-      "total_sales": 1620,
-      "median_price": 320000.0,
-      "median_price_per_sqm": 4649.088145896656,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 102
-    },
-    {
-      "code_insee": "77037",
-      "slug": "bois-le-roi",
-      "nom": "Bois-le-Roi",
-      "population": 6072,
-      "lng": 2.7091,
-      "lat": 48.4735,
-      "total_sales": 1426,
-      "median_price": 410000.0,
-      "median_price_per_sqm": 4259.682133723054,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 147
+      "streets_with_sales": 112
     }
   ]
 }

@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 1er Arrondissement",
+  "insee": "75101",
+  "generated_at": "2026-05-24T21:39:37.161088Z",
+  "total_sales": 4264,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 108,
+  "median_price": 873000.0,
+  "median_price_per_sqm": 14000.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 841,
+      "median_price": 1100000.0
+    },
+    {
+      "year": 2022,
+      "sales": 1034,
+      "median_price": 1131800.0
+    },
+    {
+      "year": 2023,
+      "sales": 906,
+      "median_price": 783653.0
+    },
+    {
+      "year": 2024,
+      "sales": 752,
+      "median_price": 680000.0
+    },
+    {
+      "year": 2025,
+      "sales": 731,
+      "median_price": 694250.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE SAINT-HONORE",
+      "sales": 647,
+      "median_price_per_sqm": 13387.09677419355
+    },
+    {
+      "street_name": "RUE DE RIVOLI",
+      "sales": 405,
+      "median_price_per_sqm": 28986.28803963199
+    },
+    {
+      "street_name": "RUE JEAN JACQUES ROUSSEAU",
+      "sales": 160,
+      "median_price_per_sqm": 12380.952380952382
+    },
+    {
+      "street_name": "RUE SAINT-DENIS",
+      "sales": 147,
+      "median_price_per_sqm": 11153.112203112203
+    },
+    {
+      "street_name": "AV DE L OPERA",
+      "sales": 141,
+      "median_price_per_sqm": 273082.38636363635
+    },
+    {
+      "street_name": "RUE DE RICHELIEU",
+      "sales": 137,
+      "median_price_per_sqm": 13090.277777777777
+    },
+    {
+      "street_name": "PL DU MARCHE ST HONORE",
+      "sales": 120,
+      "median_price_per_sqm": 182857.14285714287
+    },
+    {
+      "street_name": "RUE DU LOUVRE",
+      "sales": 102,
+      "median_price_per_sqm": 13037.974683544304
+    },
+    {
+      "street_name": "RUE CROIX DES PETITS CHAMPS",
+      "sales": 91,
+      "median_price_per_sqm": 13157.894736842105
+    },
+    {
+      "street_name": "RUE MONTMARTRE",
+      "sales": 83,
+      "median_price_per_sqm": 13425.925925925925
+    },
+    {
+      "street_name": "RUE DES PYRAMIDES",
+      "sales": 78,
+      "median_price_per_sqm": 13250.0
+    },
+    {
+      "street_name": "RUE DU MONT-THABOR",
+      "sales": 73,
+      "median_price_per_sqm": 16255.096420389462
+    },
+    {
+      "street_name": "BD DE SEBASTOPOL",
+      "sales": 69,
+      "median_price_per_sqm": 52000.0
+    },
+    {
+      "street_name": "PAS ANTOINE CAREME",
+      "sales": 68,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE COQUILLIERE",
+      "sales": 68,
+      "median_price_per_sqm": 13823.529411764706
+    }
+  ]
+}

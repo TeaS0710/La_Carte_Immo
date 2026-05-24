@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 105,
+  "sales_delta_pct": 29.6,
+  "median_price": 210643.0,
+  "median_ppsqm": 2154.910714285714,
+  "delta_ppsqm_pct": 9.2,
+  "notable_sales": [
+    {
+      "date": "2025-02-26",
+      "street": "GR GRANDE RUE",
+      "type": "Appartement",
+      "surface": 30,
+      "price": 490000.0
+    },
+    {
+      "date": "2025-07-21",
+      "street": "RUE DU COCHERET",
+      "type": "Maison",
+      "surface": 154,
+      "price": 245000.0
+    },
+    {
+      "date": "2025-08-27",
+      "street": "RUE DE LA TUILERIE",
+      "type": "Maison",
+      "surface": 112,
+      "price": 241350.0
+    },
+    {
+      "date": "2025-11-15",
+      "street": "RUE DES FRANCOISERIES",
+      "type": "Maison",
+      "surface": 136,
+      "price": 240000.0
+    },
+    {
+      "date": "2025-12-03",
+      "street": "RUE D ORVILLIERS",
+      "type": "Maison",
+      "surface": 79,
+      "price": 225000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:30:10.716636Z"
+}

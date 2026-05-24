@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 185,
+  "sales_delta_pct": -11.5,
+  "median_price": 190000.0,
+  "median_ppsqm": 2374.4558991981676,
+  "delta_ppsqm_pct": -4.8,
+  "notable_sales": [
+    {
+      "date": "2025-09-29",
+      "street": "RUE DU GENERAL DE GAULLE",
+      "type": "Appartement",
+      "surface": 35,
+      "price": 365000.0
+    },
+    {
+      "date": "2025-11-14",
+      "street": "PL DUPONT PERROT",
+      "type": "Maison",
+      "surface": 189,
+      "price": 297000.0
+    },
+    {
+      "date": "2025-01-09",
+      "street": "RUE CEZANNE",
+      "type": "Maison",
+      "surface": 114,
+      "price": 294000.0
+    },
+    {
+      "date": "2025-02-18",
+      "street": "RUE DE LA LIBERATION",
+      "type": "Maison",
+      "surface": 154,
+      "price": 280000.0
+    },
+    {
+      "date": "2025-10-03",
+      "street": "AV DU GENERAL DU TAILLIS",
+      "type": "Maison",
+      "surface": 120,
+      "price": 274298.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:31:25.775164Z"
+}

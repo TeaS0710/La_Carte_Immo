@@ -1,0 +1,120 @@
+{
+  "commune": "Mormant",
+  "insee": "77317",
+  "generated_at": "2026-05-24T21:30:38.467018Z",
+  "total_sales": 746,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 61,
+  "median_price": 196000.0,
+  "median_price_per_sqm": 2764.705882352941,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 165,
+      "median_price": 182000.0
+    },
+    {
+      "year": 2022,
+      "sales": 151,
+      "median_price": 205000.0
+    },
+    {
+      "year": 2023,
+      "sales": 149,
+      "median_price": 163000.0
+    },
+    {
+      "year": 2024,
+      "sales": 135,
+      "median_price": 185000.0
+    },
+    {
+      "year": 2025,
+      "sales": 146,
+      "median_price": 207650.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE CHARLES DE GAULLE",
+      "sales": 101,
+      "median_price_per_sqm": 3279.220779220779
+    },
+    {
+      "street_name": "MORMANT",
+      "sales": 59,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE D ANDREZEL",
+      "sales": 55,
+      "median_price_per_sqm": 1731.0119047619046
+    },
+    {
+      "street_name": "RUE DES BOUTS D EN BAS",
+      "sales": 42,
+      "median_price_per_sqm": 6292.857142857143
+    },
+    {
+      "street_name": "RUE PAUL CEZANNE",
+      "sales": 34,
+      "median_price_per_sqm": 2500.0
+    },
+    {
+      "street_name": "RUE JACQUES CARTIER",
+      "sales": 33,
+      "median_price_per_sqm": 3337.406323185012
+    },
+    {
+      "street_name": "RUE FLORENCE ARTHAUD",
+      "sales": 27,
+      "median_price_per_sqm": 3247.4086509974322
+    },
+    {
+      "street_name": "AV DE LA GARE",
+      "sales": 27,
+      "median_price_per_sqm": 2826.923076923077
+    },
+    {
+      "street_name": "RUE GUILLOTEAUX",
+      "sales": 24,
+      "median_price_per_sqm": 2769.4714131607334
+    },
+    {
+      "street_name": "RUE DES OISONS",
+      "sales": 20,
+      "median_price_per_sqm": 2022.4358974358975
+    },
+    {
+      "street_name": "LADY",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 18,
+      "median_price_per_sqm": 2785.714285714286
+    },
+    {
+      "street_name": "RUE SIMONE VEIL",
+      "sales": 18,
+      "median_price_per_sqm": 2963.7823664372336
+    },
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 18,
+      "median_price_per_sqm": 3146.5281574630944
+    },
+    {
+      "street_name": "RUE DU PONT",
+      "sales": 15,
+      "median_price_per_sqm": 2251.908396946565
+    }
+  ]
+}

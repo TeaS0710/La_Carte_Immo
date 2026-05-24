@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 1682,
+  "sales_delta_pct": 16.2,
+  "median_price": 181000.0,
+  "median_ppsqm": 3315.7894736842104,
+  "delta_ppsqm_pct": 9.2,
+  "notable_sales": [
+    {
+      "date": "2025-07-28",
+      "street": "RUE BARIGNY",
+      "type": "Maison",
+      "surface": 194,
+      "price": 816200.0
+    },
+    {
+      "date": "2025-05-23",
+      "street": "RUE SAINT FARON",
+      "type": "Maison",
+      "surface": 260,
+      "price": 771300.0
+    },
+    {
+      "date": "2025-03-28",
+      "street": "RUE ALFRED MAURY",
+      "type": "Maison",
+      "surface": 301,
+      "price": 749000.0
+    },
+    {
+      "date": "2025-10-01",
+      "street": "QUAI JACQUES PREVERT",
+      "type": "Maison",
+      "surface": 305,
+      "price": 700000.0
+    },
+    {
+      "date": "2025-11-14",
+      "street": "RUE ALFRED MAURY",
+      "type": "Maison",
+      "surface": 102,
+      "price": 700000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:26:55.416843Z"
+}

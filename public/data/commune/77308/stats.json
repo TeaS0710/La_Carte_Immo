@@ -1,0 +1,120 @@
+{
+  "commune": "Montgé-en-Goële",
+  "insee": "77308",
+  "generated_at": "2026-05-24T21:29:52.840071Z",
+  "total_sales": 274,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 44,
+  "median_price": 253500.0,
+  "median_price_per_sqm": 2800.925925925926,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 82,
+      "median_price": 288000.0
+    },
+    {
+      "year": 2022,
+      "sales": 74,
+      "median_price": 270000.0
+    },
+    {
+      "year": 2023,
+      "sales": 46,
+      "median_price": 173950.0
+    },
+    {
+      "year": 2024,
+      "sales": 35,
+      "median_price": 270000.0
+    },
+    {
+      "year": 2025,
+      "sales": 37,
+      "median_price": 389000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU VIEUX CHATEAU",
+      "sales": 27,
+      "median_price_per_sqm": 2922.0779220779223
+    },
+    {
+      "street_name": "MONTGE",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L ARABIE",
+      "sales": 17,
+      "median_price_per_sqm": 2272.7272727272725
+    },
+    {
+      "street_name": "RTE DE SAINT-SOUPPLETS",
+      "sales": 17,
+      "median_price_per_sqm": 2974.6835443037976
+    },
+    {
+      "street_name": "RUE DU PRE HUARD",
+      "sales": 15,
+      "median_price_per_sqm": 2736.3530778164923
+    },
+    {
+      "street_name": "RUE DE LA LOI",
+      "sales": 15,
+      "median_price_per_sqm": 3237.162162162162
+    },
+    {
+      "street_name": "RUE DE LA FERME D EN BAS",
+      "sales": 11,
+      "median_price_per_sqm": 2972.545219638243
+    },
+    {
+      "street_name": "LE FIEF MALLET",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE NEUVE",
+      "sales": 10,
+      "median_price_per_sqm": 2226.842105263158
+    },
+    {
+      "street_name": "RLE SAINT PIERRE",
+      "sales": 9,
+      "median_price_per_sqm": 2307.0866141732286
+    },
+    {
+      "street_name": "PRES DE BESANCY",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "IMP DE L ARABIE",
+      "sales": 7,
+      "median_price_per_sqm": 3005.0
+    },
+    {
+      "street_name": "LES QUATRE VENTS",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE CUISY",
+      "sales": 7,
+      "median_price_per_sqm": 2013.4228187919464
+    },
+    {
+      "street_name": "RUE DU FIEF MALLET",
+      "sales": 7,
+      "median_price_per_sqm": 2625.0
+    }
+  ]
+}

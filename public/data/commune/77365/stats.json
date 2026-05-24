@@ -1,0 +1,120 @@
+{
+  "commune": "Le Plessis-Feu-Aussoux",
+  "insee": "77365",
+  "generated_at": "2026-05-24T21:34:50.962624Z",
+  "total_sales": 137,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 33,
+  "median_price": 226000.0,
+  "median_price_per_sqm": 2672.566371681416,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 28,
+      "median_price": 119000.0
+    },
+    {
+      "year": 2022,
+      "sales": 36,
+      "median_price": 219000.0
+    },
+    {
+      "year": 2023,
+      "sales": 31,
+      "median_price": 250000.0
+    },
+    {
+      "year": 2024,
+      "sales": 18,
+      "median_price": 171000.0
+    },
+    {
+      "year": 2025,
+      "sales": 24,
+      "median_price": 332500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 16,
+      "median_price_per_sqm": 2584.4856194690265
+    },
+    {
+      "street_name": "RUE DE LA CAUMONNERIE",
+      "sales": 12,
+      "median_price_per_sqm": 2687.5
+    },
+    {
+      "street_name": "RUE DE L ECHELLE",
+      "sales": 12,
+      "median_price_per_sqm": 3012.0481927710844
+    },
+    {
+      "street_name": "LE PLESSIS",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA VACHERIE",
+      "sales": 8,
+      "median_price_per_sqm": 2368.4210526315787
+    },
+    {
+      "street_name": "RUE DES PEUPLIERS",
+      "sales": 8,
+      "median_price_per_sqm": 2971.698113207547
+    },
+    {
+      "street_name": "LE VILLAGE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE TOURNANT",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOIS GUILBERT",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CALVAIRE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CHP DU CALVAIRE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE PUISEAUX",
+      "sales": 4,
+      "median_price_per_sqm": 2672.566371681416
+    },
+    {
+      "street_name": "RTE DE PROVINS",
+      "sales": 4,
+      "median_price_per_sqm": 1586.021505376344
+    },
+    {
+      "street_name": "LE BERCILLON",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "FONTAINE DE L ECHO",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

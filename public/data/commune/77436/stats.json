@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Siméon",
+  "insee": "77436",
+  "generated_at": "2026-05-24T21:43:00.414570Z",
+  "total_sales": 475,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 91,
+  "median_price": 150000.0,
+  "median_price_per_sqm": 2054.702729044834,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 90,
+      "median_price": 177750.0
+    },
+    {
+      "year": 2022,
+      "sales": 80,
+      "median_price": 160000.0
+    },
+    {
+      "year": 2023,
+      "sales": 98,
+      "median_price": 9852.5
+    },
+    {
+      "year": 2024,
+      "sales": 126,
+      "median_price": 107500.0
+    },
+    {
+      "year": 2025,
+      "sales": 81,
+      "median_price": 165000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "CHARCOT",
+      "sales": 29,
+      "median_price_per_sqm": 1790.4761904761904
+    },
+    {
+      "street_name": "LA VANNE",
+      "sales": 27,
+      "median_price_per_sqm": 1639.344262295082
+    },
+    {
+      "street_name": "PL DE LA MAIRIE",
+      "sales": 21,
+      "median_price_per_sqm": 4352.941176470588
+    },
+    {
+      "street_name": "LES GRANDES BORDES",
+      "sales": 18,
+      "median_price_per_sqm": 1811.4285714285713
+    },
+    {
+      "street_name": "RUE NEUVE DES PRES",
+      "sales": 17,
+      "median_price_per_sqm": 2307.6923076923076
+    },
+    {
+      "street_name": "AV DU GD MORIN",
+      "sales": 17,
+      "median_price_per_sqm": 2237.2242647058824
+    },
+    {
+      "street_name": "LE CHAMP DU PRET",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA BROSSE",
+      "sales": 14,
+      "median_price_per_sqm": 1617.6470588235295
+    },
+    {
+      "street_name": "SAINT SIMEON",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES VIGNES DE SAINT SIMEON",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CHATEAU D EAU",
+      "sales": 11,
+      "median_price_per_sqm": 1868.131868131868
+    },
+    {
+      "street_name": "LE CHAMP MICHAUX",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA GRANDE VACHERIE",
+      "sales": 10,
+      "median_price_per_sqm": 1115.340909090909
+    },
+    {
+      "street_name": "LE BOIS DE BEAUREGARD",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PRE DU PRET",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 96,
+  "sales_delta_pct": -30.9,
+  "median_price": 228000.0,
+  "median_ppsqm": 2132.7052395629025,
+  "delta_ppsqm_pct": 10.3,
+  "notable_sales": [
+    {
+      "date": "2025-07-11",
+      "street": "CHAMPCOLIN",
+      "type": "Maison",
+      "surface": 179,
+      "price": 439500.0
+    },
+    {
+      "date": "2025-12-17",
+      "street": "LE VINOT",
+      "type": "Maison",
+      "surface": 160,
+      "price": 395000.0
+    },
+    {
+      "date": "2025-09-01",
+      "street": "VILLENEUVE SOUS BOIS",
+      "type": "Maison",
+      "surface": 172,
+      "price": 334000.0
+    },
+    {
+      "date": "2025-11-14",
+      "street": "CHAMPCOLIN",
+      "type": "Maison",
+      "surface": 119,
+      "price": 313000.0
+    },
+    {
+      "date": "2025-10-22",
+      "street": "LES PLEUX",
+      "type": "Maison",
+      "surface": 171,
+      "price": 310000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:39:04.958959Z"
+}

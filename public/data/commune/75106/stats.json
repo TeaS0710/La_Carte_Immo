@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 6e Arrondissement",
+  "insee": "75106",
+  "generated_at": "2026-05-24T21:40:23.313447Z",
+  "total_sales": 11223,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 141,
+  "median_price": 990000.0,
+  "median_price_per_sqm": 16095.404191616766,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1912,
+      "median_price": 925000.0
+    },
+    {
+      "year": 2022,
+      "sales": 2657,
+      "median_price": 1105000.0
+    },
+    {
+      "year": 2023,
+      "sales": 2373,
+      "median_price": 1115000.0
+    },
+    {
+      "year": 2024,
+      "sales": 2099,
+      "median_price": 980000.0
+    },
+    {
+      "year": 2025,
+      "sales": 2182,
+      "median_price": 860000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE MAZARINE",
+      "sales": 686,
+      "median_price_per_sqm": 595000.0
+    },
+    {
+      "street_name": "RUE DU CHERCHE-MIDI",
+      "sales": 641,
+      "median_price_per_sqm": 15200.0
+    },
+    {
+      "street_name": "RUE DE RENNES",
+      "sales": 486,
+      "median_price_per_sqm": 15000.0
+    },
+    {
+      "street_name": "RUE D ASSAS",
+      "sales": 475,
+      "median_price_per_sqm": 16250.0
+    },
+    {
+      "street_name": "RUE DE SEVRES",
+      "sales": 404,
+      "median_price_per_sqm": 15357.142857142857
+    },
+    {
+      "street_name": "RUE DE VAUGIRARD",
+      "sales": 397,
+      "median_price_per_sqm": 15064.903846153846
+    },
+    {
+      "street_name": "BD DU MONTPARNASSE",
+      "sales": 377,
+      "median_price_per_sqm": 13081.87134502924
+    },
+    {
+      "street_name": "RUE NOTRE-DAME DES CHAMPS",
+      "sales": 331,
+      "median_price_per_sqm": 14891.891891891892
+    },
+    {
+      "street_name": "BD RASPAIL",
+      "sales": 289,
+      "median_price_per_sqm": 17671.14285714286
+    },
+    {
+      "street_name": "RUE BONAPARTE",
+      "sales": 279,
+      "median_price_per_sqm": 18333.333333333332
+    },
+    {
+      "street_name": "RUE DE SEINE",
+      "sales": 250,
+      "median_price_per_sqm": 16057.142857142857
+    },
+    {
+      "street_name": "BD SAINT GERMAIN",
+      "sales": 221,
+      "median_price_per_sqm": 21555.555555555555
+    },
+    {
+      "street_name": "RUE DAUPHINE",
+      "sales": 189,
+      "median_price_per_sqm": 14929.642857142857
+    },
+    {
+      "street_name": "RUE JACOB",
+      "sales": 184,
+      "median_price_per_sqm": 17500.0
+    },
+    {
+      "street_name": "RUE DUPIN",
+      "sales": 173,
+      "median_price_per_sqm": 560489.5104895105
+    }
+  ]
+}

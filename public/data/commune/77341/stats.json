@@ -1,0 +1,120 @@
+{
+  "commune": "Noyen-sur-Seine",
+  "insee": "77341",
+  "generated_at": "2026-05-24T21:32:53.228844Z",
+  "total_sales": 166,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 31,
+  "median_price": 130000.0,
+  "median_price_per_sqm": 1707.3170731707316,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 36,
+      "median_price": 168000.0
+    },
+    {
+      "year": 2022,
+      "sales": 36,
+      "median_price": 123250.0
+    },
+    {
+      "year": 2023,
+      "sales": 31,
+      "median_price": 84000.0
+    },
+    {
+      "year": 2024,
+      "sales": 20,
+      "median_price": 139000.0
+    },
+    {
+      "year": 2025,
+      "sales": 43,
+      "median_price": 140400.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE BREVIGNON",
+      "sales": 29,
+      "median_price_per_sqm": 2183.5443037974683
+    },
+    {
+      "street_name": "NOYEN SUR SEINE",
+      "sales": 28,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 19,
+      "median_price_per_sqm": 1716.0493827160494
+    },
+    {
+      "street_name": "LE PORT MONTAIN",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA VOIE",
+      "sales": 8,
+      "median_price_per_sqm": 4766.666666666666
+    },
+    {
+      "street_name": "RTE DE L ESPERANCE",
+      "sales": 6,
+      "median_price_per_sqm": 1309.5238095238096
+    },
+    {
+      "street_name": "RTE DU VEZOULT",
+      "sales": 6,
+      "median_price_per_sqm": 1428.5714285714287
+    },
+    {
+      "street_name": "LES COMMUNES DE GRISY",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA CROIX COMPAGNON",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES PIEDS CORNUS",
+      "sales": 5,
+      "median_price_per_sqm": 825.6729810568295
+    },
+    {
+      "street_name": "RTE DE VILLIERS SUR SEINE",
+      "sales": 4,
+      "median_price_per_sqm": 1707.3170731707316
+    },
+    {
+      "street_name": "RTE DE HERME",
+      "sales": 4,
+      "median_price_per_sqm": 1061.6438356164383
+    },
+    {
+      "street_name": "LES PERCHES",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOIS DU CHENE",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE TREMBLEAU",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

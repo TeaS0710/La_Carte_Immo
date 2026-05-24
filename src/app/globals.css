@@ -107,7 +107,7 @@ input[type="range"] { accent-color: var(--brand); }
   section { page-break-inside: avoid; }
   /* Add a print header */
   body::before {
-    content: "Prelys Courtage Saint-Maur · Fiche quartier";
+    content: "La Carte Prelys · Fiche";
     display: block;
     font-size: 10px;
     color: #666;
@@ -117,3 +117,18 @@ input[type="range"] { accent-color: var(--brand); }
     padding-bottom: 4px;
   }
 }
+
+/* ── Mode présentation : carte agrandie, bulles masquées ──────────────────
+   Activé par classe sur <main> via le toggle bouton dans CarteClient.
+   Cache TOUT sauf la carte elle-même (pas de bulles, pas de toolbar). */
+main.presentation-mode > div:not([style*="position: absolute"]),
+main.presentation-mode > button,
+main.presentation-mode > nav,
+main.presentation-mode .no-presentation {
+  display: none !important;
+}
+main.presentation-mode .presentation-exit {
+  display: flex !important;
+}
+.presentation-exit { display: none; }
+

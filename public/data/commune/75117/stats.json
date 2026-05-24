@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 17e Arrondissement",
+  "insee": "75117",
+  "generated_at": "2026-05-24T21:43:18.649354Z",
+  "total_sales": 34542,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 274,
+  "median_price": 527460.0,
+  "median_price_per_sqm": 11093.892543859649,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 6964,
+      "median_price": 569000.0
+    },
+    {
+      "year": 2022,
+      "sales": 8363,
+      "median_price": 605000.0
+    },
+    {
+      "year": 2023,
+      "sales": 6404,
+      "median_price": 506000.0
+    },
+    {
+      "year": 2024,
+      "sales": 5988,
+      "median_price": 457005.0
+    },
+    {
+      "year": 2025,
+      "sales": 6823,
+      "median_price": 485000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "BD PEREIRE",
+      "sales": 1156,
+      "median_price_per_sqm": 11753.291666666668
+    },
+    {
+      "street_name": "AV DE WAGRAM",
+      "sales": 1002,
+      "median_price_per_sqm": 13328.0
+    },
+    {
+      "street_name": "RUE LEGENDRE",
+      "sales": 901,
+      "median_price_per_sqm": 10841.346153846154
+    },
+    {
+      "street_name": "RUE SAUSSURE",
+      "sales": 811,
+      "median_price_per_sqm": 11450.099304865938
+    },
+    {
+      "street_name": "RUE CARDINET",
+      "sales": 810,
+      "median_price_per_sqm": 11642.087542087542
+    },
+    {
+      "street_name": "RUE DES MOINES",
+      "sales": 671,
+      "median_price_per_sqm": 10692.105263157895
+    },
+    {
+      "street_name": "RUE DULONG",
+      "sales": 654,
+      "median_price_per_sqm": 12394.775132275132
+    },
+    {
+      "street_name": "RUE LEMERCIER",
+      "sales": 644,
+      "median_price_per_sqm": 11766.25
+    },
+    {
+      "street_name": "RUE NOLLET",
+      "sales": 635,
+      "median_price_per_sqm": 11468.64406779661
+    },
+    {
+      "street_name": "RUE JOUFFROY D'ABBANS",
+      "sales": 621,
+      "median_price_per_sqm": 12162.744897959185
+    },
+    {
+      "street_name": "RUE DE TOCQUEVILLE",
+      "sales": 615,
+      "median_price_per_sqm": 11094.444444444445
+    },
+    {
+      "street_name": "RUE GUY MOQUET",
+      "sales": 569,
+      "median_price_per_sqm": 9461.842105263157
+    },
+    {
+      "street_name": "AV DE CLICHY",
+      "sales": 557,
+      "median_price_per_sqm": 9591.836734693878
+    },
+    {
+      "street_name": "RUE DE LA JONQUIERE",
+      "sales": 538,
+      "median_price_per_sqm": 10722.996515679442
+    },
+    {
+      "street_name": "AV DES TERNES",
+      "sales": 511,
+      "median_price_per_sqm": 11748.666666666666
+    }
+  ]
+}

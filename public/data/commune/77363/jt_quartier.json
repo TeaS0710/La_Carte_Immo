@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 68,
+  "sales_delta_pct": 106.1,
+  "median_price": 232000.0,
+  "median_ppsqm": 3505.9889434889437,
+  "delta_ppsqm_pct": -2.7,
+  "notable_sales": [
+    {
+      "date": "2025-08-19",
+      "street": "RUE DE VERDUN",
+      "type": "Maison",
+      "surface": 180,
+      "price": 582000.0
+    },
+    {
+      "date": "2025-01-27",
+      "street": "RUE DE MONTZAIGLE",
+      "type": "Maison",
+      "surface": 200,
+      "price": 566120.0
+    },
+    {
+      "date": "2025-03-27",
+      "street": "RLE DU FOUR",
+      "type": "Maison",
+      "surface": 140,
+      "price": 415000.0
+    },
+    {
+      "date": "2025-07-29",
+      "street": "RUE COQUEBRUNE",
+      "type": "Maison",
+      "surface": 114,
+      "price": 414000.0
+    },
+    {
+      "date": "2025-02-07",
+      "street": "ALL DES PETITES ECURIES",
+      "type": "Maison",
+      "surface": 85,
+      "price": 339150.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:34:42.764030Z"
+}

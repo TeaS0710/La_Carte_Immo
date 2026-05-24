@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 267,
+  "sales_delta_pct": 13.6,
+  "median_price": 113000.0,
+  "median_ppsqm": 3214.285714285714,
+  "delta_ppsqm_pct": -3.6,
+  "notable_sales": [
+    {
+      "date": "2025-02-28",
+      "street": "RUE RENEE MONTGERMONT",
+      "type": "Maison",
+      "surface": 170,
+      "price": 930905.0
+    },
+    {
+      "date": "2025-06-06",
+      "street": "RUE PIERRE CLOIX",
+      "type": "Maison",
+      "surface": 200,
+      "price": 830000.0
+    },
+    {
+      "date": "2025-06-13",
+      "street": "RUE ORGIAZZI",
+      "type": "Maison",
+      "surface": 156,
+      "price": 660000.0
+    },
+    {
+      "date": "2025-07-23",
+      "street": "RUE DES CORMIERS",
+      "type": "Maison",
+      "surface": 160,
+      "price": 632400.0
+    },
+    {
+      "date": "2025-10-20",
+      "street": "RUE DU TROU DE LA VENTE",
+      "type": "Maison",
+      "surface": 168,
+      "price": 540000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:30:18.777435Z"
+}

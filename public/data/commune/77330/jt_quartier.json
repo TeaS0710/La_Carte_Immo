@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 397,
+  "sales_delta_pct": 47.6,
+  "median_price": 240000.0,
+  "median_ppsqm": 3030.3030303030305,
+  "delta_ppsqm_pct": 2.3,
+  "notable_sales": [
+    {
+      "date": "2025-11-13",
+      "street": "RUE JULES BLOT",
+      "type": "Maison",
+      "surface": 152,
+      "price": 600000.0
+    },
+    {
+      "date": "2025-12-09",
+      "street": "AV LOUISE MICHEL",
+      "type": "Maison",
+      "surface": 63,
+      "price": 500000.0
+    },
+    {
+      "date": "2025-10-02",
+      "street": "ALL DE LA PRAIRIE",
+      "type": "Maison",
+      "surface": 165,
+      "price": 455000.0
+    },
+    {
+      "date": "2025-12-29",
+      "street": "CHE DES BOURREES",
+      "type": "Maison",
+      "surface": 125,
+      "price": 450000.0
+    },
+    {
+      "date": "2025-02-14",
+      "street": "RUE JEAN BARRAUD",
+      "type": "Maison",
+      "surface": 161,
+      "price": 444000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:31:47.714205Z"
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Pommeuse",
+  "insee": "77371",
+  "generated_at": "2026-05-24T21:35:19.204684Z",
+  "total_sales": 1453,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 165,
+  "median_price": 230000.0,
+  "median_price_per_sqm": 2615.3846153846152,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 429,
+      "median_price": 322000.0
+    },
+    {
+      "year": 2022,
+      "sales": 277,
+      "median_price": 248000.0
+    },
+    {
+      "year": 2023,
+      "sales": 337,
+      "median_price": 170000.0
+    },
+    {
+      "year": 2024,
+      "sales": 186,
+      "median_price": 210000.0
+    },
+    {
+      "year": 2025,
+      "sales": 224,
+      "median_price": 220000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE PAUL NICLAUSSE",
+      "sales": 75,
+      "median_price_per_sqm": 2478.0172413793102
+    },
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 68,
+      "median_price_per_sqm": 2826.8150388936906
+    },
+    {
+      "street_name": "LE CHENE GRIS",
+      "sales": 49,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BERTRAND",
+      "sales": 48,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GODETS",
+      "sales": 45,
+      "median_price_per_sqm": 171.98511210232476
+    },
+    {
+      "street_name": "LA CLOSIERE",
+      "sales": 33,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE FAVIER",
+      "sales": 31,
+      "median_price_per_sqm": 6532.663316582914
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 31,
+      "median_price_per_sqm": 2500.0
+    },
+    {
+      "street_name": "RUE DE LA VALLEE",
+      "sales": 31,
+      "median_price_per_sqm": 2584.6875
+    },
+    {
+      "street_name": "RUE FONTENY",
+      "sales": 28,
+      "median_price_per_sqm": 3048.7804878048782
+    },
+    {
+      "street_name": "RUE DES CHARMES",
+      "sales": 23,
+      "median_price_per_sqm": 5351.923076923077
+    },
+    {
+      "street_name": "CHE DE MONTRENARD",
+      "sales": 21,
+      "median_price_per_sqm": 2760.294117647059
+    },
+    {
+      "street_name": "LES CHANOINES",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA CAVEE",
+      "sales": 20,
+      "median_price_per_sqm": 3518.5185185185187
+    },
+    {
+      "street_name": "LA BOBEE",
+      "sales": 20,
+      "median_price_per_sqm": 4032.2580645161293
+    }
+  ]
+}

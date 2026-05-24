@@ -1,0 +1,120 @@
+{
+  "commune": "Oissery",
+  "insee": "77344",
+  "generated_at": "2026-05-24T21:33:07.589135Z",
+  "total_sales": 389,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 47,
+  "median_price": 301900.0,
+  "median_price_per_sqm": 3097.1190476190477,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 110,
+      "median_price": 253900.0
+    },
+    {
+      "year": 2022,
+      "sales": 99,
+      "median_price": 305000.0
+    },
+    {
+      "year": 2023,
+      "sales": 42,
+      "median_price": 184500.0
+    },
+    {
+      "year": 2024,
+      "sales": 77,
+      "median_price": 303000.0
+    },
+    {
+      "year": 2025,
+      "sales": 61,
+      "median_price": 324000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE CHARLES HILDEVERT",
+      "sales": 42,
+      "median_price_per_sqm": 2852.3809523809523
+    },
+    {
+      "street_name": "RUE DE LA RAPERIE",
+      "sales": 35,
+      "median_price_per_sqm": 3521.7391304347825
+    },
+    {
+      "street_name": "RUE HENRI DUNANT",
+      "sales": 24,
+      "median_price_per_sqm": 3240.046296296296
+    },
+    {
+      "street_name": "RUE DE CONDE",
+      "sales": 20,
+      "median_price_per_sqm": 3476.190476190476
+    },
+    {
+      "street_name": "RUE QUINCAMPOIX",
+      "sales": 19,
+      "median_price_per_sqm": 2692.3076923076924
+    },
+    {
+      "street_name": "RUE DES FLANDRES",
+      "sales": 19,
+      "median_price_per_sqm": 3375.4045307443366
+    },
+    {
+      "street_name": "RUE JEAN DES BARRES",
+      "sales": 16,
+      "median_price_per_sqm": 1978.2608695652175
+    },
+    {
+      "street_name": "RUE GASTON FONTAINE",
+      "sales": 14,
+      "median_price_per_sqm": 3409.090909090909
+    },
+    {
+      "street_name": "RUE SAINT GERMAIN",
+      "sales": 14,
+      "median_price_per_sqm": 3350.609756097561
+    },
+    {
+      "street_name": "RUE DES ACACIAS",
+      "sales": 13,
+      "median_price_per_sqm": 2853.932584269663
+    },
+    {
+      "street_name": "RUE DU PONCET",
+      "sales": 12,
+      "median_price_per_sqm": 2247.0238095238096
+    },
+    {
+      "street_name": "RUE JEAN MOULIN",
+      "sales": 12,
+      "median_price_per_sqm": 2881.9444444444443
+    },
+    {
+      "street_name": "RUE CLAUDE MONET",
+      "sales": 12,
+      "median_price_per_sqm": 2690.058479532164
+    },
+    {
+      "street_name": "IMP DE LA PROCESSION",
+      "sales": 10,
+      "median_price_per_sqm": 3385.3333333333335
+    },
+    {
+      "street_name": "RUE DES TILLEULS",
+      "sales": 9,
+      "median_price_per_sqm": 2172.4137931034484
+    }
+  ]
+}

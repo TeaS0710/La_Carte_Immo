@@ -1,0 +1,120 @@
+{
+  "commune": "Nandy",
+  "insee": "77326",
+  "generated_at": "2026-05-24T21:31:18.807933Z",
+  "total_sales": 901,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 100,
+  "median_price": 277000.0,
+  "median_price_per_sqm": 3483.235545124813,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 99,
+      "median_price": 235000.0
+    },
+    {
+      "year": 2022,
+      "sales": 168,
+      "median_price": 230000.0
+    },
+    {
+      "year": 2023,
+      "sales": 96,
+      "median_price": 210000.0
+    },
+    {
+      "year": 2024,
+      "sales": 384,
+      "median_price": 10450000.0
+    },
+    {
+      "year": 2025,
+      "sales": 154,
+      "median_price": 215000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "PLE DES CHENES",
+      "sales": 244,
+      "median_price_per_sqm": 190000.0
+    },
+    {
+      "street_name": "AV DU PAVILLON ROYAL",
+      "sales": 102,
+      "median_price_per_sqm": 3650.862068965517
+    },
+    {
+      "street_name": "AV DU PAVILLON BOURET",
+      "sales": 44,
+      "median_price_per_sqm": 3737.1345029239765
+    },
+    {
+      "street_name": "RUE MERISIERS",
+      "sales": 38,
+      "median_price_per_sqm": 3458.9285714285716
+    },
+    {
+      "street_name": "PL DE LA MOISSON",
+      "sales": 27,
+      "median_price_per_sqm": 2434.2105263157896
+    },
+    {
+      "street_name": "CHE DES ACACIAS",
+      "sales": 23,
+      "median_price_per_sqm": 2500.0
+    },
+    {
+      "street_name": "LA FOSSE TURPIN",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE MORSANG",
+      "sales": 20,
+      "median_price_per_sqm": 3715.5963302752293
+    },
+    {
+      "street_name": "RUE DE LA POSTE",
+      "sales": 20,
+      "median_price_per_sqm": 3823.529411764706
+    },
+    {
+      "street_name": "CHE DES GRAINS",
+      "sales": 18,
+      "median_price_per_sqm": 2624.0
+    },
+    {
+      "street_name": "PROM DU BOIS",
+      "sales": 17,
+      "median_price_per_sqm": 2796.212121212121
+    },
+    {
+      "street_name": "RUE DE LA FAISANDERIE",
+      "sales": 13,
+      "median_price_per_sqm": 1950.561797752809
+    },
+    {
+      "street_name": "PROM DU RU",
+      "sales": 10,
+      "median_price_per_sqm": 2726.399331662489
+    },
+    {
+      "street_name": "RUE DE LA SERPENTINE",
+      "sales": 10,
+      "median_price_per_sqm": 3427.4274047186937
+    },
+    {
+      "street_name": "ALL DES MOUSSERONS",
+      "sales": 10,
+      "median_price_per_sqm": 3097.1326164874554
+    }
+  ]
+}

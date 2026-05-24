@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 5e Arrondissement",
+  "insee": "75105",
+  "generated_at": "2026-05-24T21:40:15.020095Z",
+  "total_sales": 10442,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 164,
+  "median_price": 545000.0,
+  "median_price_per_sqm": 12674.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1810,
+      "median_price": 550000.0
+    },
+    {
+      "year": 2022,
+      "sales": 2354,
+      "median_price": 550000.0
+    },
+    {
+      "year": 2023,
+      "sales": 2083,
+      "median_price": 542000.0
+    },
+    {
+      "year": 2024,
+      "sales": 2048,
+      "median_price": 545000.0
+    },
+    {
+      "year": 2025,
+      "sales": 2147,
+      "median_price": 531065.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE MONGE",
+      "sales": 593,
+      "median_price_per_sqm": 13003.113636363636
+    },
+    {
+      "street_name": "RUE SAINT JACQUES",
+      "sales": 544,
+      "median_price_per_sqm": 13084.11214953271
+    },
+    {
+      "street_name": "BD SAINT MICHEL",
+      "sales": 292,
+      "median_price_per_sqm": 14190.47619047619
+    },
+    {
+      "street_name": "RUE MOUFFETARD",
+      "sales": 270,
+      "median_price_per_sqm": 13834.24149956408
+    },
+    {
+      "street_name": "RUE CLAUDE BERNARD",
+      "sales": 245,
+      "median_price_per_sqm": 12006.993006993007
+    },
+    {
+      "street_name": "BD SAINT GERMAIN",
+      "sales": 240,
+      "median_price_per_sqm": 12942.857142857143
+    },
+    {
+      "street_name": "RUE DU CARDINAL LEMOINE",
+      "sales": 238,
+      "median_price_per_sqm": 13894.736842105263
+    },
+    {
+      "street_name": "BD DE PORT-ROYAL",
+      "sales": 230,
+      "median_price_per_sqm": 12622.083333333332
+    },
+    {
+      "street_name": "RUE POLIVEAU",
+      "sales": 220,
+      "median_price_per_sqm": 10600.240096038415
+    },
+    {
+      "street_name": "RUE GAY-LUSSAC",
+      "sales": 214,
+      "median_price_per_sqm": 13714.673913043478
+    },
+    {
+      "street_name": "BD DE L HOPITAL",
+      "sales": 199,
+      "median_price_per_sqm": 10586.866359447005
+    },
+    {
+      "street_name": "RUE LINNE",
+      "sales": 194,
+      "median_price_per_sqm": 11452.702702702703
+    },
+    {
+      "street_name": "RUE LACEPEDE",
+      "sales": 193,
+      "median_price_per_sqm": 12666.666666666666
+    },
+    {
+      "street_name": "RUE DES ECOLES",
+      "sales": 183,
+      "median_price_per_sqm": 11127.546296296296
+    },
+    {
+      "street_name": "RUE HENRI BARBUSSE",
+      "sales": 179,
+      "median_price_per_sqm": 13812.5
+    }
+  ]
+}

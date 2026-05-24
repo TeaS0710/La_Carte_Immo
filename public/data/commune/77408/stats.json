@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Fiacre",
+  "insee": "77408",
+  "generated_at": "2026-05-24T21:39:20.562546Z",
+  "total_sales": 119,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 15,
+  "median_price": 252500.0,
+  "median_price_per_sqm": 2976.470588235294,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 31,
+      "median_price": 292000.0
+    },
+    {
+      "year": 2022,
+      "sales": 21,
+      "median_price": 284850.0
+    },
+    {
+      "year": 2023,
+      "sales": 31,
+      "median_price": 208000.0
+    },
+    {
+      "year": 2024,
+      "sales": 10,
+      "median_price": 230000.0
+    },
+    {
+      "year": 2025,
+      "sales": 26,
+      "median_price": 160130.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "PL DE BREUIL",
+      "sales": 24,
+      "median_price_per_sqm": 4936.190476190476
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 20,
+      "median_price_per_sqm": 3129.050925925926
+    },
+    {
+      "street_name": "SAINT FIACRE",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES RELIGIEUX",
+      "sales": 14,
+      "median_price_per_sqm": 2760.0
+    },
+    {
+      "street_name": "RUE SAINT JEAN",
+      "sales": 12,
+      "median_price_per_sqm": 2620.3425925925926
+    },
+    {
+      "street_name": "RUE DE MEAUX",
+      "sales": 6,
+      "median_price_per_sqm": 1408.4507042253522
+    },
+    {
+      "street_name": "RUE DE LA GLAISIERE",
+      "sales": 6,
+      "median_price_per_sqm": 2038.235294117647
+    },
+    {
+      "street_name": "SEN AUX PIGEONS",
+      "sales": 4,
+      "median_price_per_sqm": 3170.731707317073
+    },
+    {
+      "street_name": "RUE LEON THUILLIER",
+      "sales": 4,
+      "median_price_per_sqm": 3354.1041041041044
+    },
+    {
+      "street_name": "RUE DU PRIEURE",
+      "sales": 4,
+      "median_price_per_sqm": 3456.6375968992247
+    },
+    {
+      "street_name": "IMP DU LAVOIR",
+      "sales": 3,
+      "median_price_per_sqm": 1625.0
+    },
+    {
+      "street_name": "RUE DU COLOMBIER",
+      "sales": 3,
+      "median_price_per_sqm": 1513.5135135135135
+    },
+    {
+      "street_name": "LES INGUEUSES",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PRES DES CHOFFATS",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "VIGNES DES PETITS PRES",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

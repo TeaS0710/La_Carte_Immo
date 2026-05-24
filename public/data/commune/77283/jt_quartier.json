@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 77,
+  "sales_delta_pct": 196.2,
+  "median_price": 160000.0,
+  "median_ppsqm": 2200.0,
+  "delta_ppsqm_pct": -19.0,
+  "notable_sales": [
+    {
+      "date": "2025-09-26",
+      "street": "RUE DE LA TETE AUX LOUPS",
+      "type": "Maison",
+      "surface": 122,
+      "price": 301200.0
+    },
+    {
+      "date": "2025-06-20",
+      "street": "IMP DE L OURCQ",
+      "type": "Maison",
+      "surface": 128,
+      "price": 280000.0
+    },
+    {
+      "date": "2025-11-29",
+      "street": "RUE DE GLATIGNY",
+      "type": "Maison",
+      "surface": 135,
+      "price": 250000.0
+    },
+    {
+      "date": "2025-02-05",
+      "street": "RUE DE LA FONTAINE AUX CHIENS",
+      "type": "Maison",
+      "surface": 100,
+      "price": 220000.0
+    },
+    {
+      "date": "2025-11-14",
+      "street": "RUE DU MOUTIER",
+      "type": "Maison",
+      "surface": 80,
+      "price": 217500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:26:15.472322Z"
+}

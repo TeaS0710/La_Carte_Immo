@@ -1,0 +1,120 @@
+{
+  "commune": "Meaux",
+  "insee": "77284",
+  "generated_at": "2026-05-24T21:26:55.419359Z",
+  "total_sales": 8765,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 376,
+  "median_price": 179000.0,
+  "median_price_per_sqm": 3206.1068702290077,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 2078,
+      "median_price": 177980.0
+    },
+    {
+      "year": 2022,
+      "sales": 1943,
+      "median_price": 185000.0
+    },
+    {
+      "year": 2023,
+      "sales": 1614,
+      "median_price": 180000.0
+    },
+    {
+      "year": 2024,
+      "sales": 1448,
+      "median_price": 164000.0
+    },
+    {
+      "year": 2025,
+      "sales": 1682,
+      "median_price": 181000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU MARECHAL FOCH",
+      "sales": 394,
+      "median_price_per_sqm": 3376.1792452830186
+    },
+    {
+      "street_name": "AV CLEMENCEAU",
+      "sales": 324,
+      "median_price_per_sqm": 2698.1132075471696
+    },
+    {
+      "street_name": "RUE DU FAUBOURG ST NICOLAS",
+      "sales": 234,
+      "median_price_per_sqm": 3571.4285714285716
+    },
+    {
+      "street_name": "RUE ARISTIDE BRIAND",
+      "sales": 218,
+      "median_price_per_sqm": 3570.8333333333335
+    },
+    {
+      "street_name": "RUE DE LA CRECHE",
+      "sales": 181,
+      "median_price_per_sqm": 3382.716049382716
+    },
+    {
+      "street_name": "RUE SEBASTIEN DE BROSSARD",
+      "sales": 143,
+      "median_price_per_sqm": 2018.867924528302
+    },
+    {
+      "street_name": "RUE LOUIS BLERIOT",
+      "sales": 139,
+      "median_price_per_sqm": 25482.040233614534
+    },
+    {
+      "street_name": "RUE DES CORDELIERS",
+      "sales": 138,
+      "median_price_per_sqm": 3472.9166666666665
+    },
+    {
+      "street_name": "AV JEAN HENRI DUNANT",
+      "sales": 138,
+      "median_price_per_sqm": 3234.6201743462016
+    },
+    {
+      "street_name": "AV DE LA CONCORDE",
+      "sales": 137,
+      "median_price_per_sqm": 1930.0373134328358
+    },
+    {
+      "street_name": "ALL DES PLATANES",
+      "sales": 126,
+      "median_price_per_sqm": 9090.90909090909
+    },
+    {
+      "street_name": "RUE SAINT FARON",
+      "sales": 125,
+      "median_price_per_sqm": 3397.4358974358975
+    },
+    {
+      "street_name": "RUE DE LA GRANDE ILE",
+      "sales": 125,
+      "median_price_per_sqm": 3460.861805201428
+    },
+    {
+      "street_name": "AV DE LA REPUBLIQUE",
+      "sales": 116,
+      "median_price_per_sqm": 3808.2820512820513
+    },
+    {
+      "street_name": "AV DE LA MARNE",
+      "sales": 114,
+      "median_price_per_sqm": 3450.4901960784314
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 97,
+  "sales_delta_pct": -31.2,
+  "median_price": 282000.0,
+  "median_ppsqm": 3195.8762886597938,
+  "delta_ppsqm_pct": -6.1,
+  "notable_sales": [
+    {
+      "date": "2025-12-03",
+      "street": "BD DE LA REPUBLIQUE",
+      "type": "Maison",
+      "surface": 267,
+      "price": 712600.0
+    },
+    {
+      "date": "2025-09-10",
+      "street": "RUE DU DOCTEUR ROUX",
+      "type": "Maison",
+      "surface": 202,
+      "price": 460000.0
+    },
+    {
+      "date": "2025-01-31",
+      "street": "ALL DE LA TERRASSE",
+      "type": "Maison",
+      "surface": 125,
+      "price": 425000.0
+    },
+    {
+      "date": "2025-07-04",
+      "street": "RUE DU DOCTEUR ROUX",
+      "type": "Maison",
+      "surface": 128,
+      "price": 390000.0
+    },
+    {
+      "date": "2025-03-12",
+      "street": "RUE DANIELLE CASANOVA",
+      "type": "Maison",
+      "surface": 79,
+      "price": 385000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:41:06.404075Z"
+}

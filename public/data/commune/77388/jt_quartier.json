@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 55,
+  "sales_delta_pct": -75.6,
+  "median_price": 269250.0,
+  "median_ppsqm": 2653.846153846154,
+  "delta_ppsqm_pct": -0.0,
+  "notable_sales": [
+    {
+      "date": "2025-07-01",
+      "street": "RUE ROGER SIMON",
+      "type": "Maison",
+      "surface": 130,
+      "price": 345000.0
+    },
+    {
+      "date": "2025-01-03",
+      "street": "RUE DU HUIT MAI 1945",
+      "type": "Maison",
+      "surface": 80,
+      "price": 298500.0
+    },
+    {
+      "date": "2025-08-14",
+      "street": "CHE DE LA CARRIERE",
+      "type": "Maison",
+      "surface": 94,
+      "price": 269250.0
+    },
+    {
+      "date": "2025-04-09",
+      "street": "RUE DE LA SAGETTE",
+      "type": "Maison",
+      "surface": 95,
+      "price": 265200.0
+    },
+    {
+      "date": "2025-04-30",
+      "street": "RUE DU COMMANDANT FROT",
+      "type": "Maison",
+      "surface": 103,
+      "price": 263000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:37:17.643320Z"
+}

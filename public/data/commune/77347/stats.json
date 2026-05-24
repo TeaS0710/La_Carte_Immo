@@ -1,0 +1,120 @@
+{
+  "commune": "Les Ormes-sur-Voulzie",
+  "insee": "77347",
+  "generated_at": "2026-05-24T21:33:21.708011Z",
+  "total_sales": 379,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 56,
+  "median_price": 78000.0,
+  "median_price_per_sqm": 1975.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 57,
+      "median_price": 65000.0
+    },
+    {
+      "year": 2022,
+      "sales": 84,
+      "median_price": 107500.0
+    },
+    {
+      "year": 2023,
+      "sales": 75,
+      "median_price": 86000.0
+    },
+    {
+      "year": 2024,
+      "sales": 55,
+      "median_price": 142000.0
+    },
+    {
+      "year": 2025,
+      "sales": 108,
+      "median_price": 7278.6
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "HAMEAU DU MOULIN D OCLE",
+      "sales": 32,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "COUTURE",
+      "sales": 29,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "GR GRANDE RUE DE COUTURE",
+      "sales": 28,
+      "median_price_per_sqm": 2076.923076923077
+    },
+    {
+      "street_name": "RUE DU MOULIN D OCLE",
+      "sales": 20,
+      "median_price_per_sqm": 1336.0655737704917
+    },
+    {
+      "street_name": "LE BOIS DE LA NOUE AUX VAC",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE NATIONALE",
+      "sales": 16,
+      "median_price_per_sqm": 2187.6750700280113
+    },
+    {
+      "street_name": "LES CHINTRES",
+      "sales": 13,
+      "median_price_per_sqm": 4782.608695652174
+    },
+    {
+      "street_name": "COUTON",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHAMBRY",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE HAUT DE CHATIVOT",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES SOIXANTE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES SARAZINS",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BAS DE CHATIVOT",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PAILLE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES SAUVAGEONS",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Mesmes",
+  "insee": "77427",
+  "generated_at": "2026-05-24T21:41:35.777100Z",
+  "total_sales": 118,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 26,
+  "median_price": 273000.0,
+  "median_price_per_sqm": 3244.2982456140353,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 18,
+      "median_price": 291000.0
+    },
+    {
+      "year": 2022,
+      "sales": 15,
+      "median_price": 510000.0
+    },
+    {
+      "year": 2023,
+      "sales": 35,
+      "median_price": 245000.0
+    },
+    {
+      "year": 2024,
+      "sales": 13,
+      "median_price": 163000.0
+    },
+    {
+      "year": 2025,
+      "sales": 37,
+      "median_price": 273000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE ROYALE",
+      "sales": 13,
+      "median_price_per_sqm": 1877.7777777777778
+    },
+    {
+      "street_name": "RUE DE VINEUIL",
+      "sales": 13,
+      "median_price_per_sqm": 3806.497778537252
+    },
+    {
+      "street_name": "RUE LOUIS LE PIEUX",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES TEMPLIERS",
+      "sales": 9,
+      "median_price_per_sqm": 3439.7163120567375
+    },
+    {
+      "street_name": "RUE DU LEVANT",
+      "sales": 9,
+      "median_price_per_sqm": 3238.095238095238
+    },
+    {
+      "street_name": "RUE BLANCHE DE CASTILLE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU FOUR",
+      "sales": 8,
+      "median_price_per_sqm": 2818.181818181818
+    },
+    {
+      "street_name": "RUE DE RICHEBOURG",
+      "sales": 4,
+      "median_price_per_sqm": 3472.1491228070176
+    },
+    {
+      "street_name": "FROID VENT",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA GRANGE AUX DIMES",
+      "sales": 4,
+      "median_price_per_sqm": 4410.897435897436
+    },
+    {
+      "street_name": "RUE DES CHEVALIERS",
+      "sales": 4,
+      "median_price_per_sqm": 3119.2542314631837
+    },
+    {
+      "street_name": "RUE DES MARTYRS",
+      "sales": 4,
+      "median_price_per_sqm": 3876.923076923077
+    },
+    {
+      "street_name": "SAINT-MESMES",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHATILLON",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PL SAINT JEAN",
+      "sales": 3,
+      "median_price_per_sqm": 2425.7425742574255
+    }
+  ]
+}

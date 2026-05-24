@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Mammès",
+  "insee": "77419",
+  "generated_at": "2026-05-24T21:40:43.219221Z",
+  "total_sales": 1001,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 72,
+  "median_price": 190000.0,
+  "median_price_per_sqm": 2639.320029563932,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 233,
+      "median_price": 160000.0
+    },
+    {
+      "year": 2022,
+      "sales": 314,
+      "median_price": 254000.0
+    },
+    {
+      "year": 2023,
+      "sales": 148,
+      "median_price": 215000.0
+    },
+    {
+      "year": 2024,
+      "sales": 133,
+      "median_price": 170000.0
+    },
+    {
+      "year": 2025,
+      "sales": 173,
+      "median_price": 190000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 120,
+      "median_price_per_sqm": 2727.2727272727275
+    },
+    {
+      "street_name": "RUE DU PORT DE LA CELLE",
+      "sales": 88,
+      "median_price_per_sqm": 2954.5454545454545
+    },
+    {
+      "street_name": "CITE DES GUETTES",
+      "sales": 79,
+      "median_price_per_sqm": 1595.959595959596
+    },
+    {
+      "street_name": "SAINT MAMMES",
+      "sales": 71,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "QUAI DU LOING",
+      "sales": 55,
+      "median_price_per_sqm": 2580.6451612903224
+    },
+    {
+      "street_name": "QUAI DE SEINE",
+      "sales": 43,
+      "median_price_per_sqm": 2541.666666666667
+    },
+    {
+      "street_name": "RUE GAMBETTA",
+      "sales": 41,
+      "median_price_per_sqm": 2818.181818181818
+    },
+    {
+      "street_name": "RUE DES PALOTTES",
+      "sales": 37,
+      "median_price_per_sqm": 2993.55580693816
+    },
+    {
+      "street_name": "PL DE LA GARE",
+      "sales": 23,
+      "median_price_per_sqm": 2388.8888888888887
+    },
+    {
+      "street_name": "RUE DES SABLONNIERES",
+      "sales": 22,
+      "median_price_per_sqm": 2677.956989247312
+    },
+    {
+      "street_name": "QUAI DE LA CROIX BLANCHE",
+      "sales": 21,
+      "median_price_per_sqm": 2553.014553014553
+    },
+    {
+      "street_name": "LA GARE",
+      "sales": 21,
+      "median_price_per_sqm": 21181.81818181818
+    },
+    {
+      "street_name": "RUE LA FONTAINE",
+      "sales": 19,
+      "median_price_per_sqm": 2847.222222222222
+    },
+    {
+      "street_name": "LES VARENNES",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES MONTIEVRES",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

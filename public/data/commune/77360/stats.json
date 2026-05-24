@@ -1,0 +1,120 @@
+{
+  "commune": "Pézarches",
+  "insee": "77360",
+  "generated_at": "2026-05-24T21:34:29.762933Z",
+  "total_sales": 119,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 21,
+  "median_price": 240000.0,
+  "median_price_per_sqm": 2446.6019417475727,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 24,
+      "median_price": 260000.0
+    },
+    {
+      "year": 2022,
+      "sales": 29,
+      "median_price": 282000.0
+    },
+    {
+      "year": 2023,
+      "sales": 23,
+      "median_price": 252000.0
+    },
+    {
+      "year": 2024,
+      "sales": 19,
+      "median_price": 240000.0
+    },
+    {
+      "year": 2025,
+      "sales": 24,
+      "median_price": 200000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE PROVINS",
+      "sales": 22,
+      "median_price_per_sqm": 2216.9811320754716
+    },
+    {
+      "street_name": "GRANDE RUE",
+      "sales": 19,
+      "median_price_per_sqm": 2598.888091822095
+    },
+    {
+      "street_name": "PEZARCHES",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "L EPINETTE",
+      "sales": 10,
+      "median_price_per_sqm": 2622.2943722943724
+    },
+    {
+      "street_name": "LES GRES",
+      "sales": 9,
+      "median_price_per_sqm": 1149.4252873563219
+    },
+    {
+      "street_name": "LES SABLES",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE AUX ANES",
+      "sales": 6,
+      "median_price_per_sqm": 3135.8024691358023
+    },
+    {
+      "street_name": "LA LONGUE RAIE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES USELLES",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA POIX",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "SEN DU PETIT PUITS",
+      "sales": 4,
+      "median_price_per_sqm": 4044.1176470588234
+    },
+    {
+      "street_name": "LA MALTOURNEE",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DES SABLES",
+      "sales": 3,
+      "median_price_per_sqm": 2342.3423423423424
+    },
+    {
+      "street_name": "RUE DU PAVE",
+      "sales": 3,
+      "median_price_per_sqm": 3159.7684210526318
+    },
+    {
+      "street_name": "CHE DE LUREAU",
+      "sales": 2,
+      "median_price_per_sqm": 2446.6019417475727
+    }
+  ]
+}

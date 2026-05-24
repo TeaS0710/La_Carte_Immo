@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 1597,
+  "sales_delta_pct": -3.5,
+  "median_price": 519000.0,
+  "median_ppsqm": 12149.689440993789,
+  "delta_ppsqm_pct": -4.5,
+  "notable_sales": [
+    {
+      "date": "2025-03-31",
+      "street": "RUE PERREE",
+      "type": "Appartement",
+      "surface": 156,
+      "price": 3264000.0
+    },
+    {
+      "date": "2025-09-22",
+      "street": "RUE DE TURENNE",
+      "type": "Appartement",
+      "surface": 200,
+      "price": 2882000.0
+    },
+    {
+      "date": "2025-03-11",
+      "street": "RUE VIEILLE DU TEMPLE",
+      "type": "Appartement",
+      "surface": 130,
+      "price": 2800000.0
+    },
+    {
+      "date": "2025-10-03",
+      "street": "RUE CHARLOT",
+      "type": "Appartement",
+      "surface": 160,
+      "price": 2366500.0
+    },
+    {
+      "date": "2025-07-21",
+      "street": "RUE COMMINES",
+      "type": "Appartement",
+      "surface": 148,
+      "price": 2360000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:39:59.590414Z"
+}

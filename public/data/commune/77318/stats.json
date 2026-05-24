@@ -1,0 +1,120 @@
+{
+  "commune": "Mortcerf",
+  "insee": "77318",
+  "generated_at": "2026-05-24T21:30:45.808972Z",
+  "total_sales": 346,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 35,
+  "median_price": 262500.0,
+  "median_price_per_sqm": 3000.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 101,
+      "median_price": 275500.0
+    },
+    {
+      "year": 2022,
+      "sales": 89,
+      "median_price": 200000.0
+    },
+    {
+      "year": 2023,
+      "sales": 60,
+      "median_price": 196000.0
+    },
+    {
+      "year": 2024,
+      "sales": 39,
+      "median_price": 305000.0
+    },
+    {
+      "year": 2025,
+      "sales": 57,
+      "median_price": 297000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU VINGT SEPT AOUT",
+      "sales": 101,
+      "median_price_per_sqm": 3372.5068649885584
+    },
+    {
+      "street_name": "MORTCERF",
+      "sales": 29,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES VALLEES",
+      "sales": 25,
+      "median_price_per_sqm": 3044.090909090909
+    },
+    {
+      "street_name": "RUE DU HUIT MAI 1945",
+      "sales": 23,
+      "median_price_per_sqm": 2952.690166975881
+    },
+    {
+      "street_name": "RUE DU VIEUX CHATEAU",
+      "sales": 17,
+      "median_price_per_sqm": 1754.3859649122808
+    },
+    {
+      "street_name": "RTE DE CREVECOEUR",
+      "sales": 17,
+      "median_price_per_sqm": 2915.173575425374
+    },
+    {
+      "street_name": "RUE DES GRIMOINS",
+      "sales": 14,
+      "median_price_per_sqm": 3161.2903225806454
+    },
+    {
+      "street_name": "RUE DE L EGALITE",
+      "sales": 11,
+      "median_price_per_sqm": 3231.7073170731705
+    },
+    {
+      "street_name": "LA MALMAISON",
+      "sales": 8,
+      "median_price_per_sqm": 4772.532188841202
+    },
+    {
+      "street_name": "AV DU GENERAL LECLERC",
+      "sales": 7,
+      "median_price_per_sqm": 3688.1720430107525
+    },
+    {
+      "street_name": "RUE DE LA FORET",
+      "sales": 7,
+      "median_price_per_sqm": 2980.4189435336975
+    },
+    {
+      "street_name": "RUE MAX NERAUD",
+      "sales": 7,
+      "median_price_per_sqm": 1337.719298245614
+    },
+    {
+      "street_name": "LES EGYPTES",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE DAMMARTIN",
+      "sales": 6,
+      "median_price_per_sqm": 2987.103317706455
+    },
+    {
+      "street_name": "AV DE LA GARE",
+      "sales": 6,
+      "median_price_per_sqm": 2207.7922077922076
+    }
+  ]
+}

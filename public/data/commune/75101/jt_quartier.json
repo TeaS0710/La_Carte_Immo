@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 731,
+  "sales_delta_pct": -2.8,
+  "median_price": 694250.0,
+  "median_ppsqm": 13125.0,
+  "delta_ppsqm_pct": -2.8,
+  "notable_sales": [
+    {
+      "date": "2025-03-17",
+      "street": "RUE DES PYRAMIDES",
+      "type": "Appartement",
+      "surface": 200,
+      "price": 3957913.8
+    },
+    {
+      "date": "2025-03-31",
+      "street": "RUE SAINT-HONORE",
+      "type": "Appartement",
+      "surface": 176,
+      "price": 3900000.0
+    },
+    {
+      "date": "2025-11-13",
+      "street": "RUE DU MONT-THABOR",
+      "type": "Appartement",
+      "surface": 200,
+      "price": 3750000.0
+    },
+    {
+      "date": "2025-07-07",
+      "street": "RUE D ALGER",
+      "type": "Appartement",
+      "surface": 185,
+      "price": 3522050.0
+    },
+    {
+      "date": "2025-09-30",
+      "street": "RUE DU VINGT-NEUF JUILLET",
+      "type": "Appartement",
+      "surface": 161,
+      "price": 3399000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:39:37.158345Z"
+}

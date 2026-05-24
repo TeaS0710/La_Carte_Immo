@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 11e Arrondissement",
+  "insee": "75111",
+  "generated_at": "2026-05-24T21:41:41.199154Z",
+  "total_sales": 30843,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 235,
+  "median_price": 439010.0,
+  "median_price_per_sqm": 10751.851851851852,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 5794,
+      "median_price": 434750.0
+    },
+    {
+      "year": 2022,
+      "sales": 7201,
+      "median_price": 477300.0
+    },
+    {
+      "year": 2023,
+      "sales": 5634,
+      "median_price": 410816.0
+    },
+    {
+      "year": 2024,
+      "sales": 6105,
+      "median_price": 440000.0
+    },
+    {
+      "year": 2025,
+      "sales": 6109,
+      "median_price": 427430.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "BD VOLTAIRE",
+      "sales": 1666,
+      "median_price_per_sqm": 10670.731707317073
+    },
+    {
+      "street_name": "RUE SAINT MAUR",
+      "sales": 1565,
+      "median_price_per_sqm": 10833.333333333334
+    },
+    {
+      "street_name": "RUE DU CHEMIN VERT",
+      "sales": 1220,
+      "median_price_per_sqm": 11403.125
+    },
+    {
+      "street_name": "AV PHILIPPE AUGUSTE",
+      "sales": 1073,
+      "median_price_per_sqm": 9555.555555555555
+    },
+    {
+      "street_name": "RUE OBERKAMPF",
+      "sales": 987,
+      "median_price_per_sqm": 10357.142857142857
+    },
+    {
+      "street_name": "RUE DE CHARONNE",
+      "sales": 938,
+      "median_price_per_sqm": 11233.695652173912
+    },
+    {
+      "street_name": "AV PARMENTIER",
+      "sales": 932,
+      "median_price_per_sqm": 10956.521739130434
+    },
+    {
+      "street_name": "RUE DE LA ROQUETTE",
+      "sales": 841,
+      "median_price_per_sqm": 11063.002008032128
+    },
+    {
+      "street_name": "BD RICHARD LENOIR",
+      "sales": 813,
+      "median_price_per_sqm": 11010.418083900226
+    },
+    {
+      "street_name": "AV DE LA REPUBLIQUE",
+      "sales": 745,
+      "median_price_per_sqm": 11144.53125
+    },
+    {
+      "street_name": "RUE DE MONTREUIL",
+      "sales": 704,
+      "median_price_per_sqm": 10416.666666666666
+    },
+    {
+      "street_name": "RUE DE LA FOLIE MERICOURT",
+      "sales": 601,
+      "median_price_per_sqm": 10625.0
+    },
+    {
+      "street_name": "RUE JEAN PIERRE TIMBAUD",
+      "sales": 564,
+      "median_price_per_sqm": 10971.820089955023
+    },
+    {
+      "street_name": "BD DE CHARONNE",
+      "sales": 542,
+      "median_price_per_sqm": 10000.0
+    },
+    {
+      "street_name": "RUE DU FBG ST ANTOINE",
+      "sales": 531,
+      "median_price_per_sqm": 10708.333333333334
+    }
+  ]
+}

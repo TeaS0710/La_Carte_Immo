@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 61,
+  "sales_delta_pct": -20.8,
+  "median_price": 324000.0,
+  "median_ppsqm": 3214.6810971579644,
+  "delta_ppsqm_pct": 19.4,
+  "notable_sales": [
+    {
+      "date": "2025-06-27",
+      "street": "RUE DE CONDE",
+      "type": "Maison",
+      "surface": 136,
+      "price": 445000.0
+    },
+    {
+      "date": "2025-12-05",
+      "street": "RUE CLAUDE MONET",
+      "type": "Maison",
+      "surface": 171,
+      "price": 418000.0
+    },
+    {
+      "date": "2025-11-13",
+      "street": "RUE CLAUDE MONET",
+      "type": "Maison",
+      "surface": 100,
+      "price": 395000.0
+    },
+    {
+      "date": "2025-10-30",
+      "street": "RUE QUINCAMPOIX",
+      "type": "Maison",
+      "surface": 142,
+      "price": 380000.0
+    },
+    {
+      "date": "2025-02-28",
+      "street": "RUE DE CONDE",
+      "type": "Maison",
+      "surface": 105,
+      "price": 365000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:33:07.586930Z"
+}

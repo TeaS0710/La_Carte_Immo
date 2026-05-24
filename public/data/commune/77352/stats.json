@@ -1,0 +1,120 @@
+{
+  "commune": "Ozouer-le-Voulgis",
+  "insee": "77352",
+  "generated_at": "2026-05-24T21:33:46.037868Z",
+  "total_sales": 524,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 63,
+  "median_price": 260000.0,
+  "median_price_per_sqm": 3015.4661016949153,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 129,
+      "median_price": 300000.0
+    },
+    {
+      "year": 2022,
+      "sales": 77,
+      "median_price": 255000.0
+    },
+    {
+      "year": 2023,
+      "sales": 129,
+      "median_price": 312000.0
+    },
+    {
+      "year": 2024,
+      "sales": 100,
+      "median_price": 260000.0
+    },
+    {
+      "year": 2025,
+      "sales": 89,
+      "median_price": 226215.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE JUDE DE CRENE",
+      "sales": 76,
+      "median_price_per_sqm": 3055.5555555555557
+    },
+    {
+      "street_name": "OZOUER LE VOULGIS",
+      "sales": 53,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "L ETANG",
+      "sales": 32,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA REPUBLIQUE",
+      "sales": 28,
+      "median_price_per_sqm": 2660.0877192982457
+    },
+    {
+      "street_name": "RAGEOT",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "AV DE LA GARE",
+      "sales": 23,
+      "median_price_per_sqm": 2842.8571428571427
+    },
+    {
+      "street_name": "LES ETARDS",
+      "sales": 16,
+      "median_price_per_sqm": 2173.684210526316
+    },
+    {
+      "street_name": "RUE DE LA MAIRIE",
+      "sales": 16,
+      "median_price_per_sqm": 2587.962962962963
+    },
+    {
+      "street_name": "LA GOULARDERIE",
+      "sales": 14,
+      "median_price_per_sqm": 9285.714285714286
+    },
+    {
+      "street_name": "RUE DE TROYES",
+      "sales": 14,
+      "median_price_per_sqm": 1811.8279569892472
+    },
+    {
+      "street_name": "JAMARD",
+      "sales": 14,
+      "median_price_per_sqm": 3879.310344827586
+    },
+    {
+      "street_name": "RUE GUY BOSSARD",
+      "sales": 12,
+      "median_price_per_sqm": 3016.7513611615245
+    },
+    {
+      "street_name": "RUE DE COURQUETAINE",
+      "sales": 11,
+      "median_price_per_sqm": 1934.7826086956522
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE",
+      "sales": 11,
+      "median_price_per_sqm": 2277.3809523809523
+    },
+    {
+      "street_name": "LA SABLIERE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

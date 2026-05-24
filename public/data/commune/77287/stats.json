@@ -1,0 +1,120 @@
+{
+  "commune": "Meilleray",
+  "insee": "77287",
+  "generated_at": "2026-05-24T21:27:25.016963Z",
+  "total_sales": 239,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 40,
+  "median_price": 140000.0,
+  "median_price_per_sqm": 1803.27868852459,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 55,
+      "median_price": 169000.0
+    },
+    {
+      "year": 2022,
+      "sales": 62,
+      "median_price": 110000.0
+    },
+    {
+      "year": 2023,
+      "sales": 26,
+      "median_price": 125000.0
+    },
+    {
+      "year": 2024,
+      "sales": 42,
+      "median_price": 126318.8
+    },
+    {
+      "year": 2025,
+      "sales": 54,
+      "median_price": 150000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE LA FERTE GAUCHER",
+      "sales": 17,
+      "median_price_per_sqm": 2155.1970048136923
+    },
+    {
+      "street_name": "MEILLERAY",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA MONTEE",
+      "sales": 17,
+      "median_price_per_sqm": 1735.7990012484395
+    },
+    {
+      "street_name": "RUE DU PETIT DOMART",
+      "sales": 16,
+      "median_price_per_sqm": 1165.983606557377
+    },
+    {
+      "street_name": "LA FONTAINE A MICHEL DOUBL",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE POT A BEURRE",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE MONTMITOU",
+      "sales": 12,
+      "median_price_per_sqm": 1834.9514563106795
+    },
+    {
+      "street_name": "LE BOIS SAINT PERE",
+      "sales": 11,
+      "median_price_per_sqm": 1370.8333333333335
+    },
+    {
+      "street_name": "RUE DE VILLENEUVE",
+      "sales": 10,
+      "median_price_per_sqm": 2126.21359223301
+    },
+    {
+      "street_name": "LES FONDS DE MONBERDIN",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CREUX",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE ALBERT BERTIN",
+      "sales": 9,
+      "median_price_per_sqm": 2061.7985125084515
+    },
+    {
+      "street_name": "LES BUTTES",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES PRES DU BIERE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU VEZIER",
+      "sales": 7,
+      "median_price_per_sqm": 1604.8648648648648
+    }
+  ]
+}

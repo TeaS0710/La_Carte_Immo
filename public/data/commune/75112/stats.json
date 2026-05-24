@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 12e Arrondissement",
+  "insee": "75112",
+  "generated_at": "2026-05-24T21:41:51.492166Z",
+  "total_sales": 23235,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 180,
+  "median_price": 456000.0,
+  "median_price_per_sqm": 9891.304347826086,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 4186,
+      "median_price": 450000.0
+    },
+    {
+      "year": 2022,
+      "sales": 5050,
+      "median_price": 454500.0
+    },
+    {
+      "year": 2023,
+      "sales": 4926,
+      "median_price": 490000.0
+    },
+    {
+      "year": 2024,
+      "sales": 4479,
+      "median_price": 455000.0
+    },
+    {
+      "year": 2025,
+      "sales": 4594,
+      "median_price": 434000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE CHARENTON",
+      "sales": 1495,
+      "median_price_per_sqm": 9990.065789473683
+    },
+    {
+      "street_name": "RUE DE PICPUS",
+      "sales": 1177,
+      "median_price_per_sqm": 9419.634582285185
+    },
+    {
+      "street_name": "AV DAUMESNIL",
+      "sales": 1010,
+      "median_price_per_sqm": 9638.6
+    },
+    {
+      "street_name": "AV DU DOC ARNOLD NETTER",
+      "sales": 1008,
+      "median_price_per_sqm": 17796.610169491527
+    },
+    {
+      "street_name": "AV DU GAL MICHEL BIZOT",
+      "sales": 825,
+      "median_price_per_sqm": 9589.29666734819
+    },
+    {
+      "street_name": "RUE DE REUILLY",
+      "sales": 715,
+      "median_price_per_sqm": 9354.083458154422
+    },
+    {
+      "street_name": "RUE DU FBG ST ANTOINE",
+      "sales": 711,
+      "median_price_per_sqm": 14344.262295081968
+    },
+    {
+      "street_name": "BD DE PICPUS",
+      "sales": 617,
+      "median_price_per_sqm": 9984.615384615385
+    },
+    {
+      "street_name": "RUE SIBUET",
+      "sales": 583,
+      "median_price_per_sqm": 835365.8536585366
+    },
+    {
+      "street_name": "BD DE REUILLY",
+      "sales": 530,
+      "median_price_per_sqm": 9714.285714285714
+    },
+    {
+      "street_name": "RUE DE WATTIGNIES",
+      "sales": 484,
+      "median_price_per_sqm": 9364.96212121212
+    },
+    {
+      "street_name": "AV DE SAINT-MANDE",
+      "sales": 478,
+      "median_price_per_sqm": 10108.108108108108
+    },
+    {
+      "street_name": "RUE CROZATIER",
+      "sales": 389,
+      "median_price_per_sqm": 11171.109123434704
+    },
+    {
+      "street_name": "BD DIDEROT",
+      "sales": 380,
+      "median_price_per_sqm": 10000.0
+    },
+    {
+      "street_name": "RUE CLAUDE DECAEN",
+      "sales": 362,
+      "median_price_per_sqm": 9186.119402985074
+    }
+  ]
+}

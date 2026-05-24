@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 3e Arrondissement",
+  "insee": "75103",
+  "generated_at": "2026-05-24T21:39:59.592980Z",
+  "total_sales": 8263,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 102,
+  "median_price": 595000.0,
+  "median_price_per_sqm": 12609.10973084886,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1518,
+      "median_price": 597181.5
+    },
+    {
+      "year": 2022,
+      "sales": 1814,
+      "median_price": 600091.0
+    },
+    {
+      "year": 2023,
+      "sales": 1679,
+      "median_price": 582150.0
+    },
+    {
+      "year": 2024,
+      "sales": 1655,
+      "median_price": 700000.0
+    },
+    {
+      "year": 2025,
+      "sales": 1597,
+      "median_price": 519000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU TEMPLE",
+      "sales": 435,
+      "median_price_per_sqm": 13235.29411764706
+    },
+    {
+      "street_name": "RUE NOTRE-DAME DE NAZARETH",
+      "sales": 401,
+      "median_price_per_sqm": 11545.092838196288
+    },
+    {
+      "street_name": "RUE DE TURENNE",
+      "sales": 400,
+      "median_price_per_sqm": 12519.23076923077
+    },
+    {
+      "street_name": "RUE SAINT MARTIN",
+      "sales": 338,
+      "median_price_per_sqm": 12500.0
+    },
+    {
+      "street_name": "RUE CHAPON",
+      "sales": 308,
+      "median_price_per_sqm": 12100.0
+    },
+    {
+      "street_name": "RUE VIEILLE DU TEMPLE",
+      "sales": 297,
+      "median_price_per_sqm": 14722.222222222223
+    },
+    {
+      "street_name": "BD BEAUMARCHAIS",
+      "sales": 258,
+      "median_price_per_sqm": 17165.997023809523
+    },
+    {
+      "street_name": "RUE CHARLOT",
+      "sales": 244,
+      "median_price_per_sqm": 12985.25974025974
+    },
+    {
+      "street_name": "RUE DES ARCHIVES",
+      "sales": 239,
+      "median_price_per_sqm": 16842.105263157893
+    },
+    {
+      "street_name": "RUE SAINT GILLES",
+      "sales": 236,
+      "median_price_per_sqm": 366502.1929824561
+    },
+    {
+      "street_name": "RUE DES GRAVILLIERS",
+      "sales": 225,
+      "median_price_per_sqm": 11744.186046511628
+    },
+    {
+      "street_name": "RUE MESLAY",
+      "sales": 213,
+      "median_price_per_sqm": 11713.333333333334
+    },
+    {
+      "street_name": "BD SAINT MARTIN",
+      "sales": 189,
+      "median_price_per_sqm": 8890.625
+    },
+    {
+      "street_name": "RUE DE SAINTONGE",
+      "sales": 188,
+      "median_price_per_sqm": 12068.965517241379
+    },
+    {
+      "street_name": "RUE AU MAIRE",
+      "sales": 171,
+      "median_price_per_sqm": 11730.76923076923
+    }
+  ]
+}

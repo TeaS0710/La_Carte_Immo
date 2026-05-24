@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { assetUrl, communeDataUrl } from "@/lib/url";
-import { History, Info, Box } from "lucide-react";
+import { History, Info, Box, Printer, Maximize2, Minimize2 } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
 import { DEFAULT_COMMUNE, type CommuneRef } from "@/lib/commune";
 import FiltersBubble from "@/components/carte/FiltersBubble";
@@ -65,6 +65,7 @@ export default function CarteClient({
   const [mounted, setMounted] = useState(false);
   const [hintDismissed, setHintDismissed] = useState(false);
   const [is3d, setIs3d] = useState(false);
+  const [presentation, setPresentation] = useState(false);
 
   // Quand on sélectionne un truc, on ferme tous les autres
   const handleStreet = (s: StreetProps | null) => {
@@ -93,7 +94,19 @@ export default function CarteClient({
   }, []);
 
   return (
-    <main className="relative w-full" style={{ height: "calc(100vh - 68px)" }}>
+    <main
+      className={`relative w-full ${presentation ? "presentation-mode" : ""}`}
+      style={{ height: "calc(100vh - 68px)" }}
+    >
+      {/* Bouton "Quitter présentation" visible uniquement en mode présentation */}
+      <button
+        type="button"
+        onClick={() => setPresentation(false)}
+        className="presentation-exit absolute top-4 right-4 z-30 items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-[color:var(--line)] text-[12px] text-ink font-medium shadow-md hover:bg-surface-warm transition"
+      >
+        <Minimize2 size={13} />
+        Quitter présentation
+      </button>
       {/* Bandeau "mode partiel" si la commune n'a pas encore les data avancées */}
       {isPartial && (
         <div className="absolute top-4 right-1/2 translate-x-1/2 z-30 sm:right-auto sm:left-1/2 sm:-translate-x-1/2 sm:top-20 bg-[color:var(--brand-soft)]/40 border border-[color:var(--brand-soft)] text-ink rounded-full px-3.5 py-1.5 text-[11px] font-medium shadow-sm">
@@ -150,6 +163,30 @@ export default function CarteClient({
       >
         <History size={17} />
         Historique
+      </button>
+
+      {/* Bouton Imprimer (sous Historique) */}
+      <button
+        type="button"
+        onClick={() => window.print()}
+        aria-label="Imprimer / Exporter PDF"
+        title="Imprimer ou exporter cette fiche en PDF"
+        className="absolute top-[248px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 no-presentation"
+      >
+        <Printer size={15} aria-hidden="true" />
+        PDF
+      </button>
+
+      {/* Toggle Présentation (sous PDF) */}
+      <button
+        type="button"
+        onClick={() => setPresentation(true)}
+        aria-label="Passer en mode présentation"
+        title="Plein écran simplifié pour RDV client"
+        className="absolute top-[300px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 no-presentation"
+      >
+        <Maximize2 size={15} aria-hidden="true" />
+        Mode présentation
       </button>
 
       {/* Toggle 3D — sous le bouton Historique */}

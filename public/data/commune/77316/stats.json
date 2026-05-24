@@ -1,0 +1,120 @@
+{
+  "commune": "Moret-Loing-et-Orvanne",
+  "insee": "77316",
+  "generated_at": "2026-05-24T21:30:30.863482Z",
+  "total_sales": 3529,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 369,
+  "median_price": 211498.0,
+  "median_price_per_sqm": 2913.3858267716537,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 891,
+      "median_price": 228000.0
+    },
+    {
+      "year": 2022,
+      "sales": 781,
+      "median_price": 160000.0
+    },
+    {
+      "year": 2023,
+      "sales": 753,
+      "median_price": 285000.0
+    },
+    {
+      "year": 2024,
+      "sales": 482,
+      "median_price": 208500.0
+    },
+    {
+      "year": 2025,
+      "sales": 622,
+      "median_price": 183000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RTE DE BOURGOGNE",
+      "sales": 168,
+      "median_price_per_sqm": 159324.3064516129
+    },
+    {
+      "street_name": "AV DE FONTAINEBLEAU VENEUX",
+      "sales": 116,
+      "median_price_per_sqm": 3200.0
+    },
+    {
+      "street_name": "AV DE LA GARE",
+      "sales": 76,
+      "median_price_per_sqm": 3137.9310344827586
+    },
+    {
+      "street_name": "LA VIEILLE ECLUSE",
+      "sales": 67,
+      "median_price_per_sqm": 9479.166666666668
+    },
+    {
+      "street_name": "RUE JEAN MOULIN",
+      "sales": 67,
+      "median_price_per_sqm": 1946.6666666666667
+    },
+    {
+      "street_name": "LES SABLONS",
+      "sales": 66,
+      "median_price_per_sqm": 2487.1794871794873
+    },
+    {
+      "street_name": "SAINT LAZARE",
+      "sales": 65,
+      "median_price_per_sqm": 640.0
+    },
+    {
+      "street_name": "RUE VICTOR HUGO",
+      "sales": 65,
+      "median_price_per_sqm": 2888.857808857809
+    },
+    {
+      "street_name": "RUE GEORGES VILLETTE",
+      "sales": 60,
+      "median_price_per_sqm": 2588.6524822695037
+    },
+    {
+      "street_name": "SQ CAHEN MICHEL",
+      "sales": 46,
+      "median_price_per_sqm": 2577.1188534717076
+    },
+    {
+      "street_name": "RUE DE LA LIBERTE",
+      "sales": 43,
+      "median_price_per_sqm": 3165.137614678899
+    },
+    {
+      "street_name": "BOIS DES BUTTES",
+      "sales": 40,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "VENEUX NADON",
+      "sales": 36,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE SEINE",
+      "sales": 35,
+      "median_price_per_sqm": 3234.817813765182
+    },
+    {
+      "street_name": "RUE SIMONE VEIL",
+      "sales": 34,
+      "median_price_per_sqm": 3378.0701754385964
+    }
+  ]
+}

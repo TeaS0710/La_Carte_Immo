@@ -1,0 +1,120 @@
+{
+  "commune": "Poigny",
+  "insee": "77368",
+  "generated_at": "2026-05-24T21:34:58.427671Z",
+  "total_sales": 123,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 34,
+  "median_price": 160500.0,
+  "median_price_per_sqm": 1877.0833333333333,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 15,
+      "median_price": 98100.0
+    },
+    {
+      "year": 2022,
+      "sales": 23,
+      "median_price": 150000.0
+    },
+    {
+      "year": 2023,
+      "sales": 25,
+      "median_price": 182500.0
+    },
+    {
+      "year": 2024,
+      "sales": 23,
+      "median_price": 149800.0
+    },
+    {
+      "year": 2025,
+      "sales": 37,
+      "median_price": 159000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "PRAIRIE DE POIGNY",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "GRANDE PRAIRIE",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "POIGNY",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE EDOUARD BRANLY",
+      "sales": 7,
+      "median_price_per_sqm": 2542.105263157895
+    },
+    {
+      "street_name": "CLOS FARIOT",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA MAIRIE",
+      "sales": 6,
+      "median_price_per_sqm": 1664.4444444444443
+    },
+    {
+      "street_name": "RAVIGNY",
+      "sales": 4,
+      "median_price_per_sqm": 461.53846153846155
+    },
+    {
+      "street_name": "RUE DU CLOS BERGER",
+      "sales": 4,
+      "median_price_per_sqm": 1910.112359550562
+    },
+    {
+      "street_name": "RTE DE LA FERME D'HENNEPONT",
+      "sales": 4,
+      "median_price_per_sqm": 2618.7179487179487
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE",
+      "sales": 4,
+      "median_price_per_sqm": 3785.714285714286
+    },
+    {
+      "street_name": "RUE LAMARTINE",
+      "sales": 4,
+      "median_price_per_sqm": 1500.0
+    },
+    {
+      "street_name": "RUE DU CLOS FARIOT",
+      "sales": 4,
+      "median_price_per_sqm": 3270.8333333333335
+    },
+    {
+      "street_name": "LE MEZ DE LA MADELEINE",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "AV DE POIGNY",
+      "sales": 3,
+      "median_price_per_sqm": 531.1077389984825
+    },
+    {
+      "street_name": "RUE DE LA ROSERAIE",
+      "sales": 3,
+      "median_price_per_sqm": 1966.1016949152543
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 234,
+  "sales_delta_pct": 28.6,
+  "median_price": 244195.0,
+  "median_ppsqm": 3300.970873786408,
+  "delta_ppsqm_pct": 4.8,
+  "notable_sales": [
+    {
+      "date": "2025-07-04",
+      "street": "RUE DE LA MARE BLANCHE",
+      "type": "Appartement",
+      "surface": 70,
+      "price": 1100000.0
+    },
+    {
+      "date": "2025-09-12",
+      "street": "RUE HENRI MENIER",
+      "type": "Maison",
+      "surface": 118,
+      "price": 405000.0
+    },
+    {
+      "date": "2025-07-31",
+      "street": "RUE HENRI MENIER",
+      "type": "Maison",
+      "surface": 125,
+      "price": 395000.0
+    },
+    {
+      "date": "2025-08-05",
+      "street": "ALL PAUL CEZANNE",
+      "type": "Maison",
+      "surface": 108,
+      "price": 380000.0
+    },
+    {
+      "date": "2025-05-21",
+      "street": "VLA DU MAINE",
+      "type": "Maison",
+      "surface": 122,
+      "price": 365000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:32:24.988837Z"
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Saâcy-sur-Marne",
+  "insee": "77397",
+  "generated_at": "2026-05-24T21:38:17.242997Z",
+  "total_sales": 1098,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 148,
+  "median_price": 119360.0,
+  "median_price_per_sqm": 2528.0898876404494,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 221,
+      "median_price": 169000.0
+    },
+    {
+      "year": 2022,
+      "sales": 257,
+      "median_price": 243450.0
+    },
+    {
+      "year": 2023,
+      "sales": 377,
+      "median_price": 20000.0
+    },
+    {
+      "year": 2024,
+      "sales": 131,
+      "median_price": 150000.0
+    },
+    {
+      "year": 2025,
+      "sales": 112,
+      "median_price": 160000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GEN LECLERC",
+      "sales": 78,
+      "median_price_per_sqm": 2727.2727272727275
+    },
+    {
+      "street_name": "LE RU PHILIPPE",
+      "sales": 43,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE VERDUN",
+      "sales": 33,
+      "median_price_per_sqm": 3215.909090909091
+    },
+    {
+      "street_name": "LES BOURDEAUX",
+      "sales": 32,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "SAACY",
+      "sales": 29,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU PONT",
+      "sales": 28,
+      "median_price_per_sqm": 2083.3333333333335
+    },
+    {
+      "street_name": "RUE DE CITRY",
+      "sales": 28,
+      "median_price_per_sqm": 2437.1134020618556
+    },
+    {
+      "street_name": "RUE CHEF DE VILLE",
+      "sales": 28,
+      "median_price_per_sqm": 2298.7012987012986
+    },
+    {
+      "street_name": "LES VOSTES",
+      "sales": 26,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES HAMEAUX",
+      "sales": 23,
+      "median_price_per_sqm": 1792.6829268292684
+    },
+    {
+      "street_name": "LE DESSUS DU BOIS JEANNIN",
+      "sales": 22,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA PLAGE",
+      "sales": 21,
+      "median_price_per_sqm": 3036.654135338346
+    },
+    {
+      "street_name": "LES ROYNES",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES LONGS SILLONS",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BOIS DENIS PASQUIER",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

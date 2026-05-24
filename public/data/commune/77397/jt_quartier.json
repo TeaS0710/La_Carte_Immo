@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 112,
+  "sales_delta_pct": -14.5,
+  "median_price": 160000.0,
+  "median_ppsqm": 2142.6470588235297,
+  "delta_ppsqm_pct": -10.5,
+  "notable_sales": [
+    {
+      "date": "2025-07-11",
+      "street": "RUE DES MONTGRISARDS",
+      "type": "Maison",
+      "surface": 180,
+      "price": 352900.0
+    },
+    {
+      "date": "2025-09-30",
+      "street": "CHE DES COUTURELLES",
+      "type": "Maison",
+      "surface": 113,
+      "price": 276100.0
+    },
+    {
+      "date": "2025-07-28",
+      "street": "RLE DE LA COUTURE",
+      "type": "Maison",
+      "surface": 103,
+      "price": 256720.0
+    },
+    {
+      "date": "2025-10-24",
+      "street": "RUE DU DOC DE SALIGNY",
+      "type": "Maison",
+      "surface": 150,
+      "price": 250000.0
+    },
+    {
+      "date": "2025-12-30",
+      "street": "RUE DU DOC DE SALIGNY",
+      "type": "Maison",
+      "surface": 80,
+      "price": 235000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:38:17.240750Z"
+}

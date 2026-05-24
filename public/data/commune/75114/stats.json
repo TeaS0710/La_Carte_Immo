@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 14e Arrondissement",
+  "insee": "75114",
+  "generated_at": "2026-05-24T21:42:12.235416Z",
+  "total_sales": 20933,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 232,
+  "median_price": 446500.0,
+  "median_price_per_sqm": 10350.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 3858,
+      "median_price": 470000.0
+    },
+    {
+      "year": 2022,
+      "sales": 4667,
+      "median_price": 519850.0
+    },
+    {
+      "year": 2023,
+      "sales": 4263,
+      "median_price": 410000.0
+    },
+    {
+      "year": 2024,
+      "sales": 3631,
+      "median_price": 390000.0
+    },
+    {
+      "year": 2025,
+      "sales": 4514,
+      "median_price": 445000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE D ALESIA",
+      "sales": 1049,
+      "median_price_per_sqm": 9808.148148148148
+    },
+    {
+      "street_name": "RUE DE LA TOMBE ISSOIRE",
+      "sales": 845,
+      "median_price_per_sqm": 9133.928571428572
+    },
+    {
+      "street_name": "AV DU GENERAL LECLERC",
+      "sales": 795,
+      "median_price_per_sqm": 10420.273631840795
+    },
+    {
+      "street_name": "RUE DES PLANTES",
+      "sales": 743,
+      "median_price_per_sqm": 17244.545454545456
+    },
+    {
+      "street_name": "AV DU MAINE",
+      "sales": 718,
+      "median_price_per_sqm": 12015.350877192983
+    },
+    {
+      "street_name": "RUE RAYMOND LOSSERAND",
+      "sales": 552,
+      "median_price_per_sqm": 9464.285714285714
+    },
+    {
+      "street_name": "RUE DIDOT",
+      "sales": 497,
+      "median_price_per_sqm": 10441.176470588236
+    },
+    {
+      "street_name": "RUE LOUIS MORARD",
+      "sales": 382,
+      "median_price_per_sqm": 11995.978863478864
+    },
+    {
+      "street_name": "RUE DAGUERRE",
+      "sales": 337,
+      "median_price_per_sqm": 10250.0
+    },
+    {
+      "street_name": "RUE DU PERE CORENTIN",
+      "sales": 329,
+      "median_price_per_sqm": 10976.479915433403
+    },
+    {
+      "street_name": "BD DU MONTPARNASSE",
+      "sales": 302,
+      "median_price_per_sqm": 12042.263157894737
+    },
+    {
+      "street_name": "RUE SARRETTE",
+      "sales": 293,
+      "median_price_per_sqm": 10024.45945945946
+    },
+    {
+      "street_name": "AV JEAN MOULIN",
+      "sales": 288,
+      "median_price_per_sqm": 9092.622950819672
+    },
+    {
+      "street_name": "BD BRUNE",
+      "sales": 285,
+      "median_price_per_sqm": 9115.625
+    },
+    {
+      "street_name": "RUE EMILE DUBOIS",
+      "sales": 285,
+      "median_price_per_sqm": 9369.72972972973
+    }
+  ]
+}

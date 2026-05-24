@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 9e Arrondissement",
+  "insee": "75109",
+  "generated_at": "2026-05-24T21:41:18.122362Z",
+  "total_sales": 16034,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 163,
+  "median_price": 660000.0,
+  "median_price_per_sqm": 11932.159090909092,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 3177,
+      "median_price": 640000.0
+    },
+    {
+      "year": 2022,
+      "sales": 3517,
+      "median_price": 664000.0
+    },
+    {
+      "year": 2023,
+      "sales": 3318,
+      "median_price": 810000.0
+    },
+    {
+      "year": 2024,
+      "sales": 2633,
+      "median_price": 550000.0
+    },
+    {
+      "year": 2025,
+      "sales": 3389,
+      "median_price": 682000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE LAFERRIERE",
+      "sales": 678,
+      "median_price_per_sqm": 341964.28571428574
+    },
+    {
+      "street_name": "RUE DE ROCHECHOUART",
+      "sales": 475,
+      "median_price_per_sqm": 11511.391304347826
+    },
+    {
+      "street_name": "RUE JEAN-BAPTISTE PIGALLE",
+      "sales": 447,
+      "median_price_per_sqm": 11373.626373626374
+    },
+    {
+      "street_name": "RUE DES MARTYRS",
+      "sales": 440,
+      "median_price_per_sqm": 12368.421052631578
+    },
+    {
+      "street_name": "RUE SAINT-LAZARE",
+      "sales": 424,
+      "median_price_per_sqm": 12845.238095238095
+    },
+    {
+      "street_name": "RUE CONDORCET",
+      "sales": 418,
+      "median_price_per_sqm": 11393.103448275862
+    },
+    {
+      "street_name": "RUE DU FG POISSONNIERE",
+      "sales": 402,
+      "median_price_per_sqm": 11946.361912846633
+    },
+    {
+      "street_name": "RUE DE CLICHY",
+      "sales": 402,
+      "median_price_per_sqm": 11433.333333333332
+    },
+    {
+      "street_name": "RUE TAITBOUT",
+      "sales": 388,
+      "median_price_per_sqm": 1811111.111111111
+    },
+    {
+      "street_name": "RUE BLANCHE",
+      "sales": 382,
+      "median_price_per_sqm": 11611.111111111111
+    },
+    {
+      "street_name": "RUE DE MAUBEUGE",
+      "sales": 343,
+      "median_price_per_sqm": 11366.666666666666
+    },
+    {
+      "street_name": "RUE DE DOUAI",
+      "sales": 279,
+      "median_price_per_sqm": 11774.32523616734
+    },
+    {
+      "street_name": "RUE PIERRE FONTAINE",
+      "sales": 277,
+      "median_price_per_sqm": 11054.794520547945
+    },
+    {
+      "street_name": "RUE M. ELEONORE DE BELLEFOND",
+      "sales": 273,
+      "median_price_per_sqm": 12784.749034749035
+    },
+    {
+      "street_name": "RUE DE DUNKERQUE",
+      "sales": 273,
+      "median_price_per_sqm": 10882.775119617225
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Germain-sur-École",
+  "insee": "77412",
+  "generated_at": "2026-05-24T21:39:55.778667Z",
+  "total_sales": 135,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 20,
+  "median_price": 282500.0,
+  "median_price_per_sqm": 3011.5671641791046,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 54,
+      "median_price": 342450.0
+    },
+    {
+      "year": 2022,
+      "sales": 28,
+      "median_price": 270000.0
+    },
+    {
+      "year": 2023,
+      "sales": 31,
+      "median_price": 381800.0
+    },
+    {
+      "year": 2024,
+      "sales": 4,
+      "median_price": 403550.0
+    },
+    {
+      "year": 2025,
+      "sales": 18,
+      "median_price": 269000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE LA FERTE ALAIS",
+      "sales": 19,
+      "median_price_per_sqm": 3349.206349206349
+    },
+    {
+      "street_name": "LA RIONNERIE",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE DANNEMOIS",
+      "sales": 18,
+      "median_price_per_sqm": 3693.3333333333335
+    },
+    {
+      "street_name": "RUE DE LA MAIRIE",
+      "sales": 13,
+      "median_price_per_sqm": 2666.9117647058824
+    },
+    {
+      "street_name": "LES SABLES",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE MELUN",
+      "sales": 8,
+      "median_price_per_sqm": 2202.1276595744685
+    },
+    {
+      "street_name": "LE FIEF DU SAULT",
+      "sales": 8,
+      "median_price_per_sqm": 2224.4094488188975
+    },
+    {
+      "street_name": "SAINT GERMAIN SUR ECOLE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES PRES",
+      "sales": 7,
+      "median_price_per_sqm": 2663.358778625954
+    },
+    {
+      "street_name": "RUE DE SAINT SAUVEUR",
+      "sales": 6,
+      "median_price_per_sqm": 4647.113022113022
+    },
+    {
+      "street_name": "RUE DE FONTAINEBLEAU",
+      "sales": 4,
+      "median_price_per_sqm": 4024.8447204968943
+    },
+    {
+      "street_name": "CHE DES VALLEES",
+      "sales": 3,
+      "median_price_per_sqm": 3011.5671641791046
+    },
+    {
+      "street_name": "RUE DE L ECOLE",
+      "sales": 2,
+      "median_price_per_sqm": 1840.909090909091
+    },
+    {
+      "street_name": "RESIDENCE MALITOUCHE",
+      "sales": 2,
+      "median_price_per_sqm": 3150.0
+    },
+    {
+      "street_name": "LA GARENNE",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

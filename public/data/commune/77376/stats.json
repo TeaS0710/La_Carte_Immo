@@ -1,0 +1,120 @@
+{
+  "commune": "Précy-sur-Marne",
+  "insee": "77376",
+  "generated_at": "2026-05-24T21:35:52.226253Z",
+  "total_sales": 223,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 24,
+  "median_price": 277000.0,
+  "median_price_per_sqm": 3166.6666666666665,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 45,
+      "median_price": 288000.0
+    },
+    {
+      "year": 2022,
+      "sales": 46,
+      "median_price": 280000.0
+    },
+    {
+      "year": 2023,
+      "sales": 20,
+      "median_price": 52355.0
+    },
+    {
+      "year": 2024,
+      "sales": 47,
+      "median_price": 266000.0
+    },
+    {
+      "year": 2025,
+      "sales": 65,
+      "median_price": 327000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE VERDUN",
+      "sales": 63,
+      "median_price_per_sqm": 3414.285714285714
+    },
+    {
+      "street_name": "LE VILLAGE",
+      "sales": 34,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DES LARRIS",
+      "sales": 25,
+      "median_price_per_sqm": 3146.1696428571427
+    },
+    {
+      "street_name": "RLE DU CIMETIERE",
+      "sales": 25,
+      "median_price_per_sqm": 8861.111111111111
+    },
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 17,
+      "median_price_per_sqm": 3195.8333333333335
+    },
+    {
+      "street_name": "RUE DES GRES",
+      "sales": 9,
+      "median_price_per_sqm": 3316.827664399093
+    },
+    {
+      "street_name": "RUE DE LA PETITE CANTATE",
+      "sales": 7,
+      "median_price_per_sqm": 3257.0
+    },
+    {
+      "street_name": "LES HAUTS PARRES",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RLE DE LA MAIRIE",
+      "sales": 4,
+      "median_price_per_sqm": 3500.0
+    },
+    {
+      "street_name": "GRANDE RUE",
+      "sales": 4,
+      "median_price_per_sqm": 2800.0
+    },
+    {
+      "street_name": "LES PIGNONS",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PORT DE JABLINES",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DU PATIS",
+      "sales": 4,
+      "median_price_per_sqm": 2380.952380952381
+    },
+    {
+      "street_name": "LES AJOUX DE LA GRESY",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU BAC",
+      "sales": 2,
+      "median_price_per_sqm": 1401.8691588785048
+    }
+  ]
+}

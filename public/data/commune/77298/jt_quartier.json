@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 24,
+  "sales_delta_pct": -4.0,
+  "median_price": 233750.0,
+  "median_ppsqm": 2025.0,
+  "delta_ppsqm_pct": 26.9,
+  "notable_sales": [
+    {
+      "date": "2025-03-28",
+      "street": "RUE DE LA FONTAINE DU VILLE",
+      "type": "Maison",
+      "surface": 133,
+      "price": 272000.0
+    },
+    {
+      "date": "2025-04-29",
+      "street": "RUE DU CALVAIRE",
+      "type": "Maison",
+      "surface": 120,
+      "price": 243000.0
+    },
+    {
+      "date": "2025-07-29",
+      "street": "RUE DES REMPARTS",
+      "type": "Maison",
+      "surface": 110,
+      "price": 240000.0
+    },
+    {
+      "date": "2025-07-28",
+      "street": "RUE DU COURTEPINOT",
+      "type": "Maison",
+      "surface": 130,
+      "price": 227500.0
+    },
+    {
+      "date": "2025-12-23",
+      "street": "RUE DU CALVAIRE",
+      "type": "Maison",
+      "surface": 114,
+      "price": 185000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:29:03.491706Z"
+}

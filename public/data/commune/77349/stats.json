@@ -1,0 +1,120 @@
+{
+  "commune": "Othis",
+  "insee": "77349",
+  "generated_at": "2026-05-24T21:33:28.842781Z",
+  "total_sales": 1213,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 108,
+  "median_price": 313000.0,
+  "median_price_per_sqm": 3303.6461775721527,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 265,
+      "median_price": 313000.0
+    },
+    {
+      "year": 2022,
+      "sales": 345,
+      "median_price": 340000.0
+    },
+    {
+      "year": 2023,
+      "sales": 173,
+      "median_price": 342000.0
+    },
+    {
+      "year": 2024,
+      "sales": 184,
+      "median_price": 293000.0
+    },
+    {
+      "year": 2025,
+      "sales": 246,
+      "median_price": 275000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU HUIT MAI 1945",
+      "sales": 98,
+      "median_price_per_sqm": 115588.25579573934
+    },
+    {
+      "street_name": "RUE GERARD DE NERVAL",
+      "sales": 76,
+      "median_price_per_sqm": 3515.8562367864697
+    },
+    {
+      "street_name": "RUE PIERRE AUGUSTIN CARON",
+      "sales": 73,
+      "median_price_per_sqm": 3197.6744186046512
+    },
+    {
+      "street_name": "LA JALAISE",
+      "sales": 54,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "AV DES CHATAIGNIERS",
+      "sales": 39,
+      "median_price_per_sqm": 3146.067415730337
+    },
+    {
+      "street_name": "RUE DU SAUT DE LA PIERRE",
+      "sales": 38,
+      "median_price_per_sqm": 3325.8426966292136
+    },
+    {
+      "street_name": "RUE DE LA NUIT DU 4 AOUT",
+      "sales": 35,
+      "median_price_per_sqm": 3716.021825396825
+    },
+    {
+      "street_name": "RUE DE LA MAIN ENCHANTEE",
+      "sales": 33,
+      "median_price_per_sqm": 3659.966777408638
+    },
+    {
+      "street_name": "AV DE LA HERSE D OR",
+      "sales": 32,
+      "median_price_per_sqm": 3026.096056400088
+    },
+    {
+      "street_name": "AV DES TROIS ARPENTS",
+      "sales": 29,
+      "median_price_per_sqm": 2676.190476190476
+    },
+    {
+      "street_name": "RUE DES PLATINIERES",
+      "sales": 26,
+      "median_price_per_sqm": 2960.030165912519
+    },
+    {
+      "street_name": "RUE DU VEAUMOIST",
+      "sales": 23,
+      "median_price_per_sqm": 2663.793103448276
+    },
+    {
+      "street_name": "RUE DE LA PIERRE MON CONSEIL",
+      "sales": 21,
+      "median_price_per_sqm": 3076.923076923077
+    },
+    {
+      "street_name": "BOIS DE L HOPITAL",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA BOHEME GALANTE",
+      "sales": 21,
+      "median_price_per_sqm": 3294.886363636364
+    }
+  ]
+}

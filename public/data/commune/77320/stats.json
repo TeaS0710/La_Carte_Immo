@@ -1,0 +1,120 @@
+{
+  "commune": "Mouroux",
+  "insee": "77320",
+  "generated_at": "2026-05-24T21:30:53.803709Z",
+  "total_sales": 1585,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 169,
+  "median_price": 229150.0,
+  "median_price_per_sqm": 2694.0950226244345,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 391,
+      "median_price": 205000.0
+    },
+    {
+      "year": 2022,
+      "sales": 373,
+      "median_price": 243000.0
+    },
+    {
+      "year": 2023,
+      "sales": 314,
+      "median_price": 237000.0
+    },
+    {
+      "year": 2024,
+      "sales": 234,
+      "median_price": 245000.0
+    },
+    {
+      "year": 2025,
+      "sales": 273,
+      "median_price": 209000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GENERAL DE GAULLE",
+      "sales": 87,
+      "median_price_per_sqm": 2764.252112462006
+    },
+    {
+      "street_name": "RUE DU LIETON",
+      "sales": 76,
+      "median_price_per_sqm": 2353.4693877551017
+    },
+    {
+      "street_name": "RUE DU CHATEAU",
+      "sales": 75,
+      "median_price_per_sqm": 2695.8823529411766
+    },
+    {
+      "street_name": "RUE DE GIREMOUTIERS",
+      "sales": 45,
+      "median_price_per_sqm": 2901.7611336032387
+    },
+    {
+      "street_name": "AV DU MARECHAL LECLERC",
+      "sales": 41,
+      "median_price_per_sqm": 2554.3478260869565
+    },
+    {
+      "street_name": "RUE MICHELET",
+      "sales": 40,
+      "median_price_per_sqm": 2600.0
+    },
+    {
+      "street_name": "LE BOIS CAUSSIEN",
+      "sales": 39,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES BOIS GALLOIS",
+      "sales": 35,
+      "median_price_per_sqm": 2092.829528718704
+    },
+    {
+      "street_name": "LES PARRICHETS",
+      "sales": 32,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES MERISIERS",
+      "sales": 31,
+      "median_price_per_sqm": 2704.225352112676
+    },
+    {
+      "street_name": "RUE DE BOIS-GUYOT",
+      "sales": 30,
+      "median_price_per_sqm": 2555.5555555555557
+    },
+    {
+      "street_name": "RUE DU MONT-RENARD",
+      "sales": 25,
+      "median_price_per_sqm": 2232.2580645161293
+    },
+    {
+      "street_name": "AV DE LA GARE",
+      "sales": 24,
+      "median_price_per_sqm": 2707.746823069404
+    },
+    {
+      "street_name": "LE BOISSELET",
+      "sales": 24,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA CAPUCINERIE",
+      "sales": 22,
+      "median_price_per_sqm": 2420.4545454545455
+    }
+  ]
+}

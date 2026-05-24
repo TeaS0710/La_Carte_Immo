@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Soupplets",
+  "insee": "77437",
+  "generated_at": "2026-05-24T21:43:09.939225Z",
+  "total_sales": 596,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 91,
+  "median_price": 259500.0,
+  "median_price_per_sqm": 2981.4814814814813,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 118,
+      "median_price": 275000.0
+    },
+    {
+      "year": 2022,
+      "sales": 129,
+      "median_price": 293000.0
+    },
+    {
+      "year": 2023,
+      "sales": 113,
+      "median_price": 281000.0
+    },
+    {
+      "year": 2024,
+      "sales": 158,
+      "median_price": 220000.0
+    },
+    {
+      "year": 2025,
+      "sales": 78,
+      "median_price": 250000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU GENERAL MAUNOURY",
+      "sales": 93,
+      "median_price_per_sqm": 2995.2380952380954
+    },
+    {
+      "street_name": "RUE DU BOURGET",
+      "sales": 32,
+      "median_price_per_sqm": 4626.865671641791
+    },
+    {
+      "street_name": "RUE SAINT SULPICE",
+      "sales": 27,
+      "median_price_per_sqm": 3472.222222222222
+    },
+    {
+      "street_name": "RUE DE CHAUMONT",
+      "sales": 24,
+      "median_price_per_sqm": 2656.0
+    },
+    {
+      "street_name": "RUE DES PANOUFLES",
+      "sales": 22,
+      "median_price_per_sqm": 2635.576923076923
+    },
+    {
+      "street_name": "SAINT SOUPPLETS",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU MARECHAL GALLIENI",
+      "sales": 20,
+      "median_price_per_sqm": 3463.541666666667
+    },
+    {
+      "street_name": "RUE DE LA CHEVEE",
+      "sales": 17,
+      "median_price_per_sqm": 2981.4814814814813
+    },
+    {
+      "street_name": "RUE DU BUAT",
+      "sales": 15,
+      "median_price_per_sqm": 3054.434250764526
+    },
+    {
+      "street_name": "RUE DU 5 SEPTEMBRE 1914",
+      "sales": 15,
+      "median_price_per_sqm": 3948.660714285714
+    },
+    {
+      "street_name": "RUE DE L ORME AU LEU",
+      "sales": 13,
+      "median_price_per_sqm": 2572.8155339805826
+    },
+    {
+      "street_name": "RUE DES DEMOISELLES",
+      "sales": 13,
+      "median_price_per_sqm": 2369.7017268445843
+    },
+    {
+      "street_name": "RUE DU TOUARTE",
+      "sales": 13,
+      "median_price_per_sqm": 2813.9044943820227
+    },
+    {
+      "street_name": "RUE DE LA MALADRERIE",
+      "sales": 12,
+      "median_price_per_sqm": 3043.478260869565
+    },
+    {
+      "street_name": "COUR DU COLOMBIER",
+      "sales": 12,
+      "median_price_per_sqm": 2872.0
+    }
+  ]
+}

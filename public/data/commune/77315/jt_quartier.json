@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 145,
+  "sales_delta_pct": -2.0,
+  "median_price": 321693.59,
+  "median_ppsqm": 3542.5641025641025,
+  "delta_ppsqm_pct": 1.2,
+  "notable_sales": [
+    {
+      "date": "2025-09-30",
+      "street": "RUE DE LA DHUYS",
+      "type": "Maison",
+      "surface": 250,
+      "price": 644000.0
+    },
+    {
+      "date": "2025-09-01",
+      "street": "CHE DE SAINT MAUR",
+      "type": "Maison",
+      "surface": 164,
+      "price": 597675.0
+    },
+    {
+      "date": "2025-01-13",
+      "street": "RUE MARCEL ANDRIEUX",
+      "type": "Maison",
+      "surface": 173,
+      "price": 574000.0
+    },
+    {
+      "date": "2025-10-31",
+      "street": "RUE DU CLOS",
+      "type": "Maison",
+      "surface": 154,
+      "price": 522500.0
+    },
+    {
+      "date": "2025-09-19",
+      "street": "IMP DU FRENE",
+      "type": "Maison",
+      "surface": 113,
+      "price": 476500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:30:26.191858Z"
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 215,
+  "sales_delta_pct": 14.4,
+  "median_price": 263000.0,
+  "median_ppsqm": 3240.9638554216867,
+  "delta_ppsqm_pct": -4.0,
+  "notable_sales": [
+    {
+      "date": "2025-07-01",
+      "street": "RUE DE HUIRY",
+      "type": "Maison",
+      "surface": 218,
+      "price": 934500.0
+    },
+    {
+      "date": "2025-12-22",
+      "street": "AV FOCH",
+      "type": "Maison",
+      "surface": 326,
+      "price": 600000.0
+    },
+    {
+      "date": "2025-06-27",
+      "street": "CHE DE HUIRY",
+      "type": "Maison",
+      "surface": 137,
+      "price": 596340.0
+    },
+    {
+      "date": "2025-02-20",
+      "street": "SEN DES QUARTERONS",
+      "type": "Maison",
+      "surface": 149,
+      "price": 534000.0
+    },
+    {
+      "date": "2025-07-16",
+      "street": "RUE DE CRECY",
+      "type": "Maison",
+      "surface": 152,
+      "price": 530800.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:36:32.028098Z"
+}

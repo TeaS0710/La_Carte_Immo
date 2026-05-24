@@ -1,0 +1,120 @@
+{
+  "commune": "Provins",
+  "insee": "77379",
+  "generated_at": "2026-05-24T21:36:17.969481Z",
+  "total_sales": 2395,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 206,
+  "median_price": 160000.0,
+  "median_price_per_sqm": 2333.3333333333335,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 506,
+      "median_price": 150000.0
+    },
+    {
+      "year": 2022,
+      "sales": 633,
+      "median_price": 216500.0
+    },
+    {
+      "year": 2023,
+      "sales": 395,
+      "median_price": 148000.0
+    },
+    {
+      "year": 2024,
+      "sales": 427,
+      "median_price": 130000.0
+    },
+    {
+      "year": 2025,
+      "sales": 434,
+      "median_price": 162500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU DOCTEUR SCHWEITZER",
+      "sales": 191,
+      "median_price_per_sqm": 2092.5925925925926
+    },
+    {
+      "street_name": "RTE DE BRAY",
+      "sales": 121,
+      "median_price_per_sqm": 1817.7966101694915
+    },
+    {
+      "street_name": "RUE COURLOISON",
+      "sales": 103,
+      "median_price_per_sqm": 2526.315789473684
+    },
+    {
+      "street_name": "RUE JEANNE CHAUVIN",
+      "sales": 80,
+      "median_price_per_sqm": 2400.0
+    },
+    {
+      "street_name": "RUE GEORGES CLEMENCEAU",
+      "sales": 63,
+      "median_price_per_sqm": 2444.4444444444443
+    },
+    {
+      "street_name": "RUE FELIX BOURQUELOT",
+      "sales": 62,
+      "median_price_per_sqm": 2516.8965517241377
+    },
+    {
+      "street_name": "RUE DE LA TABLE RONDE",
+      "sales": 61,
+      "median_price_per_sqm": 65000.0
+    },
+    {
+      "street_name": "CHE DE FONTAINE RIANTE",
+      "sales": 57,
+      "median_price_per_sqm": 2664.602683178535
+    },
+    {
+      "street_name": "RUE DU MINAGE",
+      "sales": 47,
+      "median_price_per_sqm": 2257.5757575757575
+    },
+    {
+      "street_name": "RUE REBAIS",
+      "sales": 42,
+      "median_price_per_sqm": 2490.1960784313724
+    },
+    {
+      "street_name": "RPE SAINT SYLLAS",
+      "sales": 41,
+      "median_price_per_sqm": 2764.044943820225
+    },
+    {
+      "street_name": "RUE HUGUES LE GRAND",
+      "sales": 38,
+      "median_price_per_sqm": 2511.363636363636
+    },
+    {
+      "street_name": "RUE VIEILLE NOTRE DAME",
+      "sales": 37,
+      "median_price_per_sqm": 2500.0
+    },
+    {
+      "street_name": "RUE ARISTIDE BRIAND",
+      "sales": 35,
+      "median_price_per_sqm": 2222.222222222222
+    },
+    {
+      "street_name": "RUE DU COLONEL ARNAUD BELTRAME",
+      "sales": 32,
+      "median_price_per_sqm": 3846.153846153846
+    }
+  ]
+}

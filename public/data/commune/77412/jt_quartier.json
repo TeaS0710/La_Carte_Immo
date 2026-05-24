@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 18,
+  "sales_delta_pct": 350.0,
+  "median_price": 269000.0,
+  "median_ppsqm": 2861.7021276595747,
+  "delta_ppsqm_pct": -16.7,
+  "notable_sales": [
+    {
+      "date": "2025-04-17",
+      "street": "RESIDENCE MALITOUCHE",
+      "type": "Maison",
+      "surface": 100,
+      "price": 315000.0
+    },
+    {
+      "date": "2025-12-18",
+      "street": "LE FIEF DU SAULT",
+      "type": "Maison",
+      "surface": 127,
+      "price": 282500.0
+    },
+    {
+      "date": "2025-05-20",
+      "street": "RUE DE LA FERTE ALAIS",
+      "type": "Maison",
+      "surface": 86,
+      "price": 270000.0
+    },
+    {
+      "date": "2025-07-28",
+      "street": "RUE DE MELUN",
+      "type": "Maison",
+      "surface": 94,
+      "price": 269000.0
+    },
+    {
+      "date": "2025-09-04",
+      "street": "RUE DE LA FERTE ALAIS",
+      "type": "Maison",
+      "surface": 73,
+      "price": 210000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:39:55.776133Z"
+}

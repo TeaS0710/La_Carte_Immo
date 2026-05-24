@@ -1,0 +1,120 @@
+{
+  "commune": "Beautheil-Saints",
+  "insee": "77433",
+  "generated_at": "2026-05-24T21:42:41.583367Z",
+  "total_sales": 1083,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 137,
+  "median_price": 195000.0,
+  "median_price_per_sqm": 2708.7181818181816,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 241,
+      "median_price": 219000.0
+    },
+    {
+      "year": 2022,
+      "sales": 294,
+      "median_price": 78500.0
+    },
+    {
+      "year": 2023,
+      "sales": 204,
+      "median_price": 197500.0
+    },
+    {
+      "year": 2024,
+      "sales": 135,
+      "median_price": 196557.6
+    },
+    {
+      "year": 2025,
+      "sales": 209,
+      "median_price": 199700.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "COUVE CLEF",
+      "sales": 82,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MEMILLON",
+      "sales": 60,
+      "median_price_per_sqm": 2308.5106382978724
+    },
+    {
+      "street_name": "RUE DE MELMEZ",
+      "sales": 49,
+      "median_price_per_sqm": 3077.001879699248
+    },
+    {
+      "street_name": "LIMOSIN",
+      "sales": 48,
+      "median_price_per_sqm": 2282.442748091603
+    },
+    {
+      "street_name": "RUE DE VERDUN",
+      "sales": 39,
+      "median_price_per_sqm": 2846.153846153846
+    },
+    {
+      "street_name": "EPIEDS",
+      "sales": 38,
+      "median_price_per_sqm": 2836.7108907352813
+    },
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 37,
+      "median_price_per_sqm": 2806.0960591133007
+    },
+    {
+      "street_name": "RUE DE LA PLANCHETTE",
+      "sales": 32,
+      "median_price_per_sqm": 2830.4545454545455
+    },
+    {
+      "street_name": "TERTRE",
+      "sales": 23,
+      "median_price_per_sqm": 2278.913043478261
+    },
+    {
+      "street_name": "LE CHARDON",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA BOISSEROTTE",
+      "sales": 21,
+      "median_price_per_sqm": 2531.4685314685316
+    },
+    {
+      "street_name": "VILLERS",
+      "sales": 20,
+      "median_price_per_sqm": 3054.7267055472666
+    },
+    {
+      "street_name": "IMP DES VERGERS BEAUTHEIL",
+      "sales": 19,
+      "median_price_per_sqm": 3629.6296296296296
+    },
+    {
+      "street_name": "MUSSIEN",
+      "sales": 18,
+      "median_price_per_sqm": 3658.0
+    },
+    {
+      "street_name": "BEAUTHEIL",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

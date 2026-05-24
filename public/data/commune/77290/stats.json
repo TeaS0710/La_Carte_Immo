@@ -1,0 +1,120 @@
+{
+  "commune": "Méry-sur-Marne",
+  "insee": "77290",
+  "generated_at": "2026-05-24T21:27:55.760210Z",
+  "total_sales": 368,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 50,
+  "median_price": 155000.0,
+  "median_price_per_sqm": 2277.777777777778,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 104,
+      "median_price": 264500.0
+    },
+    {
+      "year": 2022,
+      "sales": 77,
+      "median_price": 210500.0
+    },
+    {
+      "year": 2023,
+      "sales": 68,
+      "median_price": 65000.0
+    },
+    {
+      "year": 2024,
+      "sales": 58,
+      "median_price": 88000.0
+    },
+    {
+      "year": 2025,
+      "sales": 61,
+      "median_price": 195000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RTE DE SAINTE AULDE",
+      "sales": 77,
+      "median_price_per_sqm": 2411.167512690355
+    },
+    {
+      "street_name": "RTE DE COURCELLES",
+      "sales": 40,
+      "median_price_per_sqm": 1874.749096748294
+    },
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 32,
+      "median_price_per_sqm": 2174.2685025817555
+    },
+    {
+      "street_name": "RUE DU BOIS",
+      "sales": 26,
+      "median_price_per_sqm": 1968.3982683982683
+    },
+    {
+      "street_name": "COURCELLES",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA FONTAINE",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MERY",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE JEAN DE LA FONTAINE",
+      "sales": 16,
+      "median_price_per_sqm": 2277.777777777778
+    },
+    {
+      "street_name": "LA BUTTE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE RUISSEAU CABOCHE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES RUELLES",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CLOS",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA BRUSSETTE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DE RUSSELET",
+      "sales": 4,
+      "median_price_per_sqm": 1428.5714285714287
+    },
+    {
+      "street_name": "LA PIECE DE COURCELLES",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

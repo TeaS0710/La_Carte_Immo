@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 2938,
+  "sales_delta_pct": 3.6,
+  "median_price": 1230000.0,
+  "median_ppsqm": 14056.296296296296,
+  "delta_ppsqm_pct": -6.3,
+  "notable_sales": [
+    {
+      "date": "2025-01-09",
+      "street": "RUE BAYARD",
+      "type": "Appartement",
+      "surface": 357,
+      "price": 6650000.0
+    },
+    {
+      "date": "2025-02-05",
+      "street": "AV MONTAIGNE",
+      "type": "Appartement",
+      "surface": 264,
+      "price": 6250000.0
+    },
+    {
+      "date": "2025-06-26",
+      "street": "RUE FRANCOIS 1ER",
+      "type": "Appartement",
+      "surface": 304,
+      "price": 6150000.0
+    },
+    {
+      "date": "2025-06-16",
+      "street": "AV MONTAIGNE",
+      "type": "Appartement",
+      "surface": 262,
+      "price": 6100000.0
+    },
+    {
+      "date": "2025-12-10",
+      "street": "RUE DU CIRQUE",
+      "type": "Appartement",
+      "surface": 247,
+      "price": 5550000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:40:53.751614Z"
+}

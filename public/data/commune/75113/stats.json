@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 13e Arrondissement",
+  "insee": "75113",
+  "generated_at": "2026-05-24T21:42:01.035292Z",
+  "total_sales": 19998,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 239,
+  "median_price": 415000.0,
+  "median_price_per_sqm": 9433.333333333334,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 3721,
+      "median_price": 420000.0
+    },
+    {
+      "year": 2022,
+      "sales": 4226,
+      "median_price": 406025.0
+    },
+    {
+      "year": 2023,
+      "sales": 4357,
+      "median_price": 430000.0
+    },
+    {
+      "year": 2024,
+      "sales": 3810,
+      "median_price": 422000.0
+    },
+    {
+      "year": 2025,
+      "sales": 3884,
+      "median_price": 394590.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV D ITALIE",
+      "sales": 1133,
+      "median_price_per_sqm": 8340.0
+    },
+    {
+      "street_name": "AV DE CHOISY",
+      "sales": 929,
+      "median_price_per_sqm": 8285.714285714286
+    },
+    {
+      "street_name": "RUE DE TOLBIAC",
+      "sales": 753,
+      "median_price_per_sqm": 9114.738805970148
+    },
+    {
+      "street_name": "RUE BOBILLOT",
+      "sales": 643,
+      "median_price_per_sqm": 9600.0
+    },
+    {
+      "street_name": "RUE CHARBONNEL",
+      "sales": 558,
+      "median_price_per_sqm": 1300000.0
+    },
+    {
+      "street_name": "RUE DE LA GLACIERE",
+      "sales": 531,
+      "median_price_per_sqm": 9609.375
+    },
+    {
+      "street_name": "BD ARAGO",
+      "sales": 417,
+      "median_price_per_sqm": 11125.0
+    },
+    {
+      "street_name": "BD MASSENA",
+      "sales": 387,
+      "median_price_per_sqm": 6638.636363636364
+    },
+    {
+      "street_name": "RUE DUNOIS",
+      "sales": 380,
+      "median_price_per_sqm": 8577.25
+    },
+    {
+      "street_name": "RUE DE LA BUTTE AUX CAILLES",
+      "sales": 357,
+      "median_price_per_sqm": 358.88
+    },
+    {
+      "street_name": "BD AUGUSTE BLANQUI",
+      "sales": 346,
+      "median_price_per_sqm": 9362.026862026862
+    },
+    {
+      "street_name": "AV DES GOBELINS",
+      "sales": 342,
+      "median_price_per_sqm": 405063.2911392405
+    },
+    {
+      "street_name": "RUE DE PATAY",
+      "sales": 321,
+      "median_price_per_sqm": 8157.675360247707
+    },
+    {
+      "street_name": "BD VINCENT AURIOL",
+      "sales": 306,
+      "median_price_per_sqm": 8583.786764705881
+    },
+    {
+      "street_name": "RUE VERGNIAUD",
+      "sales": 300,
+      "median_price_per_sqm": 8682.530795072787
+    }
+  ]
+}

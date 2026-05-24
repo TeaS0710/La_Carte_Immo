@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 52,
+  "sales_delta_pct": 33.3,
+  "median_price": 319000.0,
+  "median_ppsqm": 3677.4193548387098,
+  "delta_ppsqm_pct": 5.4,
+  "notable_sales": [
+    {
+      "date": "2025-09-12",
+      "street": "RUE DE CHARNY",
+      "type": "Maison",
+      "surface": 300,
+      "price": 1800000.0
+    },
+    {
+      "date": "2025-11-18",
+      "street": "RUE DES HOUCHES",
+      "type": "Maison",
+      "surface": 155,
+      "price": 570000.0
+    },
+    {
+      "date": "2025-07-15",
+      "street": "RUE BARDIN",
+      "type": "Maison",
+      "surface": 144,
+      "price": 466000.0
+    },
+    {
+      "date": "2025-01-20",
+      "street": "ALL DE LA SOURCE",
+      "type": "Maison",
+      "surface": 88,
+      "price": 415000.0
+    },
+    {
+      "date": "2025-12-06",
+      "street": "RUE DE POISSY",
+      "type": "Maison",
+      "surface": 98,
+      "price": 387000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:28:16.857473Z"
+}

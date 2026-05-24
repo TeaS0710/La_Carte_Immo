@@ -1,0 +1,120 @@
+{
+  "commune": "Rozay-en-Brie",
+  "insee": "77393",
+  "generated_at": "2026-05-24T21:38:02.192989Z",
+  "total_sales": 490,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 60,
+  "median_price": 270500.0,
+  "median_price_per_sqm": 2861.003861003861,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 105,
+      "median_price": 257250.0
+    },
+    {
+      "year": 2022,
+      "sales": 102,
+      "median_price": 280000.0
+    },
+    {
+      "year": 2023,
+      "sales": 97,
+      "median_price": 316000.0
+    },
+    {
+      "year": 2024,
+      "sales": 81,
+      "median_price": 271000.0
+    },
+    {
+      "year": 2025,
+      "sales": 105,
+      "median_price": 230000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU GENERAL LECLERC",
+      "sales": 40,
+      "median_price_per_sqm": 3421.0526315789475
+    },
+    {
+      "street_name": "FG DE GIRONDE",
+      "sales": 34,
+      "median_price_per_sqm": 2071.8232044198894
+    },
+    {
+      "street_name": "RUE DE ROME",
+      "sales": 30,
+      "median_price_per_sqm": 2683.3333333333335
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE",
+      "sales": 27,
+      "median_price_per_sqm": 3271.1111111111113
+    },
+    {
+      "street_name": "RUE DE VILPRE",
+      "sales": 26,
+      "median_price_per_sqm": 3088.8055310385407
+    },
+    {
+      "street_name": "RES RESIDENCE DU COUDRAY",
+      "sales": 24,
+      "median_price_per_sqm": 3392.8571428571427
+    },
+    {
+      "street_name": "CHE DES MARAIS",
+      "sales": 17,
+      "median_price_per_sqm": 1940.909090909091
+    },
+    {
+      "street_name": "FAUBOURG DE GIRONDE",
+      "sales": 16,
+      "median_price_per_sqm": 4754.901960784314
+    },
+    {
+      "street_name": "RUE COROT",
+      "sales": 15,
+      "median_price_per_sqm": 3082.3529411764707
+    },
+    {
+      "street_name": "RUE DES ERABLES",
+      "sales": 15,
+      "median_price_per_sqm": 2598.8325281803545
+    },
+    {
+      "street_name": "RUE DE LA TUILERIE",
+      "sales": 15,
+      "median_price_per_sqm": 4017.9205851619645
+    },
+    {
+      "street_name": "RUE DES QUATRE VENTS",
+      "sales": 14,
+      "median_price_per_sqm": 3300.0
+    },
+    {
+      "street_name": "RUE DES SOURCES",
+      "sales": 13,
+      "median_price_per_sqm": 2315.7894736842104
+    },
+    {
+      "street_name": "RUE CHOQUINIERE",
+      "sales": 11,
+      "median_price_per_sqm": 2164.3835616438355
+    },
+    {
+      "street_name": "RUE AUX FROMAGES",
+      "sales": 10,
+      "median_price_per_sqm": 2422.5352112676055
+    }
+  ]
+}

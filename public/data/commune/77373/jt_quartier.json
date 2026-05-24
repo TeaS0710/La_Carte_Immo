@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 805,
+  "sales_delta_pct": -50.7,
+  "median_price": 219000.0,
+  "median_ppsqm": 3642.8571428571427,
+  "delta_ppsqm_pct": -97.8,
+  "notable_sales": [
+    {
+      "date": "2025-12-08",
+      "street": "RUE GILBERT REY",
+      "type": "Maison",
+      "surface": 100,
+      "price": 685000.0
+    },
+    {
+      "date": "2025-09-26",
+      "street": "AV DE LA GARE",
+      "type": "Maison",
+      "surface": 168,
+      "price": 670000.0
+    },
+    {
+      "date": "2025-06-30",
+      "street": "AV LOUIS GRANET",
+      "type": "Maison",
+      "surface": 230,
+      "price": 654800.0
+    },
+    {
+      "date": "2025-09-26",
+      "street": "AV DES HORTENSIAS",
+      "type": "Maison",
+      "surface": 140,
+      "price": 645000.0
+    },
+    {
+      "date": "2025-02-10",
+      "street": "AV GEORGES OHNET",
+      "type": "Maison",
+      "surface": 134,
+      "price": 578500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:35:35.286943Z"
+}

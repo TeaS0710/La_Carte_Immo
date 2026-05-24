@@ -1,0 +1,120 @@
+{
+  "commune": "Paris 8e Arrondissement",
+  "insee": "75108",
+  "generated_at": "2026-05-24T21:40:53.754980Z",
+  "total_sales": 14026,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 166,
+  "median_price": 1285600.0,
+  "median_price_per_sqm": 14840.714285714286,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 2552,
+      "median_price": 1100000.0
+    },
+    {
+      "year": 2022,
+      "sales": 3290,
+      "median_price": 1652750.0
+    },
+    {
+      "year": 2023,
+      "sales": 2410,
+      "median_price": 1149255.0
+    },
+    {
+      "year": 2024,
+      "sales": 2836,
+      "median_price": 1300000.0
+    },
+    {
+      "year": 2025,
+      "sales": 2938,
+      "median_price": 1230000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU FAUBOURG SAINT HONORE",
+      "sales": 767,
+      "median_price_per_sqm": 16713.333333333336
+    },
+    {
+      "street_name": "RUE DE PONTHIEU",
+      "sales": 495,
+      "median_price_per_sqm": 3166666.6666666665
+    },
+    {
+      "street_name": "BD MALESHERBES",
+      "sales": 491,
+      "median_price_per_sqm": 14215.2466367713
+    },
+    {
+      "street_name": "RUE DE MIROMESNIL",
+      "sales": 475,
+      "median_price_per_sqm": 16287.755847953216
+    },
+    {
+      "street_name": "AV MONTAIGNE",
+      "sales": 423,
+      "median_price_per_sqm": 32321.428571428572
+    },
+    {
+      "street_name": "RUE LA BOETIE",
+      "sales": 327,
+      "median_price_per_sqm": 57788.94472361809
+    },
+    {
+      "street_name": "AV GEORGE V",
+      "sales": 321,
+      "median_price_per_sqm": 22533.333333333332
+    },
+    {
+      "street_name": "AV DES CHAMPS ELYSEES",
+      "sales": 300,
+      "median_price_per_sqm": 125156.4945226917
+    },
+    {
+      "street_name": "RUE DU ROCHER",
+      "sales": 290,
+      "median_price_per_sqm": 11983.055555555555
+    },
+    {
+      "street_name": "BD DE COURCELLES",
+      "sales": 272,
+      "median_price_per_sqm": 13390.80459770115
+    },
+    {
+      "street_name": "RUE DE ROME",
+      "sales": 242,
+      "median_price_per_sqm": 14022.833333333332
+    },
+    {
+      "street_name": "RUE DE MONCEAU",
+      "sales": 239,
+      "median_price_per_sqm": 13593.75
+    },
+    {
+      "street_name": "RUE DE LABORDE",
+      "sales": 237,
+      "median_price_per_sqm": 12400.0
+    },
+    {
+      "street_name": "RUE DE MOSCOU",
+      "sales": 229,
+      "median_price_per_sqm": 11264.097744360903
+    },
+    {
+      "street_name": "BD HAUSSMANN",
+      "sales": 225,
+      "median_price_per_sqm": 15205.714285714286
+    }
+  ]
+}

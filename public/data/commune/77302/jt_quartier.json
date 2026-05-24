@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 195,
+  "sales_delta_pct": 146.8,
+  "median_price": 92000.0,
+  "median_ppsqm": 2503.284671532847,
+  "delta_ppsqm_pct": -4.8,
+  "notable_sales": [
+    {
+      "date": "2025-07-11",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 148,
+      "price": 630000.0
+    },
+    {
+      "date": "2025-02-08",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 174,
+      "price": 435000.0
+    },
+    {
+      "date": "2025-11-29",
+      "street": "AV DU LAC",
+      "type": "Maison",
+      "surface": 111,
+      "price": 345900.0
+    },
+    {
+      "date": "2025-02-28",
+      "street": "RUE DU PARC",
+      "type": "Maison",
+      "surface": 137,
+      "price": 343400.0
+    },
+    {
+      "date": "2025-03-01",
+      "street": "RES LES JARDINS DE CELINE",
+      "type": "Maison",
+      "surface": 87,
+      "price": 325000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:29:19.540992Z"
+}
