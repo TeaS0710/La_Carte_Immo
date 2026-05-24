@@ -198,19 +198,30 @@ function EvolutionTab({
 
 function ProjectionTab({ codeInsee, stats }: { codeInsee: string; stats: CommuneStats }) {
   const [proj, setProj] = useState<ProjectionData | null>(null);
+  const [status, setStatus] = useState<"loading" | "ok" | "error">("loading");
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setStatus("loading");
     fetch(communeDataUrl(codeInsee, "projection.json"))
-      .then((r) => (r.ok ? r.json() : Promise.reject()))
-      .then(setProj)
-      .catch(() => setProj(null));
+      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+      .then((d) => { setProj(d); setStatus("ok"); })
+      .catch(() => { setProj(null); setStatus("error"); });
   }, [codeInsee]);
 
+  if (status === "loading") {
+    return (
+      <div className="rounded-lg border border-[color:var(--line)] bg-surface-warm p-5 text-[13px] text-ink-soft animate-pulse">
+        Chargement des données de projection…
+      </div>
+    );
+  }
   if (!proj) {
     return (
-      <div className="space-y-5">
-        <p className="text-ink-soft text-[15px] leading-relaxed">
-          Chargement des données de projection…
-        </p>
+      <div className="space-y-4">
+        <div className="rounded-lg border border-[color:var(--line)] bg-surface-warm p-5 text-[13px] text-ink-soft">
+          Projection ARIMA non disponible pour cette commune (modèle généré
+          séparément). Suivi annuel basé sur les ventes DVF ci-dessous :
+        </div>
         <FallbackYearly stats={stats} />
       </div>
     );
@@ -315,15 +326,31 @@ function FallbackYearly({ stats }: { stats: CommuneStats }) {
 
 function StratesTab({ codeInsee }: { codeInsee: string }) {
   const [commune, setCommune] = useState<Record<string, number> | null>(null);
+  const [status, setStatus] = useState<"loading" | "ok" | "error">("loading");
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setStatus("loading");
     fetch(communeDataUrl(codeInsee, "commune.json"))
-      .then((r) => r.json())
-      .then(setCommune)
-      .catch(() => setCommune(null));
+      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+      .then((d) => { setCommune(d); setStatus("ok"); })
+      .catch(() => { setCommune(null); setStatus("error"); });
   }, [codeInsee]);
 
+  if (status === "loading") {
+    return (
+      <div className="rounded-lg border border-[color:var(--line)] bg-surface-warm p-5 text-[13px] text-ink-soft animate-pulse">
+        Chargement des indicateurs commune…
+      </div>
+    );
+  }
   if (!commune) {
-    return <div className="text-sm text-ink-mute">Chargement des indicateurs commune…</div>;
+    return (
+      <div className="rounded-lg border border-[color:var(--line)] bg-surface-warm p-5 text-[13px] text-ink-soft">
+        Profil démographique INSEE non disponible pour cette commune
+        (données bulk en cours d&apos;agrégation). Visible uniquement pour
+        les communes ayant fait l&apos;objet d&apos;un traitement IRIS complet.
+      </div>
+    );
   }
 
   const csp = [
