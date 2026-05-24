@@ -5,7 +5,7 @@ import { assetUrl } from "@/lib/url";
 import maplibregl, { Map, MapGeoJSONFeature } from "maplibre-gl";
 import type { StreetProps } from "@/lib/types";
 import { formatStreet } from "@/lib/format";
-import type { MapFilters, IrisProps } from "./types";
+import type { MapFilters, IrisProps, PipelineLogement, PermitFeature } from "./types";
 
 const SAINT_MAUR_CENTER: [number, number] = [2.4901, 48.8014];
 
@@ -18,11 +18,15 @@ export default function CarteMap({
   selectedIrisCode,
   onSelectStreet,
   onSelectIris,
+  onSelectPipeline,
+  onSelectPermit,
 }: {
   filters: MapFilters;
   selectedIrisCode: string | null;
   onSelectStreet: (s: StreetProps | null) => void;
   onSelectIris: (i: IrisProps | null) => void;
+  onSelectPipeline: (p: PipelineLogement | null) => void;
+  onSelectPermit: (p: PermitFeature & { lng: number; lat: number } | null) => void;
 }) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<Map | null>(null);
@@ -245,11 +249,12 @@ export default function CarteMap({
                   16, 14,
                 ],
                 "circle-color": [
-                  "match", ["get", "etiquette_dpe"],
-                  "G", "#7a2810",
-                  "F", "#b54f3a",
-                  "E", "#c09b5a",
-                  "#c09b5a",
+                  "interpolate", ["linear"], ["get", "proba_sale_12m"],
+                  20, "#d9e0d4",
+                  40, "#e6cf9a",
+                  55, "#c09b5a",
+                  70, "#b54f3a",
+                  85, "#7a2810",
                 ],
                 "circle-blur": 0.7,
                 "circle-opacity": 0.45,
@@ -285,11 +290,12 @@ export default function CarteMap({
                   ],
                 ],
                 "circle-color": [
-                  "match", ["get", "etiquette_dpe"],
-                  "G", "#7a2810",
-                  "F", "#b54f3a",
-                  "E", "#c09b5a",
-                  "#c09b5a",
+                  "interpolate", ["linear"], ["get", "proba_sale_12m"],
+                  20, "#d9e0d4",
+                  40, "#e6cf9a",
+                  55, "#c09b5a",
+                  70, "#b54f3a",
+                  85, "#7a2810",
                 ],
                 "circle-stroke-color": "#ffffff",
                 "circle-stroke-width": 1,
@@ -342,7 +348,7 @@ export default function CarteMap({
                       <span style="color:#5a554f;font-size:12px">probabilité de vente 12 mois (modèle calibré)</span>
                     </div>
                     ${signalsHtml}
-                    <div style="margin-top:8px;font-size:11px;color:#9b9690">Cliquez pour la recherche annuaire</div>
+                    <div style="margin-top:8px;font-size:11px;color:#9b9690">Cliquez pour ouvrir la fiche du logement</div>
                   </div>`,
                 )
                 .addTo(map);
@@ -352,14 +358,13 @@ export default function CarteMap({
               pipePopup.remove();
             });
 
-            // Click on pipeline point opens the address in Pages Blanches (manual lookup, legal)
+            // Click : ouvre la fiche en local (pas d'auto-redirect)
             map.on("click", "pipeline-dot", (e) => {
               if (!e.features?.length) return;
-              const p = (e.features[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
-              const addr = String(p.addr || "");
-              // Pages Blanches : ouvre le formulaire pré-rempli sur l'adresse
-              const url = `https://www.pagesjaunes.fr/pagesblanches/recherche?quoiqui=&ou=${encodeURIComponent(addr + ", Saint-Maur-des-Fossés")}`;
-              window.open(url, "_blank", "noopener,noreferrer");
+              const p = (e.features[0] as MapGeoJSONFeature).properties as unknown as PipelineLogement;
+              onSelectPipeline(p);
+              onSelectStreet(null);
+              onSelectIris(null);
             });
           }
 
@@ -416,6 +421,16 @@ export default function CarteMap({
             map.on("mouseleave", "permits-dot", () => {
               map.getCanvas().style.cursor = "";
               permPopup.remove();
+            });
+            map.on("click", "permits-dot", (e) => {
+              if (!e.features?.length) return;
+              const f = e.features[0] as MapGeoJSONFeature;
+              const p = f.properties as unknown as PermitFeature;
+              const coords = (f.geometry as GeoJSON.Point).coordinates as [number, number];
+              onSelectPermit({ ...p, lng: coords[0], lat: coords[1] });
+              onSelectStreet(null);
+              onSelectIris(null);
+              onSelectPipeline(null);
             });
           }
 
@@ -536,9 +551,16 @@ export default function CarteMap({
     const map = mapRef.current;
     if (!map || !ready) return;
     if (map.getLayer("streets-dot")) {
+      // Filtre type bien : on lit la bonne propriété de comptage
+      const salesField =
+        filters.typeFilter === "Appartement"
+          ? "sales_appt"
+          : filters.typeFilter === "Maison"
+          ? "sales_maison"
+          : "sales";
       map.setFilter(
         "streets-dot",
-        [">=", ["get", "sales"], filters.minSales] as maplibregl.FilterSpecification,
+        [">=", ["get", salesField], filters.minSales] as maplibregl.FilterSpecification,
       );
     }
     // Pipeline (DPE-driven probable sales) toggle

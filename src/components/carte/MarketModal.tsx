@@ -4,11 +4,9 @@ import { useEffect, useState } from "react";
 import { assetUrl } from "@/lib/url";
 import { X, LineChart as LineChartIcon } from "lucide-react";
 import {
-  Area,
   Bar,
   CartesianGrid,
   ComposedChart,
-  Legend,
   Line,
   LineChart,
   ResponsiveContainer,
@@ -23,7 +21,7 @@ type Tab = "evolution" | "projection" | "strates";
 
 const TABS: { id: Tab; label: string }[] = [
   { id: "evolution", label: "Évolution dans le temps" },
-  { id: "projection", label: "Projection à 2 ans" },
+  { id: "projection", label: "Suivi des prix" },
   { id: "strates", label: "Profil de la population" },
 ];
 
@@ -180,76 +178,18 @@ function ProjectionTab({ stats }: { stats: CommuneStats }) {
   }
 
   const obs = proj.monthly_observed;
-  const lastObs = obs[obs.length - 1];
-  const fcMonths = proj.best_forecast.months;
-  const fcPoint = proj.best_forecast.point;
-  const fcLo = proj.best_forecast.ci_10;
-  const fcHi = proj.best_forecast.ci_90;
-  const fcLo5 = proj.best_forecast.ci_5 ?? fcLo;
-  const fcHi95 = proj.best_forecast.ci_95 ?? fcHi;
-  const nextPrice = fcPoint[Math.min(11, fcPoint.length - 1)];
-  const yoy = ((nextPrice - lastObs.median_price_smooth) / lastObs.median_price_smooth) * 100;
-  const fourchetteBas = fcLo[Math.min(11, fcLo.length - 1)];
-  const fourchetteHaut = fcHi[Math.min(11, fcHi.length - 1)];
 
-  // Fan chart : 3 bandes (outer P5-P95, inner P10-P90, central forecast)
-  const series: Record<string, number | string | null>[] = [
-    ...obs.map((o) => ({
-      month: o.month,
-      observed: o.median_price_smooth,
-      forecast: null,
-      hi: null,
-      lo: null,
-      hi95: null,
-      lo5: null,
-    })),
-    {
-      month: lastObs.month,
-      observed: lastObs.median_price_smooth,
-      forecast: lastObs.median_price_smooth,
-      hi: lastObs.median_price_smooth,
-      lo: lastObs.median_price_smooth,
-      hi95: lastObs.median_price_smooth,
-      lo5: lastObs.median_price_smooth,
-    },
-    ...fcMonths.map((m, i) => ({
-      month: m,
-      observed: null,
-      forecast: fcPoint[i],
-      hi: fcHi[i],
-      lo: fcLo[i],
-      hi95: fcHi95[i],
-      lo5: fcLo5[i],
-    })),
-  ];
+  const series: Record<string, number | string | null>[] = obs.map((o) => ({
+    month: o.month,
+    observed: o.median_price_smooth,
+  }));
 
   return (
     <div className="space-y-6">
       <p className="text-ink-soft text-[15px] leading-relaxed">
-        Estimation du prix médian de vente sur les 12 prochains mois, basée
-        sur l&apos;évolution mensuelle observée depuis 2021.
+        Suivi mensuel du prix médian de vente sur Saint-Maur depuis 2021,
+        à partir des transactions DVF officielles (DGFiP).
       </p>
-
-      <div className="grid grid-cols-3 gap-3">
-        <BigStat
-          label="Prix attendu dans 12 mois"
-          value={formatEur(nextPrice)}
-          sub={`${yoy >= 0 ? "+" : ""}${yoy.toFixed(1)} % vs aujourd'hui`}
-          positive={yoy >= 0}
-        />
-        <BigStat
-          label="Fourchette basse"
-          value={formatEur(fourchetteBas)}
-          sub="10 % de chances en-dessous"
-          positive
-        />
-        <BigStat
-          label="Fourchette haute"
-          value={formatEur(fourchetteHaut)}
-          sub="10 % de chances au-dessus"
-          positive
-        />
-      </div>
 
       <ChartBlock title="Prix médian mensuel observé">
         <ComposedChart data={series.filter((s) => s.observed != null)} margin={{ top: 5, right: 5, bottom: 5, left: 5 }}>

@@ -7,9 +7,15 @@ import type { CommuneStats, StreetProps } from "@/lib/types";
 import FiltersBubble from "@/components/carte/FiltersBubble";
 import StreetCard from "@/components/carte/StreetCard";
 import IrisCard from "@/components/carte/IrisCard";
+import PipelineCard from "@/components/carte/PipelineCard";
+import PermitCard from "@/components/carte/PermitCard";
 import MarketModal from "@/components/carte/MarketModal";
 import CarteMap from "@/components/carte/CarteMap";
-import type { MapFilters, IrisProps } from "@/components/carte/types";
+import type {
+  MapFilters, IrisProps, PipelineLogement, PermitFeature,
+} from "@/components/carte/types";
+
+type PermitWithCoords = PermitFeature & { lng: number; lat: number };
 
 export default function CarteClient({ stats }: { stats: CommuneStats }) {
   const minYear = useMemo(() => Math.min(...stats.years_covered), [stats]);
@@ -24,10 +30,30 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
   });
   const [selected, setSelected] = useState<StreetProps | null>(null);
   const [selectedIris, setSelectedIris] = useState<IrisProps | null>(null);
+  const [selectedPipeline, setSelectedPipeline] = useState<PipelineLogement | null>(null);
+  const [selectedPermit, setSelectedPermit] = useState<PermitWithCoords | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [marketOpen, setMarketOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [hintDismissed, setHintDismissed] = useState(false);
+
+  // Quand on sélectionne un truc, on ferme tous les autres
+  const handleStreet = (s: StreetProps | null) => {
+    setSelected(s);
+    if (s) { setSelectedIris(null); setSelectedPipeline(null); setSelectedPermit(null); }
+  };
+  const handleIris = (i: IrisProps | null) => {
+    setSelectedIris(i);
+    if (i) { setSelected(null); setSelectedPipeline(null); setSelectedPermit(null); }
+  };
+  const handlePipeline = (p: PipelineLogement | null) => {
+    setSelectedPipeline(p);
+    if (p) { setSelected(null); setSelectedIris(null); setSelectedPermit(null); }
+  };
+  const handlePermit = (p: PermitWithCoords | null) => {
+    setSelectedPermit(p);
+    if (p) { setSelected(null); setSelectedIris(null); setSelectedPipeline(null); }
+  };
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -44,8 +70,10 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
         <CarteMap
           filters={filters}
           selectedIrisCode={selectedIris?.code_iris ?? null}
-          onSelectStreet={setSelected}
-          onSelectIris={setSelectedIris}
+          onSelectStreet={handleStreet}
+          onSelectIris={handleIris}
+          onSelectPipeline={handlePipeline}
+          onSelectPermit={handlePermit}
         />
       ) : (
         <div className="absolute inset-0 flex items-center justify-center bg-surface-warm text-sm text-ink-mute">
@@ -70,7 +98,7 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
         className="absolute top-[140px] right-4 z-10 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
       >
         <LineChartIcon size={17} />
-        Évolution
+        Estimations
       </button>
 
 
@@ -97,7 +125,7 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
       </div>
 
       {/* Hint when nothing selected yet — disparaît au premier clic */}
-      {!hintDismissed && !selected && !selectedIris && !filtersOpen && (
+      {!hintDismissed && !selected && !selectedIris && !selectedPipeline && !selectedPermit && !filtersOpen && (
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none transition-opacity">
           <div className="bg-white/95 border border-[color:var(--line)] rounded-full px-4 py-2 text-[13px] text-ink-soft inline-flex items-center gap-2 shadow-sm">
             <Info size={14} className="text-brand-strong" />
@@ -127,8 +155,18 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
       )}
 
       {/* Selected IRIS floating card */}
-      {selectedIris && !selected && (
+      {selectedIris && !selected && !selectedPipeline && !selectedPermit && (
         <IrisCard iris={selectedIris} onClose={() => setSelectedIris(null)} />
+      )}
+
+      {/* Selected pipeline logement */}
+      {selectedPipeline && (
+        <PipelineCard logement={selectedPipeline} onClose={() => setSelectedPipeline(null)} />
+      )}
+
+      {/* Selected permit cadastre */}
+      {selectedPermit && (
+        <PermitCard permit={selectedPermit} onClose={() => setSelectedPermit(null)} />
       )}
 
       {/* Market modal */}
