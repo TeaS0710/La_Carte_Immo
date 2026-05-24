@@ -35,8 +35,16 @@ const ICONS: Record<Source, React.ReactNode> = {
  * affiche les particuliers listés sur l'ensemble de la commune ; pour un
  * lookup précis le courtier peut affiner ensuite dans leur formulaire.
  */
-function buildUrl(source: Source, query: string, coords?: { lat: number; lng: number }): string {
-  const full = `${query}, Saint-Maur-des-Fossés`;
+function buildUrl(
+  source: Source,
+  query: string,
+  coords?: { lat: number; lng: number },
+  communeName?: string,
+): string {
+  // Le nom de commune contextualise la recherche (sinon "rue X" donne
+  // n'importe quelle rue de France). Par défaut Saint-Maur (cas historique).
+  const ville = communeName ?? "Saint-Maur-des-Fossés";
+  const full = `${query}, ${ville}`;
   switch (source) {
     case "maps":
       return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(full)}`;
@@ -71,14 +79,16 @@ export default function ExternalLookup({
   source,
   query,
   coords,
+  communeName,
   variant = "pill",
 }: {
   source: Source;
   query: string;
   coords?: { lat: number; lng: number };
+  communeName?: string;
   variant?: "pill" | "inline";
 }) {
-  const url = buildUrl(source, query, coords);
+  const url = buildUrl(source, query, coords, communeName);
   if (variant === "inline") {
     return (
       <a

@@ -248,18 +248,40 @@ export default function RegionMap({
             </div>`;
           };
 
-          // Hover : recherche le marker le plus proche dans un rayon
+          // Rayon de capture adaptatif au zoom : plus large en vue région
+          // (zoom 8) pour permettre de viser n'importe quelle zone heatmap,
+          // plus précis en vue locale (zoom > 11).
+          const captureRadius = () => {
+            const z = map.getZoom();
+            if (z < 9) return 50;
+            if (z < 11) return 30;
+            if (z < 13) return 20;
+            return 12;
+          };
+
           map.on("mousemove", (e) => {
+            const r = captureRadius();
             const feats = map.queryRenderedFeatures(
               [
-                [e.point.x - 20, e.point.y - 20],
-                [e.point.x + 20, e.point.y + 20],
+                [e.point.x - r, e.point.y - r],
+                [e.point.x + r, e.point.y + r],
               ],
               { layers: ["communes-dot"] },
             );
             if (feats.length > 0) {
               map.getCanvas().style.cursor = "pointer";
-              const f = feats[0] as MapGeoJSONFeature;
+              // Trie par distance au curseur (le plus proche d'abord)
+              const cx = e.point.x, cy = e.point.y;
+              const sorted = [...feats].sort((a, b) => {
+                const ga = (a.geometry as GeoJSON.Point).coordinates as [number, number];
+                const gb = (b.geometry as GeoJSON.Point).coordinates as [number, number];
+                const pa = map.project(ga as maplibregl.LngLatLike);
+                const pb = map.project(gb as maplibregl.LngLatLike);
+                const da = (pa.x - cx) ** 2 + (pa.y - cy) ** 2;
+                const db = (pb.x - cx) ** 2 + (pb.y - cy) ** 2;
+                return da - db;
+              });
+              const f = sorted[0] as MapGeoJSONFeature;
               const coords = (f.geometry as GeoJSON.Point).coordinates as [number, number];
               popup
                 .setLngLat(coords)
@@ -272,15 +294,25 @@ export default function RegionMap({
           });
 
           map.on("click", (e) => {
+            const r = captureRadius();
             const feats = map.queryRenderedFeatures(
               [
-                [e.point.x - 20, e.point.y - 20],
-                [e.point.x + 20, e.point.y + 20],
+                [e.point.x - r, e.point.y - r],
+                [e.point.x + r, e.point.y + r],
               ],
               { layers: ["communes-dot"] },
             );
             if (feats.length > 0) {
-              const p = (feats[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
+              // Plus proche d'abord
+              const cx = e.point.x, cy = e.point.y;
+              const sorted = [...feats].sort((a, b) => {
+                const ga = (a.geometry as GeoJSON.Point).coordinates as [number, number];
+                const gb = (b.geometry as GeoJSON.Point).coordinates as [number, number];
+                const pa = map.project(ga as maplibregl.LngLatLike);
+                const pb = map.project(gb as maplibregl.LngLatLike);
+                return (pa.x - cx) ** 2 + (pa.y - cy) ** 2 - ((pb.x - cx) ** 2 + (pb.y - cy) ** 2);
+              });
+              const p = (sorted[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
               router.push(`/carte/ville/${p.slug}`);
             }
           });

@@ -11,9 +11,11 @@ function dpeColor(et: string): string {
 
 export default function PipelineCard({
   logement,
+  communeName,
   onClose,
 }: {
   logement: PipelineLogement;
+  communeName?: string;
   onClose: () => void;
 }) {
   useEscape(true, onClose);
@@ -56,11 +58,11 @@ export default function PipelineCard({
 
         {/* Lookups : Maps / Street View / Pages Jaunes / Pages Blanches / Pappers */}
         <div className="flex flex-wrap gap-1.5">
-          <ExternalLookup source="maps" query={logement.addr} />
-          <ExternalLookup source="streetview" query={logement.addr} />
-          <ExternalLookup source="pagesblanches" query={logement.addr} />
-          <ExternalLookup source="pagesjaunes" query={logement.addr} />
-          <ExternalLookup source="pappers" query={logement.addr} />
+          <ExternalLookup source="maps" query={logement.addr} communeName={communeName} />
+          <ExternalLookup source="streetview" query={logement.addr} communeName={communeName} />
+          <ExternalLookup source="pagesblanches" query={logement.addr} communeName={communeName} />
+          <ExternalLookup source="pagesjaunes" query={logement.addr} communeName={communeName} />
+          <ExternalLookup source="pappers" query={logement.addr} communeName={communeName} />
         </div>
         <p className="text-[10px] text-ink-mute mt-1.5 leading-snug">
           Les liens ouvrent la recherche pré-remplie sur le site officiel. Une fiche n&apos;est pas garantie : seule la présence d&apos;une page jaune sur cette adresse permet la prospection.

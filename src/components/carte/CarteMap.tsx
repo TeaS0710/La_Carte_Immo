@@ -13,6 +13,7 @@ function dpeColor(et: string): string {
 
 export default function CarteMap({
   codeInsee,
+  communeName,
   center,
   filters,
   selectedIrisCode,
@@ -23,6 +24,7 @@ export default function CarteMap({
   onSelectPermit,
 }: {
   codeInsee: string;
+  communeName?: string;
   center: [number, number];
   filters: MapFilters;
   selectedIrisCode: string | null;
@@ -32,6 +34,7 @@ export default function CarteMap({
   onSelectPipeline: (p: PipelineLogement | null) => void;
   onSelectPermit: (p: PermitFeature & { lng: number; lat: number } | null) => void;
 }) {
+  const villeForLookup = communeName ?? "Saint-Maur-des-Fossés";
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<Map | null>(null);
   const [ready, setReady] = useState(false);
@@ -354,7 +357,7 @@ export default function CarteMap({
             map.on("click", "pipeline-dot", (e) => {
               if (!e.features?.length) return;
               const p = (e.features[0] as MapGeoJSONFeature).properties as unknown as PipelineLogement;
-              const addr = `${p.addr}, Saint-Maur-des-Fossés`;
+              const addr = `${p.addr}, ${villeForLookup}`;
               const pbUrl = `https://www.pagesjaunes.fr/pagesblanches/recherche?quoiqui=&ou=${encodeURIComponent(addr)}`;
               window.open(pbUrl, "_blank", "noopener,noreferrer");
               onSelectPipeline(p);
@@ -433,7 +436,7 @@ export default function CarteMap({
               const f = e.features[0] as MapGeoJSONFeature;
               const p = f.properties as unknown as PermitFeature;
               const coords = (f.geometry as GeoJSON.Point).coordinates as [number, number];
-              const ouQuery = `${p.nom_iris || ""}, Saint-Maur-des-Fossés`.trim();
+              const ouQuery = `${p.nom_iris || ""}, ${villeForLookup}`.trim();
               const pbUrl = `https://www.pagesjaunes.fr/pagesblanches/recherche?quoiqui=&ou=${encodeURIComponent(ouQuery)}`;
               window.open(pbUrl, "_blank", "noopener,noreferrer");
               onSelectPermit({ ...p, lng: coords[0], lat: coords[1] });
@@ -525,6 +528,8 @@ export default function CarteMap({
             }
             onSelectStreet(null);
             onSelectIris(null);
+            onSelectPipeline(null);
+            onSelectPermit(null);
           });
 
           setReady(true);

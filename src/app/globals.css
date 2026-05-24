@@ -78,12 +78,12 @@ body {
 
 input[type="range"] { accent-color: var(--brand); }
 
-/* ── Print mode : transforme IrisCard en rapport A4 propre ─────────────── */
+/* ── Print mode : transforme IrisCard / StreetCard en rapport A4 propre ── */
 @media print {
   html, body { background: white !important; color: #000 !important; }
-  /* Hide everything by default */
-  header.sticky, .no-print, aside, button { display: none !important; }
-  /* Map page chrome hidden, only the printable card visible */
+  /* Hide page chrome: header global, boutons no-print, bulles flottantes */
+  body > header, .no-print, .no-presentation { display: none !important; }
+  /* Map page chrome hidden */
   main { height: auto !important; position: static !important; }
   /* The selected IrisCard / StreetCard becomes the only content */
   aside[class*="absolute"][class*="bottom-4"],
@@ -99,6 +99,15 @@ input[type="range"] { accent-color: var(--brand); }
     inset: auto !important;
     page-break-inside: avoid;
   }
+  /* IrisCard header sticky (titre du quartier) doit RESTER imprimable */
+  aside header.sticky { position: static !important; display: flex !important; }
+  /* Boutons sticky du header IrisCard (X, print, vue IGN) cachés */
+  aside header.sticky .no-print { display: none !important; }
+  /* Auto-expand des AnalyseGate non encore lancés : affiche children
+     même si "running" / "idle". On masque le bouton, on garde le contenu. */
+  [aria-label*="Lancer l'analyse"] { display: none !important; }
+  /* Mais on garde tout le contenu de chaque section. Astuce :
+     en print on shouldn't filter button par défaut, juste les no-print */
   /* Remove backgrounds, simplify for print */
   .shadow-2xl, .shadow-xl, .shadow-lg, .shadow-md, .shadow-sm,
   [class*="shadow-["] { box-shadow: none !important; }

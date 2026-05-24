@@ -20,10 +20,12 @@ type PipelineFeature = { properties: PipelineLogement };
 
 export default function IrisCard({
   codeInsee,
+  communeName,
   iris,
   onClose,
 }: {
   codeInsee: string;
+  communeName?: string;
   iris: IrisProps;
   onClose: () => void;
 }) {
@@ -395,7 +397,7 @@ export default function IrisCard({
               </div>
               <ul className="divide-y divide-[color:var(--line-soft)] border border-[color:var(--line)] rounded-xl overflow-hidden">
                 {pipeline.slice(0, 10).map((p) => (
-                  <PipelineRow key={p.numero_dpe} logement={p} />
+                  <PipelineRow key={p.numero_dpe} logement={p} communeName={communeName} />
                 ))}
               </ul>
               <p className="text-[11px] text-ink-mute mt-2 leading-relaxed">
@@ -720,7 +722,7 @@ function YearChart({ data }: { data: { year: number; sales: number; median_price
   );
 }
 
-function PipelineRow({ logement }: { logement: PipelineLogement }) {
+function PipelineRow({ logement, communeName }: { logement: PipelineLogement; communeName?: string }) {
   const [open, setOpen] = useState(false);
   let signals: PipelineSignal[] = [];
   try {
@@ -745,9 +747,9 @@ function PipelineRow({ logement }: { logement: PipelineLogement }) {
             <span className="text-[10px] text-ink-mute font-normal"> %</span>
           </div>
           <div className="flex flex-col items-end gap-0.5 mt-0.5">
-            <ExternalLookup source="maps" query={logement.addr} variant="inline" />
-            <ExternalLookup source="pagesblanches" query={logement.addr} variant="inline" />
-            <ExternalLookup source="pappers" query={logement.addr} variant="inline" />
+            <ExternalLookup source="maps" query={logement.addr} variant="inline" communeName={communeName} />
+            <ExternalLookup source="pagesblanches" query={logement.addr} variant="inline" communeName={communeName} />
+            <ExternalLookup source="pappers" query={logement.addr} variant="inline" communeName={communeName} />
           </div>
         </div>
       </div>

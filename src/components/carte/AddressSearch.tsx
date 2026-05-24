@@ -168,7 +168,10 @@ export default function AddressSearch({
                 <li key={i}>
                   <button
                     type="button"
-                    onClick={() => handleClick(f)}
+                    onClick={() => isAvailable && handleClick(f)}
+                    disabled={!isAvailable}
+                    aria-disabled={!isAvailable}
+                    title={isAvailable ? "" : `${commune?.nom ?? f.properties.city} : données en cours de génération`}
                     className={`w-full text-left px-4 py-2.5 flex items-center gap-3 transition ${
                       isAvailable
                         ? "hover:bg-surface-warm cursor-pointer"

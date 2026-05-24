@@ -9,9 +9,11 @@ type PermitWithCoords = PermitFeature & { lng: number; lat: number };
 
 export default function PermitCard({
   permit,
+  communeName,
   onClose,
 }: {
   permit: PermitWithCoords;
+  communeName?: string;
   onClose: () => void;
 }) {
   useEscape(true, onClose);
@@ -55,11 +57,11 @@ export default function PermitCard({
 
         {/* Lookups — pour les permits on a les coords GPS donc Street View direct */}
         <div className="flex flex-wrap gap-1.5">
-          <ExternalLookup source="maps" query={approxQuery} coords={{ lat: permit.lat, lng: permit.lng }} />
-          <ExternalLookup source="streetview" query={approxQuery} coords={{ lat: permit.lat, lng: permit.lng }} />
-          <ExternalLookup source="pagesblanches" query={approxQuery} />
-          <ExternalLookup source="pagesjaunes" query={approxQuery} />
-          <ExternalLookup source="pappers" query={approxQuery} />
+          <ExternalLookup source="maps" query={approxQuery} coords={{ lat: permit.lat, lng: permit.lng }} communeName={communeName} />
+          <ExternalLookup source="streetview" query={approxQuery} coords={{ lat: permit.lat, lng: permit.lng }} communeName={communeName} />
+          <ExternalLookup source="pagesblanches" query={approxQuery} communeName={communeName} />
+          <ExternalLookup source="pagesjaunes" query={approxQuery} communeName={communeName} />
+          <ExternalLookup source="pappers" query={approxQuery} communeName={communeName} />
         </div>
       </header>
 

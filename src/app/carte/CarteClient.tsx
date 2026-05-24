@@ -130,6 +130,7 @@ export default function CarteClient({
       {mounted ? (
         <CarteMap
           codeInsee={codeInsee}
+          communeName={commune.nom}
           center={[commune.lng ?? 2.4901, commune.lat ?? 48.8014]}
           filters={filters}
           selectedIrisCode={selectedIris?.code_iris ?? null}
@@ -254,6 +255,7 @@ export default function CarteClient({
       {selected && (
         <StreetCard
           codeInsee={codeInsee}
+          communeName={commune.nom}
           street={selected}
           onClose={() => setSelected(null)}
           onOpenIris={async () => {
@@ -273,17 +275,17 @@ export default function CarteClient({
 
       {/* Selected IRIS floating card */}
       {selectedIris && !selected && !selectedPipeline && !selectedPermit && (
-        <IrisCard codeInsee={codeInsee} iris={selectedIris} onClose={() => setSelectedIris(null)} />
+        <IrisCard codeInsee={codeInsee} communeName={commune.nom} iris={selectedIris} onClose={() => setSelectedIris(null)} />
       )}
 
       {/* Selected pipeline logement */}
       {selectedPipeline && (
-        <PipelineCard logement={selectedPipeline} onClose={() => setSelectedPipeline(null)} />
+        <PipelineCard logement={selectedPipeline} communeName={commune.nom} onClose={() => setSelectedPipeline(null)} />
       )}
 
       {/* Selected permit cadastre */}
       {selectedPermit && (
-        <PermitCard permit={selectedPermit} onClose={() => setSelectedPermit(null)} />
+        <PermitCard permit={selectedPermit} communeName={commune.nom} onClose={() => setSelectedPermit(null)} />
       )}
 
       {/* Market modal — multi-onglets Historique */}

@@ -32,11 +32,13 @@ type Tab = "evolution" | "ventes" | "quartier";
 
 export default function StreetCard({
   codeInsee,
+  communeName,
   street,
   onClose,
   onOpenIris,
 }: {
   codeInsee: string;
+  communeName?: string;
   street: StreetProps & { code_iris?: string; nom_iris?: string };
   onClose: () => void;
   onOpenIris: () => void;
@@ -51,19 +53,25 @@ export default function StreetCard({
     let cancelled = false;
     if (!allTransactions) {
       fetch(communeDataUrl(codeInsee, "transactions.geojson"))
-        .then((r) => r.json())
+        .then((r) => (r.ok ? r.json() : Promise.reject()))
         .then((data: { features: TxFeature[] }) => {
           if (!cancelled) setAllTransactions(data.features);
+        })
+        .catch(() => {
+          if (!cancelled) setAllTransactions([]);
         });
     }
     if (street.code_iris && !iris) {
       fetch(communeDataUrl(codeInsee, "iris.geojson"))
-        .then((r) => r.json())
+        .then((r) => (r.ok ? r.json() : Promise.reject()))
         .then((data: { features: { properties: IrisProps }[] }) => {
           const match = data.features.find(
             (f) => f.properties.code_iris === street.code_iris,
           );
           if (!cancelled && match) setIris(match.properties);
+        })
+        .catch(() => {
+          /* iris.geojson absent (commune partielle) — silencieux */
         });
     }
     return () => {
@@ -161,10 +169,10 @@ export default function StreetCard({
               </button>
             )}
             <div className="mt-3 flex flex-wrap gap-1.5">
-              <ExternalLookup source="maps" query={street.street_name} />
-              <ExternalLookup source="pagesblanches" query={street.street_name} />
-              <ExternalLookup source="pagesjaunes" query={street.street_name} />
-              <ExternalLookup source="pappers" query={street.street_name} />
+              <ExternalLookup source="maps" query={street.street_name} communeName={communeName} />
+              <ExternalLookup source="pagesblanches" query={street.street_name} communeName={communeName} />
+              <ExternalLookup source="pagesjaunes" query={street.street_name} communeName={communeName} />
+              <ExternalLookup source="pappers" query={street.street_name} communeName={communeName} />
             </div>
           </div>
           <button
