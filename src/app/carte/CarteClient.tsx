@@ -261,13 +261,19 @@ export default function CarteClient({
           onOpenIris={async () => {
             const code = (selected as unknown as { code_iris?: string }).code_iris;
             if (!code) return;
-            const data = await fetch(communeDataUrl(codeInsee, "iris.geojson")).then((r) => r.json());
-            const match = (data.features as { properties: IrisProps }[]).find(
-              (f) => f.properties.code_iris === code,
-            );
-            if (match) {
-              setSelectedIris(match.properties);
-              setSelected(null);
+            try {
+              const res = await fetch(communeDataUrl(codeInsee, "iris.geojson"));
+              if (!res.ok) return;
+              const data = await res.json();
+              const match = (data.features as { properties: IrisProps }[]).find(
+                (f) => f.properties.code_iris === code,
+              );
+              if (match) {
+                setSelectedIris(match.properties);
+                setSelected(null);
+              }
+            } catch {
+              /* iris.geojson absent ou invalide pour cette commune */
             }
           }}
         />
