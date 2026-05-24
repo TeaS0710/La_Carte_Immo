@@ -147,7 +147,7 @@ export default function FiltersBubble({
               onClick={() => setOpen(false)}
               className="w-full inline-flex items-center justify-center px-4 py-2.5 rounded-lg bg-brand text-white font-medium text-[15px] hover:bg-brand-strong transition min-h-[44px]"
             >
-              Voir la carte
+              Appliquer
             </button>
           </div>
         </div>

@@ -65,6 +65,17 @@ export default function CarteMap({
         console.error("[CarteMap] MapLibre error:", e);
       });
 
+      // Fix audit P0-2 : popups qui restent collés si la souris sort de la
+      // carte par-dessus un panneau ou la légende sans repasser sur le canvas.
+      map.on("mouseout", () => {
+        const root = map.getContainer();
+        root.querySelectorAll(".maplibregl-popup").forEach((el) => el.remove());
+      });
+      map.on("dragstart", () => {
+        const root = map.getContainer();
+        root.querySelectorAll(".maplibregl-popup").forEach((el) => el.remove());
+      });
+
       // Force resize repeatedly until canvas matches container
       const resizeMap = () => {
         try {
@@ -239,33 +250,7 @@ export default function CarteMap({
             const pipeline = await pipeRes.json();
             map.addSource("pipeline", { type: "geojson", data: pipeline });
 
-            // Halo glow
-            map.addLayer({
-              id: "pipeline-halo",
-              type: "circle",
-              source: "pipeline",
-              layout: { visibility: "none" },
-              paint: {
-                "circle-radius": [
-                  "interpolate", ["linear"], ["zoom"],
-                  13, 0,
-                  14, 6,
-                  16, 14,
-                ],
-                "circle-color": [
-                  "interpolate", ["linear"], ["get", "proba_sale_12m"],
-                  20, "#d9e0d4",
-                  40, "#e6cf9a",
-                  55, "#c09b5a",
-                  70, "#b54f3a",
-                  85, "#7a2810",
-                ],
-                "circle-blur": 0.7,
-                "circle-opacity": 0.45,
-              },
-            });
-
-            // Solid dot
+            // Solid dot (halo supprimé : design sobre, pas de glow)
             map.addLayer({
               id: "pipeline-dot",
               type: "circle",
@@ -329,12 +314,11 @@ export default function CarteMap({
               } catch { /* ignore */ }
               const signalsHtml = signals.length
                 ? `<div style="margin-top:8px;padding-top:8px;border-top:1px solid #eaecef">
-                    <div style="font-size:10px;text-transform:uppercase;letter-spacing:0.12em;color:#9b9690;margin-bottom:4px">Principaux facteurs (top 3)</div>
+                    <div style="font-size:10px;text-transform:uppercase;letter-spacing:0.12em;color:#6e6963;margin-bottom:4px">Pourquoi ce score</div>
                     ${signals.slice(0, 3).map((s) => {
                       const d = s.logit_delta ?? (s.weight ? s.weight / 50 : 0);
-                      const sign = d >= 0 ? "+" : "";
                       const col = d >= 0 ? dpeColor(dpe) : "#5a554f";
-                      return `<div style="display:flex;justify-content:space-between;gap:8px;font-size:11.5px;color:#5a554f;margin:2px 0"><span>${s.label}</span><span style="color:${col};font-weight:600;font-variant-numeric:tabular-nums">${sign}${d.toFixed(2)}</span></div>`;
+                      return `<div style="display:flex;align-items:center;gap:6px;font-size:11.5px;color:#5a554f;margin:2px 0"><span style="display:inline-block;width:5px;height:5px;border-radius:50%;background:${col};flex-shrink:0"></span><span>${s.label}</span></div>`;
                     }).join("")}
                   </div>`
                 : "";
@@ -348,11 +332,11 @@ export default function CarteMap({
                       <span style="color:#5a554f">${p.type_bati || ""} · ${year} · ${surf}</span>
                     </div>
                     <div style="display:flex;align-items:baseline;gap:8px;margin-top:6px;padding-top:6px;border-top:1px solid #eaecef">
-                      <span style="font-weight:700;color:${dpeColor(dpe)};font-size:18px;font-variant-numeric:tabular-nums">${score.toFixed(1)}<span style="font-size:11px;color:#9b9690;font-weight:400"> %</span></span>
-                      <span style="color:#5a554f;font-size:12px">probabilité de vente 12 mois (modèle calibré)</span>
+                      <span style="font-weight:700;color:${dpeColor(dpe)};font-size:18px;font-variant-numeric:tabular-nums">${score.toFixed(1)}<span style="font-size:11px;color:#6e6963;font-weight:400"> %</span></span>
+                      <span style="color:#5a554f;font-size:12px">chance de mise en vente sous 12 mois</span>
                     </div>
                     ${signalsHtml}
-                    <div style="margin-top:8px;font-size:11px;color:#9d7e44;font-weight:500">↗ Clic : ouvre Pages Blanches + fiche d&eacute;taill&eacute;e</div>
+                    <div style="margin-top:8px;font-size:11px;color:#9d7e44;font-weight:500">Clic : ouvre Pages Blanches dans un nouvel onglet</div>
                   </div>`,
                 )
                 .addTo(map);
@@ -430,9 +414,9 @@ export default function CarteMap({
                     <div style="color:#5a554f">Mise à jour cadastrale : <strong>${updated}</strong></div>
                     <div style="color:#5a554f">Type : <strong>${p.type_bati}</strong></div>
                     ${area}
-                    <div style="color:#9b9690;font-size:11px;margin-top:4px">Quartier ${p.nom_iris || "?"}</div>
-                    <div style="color:#9b9690;font-size:11px">GPS ${coords[1].toFixed(5)}, ${coords[0].toFixed(5)}</div>
-                    <div style="margin-top:8px;font-size:11px;color:#9d7e44;font-weight:500">↗ Clic : ouvre Pages Blanches + fiche d&eacute;taill&eacute;e</div>
+                    <div style="color:#6e6963;font-size:11px;margin-top:4px">Quartier ${p.nom_iris || "?"}</div>
+                    <div style="color:#6e6963;font-size:11px">GPS ${coords[1].toFixed(5)}, ${coords[0].toFixed(5)}</div>
+                    <div style="margin-top:8px;font-size:11px;color:#9d7e44;font-weight:500">Clic : ouvre Pages Blanches dans un nouvel onglet</div>
                   </div>`,
                 )
                 .addTo(map);
@@ -587,9 +571,6 @@ export default function CarteMap({
     }
     // Pipeline (DPE-driven probable sales) toggle
     const pipeVis = filters.showPipeline ? "visible" : "none";
-    if (map.getLayer("pipeline-halo")) {
-      map.setLayoutProperty("pipeline-halo", "visibility", pipeVis);
-    }
     if (map.getLayer("pipeline-dot")) {
       map.setLayoutProperty("pipeline-dot", "visibility", pipeVis);
     }

@@ -108,20 +108,30 @@ export default function CarteClient({ stats }: { stats: CommuneStats }) {
         type="button"
         onClick={() => setIs3d((v) => !v)}
         aria-pressed={is3d}
+        aria-label={is3d ? "Désactiver la vue 3D" : "Activer la vue 3D"}
         title={is3d ? "Revenir en vue plate" : "Passer en vue 3D"}
-        className={`absolute top-[196px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[40px] ${
+        className={`absolute top-[196px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
           is3d
             ? "bg-brand text-white border-brand"
             : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
         }`}
       >
-        <Box size={15} />
+        <Box size={15} aria-hidden="true" />
         3D
       </button>
 
 
-      {/* Legend (bottom-left) — fusion: ronds=rues, fond=quartiers */}
-      <div className="absolute bottom-4 left-4 z-10 bg-white rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.10)] border border-[color:var(--line)] px-4 py-3 text-[13px] text-ink max-w-[calc(100vw-32px)]">
+      {/* Legend (bottom-left) — fusion: ronds=rues, fond=quartiers
+          Masquée sur mobile (< sm) si une carte de détail est ouverte pour ne
+          pas cacher l'info utile. */}
+      <div
+        aria-label="Légende de la carte : intensité du volume de ventes, du plus faible au plus fort. Ronds = rues. Fonds colorés = quartiers IRIS."
+        className={`absolute bottom-4 left-4 z-10 bg-white rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.10)] border border-[color:var(--line)] px-4 py-3 text-[13px] text-ink max-w-[calc(100vw-32px)] ${
+          (selected || selectedIris || selectedPipeline || selectedPermit)
+            ? "hidden sm:block"
+            : ""
+        }`}
+      >
         <div className="text-[11px] uppercase tracking-[0.15em] text-ink-mute mb-2">
           Volume de ventes
         </div>

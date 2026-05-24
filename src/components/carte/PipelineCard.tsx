@@ -1,8 +1,9 @@
 "use client";
 
-import { X, Home, Building2 } from "lucide-react";
+import { X, Home, Building2, Ruler, Calendar } from "lucide-react";
 import type { PipelineLogement, PipelineSignal } from "./types";
 import ExternalLookup from "./ExternalLookup";
+import { useEscape } from "@/lib/useEscape";
 
 function dpeColor(et: string): string {
   return et === "G" ? "#7a2810" : et === "F" ? "#b54f3a" : "#c09b5a";
@@ -15,6 +16,8 @@ export default function PipelineCard({
   logement: PipelineLogement;
   onClose: () => void;
 }) {
+  useEscape(true, onClose);
+
   let signals: PipelineSignal[] = [];
   try {
     signals = JSON.parse(logement.signals_json || "[]");
@@ -24,7 +27,12 @@ export default function PipelineCard({
   const positiveSignals = signals.filter((s) => (s.logit_delta ?? s.weight ?? 0) > 0);
 
   return (
-    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 w-[min(480px,calc(100vw-32px))] max-h-[85vh] overflow-y-auto bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] border border-[color:var(--line)]">
+    <div
+      role="dialog"
+      aria-modal="false"
+      aria-labelledby="pipeline-card-title"
+      className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 w-[min(480px,calc(100vw-32px))] max-h-[85vh] overflow-y-auto bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] border border-[color:var(--line)]"
+    >
       {/* Header */}
       <header className="sticky top-0 bg-white border-b border-[color:var(--line-soft)] px-5 pt-4 pb-3 z-10">
         <div className="flex items-start justify-between gap-3 mb-3">
@@ -32,7 +40,7 @@ export default function PipelineCard({
             <div className="text-[11px] uppercase tracking-[0.15em] text-brand-strong mb-1">
               Logement à fort potentiel
             </div>
-            <h3 className="text-[16px] font-semibold text-ink leading-tight">
+            <h3 id="pipeline-card-title" className="text-[16px] font-semibold text-ink leading-tight">
               {logement.addr}
             </h3>
           </div>
@@ -112,12 +120,12 @@ export default function PipelineCard({
               value={`Étiquette ${logement.etiquette_dpe}`}
             />
             <Field
-              icon={<span className="text-brand-strong text-xs font-semibold">📐</span>}
+              icon={<Ruler size={14} className="text-brand-strong" />}
               label="Surface"
               value={logement.surface ? `${logement.surface} m²` : "-"}
             />
             <Field
-              icon={<span className="text-brand-strong text-xs font-semibold">📅</span>}
+              icon={<Calendar size={14} className="text-brand-strong" />}
               label="Année de construction"
               value={logement.annee_construction ? String(logement.annee_construction) : "-"}
             />

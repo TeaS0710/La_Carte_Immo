@@ -11,6 +11,8 @@ import type {
 } from "./types";
 import { formatEur, formatEurPerSqm, formatNum } from "@/lib/format";
 import ExternalLookup from "./ExternalLookup";
+import RisquesPanel from "./RisquesPanel";
+import { useEscape } from "@/lib/useEscape";
 
 type Analysis = { ok: boolean; text?: string; error?: string; source?: string; model?: string; duration_s?: number };
 type PipelineFeature = { properties: PipelineLogement };
@@ -26,6 +28,7 @@ export default function IrisCard({
   const [pipeline, setPipeline] = useState<PipelineLogement[] | null>(null);
   const [risks, setRisks] = useState<CommuneRisks | null>(null);
   const [factuality, setFactuality] = useState<{ score: number | null; n_cited: number; n_matched: number } | null>(null);
+  useEscape(true, onClose);
 
   useEffect(() => {
     let cancelled = false;
@@ -282,58 +285,33 @@ export default function IrisCard({
           </div>
         </section>
 
-        {/* ── Transport & risques ── */}
-        {(iris.rer_distance_m != null || risks) && (
+        {/* ── Transport (RER A) ── */}
+        {iris.rer_distance_m != null && (
           <section>
             <SectionTitle icon={<Train size={12} />}>
-              Transport & risques
+              Transport en commun
             </SectionTitle>
-            <div className="grid sm:grid-cols-2 gap-3">
-              {iris.rer_distance_m != null && (
-                <div className="rounded-lg border border-[color:var(--line)] bg-surface-warm px-3 py-2.5">
-                  <div className="text-[10px] uppercase tracking-[0.15em] text-ink-mute mb-0.5">
-                    RER A la plus proche
-                  </div>
-                  <div className="text-[14px] text-ink font-medium leading-tight">
-                    {iris.rer_nearest}
-                  </div>
-                  <div className="text-[12px] text-ink-soft tabular mt-0.5">
-                    {iris.rer_distance_m} m · {iris.rer_walking_min} min à pied
-                  </div>
-                </div>
-              )}
-              {risks && risks.n_risks_present > 0 && (
-                <div className="rounded-lg border border-[color:var(--line)] bg-surface-warm px-3 py-2.5">
-                  <div className="text-[10px] uppercase tracking-[0.15em] text-ink-mute mb-0.5 inline-flex items-center gap-1">
-                    <ShieldAlert size={10} /> Risques Géorisques
-                  </div>
-                  <div className="text-[14px] text-ink font-medium tabular">
-                    {risks.n_risks_present} actifs sur la commune
-                  </div>
-                  <a
-                    href={risks.georisques_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[11px] text-brand-strong hover:underline"
-                  >
-                    Voir le rapport complet →
-                  </a>
-                </div>
-              )}
-            </div>
-            {risks && risks.n_risks_present > 0 && (
-              <div className="mt-3 flex flex-wrap gap-1.5">
-                {Object.entries(risks.risks).map(([k, r]) => (
-                  <span
-                    key={k}
-                    className="text-[11px] px-2 py-1 rounded-md border border-[color:var(--line)] bg-white text-ink-soft"
-                    title={r.status ?? ""}
-                  >
-                    {r.label}
-                  </span>
-                ))}
+            <div className="rounded-lg border border-[color:var(--line)] bg-surface-warm px-4 py-3">
+              <div className="text-[10px] uppercase tracking-[0.15em] text-ink-soft mb-0.5">
+                Gare RER A la plus proche
               </div>
-            )}
+              <div className="text-[15px] text-ink font-medium leading-tight">
+                {iris.rer_nearest}
+              </div>
+              <div className="text-[12.5px] text-ink-soft tabular mt-1">
+                {iris.rer_distance_m} m à vol d&apos;oiseau · {iris.rer_walking_min} min à pied
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* ── Risques Géorisques (commune-wide) ── */}
+        {risks && risks.n_risks_present > 0 && (
+          <section>
+            <SectionTitle icon={<ShieldAlert size={12} />}>
+              Risques majeurs (Géorisques)
+            </SectionTitle>
+            <RisquesPanel risks={risks} />
           </section>
         )}
 

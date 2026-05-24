@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { assetUrl } from "@/lib/url";
+import { useEscape } from "@/lib/useEscape";
 import { X, LineChart as LineChartIcon, Target, Hammer } from "lucide-react";
 import {
   Bar,
@@ -40,10 +41,17 @@ export default function MarketModal({
   filters: MapFilters;
   setFilters: (f: MapFilters) => void;
 }) {
+  useEscape(true, onClose);
   return (
     <div
+      role="dialog"
+      aria-modal="true"
+      aria-label="La Carte Prelys — Historique du marché"
       className="fixed inset-0 z-50 bg-black/40 flex items-end md:items-center justify-center"
-      onClick={onClose}
+      onClick={(e) => {
+        // Ne fermer que si le clic est sur l'overlay lui-même, pas relâché après un drag
+        if (e.target === e.currentTarget) onClose();
+      }}
     >
       <div
         className="bg-white w-full md:max-w-3xl md:rounded-2xl rounded-t-2xl max-h-[92vh] overflow-y-auto shadow-2xl"

@@ -16,6 +16,7 @@ import type { StreetProps } from "@/lib/types";
 import type { IrisProps } from "./types";
 import { formatEur, formatEurPerSqm, formatNum, formatStreet } from "@/lib/format";
 import ExternalLookup from "./ExternalLookup";
+import { useEscape } from "@/lib/useEscape";
 
 type Tx = {
   date: string;
@@ -40,6 +41,7 @@ export default function StreetCard({
   const [tab, setTab] = useState<Tab>("evolution");
   const [allTransactions, setAllTransactions] = useState<TxFeature[] | null>(null);
   const [iris, setIris] = useState<IrisProps | null>(null);
+  useEscape(true, onClose);
 
   // Lazy-load transactions + IRIS on mount (cached after first open)
   useEffect(() => {

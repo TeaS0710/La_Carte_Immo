@@ -3,6 +3,7 @@
 import { X, Hammer } from "lucide-react";
 import type { PermitFeature } from "./types";
 import ExternalLookup from "./ExternalLookup";
+import { useEscape } from "@/lib/useEscape";
 
 type PermitWithCoords = PermitFeature & { lng: number; lat: number };
 
@@ -13,6 +14,7 @@ export default function PermitCard({
   permit: PermitWithCoords;
   onClose: () => void;
 }) {
+  useEscape(true, onClose);
   // Adresse approximative à partir des coords (utilisée comme query lookup)
   const approxQuery = permit.nom_iris
     ? `${permit.nom_iris}`
@@ -24,7 +26,12 @@ export default function PermitCard({
   });
 
   return (
-    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 w-[min(420px,calc(100vw-32px))] bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] border border-[color:var(--line)] overflow-hidden">
+    <div
+      role="dialog"
+      aria-modal="false"
+      aria-label="Fiche bâtiment modifié"
+      className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 w-[min(420px,calc(100vw-32px))] bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] border border-[color:var(--line)] overflow-hidden"
+    >
       <header className="bg-white border-b border-[color:var(--line-soft)] px-5 pt-4 pb-3">
         <div className="flex items-start justify-between gap-3 mb-3">
           <div className="min-w-0">

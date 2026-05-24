@@ -113,10 +113,26 @@ export interface IrisProps {
   rer_walking_min?: number;
 }
 
+export type RiskIntensity = "faible" | "moyen" | "fort" | "present" | "unknown";
+
+export interface RiskItem {
+  category: "risquesNaturels" | "risquesTechnologiques" | "risquesPollution";
+  label: string;
+  raw_status: string | null;
+  intensity: RiskIntensity;
+  note: string;
+  radon_class?: string;
+}
+
 export interface CommuneRisks {
   commune: string;
   code_insee: string;
+  code_postal?: string;
   georisques_url: string;
+  risks: Record<string, RiskItem>;
   n_risks_present: number;
-  risks: Record<string, { category: string; label: string; status: string }>;
+  icpe_count?: number;
+  radon_class?: string | null;
+  ppr_risques?: string[];
+  scale_note?: string;
 }
