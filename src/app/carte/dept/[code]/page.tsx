@@ -25,8 +25,10 @@ interface DeptPayload {
   communes_count_available: number;
   total_sales: number;
   median_price?: number | null;
+  median_price_per_sqm?: number | null;
   population_total: number;
   population_available: number;
+  insights?: string[];
   top_communes: CommuneSummary[];
   all_communes_available: CommuneSummary[];
 }
@@ -117,6 +119,25 @@ export default async function DeptPage({
           <KPIBox label="Population couverte" value={fmt(dept.population_available)} sub={`/ ${fmt(dept.population_total)}`} />
           <KPIBox label="Prix médian dept" value={fmtEur(dept.median_price)} sub="médiane communale" />
         </section>
+
+        {/* Top insights du département */}
+        {dept.insights && dept.insights.length > 0 && (
+          <section>
+            <h2 className="text-[12px] uppercase tracking-[0.15em] text-ink-soft mb-3">
+              Points-clés
+            </h2>
+            <ul className="space-y-2">
+              {dept.insights.map((insight, i) => (
+                <li
+                  key={i}
+                  className="rounded-lg border-l-2 border-l-brand-strong bg-surface-warm/40 px-4 py-2.5 text-[13.5px] text-ink leading-relaxed"
+                >
+                  {insight}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {/* Carte interactive du département */}
         <section>

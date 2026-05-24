@@ -1,0 +1,120 @@
+{
+  "commune": "Liverdy-en-Brie",
+  "insee": "77254",
+  "generated_at": "2026-05-24T21:22:04.569035Z",
+  "total_sales": 340,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 46,
+  "median_price": 222000.0,
+  "median_price_per_sqm": 3154.7619047619046,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 80,
+      "median_price": 274500.0
+    },
+    {
+      "year": 2022,
+      "sales": 70,
+      "median_price": 222000.0
+    },
+    {
+      "year": 2023,
+      "sales": 75,
+      "median_price": 189000.0
+    },
+    {
+      "year": 2024,
+      "sales": 49,
+      "median_price": 172000.0
+    },
+    {
+      "year": 2025,
+      "sales": 66,
+      "median_price": 245500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE MELUN",
+      "sales": 38,
+      "median_price_per_sqm": 3107.590034852201
+    },
+    {
+      "street_name": "RUE DE MEAUX",
+      "sales": 24,
+      "median_price_per_sqm": 4000.0
+    },
+    {
+      "street_name": "LIVERDY",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA BERNOISERIE",
+      "sales": 21,
+      "median_price_per_sqm": 3071.4285714285716
+    },
+    {
+      "street_name": "RUE DES FONTAINES",
+      "sales": 20,
+      "median_price_per_sqm": 3317.3076923076924
+    },
+    {
+      "street_name": "RUE DE MONTGAZON",
+      "sales": 20,
+      "median_price_per_sqm": 2787.230145740784
+    },
+    {
+      "street_name": "RUE DES DONNEES",
+      "sales": 17,
+      "median_price_per_sqm": 2490.748898678414
+    },
+    {
+      "street_name": "RUE DES NOYERS",
+      "sales": 12,
+      "median_price_per_sqm": 3438.9609398840403
+    },
+    {
+      "street_name": "RUE LEOPOLD JOUBIN",
+      "sales": 12,
+      "median_price_per_sqm": 2633.495145631068
+    },
+    {
+      "street_name": "RUE DE LA CROIX DE RETAL",
+      "sales": 12,
+      "median_price_per_sqm": 3000.0
+    },
+    {
+      "street_name": "RUE DES TILLEULS",
+      "sales": 10,
+      "median_price_per_sqm": 2853.844481605351
+    },
+    {
+      "street_name": "RUE DE LA BRIQUETERIE",
+      "sales": 10,
+      "median_price_per_sqm": 3543.6893203883496
+    },
+    {
+      "street_name": "IMP DE LA TUILERIE",
+      "sales": 8,
+      "median_price_per_sqm": 3444.4444444444443
+    },
+    {
+      "street_name": "LA CORMIERE",
+      "sales": 8,
+      "median_price_per_sqm": 4073.863636363636
+    },
+    {
+      "street_name": "RUE DE LA FORET",
+      "sales": 8,
+      "median_price_per_sqm": 2321.4285714285716
+    }
+  ]
+}

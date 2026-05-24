@@ -82,6 +82,12 @@ def main() -> int:
         region_total["total_population"] += commune_summary["population"]
         region_total["communes_count"] += 1
 
+    def fmt_eur(n: float | int) -> str:
+        return f"{int(round(n)):,} €".replace(",", " ")
+
+    def fmt_int(n: int) -> str:
+        return f"{n:,}".replace(",", " ")
+
     # Écrit synthèse par dept
     for dept, communes in sorted(by_dept.items()):
         communes.sort(key=lambda c: -c["total_sales"])
@@ -90,6 +96,41 @@ def main() -> int:
         # Prix médian dept : médiane pondérée des médians communaux
         prices = [c["median_price"] for c in communes if c["median_price"]]
         median_price_dept = sorted(prices)[len(prices) // 2] if prices else None
+        ppsqm = [c["median_price_per_sqm"] for c in communes if c["median_price_per_sqm"]]
+        median_ppsqm_dept = sorted(ppsqm)[len(ppsqm) // 2] if ppsqm else None
+        # Top-3 insights actionnables
+        insights = []
+        if communes:
+            top = communes[0]
+            insights.append(
+                f"{top['nom']} concentre le plus de transactions du département "
+                f"({fmt_int(top['total_sales'])} ventes DVF sur 5 ans)."
+            )
+        if median_ppsqm_dept:
+            most_expensive = max(
+                (c for c in communes if c["median_price_per_sqm"]),
+                key=lambda c: c["median_price_per_sqm"] or 0,
+                default=None,
+            )
+            cheapest = min(
+                (c for c in communes if c["median_price_per_sqm"]),
+                key=lambda c: c["median_price_per_sqm"] or 1e9,
+                default=None,
+            )
+            if most_expensive and cheapest and most_expensive != cheapest:
+                insights.append(
+                    f"Spread prix marqué : {most_expensive['nom']} à "
+                    f"{fmt_eur(most_expensive['median_price_per_sqm'])}/m² vs "
+                    f"{cheapest['nom']} à {fmt_eur(cheapest['median_price_per_sqm'])}/m²."
+                )
+        if len(communes) >= 5:
+            top5_share = sum(c["total_sales"] for c in communes[:5]) / max(
+                1, sum(c["total_sales"] for c in communes)
+            )
+            insights.append(
+                f"Les 5 communes les plus actives concentrent {int(top5_share * 100)} % "
+                f"des transactions du département analysées."
+            )
         payload = {
             "code_dept": dept,
             "nom_dept": DEPT_NAMES.get(dept, dept),
@@ -99,6 +140,8 @@ def main() -> int:
             "median_price": median_price_dept,
             "population_total": sum(c["population"] for c in manifest.values() if c["code_dept"] == dept),
             "population_available": dept_population,
+            "median_price_per_sqm": median_ppsqm_dept,
+            "insights": insights,
             "top_communes": communes[:20],
             "all_communes_available": [
                 {"slug": c["slug"], "nom": c["nom"], "code_insee": c["code_insee"], "total_sales": c["total_sales"]}
@@ -113,6 +156,25 @@ def main() -> int:
     for dept_communes in by_dept.values():
         all_communes_summary.extend(dept_communes)
     all_communes_summary.sort(key=lambda c: -c["total_sales"])
+    # Top-3 insights région
+    region_insights = []
+    if all_communes_summary:
+        top = all_communes_summary[0]
+        region_insights.append(
+            f"{top['nom']} (dept {next((m['code_dept'] for m in manifest.values() if m['code_insee'] == top['code_insee']), '?')}) "
+            f"est la commune IDF la plus active des données analysées : {fmt_int(top['total_sales'])} ventes DVF."
+        )
+    dept_with_most = max(by_dept.items(), key=lambda x: len(x[1]), default=(None, []))
+    if dept_with_most[0]:
+        region_insights.append(
+            f"Le département {DEPT_NAMES.get(dept_with_most[0], dept_with_most[0])} "
+            f"compte le plus de communes couvertes ({len(dept_with_most[1])} villes analysées)."
+        )
+    region_insights.append(
+        f"Couverture progressive en cours : {region_total['communes_count']} communes IDF "
+        f"sur {len(manifest)} planifiées."
+    )
+
     region_payload = {
         "region_slug": "idf",
         "nom_region": "Île-de-France",
@@ -130,6 +192,7 @@ def main() -> int:
         "communes_count_available": region_total["communes_count"],
         "total_sales_available": region_total["total_sales"],
         "population_total": sum(c.get("population", 0) for c in manifest.values()),
+        "insights": region_insights,
         "top_communes": all_communes_summary[:30],
     }
     (IDF_DIR / "region.json").write_text(json.dumps(region_payload, ensure_ascii=False, indent=2))

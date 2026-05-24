@@ -1,0 +1,25 @@
+{
+  "year": 2025,
+  "sales_year": 43,
+  "sales_delta_pct": 230.8,
+  "median_price": 180000.0,
+  "median_ppsqm": 1464.0,
+  "delta_ppsqm_pct": -9.1,
+  "notable_sales": [
+    {
+      "date": "2025-08-07",
+      "street": "RUE DE LA CROIX SAINT JEAN",
+      "type": "Maison",
+      "surface": 125,
+      "price": 235000.0
+    },
+    {
+      "date": "2025-06-30",
+      "street": "RUE DES COURTES SOUPES",
+      "type": "Maison",
+      "surface": 80,
+      "price": 175000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:21:22.221636Z"
+}

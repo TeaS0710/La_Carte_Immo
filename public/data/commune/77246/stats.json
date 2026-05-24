@@ -1,0 +1,120 @@
+{
+  "commune": "Léchelle",
+  "insee": "77246",
+  "generated_at": "2026-05-24T21:20:58.836402Z",
+  "total_sales": 144,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 33,
+  "median_price": 185000.0,
+  "median_price_per_sqm": 1697.2477064220184,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 39,
+      "median_price": 206000.0
+    },
+    {
+      "year": 2022,
+      "sales": 20,
+      "median_price": 147800.0
+    },
+    {
+      "year": 2023,
+      "sales": 46,
+      "median_price": 1650000.0
+    },
+    {
+      "year": 2024,
+      "sales": 17,
+      "median_price": 182000.0
+    },
+    {
+      "year": 2025,
+      "sales": 22,
+      "median_price": 184492.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU STADE",
+      "sales": 16,
+      "median_price_per_sqm": 3928.5714285714284
+    },
+    {
+      "street_name": "LE BOURG",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LUNAY",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA TOUR",
+      "sales": 10,
+      "median_price_per_sqm": 1150.9803921568628
+    },
+    {
+      "street_name": "RUE DE LA TRACONNE",
+      "sales": 10,
+      "median_price_per_sqm": 2569.1585956416466
+    },
+    {
+      "street_name": "RUE DES PRES",
+      "sales": 10,
+      "median_price_per_sqm": 1630.4347826086957
+    },
+    {
+      "street_name": "RUE DE ST AIGNAN",
+      "sales": 8,
+      "median_price_per_sqm": 1941.747625
+    },
+    {
+      "street_name": "LES VIGNOTTES",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "NOYER DU BISME",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PLESSIS-PIGY",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "AU COUCHANT DES VIGNOTTES",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA GARE",
+      "sales": 4,
+      "median_price_per_sqm": 1734.6938775510203
+    },
+    {
+      "street_name": "LA CHATAIGNERAIE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE NORD DE LA BOULAYE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 3,
+      "median_price_per_sqm": 1944.7368421052631
+    }
+  ]
+}

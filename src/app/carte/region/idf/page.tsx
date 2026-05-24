@@ -33,6 +33,7 @@ interface RegionPayload {
   total_sales_available: number;
   population_total: number;
   top_communes: CommuneSummary[];
+  insights?: string[];
 }
 
 async function loadRegion(): Promise<RegionPayload | null> {
@@ -91,6 +92,25 @@ export default async function RegionPage() {
           </h2>
           <CommuneSearch availableSlugs={region.top_communes.map((c) => c.slug)} />
         </section>
+
+        {/* Top insights régionaux */}
+        {region.insights && region.insights.length > 0 && (
+          <section>
+            <h2 className="text-[12px] uppercase tracking-[0.15em] text-ink-soft mb-3">
+              Points-clés
+            </h2>
+            <ul className="space-y-2">
+              {region.insights.map((insight, i) => (
+                <li
+                  key={i}
+                  className="rounded-lg border-l-2 border-l-brand-strong bg-surface-warm/40 px-4 py-2.5 text-[13.5px] text-ink leading-relaxed"
+                >
+                  {insight}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {/* KPI globaux */}
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4">

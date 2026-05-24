@@ -7,6 +7,12 @@
   "median_price": 326500.0,
   "population_total": 1426929,
   "population_available": 641727,
+  "median_price_per_sqm": 6013.526315789473,
+  "insights": [
+    "Saint-Maur-des-Fossés concentre le plus de transactions du département (16 786 ventes DVF sur 5 ans).",
+    "Spread prix marqué : Vincennes à 9 333 €/m² vs Champigny-sur-Marne à 4 245 €/m².",
+    "Les 5 communes les plus actives concentrent 60 % des transactions du département analysées."
+  ],
   "top_communes": [
     {
       "code_insee": "94068",

@@ -2,11 +2,17 @@
   "code_dept": "77",
   "nom_dept": "Seine-et-Marne",
   "communes_count_total": 507,
-  "communes_count_available": 142,
-  "total_sales": 109405,
-  "median_price": 224000.0,
+  "communes_count_available": 188,
+  "total_sales": 138310,
+  "median_price": 225000.0,
   "population_total": 1468108,
-  "population_available": 495243,
+  "population_available": 606264,
+  "median_price_per_sqm": 2836.3636363636365,
+  "insights": [
+    "Chelles concentre le plus de transactions du département (7 495 ventes DVF sur 5 ans).",
+    "Spread prix marqué : Jossigny à 51 862 €/m² vs Beaumont-du-Gâtinais à 1 316 €/m².",
+    "Les 5 communes les plus actives concentrent 18 % des transactions du département analysées."
+  ],
   "top_communes": [
     {
       "code_insee": "77108",
@@ -26,6 +32,25 @@
         2025
       ],
       "streets_with_sales": 475
+    },
+    {
+      "code_insee": "77243",
+      "slug": "lagny-sur-marne",
+      "nom": "Lagny-sur-Marne",
+      "population": 21461,
+      "lng": 2.7045,
+      "lat": 48.8716,
+      "total_sales": 5190,
+      "median_price": 325000.0,
+      "median_price_per_sqm": 4433.333333333333,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 218
     },
     {
       "code_insee": "77014",
@@ -218,6 +243,25 @@
       "streets_with_sales": 191
     },
     {
+      "code_insee": "77219",
+      "slug": "guerard",
+      "nom": "Guérard",
+      "population": 2688,
+      "lng": 2.9533,
+      "lat": 48.8128,
+      "total_sales": 2696,
+      "median_price": 107200.0,
+      "median_price_per_sqm": 3016.586893203884,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 251
+    },
+    {
       "code_insee": "77153",
       "slug": "dammartin-en-goele",
       "nom": "Dammartin-en-Goële",
@@ -237,6 +281,25 @@
       "streets_with_sales": 173
     },
     {
+      "code_insee": "77251",
+      "slug": "lieusaint",
+      "nom": "Lieusaint",
+      "population": 14017,
+      "lng": 2.549,
+      "lat": 48.6277,
+      "total_sales": 2373,
+      "median_price": 227000.0,
+      "median_price_per_sqm": 3606.55737704918,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 121
+    },
+    {
       "code_insee": "77111",
       "slug": "chessy",
       "nom": "Chessy",
@@ -254,6 +317,25 @@
         2025
       ],
       "streets_with_sales": 109
+    },
+    {
+      "code_insee": "77215",
+      "slug": "gretz-armainvilliers",
+      "nom": "Gretz-Armainvilliers",
+      "population": 8825,
+      "lng": 2.7272,
+      "lat": 48.7536,
+      "total_sales": 1651,
+      "median_price": 269000.0,
+      "median_price_per_sqm": 3521.034996276992,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 103
     },
     {
       "code_insee": "77169",
@@ -311,82 +393,6 @@
         2025
       ],
       "streets_with_sales": 83
-    },
-    {
-      "code_insee": "77055",
-      "slug": "brou-sur-chantereine",
-      "nom": "Brou-sur-Chantereine",
-      "population": 5196,
-      "lng": 2.6394,
-      "lat": 48.8891,
-      "total_sales": 1331,
-      "median_price": 217650.0,
-      "median_price_per_sqm": 5206.597222222223,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 35
-    },
-    {
-      "code_insee": "77079",
-      "slug": "champagne-sur-seine",
-      "nom": "Champagne-sur-Seine",
-      "population": 6497,
-      "lng": 2.8101,
-      "lat": 48.4072,
-      "total_sales": 1331,
-      "median_price": 180000.0,
-      "median_price_per_sqm": 2522.5225225225226,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 129
-    },
-    {
-      "code_insee": "77042",
-      "slug": "boissy-le-chatel",
-      "nom": "Boissy-le-Châtel",
-      "population": 3346,
-      "lng": 3.1379,
-      "lat": 48.8247,
-      "total_sales": 1133,
-      "median_price": 203000.0,
-      "median_price_per_sqm": 2525.0,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 156
-    },
-    {
-      "code_insee": "77171",
-      "slug": "esbly",
-      "nom": "Esbly",
-      "population": 6072,
-      "lng": 2.8123,
-      "lat": 48.9011,
-      "total_sales": 1129,
-      "median_price": 222000.0,
-      "median_price_per_sqm": 3600.0,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 106
     }
   ],
   "all_communes_available": [
@@ -395,6 +401,12 @@
       "nom": "Chelles",
       "code_insee": "77108",
       "total_sales": 7495
+    },
+    {
+      "slug": "lagny-sur-marne",
+      "nom": "Lagny-sur-Marne",
+      "code_insee": "77243",
+      "total_sales": 5190
     },
     {
       "slug": "avon",
@@ -457,16 +469,34 @@
       "total_sales": 2784
     },
     {
+      "slug": "guerard",
+      "nom": "Guérard",
+      "code_insee": "77219",
+      "total_sales": 2696
+    },
+    {
       "slug": "dammartin-en-goele",
       "nom": "Dammartin-en-Goële",
       "code_insee": "77153",
       "total_sales": 2427
     },
     {
+      "slug": "lieusaint",
+      "nom": "Lieusaint",
+      "code_insee": "77251",
+      "total_sales": 2373
+    },
+    {
       "slug": "chessy",
       "nom": "Chessy",
       "code_insee": "77111",
       "total_sales": 1877
+    },
+    {
+      "slug": "gretz-armainvilliers",
+      "nom": "Gretz-Armainvilliers",
+      "code_insee": "77215",
+      "total_sales": 1651
     },
     {
       "slug": "emerainville",
@@ -499,6 +529,18 @@
       "total_sales": 1331
     },
     {
+      "slug": "jouarre",
+      "nom": "Jouarre",
+      "code_insee": "77238",
+      "total_sales": 1288
+    },
+    {
+      "slug": "fontenay-tresigny",
+      "nom": "Fontenay-Trésigny",
+      "code_insee": "77192",
+      "total_sales": 1151
+    },
+    {
       "slug": "boissy-le-chatel",
       "nom": "Boissy-le-Châtel",
       "code_insee": "77042",
@@ -523,6 +565,12 @@
       "total_sales": 1108
     },
     {
+      "slug": "grisy-suisnes",
+      "nom": "Grisy-Suisnes",
+      "code_insee": "77217",
+      "total_sales": 1107
+    },
+    {
       "slug": "la-ferte-gaucher",
       "nom": "La Ferté-Gaucher",
       "code_insee": "77182",
@@ -545,6 +593,18 @@
       "nom": "Chamigny",
       "code_insee": "77078",
       "total_sales": 993
+    },
+    {
+      "slug": "guignes",
+      "nom": "Guignes",
+      "code_insee": "77222",
+      "total_sales": 938
+    },
+    {
+      "slug": "jouy-sur-morin",
+      "nom": "Jouy-sur-Morin",
+      "code_insee": "77240",
+      "total_sales": 932
     },
     {
       "slug": "bourron-marlotte",
@@ -589,10 +649,22 @@
       "total_sales": 804
     },
     {
+      "slug": "hericy",
+      "nom": "Héricy",
+      "code_insee": "77226",
+      "total_sales": 794
+    },
+    {
       "slug": "ferrieres-en-brie",
       "nom": "Ferrières-en-Brie",
       "code_insee": "77181",
       "total_sales": 790
+    },
+    {
+      "slug": "lesigny",
+      "nom": "Lésigny",
+      "code_insee": "77249",
+      "total_sales": 787
     },
     {
       "slug": "annet-sur-marne",
@@ -637,6 +709,12 @@
       "total_sales": 677
     },
     {
+      "slug": "grez-sur-loing",
+      "nom": "Grez-sur-Loing",
+      "code_insee": "77216",
+      "total_sales": 671
+    },
+    {
       "slug": "chartrettes",
       "nom": "Chartrettes",
       "code_insee": "77096",
@@ -664,6 +742,12 @@
       "slug": "couilly-pont-aux-dames",
       "nom": "Couilly-Pont-aux-Dames",
       "code_insee": "77128",
+      "total_sales": 620
+    },
+    {
+      "slug": "la-grande-paroisse",
+      "nom": "La Grande-Paroisse",
+      "code_insee": "77210",
       "total_sales": 620
     },
     {
@@ -695,6 +779,12 @@
       "nom": "La Chapelle-la-Reine",
       "code_insee": "77088",
       "total_sales": 586
+    },
+    {
+      "slug": "jouy-le-chatel",
+      "nom": "Jouy-le-Châtel",
+      "code_insee": "77239",
+      "total_sales": 585
     },
     {
       "slug": "dormelles",
@@ -787,6 +877,12 @@
       "total_sales": 444
     },
     {
+      "slug": "larchant",
+      "nom": "Larchant",
+      "code_insee": "77244",
+      "total_sales": 443
+    },
+    {
       "slug": "chalmaison",
       "nom": "Chalmaison",
       "code_insee": "77076",
@@ -799,6 +895,12 @@
       "total_sales": 431
     },
     {
+      "slug": "la-houssaye-en-brie",
+      "nom": "La Houssaye-en-Brie",
+      "code_insee": "77229",
+      "total_sales": 431
+    },
+    {
       "slug": "darvault",
       "nom": "Darvault",
       "code_insee": "77156",
@@ -808,6 +910,12 @@
       "slug": "chenoise-cucharmoy",
       "nom": "Chenoise-Cucharmoy",
       "code_insee": "77109",
+      "total_sales": 425
+    },
+    {
+      "slug": "gouaix",
+      "nom": "Gouaix",
+      "code_insee": "77208",
       "total_sales": 425
     },
     {
@@ -833,6 +941,12 @@
       "nom": "Bouleurs",
       "code_insee": "77047",
       "total_sales": 406
+    },
+    {
+      "slug": "fublaines",
+      "nom": "Fublaines",
+      "code_insee": "77199",
+      "total_sales": 398
     },
     {
       "slug": "courpalay",
@@ -871,6 +985,18 @@
       "total_sales": 367
     },
     {
+      "slug": "germigny-l-eveque",
+      "nom": "Germigny-l'Évêque",
+      "code_insee": "77203",
+      "total_sales": 360
+    },
+    {
+      "slug": "isles-les-villenoy",
+      "nom": "Isles-lès-Villenoy",
+      "code_insee": "77232",
+      "total_sales": 357
+    },
+    {
       "slug": "dammartin-sur-tigeaux",
       "nom": "Dammartin-sur-Tigeaux",
       "code_insee": "77154",
@@ -889,10 +1015,28 @@
       "total_sales": 342
     },
     {
+      "slug": "juilly",
+      "nom": "Juilly",
+      "code_insee": "77241",
+      "total_sales": 340
+    },
+    {
+      "slug": "liverdy-en-brie",
+      "nom": "Liverdy-en-Brie",
+      "code_insee": "77254",
+      "total_sales": 340
+    },
+    {
       "slug": "charny",
       "nom": "Charny",
       "code_insee": "77095",
       "total_sales": 335
+    },
+    {
+      "slug": "herme",
+      "nom": "Hermé",
+      "code_insee": "77227",
+      "total_sales": 324
     },
     {
       "slug": "la-croix-en-brie",
@@ -913,9 +1057,21 @@
       "total_sales": 304
     },
     {
+      "slug": "jossigny",
+      "nom": "Jossigny",
+      "code_insee": "77237",
+      "total_sales": 303
+    },
+    {
       "slug": "chevry-en-sereine",
       "nom": "Chevry-en-Sereine",
       "code_insee": "77115",
+      "total_sales": 301
+    },
+    {
+      "slug": "fontaine-le-port",
+      "nom": "Fontaine-le-Port",
+      "code_insee": "77188",
       "total_sales": 301
     },
     {
@@ -961,9 +1117,21 @@
       "total_sales": 278
     },
     {
+      "slug": "gouvernes",
+      "nom": "Gouvernes",
+      "code_insee": "77209",
+      "total_sales": 276
+    },
+    {
       "slug": "bombon",
       "nom": "Bombon",
       "code_insee": "77044",
+      "total_sales": 275
+    },
+    {
+      "slug": "jutigny",
+      "nom": "Jutigny",
+      "code_insee": "77242",
       "total_sales": 275
     },
     {
@@ -997,6 +1165,12 @@
       "total_sales": 259
     },
     {
+      "slug": "la-genevraye",
+      "nom": "La Genevraye",
+      "code_insee": "77202",
+      "total_sales": 259
+    },
+    {
       "slug": "bannost-villegagnon",
       "nom": "Bannost-Villegagnon",
       "code_insee": "77020",
@@ -1009,6 +1183,12 @@
       "total_sales": 258
     },
     {
+      "slug": "fontaine-fourches",
+      "nom": "Fontaine-Fourches",
+      "code_insee": "77187",
+      "total_sales": 257
+    },
+    {
       "slug": "chambry",
       "nom": "Chambry",
       "code_insee": "77077",
@@ -1019,6 +1199,18 @@
       "nom": "La Chapelle-Rablais",
       "code_insee": "77089",
       "total_sales": 251
+    },
+    {
+      "slug": "fontenailles",
+      "nom": "Fontenailles",
+      "code_insee": "77191",
+      "total_sales": 248
+    },
+    {
+      "slug": "lesches",
+      "nom": "Lesches",
+      "code_insee": "77248",
+      "total_sales": 245
     },
     {
       "slug": "coulombs-en-valois",
@@ -1081,6 +1273,18 @@
       "total_sales": 221
     },
     {
+      "slug": "grandpuits-bailly-carrois",
+      "nom": "Grandpuits-Bailly-Carrois",
+      "code_insee": "77211",
+      "total_sales": 217
+    },
+    {
+      "slug": "lescherolles",
+      "nom": "Lescherolles",
+      "code_insee": "77247",
+      "total_sales": 217
+    },
+    {
       "slug": "flagy",
       "nom": "Flagy",
       "code_insee": "77184",
@@ -1093,10 +1297,28 @@
       "total_sales": 213
     },
     {
+      "slug": "gastins",
+      "nom": "Gastins",
+      "code_insee": "77201",
+      "total_sales": 213
+    },
+    {
       "slug": "chatres",
       "nom": "Châtres",
       "code_insee": "77104",
       "total_sales": 211
+    },
+    {
+      "slug": "limoges-fourches",
+      "nom": "Limoges-Fourches",
+      "code_insee": "77252",
+      "total_sales": 207
+    },
+    {
+      "slug": "guermantes",
+      "nom": "Guermantes",
+      "code_insee": "77221",
+      "total_sales": 206
     },
     {
       "slug": "fay-les-nemours",
@@ -1123,15 +1345,39 @@
       "total_sales": 192
     },
     {
+      "slug": "fouju",
+      "nom": "Fouju",
+      "code_insee": "77195",
+      "total_sales": 185
+    },
+    {
       "slug": "bussieres",
       "nom": "Bussières",
       "code_insee": "77057",
       "total_sales": 183
     },
     {
+      "slug": "forges",
+      "nom": "Forges",
+      "code_insee": "77194",
+      "total_sales": 183
+    },
+    {
+      "slug": "fresnes-sur-marne",
+      "nom": "Fresnes-sur-Marne",
+      "code_insee": "77196",
+      "total_sales": 179
+    },
+    {
       "slug": "coulommes",
       "nom": "Coulommes",
       "code_insee": "77130",
+      "total_sales": 174
+    },
+    {
+      "slug": "isles-les-meldeuses",
+      "nom": "Isles-les-Meldeuses",
+      "code_insee": "77231",
       "total_sales": 174
     },
     {
@@ -1159,10 +1405,22 @@
       "total_sales": 159
     },
     {
+      "slug": "jablines",
+      "nom": "Jablines",
+      "code_insee": "77234",
+      "total_sales": 151
+    },
+    {
       "slug": "cuisy",
       "nom": "Cuisy",
       "code_insee": "77150",
       "total_sales": 147
+    },
+    {
+      "slug": "lechelle",
+      "nom": "Léchelle",
+      "code_insee": "77246",
+      "total_sales": 144
     },
     {
       "slug": "ferolles-attilly",
@@ -1189,9 +1447,27 @@
       "total_sales": 126
     },
     {
+      "slug": "iverny",
+      "nom": "Iverny",
+      "code_insee": "77233",
+      "total_sales": 126
+    },
+    {
       "slug": "breau",
       "nom": "Bréau",
       "code_insee": "77052",
+      "total_sales": 118
+    },
+    {
+      "slug": "gurcy-le-chatel",
+      "nom": "Gurcy-le-Châtel",
+      "code_insee": "77223",
+      "total_sales": 118
+    },
+    {
+      "slug": "laval-en-brie",
+      "nom": "Laval-en-Brie",
+      "code_insee": "77245",
       "total_sales": 118
     },
     {
@@ -1217,6 +1493,12 @@
       "nom": "Champdeuil",
       "code_insee": "77081",
       "total_sales": 109
+    },
+    {
+      "slug": "gressy",
+      "nom": "Gressy",
+      "code_insee": "77214",
+      "total_sales": 102
     },
     {
       "slug": "bassevelle",

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 35,
+  "sales_delta_pct": -14.6,
+  "median_price": 337000.0,
+  "median_ppsqm": 3585.1063829787236,
+  "delta_ppsqm_pct": 21.3,
+  "notable_sales": [
+    {
+      "date": "2025-10-10",
+      "street": "RUE DE LAVAUX",
+      "type": "Maison",
+      "surface": 148,
+      "price": 538000.0
+    },
+    {
+      "date": "2025-05-27",
+      "street": "RUE DE LA ROQUETTE",
+      "type": "Maison",
+      "surface": 116,
+      "price": 409150.0
+    },
+    {
+      "date": "2025-07-17",
+      "street": "RUE DE LAVAUX",
+      "type": "Maison",
+      "surface": 94,
+      "price": 337000.0
+    },
+    {
+      "date": "2025-04-16",
+      "street": "VC DE LA FONTAINE",
+      "type": "Maison",
+      "surface": 110,
+      "price": 278120.0
+    },
+    {
+      "date": "2025-06-18",
+      "street": "VC DU RONDEAU",
+      "type": "Maison",
+      "surface": 64,
+      "price": 199000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:21:57.190865Z"
+}

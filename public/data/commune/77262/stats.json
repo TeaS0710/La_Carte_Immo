@@ -1,0 +1,120 @@
+{
+  "commune": "Louan-Villegruis-Fontaine",
+  "insee": "77262",
+  "generated_at": "2026-05-24T21:23:22.742524Z",
+  "total_sales": 260,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 67,
+  "median_price": 140000.0,
+  "median_price_per_sqm": 1665.798076923077,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 54,
+      "median_price": 124000.0
+    },
+    {
+      "year": 2022,
+      "sales": 113,
+      "median_price": 114880.0
+    },
+    {
+      "year": 2023,
+      "sales": 48,
+      "median_price": 140000.0
+    },
+    {
+      "year": 2024,
+      "sales": 21,
+      "median_price": 170000.0
+    },
+    {
+      "year": 2025,
+      "sales": 24,
+      "median_price": 185000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU LONGUET",
+      "sales": 15,
+      "median_price_per_sqm": 1750.0
+    },
+    {
+      "street_name": "ECURIE",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LOUAN",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE VILLAGE",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA QUEUE AUX BOIS",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES BLES D'OR",
+      "sales": 10,
+      "median_price_per_sqm": 2234.5075955997904
+    },
+    {
+      "street_name": "RUE DE VILLEGRUIS",
+      "sales": 9,
+      "median_price_per_sqm": 1484.0631578947368
+    },
+    {
+      "street_name": "RUE DE MONTAIGUILLON",
+      "sales": 9,
+      "median_price_per_sqm": 1196.5811965811965
+    },
+    {
+      "street_name": "LE CHEMIN D ECURIE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE VERTE",
+      "sales": 7,
+      "median_price_per_sqm": 1214.367816091954
+    },
+    {
+      "street_name": "RUE DE BRASSEAUX",
+      "sales": 7,
+      "median_price_per_sqm": 2521.590909090909
+    },
+    {
+      "street_name": "LE SABLE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "VILLEGRUIS",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE SAINT MEDARD",
+      "sales": 6,
+      "median_price_per_sqm": 1653.8461538461538
+    },
+    {
+      "street_name": "LES FOSSES SAINT JEAN",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

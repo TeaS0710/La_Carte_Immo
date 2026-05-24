@@ -1,0 +1,32 @@
+{
+  "year": 2025,
+  "sales_year": 22,
+  "sales_delta_pct": 29.4,
+  "median_price": 184492.0,
+  "median_ppsqm": 1630.4347826086957,
+  "delta_ppsqm_pct": -8.5,
+  "notable_sales": [
+    {
+      "date": "2025-07-15",
+      "street": "IMP DES GRILLONS",
+      "type": "Maison",
+      "surface": 120,
+      "price": 310000.0
+    },
+    {
+      "date": "2025-07-29",
+      "street": "RUE DES PRES",
+      "type": "Maison",
+      "surface": 92,
+      "price": 150000.0
+    },
+    {
+      "date": "2025-03-11",
+      "street": "RUE DE LA TRACONNE",
+      "type": "Maison",
+      "surface": 71,
+      "price": 140000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:20:58.834084Z"
+}

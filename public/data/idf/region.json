@@ -5,7 +5,7 @@
     {
       "code_dept": "75",
       "nom_dept": "Paris",
-      "communes_count_total": 1,
+      "communes_count_total": 21,
       "communes_count_available": 0,
       "total_sales": 0
     },
@@ -13,8 +13,8 @@
       "code_dept": "77",
       "nom_dept": "Seine-et-Marne",
       "communes_count_total": 507,
-      "communes_count_available": 142,
-      "total_sales": 109405
+      "communes_count_available": 188,
+      "total_sales": 138310
     },
     {
       "code_dept": "78",
@@ -59,10 +59,15 @@
       "total_sales": 0
     }
   ],
-  "communes_count_total": 1266,
-  "communes_count_available": 152,
-  "total_sales_available": 203800,
-  "population_total": 12463067,
+  "communes_count_total": 1286,
+  "communes_count_available": 198,
+  "total_sales_available": 232705,
+  "population_total": 14566845,
+  "insights": [
+    "Saint-Maur-des-Fossés (dept 94) est la commune IDF la plus active des données analysées : 16 786 ventes DVF.",
+    "Le département Seine-et-Marne compte le plus de communes couvertes (188 villes analysées).",
+    "Couverture progressive en cours : 198 communes IDF sur 1286 planifiées."
+  ],
   "top_communes": [
     {
       "code_insee": "94068",
@@ -274,6 +279,25 @@
       "streets_with_sales": 127
     },
     {
+      "code_insee": "77243",
+      "slug": "lagny-sur-marne",
+      "nom": "Lagny-sur-Marne",
+      "population": 21461,
+      "lng": 2.7045,
+      "lat": 48.8716,
+      "total_sales": 5190,
+      "median_price": 325000.0,
+      "median_price_per_sqm": 4433.333333333333,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 218
+    },
+    {
       "code_insee": "77014",
       "slug": "avon",
       "nom": "Avon",
@@ -464,6 +488,25 @@
       "streets_with_sales": 191
     },
     {
+      "code_insee": "77219",
+      "slug": "guerard",
+      "nom": "Guérard",
+      "population": 2688,
+      "lng": 2.9533,
+      "lat": 48.8128,
+      "total_sales": 2696,
+      "median_price": 107200.0,
+      "median_price_per_sqm": 3016.586893203884,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 251
+    },
+    {
       "code_insee": "77153",
       "slug": "dammartin-en-goele",
       "nom": "Dammartin-en-Goële",
@@ -483,6 +526,25 @@
       "streets_with_sales": 173
     },
     {
+      "code_insee": "77251",
+      "slug": "lieusaint",
+      "nom": "Lieusaint",
+      "population": 14017,
+      "lng": 2.549,
+      "lat": 48.6277,
+      "total_sales": 2373,
+      "median_price": 227000.0,
+      "median_price_per_sqm": 3606.55737704918,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 121
+    },
+    {
       "code_insee": "77111",
       "slug": "chessy",
       "nom": "Chessy",
@@ -500,6 +562,25 @@
         2025
       ],
       "streets_with_sales": 109
+    },
+    {
+      "code_insee": "77215",
+      "slug": "gretz-armainvilliers",
+      "nom": "Gretz-Armainvilliers",
+      "population": 8825,
+      "lng": 2.7272,
+      "lat": 48.7536,
+      "total_sales": 1651,
+      "median_price": 269000.0,
+      "median_price_per_sqm": 3521.034996276992,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 103
     },
     {
       "code_insee": "77169",
@@ -557,82 +638,6 @@
         2025
       ],
       "streets_with_sales": 83
-    },
-    {
-      "code_insee": "77055",
-      "slug": "brou-sur-chantereine",
-      "nom": "Brou-sur-Chantereine",
-      "population": 5196,
-      "lng": 2.6394,
-      "lat": 48.8891,
-      "total_sales": 1331,
-      "median_price": 217650.0,
-      "median_price_per_sqm": 5206.597222222223,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 35
-    },
-    {
-      "code_insee": "77079",
-      "slug": "champagne-sur-seine",
-      "nom": "Champagne-sur-Seine",
-      "population": 6497,
-      "lng": 2.8101,
-      "lat": 48.4072,
-      "total_sales": 1331,
-      "median_price": 180000.0,
-      "median_price_per_sqm": 2522.5225225225226,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 129
-    },
-    {
-      "code_insee": "77042",
-      "slug": "boissy-le-chatel",
-      "nom": "Boissy-le-Châtel",
-      "population": 3346,
-      "lng": 3.1379,
-      "lat": 48.8247,
-      "total_sales": 1133,
-      "median_price": 203000.0,
-      "median_price_per_sqm": 2525.0,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 156
-    },
-    {
-      "code_insee": "77171",
-      "slug": "esbly",
-      "nom": "Esbly",
-      "population": 6072,
-      "lng": 2.8123,
-      "lat": 48.9011,
-      "total_sales": 1129,
-      "median_price": 222000.0,
-      "median_price_per_sqm": 3600.0,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 106
     }
   ]
 }
