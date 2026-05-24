@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 66,
+  "sales_delta_pct": -4.3,
+  "median_price": 45500.0,
+  "median_ppsqm": 3000.0,
+  "delta_ppsqm_pct": 41.5,
+  "notable_sales": [
+    {
+      "date": "2025-07-01",
+      "street": "CHE DES PARDONS",
+      "type": "Maison",
+      "surface": 98,
+      "price": 366600.0
+    },
+    {
+      "date": "2025-02-06",
+      "street": "RUE DES FOSSES BRETONNIERES",
+      "type": "Maison",
+      "surface": 121,
+      "price": 363000.0
+    },
+    {
+      "date": "2025-06-03",
+      "street": "RUE DU GRAND CERF",
+      "type": "Maison",
+      "surface": 95,
+      "price": 285000.0
+    },
+    {
+      "date": "2025-09-04",
+      "street": "RUE DES FOSSES LARRY",
+      "type": "Maison",
+      "surface": 77,
+      "price": 245000.0
+    },
+    {
+      "date": "2025-02-03",
+      "street": "RUE DE PARIS",
+      "type": "Maison",
+      "surface": 93,
+      "price": 228000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:20:42.234533Z"
+}

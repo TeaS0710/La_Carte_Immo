@@ -3,6 +3,7 @@ import path from "node:path";
 import Link from "next/link";
 import Header from "@/components/landing/Header";
 import CommuneSearch from "@/components/carte/CommuneSearch";
+import DataSourcesBanner from "@/components/carte/DataSourcesBanner";
 import { assetUrl } from "@/lib/url";
 
 interface DeptSummary {
@@ -189,10 +190,14 @@ export default async function RegionPage() {
           </div>
         </section>
 
-        <footer className="text-[11px] text-ink-mute leading-relaxed border-t border-[color:var(--line-soft)] pt-5">
-          Source : transactions DVF (Demandes de Valeurs Foncières) publiées
-          par la DGFiP, données ouvertes. Population : INSEE recensement 2021.
-          Couverture en cours d&apos;extension.
+        <DataSourcesBanner
+          communesCount={region.communes_count_available}
+          ventesCount={region.total_sales_available}
+        />
+
+        <footer className="text-[11px] text-ink-mute leading-relaxed pt-3">
+          Couverture progressive — les nouvelles communes sont ajoutées au fur
+          et à mesure que leurs données DVF sont téléchargées et traitées.
         </footer>
       </main>
     </>

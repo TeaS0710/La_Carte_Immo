@@ -1,0 +1,120 @@
+{
+  "commune": "Larchant",
+  "insee": "77244",
+  "generated_at": "2026-05-24T21:20:42.237242Z",
+  "total_sales": 443,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 77,
+  "median_price": 150000.0,
+  "median_price_per_sqm": 2536.842105263158,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 132,
+      "median_price": 700000.0
+    },
+    {
+      "year": 2022,
+      "sales": 74,
+      "median_price": 100000.0
+    },
+    {
+      "year": 2023,
+      "sales": 102,
+      "median_price": 106000.0
+    },
+    {
+      "year": 2024,
+      "sales": 69,
+      "median_price": 107000.0
+    },
+    {
+      "year": 2025,
+      "sales": 66,
+      "median_price": 45500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "CHAMPS MARAIS",
+      "sales": 66,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 19,
+      "median_price_per_sqm": 2712.648556876061
+    },
+    {
+      "street_name": "RUE DES SABLONS",
+      "sales": 19,
+      "median_price_per_sqm": 1860.0
+    },
+    {
+      "street_name": "PRES LES TROIS CROIX",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DES PARDONS",
+      "sales": 16,
+      "median_price_per_sqm": 2712.0
+    },
+    {
+      "street_name": "AV JACQUES LOUIS DUMESNIL",
+      "sales": 16,
+      "median_price_per_sqm": 2564.814814814815
+    },
+    {
+      "street_name": "LES ROCHES A COCHIN",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PL PASTEUR",
+      "sales": 14,
+      "median_price_per_sqm": 2400.925925925926
+    },
+    {
+      "street_name": "BONNEVAULT",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CLOS BESNARD",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES PAURELLES",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LARCHANT",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA LIBERATION",
+      "sales": 10,
+      "median_price_per_sqm": 2738.4615384615386
+    },
+    {
+      "street_name": "PRAIRIE DE LA MOTTE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MARE DU BORDEAU",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

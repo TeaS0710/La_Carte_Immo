@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 47,
+  "sales_delta_pct": 123.8,
+  "median_price": 170000.0,
+  "median_ppsqm": 1994.9392712550607,
+  "delta_ppsqm_pct": -16.8,
+  "notable_sales": [
+    {
+      "date": "2025-10-30",
+      "street": "RUE GRANDE DU BUISSON",
+      "type": "Maison",
+      "surface": 130,
+      "price": 245000.0
+    },
+    {
+      "date": "2025-08-05",
+      "street": "RUE D HEURTEBISE",
+      "type": "Maison",
+      "surface": 75,
+      "price": 240000.0
+    },
+    {
+      "date": "2025-07-31",
+      "street": "RUE D HEURTEBISE",
+      "type": "Maison",
+      "surface": 88,
+      "price": 230000.0
+    },
+    {
+      "date": "2025-10-28",
+      "street": "RUE GRANDE DU BUISSON",
+      "type": "Maison",
+      "surface": 91,
+      "price": 208000.0
+    },
+    {
+      "date": "2025-05-23",
+      "street": "RUE GRANDE DU BUISSON",
+      "type": "Maison",
+      "surface": 128,
+      "price": 203979.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:20:49.869267Z"
+}
