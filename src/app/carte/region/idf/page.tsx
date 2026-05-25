@@ -44,6 +44,23 @@ async function loadRegion(): Promise<RegionPayload | null> {
   }
 }
 
+async function listAvailableSlugs(): Promise<string[]> {
+  try {
+    const manifest = JSON.parse(
+      await fs.readFile(
+        path.join(process.cwd(), "public", "data", "idf", "communes.json"),
+        "utf-8",
+      ),
+    ) as { slug: string; code_insee: string }[];
+    const dir = path.join(process.cwd(), "public", "data", "commune");
+    const entries = await fs.readdir(dir, { withFileTypes: true });
+    const haveData = new Set(entries.filter((e) => e.isDirectory()).map((e) => e.name));
+    return manifest.filter((c) => haveData.has(c.code_insee)).map((c) => c.slug);
+  } catch {
+    return [];
+  }
+}
+
 export const metadata = {
   title: "La Carte Prelys · Île-de-France",
   description: "Vue d'ensemble du marché immobilier de l'Île-de-France à l'échelle régionale et départementale.",
@@ -51,6 +68,7 @@ export const metadata = {
 
 export default async function RegionPage() {
   const region = await loadRegion();
+  const availableSlugs = await listAvailableSlugs();
   if (!region) {
     return (
       <>
@@ -89,7 +107,7 @@ export default async function RegionPage() {
           <h2 className="text-[12px] uppercase tracking-[0.15em] text-ink-soft mb-3">
             Trouver une commune
           </h2>
-          <CommuneSearch availableSlugs={region.top_communes.map((c) => c.slug)} />
+          <CommuneSearch availableSlugs={availableSlugs} />
         </section>
 
         {/* Top insights régionaux */}

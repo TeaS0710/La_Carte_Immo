@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { X, History } from "lucide-react";
 import {
   Bar, CartesianGrid, ComposedChart, Line, LineChart,
@@ -145,7 +146,9 @@ function EvolutionTab({ region }: { region: RegionPayload }) {
   }
   const first = data[0];
   const last = data[data.length - 1];
-  const salesDelta = Math.round(((last.sales - first.sales) / first.sales) * 100);
+  const salesDelta = first.sales > 0
+    ? Math.round(((last.sales - first.sales) / first.sales) * 100)
+    : 0;
   const priceDelta = first.median_price && last.median_price
     ? Math.round(((last.median_price - first.median_price) / first.median_price) * 100)
     : 0;
@@ -236,9 +239,9 @@ function DeptsTab({ region }: { region: RegionPayload }) {
                   <td className="px-4 py-2.5 text-right tabular text-ink">{fmt(d.total_sales)}</td>
                   <td className="px-4 py-2.5 text-right">
                     {d.communes_count_available > 0 && (
-                      <a href={`/carte/dept/${d.code_dept}`} className="text-brand-strong hover:text-ink text-[13px]">
+                      <Link href={`/carte/dept/${d.code_dept}`} className="text-brand-strong hover:text-ink text-[13px]">
                         Voir →
-                      </a>
+                      </Link>
                     )}
                   </td>
                 </tr>
@@ -277,9 +280,9 @@ function TopTab({ region }: { region: RegionPayload }) {
                 <td className="px-4 py-2.5 text-right tabular text-ink">{fmt(c.total_sales)}</td>
                 <td className="px-4 py-2.5 text-right tabular text-ink-soft">{fmtEur(c.median_price)}</td>
                 <td className="px-4 py-2.5 text-right">
-                  <a href={`/carte/ville/${c.slug}`} className="text-brand-strong hover:text-ink text-[13px]">
+                  <Link href={`/carte/ville/${c.slug}`} className="text-brand-strong hover:text-ink text-[13px]">
                     Carte →
-                  </a>
+                  </Link>
                 </td>
               </tr>
             ))}

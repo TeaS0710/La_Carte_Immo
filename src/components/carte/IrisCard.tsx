@@ -97,7 +97,12 @@ export default function IrisCard({
     iris.dvf_by_year as unknown,
   ) ?? [];
 
-  const totalIris = iris.rank_total_attractivity_score ?? 34;
+  // totalIris : nombre total d'IRIS de la commune. Si rank_total_*
+  // pas calculé (commune en mode iris stub), fallback à 1 (= la commune entière).
+  const totalIris = iris.rank_total_attractivity_score
+    ?? iris.rank_total_pct_cadres
+    ?? iris.rank_total_pct_bac5p
+    ?? 1;
 
   return (
     <aside className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 w-[min(640px,calc(100vw-32px))] max-h-[85vh] overflow-y-auto bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] border border-[color:var(--line)]">
@@ -468,8 +473,8 @@ export default function IrisCard({
         <footer className="border-t border-[color:var(--line-soft)] pt-4 text-[11px] text-ink-mute leading-relaxed">
           Sources : INSEE (population, logement, CSP, diplômes, bases
           infracommunales 2021) · BPE INSEE 2024 (équipements) · ADEME (DPE) ·
-          DGFiP (DVF, transactions 2021-2025). Rang calculé sur les 34 IRIS de
-          Saint-Maur-des-Fossés.
+          DGFiP (DVF, transactions 2021-2025). Rang calculé sur les
+          {" "}{totalIris} quartiers IRIS de la commune.
         </footer>
       </div>
     </aside>

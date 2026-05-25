@@ -158,8 +158,8 @@ function EvolutionTab({
   return (
     <div className="space-y-6">
       <p className="text-ink-soft text-[15px] leading-relaxed">
-        Volume de ventes et prix médian par année sur Saint-Maur, à partir des
-        Demandes de Valeurs Foncières (DGFiP, données officielles).
+        Volume de ventes et prix médian par année sur cette commune, à partir
+        des Demandes de Valeurs Foncières (DGFiP, données officielles).
       </p>
 
       <div className="grid grid-cols-2 gap-3">
@@ -237,7 +237,7 @@ function ProjectionTab({ codeInsee, stats }: { codeInsee: string; stats: Commune
   return (
     <div className="space-y-6">
       <p className="text-ink-soft text-[15px] leading-relaxed">
-        Suivi mensuel du prix médian de vente sur Saint-Maur depuis 2021,
+        Suivi mensuel du prix médian de vente sur cette commune depuis 2021,
         à partir des transactions DVF officielles (DGFiP).
       </p>
 
@@ -371,7 +371,7 @@ function StratesTab({ codeInsee }: { codeInsee: string }) {
   return (
     <div className="space-y-6">
       <p className="text-ink-soft text-[15px] leading-relaxed">
-        Indicateurs agrégés sur les <strong>34 IRIS</strong> de Saint-Maur,
+        Indicateurs agrégés sur les quartiers IRIS de la commune,
         pondérés par population et par parc de logements. Source : INSEE 2021.
       </p>
 

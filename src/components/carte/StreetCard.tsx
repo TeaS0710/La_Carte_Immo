@@ -400,7 +400,7 @@ function EvolutionTab({
       <section className="border-t border-[color:var(--line-soft)] pt-4 text-[13px] text-ink-soft">
         <p className="leading-relaxed">
           Cette rue est <strong className="text-ink">classée #{street.turnover_rank}</strong>{" "}
-          sur les 440 rues actives de Saint-Maur, avec un score d&apos;activité de{" "}
+          parmi les rues actives de la commune, avec un score d&apos;activité de{" "}
           <strong className="text-ink">{street.turnover_score}/100</strong>. Activité observée
           de {street.first_year} à {street.last_year}.
         </p>

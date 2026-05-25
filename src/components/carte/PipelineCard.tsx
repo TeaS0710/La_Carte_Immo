@@ -165,7 +165,7 @@ export default function PipelineCard({
 
         <p className="text-[11px] text-ink-mute leading-relaxed">
           Données DPE ADEME, score calibré sur l&apos;historique des
-          transactions DVF de Saint-Maur. Probabilité indicative à recouper en
+          transactions DVF locales. Probabilité indicative à recouper en
           terrain ou par boîtage avant prospection.
         </p>
       </div>

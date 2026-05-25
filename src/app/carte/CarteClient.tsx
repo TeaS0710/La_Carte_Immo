@@ -112,8 +112,8 @@ export default function CarteClient({
       </button>
       {/* Bandeau "mode partiel" si la commune n'a pas encore les data avancées */}
       {isPartial && (
-        <div className="absolute top-4 right-1/2 translate-x-1/2 z-30 sm:right-auto sm:left-1/2 sm:-translate-x-1/2 sm:top-20 bg-[color:var(--brand-soft)]/40 border border-[color:var(--brand-soft)] text-ink rounded-full px-3.5 py-1.5 text-[11px] font-medium shadow-sm">
-          ⓘ Mode partiel — quartiers IRIS, pipeline F/G et notes IA en cours de génération
+        <div className="no-presentation absolute top-[88px] left-1/2 -translate-x-1/2 z-10 bg-[color:var(--brand-soft)]/40 border border-[color:var(--brand-soft)] text-ink rounded-full px-3.5 py-1.5 text-[11px] font-medium shadow-sm max-w-[calc(100vw-32px)] text-center">
+          ⓘ Cette commune dispose des transactions DVF — l&apos;analyse fine quartier par quartier arrive prochainement
         </div>
       )}
 
