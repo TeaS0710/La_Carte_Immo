@@ -45,7 +45,10 @@ export default function CarteClient({
 }) {
   const codeInsee = commune.code_insee;
   const deptName = DEPT_NAMES[commune.code_dept] ?? `Dept ${commune.code_dept}`;
-  const isPartial = dataState && !dataState.hasIris;
+  // "Partiel" si pas de pipeline (vrai indicateur commune complète DPE+IRIS).
+  // Un iris.geojson "stub" (= contour commune entière) ne compte pas comme
+  // complet — pipeline.geojson est l'indicateur fiable.
+  const isPartial = dataState && !dataState.hasPipeline;
   const minYear = useMemo(() => Math.min(...stats.years_covered), [stats]);
   const maxYear = useMemo(() => Math.max(...stats.years_covered), [stats]);
   const [filters, setFilters] = useState<MapFilters>({
