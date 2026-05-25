@@ -1,0 +1,231 @@
+{
+  "summary": {
+    "n_analyses": 55,
+    "avg_factuality_score": null,
+    "min": null,
+    "max": null,
+    "iris_low_score": []
+  },
+  "per_iris": {
+    "751124506": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124509": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124502": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124501": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124704": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124813": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124614": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124507": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124810": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124505": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124606": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124677": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124615": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124705": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124514": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124702": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124609": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124605": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124621": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124513": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124508": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124611": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124608": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124504": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124616": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124618": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124601": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124701": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124805": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124806": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124804": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124703": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124617": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124802": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124613": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124622": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124809": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124620": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124623": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124503": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124624": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124707": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124602": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124604": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124619": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124612": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124610": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124801": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124807": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124603": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124812": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124512": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124511": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124808": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "751124803": {
+      "verified": null,
+      "reason": "no fiche found"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "summary": {
+    "n_analyses": 13,
+    "avg_factuality_score": null,
+    "min": null,
+    "max": null,
+    "iris_low_score": []
+  },
+  "per_iris": {
+    "940580111": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580112": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580113": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580110": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580109": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580104": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580103": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580108": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580105": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580107": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580101": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580106": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940580102": {
+      "verified": null,
+      "reason": "no fiche found"
+    }
+  }
+}

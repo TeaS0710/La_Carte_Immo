@@ -1,26 +1,86 @@
 {
   "summary": {
     "n_analyses": 34,
-    "avg_factuality_score": 80.0,
-    "min": 66.7,
-    "max": 91.2,
+    "avg_factuality_score": 77.4,
+    "min": 62.7,
+    "max": 88.2,
     "iris_low_score": [
       [
         "940680101",
         {
           "n_cited": 51,
-          "n_matched": 34,
-          "n_missing": 17,
-          "factuality_score": 66.7,
+          "n_matched": 32,
+          "n_missing": 19,
+          "factuality_score": 62.7,
           "missing_samples": [
+            24.5,
             35.0,
             30.0,
             6.5,
             9.7,
             45.0,
             246.0,
-            280.0,
-            440.0
+            280.0
+          ],
+          "model": "gpt-oss:120b-cloud"
+        }
+      ],
+      [
+        "940680203",
+        {
+          "n_cited": 30,
+          "n_matched": 19,
+          "n_missing": 11,
+          "factuality_score": 63.3,
+          "missing_samples": [
+            24.5,
+            78.0,
+            30.0,
+            64.0,
+            138.0,
+            138.0,
+            660.0,
+            28.0
+          ],
+          "model": "gpt-oss:120b-cloud"
+        }
+      ],
+      [
+        "940680109",
+        {
+          "n_cited": 32,
+          "n_matched": 21,
+          "n_missing": 11,
+          "factuality_score": 65.6,
+          "missing_samples": [
+            24.5,
+            11.4,
+            7.9,
+            250.0,
+            26.7,
+            9.8,
+            7.4,
+            34.0
+          ],
+          "model": "gpt-oss:120b-cloud"
+        }
+      ],
+      [
+        "940680104",
+        {
+          "n_cited": 35,
+          "n_matched": 24,
+          "n_missing": 11,
+          "factuality_score": 68.6,
+          "missing_samples": [
+            24.5,
+            64.0,
+            35.0,
+            9.9,
+            6.0,
+            70.0,
+            25.0,
+            24.5
           ],
           "model": "gpt-oss:120b-cloud"
         }
@@ -44,112 +104,55 @@
           ],
           "model": "gpt-oss:120b-cloud"
         }
-      ],
-      [
-        "940680203",
-        {
-          "n_cited": 30,
-          "n_matched": 21,
-          "n_missing": 9,
-          "factuality_score": 70.0,
-          "missing_samples": [
-            78.0,
-            30.0,
-            64.0,
-            138.0,
-            20.9,
-            138.0,
-            660.0,
-            78.0
-          ],
-          "model": "gpt-oss:120b-cloud"
-        }
-      ],
-      [
-        "940680109",
-        {
-          "n_cited": 32,
-          "n_matched": 23,
-          "n_missing": 9,
-          "factuality_score": 71.9,
-          "missing_samples": [
-            11.4,
-            7.9,
-            250.0,
-            26.7,
-            9.8,
-            7.4,
-            34.0,
-            7.4
-          ],
-          "model": "gpt-oss:120b-cloud"
-        }
-      ],
-      [
-        "940680204",
-        {
-          "n_cited": 32,
-          "n_matched": 23,
-          "n_missing": 9,
-          "factuality_score": 71.9,
-          "missing_samples": [
-            35.0,
-            15.5,
-            30.0,
-            8.4,
-            25.0,
-            27.4,
-            271.0,
-            57.7
-          ],
-          "model": "gpt-oss:120b-cloud"
-        }
       ]
     ]
   },
   "per_iris": {
     "940680104": {
       "n_cited": 35,
-      "n_matched": 28,
-      "n_missing": 7,
-      "factuality_score": 80.0,
+      "n_matched": 24,
+      "n_missing": 11,
+      "factuality_score": 68.6,
       "missing_samples": [
+        24.5,
         64.0,
         35.0,
         9.9,
         6.0,
         70.0,
         25.0,
-        64.0
+        24.5
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680101": {
       "n_cited": 51,
-      "n_matched": 34,
-      "n_missing": 17,
-      "factuality_score": 66.7,
+      "n_matched": 32,
+      "n_missing": 19,
+      "factuality_score": 62.7,
       "missing_samples": [
+        24.5,
         35.0,
         30.0,
         6.5,
         9.7,
         45.0,
         246.0,
-        280.0,
-        440.0
+        280.0
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680401": {
       "n_cited": 28,
-      "n_matched": 25,
-      "n_missing": 3,
-      "factuality_score": 89.3,
+      "n_matched": 23,
+      "n_missing": 5,
+      "factuality_score": 82.1,
       "missing_samples": [
+        24.5,
         19.9,
         25.0,
-        386.0
+        386.0,
+        24.5
       ],
       "model": "gpt-oss:120b-cloud"
     },
@@ -189,15 +192,16 @@
     },
     "940680103": {
       "n_cited": 37,
-      "n_matched": 31,
-      "n_missing": 6,
-      "factuality_score": 83.8,
+      "n_matched": 30,
+      "n_missing": 7,
+      "factuality_score": 81.1,
       "missing_samples": [
         35.0,
         30.0,
         45.0,
         25.0,
         38.0,
+        24.5,
         10.8
       ],
       "model": "gpt-oss:120b-cloud"
@@ -218,13 +222,14 @@
     },
     "940680107": {
       "n_cited": 38,
-      "n_matched": 32,
-      "n_missing": 6,
-      "factuality_score": 84.2,
+      "n_matched": 31,
+      "n_missing": 7,
+      "factuality_score": 81.6,
       "missing_samples": [
         30.0,
         47.0,
         64.0,
+        24.5,
         6.0,
         246.0,
         47.0
@@ -233,94 +238,95 @@
     },
     "940680108": {
       "n_cited": 22,
-      "n_matched": 18,
-      "n_missing": 4,
-      "factuality_score": 81.8,
+      "n_matched": 17,
+      "n_missing": 5,
+      "factuality_score": 77.3,
       "missing_samples": [
         30.0,
         365.0,
         77.7,
+        24.5,
         77.7
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680109": {
       "n_cited": 32,
-      "n_matched": 23,
-      "n_missing": 9,
-      "factuality_score": 71.9,
+      "n_matched": 21,
+      "n_missing": 11,
+      "factuality_score": 65.6,
       "missing_samples": [
+        24.5,
         11.4,
         7.9,
         250.0,
         26.7,
         9.8,
         7.4,
-        34.0,
-        7.4
+        34.0
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680201": {
       "n_cited": 45,
-      "n_matched": 36,
-      "n_missing": 9,
-      "factuality_score": 80.0,
+      "n_matched": 34,
+      "n_missing": 11,
+      "factuality_score": 75.6,
       "missing_samples": [
         30.0,
         12.1,
         2.6,
         45.0,
+        24.5,
         39.1,
         26.6,
-        21.6,
-        12.7
+        21.6
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680202": {
       "n_cited": 35,
-      "n_matched": 30,
-      "n_missing": 5,
-      "factuality_score": 85.7,
+      "n_matched": 29,
+      "n_missing": 6,
+      "factuality_score": 82.9,
       "missing_samples": [
         13.8,
         30.0,
         4.1,
         25.0,
-        67.0
+        67.0,
+        24.5
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680203": {
       "n_cited": 30,
-      "n_matched": 21,
-      "n_missing": 9,
-      "factuality_score": 70.0,
+      "n_matched": 19,
+      "n_missing": 11,
+      "factuality_score": 63.3,
       "missing_samples": [
+        24.5,
         78.0,
         30.0,
         64.0,
         138.0,
-        20.9,
         138.0,
         660.0,
-        78.0
+        28.0
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680204": {
       "n_cited": 32,
-      "n_matched": 23,
-      "n_missing": 9,
-      "factuality_score": 71.9,
+      "n_matched": 25,
+      "n_missing": 7,
+      "factuality_score": 78.1,
       "missing_samples": [
         35.0,
         15.5,
         30.0,
         8.4,
         25.0,
-        27.4,
         271.0,
         57.7
       ],
@@ -328,9 +334,9 @@
     },
     "940680301": {
       "n_cited": 28,
-      "n_matched": 21,
-      "n_missing": 7,
-      "factuality_score": 75.0,
+      "n_matched": 20,
+      "n_missing": 8,
+      "factuality_score": 71.4,
       "missing_samples": [
         35.0,
         70.0,
@@ -338,21 +344,23 @@
         14.6,
         12.6,
         12.6,
+        24.5,
         12.6
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680302": {
       "n_cited": 39,
-      "n_matched": 33,
-      "n_missing": 6,
-      "factuality_score": 84.6,
+      "n_matched": 32,
+      "n_missing": 7,
+      "factuality_score": 82.1,
       "missing_samples": [
         30.0,
         11.1,
         10.9,
         6.3,
         3.6,
+        24.5,
         64.0
       ],
       "model": "gpt-oss:120b-cloud"
@@ -376,12 +384,11 @@
     },
     "940680304": {
       "n_cited": 41,
-      "n_matched": 34,
-      "n_missing": 7,
-      "factuality_score": 82.9,
+      "n_matched": 35,
+      "n_missing": 6,
+      "factuality_score": 85.4,
       "missing_samples": [
         35.0,
-        21.0,
         30.0,
         5.5,
         420.0,
@@ -405,21 +412,22 @@
     },
     "940680501": {
       "n_cited": 32,
-      "n_matched": 29,
-      "n_missing": 3,
-      "factuality_score": 90.6,
+      "n_matched": 28,
+      "n_missing": 4,
+      "factuality_score": 87.5,
       "missing_samples": [
         71.9,
         71.9,
+        24.5,
         71.9
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680502": {
       "n_cited": 38,
-      "n_matched": 29,
-      "n_missing": 9,
-      "factuality_score": 76.3,
+      "n_matched": 28,
+      "n_missing": 10,
+      "factuality_score": 73.7,
       "missing_samples": [
         35.0,
         16.8,
@@ -428,7 +436,7 @@
         25.0,
         64.0,
         6.4,
-        64.0
+        24.5
       ],
       "model": "gpt-oss:120b-cloud"
     },
@@ -448,21 +456,22 @@
     },
     "940680504": {
       "n_cited": 34,
-      "n_matched": 31,
-      "n_missing": 3,
-      "factuality_score": 91.2,
+      "n_matched": 30,
+      "n_missing": 4,
+      "factuality_score": 88.2,
       "missing_samples": [
         55.0,
         25.0,
+        24.5,
         407.0
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680505": {
       "n_cited": 37,
-      "n_matched": 29,
-      "n_missing": 8,
-      "factuality_score": 78.4,
+      "n_matched": 27,
+      "n_missing": 10,
+      "factuality_score": 73.0,
       "missing_samples": [
         35.0,
         30.0,
@@ -470,16 +479,16 @@
         10.2,
         5.8,
         2.4,
-        30.0,
-        10.7
+        28.1,
+        30.0
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680601": {
       "n_cited": 38,
-      "n_matched": 29,
-      "n_missing": 9,
-      "factuality_score": 76.3,
+      "n_matched": 30,
+      "n_missing": 8,
+      "factuality_score": 78.9,
       "missing_samples": [
         35.0,
         10.5,
@@ -511,12 +520,14 @@
     },
     "940680603": {
       "n_cited": 24,
-      "n_matched": 21,
-      "n_missing": 3,
-      "factuality_score": 87.5,
+      "n_matched": 19,
+      "n_missing": 5,
+      "factuality_score": 79.2,
       "missing_samples": [
+        24.5,
         66.0,
         7.3,
+        24.5,
         7.3
       ],
       "model": "gpt-oss:120b-cloud"
@@ -540,40 +551,42 @@
     },
     "940680702": {
       "n_cited": 37,
-      "n_matched": 28,
-      "n_missing": 9,
-      "factuality_score": 75.7,
+      "n_matched": 26,
+      "n_missing": 11,
+      "factuality_score": 70.3,
       "missing_samples": [
         70.0,
         9.7,
         9.7,
         45.0,
         70.0,
+        28.0,
         364.0,
-        0.8,
-        37.4
+        0.8
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680703": {
       "n_cited": 38,
-      "n_matched": 33,
-      "n_missing": 5,
-      "factuality_score": 86.8,
+      "n_matched": 31,
+      "n_missing": 7,
+      "factuality_score": 81.6,
       "missing_samples": [
+        24.5,
         30.0,
         45.0,
         246.0,
         10.2,
+        24.5,
         10.2
       ],
       "model": "gpt-oss:120b-cloud"
     },
     "940680704": {
       "n_cited": 35,
-      "n_matched": 26,
-      "n_missing": 9,
-      "factuality_score": 74.3,
+      "n_matched": 25,
+      "n_missing": 10,
+      "factuality_score": 71.4,
       "missing_samples": [
         45.0,
         16.0,
@@ -588,12 +601,13 @@
     },
     "940680801": {
       "n_cited": 27,
-      "n_matched": 20,
-      "n_missing": 7,
-      "factuality_score": 74.1,
+      "n_matched": 19,
+      "n_missing": 8,
+      "factuality_score": 70.4,
       "missing_samples": [
         33.0,
         30.0,
+        24.7,
         25.0,
         11.0,
         1.4,

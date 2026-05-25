@@ -1,0 +1,79 @@
+{
+  "summary": {
+    "n_analyses": 17,
+    "avg_factuality_score": null,
+    "min": null,
+    "max": null,
+    "iris_low_score": []
+  },
+  "per_iris": {
+    "940800305": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800201": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800101": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800302": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800205": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800204": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800306": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800304": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800303": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800104": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800301": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800402": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800401": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800102": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800203": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800103": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940800202": {
+      "verified": null,
+      "reason": "no fiche found"
+    }
+  }
+}
