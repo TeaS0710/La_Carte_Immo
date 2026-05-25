@@ -114,6 +114,102 @@ export default function RegionMap({
             : geoRaw;
           map.addSource("communes", { type: "geojson", data: geo });
 
+          // ─── Choroplèthe FULL : polygones semi-transparents pour les
+          // communes traitées intégralement (équivalent grille IRIS mais
+          // à l'échelle régionale). Source séparée (only full communes).
+          try {
+            const choroRes = await fetch(assetUrl("/data/idf/communes_full_choro.geojson"));
+            if (choroRes.ok) {
+              const choroRaw = await choroRes.json();
+              const choroFiltered = deptFilter === "paris-arr"
+                ? {
+                    type: "FeatureCollection",
+                    features: choroRaw.features.filter((f: { properties: Record<string, unknown> }) =>
+                      matchesParisArr(f.properties),
+                    ),
+                  }
+                : deptFilter
+                ? {
+                    type: "FeatureCollection",
+                    features: choroRaw.features.filter((f: { properties: { code_dept?: string } }) =>
+                      f.properties.code_dept === deptFilter,
+                    ),
+                  }
+                : choroRaw;
+              map.addSource("communes-choro", { type: "geojson", data: choroFiltered });
+
+              // Fill semi-transparent coloré par prix €/m² (palette IRIS-like)
+              map.addLayer({
+                id: "communes-fill",
+                type: "fill",
+                source: "communes-choro",
+                paint: {
+                  "fill-color": [
+                    "case",
+                    ["==", ["get", "median_price_per_sqm"], null], "#9b9690",
+                    [
+                      "interpolate", ["linear"],
+                      ["coalesce", ["get", "median_price_per_sqm"], 0],
+                      3000, "#d9e0d4",
+                      5000, "#a8b8a3",
+                      6500, "#e6cf9a",
+                      8000, "#c09b5a",
+                      10000, "#b54f3a",
+                      13000, "#7a2810",
+                    ],
+                  ],
+                  "fill-opacity": 0.42,
+                },
+              });
+              // Contours fins
+              map.addLayer({
+                id: "communes-outline",
+                type: "line",
+                source: "communes-choro",
+                paint: {
+                  "line-color": "rgba(33,37,41,0.35)",
+                  "line-width": 0.8,
+                },
+              });
+              // Hover : surbrillance + ombrage plus saturé
+              map.addLayer({
+                id: "communes-hover",
+                type: "line",
+                source: "communes-choro",
+                paint: {
+                  "line-color": "#9d7e44",
+                  "line-width": 2.8,
+                },
+                filter: ["==", ["get", "code_insee"], ""],
+              });
+              // Labels nom commune (zoom élevé)
+              map.addLayer({
+                id: "communes-label",
+                type: "symbol",
+                source: "communes-choro",
+                minzoom: 10,
+                layout: {
+                  "text-field": ["get", "nom"],
+                  "text-font": ["Noto Sans Regular"],
+                  "text-size": [
+                    "interpolate", ["linear"], ["zoom"],
+                    10, 10, 13, 13, 15, 15,
+                  ],
+                  "text-anchor": "center",
+                  "text-allow-overlap": false,
+                  "text-optional": true,
+                },
+                paint: {
+                  "text-color": "#1a1815",
+                  "text-halo-color": "rgba(255,255,255,0.92)",
+                  "text-halo-width": 1.5,
+                },
+              });
+            }
+          } catch {
+            /* choro optionnel */
+          }
+
           // 3D buildings (visible quand pitch activé)
           if (map.getSource("openmaptiles")) {
             map.addLayer({
@@ -136,116 +232,11 @@ export default function RegionMap({
             });
           }
 
-          // ─── Heatmap colorée transparente — couvre VRAIMENT le territoire ──
-          // Chaque commune contribue, le poids reflète l'activité (DVF), le
-          // rayon est large pour fusionner les communes adjacentes en zones.
-          map.addLayer({
-            id: "communes-heat",
-            type: "heatmap",
-            source: "communes",
-            paint: {
-              "heatmap-weight": [
-                "interpolate", ["linear"], ["coalesce", ["get", "total_sales"], 0],
-                0, 0.15,       // toutes les communes contribuent (base 0.15)
-                500, 0.35,
-                2000, 0.6,
-                5000, 0.85,
-                15000, 1,
-              ],
-              "heatmap-intensity": [
-                "interpolate", ["linear"], ["zoom"],
-                7, 1.4, 9, 2.0, 11, 2.6, 14, 3.2,
-              ],
-              // Palette terra-cotta / ocre / brun — fortement colorée mais
-              // semi-transparente (alpha) pour rester un overlay
-              "heatmap-color": [
-                "interpolate", ["linear"], ["heatmap-density"],
-                0, "rgba(217,224,212,0)",
-                0.05, "rgba(168,184,163,0.45)",
-                0.2, "rgba(216,196,143,0.62)",
-                0.4, "rgba(192,155,90,0.72)",
-                0.6, "rgba(181,99,58,0.78)",
-                0.8, "rgba(150,51,30,0.82)",
-                1, "rgba(122,40,16,0.85)",
-              ],
-              // Rayon LARGE pour fusionner les communes en zones continues
-              "heatmap-radius": [
-                "interpolate", ["linear"], ["zoom"],
-                7, 35, 9, 55, 11, 80, 13, 110, 15, 140,
-              ],
-              "heatmap-opacity": 0.78,
-            },
-          });
-
-          // ─── Cercles communes cliquables ─────────────────────────
-          // Visibles dès le début mais petits, grandissent au zoom.
-          // Couleur = prix €/m² (palette identique aux fiches villes).
-          map.addLayer({
-            id: "communes-dot",
-            type: "circle",
-            source: "communes",
-            paint: {
-              "circle-radius": [
-                "interpolate", ["linear"], ["zoom"],
-                8, [
-                  "interpolate", ["linear"], ["coalesce", ["get", "total_sales"], 0],
-                  100, 2, 1000, 4, 5000, 7, 15000, 10,
-                ],
-                11, [
-                  "interpolate", ["linear"], ["coalesce", ["get", "total_sales"], 0],
-                  100, 4, 1000, 8, 5000, 14, 15000, 20,
-                ],
-                14, [
-                  "interpolate", ["linear"], ["coalesce", ["get", "total_sales"], 0],
-                  100, 7, 1000, 12, 5000, 22, 15000, 32,
-                ],
-              ],
-              "circle-color": [
-                "case",
-                ["==", ["get", "median_price_per_sqm"], null], "#9b9690",
-                [
-                  "interpolate", ["linear"], ["get", "median_price_per_sqm"],
-                  3000, "#d9e0d4",
-                  5000, "#a8b8a3",
-                  6500, "#e6cf9a",
-                  8000, "#c09b5a",
-                  10000, "#b54f3a",
-                  13000, "#7a2810",
-                ],
-              ],
-              "circle-stroke-color": "#ffffff",
-              "circle-stroke-width": 1.5,
-              "circle-opacity": [
-                "interpolate", ["linear"], ["zoom"],
-                8, 0.6, 11, 0.85, 13, 0.95,
-              ],
-            },
-          });
-
-          // Labels communes (zoom élevé)
-          map.addLayer({
-            id: "communes-label",
-            type: "symbol",
-            source: "communes",
-            minzoom: 11,
-            layout: {
-              "text-field": ["get", "nom"],
-              "text-font": ["Noto Sans Regular"],
-              "text-size": [
-                "interpolate", ["linear"], ["zoom"],
-                11, 10, 14, 13,
-              ],
-              "text-offset": [0, 1.4],
-              "text-anchor": "top",
-              "text-optional": true,
-              "text-allow-overlap": false,
-            },
-            paint: {
-              "text-color": "#1a1815",
-              "text-halo-color": "rgba(255,255,255,0.85)",
-              "text-halo-width": 1.5,
-            },
-          });
+          // Représentation = uniquement le choroplèthe polygones
+          // (heatmap + cercles + ancien layer labels retirés sur demande
+          // client). Seules les communes traitées entièrement sont affichées.
+          // Le label sur le polygone est géré par communes-label dans le
+          // bloc "communes-choro" plus haut.
 
           // ─── Hover popup : utilise queryRenderedFeatures sur tout le
           // canvas, pas juste sur le layer dots. Comme ça la heatmap
@@ -272,72 +263,49 @@ export default function RegionMap({
             </div>`;
           };
 
-          // Rayon de capture adaptatif au zoom : plus large en vue région
-          // (zoom 8) pour permettre de viser n'importe quelle zone heatmap,
-          // plus précis en vue locale (zoom > 11).
-          const captureRadius = () => {
-            const z = map.getZoom();
-            if (z < 9) return 50;
-            if (z < 11) return 30;
-            if (z < 13) return 20;
-            return 12;
-          };
-
+          // Hover : queryRenderedFeatures direct sur le point du curseur
+          // (polygones — pas besoin de rayon de capture, on est forcément
+          // dedans ou pas)
+          let lastHover = "";
           map.on("mousemove", (e) => {
-            const r = captureRadius();
-            const feats = map.queryRenderedFeatures(
-              [
-                [e.point.x - r, e.point.y - r],
-                [e.point.x + r, e.point.y + r],
-              ],
-              { layers: ["communes-dot"] },
-            );
+            const feats = map.queryRenderedFeatures(e.point, {
+              layers: ["communes-fill"],
+            });
             if (feats.length > 0) {
               map.getCanvas().style.cursor = "pointer";
-              // Trie par distance au curseur (le plus proche d'abord)
-              const cx = e.point.x, cy = e.point.y;
-              const sorted = [...feats].sort((a, b) => {
-                const ga = (a.geometry as GeoJSON.Point).coordinates as [number, number];
-                const gb = (b.geometry as GeoJSON.Point).coordinates as [number, number];
-                const pa = map.project(ga as maplibregl.LngLatLike);
-                const pb = map.project(gb as maplibregl.LngLatLike);
-                const da = (pa.x - cx) ** 2 + (pa.y - cy) ** 2;
-                const db = (pb.x - cx) ** 2 + (pb.y - cy) ** 2;
-                return da - db;
-              });
-              const f = sorted[0] as MapGeoJSONFeature;
-              const coords = (f.geometry as GeoJSON.Point).coordinates as [number, number];
+              const p = (feats[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
+              const code = String(p.code_insee || "");
+              if (code !== lastHover) {
+                lastHover = code;
+                if (map.getLayer("communes-hover")) {
+                  map.setFilter("communes-hover", ["==", ["get", "code_insee"], code]);
+                }
+              }
               popup
-                .setLngLat(coords)
-                .setHTML(renderPopupHTML(f.properties as Record<string, unknown>))
+                .setLngLat(e.lngLat)
+                .setHTML(renderPopupHTML(p))
                 .addTo(map);
             } else {
+              if (lastHover !== "") {
+                lastHover = "";
+                if (map.getLayer("communes-hover")) {
+                  map.setFilter("communes-hover", ["==", ["get", "code_insee"], ""]);
+                }
+              }
               map.getCanvas().style.cursor = "";
               popup.remove();
             }
           });
 
           map.on("click", (e) => {
-            const r = captureRadius();
-            const feats = map.queryRenderedFeatures(
-              [
-                [e.point.x - r, e.point.y - r],
-                [e.point.x + r, e.point.y + r],
-              ],
-              { layers: ["communes-dot"] },
-            );
+            const feats = map.queryRenderedFeatures(e.point, {
+              layers: ["communes-fill"],
+            });
             if (feats.length > 0) {
-              // Plus proche d'abord
-              const cx = e.point.x, cy = e.point.y;
-              const sorted = [...feats].sort((a, b) => {
-                const ga = (a.geometry as GeoJSON.Point).coordinates as [number, number];
-                const gb = (b.geometry as GeoJSON.Point).coordinates as [number, number];
-                const pa = map.project(ga as maplibregl.LngLatLike);
-                const pb = map.project(gb as maplibregl.LngLatLike);
-                return (pa.x - cx) ** 2 + (pa.y - cy) ** 2 - ((pb.x - cx) ** 2 + (pb.y - cy) ** 2);
-              });
-              const p = (sorted[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
-              router.push(`/carte/ville/${p.slug}`);
+              const p = (feats[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
+              if (p.slug) {
+                router.push(`/carte/ville/${p.slug}`);
+              }
             }
           });
 

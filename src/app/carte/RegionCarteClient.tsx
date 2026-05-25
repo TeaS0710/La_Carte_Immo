@@ -107,14 +107,14 @@ export default function RegionCarteClient({
 
       {/* Légende */}
       <div
-        aria-label="Légende : heatmap pondérée par le volume de ventes DVF, cercles cliquables au-dessus avec couleur reflétant le prix au m² médian."
+        aria-label="Légende : choroplèthe semi-transparent par commune, couleur reflétant le prix au m² médian. Affichées uniquement les communes traitées intégralement."
         className="no-presentation absolute bottom-4 left-4 z-10 bg-white rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.10)] border border-[color:var(--line)] px-4 py-3 text-[13px] text-ink max-w-[calc(100vw-32px)]"
       >
         <div className="text-[11px] uppercase tracking-[0.15em] text-ink-soft mb-1">
-          Heatmap des transactions
+          Prix au m² médian
         </div>
         <div className="text-[11px] text-ink-soft mb-2">
-          Densité = volume de ventes DVF 5 ans
+          Communes traitées intégralement
         </div>
         <div className="flex items-center gap-1.5">
           <span className="inline-block h-2.5 w-7 rounded-l-sm bg-[#d9e0d4]" />
@@ -125,11 +125,11 @@ export default function RegionCarteClient({
           <span className="inline-block h-2.5 w-7 rounded-r-sm bg-[#7a2810]" />
         </div>
         <div className="flex items-center justify-between text-[11px] text-ink-soft mt-1 w-44">
-          <span>Calme</span>
-          <span>Très actif</span>
+          <span>3 k €</span>
+          <span>13 k €</span>
         </div>
         <div className="text-[11px] text-ink-soft mt-2 pt-2 border-t border-[color:var(--line-soft)]">
-          ⬤ cercles cliquables · couleur = prix €/m²
+          Cliquez sur une commune pour ouvrir sa carte
         </div>
       </div>
 
