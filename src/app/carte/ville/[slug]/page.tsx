@@ -46,11 +46,33 @@ export async function generateMetadata({
   const { slug } = await params;
   const communes = await getAvailableCommunes();
   const c = communes.find((x) => x.slug === slug);
+  if (!c) {
+    return { title: "La Carte Prelys", description: "Carte Prelys" };
+  }
+  // Enrichit la description avec les vrais chiffres du marché si on a stats.json
+  const stats = await loadStats(c.code_insee);
+  const priceLine = stats?.median_price_per_sqm
+    ? ` · prix médian ${Math.round(stats.median_price_per_sqm).toLocaleString("fr-FR")} €/m²`
+    : "";
+  const salesLine = stats?.total_sales ? ` · ${stats.total_sales.toLocaleString("fr-FR")} ventes DVF 2021-2025` : "";
+  const description = `Carte interactive du marché immobilier de ${c.nom} (${c.code_postal})${priceLine}${salesLine}. Données INSEE 2020, DGFiP DVF, BPE 2024, ADEME DPE — pour agents immobiliers partenaires de Prelys Courtage.`;
   return {
-    title: c ? `La Carte Prelys · ${c.nom}` : "La Carte Prelys",
-    description: c
-      ? `Analyse interactive du marché immobilier de ${c.nom} (${c.code_postal}) — transactions DVF, profil INSEE, pipeline de ventes probables.`
-      : "Carte Prelys",
+    title: `${c.nom} · marché immobilier IRIS — La Carte Prelys`,
+    description,
+    openGraph: {
+      title: `${c.nom} · La Carte Prelys`,
+      description,
+      type: "website",
+      locale: "fr_FR",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${c.nom} · La Carte Prelys`,
+      description,
+    },
+    alternates: {
+      canonical: `/carte/ville/${slug}`,
+    },
   };
 }
 
