@@ -276,7 +276,7 @@ export default function StreetCard({
             title="Fiche quartier rattaché"
             description="Récupération du profil IRIS INSEE associé"
             buttonLabel="Charger la fiche du quartier"
-            sources={["INSEE 2021", "Spatial join"]}
+            sources={["INSEE 2020", "Spatial join"]}
             steps={[
               "Identification de l'IRIS de rattachement…",
               "Chargement des indicateurs INSEE…",
@@ -483,7 +483,7 @@ function QuartierTab({ iris, onOpenIris }: { iris: IrisProps | null; onOpenIris:
           Quartier IRIS
         </div>
         <div className="text-base font-semibold text-ink">{iris.nom_iris}</div>
-        <div className="text-[12px] text-ink-mute">Code {iris.code_iris} · INSEE 2021</div>
+        <div className="text-[12px] text-ink-mute">Code {iris.code_iris} · INSEE 2020</div>
       </div>
 
       <Row

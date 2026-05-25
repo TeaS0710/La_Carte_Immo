@@ -146,7 +146,7 @@ export default function IrisCard({
             {iris.nom_iris}
           </h3>
           <div className="text-xs text-ink-mute mt-0.5">
-            INSEE 2021 · DVF 2021-2025 · BPE 2024 · Géorisques · DPE ADEME
+            INSEE 2020 · DVF 2021-2025 · BPE 2024 · Géorisques · DPE ADEME
           </div>
         </div>
         <div className="flex items-center gap-1 shrink-0 no-print">
@@ -565,7 +565,7 @@ export default function IrisCard({
               title="Note d'analyse contextuelle"
               description="Rédaction IA croisée avec vérification factuelle automatique"
               buttonLabel="Lancer la rédaction de la note"
-              sources={["INSEE 2021", "DGFiP DVF", "INSEE BPE", "Ollama gpt-oss"]}
+              sources={["INSEE 2020", "DGFiP DVF", "INSEE BPE", "Ollama gpt-oss"]}
               steps={[
                 "Chargement de la knowledge base IRIS…",
                 "Lecture des indicateurs INSEE, DVF, BPE…",

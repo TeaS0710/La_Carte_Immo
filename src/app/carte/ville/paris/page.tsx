@@ -80,7 +80,7 @@ export default async function ParisHubPage() {
 
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <KPIBox label="Arrondissements" value="20" sub={`${availableCount} couverts`} accent />
-          <KPIBox label="Population" value={fmt(totalPop)} sub="INSEE 2021" />
+          <KPIBox label="Population" value={fmt(totalPop)} sub="INSEE 2020" />
           <KPIBox label="Code INSEE commune" value="75056" sub="(global)" />
           <KPIBox label="Code département" value="75" sub="Paris" />
         </section>
@@ -153,7 +153,7 @@ export default async function ParisHubPage() {
         )}
 
         <footer className="text-[11px] text-ink-mute leading-relaxed border-t border-[color:var(--line-soft)] pt-5">
-          Sources : DGFiP DVF (transactions), INSEE Recensement 2021 (population),
+          Sources : DGFiP DVF (transactions), INSEE Recensement 2020 (population),
           Géorisques (risques majeurs). Les analyses LLM par IRIS arrivent
           progressivement après la génération des données brutes.
         </footer>

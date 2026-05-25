@@ -374,7 +374,7 @@ function StratesTab({ codeInsee }: { codeInsee: string }) {
     <div className="space-y-6">
       <p className="text-ink-soft text-[15px] leading-relaxed">
         Indicateurs agrégés sur les quartiers IRIS de la commune,
-        pondérés par population et par parc de logements. Source : INSEE 2021.
+        pondérés par population et par parc de logements. Source : INSEE 2020.
       </p>
 
       <div className="grid grid-cols-2 gap-3">
@@ -387,7 +387,7 @@ function StratesTab({ codeInsee }: { codeInsee: string }) {
       <BarBlock title="Type de logements" data={types} />
 
       <p className="text-xs text-ink-mute leading-relaxed border-t border-[color:var(--line-soft)] pt-3">
-        Source : INSEE, bases infracommunales 2021 (population, logement, CSP,
+        Source : INSEE, bases infracommunales 2020 (population, logement, CSP,
         diplômes). Cliquez sur un quartier sur la carte pour voir son profil
         détaillé et son rang sur chaque indicateur.
       </p>

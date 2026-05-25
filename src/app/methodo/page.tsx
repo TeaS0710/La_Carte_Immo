@@ -9,7 +9,7 @@ export const metadata = {
 
 const SOURCES = [
   { name: "DGFiP DVF", description: "Demandes de Valeurs Foncières — toutes les transactions immobilières publiques de France. Mise à jour semestrielle.", granularite: "Parcelle cadastrale", millesime: "2021-2025", url: "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/" },
-  { name: "INSEE Recensement 2021", description: "Population, ménages, CSP, diplômes, parc de logements. Une base par thématique (pop, log, cfm, dpl).", granularite: "IRIS (~2000 hab)", millesime: "2021 (publication 2024)", url: "https://www.insee.fr/fr/statistiques/7704076" },
+  { name: "INSEE Recensement 2020", description: "Population, ménages, CSP, diplômes, parc de logements. Une base par thématique (pop, log, cfm, dpl).", granularite: "IRIS (~2000 hab)", millesime: "2020 (publication 2023)", url: "https://www.insee.fr/fr/statistiques/7704076" },
   { name: "INSEE IRIS 2024", description: "Polygones géographiques officiels des quartiers infra-communaux français.", granularite: "IRIS", millesime: "2024", url: "https://www.insee.fr/fr/information/2017499" },
   { name: "ADEME DPE", description: "Diagnostics de Performance Énergétique de chaque logement (étiquette A à G).", granularite: "Logement", millesime: "Tous diagnostics actifs", url: "https://data.ademe.fr/datasets/dpe03existant" },
   { name: "IGN BD TOPO", description: "Base topographique détaillée : bâti, parcelles, voies, équipements.", granularite: "Bâtiment", millesime: "Mise à jour continue", url: "https://geoservices.ign.fr/bdtopo" },

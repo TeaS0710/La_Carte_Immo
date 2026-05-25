@@ -133,7 +133,7 @@ export default async function RegionPage() {
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <KPIBox label="Communes couvertes" value={`${fmt(region.communes_count_available)} / ${fmt(region.communes_count_total)}`} accent />
           <KPIBox label="Ventes DVF analysées" value={fmt(region.total_sales_available)} />
-          <KPIBox label="Population totale" value={fmt(region.population_total)} sub="recensement INSEE 2021" />
+          <KPIBox label="Population totale" value={fmt(region.population_total)} sub="recensement INSEE 2020" />
           <KPIBox label="Départements" value={`${region.depts.length}`} sub="couverts" />
         </section>
 

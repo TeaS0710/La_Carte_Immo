@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { communeDataUrl } from "@/lib/url";
-import { History, Info, Box, Printer, Maximize2, Minimize2 } from "lucide-react";
+import { History, Info, Box, Printer, Maximize2, Minimize2, MapPin } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
 import { DEFAULT_COMMUNE, type CommuneRef } from "@/lib/commune";
 import FiltersBubble from "@/components/carte/FiltersBubble";
@@ -164,6 +165,16 @@ export default function CarteClient({
 
       {/* Right-side action stack — flex container scroll-friendly on mobile */}
       <div className="no-presentation absolute top-[140px] right-4 z-10 flex flex-col items-end gap-2 max-h-[calc(100vh-180px)] overflow-y-auto pr-0.5">
+        <Link
+          href="/carte"
+          prefetch
+          className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand transition min-h-[40px]"
+          title="Revenir à la vue Île-de-France entière"
+        >
+          <MapPin size={14} className="text-brand-strong" aria-hidden="true" />
+          <span className="hidden sm:inline">Vue Île-de-France</span>
+          <span className="sm:hidden">IDF</span>
+        </Link>
         <button
           type="button"
           onClick={() => setMarketOpen(true)}
