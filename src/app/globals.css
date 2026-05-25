@@ -80,6 +80,10 @@ input[type="range"] { accent-color: var(--brand); }
 
 /* ── Print mode : transforme IrisCard / StreetCard en rapport A4 propre ── */
 @media print {
+  @page {
+    size: A4;
+    margin: 14mm 16mm;
+  }
   html, body { background: white !important; color: #000 !important; }
   /* Hide page chrome: header global, boutons no-print, bulles flottantes */
   body > header, .no-print, .no-presentation { display: none !important; }
@@ -97,7 +101,7 @@ input[type="range"] { accent-color: var(--brand); }
     border: none !important;
     transform: none !important;
     inset: auto !important;
-    page-break-inside: avoid;
+    page-break-inside: auto;
   }
   /* IrisCard header sticky (titre du quartier) doit RESTER imprimable */
   aside header.sticky { position: static !important; display: flex !important; }
@@ -106,24 +110,26 @@ input[type="range"] { accent-color: var(--brand); }
   /* Auto-expand des AnalyseGate non encore lancés : affiche children
      même si "running" / "idle". On masque le bouton, on garde le contenu. */
   [aria-label*="Lancer l'analyse"] { display: none !important; }
-  /* Mais on garde tout le contenu de chaque section. Astuce :
-     en print on shouldn't filter button par défaut, juste les no-print */
   /* Remove backgrounds, simplify for print */
   .shadow-2xl, .shadow-xl, .shadow-lg, .shadow-md, .shadow-sm,
   [class*="shadow-["] { box-shadow: none !important; }
   /* Headings stay visible */
   h1, h2, h3, h4 { color: #000 !important; page-break-after: avoid; }
-  section { page-break-inside: avoid; }
-  /* Add a print header */
-  body::before {
-    content: "La Carte Prelys · Fiche";
-    display: block;
-    font-size: 10px;
-    color: #666;
-    text-align: right;
-    margin-bottom: 8px;
-    border-bottom: 1px solid #999;
-    padding-bottom: 4px;
+  section { page-break-inside: avoid; margin-top: 12px; }
+  /* Make print background and image colors visible — Chrome/Firefox */
+  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+  /* Running header on every page : nom du document */
+  @page {
+    @top-right {
+      content: "La Carte Prelys";
+      font-size: 9px;
+      color: #888;
+    }
+    @bottom-center {
+      content: counter(page) " / " counter(pages);
+      font-size: 9px;
+      color: #888;
+    }
   }
 }
 

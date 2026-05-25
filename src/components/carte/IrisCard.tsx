@@ -1,17 +1,20 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { communeDataUrl } from "@/lib/url";
+import Link from "next/link";
+import { assetUrl, communeDataUrl } from "@/lib/url";
 import {
   X, Users, Home, Building, Zap, TrendingUp, Award, Target, FileText,
-  Train, ShieldAlert, Printer, Image as ImageIcon,
+  Train, ShieldAlert, Printer, Image as ImageIcon, Briefcase, Scale,
 } from "lucide-react";
 import type {
   IrisProps, CommuneAvg, PipelineLogement, PipelineSignal, CommuneRisks,
 } from "./types";
+import type { CommuneStats } from "@/lib/types";
 import { formatEur, formatEurPerSqm, formatNum } from "@/lib/format";
 import ExternalLookup from "./ExternalLookup";
 import RisquesPanel from "./RisquesPanel";
+import IrisMiniMap from "./IrisMiniMap";
 import AnalyseGate from "@/components/ui/AnalyseGate";
 import { useEscape } from "@/lib/useEscape";
 
@@ -33,6 +36,7 @@ export default function IrisCard({
   const [pipeline, setPipeline] = useState<PipelineLogement[] | null>(null);
   const [risks, setRisks] = useState<CommuneRisks | null>(null);
   const [factuality, setFactuality] = useState<{ score: number | null; n_cited: number; n_matched: number } | null>(null);
+  const [communeStats, setCommuneStats] = useState<CommuneStats | null>(null);
   useEscape(true, onClose);
 
   useEffect(() => {
@@ -62,6 +66,12 @@ export default function IrisCard({
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((r: CommuneRisks) => {
         if (!cancelled) setRisks(r);
+      })
+      .catch(() => {});
+    fetch(communeDataUrl(codeInsee, "stats.json"))
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((s: CommuneStats) => {
+        if (!cancelled) setCommuneStats(s);
       })
       .catch(() => {});
     fetch(communeDataUrl(codeInsee, "iris_analyses_audit.json"))
@@ -106,6 +116,26 @@ export default function IrisCard({
 
   return (
     <aside className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 w-[min(640px,calc(100vw-32px))] max-h-[85vh] overflow-y-auto bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] border border-[color:var(--line)]">
+      {/* ── Print-only branding header (Prelys) ── */}
+      <div className="hidden print:flex print:items-start print:justify-between print:gap-4 print:mb-3 print:pb-3 print:border-b print:border-black/20">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={assetUrl("/prelys/Logos-Prelys-Groupe-1530-x-1230-px-9.png")}
+          alt="Prelys Courtage"
+          className="hidden print:block print:h-12 print:w-auto"
+        />
+        <div className="hidden print:block print:text-right print:text-[10px] print:text-black/70 print:leading-tight">
+          <div className="print:font-medium print:text-black">
+            Prelys Courtage · Saint-Maur-des-Fossés
+          </div>
+          <div>Analyse de quartier pour mandat — fiche du {new Date().toLocaleDateString("fr-FR")}</div>
+          <div>contact@prelys-courtage.fr · prelys-courtage.fr</div>
+        </div>
+      </div>
+
+      {/* ── Print-only mini-carte du quartier ── */}
+      <IrisMiniMap codeInsee={codeInsee} codeIris={iris.code_iris} />
+
       {/* ── Header ── */}
       <header className="sticky top-0 bg-white flex items-start justify-between gap-3 px-5 pt-4 pb-3 border-b border-[color:var(--line-soft)] z-10 print:static">
         <div className="min-w-0">
@@ -124,8 +154,8 @@ export default function IrisCard({
             type="button"
             onClick={() => window.print()}
             className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm min-w-[36px] min-h-[36px] flex items-center justify-center"
-            aria-label="Imprimer / PDF"
-            title="Imprimer cette fiche (mode rapport)"
+            aria-label="Imprimer la fiche / Enregistrer en PDF"
+            title="Exporter en PDF brandé Prelys (pour mandat)"
           >
             <Printer size={16} />
           </button>
@@ -151,6 +181,9 @@ export default function IrisCard({
       </header>
 
       <div className="p-5 space-y-6">
+        {/* ── Story du quartier (1 ligne, généré côté front) ── */}
+        <QuartierStory iris={iris} commune={commune} />
+
         {/* ── Attractivity score (top) ── */}
         {iris.attractivity_score != null && iris.rank_attractivity_score && (
           <section className="bg-surface-warm border border-[color:var(--line)] rounded-lg p-4">
@@ -177,7 +210,14 @@ export default function IrisCard({
         {/* ── DVF market ── */}
         {iris.dvf_sales_total > 0 && (
           <section>
-            <SectionTitle icon={<TrendingUp size={12} />}>
+            <SectionTitle
+              icon={<TrendingUp size={12} />}
+              source={{
+                href: `https://app.dvf.etalab.gouv.fr/?c=${iris.lng ?? 2.49},${iris.lat ?? 48.80}&z=17`,
+                label: "DVF Etalab",
+                title: "Ouvrir les transactions DVF sur le portail Etalab",
+              }}
+            >
               Marché immobilier (5 ans)
             </SectionTitle>
             <AnalyseGate
@@ -239,20 +279,29 @@ export default function IrisCard({
 
         {/* ── Socio-demographic ── */}
         <section>
-          <SectionTitle icon={<Users size={12} />}>Population & profil</SectionTitle>
+          <SectionTitle
+            icon={<Users size={12} />}
+            source={{
+              href: `https://statistiques-locales.insee.fr/#c=indicator&i=pop_legales.popmun&s=2020&t=A01&view=map1`,
+              label: "INSEE 2020",
+              title: "Statistiques locales INSEE — base infracommunale 2020",
+            }}
+          >
+            Population & profil
+          </SectionTitle>
           <div className="space-y-4">
             <BigStat
               label="Habitants"
               value={
                 iris.population
-                  ? `${iris.population.toLocaleString("fr-FR")} hab.${iris.pop_estimation_method ? " (est.)" : ""}`
+                  ? `${iris.population.toLocaleString("fr-FR")} hab.${iris.pop_estimation_method && iris.pop_estimation_method !== "insee_2020" ? " (est.)" : ""}`
                   : "-"
               }
               detail={
                 iris.pct_0_14 != null || iris.pct_65p != null
                   ? `${iris.pct_0_14 ?? "-"} % de 0-14 ans · ${iris.pct_65p ?? "-"} % de 65 ans et +`
                   : iris.pop_estimation_method === "dpe_density"
-                    ? "Estimation depuis densité DPE (Recensement INSEE 2021 non disponible)"
+                    ? "Estimation depuis densité DPE (Recensement INSEE non disponible)"
                     : undefined
               }
               icon={<Users size={14} />}
@@ -268,6 +317,15 @@ export default function IrisCard({
                 total={iris.rank_total_pct_cadres ?? totalIris}
               />
             )}
+            {iris.pct_etrangers != null && (
+              <CompareBar
+                label="Part de population étrangère"
+                value={iris.pct_etrangers}
+                avg={commune?.pct_etrangers}
+                fmt={(v) => `${v.toFixed(1)} %`}
+                total={totalIris}
+              />
+            )}
             {iris.pct_bac5p != null && (
               <CompareBar
                 label="Part de diplômés Bac+5 et plus"
@@ -278,12 +336,11 @@ export default function IrisCard({
                 total={iris.rank_total_pct_bac5p ?? totalIris}
               />
             )}
-            {iris.pct_cadres == null && (
+            {iris.pct_cadres != null && iris.pct_bac5p == null && (
               <div className="rounded-lg border border-[color:var(--line)] bg-surface-warm px-3 py-2.5 text-[12px] text-ink-soft leading-relaxed">
-                <strong className="text-ink">Profil démographique détaillé</strong> (CSP,
-                diplômes, structure des ménages) en cours d&apos;intégration —
-                source INSEE Recensement 2021 bulk (fichier infra-communal)
-                actuellement indisponible côté serveur INSEE.
+                <strong className="text-ink">Diplômes & statut d&apos;occupation</strong>{" "}
+                en cours d&apos;intégration (sources INSEE complémentaires :
+                base diplômes, base logement).
               </div>
             )}
 
@@ -324,7 +381,16 @@ export default function IrisCard({
 
         {/* ── Housing ── */}
         <section>
-          <SectionTitle icon={<Home size={12} />}>Logement</SectionTitle>
+          <SectionTitle
+            icon={<Home size={12} />}
+            source={{
+              href: "https://www.insee.fr/fr/statistiques/7704078",
+              label: "INSEE Logement 2020",
+              title: "Base infracommunale logement INSEE 2020",
+            }}
+          >
+            Logement
+          </SectionTitle>
           <div className="space-y-4">
             <BigStat
               label="Parc total"
@@ -356,6 +422,15 @@ export default function IrisCard({
                 total={totalIris}
               />
             )}
+            {iris.pct_hlm != null && (
+              <CompareBar
+                label="Part de logements sociaux (HLM)"
+                value={iris.pct_hlm}
+                avg={commune?.pct_hlm}
+                fmt={(v) => `${v.toFixed(1)} %`}
+                total={totalIris}
+              />
+            )}
           </div>
         </section>
 
@@ -382,7 +457,14 @@ export default function IrisCard({
         {/* ── Risques Géorisques (commune-wide) ── */}
         {risks && risks.n_risks_present > 0 && (
           <section>
-            <SectionTitle icon={<ShieldAlert size={12} />}>
+            <SectionTitle
+              icon={<ShieldAlert size={12} />}
+              source={{
+                href: risks.georisques_url ?? `https://www.georisques.gouv.fr/mes-risques/connaitre-les-risques-pres-de-chez-moi/rapport?codeInsee=${codeInsee}`,
+                label: "Géorisques.gouv.fr",
+                title: "Ouvrir le rapport Géorisques officiel de la commune",
+              }}
+            >
               Risques majeurs (Géorisques)
             </SectionTitle>
             <RisquesPanel risks={risks} />
@@ -392,7 +474,14 @@ export default function IrisCard({
         {/* ── Equipments & energy ── */}
         {iris.bpe_total != null && iris.bpe_total > 0 && (
           <section>
-            <SectionTitle icon={<Building size={12} />}>
+            <SectionTitle
+              icon={<Building size={12} />}
+              source={{
+                href: "https://www.insee.fr/fr/statistiques/8217537",
+                label: "INSEE BPE 2024",
+                title: "Base permanente des équipements INSEE 2024",
+              }}
+            >
               Équipements & énergie
             </SectionTitle>
             <div className="space-y-4">
@@ -520,13 +609,132 @@ export default function IrisCard({
           </section>
         )}
 
+        {/* ── Concurrence locale (Sirene) — affiché si stats.sirene_agences_immo dispo ── */}
+        {communeStats?.sirene_agences_immo != null && communeStats.sirene_agences_immo > 0 && (
+          <section>
+            <SectionTitle
+              icon={<Briefcase size={12} />}
+              source={{
+                href: `https://annuaire-entreprises.data.gouv.fr/rechercher?terme=&commune=${codeInsee}&naf=68.31Z`,
+                label: "Annuaire entreprises",
+                title: "Voir les agences immobilières actives sur l'annuaire officiel",
+              }}
+            >
+              Concurrence locale
+            </SectionTitle>
+            <div className="rounded-lg border border-[color:var(--line)] bg-white p-4">
+              <div className="flex items-baseline gap-3 mb-2">
+                <div className="tabular text-[24px] font-semibold text-ink leading-none">
+                  {communeStats.sirene_agences_immo.toLocaleString("fr-FR")}
+                </div>
+                <div className="text-[12.5px] text-ink-soft">
+                  agences immo actives à {communeName ?? "cette commune"}
+                </div>
+              </div>
+              {communeStats.sirene_top_agences && communeStats.sirene_top_agences.length > 0 && (
+                <div className="mt-3 pt-3 border-t border-[color:var(--line-soft)]">
+                  <div className="text-[10px] uppercase tracking-[0.12em] text-ink-mute mb-1.5">
+                    Principales agences identifiées
+                  </div>
+                  <div className="flex flex-wrap gap-1.5">
+                    {communeStats.sirene_top_agences.slice(0, 6).map((a) => (
+                      <span
+                        key={a.siren}
+                        className="text-[11.5px] px-2 py-0.5 rounded-full border border-[color:var(--line-soft)] bg-surface-warm text-ink-soft truncate max-w-[180px]"
+                        title={`${a.nom} · ${a.naf_label}${a.adresse ? " · " + a.adresse : ""}`}
+                      >
+                        {a.nom}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+              <p className="text-[11px] text-ink-mute mt-3 leading-relaxed">
+                Pour préparer un argumentaire, voir l&apos;onglet
+                <strong className="text-ink"> Concurrence (Sirene) </strong>
+                dans l&apos;Historique commune (densité agences/1000 ventes, top
+                15, répartition par NAF).
+              </p>
+            </div>
+          </section>
+        )}
+
+        {/* ── CTA Mandater (no-print : ne pas inclure dans la fiche papier) ── */}
+        <section className="no-print rounded-xl border border-[color:var(--brand)]/30 bg-surface-warm p-4">
+          <div className="flex items-start gap-3">
+            <div className="rounded-full bg-brand/10 p-2 shrink-0">
+              <FileText size={18} className="text-brand-strong" />
+            </div>
+            <div className="min-w-0 flex-1">
+              <h4 className="text-[14px] font-semibold text-ink mb-0.5">
+                Préparer un mandat sur ce quartier
+              </h4>
+              <p className="text-[12px] text-ink-soft leading-relaxed mb-3">
+                Téléchargez la fiche brandée Prelys (PDF) pour la joindre à votre
+                argumentaire, ou contactez-nous pour caler une simulation prêt
+                avec un acquéreur identifié sur {iris.nom_iris}.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <button
+                  type="button"
+                  onClick={() => window.print()}
+                  className="inline-flex items-center gap-1.5 rounded-full bg-brand text-white text-[12.5px] font-medium px-3.5 py-1.5 hover:bg-brand-strong transition"
+                >
+                  <Printer size={14} /> Télécharger la fiche PDF
+                </button>
+                <a
+                  href={`mailto:contact@prelys-courtage.fr?subject=${encodeURIComponent(
+                    `Mandat ${iris.nom_iris} — ${communeName ?? codeInsee}`,
+                  )}&body=${encodeURIComponent(
+                    `Bonjour,\n\nJe prépare un mandat sur le quartier ${iris.nom_iris} (IRIS ${iris.code_iris}, ${communeName ?? codeInsee}).\nPouvons-nous échanger sur les solutions de financement à proposer aux acquéreurs ?\n\nCordialement,`,
+                  )}`}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-[color:var(--line)] bg-white text-ink text-[12.5px] font-medium px-3.5 py-1.5 hover:bg-surface-warm transition"
+                >
+                  Demander une simulation prêt
+                </a>
+                <Link
+                  href={`/comparateur#selected=${codeInsee}`}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-[color:var(--line)] bg-white text-ink text-[12.5px] font-medium px-3.5 py-1.5 hover:bg-surface-warm transition"
+                  title="Comparer cette commune à d'autres villes IDF"
+                >
+                  <Scale size={14} /> Comparer cette commune
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* ── Sources footer ── */}
         <footer className="border-t border-[color:var(--line-soft)] pt-4 text-[11px] text-ink-mute leading-relaxed">
           Sources : INSEE (population, logement, CSP, diplômes, bases
-          infracommunales 2021) · BPE INSEE 2024 (équipements) · ADEME (DPE) ·
+          infracommunales 2020) · BPE INSEE 2024 (équipements) · ADEME (DPE) ·
           DGFiP (DVF, transactions 2021-2025). Rang calculé sur les
           {" "}{totalIris} quartiers IRIS de la commune.
         </footer>
+      </div>
+
+      {/* ── Print-only signature (Prelys) ── */}
+      <div className="hidden print:block print:mt-6 print:pt-3 print:border-t print:border-black/30 print:text-[10.5px] print:text-black/80 print:leading-snug">
+        <div className="print:font-semibold print:text-black print:text-[12px] print:mb-1">
+          Préparé par Prelys Courtage — partenaire des agences immobilières
+        </div>
+        <div className="print:grid print:grid-cols-3 print:gap-4 print:mt-2">
+          <div>
+            <div className="print:font-medium print:text-black">Courtier en prêts</div>
+            <div>Adrien Vergne · expert financement</div>
+            <div>06 XX XX XX XX</div>
+          </div>
+          <div>
+            <div className="print:font-medium print:text-black">Adresse</div>
+            <div>14 av. du Bac, 94100 Saint-Maur-des-Fossés</div>
+            <div>RCS Créteil · ORIAS n° XX XXX XXX</div>
+          </div>
+          <div>
+            <div className="print:font-medium print:text-black">Pour aller plus loin</div>
+            <div>contact@prelys-courtage.fr</div>
+            <div>prelys-courtage.fr</div>
+          </div>
+        </div>
       </div>
     </aside>
   );
@@ -534,11 +742,101 @@ export default function IrisCard({
 
 /* ── helpers ─────────────────────────────────────────────────────────────── */
 
-function SectionTitle({ icon, children }: { icon: React.ReactNode; children: React.ReactNode }) {
+function QuartierStory({ iris, commune }: { iris: IrisProps; commune?: CommuneAvg }) {
+  // Génère 2-3 mots-clés descriptifs à partir des métriques INSEE/DVF/DPE.
+  // Heuristique pure, déterministe — pas d'appel LLM.
+  const tags: { label: string; tone: "brand" | "warm" | "sage" | "terra" }[] = [];
+
+  // Profil socio
+  if (iris.pct_cadres != null && iris.pct_cadres >= 30) {
+    tags.push({ label: "Quartier cadres", tone: "brand" });
+  } else if (iris.pct_hlm != null && iris.pct_hlm >= 30) {
+    tags.push({ label: "Forte présence HLM", tone: "warm" });
+  } else if (iris.pct_proprio != null && iris.pct_proprio >= 65) {
+    tags.push({ label: "Propriétaires majoritaires", tone: "sage" });
+  } else if (iris.pct_proprio != null && iris.pct_proprio <= 30) {
+    tags.push({ label: "Quartier locatif", tone: "warm" });
+  }
+
+  // Démographie
+  if (iris.pct_0_14 != null && iris.pct_0_14 >= 19) {
+    tags.push({ label: "Familles jeunes", tone: "sage" });
+  } else if (iris.pct_65p != null && iris.pct_65p >= 25) {
+    tags.push({ label: "Seniors prépondérants", tone: "warm" });
+  }
+
+  // Marché
+  if (iris.dvf_median_ppsqm && commune?.dvf_median_ppsqm) {
+    const delta = (iris.dvf_median_ppsqm / commune.dvf_median_ppsqm - 1) * 100;
+    if (delta >= 12) tags.push({ label: `+${delta.toFixed(0)}% au m² vs commune`, tone: "brand" });
+    else if (delta <= -12) tags.push({ label: `${delta.toFixed(0)}% au m² vs commune`, tone: "terra" });
+  }
+
+  // Énergie / parc
+  if (iris.dpe_pct_fg != null && iris.dpe_pct_fg >= 20) {
+    tags.push({ label: "Parc énergivore (F/G)", tone: "terra" });
+  } else if (iris.annee_construction_median != null && iris.annee_construction_median <= 1950) {
+    tags.push({ label: "Parc d'avant-guerre", tone: "warm" });
+  } else if (iris.annee_construction_median != null && iris.annee_construction_median >= 1990) {
+    tags.push({ label: "Parc récent", tone: "sage" });
+  }
+
+  // Volume
+  if (iris.dvf_sales_total >= 100) {
+    tags.push({ label: "Quartier liquide", tone: "brand" });
+  } else if (iris.dvf_sales_total > 0 && iris.dvf_sales_total < 15) {
+    tags.push({ label: "Marché confidentiel", tone: "warm" });
+  }
+
+  if (tags.length === 0) return null;
+
+  const toneClass: Record<string, string> = {
+    brand: "bg-brand/10 text-brand-strong border-brand/30",
+    warm: "bg-surface-warm text-ink border-[color:var(--line)]",
+    sage: "bg-[color:var(--sage)]/15 text-[color:var(--sage)] border-[color:var(--sage)]/30",
+    terra: "bg-terracotta/10 text-terracotta border-terracotta/30",
+  };
+
   return (
-    <div className="text-[11px] uppercase tracking-[0.15em] text-brand-strong mb-3 flex items-center gap-1.5">
-      {icon}
-      {children}
+    <section className="flex flex-wrap gap-1.5">
+      {tags.slice(0, 5).map((t, i) => (
+        <span
+          key={i}
+          className={`inline-flex items-center text-[11.5px] font-medium px-2.5 py-1 rounded-full border ${toneClass[t.tone]}`}
+        >
+          {t.label}
+        </span>
+      ))}
+    </section>
+  );
+}
+
+function SectionTitle({
+  icon,
+  children,
+  source,
+}: {
+  icon: React.ReactNode;
+  children: React.ReactNode;
+  source?: { href: string; label: string; title?: string };
+}) {
+  return (
+    <div className="mb-3 flex items-center justify-between gap-2">
+      <div className="text-[11px] uppercase tracking-[0.15em] text-brand-strong flex items-center gap-1.5">
+        {icon}
+        {children}
+      </div>
+      {source && (
+        <a
+          href={source.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          title={source.title ?? `Voir la source : ${source.label}`}
+          className="no-print text-[10px] text-ink-mute hover:text-brand-strong underline-offset-2 hover:underline inline-flex items-center gap-0.5"
+        >
+          {source.label}<span aria-hidden="true">↗</span>
+        </a>
+      )}
     </div>
   );
 }
