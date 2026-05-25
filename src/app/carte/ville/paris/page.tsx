@@ -3,6 +3,7 @@ import path from "node:path";
 import Link from "next/link";
 import Header from "@/components/landing/Header";
 import CarteBreadcrumb from "@/components/carte/CarteBreadcrumb";
+import ParisHubMap from "./ParisHubMap";
 
 /**
  * Page hub Paris : Paris est traitée comme une "super-ville" qui
@@ -82,6 +83,19 @@ export default async function ParisHubPage() {
           <KPIBox label="Population" value={fmt(totalPop)} sub="INSEE 2021" />
           <KPIBox label="Code INSEE commune" value="75056" sub="(global)" />
           <KPIBox label="Code département" value="75" sub="Paris" />
+        </section>
+
+        {/* Mini-carte interactive des 20 arrondissements */}
+        <section>
+          <h2 className="text-[12px] uppercase tracking-[0.15em] text-ink-soft mb-3">
+            Carte de Paris
+          </h2>
+          <ParisHubMap />
+          <p className="text-[11px] text-ink-mute mt-2 leading-relaxed">
+            Cliquez un arrondissement pour ouvrir sa carte détaillée. Taille
+            des cercles = volume de ventes DVF (5 ans). Heatmap = densité du
+            marché. Couleur = prix au m² médian.
+          </p>
         </section>
 
         <section>

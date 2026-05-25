@@ -17,7 +17,7 @@ import { assetUrl } from "@/lib/url";
 
 // Centres approximatifs par département (pour pré-zoom)
 const DEPT_CENTERS: Record<string, { center: [number, number]; zoom: number }> = {
-  "75": { center: [2.3522, 48.8566], zoom: 11.5 },
+  "75": { center: [2.3522, 48.8566], zoom: 12 },
   "77": { center: [3.0, 48.62], zoom: 9 },
   "78": { center: [1.85, 48.78], zoom: 9.5 },
   "91": { center: [2.30, 48.55], zoom: 9.5 },
@@ -26,6 +26,12 @@ const DEPT_CENTERS: Record<string, { center: [number, number]; zoom: number }> =
   "94": { center: [2.48, 48.78], zoom: 10.5 },
   "95": { center: [2.20, 49.06], zoom: 9.8 },
 };
+
+// Filtre spécial Paris : tous les arrondissements 75101-75120
+function matchesParisArr(p: Record<string, unknown>): boolean {
+  const code = String(p.code_insee || "");
+  return code.startsWith("751") && code.length === 5;
+}
 
 export default function RegionMap({
   is3d = false,
@@ -47,7 +53,9 @@ export default function RegionMap({
     if (!containerRef.current || mapRef.current) return;
 
     try {
-      const cfg = deptFilter && DEPT_CENTERS[deptFilter]
+      const cfg = deptFilter === "paris-arr"
+        ? { center: [2.3522, 48.8566] as [number, number], zoom: 11.8 }
+        : deptFilter && DEPT_CENTERS[deptFilter]
         ? DEPT_CENTERS[deptFilter]
         : { center: [2.4, 48.86] as [number, number], zoom: 9.2 };
       const map = new maplibregl.Map({
@@ -86,8 +94,16 @@ export default function RegionMap({
           const res = await fetch(assetUrl("/data/idf/communes_map.geojson"));
           if (!res.ok) throw new Error("Carte régionale non générée");
           const geoRaw = await res.json();
-          // Filtre éventuel par département
-          const geo = deptFilter
+          // Filtre éventuel par département (ou Paris arrondissements spécial)
+          const geo = deptFilter === "paris-arr"
+            ? {
+                type: "FeatureCollection",
+                features: geoRaw.features.filter(
+                  (f: { properties: Record<string, unknown> }) =>
+                    matchesParisArr(f.properties),
+                ),
+              }
+            : deptFilter
             ? {
                 type: "FeatureCollection",
                 features: geoRaw.features.filter(
