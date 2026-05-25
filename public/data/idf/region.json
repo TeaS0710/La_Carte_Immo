@@ -639,5 +639,32 @@
       ],
       "streets_with_sales": 125
     }
+  ],
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 173650,
+      "median_price": 414000.0
+    },
+    {
+      "year": 2022,
+      "sales": 187679,
+      "median_price": 410000.0
+    },
+    {
+      "year": 2023,
+      "sales": 155261,
+      "median_price": 395000.0
+    },
+    {
+      "year": 2024,
+      "sales": 144381,
+      "median_price": 370000.0
+    },
+    {
+      "year": 2025,
+      "sales": 158970,
+      "median_price": 390000.0
+    }
   ]
 }

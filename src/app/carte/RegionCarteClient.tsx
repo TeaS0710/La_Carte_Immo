@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Box, History, Info, MapPin, Train, Table } from "lucide-react";
 import Link from "next/link";
-import { Box, History, Info, MapPin, Train } from "lucide-react";
 import RegionMap from "@/components/carte/RegionMap";
 import AddressSearch from "@/components/carte/AddressSearch";
+import RegionMarketModal from "@/components/carte/RegionMarketModal";
 
 export default function RegionCarteClient({
   availableSlugs = [],
@@ -15,6 +16,7 @@ export default function RegionCarteClient({
   const [hintDismissed, setHintDismissed] = useState(false);
   const [is3d, setIs3d] = useState(false);
   const [showGPE, setShowGPE] = useState(false);
+  const [marketOpen, setMarketOpen] = useState(false);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -50,13 +52,23 @@ export default function RegionCarteClient({
         </p>
       </div>
 
-      {/* Bouton Comparer (vue tableau régionale) */}
-      <Link
-        href={"/carte/region/idf"}
+      {/* Bouton Historique régional (modal multi-onglets) */}
+      <button
+        type="button"
+        onClick={() => setMarketOpen(true)}
         className="absolute top-[140px] right-4 z-10 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
       >
         <History size={17} />
-        Comparer les villes
+        Historique IDF
+      </button>
+
+      {/* Lien tableau (vue détaillée) */}
+      <Link
+        href={"/carte/region/idf"}
+        className="absolute top-[348px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[40px]"
+      >
+        <Table size={15} aria-hidden="true" />
+        Tableau détaillé
       </Link>
 
       {/* Toggle 3D */}
@@ -129,6 +141,10 @@ export default function RegionCarteClient({
             Cliquez sur une commune pour ouvrir sa carte détaillée
           </div>
         </div>
+      )}
+
+      {marketOpen && (
+        <RegionMarketModal onClose={() => setMarketOpen(false)} />
       )}
     </main>
   );

@@ -366,5 +366,32 @@
       "code_insee": "94042",
       "total_sales": 3026
     }
+  ],
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 25748,
+      "median_price": 378800.0
+    },
+    {
+      "year": 2022,
+      "sales": 26882,
+      "median_price": 398000.0
+    },
+    {
+      "year": 2023,
+      "sales": 21035,
+      "median_price": 361600.0
+    },
+    {
+      "year": 2024,
+      "sales": 19280,
+      "median_price": 366300.0
+    },
+    {
+      "year": 2025,
+      "sales": 22299,
+      "median_price": 325600.0
+    }
   ]
 }

@@ -2718,5 +2718,32 @@
       "code_insee": "77091",
       "total_sales": 42
     }
+  ],
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 69512,
+      "median_price": 225000.0
+    },
+    {
+      "year": 2022,
+      "sales": 66942,
+      "median_price": 233750.0
+    },
+    {
+      "year": 2023,
+      "sales": 55293,
+      "median_price": 223133.0
+    },
+    {
+      "year": 2024,
+      "sales": 51701,
+      "median_price": 218000.0
+    },
+    {
+      "year": 2025,
+      "sales": 54324,
+      "median_price": 220000.0
+    }
   ]
 }

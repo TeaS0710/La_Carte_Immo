@@ -151,6 +151,46 @@ def main() -> int:
         (DEPT_DIR / f"{dept}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2))
         print(f"  dept {dept} {DEPT_NAMES.get(dept):24s} : {len(communes)}/{payload['communes_count_total']} communes")
 
+    # ─── Agrégation by_year à l'échelle région & par dept ────────────
+    # Lit chaque stats.json pour récupérer le by_year et agrège.
+    from collections import defaultdict as _dd
+    region_by_year_sales = _dd(int)
+    region_by_year_prices = _dd(list)
+    dept_by_year: dict[str, dict] = _dd(lambda: _dd(lambda: {"sales": 0, "prices": []}))
+    for cdir in COMMUNE_DIR.iterdir():
+        if not cdir.is_dir():
+            continue
+        sp = cdir / "stats.json"
+        if not sp.exists():
+            continue
+        try:
+            s = json.loads(sp.read_text())
+        except Exception:
+            continue
+        ref = manifest.get(cdir.name)
+        if not ref:
+            continue
+        dept = ref["code_dept"]
+        for y in s.get("by_year", []):
+            year = int(y["year"])
+            sales = int(y["sales"])
+            mprice = y["median_price"]
+            region_by_year_sales[year] += sales
+            region_by_year_prices[year].extend([mprice] * sales)
+            dept_by_year[dept][year]["sales"] += sales
+            dept_by_year[dept][year]["prices"].extend([mprice] * sales)
+
+    def _serialize_by_year(sales_map: dict, prices_map: dict) -> list[dict]:
+        years = sorted(sales_map.keys())
+        out = []
+        for y in years:
+            prices = prices_map[y]
+            mp = sorted(prices)[len(prices) // 2] if prices else None
+            out.append({"year": y, "sales": sales_map[y], "median_price": mp})
+        return out
+
+    region_by_year_payload = _serialize_by_year(region_by_year_sales, region_by_year_prices)
+
     # Synthèse région
     all_communes_summary = []
     for dept_communes in by_dept.values():
@@ -194,7 +234,19 @@ def main() -> int:
         "population_total": sum(c.get("population", 0) for c in manifest.values()),
         "insights": region_insights,
         "top_communes": all_communes_summary[:30],
+        "by_year": region_by_year_payload,
     }
+
+    # Patch chaque dept.json avec son by_year
+    for dept_code in by_dept:
+        dept_file = DEPT_DIR / f"{dept_code}.json"
+        if dept_file.exists():
+            d = json.loads(dept_file.read_text())
+            d["by_year"] = _serialize_by_year(
+                {y: v["sales"] for y, v in dept_by_year[dept_code].items()},
+                {y: v["prices"] for y, v in dept_by_year[dept_code].items()},
+            )
+            dept_file.write_text(json.dumps(d, ensure_ascii=False, indent=2))
     (IDF_DIR / "region.json").write_text(json.dumps(region_payload, ensure_ascii=False, indent=2))
     print(f"\n  Région IDF : {region_total['communes_count']}/{len(manifest)} communes disponibles")
     print(f"  Total ventes DVF : {region_total['total_sales']:,}")

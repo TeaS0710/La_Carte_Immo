@@ -516,5 +516,32 @@
       "code_insee": "75101",
       "total_sales": 4264
     }
+  ],
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 78390,
+      "median_price": 522000.0
+    },
+    {
+      "year": 2022,
+      "sales": 93855,
+      "median_price": 520000.0
+    },
+    {
+      "year": 2023,
+      "sales": 78933,
+      "median_price": 476000.0
+    },
+    {
+      "year": 2024,
+      "sales": 73400,
+      "median_price": 457005.0
+    },
+    {
+      "year": 2025,
+      "sales": 82347,
+      "median_price": 467000.0
+    }
   ]
 }
