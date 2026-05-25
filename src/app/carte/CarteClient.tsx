@@ -14,6 +14,7 @@ import MarketModal from "@/components/carte/MarketModal";
 import CarteMap from "@/components/carte/CarteMap";
 import CarteBreadcrumb from "@/components/carte/CarteBreadcrumb";
 import VilleSelector from "@/components/carte/VilleSelector";
+import OnboardingHint from "@/components/carte/OnboardingHint";
 import type {
   MapFilters, IrisProps, PipelineLogement, PermitFeature,
 } from "@/components/carte/types";
@@ -161,57 +162,53 @@ export default function CarteClient({
         hasPermits={dataState?.hasPermits ?? true}
       />
 
-      {/* Historique button (top-right under zoom controls) — ouvre modal multi-onglets */}
-      <button
-        type="button"
-        onClick={() => setMarketOpen(true)}
-        className="no-presentation absolute top-[140px] right-4 z-10 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
-      >
-        <History size={17} />
-        Historique
-      </button>
-
-      {/* Bouton Imprimer (sous Historique) */}
-      <button
-        type="button"
-        onClick={() => window.print()}
-        aria-label="Imprimer / Exporter PDF"
-        title="Imprimer ou exporter cette fiche en PDF"
-        className="absolute top-[248px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 no-presentation"
-      >
-        <Printer size={15} aria-hidden="true" />
-        PDF
-      </button>
-
-      {/* Toggle Présentation (sous PDF) */}
-      <button
-        type="button"
-        onClick={() => setPresentation(true)}
-        aria-label="Passer en mode présentation"
-        title="Plein écran simplifié pour RDV client"
-        className="absolute top-[300px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 no-presentation"
-      >
-        <Maximize2 size={15} aria-hidden="true" />
-        Mode présentation
-      </button>
-
-      {/* Toggle 3D — sous le bouton Historique */}
-      <button
-        type="button"
-        onClick={() => setIs3d((v) => !v)}
-        aria-pressed={is3d}
-        aria-label={is3d ? "Désactiver la vue 3D" : "Activer la vue 3D"}
-        title={is3d ? "Revenir en vue plate" : "Passer en vue 3D"}
-        className={`no-presentation absolute top-[196px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
-          is3d
-            ? "bg-brand text-white border-brand"
-            : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
-        }`}
-      >
-        <Box size={15} aria-hidden="true" />
-        3D
-      </button>
-
+      {/* Right-side action stack — flex container scroll-friendly on mobile */}
+      <div className="no-presentation absolute top-[140px] right-4 z-10 flex flex-col items-end gap-2 max-h-[calc(100vh-180px)] overflow-y-auto pr-0.5">
+        <button
+          type="button"
+          onClick={() => setMarketOpen(true)}
+          className="inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
+        >
+          <History size={17} />
+          Historique
+        </button>
+        <button
+          type="button"
+          onClick={() => setIs3d((v) => !v)}
+          aria-pressed={is3d}
+          aria-label={is3d ? "Désactiver la vue 3D" : "Activer la vue 3D"}
+          title={is3d ? "Revenir en vue plate" : "Passer en vue 3D"}
+          className={`inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
+            is3d
+              ? "bg-brand text-white border-brand"
+              : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
+          }`}
+        >
+          <Box size={15} aria-hidden="true" />
+          3D
+        </button>
+        <button
+          type="button"
+          onClick={() => window.print()}
+          aria-label="Imprimer / Exporter PDF"
+          title="Imprimer ou exporter cette fiche en PDF"
+          className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2"
+        >
+          <Printer size={15} aria-hidden="true" />
+          PDF
+        </button>
+        <button
+          type="button"
+          onClick={() => setPresentation(true)}
+          aria-label="Passer en mode présentation"
+          title="Plein écran simplifié pour RDV client"
+          className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2"
+        >
+          <Maximize2 size={15} aria-hidden="true" />
+          <span className="hidden sm:inline">Mode présentation</span>
+          <span className="sm:hidden">Plein écran</span>
+        </button>
+      </div>
 
       {/* Legend (bottom-left) — fusion: ronds=rues, fond=quartiers
           Masquée sur mobile (< sm) si une carte de détail est ouverte pour ne
@@ -244,7 +241,7 @@ export default function CarteClient({
         </div>
       </div>
 
-      {/* Hint when nothing selected yet — disparaît au premier clic */}
+      {/* Hint inline central — disparaît au premier clic */}
       {!hintDismissed && !selected && !selectedIris && !selectedPipeline && !selectedPermit && !filtersOpen && (
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none transition-opacity">
           <div className="bg-white/95 border border-[color:var(--line)] rounded-full px-4 py-2 text-[13px] text-ink-soft inline-flex items-center gap-2 shadow-sm">
@@ -253,6 +250,12 @@ export default function CarteClient({
           </div>
         </div>
       )}
+
+      {/* Onboarding 1re visite (persistant via localStorage) */}
+      <OnboardingHint
+        hasIrisLayer={!!dataState?.hasIris}
+        hasInteracted={!!selectedIris}
+      />
 
       {/* Selected street drawer (right panel) */}
       {selected && (

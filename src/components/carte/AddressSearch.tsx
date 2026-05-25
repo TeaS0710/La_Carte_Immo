@@ -78,7 +78,7 @@ export default function AddressSearch({
     return m;
   }, [communeRefs]);
 
-  // Recherche BAN avec debounce
+  // Recherche BAN avec debounce + AbortController
   useEffect(() => {
     if (debounceRef.current) window.clearTimeout(debounceRef.current);
     if (!query.trim() || query.length < 3) {
@@ -86,30 +86,31 @@ export default function AddressSearch({
       setResults([]);
       return;
     }
+    const controller = new AbortController();
     debounceRef.current = window.setTimeout(async () => {
       setLoading(true);
       setErrorMsg(null);
       try {
         // BAN : limite IDF via lat/lon centroïde + autocomplete
-        // Note : on ne peut pas filtrer dept directement, on filtre côté client
         const url = `https://api-adresse.data.gouv.fr/search/?q=${encodeURIComponent(query)}&limit=8&autocomplete=1&lat=48.85&lon=2.45`;
-        const r = await fetch(url);
+        const r = await fetch(url, { signal: controller.signal });
         if (!r.ok) throw new Error("API BAN indisponible");
         const data = await r.json();
-        // Filtre IDF (citycode commence par 75/77/78/91/92/93/94/95)
         const idfPrefixes = ["75", "77", "78", "91", "92", "93", "94", "95"];
         const filtered = (data.features as BanFeature[]).filter((f) =>
           idfPrefixes.includes(f.properties.citycode.slice(0, 2)),
         );
-        setResults(filtered);
+        if (!controller.signal.aborted) setResults(filtered);
       } catch (e) {
+        if ((e as Error).name === "AbortError") return;
         setErrorMsg((e as Error).message);
       } finally {
-        setLoading(false);
+        if (!controller.signal.aborted) setLoading(false);
       }
     }, 280);
     return () => {
       if (debounceRef.current) window.clearTimeout(debounceRef.current);
+      controller.abort();
     };
   }, [query]);
 
