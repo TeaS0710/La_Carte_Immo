@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { assetUrl } from "@/lib/url";
 import Image from "next/image";
-import { Phone, MapPin } from "lucide-react";
+import { Phone, MapPin, Scale } from "lucide-react";
 
 export default function Header() {
   return (
@@ -34,6 +34,13 @@ export default function Header() {
           >
             <MapPin size={14} className="text-[color:var(--brand-strong)]" />
             La carte
+          </Link>
+          <Link
+            href="/comparateur"
+            className="text-ink-soft hover:text-ink transition inline-flex items-center gap-1.5"
+          >
+            <Scale size={14} className="text-[color:var(--brand-strong)]" />
+            Comparateur
           </Link>
         </nav>
 
