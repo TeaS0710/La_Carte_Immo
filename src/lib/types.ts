@@ -35,6 +35,21 @@ export interface TransactionProps {
   price_per_sqm: number | null;
 }
 
+export interface SireneAgence {
+  siren: string;
+  nom: string;
+  naf: string;
+  naf_label: string;
+  adresse: string | null;
+  code_postal: string | null;
+}
+
+export interface SireneNafBreakdown {
+  naf: string;
+  label: string;
+  count: number;
+}
+
 export interface CommuneStats {
   commune: string;
   insee: string;
@@ -46,4 +61,8 @@ export interface CommuneStats {
   median_price_per_sqm: number | null;
   by_year: { year: number; sales: number; median_price: number }[];
   top_streets: { street_name: string; sales: number; median_price_per_sqm: number | null }[];
+  sirene_targets_total?: number;
+  sirene_agences_immo?: number;
+  sirene_par_naf?: SireneNafBreakdown[];
+  sirene_top_agences?: SireneAgence[];
 }

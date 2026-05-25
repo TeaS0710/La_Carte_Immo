@@ -19,12 +19,13 @@ import type { CommuneStats } from "@/lib/types";
 import { formatEur, formatNum } from "@/lib/format";
 import type { MapFilters } from "./types";
 
-type Tab = "evolution" | "projection" | "strates";
+type Tab = "evolution" | "projection" | "strates" | "concurrence";
 
 const TABS: { id: Tab; label: string }[] = [
   { id: "evolution", label: "Évolution dans le temps" },
   { id: "projection", label: "Suivi des prix" },
   { id: "strates", label: "Profil de la population" },
+  { id: "concurrence", label: "Concurrence (Sirene)" },
 ];
 
 export default function MarketModal({
@@ -124,6 +125,7 @@ function ModalContent({
         {tab === "evolution" && <EvolutionTab stats={stats} yearRange={filters.yearRange} />}
         {tab === "projection" && <ProjectionTab codeInsee={codeInsee} stats={stats} />}
         {tab === "strates" && <StratesTab codeInsee={codeInsee} />}
+        {tab === "concurrence" && <ConcurrenceTab stats={stats} />}
       </div>
     </>
   );
@@ -388,6 +390,98 @@ function StratesTab({ codeInsee }: { codeInsee: string }) {
         Source : INSEE, bases infracommunales 2021 (population, logement, CSP,
         diplômes). Cliquez sur un quartier sur la carte pour voir son profil
         détaillé et son rang sur chaque indicateur.
+      </p>
+    </div>
+  );
+}
+
+function ConcurrenceTab({ stats }: { stats: CommuneStats }) {
+  const total = stats.sirene_targets_total ?? 0;
+  const agences = stats.sirene_agences_immo ?? 0;
+  const parNaf = stats.sirene_par_naf ?? [];
+  const topAgences = stats.sirene_top_agences ?? [];
+
+  if (!total) {
+    return (
+      <div className="rounded-lg border border-[color:var(--line)] bg-surface-warm p-4 text-[13px] text-ink-soft leading-relaxed">
+        Données Sirene en cours d&apos;intégration pour cette commune. Les
+        établissements actifs (agences immobilières, commerces, restaurants…)
+        seront affichés ici dès la prochaine mise à jour.
+      </div>
+    );
+  }
+
+  const maxCount = Math.max(...parNaf.map((n) => n.count), 1);
+
+  return (
+    <div className="space-y-5">
+      <div className="grid grid-cols-3 gap-3">
+        <CommuneStat label="Établissements actifs" value={formatNum(total)} unit="" />
+        <CommuneStat label="Agences immobilières" value={String(agences)} unit="68.31Z + 68.32" />
+        <CommuneStat
+          label="Densité agences"
+          value={
+            stats.median_price && agences
+              ? (agences * 1000 / (stats.total_sales || 1)).toFixed(1)
+              : "—"
+          }
+          unit="agences / 1000 ventes"
+        />
+      </div>
+
+      <div>
+        <h3 className="text-[13px] font-medium text-ink mb-3">
+          Tissu économique — répartition par NAF
+        </h3>
+        <div className="space-y-2">
+          {parNaf.map((n) => (
+            <div key={n.naf} className="flex items-center gap-3">
+              <div className="w-44 shrink-0 text-[12px] text-ink-soft truncate" title={n.label}>
+                {n.label}
+              </div>
+              <div className="flex-1 h-2 rounded-full bg-[color:var(--line-soft)] overflow-hidden">
+                <div
+                  className="h-full bg-brand rounded-full"
+                  style={{ width: `${(n.count / maxCount) * 100}%` }}
+                />
+              </div>
+              <div className="w-12 shrink-0 text-right tabular text-[12px] text-ink font-medium">
+                {n.count}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {topAgences.length > 0 && (
+        <div>
+          <h3 className="text-[13px] font-medium text-ink mb-3">
+            Top agences immobilières & gestionnaires identifiés
+          </h3>
+          <div className="space-y-1.5">
+            {topAgences.slice(0, 12).map((a) => (
+              <div
+                key={a.siren}
+                className="rounded-md border border-[color:var(--line-soft)] bg-white px-3 py-2 text-[12.5px] flex items-baseline justify-between gap-3"
+              >
+                <div className="truncate">
+                  <span className="font-medium text-ink">{a.nom}</span>
+                  <span className="text-ink-mute"> · {a.naf_label}</span>
+                </div>
+                <div className="text-[11px] text-ink-mute tabular shrink-0">
+                  SIREN {a.siren}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <p className="text-[11px] text-ink-mute">
+        Source : API recherche-entreprises (DILA / etalab), entreprises actives
+        au {new Date().toLocaleDateString("fr-FR")}. Filtre NAF appliqué :
+        immobilier, restauration, commerces alimentaires, enseignement,
+        hébergement médicalisé.
       </p>
     </div>
   );
