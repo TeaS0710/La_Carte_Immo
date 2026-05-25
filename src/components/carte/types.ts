@@ -69,6 +69,12 @@ export interface IrisProps {
   lat?: number;
   lng?: number;
   population: number | null;
+  population_est?: number | null;
+  pop_estimation_method?: string;
+  dpe_total?: number;
+  dpe_pct_fg?: number | null;
+  dpe_pct_ab?: number | null;
+  annee_construction_median?: number | null;
   n_log: number | null;
   n_rp: number | null;
   pct_proprio: number | null;

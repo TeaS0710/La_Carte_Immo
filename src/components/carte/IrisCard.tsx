@@ -243,8 +243,18 @@ export default function IrisCard({
           <div className="space-y-4">
             <BigStat
               label="Habitants"
-              value={iris.population ? `${iris.population.toLocaleString("fr-FR")} hab.` : "-"}
-              detail={`${iris.pct_0_14 ?? "-"} % de 0-14 ans · ${iris.pct_65p ?? "-"} % de 65 ans et +`}
+              value={
+                iris.population
+                  ? `${iris.population.toLocaleString("fr-FR")} hab.${iris.pop_estimation_method ? " (est.)" : ""}`
+                  : "-"
+              }
+              detail={
+                iris.pct_0_14 != null || iris.pct_65p != null
+                  ? `${iris.pct_0_14 ?? "-"} % de 0-14 ans · ${iris.pct_65p ?? "-"} % de 65 ans et +`
+                  : iris.pop_estimation_method === "dpe_density"
+                    ? "Estimation depuis densité DPE (Recensement INSEE 2021 non disponible)"
+                    : undefined
+              }
               icon={<Users size={14} />}
             />
 
@@ -267,6 +277,47 @@ export default function IrisCard({
                 rank={iris.rank_pct_bac5p}
                 total={iris.rank_total_pct_bac5p ?? totalIris}
               />
+            )}
+            {iris.pct_cadres == null && (
+              <div className="rounded-lg border border-[color:var(--line)] bg-surface-warm px-3 py-2.5 text-[12px] text-ink-soft leading-relaxed">
+                <strong className="text-ink">Profil démographique détaillé</strong> (CSP,
+                diplômes, structure des ménages) en cours d&apos;intégration —
+                source INSEE Recensement 2021 bulk (fichier infra-communal)
+                actuellement indisponible côté serveur INSEE.
+              </div>
+            )}
+
+            {/* Indicateurs dérivés DPE (toujours disponibles) */}
+            {iris.dpe_total != null && iris.dpe_total > 0 && (
+              <div className="grid grid-cols-2 gap-2.5 pt-1">
+                <div className="rounded-lg border border-[color:var(--line)] bg-white px-3 py-2.5">
+                  <div className="text-[10px] uppercase tracking-[0.12em] text-ink-soft">
+                    Parc diagnostiqué
+                  </div>
+                  <div className="text-[15px] font-semibold text-ink tabular leading-tight mt-0.5">
+                    {iris.dpe_total.toLocaleString("fr-FR")} logements
+                  </div>
+                  {iris.annee_construction_median && (
+                    <div className="text-[11px] text-ink-soft mt-0.5">
+                      Construction médiane : {iris.annee_construction_median}
+                    </div>
+                  )}
+                </div>
+                <div className="rounded-lg border border-[color:var(--line)] bg-white px-3 py-2.5">
+                  <div className="text-[10px] uppercase tracking-[0.12em] text-ink-soft">
+                    Énergie
+                  </div>
+                  <div className="text-[15px] font-semibold text-ink tabular leading-tight mt-0.5">
+                    {iris.dpe_pct_fg?.toFixed(1) ?? "—"} %{" "}
+                    <span className="text-[11px] text-ink-soft font-normal">F/G</span>
+                  </div>
+                  {iris.dpe_pct_ab != null && (
+                    <div className="text-[11px] text-ink-soft mt-0.5">
+                      {iris.dpe_pct_ab.toFixed(1)} % en A/B
+                    </div>
+                  )}
+                </div>
+              </div>
             )}
           </div>
         </section>
