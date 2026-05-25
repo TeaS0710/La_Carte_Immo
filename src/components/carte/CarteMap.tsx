@@ -153,7 +153,7 @@ export default function CarteMap({
                 "fill-color": [
                   "interpolate",
                   ["linear"],
-                  ["get", "dvf_sales_total"],
+                  ["coalesce", ["get", "dvf_sales_total"], 0],
                   0, "#d9e0d4",
                   300, "#a8b8a3",
                   450, "#e6cf9a",
@@ -516,15 +516,19 @@ export default function CarteMap({
               map.flyTo({ center: coords, zoom: Math.max(map.getZoom(), 14.8), duration: 700 });
               return;
             }
-            const irisFeats = map.queryRenderedFeatures(e.point, {
-              layers: ["iris-fill"],
-            });
-            if (irisFeats.length > 0) {
-              const f = irisFeats[0] as MapGeoJSONFeature;
-              const p = f.properties as unknown as IrisProps;
-              onSelectIris(p);
-              onSelectStreet(null);
-              return;
+            // queryRenderedFeatures throw si layer absent (commune partielle
+            // sans iris.geojson) — protège avec check
+            if (map.getLayer("iris-fill")) {
+              const irisFeats = map.queryRenderedFeatures(e.point, {
+                layers: ["iris-fill"],
+              });
+              if (irisFeats.length > 0) {
+                const f = irisFeats[0] as MapGeoJSONFeature;
+                const p = f.properties as unknown as IrisProps;
+                onSelectIris(p);
+                onSelectStreet(null);
+                return;
+              }
             }
             onSelectStreet(null);
             onSelectIris(null);

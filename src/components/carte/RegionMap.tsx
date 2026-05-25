@@ -120,36 +120,44 @@ export default function RegionMap({
             });
           }
 
-          // ─── Heatmap des communes pondérée par les ventes DVF ──
-          // Transparence CONSTANTE pour rester visible à tous les zooms,
-          // les cercles cliquables s'ajoutent par-dessus avec leurs données.
+          // ─── Heatmap colorée transparente — couvre VRAIMENT le territoire ──
+          // Chaque commune contribue, le poids reflète l'activité (DVF), le
+          // rayon est large pour fusionner les communes adjacentes en zones.
           map.addLayer({
             id: "communes-heat",
             type: "heatmap",
             source: "communes",
             paint: {
               "heatmap-weight": [
-                "interpolate", ["linear"], ["get", "total_sales"],
-                0, 0, 5000, 0.5, 15000, 1,
+                "interpolate", ["linear"], ["coalesce", ["get", "total_sales"], 0],
+                0, 0.15,       // toutes les communes contribuent (base 0.15)
+                500, 0.35,
+                2000, 0.6,
+                5000, 0.85,
+                15000, 1,
               ],
               "heatmap-intensity": [
                 "interpolate", ["linear"], ["zoom"],
-                8, 1, 11, 1.6, 14, 2.2,
+                7, 1.4, 9, 2.0, 11, 2.6, 14, 3.2,
               ],
+              // Palette terra-cotta / ocre / brun — fortement colorée mais
+              // semi-transparente (alpha) pour rester un overlay
               "heatmap-color": [
                 "interpolate", ["linear"], ["heatmap-density"],
                 0, "rgba(217,224,212,0)",
-                0.1, "rgba(168,184,163,0.35)",
-                0.3, "rgba(230,207,154,0.55)",
-                0.5, "rgba(192,155,90,0.7)",
-                0.7, "rgba(181,79,58,0.78)",
+                0.05, "rgba(168,184,163,0.45)",
+                0.2, "rgba(216,196,143,0.62)",
+                0.4, "rgba(192,155,90,0.72)",
+                0.6, "rgba(181,99,58,0.78)",
+                0.8, "rgba(150,51,30,0.82)",
                 1, "rgba(122,40,16,0.85)",
               ],
+              // Rayon LARGE pour fusionner les communes en zones continues
               "heatmap-radius": [
                 "interpolate", ["linear"], ["zoom"],
-                8, 22, 11, 40, 14, 60,
+                7, 35, 9, 55, 11, 80, 13, 110, 15, 140,
               ],
-              "heatmap-opacity": 0.62,
+              "heatmap-opacity": 0.78,
             },
           });
 
@@ -164,15 +172,15 @@ export default function RegionMap({
               "circle-radius": [
                 "interpolate", ["linear"], ["zoom"],
                 8, [
-                  "interpolate", ["linear"], ["get", "total_sales"],
+                  "interpolate", ["linear"], ["coalesce", ["get", "total_sales"], 0],
                   100, 2, 1000, 4, 5000, 7, 15000, 10,
                 ],
                 11, [
-                  "interpolate", ["linear"], ["get", "total_sales"],
+                  "interpolate", ["linear"], ["coalesce", ["get", "total_sales"], 0],
                   100, 4, 1000, 8, 5000, 14, 15000, 20,
                 ],
                 14, [
-                  "interpolate", ["linear"], ["get", "total_sales"],
+                  "interpolate", ["linear"], ["coalesce", ["get", "total_sales"], 0],
                   100, 7, 1000, 12, 5000, 22, 15000, 32,
                 ],
               ],
