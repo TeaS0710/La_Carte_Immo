@@ -34,34 +34,48 @@ du quartier ci-dessous pour un agent immobilier qui prépare un mandat.
 CONTEXTE DU QUARTIER (IRIS INSEE)
 - Commune : {commune_nom} ({code_insee})
 - Quartier : {nom_iris} (IRIS {code_iris})
-- Ventes DVF 2021-2025 : {sales} transactions
+
+ACTIVITÉ MARCHÉ (DVF 2021-2025)
+- Ventes : {sales} transactions
 - Prix médian : {median_price} €
 - Prix médian au m² : {median_ppsqm} €/m²
 - Appartements vendus : {sales_appt}
 - Maisons vendues : {sales_maison}
 - Ventes par année : {by_year}
 
-DONNÉES COMMUNALES
-- Population commune : {pop_commune} habitants
+PARC DE LOGEMENTS (DPE ADEME)
+- Logements diagnostiqués : {dpe_total}
+- % étiquette F/G (énergivore — opportunités de mandat) : {dpe_pct_fg} %
+- % étiquette A/B (rénové/neuf) : {dpe_pct_ab} %
+- Année de construction médiane : {annee_med}
+
+CONTEXTE COMMUNAL
+- Population : {pop_commune} habitants
 - Ventes commune totales : {sales_commune}
 - Prix médian €/m² commune : {ppsqm_commune}
 
-RISQUES MAJEURS (Géorisques)
+RISQUES MAJEURS (Géorisques — échelle commune)
 {risques}
 
 ÉCRIS L'ANALYSE EN FRANÇAIS, en suivant EXACTEMENT ce format :
 
 **Profil acheteur cible**
-[1-2 phrases : qui achète dans ce quartier, capacité d'emprunt, motivations]
+[1-2 phrases : qui achète dans ce quartier, capacité d'emprunt, motivations,
+en t'appuyant sur prix au m² et type de bien dominant]
 
 **Dynamique du marché local**
-[1-2 phrases : volume vs commune, prix vs commune, tendance par année]
+[1-2 phrases : volume vs commune, prix vs commune, tendance par année,
+et lien avec l'ancienneté du parc si pertinent]
 
-**Bien dominant et opportunités**
-[1-2 phrases : type de bien majoritaire, opportunités de mandat]
+**Bien dominant et opportunités de mandat**
+[1-2 phrases : type majoritaire, ancienneté médiane, opportunités de
+mandat — notamment cibler les logements F/G si % significatif (>15 %)
+car réforme DPE 2025 → vendeurs incités à céder]
 
 **Recommandation tactique**
-[1-2 phrases : sur quels biens/rues focaliser la prospection]
+[1-2 phrases : sur quels biens/rues focaliser la prospection, en
+mentionnant explicitement F/G si dpe_pct_fg élevé, ou rotation
+locative si jeune si annee_med récente]
 
 Sois CONCIS, factuel, chaque chiffre cité doit venir des données ci-dessus.
 Pas d'introduction ni de conclusion. Commence directement par **Profil acheteur cible**.
@@ -93,6 +107,10 @@ def build_prompt(iris_props: dict, stats: dict, risks: dict | None, commune_nom:
         sales_appt=iris_props.get("dvf_sales_appt", 0),
         sales_maison=iris_props.get("dvf_sales_maison", 0),
         by_year=by_year_str,
+        dpe_total=iris_props.get("dpe_total", 0),
+        dpe_pct_fg=iris_props.get("dpe_pct_fg") if iris_props.get("dpe_pct_fg") is not None else "n/a",
+        dpe_pct_ab=iris_props.get("dpe_pct_ab") if iris_props.get("dpe_pct_ab") is not None else "n/a",
+        annee_med=iris_props.get("annee_construction_median") or "n/a",
         pop_commune=stats.get("commune_population", "n/a"),
         sales_commune=stats.get("total_sales", "n/a"),
         ppsqm_commune=int(stats.get("median_price_per_sqm")) if stats.get("median_price_per_sqm") else "n/a",
