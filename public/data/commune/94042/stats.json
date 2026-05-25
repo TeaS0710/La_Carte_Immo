@@ -116,5 +116,186 @@
       "sales": 58,
       "median_price_per_sqm": 5996.774193548387
     }
+  ],
+  "sirene_targets_total": 244,
+  "sirene_agences_immo": 90,
+  "sirene_par_naf": [
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 68
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 43
+    },
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 42
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 22
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 21
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 16
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 11
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 10
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 7
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 2
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 2
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "450623103",
+      "nom": "VANEAU",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "50 RUE DE CHATEAUDUN 75009 PARIS",
+      "code_postal": "75009"
+    },
+    {
+      "siren": "103203634",
+      "nom": "VENDOME IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "6 AVENUE FRANKLIN D. ROOSEVELT 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "532883840",
+      "nom": "RP IMMO 94",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "55 RUE LOUIS TALAMONI 94500 CHAMPIGNY-SUR-MARNE",
+      "code_postal": "94500"
+    },
+    {
+      "siren": "818208548",
+      "nom": "AURELIEN BELOT",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "4 SQUARE MICHEL ANGE 92350 LE PLESSIS-ROBINSON",
+      "code_postal": "92350"
+    },
+    {
+      "siren": "832615439",
+      "nom": "GILLIANE KEDINGER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "BATIMENT B 4 RUE CHARLES VII 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    },
+    {
+      "siren": "911985448",
+      "nom": "ROYER IMMO CONSEILS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "87 RUE GEORGES CHARPAK 51430 BEZANNES",
+      "code_postal": "51430"
+    },
+    {
+      "siren": "481345718",
+      "nom": "ERIC TILKIAN",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "4 AVENUE GABRIELLE 94100 SAINT-MAUR-DES-FOSSES",
+      "code_postal": "94100"
+    },
+    {
+      "siren": "353403447",
+      "nom": "BEREC IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "32 RUE DU FOUR 94100 SAINT-MAUR-DES-FOSSES",
+      "code_postal": "94100"
+    },
+    {
+      "siren": "500707377",
+      "nom": "LAURENCE ARBEY",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "13 B RUE VAUTIER 94340 JOINVILLE LE PONT",
+      "code_postal": "94340"
+    },
+    {
+      "siren": "948567656",
+      "nom": "OLISIPO REAL ESTATE INVESTMENT & ASSET MANAGEMENT (OLISIPO REIAM) (OLISIPO REIAM)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "10 RUE DE LA PAIX 75002 PARIS",
+      "code_postal": "75002"
+    },
+    {
+      "siren": "984740761",
+      "nom": "IN-8 IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "36 AVENUE DU GENERAL GALLIENI 94340 JOINVILLE-LE-PONT",
+      "code_postal": "94340"
+    },
+    {
+      "siren": "932704059",
+      "nom": "JEREMY NACCACHE CONSULTING",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "23 BOULEVARD DU MARECHAL LECLERC 94340 JOINVILLE-LE-PONT",
+      "code_postal": "94340"
+    },
+    {
+      "siren": "922112149",
+      "nom": "ROMA TRANSACTIONS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 RUE DE PARIS 94340 JOINVILLE-LE-PONT",
+      "code_postal": "94340"
+    },
+    {
+      "siren": "489026872",
+      "nom": "STEPHANE JUAN",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "61 AVENUE OUDINOT 94340 JOINVILLE-LE-PONT",
+      "code_postal": "94340"
+    },
+    {
+      "siren": "531159424",
+      "nom": "NAJATE HAKMI",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "12 RUE DES PAVILLONS FLEURIS 94500 CHAMPIGNY-SUR-MARNE",
+      "code_postal": "94500"
+    }
   ]
 }

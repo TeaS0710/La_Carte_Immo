@@ -116,5 +116,191 @@
       "sales": 285,
       "median_price_per_sqm": 9369.72972972973
     }
+  ],
+  "sirene_targets_total": 3164,
+  "sirene_agences_immo": 1095,
+  "sirene_par_naf": [
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 1000
+    },
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 597
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 405
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 324
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 213
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 174
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 174
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 116
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 69
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 63
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 16
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 13
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "503698664",
+      "nom": "FONCIA TRANSACTION FRANCE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18-19 - TOUR AURORE 18 PLACE DES REFLETS 92400 COURBEVOIE",
+      "code_postal": "92400"
+    },
+    {
+      "siren": "323998690",
+      "nom": "ESPACE EXPANSION",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 PLACE DU CHANCELIER ADENAUER 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "419692389",
+      "nom": "BRETEUIL ILE DE FRANCE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "91 AVENUE PAUL DOUMER 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "450623103",
+      "nom": "VANEAU",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "50 RUE DE CHATEAUDUN 75009 PARIS",
+      "code_postal": "75009"
+    },
+    {
+      "siren": "689801314",
+      "nom": "CPH IMMOBILIER (CPH IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "67 BOULEVARD BESSIERES 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "832696959",
+      "nom": "VILOGIA PRIVILEGE (VILOGIA PRIVILEGE)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "271 BOULEVARD DE TOURNAI 59650 VILLENEUVE-D'ASCQ",
+      "code_postal": "59650"
+    },
+    {
+      "siren": "440449916",
+      "nom": "LIINS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "34 RUE GUERSANT 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "477647929",
+      "nom": "L&A FINANCE (L&A FINANCE)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "2 RUE EULER 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "339714628",
+      "nom": "GEMOFIS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "251 BOULEVARD PEREIRE 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "823066576",
+      "nom": "SOLARIS GESTION",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "4 IMPASSE CHARLES TRENET 44800 SAINT-HERBLAIN",
+      "code_postal": "44800"
+    },
+    {
+      "siren": "317753325",
+      "nom": "JEAN ISMAEL",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18 RUE DE LA COMPAGNIE 97400 SAINT-DENIS",
+      "code_postal": "97400"
+    },
+    {
+      "siren": "343004271",
+      "nom": "CORINNE MOUSTAFIADES MOUSTAFIOGLOU",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "[NON-DIFFUSIBLE]",
+      "code_postal": "[NON-DIFFUSIBLE]"
+    },
+    {
+      "siren": "414709980",
+      "nom": "ALAIN ROUSSEAU IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "10 BOULEVARD HENRI ARNAULD 49100 ANGERS",
+      "code_postal": "49100"
+    },
+    {
+      "siren": "750282154",
+      "nom": "ADVISTON",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "COMPLEXE OXYDIUM BAT A 190 RUE MARCELLE ISOARD 13090 AIX-EN-PROVENCE",
+      "code_postal": "13090"
+    },
+    {
+      "siren": "842892838",
+      "nom": "INNOVE IMMO",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "44 RUE DU MARECHAL FOCH 78000 VERSAILLES",
+      "code_postal": "78000"
+    }
   ]
 }

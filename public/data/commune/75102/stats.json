@@ -116,5 +116,191 @@
       "sales": 97,
       "median_price_per_sqm": 41702.12765957447
     }
+  ],
+  "sirene_targets_total": 3450,
+  "sirene_agences_immo": 1001,
+  "sirene_par_naf": [
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 1000
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 736
+    },
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 612
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 350
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 299
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 187
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 90
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 74
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 65
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 16
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 13
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 8
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "510539018",
+      "nom": "ANGLE NEUF",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "IMM 19 LCL 19 BOULEVARD DES ITALIENS 75002 PARIS",
+      "code_postal": "75002"
+    },
+    {
+      "siren": "852339589",
+      "nom": "DANIEL FEAU CONSEIL IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "21 RUE D'ARTOIS 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "323998690",
+      "nom": "ESPACE EXPANSION",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 PLACE DU CHANCELIER ADENAUER 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "513504498",
+      "nom": "GROUPE J L V (EVOLIS - EVOLIS PROPRIETAIRES - EVOLIS UTILISATEURS)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "24 B RUE DE BERRI 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "387468382",
+      "nom": "AFEDIM (AFEDIM) (AFEDIM)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "RAIFFEISEN 4 RUE FREDERIC-GUILLAUME RAIFFEISEN 67000 STRASBOURG",
+      "code_postal": "67000"
+    },
+    {
+      "siren": "488650417",
+      "nom": "IZIMMO",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "3 RUE EDOUARD BELIN 29200 BREST",
+      "code_postal": "29200"
+    },
+    {
+      "siren": "520639725",
+      "nom": "AGENCE DES ENFANTS ROUGES",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "44 RUE DE BRETAGNE 75003 PARIS",
+      "code_postal": "75003"
+    },
+    {
+      "siren": "379817190",
+      "nom": "LA TOUR IMMO TRANSACTION (LA TOUR IMMO)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "5 RUE CERNUSCHI 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "417971959",
+      "nom": "CHRISTIE & CO (CHRISTIE + CO)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "10 RUE LA FAYETTE 75009 PARIS",
+      "code_postal": "75009"
+    },
+    {
+      "siren": "833267289",
+      "nom": "VESTA HOME",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "CS5003 95 AVENUE DU PRESIDENT WILSON 93100 MONTREUIL",
+      "code_postal": "93100"
+    },
+    {
+      "siren": "953478898",
+      "nom": "STERN GROUP",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "28 BOULEVARD MALESHERBES 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "503605263",
+      "nom": "ESPACES ATYPIQUES DEVELOPPEMENT",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "5 B RUE DES HAUDRIETTES 75003 PARIS",
+      "code_postal": "75003"
+    },
+    {
+      "siren": "852185495",
+      "nom": "B.Z.H PARTNERS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "66 RUE MONGE 75005 PARIS",
+      "code_postal": "75005"
+    },
+    {
+      "siren": "819288499",
+      "nom": "SERRIS REIM",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "61 ROUTE D'ALLAUCH 13011 MARSEILLE",
+      "code_postal": "13011"
+    },
+    {
+      "siren": "834758575",
+      "nom": "H26 CONSULTING",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "22 RUE LALO 75016 PARIS",
+      "code_postal": "75016"
+    }
   ]
 }

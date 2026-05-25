@@ -116,5 +116,191 @@
       "sales": 148,
       "median_price_per_sqm": 2613.6363636363635
     }
+  ],
+  "sirene_targets_total": 478,
+  "sirene_agences_immo": 175,
+  "sirene_par_naf": [
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 120
+    },
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 88
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 87
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 45
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 41
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 29
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 19
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 14
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 12
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 10
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 10
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 3
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "520808643",
+      "nom": "AGEVEDIM IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "4 RESIDENCE DES CHATEAUX 95450 ABLEIGES",
+      "code_postal": "95450"
+    },
+    {
+      "siren": "805323409",
+      "nom": "ALEXANDRE LE QUERE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "3 RUE DE LA VALLEE DE NOZENT 77570 LA MADELEINE-SUR-LOING",
+      "code_postal": "77570"
+    },
+    {
+      "siren": "838965853",
+      "nom": "GREGORY BASTIDE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "3 RUE PAUL BERT 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    },
+    {
+      "siren": "520702853",
+      "nom": "SYLVAIN ARBAUDIE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "34 AVENUE ALBERT 1ER 92500 RUEIL-MALMAISON",
+      "code_postal": "92500"
+    },
+    {
+      "siren": "498742386",
+      "nom": "ROBIN FRANCOIS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "RUE MEDERIC 94120 FONTENAY-SOUS-BOIS",
+      "code_postal": "94120"
+    },
+    {
+      "siren": "752555698",
+      "nom": "AGENCE EMOTION",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "CS11237 37 AVENUE LEDRU-ROLLIN 75012 PARIS",
+      "code_postal": "75012"
+    },
+    {
+      "siren": "352764005",
+      "nom": "ANNE CAROLE IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "4 BOULEVARD DE STRASBOURG 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    },
+    {
+      "siren": "451459853",
+      "nom": "D I V A",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "134 GRANDE RUE CHARLES DE GAULLE 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    },
+    {
+      "siren": "832615439",
+      "nom": "GILLIANE KEDINGER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "BATIMENT B 4 RUE CHARLES VII 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    },
+    {
+      "siren": "447684705",
+      "nom": "EN APPART ET",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "11 RUE DE MONTREUIL 94300 VINCENNES",
+      "code_postal": "94300"
+    },
+    {
+      "siren": "998650618",
+      "nom": "AGENCE JOFFARD SARL",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "9 AVENUE GEORGES CLEMENCEAU 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    },
+    {
+      "siren": "331567362",
+      "nom": "FGI",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "176 GRANDE RUE CHARLES DE GAULLE 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    },
+    {
+      "siren": "339620338",
+      "nom": "BLVI",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "2 AVENUE DE JOINVILLE 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    },
+    {
+      "siren": "398486662",
+      "nom": "SCI SOLFEGE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "37 AVENUE DE VERSAILLES 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "430405894",
+      "nom": "CHARLES MARTY IMMOBILIER LE PERREUX EN ABREGE CMI-LPX",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "100 AVENUE DU GENERAL DE GAULLE 94170 LE PERREUX-SUR-MARNE",
+      "code_postal": "94170"
+    }
   ]
 }

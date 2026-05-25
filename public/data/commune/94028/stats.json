@@ -116,5 +116,191 @@
       "sales": 148,
       "median_price_per_sqm": 4615.557065217392
     }
+  ],
+  "sirene_targets_total": 759,
+  "sirene_agences_immo": 214,
+  "sirene_par_naf": [
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 186
+    },
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 169
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 114
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 69
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 57
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 39
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 39
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 33
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 30
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 15
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 6
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 2
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "503698664",
+      "nom": "FONCIA TRANSACTION FRANCE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18-19 - TOUR AURORE 18 PLACE DES REFLETS 92400 COURBEVOIE",
+      "code_postal": "92400"
+    },
+    {
+      "siren": "914326855",
+      "nom": "FONCIA DEVELOPPEMENT ET LOCATION",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "TOUR AURORE 18-19 PLACE DES REFLETS 92400 COURBEVOIE",
+      "code_postal": "92400"
+    },
+    {
+      "siren": "689801314",
+      "nom": "CPH IMMOBILIER (CPH IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "67 BOULEVARD BESSIERES 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "602620346",
+      "nom": "ID PROJETS (FC)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "55 CHEMIN DES ENGRENAUDS 13660 ORGON",
+      "code_postal": "13660"
+    },
+    {
+      "siren": "802545426",
+      "nom": "ARNAUD IMMOBILIER SAS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "8 RUE D'ESTIENNE D'ORVES 94000 CRETEIL",
+      "code_postal": "94000"
+    },
+    {
+      "siren": "834721870",
+      "nom": "KEVIN PHO",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "83 BOULEVARD JOHN KENNEDY 94000 CRETEIL",
+      "code_postal": "94000"
+    },
+    {
+      "siren": "511240921",
+      "nom": "LILA FRAIN (TERKI)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "50 AV DU MONT JOLI 06420 ROUBION",
+      "code_postal": "06420"
+    },
+    {
+      "siren": "507401933",
+      "nom": "MAYE CONSEIL",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "161 AVENUE VICTOR HUGO 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "512915521",
+      "nom": "ERIC BERTHOULOUX",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "RESIDENCE LA PALOMBIERE 21 RUE DU CAP 94000 CRETEIL",
+      "code_postal": "94000"
+    },
+    {
+      "siren": "753875723",
+      "nom": "AGENCE GRAND PARC",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "63 RUE DE VERSAILLES 78150 LE CHESNAY-ROCQUENCOURT",
+      "code_postal": "78150"
+    },
+    {
+      "siren": "820645117",
+      "nom": "YANNICK YOMELAN (YYCI)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 VILLA DES ACACIAS 78700 CONFLANS-SAINTE-HONORINE",
+      "code_postal": "78700"
+    },
+    {
+      "siren": "809869878",
+      "nom": "CRISTINA DIMITRIU",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "5 RUE DES FRANCS BOURGEOIS 75004 PARIS",
+      "code_postal": "75004"
+    },
+    {
+      "siren": "833230642",
+      "nom": "MARION GAILLARD",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18 AVENUE DE LA REPUBLIQUE 91170 VIRY-CHATILLON",
+      "code_postal": "91170"
+    },
+    {
+      "siren": "432808392",
+      "nom": "ETUDES ET CONSEILS UZAN (ETUDES ET CONSEILS UZAN)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "26 PLACE DU MARCHE SAINT-HONORE 75001 PARIS",
+      "code_postal": "75001"
+    },
+    {
+      "siren": "429680929",
+      "nom": "DANY RIGAIL",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "42 RUE DE FALKIRK 94000 CRETEIL",
+      "code_postal": "94000"
+    }
   ]
 }

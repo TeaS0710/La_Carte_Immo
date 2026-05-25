@@ -116,5 +116,191 @@
       "sales": 116,
       "median_price_per_sqm": 7998.847926267281
     }
+  ],
+  "sirene_targets_total": 505,
+  "sirene_agences_immo": 209,
+  "sirene_par_naf": [
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 150
+    },
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 94
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 90
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 52
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 35
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 26
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 24
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 16
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 7
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 7
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 3
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 1
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "323998690",
+      "nom": "ESPACE EXPANSION",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 PLACE DU CHANCELIER ADENAUER 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "432518637",
+      "nom": "EOL",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "10 QUAI DE BERCY 94220 CHARENTON-LE-PONT",
+      "code_postal": "94220"
+    },
+    {
+      "siren": "405244492",
+      "nom": "BPCE SOLUTIONS IMMOBILIERES",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 PRO GERMAINE SABLON 75013 PARIS 13",
+      "code_postal": "75013"
+    },
+    {
+      "siren": "449972009",
+      "nom": "VALERIE IMMOBILIER (L'ADRESSE VALERIE IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "92 B RUE DE PARIS 94220 CHARENTON LE PONT",
+      "code_postal": "94220"
+    },
+    {
+      "siren": "912055571",
+      "nom": "ELSA AMIEL (MURCIANO)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "[NON-DIFFUSIBLE]",
+      "code_postal": "[NON-DIFFUSIBLE]"
+    },
+    {
+      "siren": "592050108",
+      "nom": "AGENCE VIRGINIA IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "68 RUE DE PARIS 94220 CHARENTON-LE-PONT",
+      "code_postal": "94220"
+    },
+    {
+      "siren": "332494970",
+      "nom": "EPPLER IMMOBILIERE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "12 AVENUE JEAN JAURES 94220 CHARENTON-LE-PONT",
+      "code_postal": "94220"
+    },
+    {
+      "siren": "853219442",
+      "nom": "2R2N",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "25 RUE EUGENE DELACROIX 94410 SAINT-MAURICE",
+      "code_postal": "94410"
+    },
+    {
+      "siren": "513443416",
+      "nom": "LOG' J",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "8 T PLACE HENRI D'ASTIER 94220 CHARENTON-LE-PONT",
+      "code_postal": "94220"
+    },
+    {
+      "siren": "804983120",
+      "nom": "VINCENT VITETTA",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "637 CHEMIN DES IMPINIERS 06220 VALLAURIS",
+      "code_postal": "06220"
+    },
+    {
+      "siren": "817955636",
+      "nom": "LAURENE TMIM (RAIMBAULT)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "259 BOULEVARD JEAN JAURES 92100 BOULOGNE-BILLANCOURT",
+      "code_postal": "92100"
+    },
+    {
+      "siren": "850170770",
+      "nom": "CHARLES BOUGUET-DUVAL (BOUGUET)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18 AVENUE JEAN JAURES 94220 CHARENTON-LE-PONT",
+      "code_postal": "94220"
+    },
+    {
+      "siren": "878151604",
+      "nom": "INSTANTIMMO (INSTANTIMMO)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "3 RUE DE LA REPUBLIQUE 94220 CHARENTON-LE-PONT",
+      "code_postal": "94220"
+    },
+    {
+      "siren": "903523686",
+      "nom": "JONATHAN BENSAID",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "21 RUE DE CONFLANS 94220 CHARENTON-LE-PONT",
+      "code_postal": "94220"
+    },
+    {
+      "siren": "349631408",
+      "nom": "FREDERIC GIRARD",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "34 AVENUE ADRIEN MOISANT 78400 CHATOU",
+      "code_postal": "78400"
+    }
   ]
 }

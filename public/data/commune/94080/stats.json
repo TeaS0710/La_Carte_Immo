@@ -116,5 +116,191 @@
       "sales": 196,
       "median_price_per_sqm": 9767.441860465116
     }
+  ],
+  "sirene_targets_total": 845,
+  "sirene_agences_immo": 323,
+  "sirene_par_naf": [
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 226
+    },
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 182
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 138
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 88
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 58
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 51
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 34
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 33
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 17
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 9
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 7
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 2
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "503698664",
+      "nom": "FONCIA TRANSACTION FRANCE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18-19 - TOUR AURORE 18 PLACE DES REFLETS 92400 COURBEVOIE",
+      "code_postal": "92400"
+    },
+    {
+      "siren": "791648132",
+      "nom": "ESPACES ATYPIQUES",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "1 B AVENUE DE LA REPUBLIQUE 75011 PARIS",
+      "code_postal": "75011"
+    },
+    {
+      "siren": "529818270",
+      "nom": "MEDICIS PATRIMOINE PARIS (MEDICIS IMMOBILIER NEUF - MEDICIS INVESTISSEMENT IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "3-5-ANGLE RUE LOUISE MICHEL 3 RUE TREBOIS 92300 LEVALLOIS-PERRET",
+      "code_postal": "92300"
+    },
+    {
+      "siren": "504365255",
+      "nom": "HIRSCHMANN GESTION DE PATRIMOINE IMMOBILIER (HIRSCHMANN GESTION DE PATRIMOINE IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "93 RUE MICHEL-ANGE 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "498608751",
+      "nom": "APPARTIS'IMMO",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "40 RUE FAIDHERBE 75011 PARIS",
+      "code_postal": "75011"
+    },
+    {
+      "siren": "331476473",
+      "nom": "FRANK DHAINE (ELYSEE IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "50 AVENUE HENRI BARBUSSE 93700 DRANCY",
+      "code_postal": "93700"
+    },
+    {
+      "siren": "302457049",
+      "nom": "CHRISTIAN BOIDE EXPERTISE (CABINET BOIDE LACANT & ASSOCIES EXPERTISES)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "51 AVENUE DE PARIS 94300 VINCENNES",
+      "code_postal": "94300"
+    },
+    {
+      "siren": "344791413",
+      "nom": "PHILIPPE BOURA SARL",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "127 RUE AMELOT 75011 PARIS",
+      "code_postal": "75011"
+    },
+    {
+      "siren": "482828803",
+      "nom": "PREFERENCE PLUS IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "22 RUE DE MONTREUIL 94300 VINCENNES",
+      "code_postal": "94300"
+    },
+    {
+      "siren": "451603849",
+      "nom": "PATRIMOINE PARTNERS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "20 RUE CLEMENT VIENOT 94300 VINCENNES",
+      "code_postal": "94300"
+    },
+    {
+      "siren": "807514120",
+      "nom": "IMMOBILIER SUR MESURE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "135-137 135 RUE DE FONTENAY 94300 VINCENNES",
+      "code_postal": "94300"
+    },
+    {
+      "siren": "793453465",
+      "nom": "SINING ZHANG",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "153 RUE DE FONTENAY 94300 VINCENNES",
+      "code_postal": "94300"
+    },
+    {
+      "siren": "803221696",
+      "nom": "PIERRE DEREGNAUCOURT",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "RUE TONY GARNIER 92100 BOULOGNE-BILLANCOURT",
+      "code_postal": "92100"
+    },
+    {
+      "siren": "798762035",
+      "nom": "JULIEN TAIEB",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "35 BOULEVARD AUGUSTIN CIEUSSA 13007 MARSEILLE",
+      "code_postal": "13007"
+    },
+    {
+      "siren": "828938506",
+      "nom": "L'AKOLYT",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "25 RUE DE MONTREUIL 94300 VINCENNES",
+      "code_postal": "94300"
+    }
   ]
 }

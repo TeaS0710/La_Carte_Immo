@@ -49,8 +49,24 @@ PARC DE LOGEMENTS (DPE ADEME)
 - % étiquette A/B (rénové/neuf) : {dpe_pct_ab} %
 - Année de construction médiane : {annee_med}
 
+PROFIL POPULATION (INSEE 2020)
+- Population : {pop_iris} habitants
+- % cadres et professions intellectuelles sup. (CSP3) : {pct_cadres} %
+- % diplômés Bac+5 et plus : {pct_bac5p} %
+- % étrangers : {pct_etrangers} %
+- % moins de 14 ans : {pct_0_14} %
+- % 65 ans et plus : {pct_65p} %
+
+LOGEMENT (INSEE 2020)
+- Total logements : {n_log_iris}
+- % propriétaires occupants : {pct_proprio} %
+- % HLM (logement social) : {pct_hlm} %
+- % appartements (vs maisons) : {pct_appart} %
+
 CONTEXTE COMMUNAL
 - Population : {pop_commune} habitants
+- % cadres commune (réf) : {pct_cadres_commune} %
+- % propriétaires commune (réf) : {pct_proprio_commune} %
 - Ventes commune totales : {sales_commune}
 - Prix médian €/m² commune : {ppsqm_commune}
 
@@ -61,7 +77,8 @@ RISQUES MAJEURS (Géorisques — échelle commune)
 
 **Profil acheteur cible**
 [1-2 phrases : qui achète dans ce quartier, capacité d'emprunt, motivations,
-en t'appuyant sur prix au m² et type de bien dominant]
+en t'appuyant sur prix au m², type de bien dominant ET le profil INSEE
+(% cadres, % 0-14 = familles, % 65+ = retraités/seniors)]
 
 **Dynamique du marché local**
 [1-2 phrases : volume vs commune, prix vs commune, tendance par année,
@@ -111,7 +128,19 @@ def build_prompt(iris_props: dict, stats: dict, risks: dict | None, commune_nom:
         dpe_pct_fg=iris_props.get("dpe_pct_fg") if iris_props.get("dpe_pct_fg") is not None else "n/a",
         dpe_pct_ab=iris_props.get("dpe_pct_ab") if iris_props.get("dpe_pct_ab") is not None else "n/a",
         annee_med=iris_props.get("annee_construction_median") or "n/a",
+        pop_iris=iris_props.get("population") or "n/a",
+        pct_cadres=iris_props.get("pct_cadres") if iris_props.get("pct_cadres") is not None else "n/a",
+        pct_bac5p=iris_props.get("pct_bac5p") if iris_props.get("pct_bac5p") is not None else "n/a",
+        pct_etrangers=iris_props.get("pct_etrangers") if iris_props.get("pct_etrangers") is not None else "n/a",
+        pct_0_14=iris_props.get("pct_0_14") if iris_props.get("pct_0_14") is not None else "n/a",
+        pct_65p=iris_props.get("pct_65p") if iris_props.get("pct_65p") is not None else "n/a",
+        n_log_iris=iris_props.get("n_log") or "n/a",
+        pct_proprio=iris_props.get("pct_proprio") if iris_props.get("pct_proprio") is not None else "n/a",
+        pct_hlm=iris_props.get("pct_hlm") if iris_props.get("pct_hlm") is not None else "n/a",
+        pct_appart=iris_props.get("pct_appart") if iris_props.get("pct_appart") is not None else "n/a",
         pop_commune=stats.get("commune_population", "n/a"),
+        pct_cadres_commune=(iris_props.get("commune_avg") or {}).get("pct_cadres") or "n/a",
+        pct_proprio_commune=(iris_props.get("commune_avg") or {}).get("pct_proprio") or "n/a",
         sales_commune=stats.get("total_sales", "n/a"),
         ppsqm_commune=int(stats.get("median_price_per_sqm")) if stats.get("median_price_per_sqm") else "n/a",
         risques=render_risques(risks),

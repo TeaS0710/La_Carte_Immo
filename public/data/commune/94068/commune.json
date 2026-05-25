@@ -1,16 +1,16 @@
 {
-  "pct_proprio": 61.7,
-  "pct_hlm": null,
-  "pct_appart": 65.2,
-  "pct_cadres": 24.5,
-  "pct_bac5p": 28.2,
-  "pct_etrangers": null,
-  "pct_0_14": null,
-  "pct_65p": null,
+  "pct_proprio": 62.8,
+  "pct_hlm": 5.9,
+  "pct_appart": 64.9,
+  "pct_cadres": 23.6,
+  "pct_bac5p": 27.1,
+  "pct_etrangers": 8.9,
+  "pct_0_14": 15.8,
+  "pct_65p": 21.0,
   "dvf_median_ppsqm": 6246.0,
   "dvf_median_price": 375525.0,
-  "dvf_sales_total": 16787,
+  "dvf_sales_total": 16786,
   "bpe_total": 3378,
-  "population": 75443,
-  "n_log": 37999
+  "population": 74521,
+  "n_log": 37679
 }

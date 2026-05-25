@@ -116,5 +116,191 @@
       "sales": 531,
       "median_price_per_sqm": 9232.91038858049
     }
+  ],
+  "sirene_targets_total": 4155,
+  "sirene_agences_immo": 1225,
+  "sirene_par_naf": [
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 1000
+    },
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 682
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 666
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 421
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 419
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 373
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 185
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 170
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 144
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 58
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 27
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 10
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "503698664",
+      "nom": "FONCIA TRANSACTION FRANCE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18-19 - TOUR AURORE 18 PLACE DES REFLETS 92400 COURBEVOIE",
+      "code_postal": "92400"
+    },
+    {
+      "siren": "442984266",
+      "nom": "AXO ET ACTIFS (AXO ET ACTIFS)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "10 RUE DU GRAND LAUNAY 49000 ANGERS",
+      "code_postal": "49000"
+    },
+    {
+      "siren": "414057992",
+      "nom": "BARNES",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "22 RUE DE L'HOTEL DE VILLE 92200 NEUILLY-SUR-SEINE",
+      "code_postal": "92200"
+    },
+    {
+      "siren": "419692389",
+      "nom": "BRETEUIL ILE DE FRANCE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "91 AVENUE PAUL DOUMER 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "882080054",
+      "nom": "ALEPH TRANSACTIONS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "19 RUE LOUISE MICHEL 92300 LEVALLOIS-PERRET",
+      "code_postal": "92300"
+    },
+    {
+      "siren": "689801314",
+      "nom": "CPH IMMOBILIER (CPH IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "67 BOULEVARD BESSIERES 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "383789393",
+      "nom": "SIPRHEM SOCIETE IMMOBILIERE POUR LES RESIDENCES HOTELIERES ET MEUBLEES (SIPRHEM)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "29 RUE TRONCHET 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "813678679",
+      "nom": "ALG IMMOBILIER (ALG IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "39 RUE VANEAU 75007 PARIS",
+      "code_postal": "75007"
+    },
+    {
+      "siren": "879533990",
+      "nom": "IMPACT IMMO LEVALLOIS PARIS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "66 AVENUE DE LA MARNE 92600 ASNIERES-SUR-SEINE",
+      "code_postal": "92600"
+    },
+    {
+      "siren": "952645299",
+      "nom": "LES AGENCES IMMOCLUM",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "59 BOULEVARD RICHARD WALLACE 92800 PUTEAUX",
+      "code_postal": "92800"
+    },
+    {
+      "siren": "354017543",
+      "nom": "DIX HUITIEME AVENUE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "8 RUE RAMEY 75018 PARIS",
+      "code_postal": "75018"
+    },
+    {
+      "siren": "428669261",
+      "nom": "SOCIETE D'EXPLOITATION GROUPE AUBURTIN",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "3 RUE ORDENER 75018 PARIS",
+      "code_postal": "75018"
+    },
+    {
+      "siren": "452977044",
+      "nom": "AGENCE NOUALLET IMMOBILIER (AGENCE IMMOBILIERE PARIS 17 ET 18 ORPI NOUALLET)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "59 AVENUE DE SAINT-OUEN 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "491452207",
+      "nom": "IDEAL INVESTISSEMENT",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "13 RUE SPONTINI 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "351469002",
+      "nom": "IMMOPOLIS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 RUE RAVIGNAN 75018 PARIS",
+      "code_postal": "75018"
+    }
   ]
 }

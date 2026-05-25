@@ -116,5 +116,191 @@
       "sales": 119,
       "median_price_per_sqm": 6641.80790960452
     }
+  ],
+  "sirene_targets_total": 546,
+  "sirene_agences_immo": 162,
+  "sirene_par_naf": [
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 119
+    },
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 115
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 92
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 56
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 42
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 41
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 31
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 24
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 11
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 7
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 6
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 2
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "689801314",
+      "nom": "CPH IMMOBILIER (CPH IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "67 BOULEVARD BESSIERES 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "383789393",
+      "nom": "SIPRHEM SOCIETE IMMOBILIERE POUR LES RESIDENCES HOTELIERES ET MEUBLEES (SIPRHEM)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "29 RUE TRONCHET 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "520808643",
+      "nom": "AGEVEDIM IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "4 RESIDENCE DES CHATEAUX 95450 ABLEIGES",
+      "code_postal": "95450"
+    },
+    {
+      "siren": "512129628",
+      "nom": "CHRISTIANE WESCHE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "46 AVENUE DU MARECHAL JOFFRE 94120 FONTENAY-SOUS-BOIS",
+      "code_postal": "94120"
+    },
+    {
+      "siren": "754008258",
+      "nom": "LAURENT C IMMOBILIER (LC IMMO)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "12 RUE MAUCONSEIL 94120 FONTENAY-SOUS-BOIS",
+      "code_postal": "94120"
+    },
+    {
+      "siren": "537423642",
+      "nom": "JANA LUTTER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "34 AVENUE VILLEMAIN 75014 PARIS",
+      "code_postal": "75014"
+    },
+    {
+      "siren": "498742386",
+      "nom": "ROBIN FRANCOIS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "RUE MEDERIC 94120 FONTENAY-SOUS-BOIS",
+      "code_postal": "94120"
+    },
+    {
+      "siren": "352764005",
+      "nom": "ANNE CAROLE IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "4 BOULEVARD DE STRASBOURG 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    },
+    {
+      "siren": "382723625",
+      "nom": "IMHOTEP JSML",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "BAGNERES 89 139 RUE DES PYRENEES 75020 PARIS",
+      "code_postal": "75020"
+    },
+    {
+      "siren": "451603849",
+      "nom": "PATRIMOINE PARTNERS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "20 RUE CLEMENT VIENOT 94300 VINCENNES",
+      "code_postal": "94300"
+    },
+    {
+      "siren": "951431444",
+      "nom": "MAXIME RAIMBOURG-LEFRANCOIS (RAIMBOURG)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "44 AVENUE DE LA REPUBLIQUE 94120 FONTENAY-SOUS-BOIS",
+      "code_postal": "94120"
+    },
+    {
+      "siren": "495313546",
+      "nom": "MARION DENNI",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "33 GRAND-RUE 67350 NIEDERMODERN",
+      "code_postal": "67350"
+    },
+    {
+      "siren": "398486662",
+      "nom": "SCI SOLFEGE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "37 AVENUE DE VERSAILLES 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "500937099",
+      "nom": "BCDS IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "2-4 2 RUE DU CLOS D'ORLEANS 94120 FONTENAY-SOUS-BOIS",
+      "code_postal": "94120"
+    },
+    {
+      "siren": "837693720",
+      "nom": "SOCIETE PORCHERET - FONTENAY",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "92 AVENUE DU PRESIDENT WILSON 93100 MONTREUIL",
+      "code_postal": "93100"
+    }
   ]
 }

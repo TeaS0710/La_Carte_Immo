@@ -116,5 +116,191 @@
       "sales": 68,
       "median_price_per_sqm": 13823.529411764706
     }
+  ],
+  "sirene_targets_total": 3690,
+  "sirene_agences_immo": 1189,
+  "sirene_par_naf": [
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 1000
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 906
+    },
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 792
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 303
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 295
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 164
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 102
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 57
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 34
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 21
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 14
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 2
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "323998690",
+      "nom": "ESPACE EXPANSION",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 PLACE DU CHANCELIER ADENAUER 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "513504498",
+      "nom": "GROUPE J L V (EVOLIS - EVOLIS PROPRIETAIRES - EVOLIS UTILISATEURS)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "24 B RUE DE BERRI 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "689801314",
+      "nom": "CPH IMMOBILIER (CPH IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "67 BOULEVARD BESSIERES 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "377941935",
+      "nom": "NATHALIE GARCIN PARIS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "5 RUE DE L'UNIVERSITE 75007 PARIS",
+      "code_postal": "75007"
+    },
+    {
+      "siren": "382615961",
+      "nom": "EURASIM (LAMIRAND ET ASSOCIES - PARISLOC & PARIS-VENTE)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "62 BOULEVARD VOLTAIRE 75011 PARIS",
+      "code_postal": "75011"
+    },
+    {
+      "siren": "317753325",
+      "nom": "JEAN ISMAEL",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18 RUE DE LA COMPAGNIE 97400 SAINT-DENIS",
+      "code_postal": "97400"
+    },
+    {
+      "siren": "403201882",
+      "nom": "ARDIAN FRANCE (ARDIAN)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "20 PLACE VENDOME 75001 PARIS",
+      "code_postal": "75001"
+    },
+    {
+      "siren": "320527898",
+      "nom": "DE WATOU",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "50 RUE DE LA CHAUSSEE D'ANTIN 75009 PARIS",
+      "code_postal": "75009"
+    },
+    {
+      "siren": "403088461",
+      "nom": "PARIS SEINE IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "59 RUE DU CHERCHE-MIDI 75006 PARIS",
+      "code_postal": "75006"
+    },
+    {
+      "siren": "980911127",
+      "nom": "VALORIZ EXPERTISE (VALORIZ, VALORIZ-BASIMMO, VALORIZ-STUDIO) (VE)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "23 RUE JEAN-JACQUES ROUSSEAU 75001 PARIS",
+      "code_postal": "75001"
+    },
+    {
+      "siren": "898633334",
+      "nom": "JTLA (JOHN TAYLOR LUBERON ALPILLES)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "20 RUE CROIX DES PETITS CHAMPS 75001 PARIS",
+      "code_postal": "75001"
+    },
+    {
+      "siren": "913800561",
+      "nom": "AMADOU MOUSTAPHA MBAYE (MBAYE CAPITAL PARTNERS)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "78 AVENUE DES CHAMPS ELYSEES 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "484347232",
+      "nom": "STYLES",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "10 PLACE VENDOME 75001 PARIS",
+      "code_postal": "75001"
+    },
+    {
+      "siren": "405244492",
+      "nom": "BPCE SOLUTIONS IMMOBILIERES",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 PRO GERMAINE SABLON 75013 PARIS 13",
+      "code_postal": "75013"
+    },
+    {
+      "siren": "792753006",
+      "nom": "SARL RIVOLI IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "LE VENUS AVENUE MARIE FLICHE-BERGIS 83430 SAINT-MANDRIER-SUR-MER",
+      "code_postal": "83430"
+    }
   ]
 }

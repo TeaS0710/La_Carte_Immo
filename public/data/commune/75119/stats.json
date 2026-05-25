@@ -116,5 +116,191 @@
       "sales": 349,
       "median_price_per_sqm": 6955.357142857143
     }
+  ],
+  "sirene_targets_total": 3100,
+  "sirene_agences_immo": 770,
+  "sirene_par_naf": [
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 1000
+    },
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 412
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 341
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 336
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 266
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 229
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 222
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 96
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 92
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 75
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 25
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 6
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "503698664",
+      "nom": "FONCIA TRANSACTION FRANCE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18-19 - TOUR AURORE 18 PLACE DES REFLETS 92400 COURBEVOIE",
+      "code_postal": "92400"
+    },
+    {
+      "siren": "388797219",
+      "nom": "QUADRAL TRANSACTIONS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "24 T RUE DU GEN DE GAULLE 57050 LE BAN ST MARTIN",
+      "code_postal": "57050"
+    },
+    {
+      "siren": "383789393",
+      "nom": "SIPRHEM SOCIETE IMMOBILIERE POUR LES RESIDENCES HOTELIERES ET MEUBLEES (SIPRHEM)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "29 RUE TRONCHET 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "953478898",
+      "nom": "STERN GROUP",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "28 BOULEVARD MALESHERBES 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "528584931",
+      "nom": "MARION TESSIER IBINGA (TESSIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "43 AVENUE DE WAGRAM 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "423304518",
+      "nom": "MAEVA GESTION",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "L'ARTOIS ESP PT DE FLANDRE 11 RUE DE CAMBRAI 75019 PARIS",
+      "code_postal": "75019"
+    },
+    {
+      "siren": "521440842",
+      "nom": "PELISSOLO IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "63 RUE PIERRE CHARRON 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "882474273",
+      "nom": "SAMIA IZABACHENE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "24 RUE DU RHIN 75019 PARIS",
+      "code_postal": "75019"
+    },
+    {
+      "siren": "753714187",
+      "nom": "LA VITRINE CONCEPT IMMOBILIER (LA VITRINE CONCEPT IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "63 RUE DE MEAUX 75019 PARIS",
+      "code_postal": "75019"
+    },
+    {
+      "siren": "753502046",
+      "nom": "FINANCIERE SUEZ (NAOS IMMOBILIER) (F S)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "81 BOULEVARD SAINT-MICHEL 75005 PARIS",
+      "code_postal": "75005"
+    },
+    {
+      "siren": "478003221",
+      "nom": "CORINE CAUVIN (BAZEILLE)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "144 ROUTE VERTE 17150 SAINT-THOMAS-DE-CONAC",
+      "code_postal": "17150"
+    },
+    {
+      "siren": "504262049",
+      "nom": "BONNE ETOILE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "231 RUE SAINT-HONORE 75001 PARIS",
+      "code_postal": "75001"
+    },
+    {
+      "siren": "882955685",
+      "nom": "ECB IMMOBILIER (ECB IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "121 AVENUE DE WAGRAM 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "493166086",
+      "nom": "CABINET CPI (SYNERGI)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "30 AVENUE DU 8 MAI 1945 95200 SARCELLES",
+      "code_postal": "95200"
+    },
+    {
+      "siren": "802206284",
+      "nom": "QIANGLONG YANG",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "12 B AVENUE LEON GAMBETTA 92120 MONTROUGE",
+      "code_postal": "92120"
+    }
   ]
 }
