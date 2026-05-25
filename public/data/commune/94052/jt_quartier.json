@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 1395,
+  "sales_delta_pct": 19.2,
+  "median_price": 385000.0,
+  "median_ppsqm": 6340.579710144928,
+  "delta_ppsqm_pct": 2.6,
+  "notable_sales": [
+    {
+      "date": "2025-07-29",
+      "street": "AV DE JOINVILLE",
+      "type": "Maison",
+      "surface": 180,
+      "price": 2068270.0
+    },
+    {
+      "date": "2025-04-29",
+      "street": "RUE DE SAINT QUENTIN",
+      "type": "Maison",
+      "surface": 232,
+      "price": 1993020.0
+    },
+    {
+      "date": "2025-01-10",
+      "street": "ILE DE BEAUTE",
+      "type": "Maison",
+      "surface": 320,
+      "price": 1642512.0
+    },
+    {
+      "date": "2025-01-09",
+      "street": "ILE DE BEAUTE",
+      "type": "Maison",
+      "surface": 142,
+      "price": 1590000.0
+    },
+    {
+      "date": "2025-04-25",
+      "street": "VLA DES CHENES",
+      "type": "Maison",
+      "surface": 185,
+      "price": 1500000.0
+    }
+  ],
+  "generated_at": "2026-05-25T00:54:12.373010Z"
+}

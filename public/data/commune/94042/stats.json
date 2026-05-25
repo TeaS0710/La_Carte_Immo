@@ -1,0 +1,120 @@
+{
+  "commune": "Joinville-le-Pont",
+  "insee": "94042",
+  "generated_at": "2026-05-25T00:49:03.196360Z",
+  "total_sales": 3026,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 111,
+  "median_price": 363000.0,
+  "median_price_per_sqm": 6224.6,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 640,
+      "median_price": 382500.0
+    },
+    {
+      "year": 2022,
+      "sales": 700,
+      "median_price": 370000.0
+    },
+    {
+      "year": 2023,
+      "sales": 580,
+      "median_price": 387500.0
+    },
+    {
+      "year": 2024,
+      "sales": 533,
+      "median_price": 347928.0
+    },
+    {
+      "year": 2025,
+      "sales": 573,
+      "median_price": 336500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 253,
+      "median_price_per_sqm": 6507.142857142857
+    },
+    {
+      "street_name": "BD DU MAL LECLERC",
+      "sales": 169,
+      "median_price_per_sqm": 5015.384615384615
+    },
+    {
+      "street_name": "RUE HENRI VEL DURAND",
+      "sales": 152,
+      "median_price_per_sqm": 7668.75
+    },
+    {
+      "street_name": "BD DE POLANGIS",
+      "sales": 143,
+      "median_price_per_sqm": 5317.460317460317
+    },
+    {
+      "street_name": "RUE JEAN MERMOZ",
+      "sales": 139,
+      "median_price_per_sqm": 5384.615384615385
+    },
+    {
+      "street_name": "AV DU GENERAL GALLIENI",
+      "sales": 133,
+      "median_price_per_sqm": 6315.0
+    },
+    {
+      "street_name": "AV JEAN JAURES",
+      "sales": 100,
+      "median_price_per_sqm": 5899.393653516296
+    },
+    {
+      "street_name": "QUAI DE LA MARNE",
+      "sales": 89,
+      "median_price_per_sqm": 6263.6815920398
+    },
+    {
+      "street_name": "AV JAMIN",
+      "sales": 89,
+      "median_price_per_sqm": 2083.3333333333335
+    },
+    {
+      "street_name": "AV PRESIDENT WILSON",
+      "sales": 87,
+      "median_price_per_sqm": 5600.0
+    },
+    {
+      "street_name": "RUE HALIFAX",
+      "sales": 75,
+      "median_price_per_sqm": 5688.291343669251
+    },
+    {
+      "street_name": "RUE VAUTIER",
+      "sales": 74,
+      "median_price_per_sqm": 6220.64393939394
+    },
+    {
+      "street_name": "RUE HENRI BARBUSSE",
+      "sales": 64,
+      "median_price_per_sqm": 4148.412698412699
+    },
+    {
+      "street_name": "RUE CHAPSAL",
+      "sales": 60,
+      "median_price_per_sqm": 5807.935540069687
+    },
+    {
+      "street_name": "RUE DES RESERVOIRS",
+      "sales": 58,
+      "median_price_per_sqm": 5996.774193548387
+    }
+  ]
+}

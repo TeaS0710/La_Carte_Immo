@@ -2,16 +2,16 @@
   "code_dept": "94",
   "nom_dept": "Val-de-Marne",
   "communes_count_total": 47,
-  "communes_count_available": 10,
-  "total_sales": 94395,
-  "median_price": 326500.0,
+  "communes_count_available": 14,
+  "total_sales": 115244,
+  "median_price": 373800.0,
   "population_total": 1426929,
-  "population_available": 641727,
-  "median_price_per_sqm": 6013.526315789473,
+  "population_available": 744608,
+  "median_price_per_sqm": 6224.6,
   "insights": [
     "Saint-Maur-des-Fossés concentre le plus de transactions du département (16 786 ventes DVF sur 5 ans).",
     "Spread prix marqué : Vincennes à 9 333 €/m² vs Champigny-sur-Marne à 4 245 €/m².",
-    "Les 5 communes les plus actives concentrent 60 % des transactions du département analysées."
+    "Les 5 communes les plus actives concentrent 49 % des transactions du département analysées."
   ],
   "top_communes": [
     {
@@ -167,6 +167,25 @@
       "streets_with_sales": 176
     },
     {
+      "code_insee": "94052",
+      "slug": "nogent-sur-marne",
+      "nom": "Nogent-sur-Marne",
+      "population": 32455,
+      "lng": 2.4811,
+      "lat": 48.837,
+      "total_sales": 7772,
+      "median_price": 418000.0,
+      "median_price_per_sqm": 6884.615384615385,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 146
+    },
+    {
       "code_insee": "94076",
       "slug": "villejuif",
       "nom": "Villejuif",
@@ -203,6 +222,63 @@
         2025
       ],
       "streets_with_sales": 127
+    },
+    {
+      "code_insee": "94018",
+      "slug": "charenton-le-pont",
+      "nom": "Charenton-le-Pont",
+      "population": 28830,
+      "lng": 2.405,
+      "lat": 48.8229,
+      "total_sales": 5516,
+      "median_price": 450000.0,
+      "median_price_per_sqm": 8043.478260869565,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 73
+    },
+    {
+      "code_insee": "94067",
+      "slug": "saint-mande",
+      "nom": "Saint-Mandé",
+      "population": 21071,
+      "lng": 2.4195,
+      "lat": 48.8414,
+      "total_sales": 4535,
+      "median_price": 555000.0,
+      "median_price_per_sqm": 9322.033898305084,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 58
+    },
+    {
+      "code_insee": "94042",
+      "slug": "joinville-le-pont",
+      "nom": "Joinville-le-Pont",
+      "population": 20525,
+      "lng": 2.4685,
+      "lat": 48.8199,
+      "total_sales": 3026,
+      "median_price": 363000.0,
+      "median_price_per_sqm": 6224.6,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 111
     }
   ],
   "all_communes_available": [
@@ -255,6 +331,12 @@
       "total_sales": 7792
     },
     {
+      "slug": "nogent-sur-marne",
+      "nom": "Nogent-sur-Marne",
+      "code_insee": "94052",
+      "total_sales": 7772
+    },
+    {
       "slug": "villejuif",
       "nom": "Villejuif",
       "code_insee": "94076",
@@ -265,6 +347,24 @@
       "nom": "Alfortville",
       "code_insee": "94002",
       "total_sales": 6091
+    },
+    {
+      "slug": "charenton-le-pont",
+      "nom": "Charenton-le-Pont",
+      "code_insee": "94018",
+      "total_sales": 5516
+    },
+    {
+      "slug": "saint-mande",
+      "nom": "Saint-Mandé",
+      "code_insee": "94067",
+      "total_sales": 4535
+    },
+    {
+      "slug": "joinville-le-pont",
+      "nom": "Joinville-le-Pont",
+      "code_insee": "94042",
+      "total_sales": 3026
     }
   ]
 }

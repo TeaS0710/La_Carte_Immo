@@ -1,0 +1,120 @@
+{
+  "commune": "Charenton-le-Pont",
+  "insee": "94018",
+  "generated_at": "2026-05-25T00:52:39.255229Z",
+  "total_sales": 5516,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 73,
+  "median_price": 450000.0,
+  "median_price_per_sqm": 8043.478260869565,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1042,
+      "median_price": 457600.0
+    },
+    {
+      "year": 2022,
+      "sales": 1334,
+      "median_price": 487500.0
+    },
+    {
+      "year": 2023,
+      "sales": 976,
+      "median_price": 404900.0
+    },
+    {
+      "year": 2024,
+      "sales": 983,
+      "median_price": 428000.0
+    },
+    {
+      "year": 2025,
+      "sales": 1181,
+      "median_price": 450000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 969,
+      "median_price_per_sqm": 8107.142857142857
+    },
+    {
+      "street_name": "AV DE GRAVELLE",
+      "sales": 286,
+      "median_price_per_sqm": 9003.79213483146
+    },
+    {
+      "street_name": "ALL RONSARD",
+      "sales": 276,
+      "median_price_per_sqm": 193304.6875
+    },
+    {
+      "street_name": "RUE REPUBLIQUE",
+      "sales": 248,
+      "median_price_per_sqm": 8162.878787878788
+    },
+    {
+      "street_name": "RUE PETIT CHATEAU",
+      "sales": 225,
+      "median_price_per_sqm": 7619.718309859155
+    },
+    {
+      "street_name": "QUAI CARRIERES",
+      "sales": 221,
+      "median_price_per_sqm": 5246.153846153846
+    },
+    {
+      "street_name": "VLA ST PIERRE",
+      "sales": 167,
+      "median_price_per_sqm": 6307.692307692308
+    },
+    {
+      "street_name": "RUE GABRIEL PERI",
+      "sales": 146,
+      "median_price_per_sqm": 8316.79292929293
+    },
+    {
+      "street_name": "RUE DU GEN LECLERC",
+      "sales": 139,
+      "median_price_per_sqm": 8831.818181818182
+    },
+    {
+      "street_name": "RUE DE VERDUN",
+      "sales": 137,
+      "median_price_per_sqm": 8062.5
+    },
+    {
+      "street_name": "RUE DES BORDEAUX",
+      "sales": 131,
+      "median_price_per_sqm": 7187.5
+    },
+    {
+      "street_name": "RUE MARTY",
+      "sales": 125,
+      "median_price_per_sqm": 34750.08928571428
+    },
+    {
+      "street_name": "AV ANATOLE FRANCE",
+      "sales": 124,
+      "median_price_per_sqm": 8067.020250723241
+    },
+    {
+      "street_name": "RUE DE L'ARCHEVECHE",
+      "sales": 118,
+      "median_price_per_sqm": 7664.220824598183
+    },
+    {
+      "street_name": "RUE JEAN PIGEON",
+      "sales": 116,
+      "median_price_per_sqm": 7998.847926267281
+    }
+  ]
+}

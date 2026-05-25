@@ -1,0 +1,120 @@
+{
+  "commune": "Nogent-sur-Marne",
+  "insee": "94052",
+  "generated_at": "2026-05-25T00:54:12.375705Z",
+  "total_sales": 7772,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 146,
+  "median_price": 418000.0,
+  "median_price_per_sqm": 6884.615384615385,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 2164,
+      "median_price": 587950.0
+    },
+    {
+      "year": 2022,
+      "sales": 1894,
+      "median_price": 410000.0
+    },
+    {
+      "year": 2023,
+      "sales": 1149,
+      "median_price": 395000.0
+    },
+    {
+      "year": 2024,
+      "sales": 1170,
+      "median_price": 350725.0
+    },
+    {
+      "year": 2025,
+      "sales": 1395,
+      "median_price": 385000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "BD DE STRASBOURG",
+      "sales": 658,
+      "median_price_per_sqm": 5863.780663780664
+    },
+    {
+      "street_name": "RUE NAZARE",
+      "sales": 366,
+      "median_price_per_sqm": 194478.57142857142
+    },
+    {
+      "street_name": "GR RUE CHARLES DE GAULLE",
+      "sales": 332,
+      "median_price_per_sqm": 7181.818181818182
+    },
+    {
+      "street_name": "GR  RUE CHARLES DE GAULLE",
+      "sales": 324,
+      "median_price_per_sqm": 7149.441918147995
+    },
+    {
+      "street_name": "AV DE JOINVILLE",
+      "sales": 230,
+      "median_price_per_sqm": 7206.896551724138
+    },
+    {
+      "street_name": "RUE JEAN MONNET",
+      "sales": 226,
+      "median_price_per_sqm": 704416.3333333334
+    },
+    {
+      "street_name": "AV DE LA SOURCE",
+      "sales": 212,
+      "median_price_per_sqm": 7083.333333333333
+    },
+    {
+      "street_name": "RUE DE FONTENAY",
+      "sales": 206,
+      "median_price_per_sqm": 6282.894736842105
+    },
+    {
+      "street_name": "BD GAMBETTA",
+      "sales": 190,
+      "median_price_per_sqm": 6737.068965517241
+    },
+    {
+      "street_name": "RUE DES HEROS NOGENTAIS",
+      "sales": 186,
+      "median_price_per_sqm": 6954.545454545454
+    },
+    {
+      "street_name": "RUE HOCHE",
+      "sales": 174,
+      "median_price_per_sqm": 6611.196013289036
+    },
+    {
+      "street_name": "RUE PAUL BERT",
+      "sales": 171,
+      "median_price_per_sqm": 6619.047619047619
+    },
+    {
+      "street_name": "RUE DE PLAISANCE",
+      "sales": 169,
+      "median_price_per_sqm": 6488.0952380952385
+    },
+    {
+      "street_name": "BD GALLIENI",
+      "sales": 148,
+      "median_price_per_sqm": 102326.82142857143
+    },
+    {
+      "street_name": "RUE DE LA MUETTE",
+      "sales": 148,
+      "median_price_per_sqm": 2613.6363636363635
+    }
+  ]
+}

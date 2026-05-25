@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Mandé",
+  "insee": "94067",
+  "generated_at": "2026-05-25T00:54:49.671055Z",
+  "total_sales": 4535,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 58,
+  "median_price": 555000.0,
+  "median_price_per_sqm": 9322.033898305084,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 954,
+      "median_price": 606500.0
+    },
+    {
+      "year": 2022,
+      "sales": 1040,
+      "median_price": 602000.0
+    },
+    {
+      "year": 2023,
+      "sales": 817,
+      "median_price": 535000.0
+    },
+    {
+      "year": 2024,
+      "sales": 812,
+      "median_price": 454500.0
+    },
+    {
+      "year": 2025,
+      "sales": 912,
+      "median_price": 512500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GEN DE GAULLE",
+      "sales": 419,
+      "median_price_per_sqm": 9729.861111111111
+    },
+    {
+      "street_name": "RUE JEANNE D ARC",
+      "sales": 357,
+      "median_price_per_sqm": 10204.081632653062
+    },
+    {
+      "street_name": "AV SAINTE MARIE",
+      "sales": 278,
+      "median_price_per_sqm": 10051.66561910748
+    },
+    {
+      "street_name": "AV ALPHAND",
+      "sales": 218,
+      "median_price_per_sqm": 8770.916949675826
+    },
+    {
+      "street_name": "RUE DE L ALOUETTE",
+      "sales": 202,
+      "median_price_per_sqm": 9129.807692307691
+    },
+    {
+      "street_name": "CHS DE L ETANG",
+      "sales": 178,
+      "median_price_per_sqm": 10304.970963995354
+    },
+    {
+      "street_name": "RUE ALLARD",
+      "sales": 146,
+      "median_price_per_sqm": 9100.816326530612
+    },
+    {
+      "street_name": "AV ROBERT-ANDRE VIVIEN",
+      "sales": 146,
+      "median_price_per_sqm": 9456.316239316238
+    },
+    {
+      "street_name": "RUE CDT RENE MOUCHOTTE",
+      "sales": 133,
+      "median_price_per_sqm": 9048.595183486239
+    },
+    {
+      "street_name": "RUE SACROT",
+      "sales": 127,
+      "median_price_per_sqm": 16805.555555555555
+    },
+    {
+      "street_name": "AV QUIHOU",
+      "sales": 121,
+      "median_price_per_sqm": 8644.23076923077
+    },
+    {
+      "street_name": "AV FOCH",
+      "sales": 120,
+      "median_price_per_sqm": 10429.6875
+    },
+    {
+      "street_name": "RUE VITEAU",
+      "sales": 115,
+      "median_price_per_sqm": 90014.94845360825
+    },
+    {
+      "street_name": "RUE PAUL BERT",
+      "sales": 105,
+      "median_price_per_sqm": 9055.555555555555
+    },
+    {
+      "street_name": "AV DAUMESNIL",
+      "sales": 96,
+      "median_price_per_sqm": 11656.441717791411
+    }
+  ]
+}

@@ -48,8 +48,8 @@
       "code_dept": "94",
       "nom_dept": "Val-de-Marne",
       "communes_count_total": 47,
-      "communes_count_available": 10,
-      "total_sales": 94395
+      "communes_count_available": 14,
+      "total_sales": 115244
     },
     {
       "code_dept": "95",
@@ -60,13 +60,13 @@
     }
   ],
   "communes_count_total": 1286,
-  "communes_count_available": 417,
-  "total_sales_available": 799092,
+  "communes_count_available": 421,
+  "total_sales_available": 819941,
   "population_total": 14566845,
   "insights": [
     "Paris 15e Arrondissement (dept 75) est la commune IDF la plus active des données analysées : 43 608 ventes DVF.",
     "Le département Seine-et-Marne compte le plus de communes couvertes (387 villes analysées).",
-    "Couverture progressive en cours : 417 communes IDF sur 1286 planifiées."
+    "Couverture progressive en cours : 421 communes IDF sur 1286 planifiées."
   ],
   "top_communes": [
     {
@@ -583,6 +583,25 @@
       "streets_with_sales": 176
     },
     {
+      "code_insee": "94052",
+      "slug": "nogent-sur-marne",
+      "nom": "Nogent-sur-Marne",
+      "population": 32455,
+      "lng": 2.4811,
+      "lat": 48.837,
+      "total_sales": 7772,
+      "median_price": 418000.0,
+      "median_price_per_sqm": 6884.615384615385,
+      "years_covered": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "streets_with_sales": 146
+    },
+    {
       "code_insee": "77108",
       "slug": "chelles",
       "nom": "Chelles",
@@ -619,25 +638,6 @@
         2025
       ],
       "streets_with_sales": 125
-    },
-    {
-      "code_insee": "94076",
-      "slug": "villejuif",
-      "nom": "Villejuif",
-      "population": 60183,
-      "lng": 2.3603,
-      "lat": 48.7934,
-      "total_sales": 6208,
-      "median_price": 280000.0,
-      "median_price_per_sqm": 5576.923076923077,
-      "years_covered": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "streets_with_sales": 211
     }
   ]
 }

@@ -26,7 +26,13 @@ args = parser.parse_args()
 CODE_INSEE = args.code_insee
 COMMUNE_DIR = ROOT / "public" / "data" / "commune" / CODE_INSEE
 COMMUNE_DIR.mkdir(parents=True, exist_ok=True)
-SRC = ROOT / "data" / "raw" / "cadastre" / "batiments.json.gz"
+# Cadastre stocké par dept : cadastre-{dept}-batiments.json.gz
+# Fallback : ancien fichier global batiments.json.gz pour rétrocompat.
+DEPT = CODE_INSEE[:2]
+CADASTRE_DIR = ROOT / "data" / "raw" / "cadastre"
+SRC_DEPT = CADASTRE_DIR / f"cadastre-{DEPT}-batiments.json.gz"
+SRC_GLOBAL = CADASTRE_DIR / "batiments.json.gz"
+SRC = SRC_DEPT if SRC_DEPT.exists() else SRC_GLOBAL
 IRIS = COMMUNE_DIR / "iris.geojson"
 OUT = COMMUNE_DIR / "permits.geojson"
 
@@ -68,6 +74,9 @@ for feat in geo["features"]:
     centroid = geom.centroid
     lng, lat = centroid.x, centroid.y
     code_iris, nom_iris = find_iris(lng, lat)
+    # Filtre les bâtiments hors commune (cadastre dept inclut tout le 94/75)
+    if code_iris is None:
+        continue
     btype = feat["properties"].get("type")
     out_features.append({
         "type": "Feature",
