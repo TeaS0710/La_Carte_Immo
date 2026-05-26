@@ -224,8 +224,10 @@ export default function CarteClient({
         ].join(" ")}
       >
         {/* 1. Prédire les futures ventes — XL, action primaire (brand)
-            Hover desktop : le label se développe en 'Prédire les futures ventes'
-            via une span hover:max-w qui pousse la largeur. Reste cliquable. */}
+            Hover desktop : le label se développe en 'Prédire les futures ventes'.
+            On retire le gap du flex parent pour ne pas créer d'espace entre les
+            spans (un gap appliqué autour d'un grid 0fr reste visible). Le gap
+            entre l'icône et le texte est porté par mr-2.5 sur l'icône. */}
         {(dataState?.hasPipeline ?? true) && (
           <button
             type="button"
@@ -236,21 +238,19 @@ export default function CarteClient({
                 ? "Masquer la prédiction des ventes (modèle DPE F/G × historique DVF)"
                 : "Afficher les logements à fort potentiel de vente sur 12 mois (DPE F/G + modèle de prédiction)"
             }
-            className={`group/predict inline-flex items-center gap-2.5 px-5 py-3.5 rounded-full font-semibold text-[15px] min-h-[48px] ${btnFeedback} ${
+            className={`group/predict inline-flex items-center px-5 py-3.5 rounded-full font-semibold text-[15px] min-h-[48px] ${btnFeedback} ${
               filters.showPipeline
                 ? "bg-brand-strong text-white shadow-[0_4px_20px_rgba(157,126,68,0.55)] ring-2 ring-brand/30 hover:bg-brand"
                 : "bg-brand text-white shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong hover:shadow-[0_6px_22px_rgba(157,126,68,0.50)]"
             }`}
           >
-            <Target size={18} className={filters.showPipeline ? "animate-pulse" : ""} />
+            <Target size={18} className={`mr-2.5 ${filters.showPipeline ? "animate-pulse" : ""}`} />
             <span>Prédire</span>
-            {/* Mot caché sur mobile/tactile, révélé au hover desktop via grid trick (anim width fluide) */}
+            {/* Wrapper grid 0fr → 1fr au hover desktop : pousse fluidement la largeur */}
             <span className="hidden lg:inline-grid grid-cols-[0fr] group-hover/predict:grid-cols-[1fr] transition-[grid-template-columns] duration-300 ease-out">
-              <span className="overflow-hidden whitespace-nowrap">
-                <span className="pl-1">les futures</span>
-              </span>
+              <span className="overflow-hidden whitespace-nowrap">&nbsp;les futures</span>
             </span>
-            <span>ventes</span>
+            <span>&nbsp;ventes</span>
           </button>
         )}
 
