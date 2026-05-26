@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { communeDataUrl } from "@/lib/url";
-import { History, Info, Box, Printer, Maximize2, Minimize2, MapPin, MoreVertical, X, Layers, Target, Hammer } from "lucide-react";
+import { History, Info, Box, Printer, Maximize2, Minimize2, MapPin, MoreVertical, X, Target, Hammer } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
 import { DEFAULT_COMMUNE, type CommuneRef } from "@/lib/commune";
 import FiltersBubble from "@/components/carte/FiltersBubble";
@@ -162,20 +162,54 @@ export default function CarteClient({
         maxYear={maxYear}
       />
 
-      {/* Right-side action stack — desktop : tout visible ; mobile : 2 boutons principaux + menu repliable */}
-      <div className="no-presentation absolute top-[140px] right-4 z-10 flex flex-col items-end gap-2 max-h-[calc(100vh-180px)] overflow-y-auto pr-0.5">
-        {/* Bouton primaire toujours visible */}
+      {/* Right-side action stack — uniformisé desktop + mobile pour éviter superpositions
+          Layout : Historique → Prédire les futures ventes → Vue IDF → ⋮ menu (3D / Bâtiments / PDF / Présentation)
+          Sur mobile (< sm), masquée quand une card de détail (rue, quartier, pipeline, permis) est ouverte
+          afin de ne pas chevaucher la bottom-sheet — l'utilisateur ferme la card (X / drag) pour récupérer l'accès.
+      */}
+      {(() => {
+        const anyCardOpen = !!(selected || selectedIris || selectedPipeline || selectedPermit);
+        return (
+      <div
+        className={[
+          "no-presentation absolute top-[140px] right-4 z-30 flex flex-col items-end gap-2 max-h-[calc(100dvh-160px)] overflow-y-auto overflow-x-hidden pr-0.5",
+          anyCardOpen ? "hidden sm:flex" : "flex",
+        ].join(" ")}
+      >
+        {/* 1. Historique */}
         <button
           type="button"
           onClick={() => setMarketOpen(true)}
           className="inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
         >
           <History size={17} />
-          <span className="hidden sm:inline">Historique</span>
-          <span className="sm:hidden">Historique</span>
+          Historique
         </button>
 
-        {/* Bouton retour IDF toujours visible — <a> simple pour navigation fiable */}
+        {/* 2. Prédire les futures ventes — gros bouton primaire qui toggle la couche pipeline */}
+        {(dataState?.hasPipeline ?? true) && (
+          <button
+            type="button"
+            onClick={() => setFilters({ ...filters, showPipeline: !filters.showPipeline })}
+            aria-pressed={filters.showPipeline}
+            title={
+              filters.showPipeline
+                ? "Masquer la prédiction des ventes (modèle DPE F/G × historique DVF)"
+                : "Afficher les logements à fort potentiel de vente sur 12 mois (DPE F/G + modèle de prédiction)"
+            }
+            className={`inline-flex items-center gap-2 px-4 py-3 rounded-full font-medium text-[15px] transition min-h-[44px] ${
+              filters.showPipeline
+                ? "bg-brand-strong text-white shadow-[0_4px_16px_rgba(157,126,68,0.50)] hover:bg-brand"
+                : "bg-brand text-white shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong"
+            }`}
+          >
+            <Target size={17} />
+            <span className="hidden sm:inline">Prédire les futures ventes</span>
+            <span className="sm:hidden">Prédire ventes</span>
+          </button>
+        )}
+
+        {/* 3. Vue Île-de-France (retour région) */}
         <a
           href="/carte/"
           className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand transition min-h-[44px]"
@@ -186,110 +220,101 @@ export default function CarteClient({
           <span className="sm:hidden">IDF</span>
         </a>
 
-        {/* Toggle couches d'analyse (3-états cycle : off → pipeline → permits → off) */}
-        {(() => {
-          const hasPipe = dataState?.hasPipeline ?? true;
-          const hasPerm = dataState?.hasPermits ?? true;
-          // Si aucune des 2 sources n'est dispo, on cache le bouton complètement
-          if (!hasPipe && !hasPerm) return null;
-          const state: "off" | "pipeline" | "permits" =
-            filters.showPipeline ? "pipeline" : filters.showPermits ? "permits" : "off";
-          // Cycle en sautant les états indisponibles
-          const cycle = () => {
-            if (state === "off") {
-              if (hasPipe) setFilters({ ...filters, showPipeline: true, showPermits: false });
-              else if (hasPerm) setFilters({ ...filters, showPipeline: false, showPermits: true });
-            } else if (state === "pipeline") {
-              if (hasPerm) setFilters({ ...filters, showPipeline: false, showPermits: true });
-              else setFilters({ ...filters, showPipeline: false, showPermits: false });
-            } else {
-              setFilters({ ...filters, showPipeline: false, showPermits: false });
-            }
-          };
-          const label =
-            state === "pipeline" ? "Logements à fort potentiel" :
-            state === "permits" ? "Bâtiments modifiés" :
-            "Couches d'analyse";
-          const labelMobile =
-            state === "pipeline" ? "Potentiel" :
-            state === "permits" ? "Bâtis" :
-            "Couches";
-          const Icon = state === "pipeline" ? Target : state === "permits" ? Hammer : Layers;
-          const active = state !== "off";
-          return (
-            <button
-              type="button"
-              onClick={cycle}
-              aria-pressed={active}
-              title={
-                state === "off"
-                  ? "Afficher les couches d'analyse (1er clic : logements à fort potentiel, 2e clic : bâtiments modifiés)"
-                  : state === "pipeline"
-                    ? "Couche active : logements DPE F/G + prédiction. Clic suivant : bâtiments modifiés"
-                    : "Couche active : permis de construire / cadastre. Clic suivant : désactiver"
-              }
-              className={`inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[44px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
-                active
-                  ? "bg-brand text-white border-brand hover:bg-brand-strong"
-                  : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand"
-              }`}
-            >
-              <Icon size={15} aria-hidden="true" />
-              <span className="hidden sm:inline">{label}</span>
-              <span className="sm:hidden">{labelMobile}</span>
-            </button>
-          );
-        })()}
+        {/* 4. Menu ⋮ — wrapper pour ancrer le popover */}
+        <div className="relative">
+          <button
+            type="button"
+            onClick={() => setActionsOpen((v) => !v)}
+            aria-expanded={actionsOpen}
+            aria-haspopup="menu"
+            aria-label={actionsOpen ? "Fermer les autres actions" : "Ouvrir les autres actions"}
+            title="Autres actions : 3D, bâtiments modifiés, PDF, présentation"
+            className={`inline-flex items-center justify-center w-11 h-11 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition ${
+              actionsOpen
+                ? "bg-brand text-white border-brand"
+                : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
+            }`}
+          >
+            {actionsOpen ? <X size={18} /> : <MoreVertical size={18} />}
+          </button>
 
-        {/* Toggle menu actions secondaires — visible uniquement mobile */}
-        <button
-          type="button"
-          onClick={() => setActionsOpen((v) => !v)}
-          aria-expanded={actionsOpen}
-          aria-label={actionsOpen ? "Fermer le menu d'actions" : "Ouvrir les actions secondaires"}
-          className="sm:hidden inline-flex items-center justify-center w-11 h-11 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition"
-        >
-          {actionsOpen ? <X size={18} /> : <MoreVertical size={18} />}
-        </button>
+          {/* Popover menu — ancré au bouton ⋮, ouvert au clic */}
+          {actionsOpen && (
+            <>
+              {/* Backdrop cliquable pour fermer (transparent côté desktop, semi-opaque mobile) */}
+              <button
+                type="button"
+                aria-label="Fermer le menu"
+                onClick={() => setActionsOpen(false)}
+                className="fixed inset-0 z-40 sm:bg-transparent bg-black/20"
+              />
+              <div
+                role="menu"
+                className="absolute top-12 right-0 z-50 flex flex-col items-stretch gap-1.5 w-[200px] bg-white border border-[color:var(--line)] rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] p-2"
+              >
+                {/* 3D toggle */}
+                <button
+                  type="button"
+                  role="menuitemcheckbox"
+                  aria-checked={is3d}
+                  onClick={() => { setIs3d((v) => !v); setActionsOpen(false); }}
+                  className={`inline-flex items-center gap-2 px-3 py-2.5 rounded-lg text-[13px] min-h-[40px] transition ${
+                    is3d
+                      ? "bg-brand text-white"
+                      : "text-ink hover:bg-surface-warm"
+                  }`}
+                >
+                  <Box size={15} aria-hidden="true" />
+                  Vue 3D {is3d && <span className="ml-auto text-[10px]">●</span>}
+                </button>
 
-        {/* Actions secondaires — visibles desktop OU mobile-open */}
-        <button
-          type="button"
-          onClick={() => setIs3d((v) => !v)}
-          aria-pressed={is3d}
-          aria-label={is3d ? "Désactiver la vue 3D" : "Activer la vue 3D"}
-          title={is3d ? "Revenir en vue plate" : "Passer en vue 3D"}
-          className={`${actionsOpen ? "flex" : "hidden"} sm:inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[44px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
-            is3d
-              ? "bg-brand text-white border-brand"
-              : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
-          }`}
-        >
-          <Box size={15} aria-hidden="true" />
-          3D
-        </button>
-        <button
-          type="button"
-          onClick={() => window.print()}
-          aria-label="Imprimer / Exporter PDF"
-          title="Imprimer ou exporter cette fiche en PDF"
-          className={`${actionsOpen ? "flex" : "hidden"} sm:inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[44px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2`}
-        >
-          <Printer size={15} aria-hidden="true" />
-          PDF
-        </button>
-        <button
-          type="button"
-          onClick={() => setPresentation(true)}
-          aria-label="Passer en mode présentation"
-          title="Plein écran simplifié pour RDV client"
-          className={`${actionsOpen ? "flex" : "hidden"} sm:inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[44px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2`}
-        >
-          <Maximize2 size={15} aria-hidden="true" />
-          <span className="hidden sm:inline">Mode présentation</span>
-          <span className="sm:hidden">Plein écran</span>
-        </button>
+                {/* Bâtiments modifiés toggle (couche permis) */}
+                {(dataState?.hasPermits ?? true) && (
+                  <button
+                    type="button"
+                    role="menuitemcheckbox"
+                    aria-checked={filters.showPermits}
+                    onClick={() => { setFilters({ ...filters, showPermits: !filters.showPermits }); setActionsOpen(false); }}
+                    title="Afficher les permis de construire / cadastre récents"
+                    className={`inline-flex items-center gap-2 px-3 py-2.5 rounded-lg text-[13px] min-h-[40px] transition ${
+                      filters.showPermits
+                        ? "bg-brand text-white"
+                        : "text-ink hover:bg-surface-warm"
+                    }`}
+                  >
+                    <Hammer size={15} aria-hidden="true" />
+                    Bâtiments modifiés {filters.showPermits && <span className="ml-auto text-[10px]">●</span>}
+                  </button>
+                )}
+
+                {/* PDF */}
+                <button
+                  type="button"
+                  role="menuitem"
+                  onClick={() => { window.print(); setActionsOpen(false); }}
+                  className="inline-flex items-center gap-2 px-3 py-2.5 rounded-lg text-[13px] min-h-[40px] text-ink hover:bg-surface-warm transition"
+                >
+                  <Printer size={15} aria-hidden="true" />
+                  Exporter en PDF
+                </button>
+
+                {/* Mode présentation */}
+                <button
+                  type="button"
+                  role="menuitem"
+                  onClick={() => { setPresentation(true); setActionsOpen(false); }}
+                  className="inline-flex items-center gap-2 px-3 py-2.5 rounded-lg text-[13px] min-h-[40px] text-ink hover:bg-surface-warm transition"
+                >
+                  <Maximize2 size={15} aria-hidden="true" />
+                  Mode présentation
+                </button>
+              </div>
+            </>
+          )}
+        </div>
       </div>
+        );
+      })()}
 
       {/* Legend (bottom-left) — fusion: ronds=rues, fond=quartiers
           Masquée sur mobile (< sm) si une carte de détail est ouverte pour ne

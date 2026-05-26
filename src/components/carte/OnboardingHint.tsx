@@ -52,27 +52,38 @@ export default function OnboardingHint({
 
   if (!show) return null;
 
+  // Layout :
+  //   - Desktop (sm+) : top-[88px] center, max-w-md (ne s'étire pas vers la
+  //     stack droite, évite l'interception de clic sur les boutons).
+  //   - Mobile (< sm) : bottom-[90px] center, max-w-[calc(100vw-32px)] :
+  //     positionné AU-DESSUS de la légende et SOUS la stack droite (qui est
+  //     top-[140px]) → aucun chevauchement avec les boutons d'action.
+  //   - Le wrapper a `pointer-events-none` ; seuls le contenu intérieur et
+  //     le bouton dismiss sont pointer-events-auto → la zone autour reste
+  //     cliquable pour la carte.
   return (
     <div
-      className={`no-print no-presentation absolute top-[88px] left-1/2 -translate-x-1/2 z-30 flex items-center gap-3 bg-white border border-[color:var(--brand)]/40 text-ink rounded-2xl px-4 py-2.5 text-[13px] shadow-[0_8px_24px_rgba(0,0,0,0.12)] max-w-[calc(100vw-32px)] transition-opacity duration-200 ${closing ? "opacity-0" : "opacity-100"}`}
+      className={`no-print no-presentation absolute z-30 pointer-events-none left-1/2 -translate-x-1/2 transition-opacity duration-200 ${closing ? "opacity-0" : "opacity-100"} bottom-[90px] sm:bottom-auto sm:top-[88px]`}
       role="status"
       aria-live="polite"
     >
-      <div className="rounded-full bg-brand/15 p-1.5 shrink-0">
-        <MousePointer2 size={14} className="text-brand-strong" />
+      <div className="pointer-events-auto inline-flex items-center gap-3 bg-white border border-[color:var(--brand)]/40 text-ink rounded-2xl px-4 py-2.5 text-[13px] shadow-[0_8px_24px_rgba(0,0,0,0.12)] max-w-[calc(100vw-32px)] sm:max-w-md">
+        <div className="rounded-full bg-brand/15 p-1.5 shrink-0">
+          <MousePointer2 size={14} className="text-brand-strong" />
+        </div>
+        <div className="leading-tight min-w-0">
+          <strong className="text-ink">Cliquez un quartier</strong>
+          <span className="text-ink-soft"> pour voir son profil détaillé.</span>
+        </div>
+        <button
+          type="button"
+          onClick={dismiss}
+          className="shrink-0 rounded-full p-2 text-ink-mute hover:text-ink hover:bg-surface-warm min-w-[36px] min-h-[36px] flex items-center justify-center"
+          aria-label="Masquer ce conseil"
+        >
+          <X size={14} />
+        </button>
       </div>
-      <div className="leading-tight">
-        <strong className="text-ink">Cliquez un quartier</strong>
-        <span className="text-ink-soft"> pour voir son profil détaillé (prix, profil acheteur, équipements, analyse IA).</span>
-      </div>
-      <button
-        type="button"
-        onClick={dismiss}
-        className="shrink-0 rounded-full p-2 text-ink-mute hover:text-ink hover:bg-surface-warm min-w-[36px] min-h-[36px] flex items-center justify-center"
-        aria-label="Masquer ce conseil"
-      >
-        <X size={14} />
-      </button>
     </div>
   );
 }
