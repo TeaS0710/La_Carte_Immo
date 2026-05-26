@@ -1,6 +1,6 @@
 "use client";
 
-import { SlidersHorizontal, X, Home, Building2, Eye, Target, Hammer } from "lucide-react";
+import { SlidersHorizontal, X, Home, Building2, Eye } from "lucide-react";
 import type { MapFilters, TypeFilter } from "./types";
 
 export default function FiltersBubble({
@@ -10,8 +10,6 @@ export default function FiltersBubble({
   setFilters,
   minYear,
   maxYear,
-  hasPipeline = true,
-  hasPermits = true,
 }: {
   open: boolean;
   setOpen: (v: boolean) => void;
@@ -19,8 +17,6 @@ export default function FiltersBubble({
   setFilters: (f: MapFilters) => void;
   minYear: number;
   maxYear: number;
-  hasPipeline?: boolean;
-  hasPermits?: boolean;
 }) {
   return (
     <>
@@ -30,10 +26,10 @@ export default function FiltersBubble({
           type="button"
           onClick={() => setOpen(true)}
           className="absolute top-4 left-4 z-10 inline-flex items-center gap-2 px-3.5 py-2 rounded-full bg-white text-ink font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border border-[color:var(--line)] hover:bg-[color:var(--brand)] hover:text-white hover:border-transparent transition"
-          aria-label="Ouvrir les projections"
+          aria-label="Ouvrir les filtres"
         >
           <SlidersHorizontal size={14} />
-          Projections
+          Filtres
         </button>
       )}
 
@@ -43,7 +39,7 @@ export default function FiltersBubble({
           {/* Backdrop mobile only — clic pour fermer */}
           <button
             type="button"
-            aria-label="Fermer les projections"
+            aria-label="Fermer les filtres"
             onClick={() => setOpen(false)}
             className="sm:hidden fixed inset-0 z-[9] bg-black/30 backdrop-blur-[2px]"
           />
@@ -56,7 +52,7 @@ export default function FiltersBubble({
               "sm:inset-x-auto sm:bottom-auto sm:top-4 sm:left-4 sm:w-[340px] sm:max-w-[calc(100vw-32px)] sm:max-h-none sm:overflow-hidden sm:rounded-2xl sm:border sm:border-[color:var(--line)]",
             ].join(" ")}
             role="dialog"
-            aria-label="Filtres projections"
+            aria-label="Filtres carte"
           >
             {/* Drag handle mobile */}
             <div className="sm:hidden flex justify-center pt-2 pb-1">
@@ -65,7 +61,7 @@ export default function FiltersBubble({
             <div className="flex items-center justify-between px-5 py-3.5 border-b border-[color:var(--line-soft)]">
               <div className="flex items-center gap-2 text-ink font-medium text-[15px]">
                 <SlidersHorizontal size={17} className="text-brand-strong" />
-                Projections
+                Filtres
               </div>
               <button
                 type="button"
@@ -157,68 +153,6 @@ export default function FiltersBubble({
                 <span>25</span>
                 <span>50</span>
               </div>
-            </Section>
-
-            {/* Couches d'analyse — réintégrées ici (anciennement dans le panneau Historique) */}
-            <Section title="Couches d'analyse">
-              <div className="space-y-2">
-                <button
-                  type="button"
-                  disabled={!hasPipeline}
-                  onClick={() => hasPipeline && setFilters({ ...filters, showPipeline: !filters.showPipeline })}
-                  title={hasPipeline ? "" : "Pipeline ventes probables : données en cours de génération pour cette commune"}
-                  className={`w-full inline-flex items-center justify-between gap-2 px-3 py-2.5 rounded-lg border text-[13px] min-h-[44px] transition ${
-                    !hasPipeline
-                      ? "bg-surface-warm border-[color:var(--line-soft)] text-ink-mute cursor-not-allowed"
-                      : filters.showPipeline
-                      ? "bg-brand border-brand text-white"
-                      : "bg-white border-[color:var(--line)] text-ink-soft hover:border-brand hover:text-ink"
-                  }`}
-                  aria-pressed={filters.showPipeline}
-                >
-                  <span className="inline-flex items-center gap-2">
-                    <Target size={15} aria-hidden="true" />
-                    Logements à fort potentiel
-                  </span>
-                  <span className={`text-[11px] ${
-                    !hasPipeline ? "text-ink-mute italic"
-                    : filters.showPipeline ? "text-white/85" : "text-ink-mute"
-                  }`}>
-                    {hasPipeline ? "DPE F/G" : "à venir"}
-                  </span>
-                </button>
-                <button
-                  type="button"
-                  disabled={!hasPermits}
-                  onClick={() => hasPermits && setFilters({ ...filters, showPermits: !filters.showPermits })}
-                  title={hasPermits ? "" : "Bâtiments modifiés cadastre : données en cours pour cette commune"}
-                  className={`w-full inline-flex items-center justify-between gap-2 px-3 py-2.5 rounded-lg border text-[13px] min-h-[44px] transition ${
-                    !hasPermits
-                      ? "bg-surface-warm border-[color:var(--line-soft)] text-ink-mute cursor-not-allowed"
-                      : filters.showPermits
-                      ? "bg-brand border-brand text-white"
-                      : "bg-white border-[color:var(--line)] text-ink-soft hover:border-brand hover:text-ink"
-                  }`}
-                  aria-pressed={filters.showPermits}
-                >
-                  <span className="inline-flex items-center gap-2">
-                    <Hammer size={15} aria-hidden="true" />
-                    Bâtiments modifiés
-                  </span>
-                  <span className={`text-[11px] ${
-                    !hasPermits ? "text-ink-mute italic"
-                    : filters.showPermits ? "text-white/85" : "text-ink-mute"
-                  }`}>
-                    {hasPermits ? "cadastre" : "à venir"}
-                  </span>
-                </button>
-              </div>
-              {(!hasPipeline || !hasPermits) && (
-                <p className="text-[10.5px] text-ink-mute leading-snug mt-2">
-                  Ces couches nécessitent les bases DPE (ADEME) et cadastre
-                  (IGN) par commune. En cours de génération pour cette ville.
-                </p>
-              )}
             </Section>
           </div>
           </div>

@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { communeDataUrl } from "@/lib/url";
-import { History, Info, Box, Printer, Maximize2, Minimize2, MapPin, MoreVertical, X } from "lucide-react";
+import { History, Info, Box, Printer, Maximize2, Minimize2, MapPin, MoreVertical, X, Layers, Target, Hammer } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
 import { DEFAULT_COMMUNE, type CommuneRef } from "@/lib/commune";
 import FiltersBubble from "@/components/carte/FiltersBubble";
@@ -160,8 +160,6 @@ export default function CarteClient({
         setFilters={setFilters}
         minYear={minYear}
         maxYear={maxYear}
-        hasPipeline={dataState?.hasPipeline ?? true}
-        hasPermits={dataState?.hasPermits ?? true}
       />
 
       {/* Right-side action stack — desktop : tout visible ; mobile : 2 boutons principaux + menu repliable */}
@@ -187,6 +185,61 @@ export default function CarteClient({
           <span className="hidden sm:inline">Vue Île-de-France</span>
           <span className="sm:hidden">IDF</span>
         </a>
+
+        {/* Toggle couches d'analyse (3-états cycle : off → pipeline → permits → off) */}
+        {(() => {
+          const hasPipe = dataState?.hasPipeline ?? true;
+          const hasPerm = dataState?.hasPermits ?? true;
+          // Si aucune des 2 sources n'est dispo, on cache le bouton complètement
+          if (!hasPipe && !hasPerm) return null;
+          const state: "off" | "pipeline" | "permits" =
+            filters.showPipeline ? "pipeline" : filters.showPermits ? "permits" : "off";
+          // Cycle en sautant les états indisponibles
+          const cycle = () => {
+            if (state === "off") {
+              if (hasPipe) setFilters({ ...filters, showPipeline: true, showPermits: false });
+              else if (hasPerm) setFilters({ ...filters, showPipeline: false, showPermits: true });
+            } else if (state === "pipeline") {
+              if (hasPerm) setFilters({ ...filters, showPipeline: false, showPermits: true });
+              else setFilters({ ...filters, showPipeline: false, showPermits: false });
+            } else {
+              setFilters({ ...filters, showPipeline: false, showPermits: false });
+            }
+          };
+          const label =
+            state === "pipeline" ? "Logements à fort potentiel" :
+            state === "permits" ? "Bâtiments modifiés" :
+            "Couches d'analyse";
+          const labelMobile =
+            state === "pipeline" ? "Potentiel" :
+            state === "permits" ? "Bâtis" :
+            "Couches";
+          const Icon = state === "pipeline" ? Target : state === "permits" ? Hammer : Layers;
+          const active = state !== "off";
+          return (
+            <button
+              type="button"
+              onClick={cycle}
+              aria-pressed={active}
+              title={
+                state === "off"
+                  ? "Afficher les couches d'analyse (1er clic : logements à fort potentiel, 2e clic : bâtiments modifiés)"
+                  : state === "pipeline"
+                    ? "Couche active : logements DPE F/G + prédiction. Clic suivant : bâtiments modifiés"
+                    : "Couche active : permis de construire / cadastre. Clic suivant : désactiver"
+              }
+              className={`inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[44px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
+                active
+                  ? "bg-brand text-white border-brand hover:bg-brand-strong"
+                  : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand"
+              }`}
+            >
+              <Icon size={15} aria-hidden="true" />
+              <span className="hidden sm:inline">{label}</span>
+              <span className="sm:hidden">{labelMobile}</span>
+            </button>
+          );
+        })()}
 
         {/* Toggle menu actions secondaires — visible uniquement mobile */}
         <button
