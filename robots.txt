@@ -1,4 +1,0 @@
-User-Agent: *
-Allow: /
-
-Sitemap: https://teas0710.github.io/La_Carte_Immo/sitemap.xml
