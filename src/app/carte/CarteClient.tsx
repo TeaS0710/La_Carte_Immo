@@ -250,7 +250,7 @@ export default function CarteClient({
             <span className="hidden lg:inline-grid grid-cols-[0fr] group-hover/predict:grid-cols-[1fr] transition-[grid-template-columns] duration-300 ease-out">
               <span className="overflow-hidden whitespace-nowrap">&nbsp;les futures</span>
             </span>
-            <span>&nbsp;ventes</span>
+            <span>&nbsp;Ventes</span>
           </button>
         )}
 
