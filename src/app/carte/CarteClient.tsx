@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { communeDataUrl } from "@/lib/url";
-import { History, Info, Box, Printer, Maximize2, Minimize2, MapPin } from "lucide-react";
+import { History, Info, Box, Printer, Maximize2, Minimize2, MapPin, MoreVertical, X } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
 import { DEFAULT_COMMUNE, type CommuneRef } from "@/lib/commune";
 import FiltersBubble from "@/components/carte/FiltersBubble";
@@ -71,6 +71,8 @@ export default function CarteClient({
   const [hintDismissed, setHintDismissed] = useState(false);
   const [is3d, setIs3d] = useState(false);
   const [presentation, setPresentation] = useState(false);
+  // Mobile only : toggle de la stack d'actions secondaires
+  const [actionsOpen, setActionsOpen] = useState(false);
 
   // Quand on sélectionne un truc, on ferme tous les autres
   const handleStreet = (s: StreetProps | null) => {
@@ -163,33 +165,50 @@ export default function CarteClient({
         hasPermits={dataState?.hasPermits ?? true}
       />
 
-      {/* Right-side action stack — flex container scroll-friendly on mobile */}
+      {/* Right-side action stack — desktop : tout visible ; mobile : 2 boutons principaux + menu repliable */}
       <div className="no-presentation absolute top-[140px] right-4 z-10 flex flex-col items-end gap-2 max-h-[calc(100vh-180px)] overflow-y-auto pr-0.5">
-        <Link
-          href="/carte"
-          prefetch
-          className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand transition min-h-[40px]"
-          title="Revenir à la vue Île-de-France entière"
-        >
-          <MapPin size={14} className="text-brand-strong" aria-hidden="true" />
-          <span className="hidden sm:inline">Vue Île-de-France</span>
-          <span className="sm:hidden">IDF</span>
-        </Link>
+        {/* Bouton primaire toujours visible */}
         <button
           type="button"
           onClick={() => setMarketOpen(true)}
           className="inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
         >
           <History size={17} />
-          Historique
+          <span className="hidden sm:inline">Historique</span>
+          <span className="sm:hidden">Historique</span>
         </button>
+
+        {/* Bouton retour IDF toujours visible */}
+        <Link
+          href="/carte"
+          prefetch
+          className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand transition min-h-[44px]"
+          title="Revenir à la vue Île-de-France entière"
+        >
+          <MapPin size={14} className="text-brand-strong" aria-hidden="true" />
+          <span className="hidden sm:inline">Vue Île-de-France</span>
+          <span className="sm:hidden">IDF</span>
+        </Link>
+
+        {/* Toggle menu actions secondaires — visible uniquement mobile */}
+        <button
+          type="button"
+          onClick={() => setActionsOpen((v) => !v)}
+          aria-expanded={actionsOpen}
+          aria-label={actionsOpen ? "Fermer le menu d'actions" : "Ouvrir les actions secondaires"}
+          className="sm:hidden inline-flex items-center justify-center w-11 h-11 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition"
+        >
+          {actionsOpen ? <X size={18} /> : <MoreVertical size={18} />}
+        </button>
+
+        {/* Actions secondaires — visibles desktop OU mobile-open */}
         <button
           type="button"
           onClick={() => setIs3d((v) => !v)}
           aria-pressed={is3d}
           aria-label={is3d ? "Désactiver la vue 3D" : "Activer la vue 3D"}
           title={is3d ? "Revenir en vue plate" : "Passer en vue 3D"}
-          className={`inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
+          className={`${actionsOpen ? "flex" : "hidden"} sm:inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[44px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
             is3d
               ? "bg-brand text-white border-brand"
               : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
@@ -203,7 +222,7 @@ export default function CarteClient({
           onClick={() => window.print()}
           aria-label="Imprimer / Exporter PDF"
           title="Imprimer ou exporter cette fiche en PDF"
-          className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2"
+          className={`${actionsOpen ? "flex" : "hidden"} sm:inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[44px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2`}
         >
           <Printer size={15} aria-hidden="true" />
           PDF
@@ -213,7 +232,7 @@ export default function CarteClient({
           onClick={() => setPresentation(true)}
           aria-label="Passer en mode présentation"
           title="Plein écran simplifié pour RDV client"
-          className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2"
+          className={`${actionsOpen ? "flex" : "hidden"} sm:inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[44px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2`}
         >
           <Maximize2 size={15} aria-hidden="true" />
           <span className="hidden sm:inline">Mode présentation</span>
