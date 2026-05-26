@@ -1,9 +1,10 @@
 name: Deploy to GitHub Pages
 
+# Re-indexation forcée 2026-05-26 — fix trigger absent
 on:
   push:
     branches: [main]
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 permissions:
   contents: read
