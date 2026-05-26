@@ -51,41 +51,46 @@ export default function RegionCarteClient({
         </p>
       </div>
 
-      {/* Bouton Historique régional (modal multi-onglets) */}
-      <button
-        type="button"
-        onClick={() => setMarketOpen(true)}
-        className="absolute top-[140px] right-4 z-10 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
-      >
-        <History size={17} />
-        Historique IDF
-      </button>
+      {/* Stack droite — flex column (boutons collés, gradation harmonique XL→S)
+          Cohérent avec la stack de CarteClient (page commune). */}
+      <div className="absolute top-[140px] right-4 z-10 flex flex-col items-end gap-2">
+        {/* Historique IDF — XL */}
+        <button
+          type="button"
+          onClick={() => setMarketOpen(true)}
+          className="inline-flex items-center gap-2.5 px-5 py-3.5 rounded-full bg-brand text-white font-semibold text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong hover:shadow-[0_6px_22px_rgba(157,126,68,0.50)] min-h-[48px] transition-all duration-150 ease-out active:scale-[0.95]"
+        >
+          <History size={18} />
+          Historique IDF
+        </button>
 
-      {/* Lien tableau (vue détaillée) — placé juste après les autres boutons */}
-      <Link
-        href={"/carte/region/idf/"}
-        className="absolute top-[300px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[40px]"
-      >
-        <Table size={15} aria-hidden="true" />
-        Tableau détaillé
-      </Link>
+        {/* Vue 3D — M */}
+        <button
+          type="button"
+          onClick={() => setIs3d((v) => !v)}
+          aria-pressed={is3d}
+          aria-label={is3d ? "Désactiver la vue 3D" : "Activer la vue 3D"}
+          title={is3d ? "Revenir en vue plate" : "Passer en vue 3D"}
+          className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full font-medium text-[13px] shadow-[0_3px_12px_rgba(0,0,0,0.10)] border min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 transition-all duration-150 ease-out active:scale-[0.95] ${
+            is3d
+              ? "bg-brand text-white border-brand hover:bg-brand-strong"
+              : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand"
+          }`}
+        >
+          <Box size={14} aria-hidden="true" />
+          {is3d ? "3D activée" : "Vue 3D"}
+        </button>
 
-      {/* Toggle 3D */}
-      <button
-        type="button"
-        onClick={() => setIs3d((v) => !v)}
-        aria-pressed={is3d}
-        aria-label={is3d ? "Désactiver la vue 3D" : "Activer la vue 3D"}
-        title={is3d ? "Revenir en vue plate" : "Passer en vue 3D"}
-        className={`absolute top-[196px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${
-          is3d
-            ? "bg-brand text-white border-brand"
-            : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
-        }`}
-      >
-        <Box size={15} aria-hidden="true" />
-        3D
-      </button>
+        {/* Tableau — S (label raccourci pour gradation visuelle décroissante) */}
+        <Link
+          href={"/carte/region/idf/"}
+          title="Voir le tableau régional détaillé"
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full font-medium text-[12px] shadow-[0_2px_8px_rgba(0,0,0,0.08)] border bg-white text-ink-soft border-[color:var(--line)] hover:bg-surface-warm hover:border-brand hover:text-ink min-h-[36px] transition-all duration-150 ease-out active:scale-[0.95]"
+        >
+          <Table size={12} aria-hidden="true" />
+          Tableau
+        </Link>
+      </div>
 
       {/* Légende */}
       <div

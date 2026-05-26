@@ -222,8 +222,7 @@ export default function CarteClient({
             }`}
           >
             <Target size={16} className={filters.showPipeline ? "animate-pulse" : ""} />
-            <span className="hidden sm:inline">Prédire les futures ventes</span>
-            <span className="sm:hidden">Prédire ventes</span>
+            Prédire ventes
           </button>
         )}
 
@@ -241,19 +240,17 @@ export default function CarteClient({
           }`}
         >
           <Box size={14} aria-hidden="true" />
-          <span className="hidden sm:inline">{is3d ? "3D activée" : "Vue 3D"}</span>
-          <span className="sm:hidden">3D</span>
+          {is3d ? "3D activée" : "Vue 3D"}
         </button>
 
-        {/* 4. Vue Île-de-France — bouton S (le plus petit avec texte) */}
+        {/* 4. IDF — bouton S (le plus petit avec texte) */}
         <a
           href="/carte/"
           className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full font-medium text-[12px] shadow-[0_2px_8px_rgba(0,0,0,0.08)] border bg-white text-ink-soft border-[color:var(--line)] hover:bg-surface-warm hover:border-brand hover:text-ink min-h-[36px] ${btnFeedback}`}
           title="Revenir à la vue Île-de-France entière"
         >
           <MapPin size={12} className="text-brand-strong" aria-hidden="true" />
-          <span className="hidden sm:inline">Vue Île-de-France</span>
-          <span className="sm:hidden">IDF</span>
+          IDF
         </a>
 
         {/* 5. Menu ⋮ — popover en `fixed` pour échapper à tout overflow parent */}
