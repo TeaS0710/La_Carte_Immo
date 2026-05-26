@@ -2,7 +2,6 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { assetUrl } from "@/lib/url";
-import Link from "next/link";
 
 interface CommuneRef {
   code_insee: string;
@@ -198,13 +197,13 @@ export default function ComparateurClient({ communes }: { communes: CommuneRef[]
                     </div>
                   </div>
                   {l?.ref.slug && (
-                    <Link
-                      href={`/carte/ville/${l.ref.slug}`}
-                      prefetch
+                    <a
+                      href={`/carte/ville/${l.ref.slug}/`}
+                     
                       className="text-[11.5px] text-brand-strong hover:underline shrink-0"
                     >
                       Ouvrir la carte ↗
-                    </Link>
+                    </a>
                   )}
                 </header>
                 <div className="divide-y divide-[color:var(--line-soft)]">
@@ -291,12 +290,12 @@ export default function ComparateurClient({ communes }: { communes: CommuneRef[]
                           INSEE {code} · dépt {l?.ref.code_dept}
                         </div>
                         {l?.ref.slug && (
-                          <Link
-                            href={`/carte/ville/${l.ref.slug}`}
+                          <a
+                            href={`/carte/ville/${l.ref.slug}/`}
                             className="text-[11px] text-brand-strong hover:underline mt-1 inline-block"
                           >
                             Ouvrir la carte ↗
-                          </Link>
+                          </a>
                         )}
                       </th>
                     );

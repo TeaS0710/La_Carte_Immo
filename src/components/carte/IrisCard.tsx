@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { assetUrl, communeDataUrl } from "@/lib/url";
 import {
   X, Users, Home, Building, Zap, TrendingUp, Award, Target, FileText,
@@ -709,13 +708,13 @@ export default function IrisCard({
                 >
                   Demander une simulation prêt
                 </a>
-                <Link
-                  href={`/comparateur#selected=${codeInsee}`}
+                <a
+                  href={`/comparateur/#selected=${codeInsee}`}
                   className="inline-flex items-center gap-1.5 rounded-full border border-[color:var(--line)] bg-white text-ink text-[12.5px] font-medium px-3.5 py-1.5 hover:bg-surface-warm transition"
                   title="Comparer cette commune à d'autres villes IDF"
                 >
                   <Scale size={14} /> Comparer cette commune
-                </Link>
+                </a>
               </div>
             </div>
           </div>

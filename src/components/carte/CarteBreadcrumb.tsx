@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ChevronRight, MapPin } from "lucide-react";
 
 interface Crumb {
@@ -8,11 +7,11 @@ interface Crumb {
 
 /**
  * Breadcrumb cliquable persistant pour les pages carte.
- * Premier élément = retour à la carte région IDF (épingle + label visible).
- * Dernier élément non cliquable.
  *
- * Le label "Île-de-France" est masqué seulement sous sm pour gagner de la
- * place sur mobile, mais reste accessible via aria-label.
+ * Utilise des `<a>` HTML (pas `<Link>` Next.js) — sur output: export, certains
+ * Link dans un sub-tree client hydraté ne déclenchent pas la navigation. Le `<a>`
+ * force une vraie nav HTTP, qui marche systématiquement et reste rapide grâce
+ * au CDN Cloudflare.
  */
 export default function CarteBreadcrumb({ items }: { items: Crumb[] }) {
   return (
@@ -20,9 +19,8 @@ export default function CarteBreadcrumb({ items }: { items: Crumb[] }) {
       aria-label="Fil d'Ariane"
       className="text-[12px] text-ink-soft inline-flex items-center gap-1 flex-wrap"
     >
-      <Link
-        href={"/carte"}
-        prefetch
+      <a
+        href="/carte/"
         className="inline-flex items-center gap-1 hover:text-ink hover:bg-surface-warm rounded-full px-1.5 py-0.5 transition group"
         aria-label="Retour à la carte Île-de-France"
         title="Retour à la carte Île-de-France"
@@ -33,20 +31,19 @@ export default function CarteBreadcrumb({ items }: { items: Crumb[] }) {
           className="text-brand-strong group-hover:text-brand transition"
         />
         <span className="hidden sm:inline font-medium">Île-de-France</span>
-      </Link>
+      </a>
       {items.map((c, i) => {
         const isLast = i === items.length - 1;
         return (
           <span key={i} className="inline-flex items-center gap-1">
             <ChevronRight size={11} className="text-ink-mute" aria-hidden="true" />
             {c.href && !isLast ? (
-              <Link
+              <a
                 href={c.href}
-                prefetch
                 className="hover:text-ink hover:bg-surface-warm rounded-full px-1.5 py-0.5 transition"
               >
                 {c.label}
-              </Link>
+              </a>
             ) : (
               <span className="text-ink font-medium px-1.5 py-0.5">{c.label}</span>
             )}

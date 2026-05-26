@@ -124,7 +124,7 @@ export default function VilleSelector({
                     <button
                       type="button"
                       onClick={() => {
-                        router.push(`/carte/ville/${c.slug}`);
+                        router.push(`/carte/ville/${c.slug}/`);
                         setOpen(false);
                       }}
                       className="w-full text-left px-4 py-2 hover:bg-surface-warm transition flex items-center justify-between gap-3"

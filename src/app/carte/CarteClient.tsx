@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
 import { communeDataUrl } from "@/lib/url";
 import { History, Info, Box, Printer, Maximize2, Minimize2, MapPin, MoreVertical, X } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
@@ -125,7 +124,7 @@ export default function CarteClient({
       <div className="no-presentation absolute top-4 left-1/2 -translate-x-1/2 z-20 flex flex-col sm:flex-row items-center gap-2 bg-white/95 backdrop-blur-sm border border-[color:var(--line)] rounded-full px-3 py-1.5 shadow-[0_4px_16px_rgba(0,0,0,0.10)] max-w-[calc(100vw-32px)]">
         <CarteBreadcrumb
           items={[
-            { label: deptName, href: `/carte/dept/${commune.code_dept}` },
+            { label: deptName, href: `/carte/dept/${commune.code_dept}/` },
             { label: commune.nom },
           ]}
         />
@@ -178,17 +177,16 @@ export default function CarteClient({
           <span className="sm:hidden">Historique</span>
         </button>
 
-        {/* Bouton retour IDF toujours visible */}
-        <Link
-          href="/carte"
-          prefetch
+        {/* Bouton retour IDF toujours visible — <a> simple pour navigation fiable */}
+        <a
+          href="/carte/"
           className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand transition min-h-[44px]"
           title="Revenir à la vue Île-de-France entière"
         >
           <MapPin size={14} className="text-brand-strong" aria-hidden="true" />
           <span className="hidden sm:inline">Vue Île-de-France</span>
           <span className="sm:hidden">IDF</span>
-        </Link>
+        </a>
 
         {/* Toggle menu actions secondaires — visible uniquement mobile */}
         <button

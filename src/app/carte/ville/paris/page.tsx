@@ -110,7 +110,7 @@ export default async function ParisHubPage() {
               return hasData ? (
                 <Link
                   key={arr.code_insee}
-                  href={`/carte/ville/${arr.slug}`}
+                  href={`/carte/ville/${arr.slug}/`}
                   className="block rounded-xl border border-[color:var(--line)] bg-white p-4 hover:border-brand hover:bg-surface-warm/50 transition group focus:outline-none focus:ring-2 focus:ring-brand-strong/30"
                 >
                   <div className="text-[10px] uppercase tracking-[0.12em] text-brand-strong mb-0.5">

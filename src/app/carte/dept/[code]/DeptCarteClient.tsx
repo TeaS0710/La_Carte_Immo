@@ -53,7 +53,7 @@ export default function DeptCarteClient({
       {/* Toolbar coin haut droit */}
       <div className="absolute top-3 right-3 z-10 flex gap-2">
         <Link
-          href={`/carte/region/idf`}
+          href={`/carte/region/idf/`}
           className="inline-flex items-center gap-1.5 px-3 py-2 rounded-full bg-white border border-[color:var(--line)] text-[12px] text-ink font-medium hover:bg-surface-warm transition shadow-sm"
           aria-label="Voir le tableau régional"
         >

@@ -172,7 +172,7 @@ export default async function RegionPage() {
                       <td className="px-4 py-2.5 text-right">
                         {d.communes_count_available > 0 && (
                           <Link
-                            href={`/carte/dept/${d.code_dept}`}
+                            href={`/carte/dept/${d.code_dept}/`}
                             className="text-brand-strong hover:text-ink text-[13px]"
                           >
                             Voir →
@@ -214,7 +214,7 @@ export default async function RegionPage() {
                     <td className="px-4 py-2.5 text-right tabular text-ink-soft">{fmtEur(c.median_price)}</td>
                     <td className="px-4 py-2.5 text-right">
                       <Link
-                        href={`/carte/ville/${c.slug}`}
+                        href={`/carte/ville/${c.slug}/`}
                         className="text-brand-strong hover:text-ink text-[13px]"
                       >
                         Carte →

@@ -1,10 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { assetUrl } from "@/lib/url";
 import Image from "next/image";
 import { Phone, MapPin, Scale, Menu, X } from "lucide-react";
+
+// NOTE: on utilise délibérément `<a>` HTML pour les liens internes du Header
+// au lieu de `<Link>` Next.js. En output: export, le router client peut
+// échouer à intercepter le click depuis un composant "use client" hydraté
+// (URL ne change pas). `<a>` force une navigation classique HTTP, qui marche
+// toujours et reste rapide grâce au CDN Cloudflare.
 
 interface NavLink {
   href: string;
@@ -18,8 +23,8 @@ const NAV_LINKS: NavLink[] = [
   { href: "https://www.prelys-courtage.com/", label: "Nos solutions", external: true },
   { href: "https://www.prelys-courtage.com/saint-maur-des-fosses/", label: "L'agence Saint-Maur", external: true },
   { href: "https://www.prelys-courtage.com/trouver-votre-courtier/", label: "Trouver un conseiller", external: true },
-  { href: "/carte", label: "La carte", icon: <MapPin size={14} className="text-[color:var(--brand-strong)]" />, highlight: true },
-  { href: "/comparateur", label: "Comparateur", icon: <Scale size={14} className="text-[color:var(--brand-strong)]" /> },
+  { href: "/carte/", label: "La carte", icon: <MapPin size={14} className="text-[color:var(--brand-strong)]" />, highlight: true },
+  { href: "/comparateur/", label: "Comparateur", icon: <Scale size={14} className="text-[color:var(--brand-strong)]" /> },
 ];
 
 export default function Header() {
@@ -47,7 +52,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-[color:var(--line-soft)]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-[64px] sm:h-[68px] flex items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-3 shrink-0" onClick={() => setMenuOpen(false)}>
+        <a href="/" className="flex items-center gap-3 shrink-0" onClick={() => setMenuOpen(false)}>
           <Image
             src={assetUrl("/prelys/logo-2-0.png")}
             alt="Prelys Courtage"
@@ -56,7 +61,7 @@ export default function Header() {
             priority
             className="h-8 sm:h-9 w-auto object-contain"
           />
-        </Link>
+        </a>
 
         {/* Nav desktop */}
         <nav className="hidden lg:flex items-center gap-7 text-[14px] text-ink-soft">
@@ -72,15 +77,14 @@ export default function Header() {
                 {l.label}
               </a>
             ) : (
-              <Link
+              <a
                 key={l.href}
                 href={l.href}
-                prefetch
                 className={`${l.highlight ? "text-ink font-semibold" : "text-ink-soft"} hover:text-[color:var(--brand-strong)] transition inline-flex items-center gap-1.5`}
               >
                 {l.icon}
                 {l.label}
-              </Link>
+              </a>
             ),
           )}
         </nav>
@@ -138,16 +142,15 @@ export default function Header() {
                     {l.label}
                   </a>
                 ) : (
-                  <Link
+                  <a
                     key={l.href}
                     href={l.href}
-                    prefetch
                     onClick={() => setMenuOpen(false)}
                     className={`inline-flex items-center gap-2 px-3 py-3 rounded-lg hover:bg-surface-warm hover:text-ink min-h-[44px] ${l.highlight ? "text-ink font-semibold" : "text-ink-soft"}`}
                   >
                     {l.icon}
                     {l.label}
-                  </Link>
+                  </a>
                 ),
               )}
               <div className="mt-2 pt-3 border-t border-[color:var(--line-soft)] flex flex-col gap-2">

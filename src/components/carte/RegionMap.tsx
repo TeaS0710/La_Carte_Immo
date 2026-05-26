@@ -304,7 +304,7 @@ export default function RegionMap({
             if (feats.length > 0) {
               const p = (feats[0] as MapGeoJSONFeature).properties as Record<string, unknown>;
               if (p.slug) {
-                router.push(`/carte/ville/${p.slug}`);
+                router.push(`/carte/ville/${p.slug}/`);
               }
             }
           });

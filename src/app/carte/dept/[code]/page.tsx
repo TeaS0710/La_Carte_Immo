@@ -180,7 +180,7 @@ export default async function DeptPage({
                     <td className="px-4 py-2.5 text-right tabular text-ink-soft">{fmtEur(c.median_price_per_sqm)}</td>
                     <td className="px-4 py-2.5 text-right">
                       <Link
-                        href={`/carte/ville/${c.slug}`}
+                        href={`/carte/ville/${c.slug}/`}
                         className="text-brand-strong hover:text-ink text-[13px]"
                       >
                         Carte →

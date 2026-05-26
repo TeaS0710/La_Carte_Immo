@@ -239,7 +239,7 @@ function DeptsTab({ region }: { region: RegionPayload }) {
                   <td className="px-4 py-2.5 text-right tabular text-ink">{fmt(d.total_sales)}</td>
                   <td className="px-4 py-2.5 text-right">
                     {d.communes_count_available > 0 && (
-                      <Link href={`/carte/dept/${d.code_dept}`} className="text-brand-strong hover:text-ink text-[13px]">
+                      <Link href={`/carte/dept/${d.code_dept}/`} className="text-brand-strong hover:text-ink text-[13px]">
                         Voir →
                       </Link>
                     )}
@@ -280,7 +280,7 @@ function TopTab({ region }: { region: RegionPayload }) {
                 <td className="px-4 py-2.5 text-right tabular text-ink">{fmt(c.total_sales)}</td>
                 <td className="px-4 py-2.5 text-right tabular text-ink-soft">{fmtEur(c.median_price)}</td>
                 <td className="px-4 py-2.5 text-right">
-                  <Link href={`/carte/ville/${c.slug}`} className="text-brand-strong hover:text-ink text-[13px]">
+                  <Link href={`/carte/ville/${c.slug}/`} className="text-brand-strong hover:text-ink text-[13px]">
                     Carte →
                   </Link>
                 </td>

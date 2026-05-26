@@ -64,7 +64,7 @@ export default function RegionCarteClient({
 
       {/* Lien tableau (vue détaillée) — placé juste après les autres boutons */}
       <Link
-        href={"/carte/region/idf"}
+        href={"/carte/region/idf/"}
         className="absolute top-[300px] right-4 z-10 inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm transition min-h-[40px]"
       >
         <Table size={15} aria-hidden="true" />
