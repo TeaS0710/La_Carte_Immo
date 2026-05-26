@@ -11,6 +11,8 @@ export default function FiltersBubble({
   minYear,
   maxYear,
   hideTrigger = false,
+  onHoverOpen,
+  onHoverClose,
 }: {
   open: boolean;
   setOpen: (v: boolean) => void;
@@ -22,16 +24,21 @@ export default function FiltersBubble({
    *  chevauchement avec une bottom-sheet ouverte. Le panel ouvert reste
    *  affiché en bottom-sheet plein largeur (au-dessus de tout). */
   hideTrigger?: boolean;
+  /** Handlers hover gérés au niveau parent (cancel timer / schedule close).
+   *  Permet au panel de rester ouvert quand la souris passe du bouton au panel. */
+  onHoverOpen?: () => void;
+  onHoverClose?: () => void;
 }) {
   return (
     <>
-      {/* Bouton fermé — version compacte. Conflit `hidden` vs `inline-flex` :
-          on construit les classes display séparément pour que `hidden` ne soit
-          PAS suivi par `inline-flex` (sinon Tailwind override avec inline-flex). */}
+      {/* Bouton fermé — version compacte. Hover ouvre automatiquement
+          (desktop) ; click ouvre aussi (mobile/tactile + accessibilité clavier). */}
       {!open && (
         <button
           type="button"
           onClick={() => setOpen(true)}
+          onMouseEnter={onHoverOpen}
+          onMouseLeave={onHoverClose}
           className={[
             "absolute top-4 left-4 z-10 items-center gap-2 px-3.5 py-2 rounded-full bg-white text-ink font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border border-[color:var(--line)] hover:bg-[color:var(--brand)] hover:text-white hover:border-transparent transition",
             hideTrigger ? "hidden lg:inline-flex" : "inline-flex",
@@ -54,12 +61,14 @@ export default function FiltersBubble({
             className="lg:hidden fixed inset-0 z-[9] bg-black/30 backdrop-blur-[2px]"
           />
           <div
+            onMouseEnter={onHoverOpen}
+            onMouseLeave={onHoverClose}
             className={[
               "absolute z-10 bg-white overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
               // Mobile : bottom-sheet plein largeur
               "inset-x-0 bottom-0 max-h-[85dvh] overflow-y-auto rounded-t-2xl border-t border-[color:var(--line)]",
-              // Desktop : panneau top-left
-              "lg:inset-x-auto lg:bottom-auto lg:top-4 lg:left-4 lg:w-[340px] lg:max-w-[calc(100vw-32px)] lg:max-h-none lg:overflow-hidden lg:rounded-2xl lg:border lg:border-[color:var(--line)]",
+              // Desktop : panneau top-left avec animation slide-in (filters-panel-enter dans globals.css)
+              "lg:inset-x-auto lg:bottom-auto lg:top-4 lg:left-4 lg:w-[340px] lg:max-w-[calc(100vw-32px)] lg:max-h-none lg:overflow-hidden lg:rounded-2xl lg:border lg:border-[color:var(--line)] lg:filters-panel-enter",
             ].join(" ")}
             role="dialog"
             aria-label="Filtres carte"

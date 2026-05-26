@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { communeDataUrl } from "@/lib/url";
 import { History, Info, Box, Printer, Maximize2, Minimize2, MapPin, MoreVertical, X, Target, Hammer } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
@@ -72,6 +72,33 @@ export default function CarteClient({
   const [presentation, setPresentation] = useState(false);
   // Mobile only : toggle de la stack d'actions secondaires
   const [actionsOpen, setActionsOpen] = useState(false);
+  // Timer pour le hover-to-open / hover-to-close des menus déroulants
+  const actionsCloseTimerRef = useRef<number | null>(null);
+  const cancelActionsClose = () => {
+    if (actionsCloseTimerRef.current !== null) {
+      window.clearTimeout(actionsCloseTimerRef.current);
+      actionsCloseTimerRef.current = null;
+    }
+  };
+  const scheduleActionsClose = () => {
+    cancelActionsClose();
+    // Délai 200 ms pour permettre à la souris de transiter du bouton vers le popover
+    actionsCloseTimerRef.current = window.setTimeout(() => setActionsOpen(false), 200);
+  };
+  const filtersCloseTimerRef = useRef<number | null>(null);
+  const cancelFiltersClose = () => {
+    if (filtersCloseTimerRef.current !== null) {
+      window.clearTimeout(filtersCloseTimerRef.current);
+      filtersCloseTimerRef.current = null;
+    }
+  };
+  const scheduleFiltersClose = () => {
+    cancelFiltersClose();
+    filtersCloseTimerRef.current = window.setTimeout(() => setFiltersOpen(false), 200);
+  };
+  // Helpers : ne déclencher le hover que sur devices avec souris (pas mobile)
+  const isHoverDevice = () =>
+    typeof window !== "undefined" && window.matchMedia?.("(hover: hover)").matches;
 
   // Quand on sélectionne un truc, on ferme tous les autres
   const handleStreet = (s: StreetProps | null) => {
@@ -164,7 +191,7 @@ export default function CarteClient({
       )}
 
       {/* Filters bubble (top-left) — bouton fermé caché sur mobile quand card de
-          détail ouverte (le panel ouvert s'affiche en bottom-sheet au-dessus) */}
+          détail ouverte. Hover desktop : ouverture auto + fermeture délai 200 ms. */}
       <FiltersBubble
         open={filtersOpen}
         setOpen={setFiltersOpen}
@@ -173,6 +200,8 @@ export default function CarteClient({
         minYear={minYear}
         maxYear={maxYear}
         hideTrigger={!!(selected || selectedIris || selectedPipeline || selectedPermit)}
+        onHoverOpen={() => { if (isHoverDevice()) { cancelFiltersClose(); setFiltersOpen(true); } }}
+        onHoverClose={() => { if (isHoverDevice()) scheduleFiltersClose(); }}
       />
 
       {/* Right-side action stack — uniformisé desktop + mobile pour éviter superpositions
@@ -194,17 +223,9 @@ export default function CarteClient({
           anyCardOpen ? "hidden lg:flex" : "flex",
         ].join(" ")}
       >
-        {/* 1. Historique — bouton XL (le plus gros, brand) */}
-        <button
-          type="button"
-          onClick={() => setMarketOpen(true)}
-          className={`inline-flex items-center gap-2.5 px-5 py-3.5 rounded-full bg-brand text-white font-semibold text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong hover:shadow-[0_6px_22px_rgba(157,126,68,0.50)] min-h-[48px] ${btnFeedback}`}
-        >
-          <History size={18} />
-          Historique
-        </button>
-
-        {/* 2. Prédire les futures ventes — bouton L (un peu plus petit que Historique) */}
+        {/* 1. Prédire les futures ventes — XL, action primaire (brand)
+            Hover desktop : le label se développe en 'Prédire les futures ventes'
+            via une span hover:max-w qui pousse la largeur. Reste cliquable. */}
         {(dataState?.hasPipeline ?? true) && (
           <button
             type="button"
@@ -215,16 +236,33 @@ export default function CarteClient({
                 ? "Masquer la prédiction des ventes (modèle DPE F/G × historique DVF)"
                 : "Afficher les logements à fort potentiel de vente sur 12 mois (DPE F/G + modèle de prédiction)"
             }
-            className={`inline-flex items-center gap-2 px-4 py-3 rounded-full font-medium text-[14px] min-h-[44px] ${btnFeedback} ${
+            className={`group/predict inline-flex items-center gap-2.5 px-5 py-3.5 rounded-full font-semibold text-[15px] min-h-[48px] ${btnFeedback} ${
               filters.showPipeline
                 ? "bg-brand-strong text-white shadow-[0_4px_20px_rgba(157,126,68,0.55)] ring-2 ring-brand/30 hover:bg-brand"
-                : "bg-brand text-white shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong hover:shadow-[0_6px_20px_rgba(157,126,68,0.45)]"
+                : "bg-brand text-white shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong hover:shadow-[0_6px_22px_rgba(157,126,68,0.50)]"
             }`}
           >
-            <Target size={16} className={filters.showPipeline ? "animate-pulse" : ""} />
-            Prédire ventes
+            <Target size={18} className={filters.showPipeline ? "animate-pulse" : ""} />
+            <span>Prédire</span>
+            {/* Mot caché sur mobile/tactile, révélé au hover desktop via grid trick (anim width fluide) */}
+            <span className="hidden lg:inline-grid grid-cols-[0fr] group-hover/predict:grid-cols-[1fr] transition-[grid-template-columns] duration-300 ease-out">
+              <span className="overflow-hidden whitespace-nowrap">
+                <span className="pl-1">les futures</span>
+              </span>
+            </span>
+            <span>ventes</span>
           </button>
         )}
+
+        {/* 2. Historique — passé en blanc (action secondaire, action primaire = Prédire ventes) */}
+        <button
+          type="button"
+          onClick={() => setMarketOpen(true)}
+          className={`inline-flex items-center gap-2 px-4 py-3 rounded-full bg-white text-ink border border-[color:var(--line)] font-medium text-[14px] shadow-[0_4px_14px_rgba(0,0,0,0.10)] hover:bg-surface-warm hover:border-brand hover:text-brand-strong min-h-[44px] ${btnFeedback}`}
+        >
+          <History size={16} className="text-brand-strong" />
+          Historique
+        </button>
 
         {/* 3. Vue 3D — bouton M (encore plus petit) */}
         <button
@@ -253,10 +291,13 @@ export default function CarteClient({
           IDF
         </a>
 
-        {/* 5. Menu ⋮ — popover en `fixed` pour échapper à tout overflow parent */}
+        {/* 5. Menu ⋮ — popover ; ouverture hover desktop + click mobile, fermeture
+            avec délai 200 ms pour laisser le temps de transiter vers le popover. */}
         <button
           type="button"
           onClick={() => setActionsOpen((v) => !v)}
+          onMouseEnter={() => { if (isHoverDevice()) { cancelActionsClose(); setActionsOpen(true); } }}
+          onMouseLeave={() => { if (isHoverDevice()) scheduleActionsClose(); }}
           aria-expanded={actionsOpen}
           aria-haspopup="menu"
           aria-label={actionsOpen ? "Fermer les autres actions" : "Autres actions"}
@@ -264,7 +305,7 @@ export default function CarteClient({
           className={`inline-flex items-center justify-center w-11 h-11 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border ${btnFeedback} ${
             actionsOpen
               ? "bg-brand text-white border-brand"
-              : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
+              : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand"
           }`}
         >
           {actionsOpen ? <X size={18} /> : <MoreVertical size={18} />}
@@ -287,6 +328,8 @@ export default function CarteClient({
           />
           <div
             role="menu"
+            onMouseEnter={cancelActionsClose}
+            onMouseLeave={() => { if (isHoverDevice()) scheduleActionsClose(); }}
             className="fixed z-50 flex flex-col items-stretch gap-1 w-[220px] bg-white border border-[color:var(--line)] rounded-2xl shadow-[0_12px_32px_rgba(0,0,0,0.22)] p-2 right-4 top-[336px] no-presentation menu-popover-enter"
           >
             {/* Bâtiments modifiés (couche permis) */}
