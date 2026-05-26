@@ -39,23 +39,45 @@ export default function FiltersBubble({
 
       {/* Panel ouvert */}
       {open && (
-        <div className="absolute top-4 left-4 z-10 w-[340px] max-w-[calc(100vw-32px)] bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] border border-[color:var(--line)] overflow-hidden">
-          <div className="flex items-center justify-between px-5 py-3.5 border-b border-[color:var(--line-soft)]">
-            <div className="flex items-center gap-2 text-ink font-medium text-[15px]">
-              <SlidersHorizontal size={17} className="text-brand-strong" />
-              Projections
+        <>
+          {/* Backdrop mobile only — clic pour fermer */}
+          <button
+            type="button"
+            aria-label="Fermer les projections"
+            onClick={() => setOpen(false)}
+            className="sm:hidden fixed inset-0 z-[9] bg-black/30 backdrop-blur-[2px]"
+          />
+          <div
+            className={[
+              "absolute z-10 bg-white overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
+              // Mobile : bottom-sheet plein largeur
+              "inset-x-0 bottom-0 max-h-[85dvh] overflow-y-auto rounded-t-2xl border-t border-[color:var(--line)]",
+              // Desktop : panneau top-left
+              "sm:inset-x-auto sm:bottom-auto sm:top-4 sm:left-4 sm:w-[340px] sm:max-w-[calc(100vw-32px)] sm:max-h-none sm:overflow-hidden sm:rounded-2xl sm:border sm:border-[color:var(--line)]",
+            ].join(" ")}
+            role="dialog"
+            aria-label="Filtres projections"
+          >
+            {/* Drag handle mobile */}
+            <div className="sm:hidden flex justify-center pt-2 pb-1">
+              <div className="w-10 h-1 rounded-full bg-[color:var(--line)]" aria-hidden="true" />
             </div>
-            <button
-              type="button"
-              onClick={() => setOpen(false)}
-              className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm min-w-[36px] min-h-[36px] flex items-center justify-center"
-              aria-label="Fermer"
-            >
-              <X size={18} />
-            </button>
-          </div>
+            <div className="flex items-center justify-between px-5 py-3.5 border-b border-[color:var(--line-soft)]">
+              <div className="flex items-center gap-2 text-ink font-medium text-[15px]">
+                <SlidersHorizontal size={17} className="text-brand-strong" />
+                Projections
+              </div>
+              <button
+                type="button"
+                onClick={() => setOpen(false)}
+                className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm min-w-[36px] min-h-[36px] flex items-center justify-center"
+                aria-label="Fermer"
+              >
+                <X size={18} />
+              </button>
+            </div>
 
-          <div className="px-5 py-5 space-y-6">
+            <div className="px-5 py-5 space-y-6">
             <Section title="Période analysée">
               <div className="flex items-center gap-3 text-[15px]">
                 <select
@@ -199,7 +221,8 @@ export default function FiltersBubble({
               )}
             </Section>
           </div>
-        </div>
+          </div>
+        </>
       )}
     </>
   );
