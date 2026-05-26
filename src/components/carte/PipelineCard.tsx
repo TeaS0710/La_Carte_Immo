@@ -33,8 +33,16 @@ export default function PipelineCard({
       role="dialog"
       aria-modal="false"
       aria-labelledby="pipeline-card-title"
-      className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 w-[min(480px,calc(100vw-32px))] max-h-[85vh] overflow-y-auto bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] border border-[color:var(--line)]"
+      className={[
+        "absolute z-10 bg-white overflow-y-auto shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
+        "inset-x-0 bottom-0 max-h-[85dvh] rounded-t-2xl border-t border-[color:var(--line)]",
+        "sm:inset-x-auto sm:bottom-4 sm:left-1/2 sm:-translate-x-1/2 sm:w-[min(480px,calc(100vw-32px))] sm:max-h-[85vh] sm:rounded-2xl sm:border sm:border-[color:var(--line)]",
+      ].join(" ")}
     >
+      {/* Drag handle mobile */}
+      <div className="sm:hidden flex justify-center pt-2 pb-1 sticky top-0 bg-white z-20 -mb-1">
+        <div className="w-10 h-1 rounded-full bg-[color:var(--line)]" aria-hidden="true" />
+      </div>
       {/* Header */}
       <header className="sticky top-0 bg-white border-b border-[color:var(--line-soft)] px-5 pt-4 pb-3 z-10">
         <div className="flex items-start justify-between gap-3 mb-3">

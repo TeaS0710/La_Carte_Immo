@@ -147,7 +147,21 @@ export default function StreetCard({
   }
 
   return (
-    <aside className="absolute top-0 right-0 bottom-0 z-20 w-full sm:w-[460px] bg-white border-l border-[color:var(--line)] shadow-[0_0_32px_rgba(0,0,0,0.08)] overflow-y-auto flex flex-col">
+    <aside
+      className={[
+        "absolute z-20 bg-white overflow-y-auto flex flex-col shadow-[0_0_32px_rgba(0,0,0,0.08)]",
+        // Mobile : bottom sheet
+        "inset-x-0 bottom-0 max-h-[85dvh] rounded-t-2xl border-t border-[color:var(--line)]",
+        // Desktop : right drawer
+        "sm:inset-x-auto sm:top-0 sm:right-0 sm:bottom-0 sm:w-[460px] sm:max-h-none sm:rounded-none sm:border-t-0 sm:border-l sm:border-[color:var(--line)]",
+        "print:static print:inset-auto print:max-h-none",
+      ].join(" ")}
+      role="dialog"
+    >
+      {/* Drag handle mobile */}
+      <div className="sm:hidden no-print flex justify-center pt-2 pb-1 shrink-0">
+        <div className="w-10 h-1 rounded-full bg-[color:var(--line)]" aria-hidden="true" />
+      </div>
       {/* Header */}
       <header className="sticky top-0 bg-white border-b border-[color:var(--line-soft)] px-5 py-4 z-10">
         <div className="flex items-start justify-between gap-3">

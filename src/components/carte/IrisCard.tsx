@@ -115,7 +115,24 @@ export default function IrisCard({
     ?? 1;
 
   return (
-    <aside className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 w-[min(640px,calc(100vw-32px))] max-h-[85vh] overflow-y-auto bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] border border-[color:var(--line)]">
+    <aside
+      className={[
+        "absolute z-10 bg-white overflow-y-auto shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
+        // Mobile (< sm) : bottom sheet plein largeur attaché au bas
+        "inset-x-0 bottom-0 max-h-[85dvh] rounded-t-2xl border-t border-[color:var(--line)]",
+        // Desktop (sm+) : carte flottante centrée
+        "sm:inset-x-auto sm:bottom-4 sm:left-1/2 sm:-translate-x-1/2 sm:w-[min(640px,calc(100vw-32px))] sm:max-h-[85vh] sm:rounded-2xl sm:border sm:border-[color:var(--line)]",
+        // Print : remplace tout
+        "print:static print:inset-auto print:translate-x-0 print:max-h-none",
+      ].join(" ")}
+      role="dialog"
+      aria-labelledby="iris-card-title"
+    >
+      {/* ── Drag handle mobile (purement visuel, indicate qu'on peut scroller / fermer) ── */}
+      <div className="sm:hidden no-print flex justify-center pt-2 pb-1 sticky top-0 bg-white z-10 -mb-1">
+        <div className="w-10 h-1 rounded-full bg-[color:var(--line)]" aria-hidden="true" />
+      </div>
+
       {/* ── Print-only branding header (Prelys) ── */}
       <div className="hidden print:flex print:items-start print:justify-between print:gap-4 print:mb-3 print:pb-3 print:border-b print:border-black/20">
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -142,7 +159,7 @@ export default function IrisCard({
           <div className="text-[11px] uppercase tracking-[0.15em] text-brand-strong mb-0.5">
             Quartier IRIS {iris.code_iris}
           </div>
-          <h3 className="text-xl font-semibold text-ink leading-tight truncate">
+          <h3 id="iris-card-title" className="text-xl font-semibold text-ink leading-tight truncate">
             {iris.nom_iris}
           </h3>
           <div className="text-xs text-ink-mute mt-0.5">
