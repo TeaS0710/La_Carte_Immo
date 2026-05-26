@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "./scripts/deploy.sh",
+    "deploy:preview": "./scripts/deploy.sh --preview",
+    "deploy:public": "./scripts/deploy.sh --public",
+    "deploy:private": "./scripts/deploy.sh --private",
+    "deploy:rotate-pwd": "./scripts/deploy.sh --rotate-password"
   },
   "dependencies": {
     "lucide-react": "^1.16.0",
