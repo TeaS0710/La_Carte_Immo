@@ -169,10 +169,12 @@ export default function CarteClient({
       */}
       {(() => {
         const anyCardOpen = !!(selected || selectedIris || selectedPipeline || selectedPermit);
+        // Classe de feedback tactile commune : pression visuelle au clic
+        const btnFeedback = "transition-all duration-150 ease-out active:scale-[0.95] active:shadow-inner";
         return (
       <div
         className={[
-          "no-presentation absolute top-[140px] right-4 z-30 flex flex-col items-end gap-2 max-h-[calc(100dvh-160px)] overflow-y-auto overflow-x-hidden pr-0.5",
+          "no-presentation absolute top-[140px] right-4 z-30 flex flex-col items-end gap-2",
           anyCardOpen ? "hidden sm:flex" : "flex",
         ].join(" ")}
       >
@@ -180,7 +182,7 @@ export default function CarteClient({
         <button
           type="button"
           onClick={() => setMarketOpen(true)}
-          className="inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong transition min-h-[44px]"
+          className={`inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong hover:shadow-[0_6px_20px_rgba(157,126,68,0.45)] min-h-[44px] ${btnFeedback}`}
         >
           <History size={17} />
           Historique
@@ -197,22 +199,40 @@ export default function CarteClient({
                 ? "Masquer la prédiction des ventes (modèle DPE F/G × historique DVF)"
                 : "Afficher les logements à fort potentiel de vente sur 12 mois (DPE F/G + modèle de prédiction)"
             }
-            className={`inline-flex items-center gap-2 px-4 py-3 rounded-full font-medium text-[15px] transition min-h-[44px] ${
+            className={`inline-flex items-center gap-2 px-4 py-3 rounded-full font-medium text-[15px] min-h-[44px] ${btnFeedback} ${
               filters.showPipeline
-                ? "bg-brand-strong text-white shadow-[0_4px_16px_rgba(157,126,68,0.50)] hover:bg-brand"
-                : "bg-brand text-white shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong"
+                ? "bg-brand-strong text-white shadow-[0_4px_20px_rgba(157,126,68,0.55)] ring-2 ring-brand/30 hover:bg-brand"
+                : "bg-brand text-white shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong hover:shadow-[0_6px_20px_rgba(157,126,68,0.45)]"
             }`}
           >
-            <Target size={17} />
+            <Target size={17} className={filters.showPipeline ? "animate-pulse" : ""} />
             <span className="hidden sm:inline">Prédire les futures ventes</span>
             <span className="sm:hidden">Prédire ventes</span>
           </button>
         )}
 
-        {/* 3. Vue Île-de-France (retour région) */}
+        {/* 3. Vue 3D — bouton principal (sorti du menu ⋮ à la demande utilisateur) */}
+        <button
+          type="button"
+          onClick={() => setIs3d((v) => !v)}
+          aria-pressed={is3d}
+          aria-label={is3d ? "Désactiver la vue 3D" : "Activer la vue 3D"}
+          title={is3d ? "Revenir en vue plate" : "Passer en vue 3D (relief des bâtiments)"}
+          className={`inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border min-h-[44px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${btnFeedback} ${
+            is3d
+              ? "bg-brand text-white border-brand hover:bg-brand-strong"
+              : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand"
+          }`}
+        >
+          <Box size={15} aria-hidden="true" />
+          <span className="hidden sm:inline">{is3d ? "Vue 3D activée" : "Vue 3D"}</span>
+          <span className="sm:hidden">3D</span>
+        </button>
+
+        {/* 4. Vue Île-de-France (retour région) */}
         <a
           href="/carte/"
-          className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand transition min-h-[44px]"
+          className={`inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand min-h-[44px] ${btnFeedback}`}
           title="Revenir à la vue Île-de-France entière"
         >
           <MapPin size={14} className="text-brand-strong" aria-hidden="true" />
@@ -220,101 +240,86 @@ export default function CarteClient({
           <span className="sm:hidden">IDF</span>
         </a>
 
-        {/* 4. Menu ⋮ — wrapper pour ancrer le popover */}
-        <div className="relative">
-          <button
-            type="button"
-            onClick={() => setActionsOpen((v) => !v)}
-            aria-expanded={actionsOpen}
-            aria-haspopup="menu"
-            aria-label={actionsOpen ? "Fermer les autres actions" : "Ouvrir les autres actions"}
-            title="Autres actions : 3D, bâtiments modifiés, PDF, présentation"
-            className={`inline-flex items-center justify-center w-11 h-11 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border transition ${
-              actionsOpen
-                ? "bg-brand text-white border-brand"
-                : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
-            }`}
-          >
-            {actionsOpen ? <X size={18} /> : <MoreVertical size={18} />}
-          </button>
-
-          {/* Popover menu — ancré au bouton ⋮, ouvert au clic */}
-          {actionsOpen && (
-            <>
-              {/* Backdrop cliquable pour fermer (transparent côté desktop, semi-opaque mobile) */}
-              <button
-                type="button"
-                aria-label="Fermer le menu"
-                onClick={() => setActionsOpen(false)}
-                className="fixed inset-0 z-40 sm:bg-transparent bg-black/20"
-              />
-              <div
-                role="menu"
-                className="absolute top-12 right-0 z-50 flex flex-col items-stretch gap-1.5 w-[200px] bg-white border border-[color:var(--line)] rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.18)] p-2"
-              >
-                {/* 3D toggle */}
-                <button
-                  type="button"
-                  role="menuitemcheckbox"
-                  aria-checked={is3d}
-                  onClick={() => { setIs3d((v) => !v); setActionsOpen(false); }}
-                  className={`inline-flex items-center gap-2 px-3 py-2.5 rounded-lg text-[13px] min-h-[40px] transition ${
-                    is3d
-                      ? "bg-brand text-white"
-                      : "text-ink hover:bg-surface-warm"
-                  }`}
-                >
-                  <Box size={15} aria-hidden="true" />
-                  Vue 3D {is3d && <span className="ml-auto text-[10px]">●</span>}
-                </button>
-
-                {/* Bâtiments modifiés toggle (couche permis) */}
-                {(dataState?.hasPermits ?? true) && (
-                  <button
-                    type="button"
-                    role="menuitemcheckbox"
-                    aria-checked={filters.showPermits}
-                    onClick={() => { setFilters({ ...filters, showPermits: !filters.showPermits }); setActionsOpen(false); }}
-                    title="Afficher les permis de construire / cadastre récents"
-                    className={`inline-flex items-center gap-2 px-3 py-2.5 rounded-lg text-[13px] min-h-[40px] transition ${
-                      filters.showPermits
-                        ? "bg-brand text-white"
-                        : "text-ink hover:bg-surface-warm"
-                    }`}
-                  >
-                    <Hammer size={15} aria-hidden="true" />
-                    Bâtiments modifiés {filters.showPermits && <span className="ml-auto text-[10px]">●</span>}
-                  </button>
-                )}
-
-                {/* PDF */}
-                <button
-                  type="button"
-                  role="menuitem"
-                  onClick={() => { window.print(); setActionsOpen(false); }}
-                  className="inline-flex items-center gap-2 px-3 py-2.5 rounded-lg text-[13px] min-h-[40px] text-ink hover:bg-surface-warm transition"
-                >
-                  <Printer size={15} aria-hidden="true" />
-                  Exporter en PDF
-                </button>
-
-                {/* Mode présentation */}
-                <button
-                  type="button"
-                  role="menuitem"
-                  onClick={() => { setPresentation(true); setActionsOpen(false); }}
-                  className="inline-flex items-center gap-2 px-3 py-2.5 rounded-lg text-[13px] min-h-[40px] text-ink hover:bg-surface-warm transition"
-                >
-                  <Maximize2 size={15} aria-hidden="true" />
-                  Mode présentation
-                </button>
-              </div>
-            </>
-          )}
-        </div>
+        {/* 5. Menu ⋮ — popover en `fixed` pour échapper à tout overflow parent */}
+        <button
+          type="button"
+          onClick={() => setActionsOpen((v) => !v)}
+          aria-expanded={actionsOpen}
+          aria-haspopup="menu"
+          aria-label={actionsOpen ? "Fermer les autres actions" : "Autres actions"}
+          title="Autres actions : Bâtiments modifiés, PDF, Présentation"
+          className={`inline-flex items-center justify-center w-11 h-11 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border ${btnFeedback} ${
+            actionsOpen
+              ? "bg-brand text-white border-brand"
+              : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm"
+          }`}
+        >
+          {actionsOpen ? <X size={18} /> : <MoreVertical size={18} />}
+        </button>
       </div>
         );
       })()}
+
+      {/* Popover du menu ⋮ — rendu HORS du wrapper stack pour échapper à
+          tout overflow et bug de positionnement. `fixed` ancré aux coords du
+          stack (top: ~328px = top-[140px] + 5 boutons × ~46px + gaps, right: 16px).
+      */}
+      {actionsOpen && (
+        <>
+          <button
+            type="button"
+            aria-label="Fermer le menu"
+            onClick={() => setActionsOpen(false)}
+            className="fixed inset-0 z-40 bg-black/20 sm:bg-black/10"
+          />
+          <div
+            role="menu"
+            className="fixed z-50 flex flex-col items-stretch gap-1 w-[220px] bg-white border border-[color:var(--line)] rounded-2xl shadow-[0_12px_32px_rgba(0,0,0,0.22)] p-2 right-4 top-[336px] no-presentation menu-popover-enter"
+          >
+            {/* Bâtiments modifiés (couche permis) */}
+            {(dataState?.hasPermits ?? true) && (
+              <button
+                type="button"
+                role="menuitemcheckbox"
+                aria-checked={filters.showPermits}
+                onClick={() => { setFilters({ ...filters, showPermits: !filters.showPermits }); setActionsOpen(false); }}
+                title="Afficher les permis de construire / cadastre récents"
+                className={`inline-flex items-center gap-2 px-3 py-2.5 rounded-lg text-[13.5px] min-h-[44px] transition-all duration-150 active:scale-[0.97] ${
+                  filters.showPermits
+                    ? "bg-brand text-white"
+                    : "text-ink hover:bg-surface-warm"
+                }`}
+              >
+                <Hammer size={15} aria-hidden="true" />
+                <span className="flex-1 text-left">Bâtiments modifiés</span>
+                {filters.showPermits && <span className="text-[10px]">●</span>}
+              </button>
+            )}
+
+            {/* PDF */}
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => { window.print(); setActionsOpen(false); }}
+              className="inline-flex items-center gap-2 px-3 py-2.5 rounded-lg text-[13.5px] min-h-[44px] text-ink hover:bg-surface-warm transition-all duration-150 active:scale-[0.97]"
+            >
+              <Printer size={15} aria-hidden="true" />
+              <span className="flex-1 text-left">Exporter en PDF</span>
+            </button>
+
+            {/* Mode présentation */}
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => { setPresentation(true); setActionsOpen(false); }}
+              className="inline-flex items-center gap-2 px-3 py-2.5 rounded-lg text-[13.5px] min-h-[44px] text-ink hover:bg-surface-warm transition-all duration-150 active:scale-[0.97]"
+            >
+              <Maximize2 size={15} aria-hidden="true" />
+              <span className="flex-1 text-left">Mode présentation</span>
+            </button>
+          </div>
+        </>
+      )}
 
       {/* Legend (bottom-left) — fusion: ronds=rues, fond=quartiers
           Masquée sur mobile (< sm) si une carte de détail est ouverte pour ne
