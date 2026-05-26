@@ -181,13 +181,98 @@ export default function ComparateurClient({ communes }: { communes: CommuneRef[]
         </div>
       </section>
 
-      {/* ── Tableau comparatif ── */}
+      {/* ── Mobile : cards stackées (1 commune par card, scroll vertical) ── */}
+      {selected.length > 0 && (
+        <section className="md:hidden space-y-4">
+          {selected.map((code) => {
+            const l = loaded[code];
+            return (
+              <div key={code} className="rounded-2xl border border-[color:var(--line)] bg-white overflow-hidden">
+                <header className="bg-surface-warm px-4 py-3 border-b border-[color:var(--line)] flex items-baseline justify-between gap-2">
+                  <div className="min-w-0">
+                    <div className="text-[15px] font-semibold text-ink leading-tight truncate">
+                      {l?.ref.nom ?? code}
+                    </div>
+                    <div className="text-[11px] text-ink-mute mt-0.5">
+                      INSEE {code} · dépt {l?.ref.code_dept}
+                    </div>
+                  </div>
+                  {l?.ref.slug && (
+                    <Link
+                      href={`/carte/ville/${l.ref.slug}`}
+                      prefetch
+                      className="text-[11.5px] text-brand-strong hover:underline shrink-0"
+                    >
+                      Ouvrir la carte ↗
+                    </Link>
+                  )}
+                </header>
+                <div className="divide-y divide-[color:var(--line-soft)]">
+                  {ROWS.map((row) => {
+                    const range = ranges[row.key];
+                    const v = l?.avg?.[row.key];
+                    if (typeof v !== "number") {
+                      return (
+                        <div key={row.key} className="flex items-baseline justify-between gap-3 px-4 py-2.5">
+                          <div className="text-[12px] text-ink-soft">{row.label}</div>
+                          <div className="tabular text-[12px] text-ink-mute">{l ? "—" : "…"}</div>
+                        </div>
+                      );
+                    }
+                    const isTop = range && v === range.max && selected.length > 1;
+                    const isBottom = range && v === range.min && selected.length > 1 && range.max !== range.min;
+                    const pct = range && range.max > range.min ? ((v - range.min) / (range.max - range.min)) * 100 : 100;
+                    return (
+                      <div key={row.key} className="px-4 py-2.5">
+                        <div className="flex items-baseline justify-between gap-3 mb-1">
+                          <div className="text-[12px] text-ink-soft">
+                            <span className="text-ink">{row.label}</span>
+                          </div>
+                          <div className={`tabular text-[14px] font-semibold ${isTop ? "text-brand-strong" : isBottom ? "text-terracotta" : "text-ink"}`}>
+                            {row.fmt(v)}
+                            {isTop && <span className="ml-1 text-[9px] uppercase tracking-wide text-brand-strong">top</span>}
+                          </div>
+                        </div>
+                        <div className="h-1.5 rounded-full bg-[color:var(--line-soft)] overflow-hidden">
+                          <div
+                            className={`h-full rounded-full ${isBottom ? "bg-terracotta/60" : "bg-brand"}`}
+                            style={{ width: `${Math.max(4, pct)}%` }}
+                          />
+                        </div>
+                      </div>
+                    );
+                  })}
+                  {/* Sirene */}
+                  {l?.stats?.sirene_agences_immo != null && (
+                    <div className="flex items-baseline justify-between gap-3 px-4 py-2.5 bg-surface-warm/60">
+                      <div className="text-[12px]">
+                        <div className="text-ink">Concurrence agences immo</div>
+                        <div className="text-[10.5px] text-ink-mute">Sirene 68.31Z + 68.32</div>
+                      </div>
+                      <div className="tabular text-[14px] font-semibold text-ink">
+                        {l.stats.sirene_agences_immo.toLocaleString("fr-FR")}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+          <div className="text-[11px] text-ink-mute leading-relaxed">
+            <strong className="text-brand-strong">Top</strong> = meilleur de la sélection ·{" "}
+            <strong className="text-terracotta">moins bon</strong> = plus bas. Les barres normalisent
+            la valeur entre le min et le max des communes sélectionnées.
+          </div>
+        </section>
+      )}
+
+      {/* ── Tableau comparatif (desktop/tablet large md+) ── */}
       {selected.length === 0 ? (
         <div className="rounded-2xl border border-[color:var(--line)] bg-surface-warm p-8 text-center text-[13px] text-ink-soft">
           Cochez 2 à 4 communes pour démarrer la comparaison.
         </div>
       ) : (
-        <section className="rounded-2xl border border-[color:var(--line)] bg-white overflow-hidden">
+        <section className="hidden md:block rounded-2xl border border-[color:var(--line)] bg-white overflow-hidden">
           <div className="overflow-x-auto">
             <table className="w-full text-[13px]">
               <thead>
