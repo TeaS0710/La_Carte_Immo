@@ -53,3 +53,4 @@ yarn-error.log*
 data/raw/
 data/prelys-site/
 out/
+.credentials.local
