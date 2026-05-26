@@ -1,0 +1,120 @@
+{
+  "commune": "Varennes-sur-Seine",
+  "insee": "77482",
+  "generated_at": "2026-05-24T22:00:46.405263Z",
+  "total_sales": 592,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 68,
+  "median_price": 170000.0,
+  "median_price_per_sqm": 2346.153846153846,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 117,
+      "median_price": 210000.0
+    },
+    {
+      "year": 2022,
+      "sales": 130,
+      "median_price": 105000.0
+    },
+    {
+      "year": 2023,
+      "sales": 123,
+      "median_price": 160000.0
+    },
+    {
+      "year": 2024,
+      "sales": 95,
+      "median_price": 165000.0
+    },
+    {
+      "year": 2025,
+      "sales": 127,
+      "median_price": 178750.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV ALBERT GRAVE",
+      "sales": 36,
+      "median_price_per_sqm": 2385.357142857143
+    },
+    {
+      "street_name": "RUE DE LA GARE",
+      "sales": 35,
+      "median_price_per_sqm": 2725.9472673301902
+    },
+    {
+      "street_name": "RES GRANDE GARENNE",
+      "sales": 32,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 32,
+      "median_price_per_sqm": 1951.644370122631
+    },
+    {
+      "street_name": "AV DU 8 MAI 1945",
+      "sales": 31,
+      "median_price_per_sqm": 3636.3636363636365
+    },
+    {
+      "street_name": "RUE DE LA CROIX DE SIX",
+      "sales": 25,
+      "median_price_per_sqm": 2224.97582205029
+    },
+    {
+      "street_name": "VARENNES",
+      "sales": 24,
+      "median_price_per_sqm": 2192.7710843373493
+    },
+    {
+      "street_name": "LE MARAIS DU PONT",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE CANNES",
+      "sales": 23,
+      "median_price_per_sqm": 1492.063492063492
+    },
+    {
+      "street_name": "RUE DU PORT",
+      "sales": 19,
+      "median_price_per_sqm": 2390.7657657657655
+    },
+    {
+      "street_name": "RUE DE LA PRAIRIE",
+      "sales": 18,
+      "median_price_per_sqm": 1805.084745762712
+    },
+    {
+      "street_name": "RUE DE DORMELLES",
+      "sales": 18,
+      "median_price_per_sqm": 2200.0
+    },
+    {
+      "street_name": "RTE DE FOSSARD",
+      "sales": 17,
+      "median_price_per_sqm": 1274.4444444444443
+    },
+    {
+      "street_name": "LA PRAIRIE",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA GRANDE GARENNE",
+      "sales": 14,
+      "median_price_per_sqm": 2723.076923076923
+    }
+  ]
+}

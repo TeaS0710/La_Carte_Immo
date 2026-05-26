@@ -1,0 +1,39 @@
+{
+  "year": 2025,
+  "sales_year": 10,
+  "sales_delta_pct": 150.0,
+  "median_price": 417700.0,
+  "median_ppsqm": 2610.625,
+  "delta_ppsqm_pct": 2.9,
+  "notable_sales": [
+    {
+      "date": "2025-07-25",
+      "street": "RUE DU LIMODIN",
+      "type": "Maison",
+      "surface": 160,
+      "price": 417700.0
+    },
+    {
+      "date": "2025-06-20",
+      "street": "RUE DU LIMODIN",
+      "type": "Maison",
+      "surface": 103,
+      "price": 360000.0
+    },
+    {
+      "date": "2025-11-17",
+      "street": "RUE ETIENNE JODELLE",
+      "type": "Maison",
+      "surface": 130,
+      "price": 327000.0
+    },
+    {
+      "date": "2025-07-16",
+      "street": "RUE DES TILLEULS",
+      "type": "Maison",
+      "surface": 77,
+      "price": 304000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:44:12.710786Z"
+}

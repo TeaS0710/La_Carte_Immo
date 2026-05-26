@@ -1,0 +1,120 @@
+{
+  "commune": "Montigny-sur-Loing",
+  "insee": "77312",
+  "generated_at": "2026-05-24T21:30:18.779764Z",
+  "total_sales": 1361,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 138,
+  "median_price": 220000.0,
+  "median_price_per_sqm": 3437.5,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 371,
+      "median_price": 285000.0
+    },
+    {
+      "year": 2022,
+      "sales": 292,
+      "median_price": 330715.0
+    },
+    {
+      "year": 2023,
+      "sales": 196,
+      "median_price": 233520.0
+    },
+    {
+      "year": 2024,
+      "sales": 235,
+      "median_price": 90000.0
+    },
+    {
+      "year": 2025,
+      "sales": 267,
+      "median_price": 113000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "MONTIGNY",
+      "sales": 131,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE RENEE MONTGERMONT",
+      "sales": 45,
+      "median_price_per_sqm": 3226.546052631579
+    },
+    {
+      "street_name": "LES PETITES AUNES",
+      "sales": 42,
+      "median_price_per_sqm": 2766.666666666667
+    },
+    {
+      "street_name": "LES COURLUS",
+      "sales": 41,
+      "median_price_per_sqm": 5854.444444444444
+    },
+    {
+      "street_name": "LA TOUR",
+      "sales": 34,
+      "median_price_per_sqm": 5675.675675675676
+    },
+    {
+      "street_name": "LES GIRARDES",
+      "sales": 34,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA LIBERATION",
+      "sales": 33,
+      "median_price_per_sqm": 2300.0
+    },
+    {
+      "street_name": "RUE DES ROUISSES",
+      "sales": 31,
+      "median_price_per_sqm": 2647.0588235294117
+    },
+    {
+      "street_name": "RUE DES CORMIERS",
+      "sales": 30,
+      "median_price_per_sqm": 3952.5
+    },
+    {
+      "street_name": "RUE DU LOING",
+      "sales": 28,
+      "median_price_per_sqm": 2763.157894736842
+    },
+    {
+      "street_name": "RUE DU TROU DE LA VENTE",
+      "sales": 28,
+      "median_price_per_sqm": 3310.846560846561
+    },
+    {
+      "street_name": "SORQUES",
+      "sales": 27,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CHAMPS CHETIFS",
+      "sales": 25,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES BERTINES",
+      "sales": 25,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE MARLOTTE",
+      "sales": 25,
+      "median_price_per_sqm": 3222.222222222222
+    }
+  ]
+}

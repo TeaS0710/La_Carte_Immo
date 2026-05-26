@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 145,
+  "sales_delta_pct": -14.7,
+  "median_price": 300800.0,
+  "median_ppsqm": 2302.3392307692307,
+  "delta_ppsqm_pct": -14.7,
+  "notable_sales": [
+    {
+      "date": "2025-08-01",
+      "street": "RUE DES BORDES",
+      "type": "Maison",
+      "surface": 424,
+      "price": 780000.0
+    },
+    {
+      "date": "2025-01-15",
+      "street": "RUE DU PARADIS",
+      "type": "Maison",
+      "surface": 180,
+      "price": 659700.0
+    },
+    {
+      "date": "2025-10-27",
+      "street": "RUE DE SAINTE AUBIERGE",
+      "type": "Maison",
+      "surface": 250,
+      "price": 555000.0
+    },
+    {
+      "date": "2025-03-05",
+      "street": "RUE DU ROCHER",
+      "type": "Maison",
+      "surface": 182,
+      "price": 415975.0
+    },
+    {
+      "date": "2025-12-12",
+      "street": "RUE DE SAINTE AUBIERGE",
+      "type": "Maison",
+      "surface": 169,
+      "price": 389095.33
+    }
+  ],
+  "generated_at": "2026-05-24T21:38:31.530145Z"
+}

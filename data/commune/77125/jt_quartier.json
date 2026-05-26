@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 77,
+  "sales_delta_pct": 10.0,
+  "median_price": 315000.0,
+  "median_ppsqm": 3489.93288590604,
+  "delta_ppsqm_pct": 4.0,
+  "notable_sales": [
+    {
+      "date": "2025-03-10",
+      "street": "RUE PASTEUR",
+      "type": "Maison",
+      "surface": 75,
+      "price": 1551150.0
+    },
+    {
+      "date": "2025-12-10",
+      "street": "RUE PASTEUR",
+      "type": "Maison",
+      "surface": 236,
+      "price": 838500.0
+    },
+    {
+      "date": "2025-09-22",
+      "street": "RUE PASTEUR",
+      "type": "Maison",
+      "surface": 175,
+      "price": 685000.0
+    },
+    {
+      "date": "2025-03-31",
+      "street": "RUE PASTEUR",
+      "type": "Maison",
+      "surface": 231,
+      "price": 540200.0
+    },
+    {
+      "date": "2025-11-28",
+      "street": "RUE PASTEUR",
+      "type": "Maison",
+      "surface": 149,
+      "price": 520000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:52:28.410471Z"
+}

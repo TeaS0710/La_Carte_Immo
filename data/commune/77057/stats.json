@@ -1,0 +1,120 @@
+{
+  "commune": "Bussières",
+  "insee": "77057",
+  "generated_at": "2026-05-24T20:39:51.418375Z",
+  "total_sales": 183,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 22,
+  "median_price": 184000.0,
+  "median_price_per_sqm": 2254.0266912103084,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 25,
+      "median_price": 184000.0
+    },
+    {
+      "year": 2022,
+      "sales": 52,
+      "median_price": 229000.0
+    },
+    {
+      "year": 2023,
+      "sales": 78,
+      "median_price": 179000.0
+    },
+    {
+      "year": 2024,
+      "sales": 21,
+      "median_price": 164000.0
+    },
+    {
+      "year": 2025,
+      "sales": 7,
+      "median_price": 175000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE D ORLY",
+      "sales": 70,
+      "median_price_per_sqm": 2500.0
+    },
+    {
+      "street_name": "RUE DE LA FERTE SOUS JOUARRE",
+      "sales": 35,
+      "median_price_per_sqm": 1706.007807981492
+    },
+    {
+      "street_name": "RUE DE BOIS MARTIN",
+      "sales": 27,
+      "median_price_per_sqm": 2243.9024390243903
+    },
+    {
+      "street_name": "LES CABARETS",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CR DE LA GARENNIERE",
+      "sales": 5,
+      "median_price_per_sqm": 2003.1707317073171
+    },
+    {
+      "street_name": "RUE DE LA CROIX",
+      "sales": 4,
+      "median_price_per_sqm": 910.7142857142857
+    },
+    {
+      "street_name": "BUSSIERES",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA PIERRE AMELOT",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE SAACY",
+      "sales": 3,
+      "median_price_per_sqm": 2327.1028037383176
+    },
+    {
+      "street_name": "CHE DES CABARETS",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA GARENNIERE",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA CORNEE",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "FONTAINE D AIN",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA ROBERDEBOURG",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES SAULES D ORLY",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

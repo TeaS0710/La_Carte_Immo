@@ -1,0 +1,120 @@
+{
+  "commune": "Poincy",
+  "insee": "77369",
+  "generated_at": "2026-05-24T21:35:04.898600Z",
+  "total_sales": 254,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 35,
+  "median_price": 195000.0,
+  "median_price_per_sqm": 3047.0588235294117,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 66,
+      "median_price": 137500.0
+    },
+    {
+      "year": 2022,
+      "sales": 32,
+      "median_price": 200000.0
+    },
+    {
+      "year": 2023,
+      "sales": 16,
+      "median_price": 232650.0
+    },
+    {
+      "year": 2024,
+      "sales": 78,
+      "median_price": 34341.55
+    },
+    {
+      "year": 2025,
+      "sales": 62,
+      "median_price": 560000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LES ROUTIEUX",
+      "sales": 25,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BAS DES ROUTIEUX",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "AV DE MEAUX",
+      "sales": 17,
+      "median_price_per_sqm": 30973.451327433628
+    },
+    {
+      "street_name": "RUE DU GEN DE GAULLE",
+      "sales": 14,
+      "median_price_per_sqm": 3433.3333333333335
+    },
+    {
+      "street_name": "RUE CLEMENCE",
+      "sales": 13,
+      "median_price_per_sqm": 3529.4117647058824
+    },
+    {
+      "street_name": "ANCIEN BOIS DE POINCY",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES PRES DU MOULIN",
+      "sales": 12,
+      "median_price_per_sqm": 3816.6666666666665
+    },
+    {
+      "street_name": "RUE STE FARE",
+      "sales": 12,
+      "median_price_per_sqm": 2680.0064664163538
+    },
+    {
+      "street_name": "CHE DE DAMPLEGER",
+      "sales": 12,
+      "median_price_per_sqm": 3068.9256198347107
+    },
+    {
+      "street_name": "RUE DE L AQUEDUC",
+      "sales": 10,
+      "median_price_per_sqm": 2780.663780663781
+    },
+    {
+      "street_name": "SUR LA GRANDE ROUTE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE SOPHIE DE CHOISEUL",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "POINCY",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU MOULIN",
+      "sales": 6,
+      "median_price_per_sqm": 13300.0
+    },
+    {
+      "street_name": "AU SUD DU CHEMIN DE FER",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

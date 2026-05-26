@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Cyr-sur-Morin",
+  "insee": "77405",
+  "generated_at": "2026-05-24T21:38:57.783869Z",
+  "total_sales": 1071,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 187,
+  "median_price": 91500.0,
+  "median_price_per_sqm": 2108.99327758649,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 284,
+      "median_price": 88000.0
+    },
+    {
+      "year": 2022,
+      "sales": 275,
+      "median_price": 99700.0
+    },
+    {
+      "year": 2023,
+      "sales": 201,
+      "median_price": 72500.0
+    },
+    {
+      "year": 2024,
+      "sales": 193,
+      "median_price": 99000.0
+    },
+    {
+      "year": 2025,
+      "sales": 118,
+      "median_price": 93000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LES LOUVIERES",
+      "sales": 56,
+      "median_price_per_sqm": 1873.9495798319329
+    },
+    {
+      "street_name": "AV DE LA FERTE SOUS JOUARRE",
+      "sales": 30,
+      "median_price_per_sqm": 3181.818181818182
+    },
+    {
+      "street_name": "AV DANIEL SIMON",
+      "sales": 29,
+      "median_price_per_sqm": 1554.054054054054
+    },
+    {
+      "street_name": "RUE EUGENE DAUMONT",
+      "sales": 28,
+      "median_price_per_sqm": 1899.367088607595
+    },
+    {
+      "street_name": "LE ROCHEFORT",
+      "sales": 27,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "SAINT CYR",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU GOUFFRE",
+      "sales": 21,
+      "median_price_per_sqm": 1889.5833333333335
+    },
+    {
+      "street_name": "MONTAPEINE",
+      "sales": 21,
+      "median_price_per_sqm": 1871.772112098428
+    },
+    {
+      "street_name": "GOINS",
+      "sales": 19,
+      "median_price_per_sqm": 2298.3333333333335
+    },
+    {
+      "street_name": "BIERCY",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GDS MONTGOINS",
+      "sales": 18,
+      "median_price_per_sqm": 1707.4493927125504
+    },
+    {
+      "street_name": "VORPILLIERE",
+      "sales": 18,
+      "median_price_per_sqm": 3222.197855750487
+    },
+    {
+      "street_name": "LES PLANTES",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE CHAVIGNY",
+      "sales": 17,
+      "median_price_per_sqm": 2136.7521367521367
+    },
+    {
+      "street_name": "RUE JEAN-PIERRE CHABROL",
+      "sales": 17,
+      "median_price_per_sqm": 1975.0
+    }
+  ]
+}

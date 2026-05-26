@@ -1,0 +1,120 @@
+{
+  "commune": "Bellot",
+  "insee": "77030",
+  "generated_at": "2026-05-24T20:35:47.106929Z",
+  "total_sales": 612,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 150,
+  "median_price": 45236.5,
+  "median_price_per_sqm": 1567.0103092783504,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 148,
+      "median_price": 99145.5
+    },
+    {
+      "year": 2022,
+      "sales": 84,
+      "median_price": 63444.0
+    },
+    {
+      "year": 2023,
+      "sales": 103,
+      "median_price": 120000.0
+    },
+    {
+      "year": 2024,
+      "sales": 148,
+      "median_price": 25000.0
+    },
+    {
+      "year": 2025,
+      "sales": 129,
+      "median_price": 11200.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DE LA FERTE GAUCHER",
+      "sales": 25,
+      "median_price_per_sqm": 1208.662196679438
+    },
+    {
+      "street_name": "RUE DE LA HAIE PROFIT",
+      "sales": 24,
+      "median_price_per_sqm": 1097.560975609756
+    },
+    {
+      "street_name": "LES BOIS D ENROUX",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BELLOT",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE VILLENEUVE",
+      "sales": 14,
+      "median_price_per_sqm": 2140.0
+    },
+    {
+      "street_name": "LA RIGOLE",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES VALLEES",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES PENTES D ENROUX",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA BUTTE DU MOULIN",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE GRAND DOUCY",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GRAVOTTES",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CRAYONS D ENROUX",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "IMP DE LA VIEILLE GRANGE",
+      "sales": 10,
+      "median_price_per_sqm": 1286.5776081424938
+    },
+    {
+      "street_name": "RUE DE BRETAGNE",
+      "sales": 10,
+      "median_price_per_sqm": 2494.459219858156
+    },
+    {
+      "street_name": "LE DESSOUS DES NONAINS",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

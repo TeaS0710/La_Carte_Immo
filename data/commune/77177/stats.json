@@ -1,0 +1,120 @@
+{
+  "commune": "Favières",
+  "insee": "77177",
+  "generated_at": "2026-05-24T21:07:47.105464Z",
+  "total_sales": 238,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 30,
+  "median_price": 336700.0,
+  "median_price_per_sqm": 3332.916666666667,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 49,
+      "median_price": 378000.0
+    },
+    {
+      "year": 2022,
+      "sales": 41,
+      "median_price": 432000.0
+    },
+    {
+      "year": 2023,
+      "sales": 73,
+      "median_price": 257200.0
+    },
+    {
+      "year": 2024,
+      "sales": 29,
+      "median_price": 395000.0
+    },
+    {
+      "year": 2025,
+      "sales": 46,
+      "median_price": 334975.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU MARRONNIER",
+      "sales": 50,
+      "median_price_per_sqm": 3337.6623376623374
+    },
+    {
+      "street_name": "RUE LOUIS VICTOR DORTEE",
+      "sales": 38,
+      "median_price_per_sqm": 2794.4719944052385
+    },
+    {
+      "street_name": "RUE DE LA BRIE",
+      "sales": 13,
+      "median_price_per_sqm": 3333.3333333333335
+    },
+    {
+      "street_name": "RUE DE BELLEVUE",
+      "sales": 13,
+      "median_price_per_sqm": 4098.08188265635
+    },
+    {
+      "street_name": "LA ROUTE",
+      "sales": 13,
+      "median_price_per_sqm": 4696.969696969697
+    },
+    {
+      "street_name": "IMP DU CHATEAU D EAU",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES FARINATS",
+      "sales": 12,
+      "median_price_per_sqm": 3187.6288659793813
+    },
+    {
+      "street_name": "FAVIERES",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU MOULIN MARCHAND",
+      "sales": 10,
+      "median_price_per_sqm": 5872.1605351170565
+    },
+    {
+      "street_name": "RUE DU TILLEUL ARGENTE",
+      "sales": 8,
+      "median_price_per_sqm": 3239.444055944056
+    },
+    {
+      "street_name": "RUE DU CHEMIN VERT",
+      "sales": 6,
+      "median_price_per_sqm": 2823.671497584541
+    },
+    {
+      "street_name": "RUE DU MONCET",
+      "sales": 6,
+      "median_price_per_sqm": 3198.9334195216547
+    },
+    {
+      "street_name": "FOSSE AU PRIEUR",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "HERMIERES",
+      "sales": 5,
+      "median_price_per_sqm": 2967.0329670329675
+    },
+    {
+      "street_name": "RUE D HERMIERES",
+      "sales": 5,
+      "median_price_per_sqm": 3831.5789473684213
+    }
+  ]
+}

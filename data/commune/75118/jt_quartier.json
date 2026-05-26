@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 7553,
+  "sales_delta_pct": 32.6,
+  "median_price": 352850.0,
+  "median_ppsqm": 9256.896551724138,
+  "delta_ppsqm_pct": 5.3,
+  "notable_sales": [
+    {
+      "date": "2025-11-04",
+      "street": "PL DU CALVAIRE",
+      "type": "Maison",
+      "surface": 291,
+      "price": 6100000.0
+    },
+    {
+      "date": "2025-07-23",
+      "street": "RUE DREVET",
+      "type": "Maison",
+      "surface": 183,
+      "price": 3638000.0
+    },
+    {
+      "date": "2025-04-18",
+      "street": "BD DE CLICHY",
+      "type": "Appartement",
+      "surface": 125,
+      "price": 2819560.0
+    },
+    {
+      "date": "2025-10-09",
+      "street": "RUE DU RUISSEAU",
+      "type": "Maison",
+      "surface": 151,
+      "price": 2459000.0
+    },
+    {
+      "date": "2025-12-12",
+      "street": "RUE DURANTIN",
+      "type": "Appartement",
+      "surface": 108,
+      "price": 2200000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:43:37.878405Z"
+}

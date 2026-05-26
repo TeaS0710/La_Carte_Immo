@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 198,
+  "sales_delta_pct": 51.1,
+  "median_price": 275000.0,
+  "median_ppsqm": 3062.5,
+  "delta_ppsqm_pct": -1.7,
+  "notable_sales": [
+    {
+      "date": "2025-01-17",
+      "street": "RUE DESHUILLIERS",
+      "type": "Maison",
+      "surface": 170,
+      "price": 514000.0
+    },
+    {
+      "date": "2025-10-03",
+      "street": "RUE DE LA FERTE SOUS JOUARRE",
+      "type": "Maison",
+      "surface": 165,
+      "price": 455000.0
+    },
+    {
+      "date": "2025-12-30",
+      "street": "AV DE LA REPUBLIQUE",
+      "type": "Maison",
+      "surface": 148,
+      "price": 443000.0
+    },
+    {
+      "date": "2025-11-03",
+      "street": "CHE DES BLANCS MURS",
+      "type": "Maison",
+      "surface": 109,
+      "price": 424500.0
+    },
+    {
+      "date": "2025-12-02",
+      "street": "RUE DU BON ACCUEIL",
+      "type": "Maison",
+      "surface": 157,
+      "price": 408300.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:59:34.429437Z"
+}

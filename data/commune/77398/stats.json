@@ -1,0 +1,120 @@
+{
+  "commune": "Sablonnières",
+  "insee": "77398",
+  "generated_at": "2026-05-24T21:38:24.387308Z",
+  "total_sales": 380,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 79,
+  "median_price": 129000.0,
+  "median_price_per_sqm": 1875.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 92,
+      "median_price": 165000.0
+    },
+    {
+      "year": 2022,
+      "sales": 71,
+      "median_price": 146893.0
+    },
+    {
+      "year": 2023,
+      "sales": 73,
+      "median_price": 164000.0
+    },
+    {
+      "year": 2024,
+      "sales": 49,
+      "median_price": 41535.0
+    },
+    {
+      "year": 2025,
+      "sales": 95,
+      "median_price": 40000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LE BOIS FREMY",
+      "sales": 47,
+      "median_price_per_sqm": 1964.7058823529412
+    },
+    {
+      "street_name": "LA NOUE",
+      "sales": 28,
+      "median_price_per_sqm": 1885.057471264368
+    },
+    {
+      "street_name": "LE VAUTRON",
+      "sales": 24,
+      "median_price_per_sqm": 2791.6666666666665
+    },
+    {
+      "street_name": "LA CHENEE",
+      "sales": 21,
+      "median_price_per_sqm": 1858.974358974359
+    },
+    {
+      "street_name": "SABLONNIERES",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE MAURICE MESLE",
+      "sales": 14,
+      "median_price_per_sqm": 1910.3426529325204
+    },
+    {
+      "street_name": "LE JARIEL",
+      "sales": 13,
+      "median_price_per_sqm": 2054.265873015873
+    },
+    {
+      "street_name": "LE VIGNOBLE DU VAUTRON",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PLESSIER",
+      "sales": 12,
+      "median_price_per_sqm": 1875.0
+    },
+    {
+      "street_name": "RUE DU MONTCEL",
+      "sales": 12,
+      "median_price_per_sqm": 2086.9565217391305
+    },
+    {
+      "street_name": "CHE DE VILLENEUVE",
+      "sales": 10,
+      "median_price_per_sqm": 1696.3470319634703
+    },
+    {
+      "street_name": "RTE DE LA NOUE",
+      "sales": 8,
+      "median_price_per_sqm": 1785.7142857142858
+    },
+    {
+      "street_name": "LES GLAS",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "HAUTEFEUILLE",
+      "sales": 7,
+      "median_price_per_sqm": 268.8636363636364
+    },
+    {
+      "street_name": "LA FOLIE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "commune": "Paris 20e Arrondissement",
+  "insee": "75120",
+  "generated_at": "2026-05-24T21:44:30.394781Z",
+  "total_sales": 25048,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 257,
+  "median_price": 396850.0,
+  "median_price_per_sqm": 9123.611111111111,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 4836,
+      "median_price": 436000.0
+    },
+    {
+      "year": 2022,
+      "sales": 5647,
+      "median_price": 402000.0
+    },
+    {
+      "year": 2023,
+      "sales": 4483,
+      "median_price": 366500.0
+    },
+    {
+      "year": 2024,
+      "sales": 4665,
+      "median_price": 370000.0
+    },
+    {
+      "year": 2025,
+      "sales": 5417,
+      "median_price": 400000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DES PYRENEES",
+      "sales": 1664,
+      "median_price_per_sqm": 9188.611491108071
+    },
+    {
+      "street_name": "RUE PELLEPORT",
+      "sales": 1067,
+      "median_price_per_sqm": 8666.859099804306
+    },
+    {
+      "street_name": "AV GAMBETTA",
+      "sales": 965,
+      "median_price_per_sqm": 9485.653235653235
+    },
+    {
+      "street_name": "BD DAVOUT",
+      "sales": 728,
+      "median_price_per_sqm": 9142.857142857143
+    },
+    {
+      "street_name": "RUE DE BAGNOLET",
+      "sales": 632,
+      "median_price_per_sqm": 8857.142857142857
+    },
+    {
+      "street_name": "RUE SAINT FARGEAU",
+      "sales": 580,
+      "median_price_per_sqm": 8090.909090909091
+    },
+    {
+      "street_name": "RUE DE BELLEVILLE",
+      "sales": 558,
+      "median_price_per_sqm": 9475.0
+    },
+    {
+      "street_name": "BD DE CHARONNE",
+      "sales": 518,
+      "median_price_per_sqm": 9734.69387755102
+    },
+    {
+      "street_name": "RUE DES MONTIBOEUFS",
+      "sales": 514,
+      "median_price_per_sqm": 157500.0
+    },
+    {
+      "street_name": "RUE ORFILA",
+      "sales": 513,
+      "median_price_per_sqm": 10105.313765182185
+    },
+    {
+      "street_name": "RUE VILLIERS ISLE ADAM",
+      "sales": 503,
+      "median_price_per_sqm": 9174.074074074073
+    },
+    {
+      "street_name": "RUE D AVRON",
+      "sales": 488,
+      "median_price_per_sqm": 8674.242424242424
+    },
+    {
+      "street_name": "RUE DU BORREGO",
+      "sales": 457,
+      "median_price_per_sqm": 8053.571428571428
+    },
+    {
+      "street_name": "RUE PIXERECOURT",
+      "sales": 428,
+      "median_price_per_sqm": 8338.541666666668
+    },
+    {
+      "street_name": "RUE DE MENILMONTANT",
+      "sales": 388,
+      "median_price_per_sqm": 9125.0
+    }
+  ],
+  "sirene_targets_total": 3306,
+  "sirene_agences_immo": 838,
+  "sirene_par_naf": [
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 1000
+    },
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 463
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 397
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 337
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 273
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 265
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 263
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 110
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 91
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 81
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 21
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 5
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "503698664",
+      "nom": "FONCIA TRANSACTION FRANCE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18-19 - TOUR AURORE 18 PLACE DES REFLETS 92400 COURBEVOIE",
+      "code_postal": "92400"
+    },
+    {
+      "siren": "490072337",
+      "nom": "C & M GESTION (CIMM GESTION - GEST'IN)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "55 AVENUE JEAN KUNTZMANN 38330 MONTBONNOT-SAINT-MARTIN",
+      "code_postal": "38330"
+    },
+    {
+      "siren": "433951282",
+      "nom": "CBRE CONSEIL & TRANSACTION",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "76 RUE DE PRONY 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "882080054",
+      "nom": "ALEPH TRANSACTIONS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "19 RUE LOUISE MICHEL 92300 LEVALLOIS-PERRET",
+      "code_postal": "92300"
+    },
+    {
+      "siren": "302204177",
+      "nom": "PLURI-PUBLI",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "25 B AVENUE PIERRE GRENIER 92100 BOULOGNE-BILLANCOURT",
+      "code_postal": "92100"
+    },
+    {
+      "siren": "408073476",
+      "nom": "C.T.I.",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "96 AVENUE PHILIPPE-AUGUSTE 75011 PARIS",
+      "code_postal": "75011"
+    },
+    {
+      "siren": "382615961",
+      "nom": "EURASIM (LAMIRAND ET ASSOCIES - PARISLOC & PARIS-VENTE)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "62 BOULEVARD VOLTAIRE 75011 PARIS",
+      "code_postal": "75011"
+    },
+    {
+      "siren": "301191698",
+      "nom": "ISAMBERT SAS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "ANGLE 1 93 RUE BLOMET 75015 PARIS",
+      "code_postal": "75015"
+    },
+    {
+      "siren": "818559114",
+      "nom": "DVCTI (GROUPE CTI; DVI)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "170 RUE DE CHARONNE 75011 PARIS",
+      "code_postal": "75011"
+    },
+    {
+      "siren": "751656117",
+      "nom": "BO CONSEILS (BONJOUR OSCAR)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "95 AVENUE PHILIPPE-AUGUSTE 75011 PARIS",
+      "code_postal": "75011"
+    },
+    {
+      "siren": "753714187",
+      "nom": "LA VITRINE CONCEPT IMMOBILIER (LA VITRINE CONCEPT IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "63 RUE DE MEAUX 75019 PARIS",
+      "code_postal": "75019"
+    },
+    {
+      "siren": "830237244",
+      "nom": "WILLIAM KONAN",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "2 CHEMIN BOISSY 97410 SAINT-PIERRE",
+      "code_postal": "97410"
+    },
+    {
+      "siren": "317098853",
+      "nom": "OFFICE PARISIEN D'INVESTISSEMENTS (OPI)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "8 RUE PASQUIER 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "793844929",
+      "nom": "T.M. CONSEIL (TM CONSEIL)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "CS 30108 32 BOULEVARD DE STRASBOURG 75010 PARIS",
+      "code_postal": "75010"
+    },
+    {
+      "siren": "484792189",
+      "nom": "ARIANE LOESER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "41 QUAI DE VALMY 75010 PARIS",
+      "code_postal": "75010"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 6109,
+  "sales_delta_pct": 0.1,
+  "median_price": 427430.0,
+  "median_ppsqm": 10222.222222222223,
+  "delta_ppsqm_pct": -1.4,
+  "notable_sales": [
+    {
+      "date": "2025-09-24",
+      "street": "RUE NEUVE POPINCOURT",
+      "type": "Appartement",
+      "surface": 200,
+      "price": 3636000.0
+    },
+    {
+      "date": "2025-09-05",
+      "street": "RUE DE LAPPE",
+      "type": "Appartement",
+      "surface": 190,
+      "price": 2600000.0
+    },
+    {
+      "date": "2025-05-28",
+      "street": "PL DE LA NATION",
+      "type": "Appartement",
+      "surface": 232,
+      "price": 2250000.0
+    },
+    {
+      "date": "2025-07-11",
+      "street": "AV LEDRU ROLLIN",
+      "type": "Appartement",
+      "surface": 180,
+      "price": 2085550.0
+    },
+    {
+      "date": "2025-09-05",
+      "street": "AV DE LA REPUBLIQUE",
+      "type": "Appartement",
+      "surface": 168,
+      "price": 2059500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:41:41.195237Z"
+}

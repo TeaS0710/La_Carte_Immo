@@ -1,0 +1,120 @@
+{
+  "commune": "Pamfou",
+  "insee": "77354",
+  "generated_at": "2026-05-24T21:34:02.045732Z",
+  "total_sales": 229,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 43,
+  "median_price": 220000.0,
+  "median_price_per_sqm": 2807.0175438596493,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 55,
+      "median_price": 228000.0
+    },
+    {
+      "year": 2022,
+      "sales": 44,
+      "median_price": 250000.0
+    },
+    {
+      "year": 2023,
+      "sales": 44,
+      "median_price": 280000.0
+    },
+    {
+      "year": 2024,
+      "sales": 41,
+      "median_price": 206000.0
+    },
+    {
+      "year": 2025,
+      "sales": 45,
+      "median_price": 50000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "PAMFOU",
+      "sales": 38,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "AV DE LA LIBERATION",
+      "sales": 26,
+      "median_price_per_sqm": 2640.449438202247
+    },
+    {
+      "street_name": "RUE DE LA MAIRIE",
+      "sales": 20,
+      "median_price_per_sqm": 3188.5245901639346
+    },
+    {
+      "street_name": "CHAPUIS",
+      "sales": 13,
+      "median_price_per_sqm": 3202.156768066956
+    },
+    {
+      "street_name": "PL DE LA REPUBLIQUE",
+      "sales": 13,
+      "median_price_per_sqm": 2763.819095477387
+    },
+    {
+      "street_name": "RUE TOURNERIE",
+      "sales": 11,
+      "median_price_per_sqm": 2970.740740740741
+    },
+    {
+      "street_name": "HAM DE CHAPENDU",
+      "sales": 7,
+      "median_price_per_sqm": 3255.813953488372
+    },
+    {
+      "street_name": "RUE DE BAILLY",
+      "sales": 6,
+      "median_price_per_sqm": 3522.7272727272725
+    },
+    {
+      "street_name": "RUE DE L'AUXERROIS",
+      "sales": 6,
+      "median_price_per_sqm": 2978.723404255319
+    },
+    {
+      "street_name": "LES VIGNES DE L ECLUSE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHAPENDU",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES FOURMILLONS",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE MOULIN",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES PIERREUX",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA BUTTE GABRIEL",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

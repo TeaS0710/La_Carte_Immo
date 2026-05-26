@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 61,
+  "sales_delta_pct": 56.4,
+  "median_price": 232000.0,
+  "median_ppsqm": 2773.4375,
+  "delta_ppsqm_pct": 49.6,
+  "notable_sales": [
+    {
+      "date": "2025-03-07",
+      "street": "RTE DU CHATEAU",
+      "type": "Maison",
+      "surface": 255,
+      "price": 825000.0
+    },
+    {
+      "date": "2025-11-24",
+      "street": "CHE DU CHATEAU",
+      "type": "Maison",
+      "surface": 128,
+      "price": 355000.0
+    },
+    {
+      "date": "2025-12-06",
+      "street": "RTE DE LA FONTAINE",
+      "type": "Maison",
+      "surface": 97,
+      "price": 315000.0
+    },
+    {
+      "date": "2025-09-13",
+      "street": "CHE DE LA VALLEE",
+      "type": "Maison",
+      "surface": 89,
+      "price": 263500.0
+    },
+    {
+      "date": "2025-02-19",
+      "street": "IMP DES DADEES",
+      "type": "Maison",
+      "surface": 113,
+      "price": 232000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:33:53.625089Z"
+}

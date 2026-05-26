@@ -1,0 +1,120 @@
+{
+  "commune": "Presles-en-Brie",
+  "insee": "77377",
+  "generated_at": "2026-05-24T21:36:01.191537Z",
+  "total_sales": 518,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 75,
+  "median_price": 280000.0,
+  "median_price_per_sqm": 3253.2417582417584,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 154,
+      "median_price": 203625.0
+    },
+    {
+      "year": 2022,
+      "sales": 110,
+      "median_price": 270000.0
+    },
+    {
+      "year": 2023,
+      "sales": 54,
+      "median_price": 323420.0
+    },
+    {
+      "year": 2024,
+      "sales": 68,
+      "median_price": 343450.0
+    },
+    {
+      "year": 2025,
+      "sales": 132,
+      "median_price": 319000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "PRESLES",
+      "sales": 52,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE ABEL LEBLANC",
+      "sales": 49,
+      "median_price_per_sqm": 2916.6666666666665
+    },
+    {
+      "street_name": "IMP DU VIEUX PUITS",
+      "sales": 26,
+      "median_price_per_sqm": 3809.5238095238096
+    },
+    {
+      "street_name": "RUE DE GRETZ",
+      "sales": 20,
+      "median_price_per_sqm": 1908.0555555555557
+    },
+    {
+      "street_name": "LE VILLAGE NORD",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DES FONTAINES",
+      "sales": 18,
+      "median_price_per_sqm": 3410.104967474867
+    },
+    {
+      "street_name": "RUE DE CHATRES",
+      "sales": 15,
+      "median_price_per_sqm": 3013.9583333333335
+    },
+    {
+      "street_name": "PL DE L EGLISE",
+      "sales": 15,
+      "median_price_per_sqm": 3952.8795811518326
+    },
+    {
+      "street_name": "RUE DE COUBERT",
+      "sales": 15,
+      "median_price_per_sqm": 2334.6303501945526
+    },
+    {
+      "street_name": "IMP DU MARQUIS DE JAUCOURT",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA VALLEE",
+      "sales": 13,
+      "median_price_per_sqm": 3384.6153846153848
+    },
+    {
+      "street_name": "RUE DE L'HEXAGONE",
+      "sales": 12,
+      "median_price_per_sqm": 4000.0
+    },
+    {
+      "street_name": "PRE D EGUILLON",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA BOULSARDERIE",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE PAUL JONCHERY",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

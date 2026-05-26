@@ -1,0 +1,120 @@
+{
+  "commune": "Juilly",
+  "insee": "77241",
+  "generated_at": "2026-05-24T21:20:13.819689Z",
+  "total_sales": 340,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 37,
+  "median_price": 288000.0,
+  "median_price_per_sqm": 3333.3333333333335,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 103,
+      "median_price": 388000.0
+    },
+    {
+      "year": 2022,
+      "sales": 64,
+      "median_price": 287000.0
+    },
+    {
+      "year": 2023,
+      "sales": 69,
+      "median_price": 208700.0
+    },
+    {
+      "year": 2024,
+      "sales": 56,
+      "median_price": 237000.0
+    },
+    {
+      "year": 2025,
+      "sales": 48,
+      "median_price": 222500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE BARRE",
+      "sales": 97,
+      "median_price_per_sqm": 4055.9654631083204
+    },
+    {
+      "street_name": "RUE DES CHARDONNERETS",
+      "sales": 28,
+      "median_price_per_sqm": 3023.2558139534885
+    },
+    {
+      "street_name": "RUE SAINT LOUIS",
+      "sales": 23,
+      "median_price_per_sqm": 6666.666666666667
+    },
+    {
+      "street_name": "RUE DE LA ROCHELLE",
+      "sales": 17,
+      "median_price_per_sqm": 3722.222222222222
+    },
+    {
+      "street_name": "RUE DES ROSES",
+      "sales": 17,
+      "median_price_per_sqm": 3229.7297297297296
+    },
+    {
+      "street_name": "RUE PIERRE LOYER",
+      "sales": 15,
+      "median_price_per_sqm": 2794.871794871795
+    },
+    {
+      "street_name": "RUE SAINTE MARIE",
+      "sales": 12,
+      "median_price_per_sqm": 2703.076923076923
+    },
+    {
+      "street_name": "RUE DES FAUVETTES",
+      "sales": 11,
+      "median_price_per_sqm": 3059.782608695652
+    },
+    {
+      "street_name": "RUE DU CHEMIN DE NANTOUILLET",
+      "sales": 10,
+      "median_price_per_sqm": 3075.438596491228
+    },
+    {
+      "street_name": "LE COLLEGE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE PAUL FUAN",
+      "sales": 10,
+      "median_price_per_sqm": 3512.1951219512193
+    },
+    {
+      "street_name": "RUE DU ROSSIGNOL",
+      "sales": 8,
+      "median_price_per_sqm": 4375.0
+    },
+    {
+      "street_name": "RUE DE LA LOUVIERE",
+      "sales": 8,
+      "median_price_per_sqm": 1776.6439909297053
+    },
+    {
+      "street_name": "LA FONTAINE",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU GRAND PRE",
+      "sales": 7,
+      "median_price_per_sqm": 3063.725490196078
+    }
+  ]
+}

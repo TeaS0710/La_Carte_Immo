@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 186,
+  "sales_delta_pct": 36.8,
+  "median_price": 240570.0,
+  "median_ppsqm": 2973.095238095238,
+  "delta_ppsqm_pct": -2.0,
+  "notable_sales": [
+    {
+      "date": "2025-05-27",
+      "street": "RUE DE SAINT FIACRE",
+      "type": "Maison",
+      "surface": 90,
+      "price": 810000.0
+    },
+    {
+      "date": "2025-06-18",
+      "street": "RUE DE GERMIGNY",
+      "type": "Maison",
+      "surface": 180,
+      "price": 529524.0
+    },
+    {
+      "date": "2025-06-25",
+      "street": "RUE DES LARRIS",
+      "type": "Maison",
+      "surface": 91,
+      "price": 375000.0
+    },
+    {
+      "date": "2025-09-12",
+      "street": "RUE DE LANGELOT",
+      "type": "Maison",
+      "surface": 157,
+      "price": 372300.0
+    },
+    {
+      "date": "2025-02-19",
+      "street": "RUE FREDERIC PASSY",
+      "type": "Maison",
+      "surface": 141,
+      "price": 350000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:58:56.583833Z"
+}

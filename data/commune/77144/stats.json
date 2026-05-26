@@ -1,0 +1,120 @@
+{
+  "commune": "Crèvecœur-en-Brie",
+  "insee": "77144",
+  "generated_at": "2026-05-24T20:59:50.028133Z",
+  "total_sales": 70,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 17,
+  "median_price": 333100.0,
+  "median_price_per_sqm": 3039.345287739783,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 13,
+      "median_price": 391300.0
+    },
+    {
+      "year": 2022,
+      "sales": 14,
+      "median_price": 268000.0
+    },
+    {
+      "year": 2023,
+      "sales": 15,
+      "median_price": 400000.0
+    },
+    {
+      "year": 2024,
+      "sales": 5,
+      "median_price": 410000.0
+    },
+    {
+      "year": 2025,
+      "sales": 23,
+      "median_price": 305000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DES AMOURETTES",
+      "sales": 14,
+      "median_price_per_sqm": 2698.6206896551726
+    },
+    {
+      "street_name": "CREVECOEUR",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE GROSBOIS",
+      "sales": 7,
+      "median_price_per_sqm": 3077.8761061946902
+    },
+    {
+      "street_name": "RUE DE LA GAILLARDIERE",
+      "sales": 6,
+      "median_price_per_sqm": 3214.285714285714
+    },
+    {
+      "street_name": "RUE DE BEAUREGARD",
+      "sales": 5,
+      "median_price_per_sqm": 1702.7863777089783
+    },
+    {
+      "street_name": "RUE DE LA BRECHE BEAULIEU",
+      "sales": 5,
+      "median_price_per_sqm": 3298.9690721649486
+    },
+    {
+      "street_name": "PLAINE DE BEAUREGARD",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RLE DES CHATAIGNIERS",
+      "sales": 4,
+      "median_price_per_sqm": 2280.7045454545455
+    },
+    {
+      "street_name": "BEAUREGARD",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOIS DE L EPINE",
+      "sales": 3,
+      "median_price_per_sqm": 5000.0
+    },
+    {
+      "street_name": "CHAMP DE BALOQUIN",
+      "sales": 3,
+      "median_price_per_sqm": 1261.5384615384614
+    },
+    {
+      "street_name": "GROS BOIS",
+      "sales": 2,
+      "median_price_per_sqm": 3055.9633027522937
+    },
+    {
+      "street_name": "RUE DES CHARMILLES",
+      "sales": 2,
+      "median_price_per_sqm": 2941.605839416058
+    },
+    {
+      "street_name": "LA BRECHE BEAULIEU",
+      "sales": 1,
+      "median_price_per_sqm": 3500.0
+    },
+    {
+      "street_name": "PIECE DE L ETANG",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

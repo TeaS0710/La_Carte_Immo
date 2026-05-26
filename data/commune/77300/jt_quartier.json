@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 23,
+  "sales_delta_pct": -56.6,
+  "median_price": 207000.0,
+  "median_ppsqm": 2425.0,
+  "delta_ppsqm_pct": -23.1,
+  "notable_sales": [
+    {
+      "date": "2025-07-16",
+      "street": "CHE DE MONTEBISE",
+      "type": "Maison",
+      "surface": 133,
+      "price": 380000.0
+    },
+    {
+      "date": "2025-08-26",
+      "street": "RUE DE LIZY",
+      "type": "Maison",
+      "surface": 68,
+      "price": 272800.0
+    },
+    {
+      "date": "2025-01-22",
+      "street": "RUE DU VIEUX PAVE",
+      "type": "Maison",
+      "surface": 100,
+      "price": 215000.0
+    },
+    {
+      "date": "2025-07-19",
+      "street": "RUE SAINT JEAN",
+      "type": "Maison",
+      "surface": 70,
+      "price": 207000.0
+    },
+    {
+      "date": "2025-09-04",
+      "street": "RUE DES ORMEAUX",
+      "type": "Maison",
+      "surface": 65,
+      "price": 175500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:29:13.429886Z"
+}

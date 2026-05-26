@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 81,
+  "sales_delta_pct": -35.7,
+  "median_price": 165000.0,
+  "median_ppsqm": 1820.5682782018662,
+  "delta_ppsqm_pct": -19.9,
+  "notable_sales": [
+    {
+      "date": "2025-06-16",
+      "street": "LES SAULES",
+      "type": "Maison",
+      "surface": 152,
+      "price": 315000.0
+    },
+    {
+      "date": "2025-10-15",
+      "street": "RUE DES FORTES TERRES",
+      "type": "Maison",
+      "surface": 90,
+      "price": 259000.0
+    },
+    {
+      "date": "2025-11-25",
+      "street": "CHARCOT",
+      "type": "Maison",
+      "surface": 131,
+      "price": 231000.0
+    },
+    {
+      "date": "2025-08-21",
+      "street": "AV DU GRAND MORIN",
+      "type": "Maison",
+      "surface": 110,
+      "price": 230000.0
+    },
+    {
+      "date": "2025-08-25",
+      "street": "LA BROSSE",
+      "type": "Maison",
+      "surface": 95,
+      "price": 227500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:43:00.411684Z"
+}

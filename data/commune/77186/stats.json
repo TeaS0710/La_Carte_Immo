@@ -1,0 +1,120 @@
+{
+  "commune": "Fontainebleau",
+  "insee": "77186",
+  "generated_at": "2026-05-24T21:09:26.947354Z",
+  "total_sales": 3886,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 128,
+  "median_price": 300000.0,
+  "median_price_per_sqm": 4950.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 949,
+      "median_price": 315000.0
+    },
+    {
+      "year": 2022,
+      "sales": 860,
+      "median_price": 304000.0
+    },
+    {
+      "year": 2023,
+      "sales": 736,
+      "median_price": 284000.0
+    },
+    {
+      "year": 2024,
+      "sales": 614,
+      "median_price": 297082.86
+    },
+    {
+      "year": 2025,
+      "sales": 727,
+      "median_price": 290200.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 332,
+      "median_price_per_sqm": 4940.540540540541
+    },
+    {
+      "street_name": "RUE DE FRANCE",
+      "sales": 259,
+      "median_price_per_sqm": 5160.0
+    },
+    {
+      "street_name": "RUE SAINT MERRY",
+      "sales": 235,
+      "median_price_per_sqm": 5066.666666666667
+    },
+    {
+      "street_name": "RUE SAINT HONORE",
+      "sales": 178,
+      "median_price_per_sqm": 4883.720930232558
+    },
+    {
+      "street_name": "RUE DE LA CLOCHE",
+      "sales": 155,
+      "median_price_per_sqm": 4838.709677419355
+    },
+    {
+      "street_name": "BD MAGENTA",
+      "sales": 149,
+      "median_price_per_sqm": 5000.0
+    },
+    {
+      "street_name": "RUE ROYALE",
+      "sales": 146,
+      "median_price_per_sqm": 12083.333333333334
+    },
+    {
+      "street_name": "AV DU TOURING CLUB",
+      "sales": 143,
+      "median_price_per_sqm": 3136.985294117647
+    },
+    {
+      "street_name": "RUE ARISTIDE BRIAND",
+      "sales": 125,
+      "median_price_per_sqm": 4621.212121212121
+    },
+    {
+      "street_name": "RUE DES SABLONS",
+      "sales": 94,
+      "median_price_per_sqm": 5636.923076923077
+    },
+    {
+      "street_name": "RUE DU CHATEAU",
+      "sales": 89,
+      "median_price_per_sqm": 4444.444444444444
+    },
+    {
+      "street_name": "BD GENERAL LECLERC",
+      "sales": 80,
+      "median_price_per_sqm": 4225.241545893719
+    },
+    {
+      "street_name": "RUE BERANGER",
+      "sales": 77,
+      "median_price_per_sqm": 5136.363636363636
+    },
+    {
+      "street_name": "RUE LAGORSSE",
+      "sales": 76,
+      "median_price_per_sqm": 4486.2772695285
+    },
+    {
+      "street_name": "RUE DE L ARBRE SEC",
+      "sales": 68,
+      "median_price_per_sqm": 5860.079336458709
+    }
+  ]
+}

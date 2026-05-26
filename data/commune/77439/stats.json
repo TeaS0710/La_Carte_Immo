@@ -1,0 +1,120 @@
+{
+  "commune": "Salins",
+  "insee": "77439",
+  "generated_at": "2026-05-24T21:43:37.365186Z",
+  "total_sales": 249,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 46,
+  "median_price": 253000.0,
+  "median_price_per_sqm": 2325.5813953488373,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 45,
+      "median_price": 344000.0
+    },
+    {
+      "year": 2022,
+      "sales": 54,
+      "median_price": 200000.0
+    },
+    {
+      "year": 2023,
+      "sales": 84,
+      "median_price": 320000.0
+    },
+    {
+      "year": 2024,
+      "sales": 15,
+      "median_price": 208000.0
+    },
+    {
+      "year": 2025,
+      "sales": 51,
+      "median_price": 237000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LE FRESNOY",
+      "sales": 41,
+      "median_price_per_sqm": 14803.921568627451
+    },
+    {
+      "street_name": "RUE DE MONTEREAU",
+      "sales": 19,
+      "median_price_per_sqm": 3367.999188311688
+    },
+    {
+      "street_name": "SALINS",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE PROVINS",
+      "sales": 15,
+      "median_price_per_sqm": 1762.7118644067796
+    },
+    {
+      "street_name": "RUE DU MOULIN A VENT",
+      "sales": 12,
+      "median_price_per_sqm": 1921.629445822994
+    },
+    {
+      "street_name": "LES BOIS DU FRESNOY",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES TUILERIES DE SALINS",
+      "sales": 10,
+      "median_price_per_sqm": 1735.7512953367875
+    },
+    {
+      "street_name": "LE BOIS DE LA VACHE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MORSINS",
+      "sales": 8,
+      "median_price_per_sqm": 8321.285714285714
+    },
+    {
+      "street_name": "LE ROTI",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE BELLE VUE",
+      "sales": 7,
+      "median_price_per_sqm": 1232.142857142857
+    },
+    {
+      "street_name": "RUE DU BOIS DES BROSSES",
+      "sales": 6,
+      "median_price_per_sqm": 2193.1185567010307
+    },
+    {
+      "street_name": "RUE DU ROTY",
+      "sales": 6,
+      "median_price_per_sqm": 1908.2568807339449
+    },
+    {
+      "street_name": "RTE DE LAVAL",
+      "sales": 6,
+      "median_price_per_sqm": 2250.0
+    },
+    {
+      "street_name": "LA VACHE A GERVAIS",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

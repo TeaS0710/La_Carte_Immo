@@ -1,0 +1,120 @@
+{
+  "commune": "Chamigny",
+  "insee": "77078",
+  "generated_at": "2026-05-24T20:42:46.034867Z",
+  "total_sales": 993,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 131,
+  "median_price": 10450.0,
+  "median_price_per_sqm": 2387.387387387387,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 133,
+      "median_price": 150000.0
+    },
+    {
+      "year": 2022,
+      "sales": 171,
+      "median_price": 66000.0
+    },
+    {
+      "year": 2023,
+      "sales": 378,
+      "median_price": 10450.0
+    },
+    {
+      "year": 2024,
+      "sales": 221,
+      "median_price": 3463.7
+    },
+    {
+      "year": 2025,
+      "sales": 90,
+      "median_price": 112510.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE TANQUEUX",
+      "sales": 35,
+      "median_price_per_sqm": 2455.895589558956
+    },
+    {
+      "street_name": "LES ILETTES",
+      "sales": 31,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES MAILLOTS",
+      "sales": 31,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE VAUX",
+      "sales": 31,
+      "median_price_per_sqm": 2347.8260869565215
+    },
+    {
+      "street_name": "AV DES VIGNES",
+      "sales": 28,
+      "median_price_per_sqm": 2642.8571428571427
+    },
+    {
+      "street_name": "LA GARENNE DU SAUSSOY",
+      "sales": 22,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CLOS DE VAUX",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE ROUBINEAU",
+      "sales": 21,
+      "median_price_per_sqm": 2266.6666666666665
+    },
+    {
+      "street_name": "LES ETAYERES",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PRE DE VAUX",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES FORTES TERRES",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE SAVART PINCON",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE HEURT DES BOISSIERES",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "DESSOUS LES GACHEUX",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ALL D ORMOY",
+      "sales": 17,
+      "median_price_per_sqm": 2348.3870967741937
+    }
+  ]
+}

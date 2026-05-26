@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 3210,
+  "sales_delta_pct": 21.4,
+  "median_price": 1370000.0,
+  "median_ppsqm": 15745.185185185184,
+  "delta_ppsqm_pct": 5.0,
+  "notable_sales": [
+    {
+      "date": "2025-04-18",
+      "street": "AV BOSQUET",
+      "type": "Appartement",
+      "surface": 346,
+      "price": 8588082.0
+    },
+    {
+      "date": "2025-10-28",
+      "street": "RUE DE VARENNE",
+      "type": "Appartement",
+      "surface": 354,
+      "price": 8350000.0
+    },
+    {
+      "date": "2025-06-19",
+      "street": "AV EMILE ACOLLAS",
+      "type": "Appartement",
+      "surface": 367,
+      "price": 8000000.0
+    },
+    {
+      "date": "2025-11-07",
+      "street": "RUE DE GRENELLE",
+      "type": "Appartement",
+      "surface": 400,
+      "price": 7700000.0
+    },
+    {
+      "date": "2025-03-19",
+      "street": "QUAI D ORSAY",
+      "type": "Appartement",
+      "surface": 300,
+      "price": 6950000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:40:42.259601Z"
+}

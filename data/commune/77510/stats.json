@@ -1,0 +1,120 @@
+{
+  "commune": "Villeneuve-Saint-Denis",
+  "insee": "77510",
+  "generated_at": "2026-05-24T22:06:26.811015Z",
+  "total_sales": 276,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 27,
+  "median_price": 279000.0,
+  "median_price_per_sqm": 4011.363636363636,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 78,
+      "median_price": 294650.0
+    },
+    {
+      "year": 2022,
+      "sales": 67,
+      "median_price": 316000.0
+    },
+    {
+      "year": 2023,
+      "sales": 33,
+      "median_price": 268000.0
+    },
+    {
+      "year": 2024,
+      "sales": 32,
+      "median_price": 187000.0
+    },
+    {
+      "year": 2025,
+      "sales": 66,
+      "median_price": 300600.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU PRE BOYAU",
+      "sales": 48,
+      "median_price_per_sqm": 4440.8914728682175
+    },
+    {
+      "street_name": "RUE DU BOIS CIREY",
+      "sales": 41,
+      "median_price_per_sqm": 4122.222222222223
+    },
+    {
+      "street_name": "RUE SAINTE CHRISTINE",
+      "sales": 25,
+      "median_price_per_sqm": 4210.7843137254895
+    },
+    {
+      "street_name": "RUE DU BOUT DU MONDE",
+      "sales": 24,
+      "median_price_per_sqm": 3735.396825396825
+    },
+    {
+      "street_name": "RUE SAINT ERNEST",
+      "sales": 23,
+      "median_price_per_sqm": 3891.964285714286
+    },
+    {
+      "street_name": "RUE PIERRE DEMAY",
+      "sales": 18,
+      "median_price_per_sqm": 3852.4590163934427
+    },
+    {
+      "street_name": "VILLENEUVE-SAINT-DENIS",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PL DE L EGLISE",
+      "sales": 17,
+      "median_price_per_sqm": 3640.577507598784
+    },
+    {
+      "street_name": "LA DENICHERIE",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE SAINT DENIS",
+      "sales": 11,
+      "median_price_per_sqm": 2870.731707317073
+    },
+    {
+      "street_name": "ALL VERTE",
+      "sales": 7,
+      "median_price_per_sqm": 3302.8627316198445
+    },
+    {
+      "street_name": "RTE DE SERRIS",
+      "sales": 6,
+      "median_price_per_sqm": 3750.0
+    },
+    {
+      "street_name": "GRAND CLOS",
+      "sales": 4,
+      "median_price_per_sqm": 4152.542372881356
+    },
+    {
+      "street_name": "SEN DU GIBET",
+      "sales": 3,
+      "median_price_per_sqm": 2710.714285714286
+    },
+    {
+      "street_name": "RUE BELLE JOSEPHINE",
+      "sales": 3,
+      "median_price_per_sqm": 3925.8636363636365
+    }
+  ]
+}

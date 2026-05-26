@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 90,
+  "sales_delta_pct": 15.4,
+  "median_price": 280000.0,
+  "median_ppsqm": 3166.6666666666665,
+  "delta_ppsqm_pct": 10.1,
+  "notable_sales": [
+    {
+      "date": "2025-01-06",
+      "street": "RTE DE MELUN",
+      "type": "Maison",
+      "surface": 150,
+      "price": 1025000.0
+    },
+    {
+      "date": "2025-07-17",
+      "street": "LE POIRIER MOINEAU",
+      "type": "Maison",
+      "surface": 203,
+      "price": 472963.51
+    },
+    {
+      "date": "2025-01-20",
+      "street": "RUE DU GENERAL LECLERC",
+      "type": "Maison",
+      "surface": 140,
+      "price": 438000.0
+    },
+    {
+      "date": "2025-07-17",
+      "street": "LE POIRIER MOINEAU",
+      "type": "Maison",
+      "surface": 203,
+      "price": 419900.0
+    },
+    {
+      "date": "2025-11-15",
+      "street": "RUE DE BUSSIERE",
+      "type": "Maison",
+      "surface": 97,
+      "price": 380000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:17:44.574450Z"
+}

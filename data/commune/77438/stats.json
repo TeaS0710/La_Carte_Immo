@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Thibault-des-Vignes",
+  "insee": "77438",
+  "generated_at": "2026-05-24T21:43:27.393681Z",
+  "total_sales": 1055,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 98,
+  "median_price": 270000.0,
+  "median_price_per_sqm": 3858.2608695652175,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 249,
+      "median_price": 320000.0
+    },
+    {
+      "year": 2022,
+      "sales": 268,
+      "median_price": 271000.0
+    },
+    {
+      "year": 2023,
+      "sales": 207,
+      "median_price": 200000.0
+    },
+    {
+      "year": 2024,
+      "sales": 146,
+      "median_price": 321210.0
+    },
+    {
+      "year": 2025,
+      "sales": 185,
+      "median_price": 248000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GENERAL LECLERC",
+      "sales": 93,
+      "median_price_per_sqm": 3688.8888888888887
+    },
+    {
+      "street_name": "RUE DES COUTURES",
+      "sales": 80,
+      "median_price_per_sqm": 3700.0
+    },
+    {
+      "street_name": "PL CLAUDE MONET",
+      "sales": 79,
+      "median_price_per_sqm": 3641.4930555555557
+    },
+    {
+      "street_name": "RUE DE LAGNY",
+      "sales": 75,
+      "median_price_per_sqm": 4578.431372549019
+    },
+    {
+      "street_name": "RUE DE TORCY",
+      "sales": 44,
+      "median_price_per_sqm": 4518.489984591679
+    },
+    {
+      "street_name": "RUE DE L ETANG DE LA LOY",
+      "sales": 39,
+      "median_price_per_sqm": 4186.868686868687
+    },
+    {
+      "street_name": "PL DE L EGLISE",
+      "sales": 39,
+      "median_price_per_sqm": 3000.0
+    },
+    {
+      "street_name": "RUE PAUL HENRI SPAAK",
+      "sales": 39,
+      "median_price_per_sqm": 30769.23076923077
+    },
+    {
+      "street_name": "CHE DES PIERRIS",
+      "sales": 33,
+      "median_price_per_sqm": 4280.701754385965
+    },
+    {
+      "street_name": "RUE DU CLOS DE L ERABLE",
+      "sales": 28,
+      "median_price_per_sqm": 3953.7125506072875
+    },
+    {
+      "street_name": "ALL DU CELLIER",
+      "sales": 22,
+      "median_price_per_sqm": 12363.636363636364
+    },
+    {
+      "street_name": "RUE DU CHAMP PILLARD",
+      "sales": 17,
+      "median_price_per_sqm": 9809.298975672216
+    },
+    {
+      "street_name": "RUE DU GROS BUISSON",
+      "sales": 17,
+      "median_price_per_sqm": 4004.4642857142853
+    },
+    {
+      "street_name": "CHE DES FOURES",
+      "sales": 16,
+      "median_price_per_sqm": 3886.531093427645
+    },
+    {
+      "street_name": "LES GLASES",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

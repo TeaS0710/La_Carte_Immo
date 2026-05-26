@@ -1,0 +1,120 @@
+{
+  "commune": "Moussy-le-Neuf",
+  "insee": "77322",
+  "generated_at": "2026-05-24T21:31:05.882181Z",
+  "total_sales": 437,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 70,
+  "median_price": 310000.0,
+  "median_price_per_sqm": 3313.253012048193,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 60,
+      "median_price": 282500.0
+    },
+    {
+      "year": 2022,
+      "sales": 107,
+      "median_price": 312100.0
+    },
+    {
+      "year": 2023,
+      "sales": 95,
+      "median_price": 331000.0
+    },
+    {
+      "year": 2024,
+      "sales": 74,
+      "median_price": 365500.0
+    },
+    {
+      "year": 2025,
+      "sales": 101,
+      "median_price": 292500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 40,
+      "median_price_per_sqm": 3636.3636363636365
+    },
+    {
+      "street_name": "RUE CAMBACERES",
+      "sales": 20,
+      "median_price_per_sqm": 3310.3846153846152
+    },
+    {
+      "street_name": "RUE DES GRANDES NOUES",
+      "sales": 18,
+      "median_price_per_sqm": 3352.10843373494
+    },
+    {
+      "street_name": "AV DU BOIS",
+      "sales": 18,
+      "median_price_per_sqm": 3102.409638554217
+    },
+    {
+      "street_name": "RUE DE LAMAZE",
+      "sales": 16,
+      "median_price_per_sqm": 3497.7966101694915
+    },
+    {
+      "street_name": "RUE DE LA MOTHE",
+      "sales": 16,
+      "median_price_per_sqm": 3207.2580645161293
+    },
+    {
+      "street_name": "RUE BONNERET",
+      "sales": 16,
+      "median_price_per_sqm": 32916.666666666664
+    },
+    {
+      "street_name": "ALL DES GENETS",
+      "sales": 13,
+      "median_price_per_sqm": 3194.1747572815534
+    },
+    {
+      "street_name": "RUE DES MARGUERITES",
+      "sales": 13,
+      "median_price_per_sqm": 3333.3333333333335
+    },
+    {
+      "street_name": "RUE DE LAMPEZARD",
+      "sales": 11,
+      "median_price_per_sqm": 2892.3076923076924
+    },
+    {
+      "street_name": "AV DU MOULIN",
+      "sales": 10,
+      "median_price_per_sqm": 3095.2380952380954
+    },
+    {
+      "street_name": "BAROGNE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES AMARANTES",
+      "sales": 10,
+      "median_price_per_sqm": 3102.3977987421385
+    },
+    {
+      "street_name": "RUE DE LA GRANDE TUILERIE",
+      "sales": 10,
+      "median_price_per_sqm": 2166.8411726804125
+    },
+    {
+      "street_name": "AV DE LA BAROGNE",
+      "sales": 10,
+      "median_price_per_sqm": 6750.0
+    }
+  ]
+}

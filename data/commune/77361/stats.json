@@ -1,0 +1,120 @@
+{
+  "commune": "Pierre-Levée",
+  "insee": "77361",
+  "generated_at": "2026-05-24T21:34:36.897044Z",
+  "total_sales": 229,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 27,
+  "median_price": 224941.5,
+  "median_price_per_sqm": 2611.819090454773,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 42,
+      "median_price": 160000.0
+    },
+    {
+      "year": 2022,
+      "sales": 83,
+      "median_price": 250000.0
+    },
+    {
+      "year": 2023,
+      "sales": 43,
+      "median_price": 224941.5
+    },
+    {
+      "year": 2024,
+      "sales": 13,
+      "median_price": 239000.0
+    },
+    {
+      "year": 2025,
+      "sales": 48,
+      "median_price": 192500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 32,
+      "median_price_per_sqm": 2212.040133779264
+    },
+    {
+      "street_name": "RUE DES HOUIS",
+      "sales": 20,
+      "median_price_per_sqm": 2774.65
+    },
+    {
+      "street_name": "HAMEAU DE LA COURTESOUPE",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PIERRELEVEE",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L'ETANG",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE NEUVE",
+      "sales": 13,
+      "median_price_per_sqm": 2244.099069148936
+    },
+    {
+      "street_name": "MORAS",
+      "sales": 12,
+      "median_price_per_sqm": 10500.0
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE",
+      "sales": 12,
+      "median_price_per_sqm": 2614.942528735632
+    },
+    {
+      "street_name": "RUE AUGUSTE PETIT",
+      "sales": 11,
+      "median_price_per_sqm": 2608.695652173913
+    },
+    {
+      "street_name": "RUE DE LAMBILLY",
+      "sales": 11,
+      "median_price_per_sqm": 2475.3086419753085
+    },
+    {
+      "street_name": "BAIL EMPHYTEOTIQUE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GRANDS HOUIS",
+      "sales": 9,
+      "median_price_per_sqm": 1636.3636363636363
+    },
+    {
+      "street_name": "RUE DE LA GARENNE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE EMILE LAUX",
+      "sales": 6,
+      "median_price_per_sqm": 2050.0
+    },
+    {
+      "street_name": "GARENNE DES HOUIS",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

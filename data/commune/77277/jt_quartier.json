@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 85,
+  "sales_delta_pct": 21.4,
+  "median_price": 219000.0,
+  "median_ppsqm": 3690.3099593495936,
+  "delta_ppsqm_pct": 21.3,
+  "notable_sales": [
+    {
+      "date": "2025-10-23",
+      "street": "RUE D OURCEAUX",
+      "type": "Maison",
+      "surface": 120,
+      "price": 446650.0
+    },
+    {
+      "date": "2025-06-19",
+      "street": "RUE DE LA GARENNE",
+      "type": "Maison",
+      "surface": 127,
+      "price": 385000.0
+    },
+    {
+      "date": "2025-03-18",
+      "street": "RUE DE LA CROIX ST PIERRE",
+      "type": "Maison",
+      "surface": 135,
+      "price": 385000.0
+    },
+    {
+      "date": "2025-09-18",
+      "street": "AV DU GENERAL DE GAULLE",
+      "type": "Maison",
+      "surface": 161,
+      "price": 379850.0
+    },
+    {
+      "date": "2025-01-10",
+      "street": "ALL DES POMMIERS",
+      "type": "Maison",
+      "surface": 119,
+      "price": 366000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:25:25.328058Z"
+}

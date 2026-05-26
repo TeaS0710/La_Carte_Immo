@@ -1,0 +1,120 @@
+{
+  "commune": "Marolles-sur-Seine",
+  "insee": "77279",
+  "generated_at": "2026-05-24T21:25:42.435911Z",
+  "total_sales": 286,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 51,
+  "median_price": 182590.0,
+  "median_price_per_sqm": 2120.1923076923076,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 66,
+      "median_price": 152750.0
+    },
+    {
+      "year": 2022,
+      "sales": 48,
+      "median_price": 220000.0
+    },
+    {
+      "year": 2023,
+      "sales": 64,
+      "median_price": 196495.0
+    },
+    {
+      "year": 2024,
+      "sales": 69,
+      "median_price": 185000.0
+    },
+    {
+      "year": 2025,
+      "sales": 39,
+      "median_price": 184180.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "GRANDE RUE",
+      "sales": 49,
+      "median_price_per_sqm": 2071.4285714285716
+    },
+    {
+      "street_name": "RTE DE BRAY",
+      "sales": 27,
+      "median_price_per_sqm": 2115.3846153846152
+    },
+    {
+      "street_name": "SAINT DONAIN",
+      "sales": 23,
+      "median_price_per_sqm": 10699.050847457627
+    },
+    {
+      "street_name": "LE PARC DE SAINT DONAIN",
+      "sales": 15,
+      "median_price_per_sqm": 1560.9756097560976
+    },
+    {
+      "street_name": "MAROLLES",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "L ILE MASSE",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE NEUVE",
+      "sales": 11,
+      "median_price_per_sqm": 1219.5121951219512
+    },
+    {
+      "street_name": "RUE SAINT DONAIN",
+      "sales": 9,
+      "median_price_per_sqm": 2812.5
+    },
+    {
+      "street_name": "RUE BASSE",
+      "sales": 9,
+      "median_price_per_sqm": 2500.0
+    },
+    {
+      "street_name": "LA CROIX SAINT JACQUES",
+      "sales": 8,
+      "median_price_per_sqm": 1138.9191915280703
+    },
+    {
+      "street_name": "RUE DES FERMES",
+      "sales": 7,
+      "median_price_per_sqm": 2050.8653846153848
+    },
+    {
+      "street_name": "RUE DU LEVANT",
+      "sales": 7,
+      "median_price_per_sqm": 1644.7619047619048
+    },
+    {
+      "street_name": "CHE DES PETITES COUPES",
+      "sales": 6,
+      "median_price_per_sqm": 1914.9893314367
+    },
+    {
+      "street_name": "CHE DE LA VIGNE",
+      "sales": 6,
+      "median_price_per_sqm": 1600.9375
+    },
+    {
+      "street_name": "RTE DE BARBEY",
+      "sales": 6,
+      "median_price_per_sqm": 1633.4661354581674
+    }
+  ]
+}

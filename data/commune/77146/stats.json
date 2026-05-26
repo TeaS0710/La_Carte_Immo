@@ -1,0 +1,120 @@
+{
+  "commune": "Croissy-Beaubourg",
+  "insee": "77146",
+  "generated_at": "2026-05-24T21:00:03.768788Z",
+  "total_sales": 525,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 55,
+  "median_price": 445000.0,
+  "median_price_per_sqm": 5253.147756636128,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 131,
+      "median_price": 299000.0
+    },
+    {
+      "year": 2022,
+      "sales": 88,
+      "median_price": 504000.0
+    },
+    {
+      "year": 2023,
+      "sales": 140,
+      "median_price": 525231.0
+    },
+    {
+      "year": 2024,
+      "sales": 75,
+      "median_price": 394000.0
+    },
+    {
+      "year": 2025,
+      "sales": 91,
+      "median_price": 2700000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "ALL LEON JOUHAUX",
+      "sales": 72,
+      "median_price_per_sqm": 1085833.3333333333
+    },
+    {
+      "street_name": "BD COURCERIN",
+      "sales": 60,
+      "median_price_per_sqm": 2655.650505755145
+    },
+    {
+      "street_name": "BD DE BEAUBOURG",
+      "sales": 44,
+      "median_price_per_sqm": 28333.333333333332
+    },
+    {
+      "street_name": "RUE D EMERAINVILLE",
+      "sales": 43,
+      "median_price_per_sqm": 3981.818181818182
+    },
+    {
+      "street_name": "RPT DU RELAIS",
+      "sales": 39,
+      "median_price_per_sqm": 4565.217391304348
+    },
+    {
+      "street_name": "AV DE L ETANG",
+      "sales": 33,
+      "median_price_per_sqm": 3750.0
+    },
+    {
+      "street_name": "BD GEORGES BIDAULT",
+      "sales": 26,
+      "median_price_per_sqm": 24166.666666666668
+    },
+    {
+      "street_name": "RUE HENRY DELBAST",
+      "sales": 22,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES VIEILLES VIGNES",
+      "sales": 18,
+      "median_price_per_sqm": 9519.81613654253
+    },
+    {
+      "street_name": "RUE DE TORCY",
+      "sales": 14,
+      "median_price_per_sqm": 6398.809523809524
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 14,
+      "median_price_per_sqm": 4461.428571428572
+    },
+    {
+      "street_name": "ALL DES FRERES MONTGOLFIER",
+      "sales": 10,
+      "median_price_per_sqm": 1993.6211872396557
+    },
+    {
+      "street_name": "RUE AMBROISE CROIZAT",
+      "sales": 10,
+      "median_price_per_sqm": 1885.7459789240156
+    },
+    {
+      "street_name": "ALL DE CLAUTOMONT",
+      "sales": 8,
+      "median_price_per_sqm": 6034.482758620689
+    },
+    {
+      "street_name": "RUE PELLOUTIER",
+      "sales": 6,
+      "median_price_per_sqm": 716.0871914970276
+    }
+  ]
+}

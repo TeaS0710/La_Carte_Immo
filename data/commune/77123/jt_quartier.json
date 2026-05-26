@@ -1,0 +1,39 @@
+{
+  "year": 2025,
+  "sales_year": 33,
+  "sales_delta_pct": -2.9,
+  "median_price": 37240.0,
+  "median_ppsqm": 2724.742132361449,
+  "delta_ppsqm_pct": -23.4,
+  "notable_sales": [
+    {
+      "date": "2025-11-26",
+      "street": "RUE DU LIEVRE",
+      "type": "Maison",
+      "surface": 122,
+      "price": 401000.0
+    },
+    {
+      "date": "2025-04-14",
+      "street": "RUE DE GLATIGNY",
+      "type": "Maison",
+      "surface": 134,
+      "price": 366665.0
+    },
+    {
+      "date": "2025-08-05",
+      "street": "RUE ANDRE DELAGE",
+      "type": "Maison",
+      "surface": 129,
+      "price": 350000.0
+    },
+    {
+      "date": "2025-04-23",
+      "street": "RUE SAINT LAMBERT",
+      "type": "Maison",
+      "surface": 113,
+      "price": 287000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:52:11.189498Z"
+}

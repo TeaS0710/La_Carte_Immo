@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 912,
+  "sales_delta_pct": 12.3,
+  "median_price": 512500.0,
+  "median_ppsqm": 8753.048780487805,
+  "delta_ppsqm_pct": 1.0,
+  "notable_sales": [
+    {
+      "date": "2025-12-29",
+      "street": "RUE DU PARC",
+      "type": "Maison",
+      "surface": 170,
+      "price": 3058252.0
+    },
+    {
+      "date": "2025-09-30",
+      "street": "AV DU GEN DE GAULLE",
+      "type": "Maison",
+      "surface": 180,
+      "price": 2762997.0
+    },
+    {
+      "date": "2025-07-15",
+      "street": "AV ALPHAND",
+      "type": "Maison",
+      "surface": 172,
+      "price": 2552000.0
+    },
+    {
+      "date": "2025-07-04",
+      "street": "AV FOCH",
+      "type": "Appartement",
+      "surface": 173,
+      "price": 2000000.0
+    },
+    {
+      "date": "2025-06-06",
+      "street": "RUE JEAN MERMOZ",
+      "type": "Maison",
+      "surface": 180,
+      "price": 1790000.0
+    }
+  ],
+  "generated_at": "2026-05-25T00:54:49.668509Z"
+}

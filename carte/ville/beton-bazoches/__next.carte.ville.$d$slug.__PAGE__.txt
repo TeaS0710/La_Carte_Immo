@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+3:I[897367,["/La_Carte_Immo/_next/static/chunks/0x.73w57rn4ou.js","/La_Carte_Immo/_next/static/chunks/0i.l9589uvx0j.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":["$L2",[["$","script","script-0",{"src":"/La_Carte_Immo/_next/static/chunks/0gc_~slt.2wtl.js","async":true}],["$","script","script-1",{"src":"/La_Carte_Immo/_next/static/chunks/08p-zy85eftc8.js","async":true}],["$","script","script-2",{"src":"/La_Carte_Immo/_next/static/chunks/0fk~smrr6cif-.js","async":true}],["$","script","script-3",{"src":"/La_Carte_Immo/_next/static/chunks/025u_h9q~q7gr.js","async":true}],["$","script","script-4",{"src":"/La_Carte_Immo/_next/static/chunks/06iifq5fl91qc.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fFwLDs0iycAkbDrazfjN-"}
+5:null
+2:E{"digest":"NEXT_HTTP_ERROR_FALLBACK;404"}

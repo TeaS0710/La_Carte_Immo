@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 3583,
+  "sales_delta_pct": 19.8,
+  "median_price": 380000.0,
+  "median_ppsqm": 9449.49494949495,
+  "delta_ppsqm_pct": 1.9,
+  "notable_sales": [
+    {
+      "date": "2025-10-31",
+      "street": "RUE DIEU",
+      "type": "Appartement",
+      "surface": 190,
+      "price": 2692307.69
+    },
+    {
+      "date": "2025-11-18",
+      "street": "RUE D HAUTEVILLE",
+      "type": "Appartement",
+      "surface": 145,
+      "price": 2500000.0
+    },
+    {
+      "date": "2025-10-08",
+      "street": "RUE RENE BOULANGER",
+      "type": "Appartement",
+      "surface": 127,
+      "price": 2500000.0
+    },
+    {
+      "date": "2025-09-24",
+      "street": "RUE DE LANCRY",
+      "type": "Appartement",
+      "surface": 162,
+      "price": 2300000.0
+    },
+    {
+      "date": "2025-09-15",
+      "street": "RUE DE CHABROL",
+      "type": "Appartement",
+      "surface": 145,
+      "price": 2061300.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:41:28.681089Z"
+}

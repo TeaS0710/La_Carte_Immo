@@ -1,0 +1,120 @@
+{
+  "commune": "Mareuil-lès-Meaux",
+  "insee": "77276",
+  "generated_at": "2026-05-24T21:25:16.201276Z",
+  "total_sales": 872,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 101,
+  "median_price": 267000.0,
+  "median_price_per_sqm": 3301.391304347826,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 231,
+      "median_price": 261000.0
+    },
+    {
+      "year": 2022,
+      "sales": 233,
+      "median_price": 256000.0
+    },
+    {
+      "year": 2023,
+      "sales": 146,
+      "median_price": 352000.0
+    },
+    {
+      "year": 2024,
+      "sales": 179,
+      "median_price": 150000.0
+    },
+    {
+      "year": 2025,
+      "sales": 83,
+      "median_price": 230000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 99,
+      "median_price_per_sqm": 3656.716417910448
+    },
+    {
+      "street_name": "RUE CHARLES DE GAULLE",
+      "sales": 69,
+      "median_price_per_sqm": 3279.131054131054
+    },
+    {
+      "street_name": "RUE RASPAIL",
+      "sales": 50,
+      "median_price_per_sqm": 3252.336448598131
+    },
+    {
+      "street_name": "RUE CARNOT",
+      "sales": 48,
+      "median_price_per_sqm": 3663.366336633663
+    },
+    {
+      "street_name": "RUE VICTOR HUGO",
+      "sales": 41,
+      "median_price_per_sqm": 2600.0
+    },
+    {
+      "street_name": "RUE JOSEPH LHOSTE",
+      "sales": 38,
+      "median_price_per_sqm": 2674.406976744186
+    },
+    {
+      "street_name": "RUE RONSARD",
+      "sales": 38,
+      "median_price_per_sqm": 6210.881078478575
+    },
+    {
+      "street_name": "RUE JEAN SERVA",
+      "sales": 31,
+      "median_price_per_sqm": 17727.272727272728
+    },
+    {
+      "street_name": "AV DES FORTES TERRES",
+      "sales": 31,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE ALBERT LEPAGE",
+      "sales": 25,
+      "median_price_per_sqm": 3355.9227814837277
+    },
+    {
+      "street_name": "AV BELLEVUE",
+      "sales": 24,
+      "median_price_per_sqm": 3343.0033444816054
+    },
+    {
+      "street_name": "RUE DE LA CHOLETTE",
+      "sales": 17,
+      "median_price_per_sqm": 4325.356589147287
+    },
+    {
+      "street_name": "LES ROUAZES",
+      "sales": 17,
+      "median_price_per_sqm": 5557.312252964427
+    },
+    {
+      "street_name": "RUE DE L ABBE PETITOT",
+      "sales": 14,
+      "median_price_per_sqm": 2736.842105263158
+    },
+    {
+      "street_name": "AV DE LA GRANDE HAIE",
+      "sales": 13,
+      "median_price_per_sqm": 661.1570247933885
+    }
+  ]
+}

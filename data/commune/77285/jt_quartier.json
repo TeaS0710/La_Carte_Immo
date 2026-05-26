@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 561,
+  "sales_delta_pct": 45.7,
+  "median_price": 123000.0,
+  "median_ppsqm": 1899.1128927410618,
+  "delta_ppsqm_pct": -7.0,
+  "notable_sales": [
+    {
+      "date": "2025-05-23",
+      "street": "RUE DE LA LYVE",
+      "type": "Maison",
+      "surface": 212,
+      "price": 950000.0
+    },
+    {
+      "date": "2025-09-19",
+      "street": "AV DU GENERAL DE GAULLE",
+      "type": "Maison",
+      "surface": 254,
+      "price": 742820.0
+    },
+    {
+      "date": "2025-06-09",
+      "street": "RUE ARISTIDE BRIAND",
+      "type": "Maison",
+      "surface": 147,
+      "price": 455000.0
+    },
+    {
+      "date": "2025-07-04",
+      "street": "RUE DE LA FERME",
+      "type": "Maison",
+      "surface": 118,
+      "price": 405000.0
+    },
+    {
+      "date": "2025-10-22",
+      "street": "RUE CREUSE",
+      "type": "Maison",
+      "surface": 109,
+      "price": 395000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:27:03.600259Z"
+}

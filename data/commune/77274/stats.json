@@ -1,0 +1,120 @@
+{
+  "commune": "Marcilly",
+  "insee": "77274",
+  "generated_at": "2026-05-24T21:25:08.200299Z",
+  "total_sales": 271,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 28,
+  "median_price": 169000.0,
+  "median_price_per_sqm": 2675.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 89,
+      "median_price": 16000.0
+    },
+    {
+      "year": 2022,
+      "sales": 48,
+      "median_price": 180000.0
+    },
+    {
+      "year": 2023,
+      "sales": 52,
+      "median_price": 169000.0
+    },
+    {
+      "year": 2024,
+      "sales": 26,
+      "median_price": 189000.0
+    },
+    {
+      "year": 2025,
+      "sales": 56,
+      "median_price": 215000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU PONT",
+      "sales": 46,
+      "median_price_per_sqm": 2800.0
+    },
+    {
+      "street_name": "RUE DES EPINETTES",
+      "sales": 27,
+      "median_price_per_sqm": 1939.5225236809397
+    },
+    {
+      "street_name": "MARCILLY",
+      "sales": 26,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU MOULIN",
+      "sales": 18,
+      "median_price_per_sqm": 2518.5185185185187
+    },
+    {
+      "street_name": "PRES DES NIVEAUX",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "DEVANT FONTAINE",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE NEUVE",
+      "sales": 14,
+      "median_price_per_sqm": 3372.4489795918366
+    },
+    {
+      "street_name": "RUE DE LA BORNE BLANCHE",
+      "sales": 14,
+      "median_price_per_sqm": 2764.969354078265
+    },
+    {
+      "street_name": "RUE DES MOUSSEAUX",
+      "sales": 13,
+      "median_price_per_sqm": 2710.591911764706
+    },
+    {
+      "street_name": "RUE FLEURETTE",
+      "sales": 12,
+      "median_price_per_sqm": 2746.268656716418
+    },
+    {
+      "street_name": "COUR DE LA BOUTEILLE",
+      "sales": 11,
+      "median_price_per_sqm": 3987.9032258064517
+    },
+    {
+      "street_name": "LA GRILLE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "L EPINETTE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES VOYEUX",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PRES DU PONT",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 127,
+  "sales_delta_pct": 1.6,
+  "median_price": 66828.0,
+  "median_ppsqm": 3106.060606060606,
+  "delta_ppsqm_pct": 34.8,
+  "notable_sales": [
+    {
+      "date": "2025-06-26",
+      "street": "RTE DE DORMELLES",
+      "type": "Maison",
+      "surface": 191,
+      "price": 654259.25
+    },
+    {
+      "date": "2025-07-31",
+      "street": "RUE DE LA MAIRIE",
+      "type": "Maison",
+      "surface": 132,
+      "price": 410000.0
+    },
+    {
+      "date": "2025-11-19",
+      "street": "RUE DE LA MAIRIE",
+      "type": "Maison",
+      "surface": 160,
+      "price": 343000.0
+    },
+    {
+      "date": "2025-03-08",
+      "street": "RTE DE LA MALADRERIE",
+      "type": "Maison",
+      "surface": 55,
+      "price": 325000.0
+    },
+    {
+      "date": "2025-11-29",
+      "street": "RUE DES MOULINS",
+      "type": "Maison",
+      "surface": 140,
+      "price": 290000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:02:33.568684Z"
+}

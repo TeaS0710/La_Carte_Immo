@@ -1,0 +1,120 @@
+{
+  "commune": "Fontaine-Fourches",
+  "insee": "77187",
+  "generated_at": "2026-05-24T21:09:34.626905Z",
+  "total_sales": 257,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 46,
+  "median_price": 97000.0,
+  "median_price_per_sqm": 1562.5,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 46,
+      "median_price": 132000.0
+    },
+    {
+      "year": 2022,
+      "sales": 57,
+      "median_price": 149000.0
+    },
+    {
+      "year": 2023,
+      "sales": 52,
+      "median_price": 10000.0
+    },
+    {
+      "year": 2024,
+      "sales": 40,
+      "median_price": 102400.0
+    },
+    {
+      "year": 2025,
+      "sales": 62,
+      "median_price": 72422.7
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE MEROT",
+      "sales": 34,
+      "median_price_per_sqm": 1602.1317829457364
+    },
+    {
+      "street_name": "RUE SAINT MARTIN",
+      "sales": 20,
+      "median_price_per_sqm": 1679.599227426364
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 17,
+      "median_price_per_sqm": 1917.5824175824175
+    },
+    {
+      "street_name": "LE BAS DE FOURCHES",
+      "sales": 13,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES COURTIS DROGNONS",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE AUX OUCHES",
+      "sales": 11,
+      "median_price_per_sqm": 1456.6929133858268
+    },
+    {
+      "street_name": "RUE DU CALVAIRE",
+      "sales": 11,
+      "median_price_per_sqm": 1562.5
+    },
+    {
+      "street_name": "LES PLAINES",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "FOURCHES",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "FONTAINE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE NONAT",
+      "sales": 8,
+      "median_price_per_sqm": 1480.0
+    },
+    {
+      "street_name": "DEVANT L EGLISE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES PETITES BORDES",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CHAUVIT",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CHEMIN DE L EGLISE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

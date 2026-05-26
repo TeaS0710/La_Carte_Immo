@@ -1,0 +1,120 @@
+{
+  "commune": "Bransles",
+  "insee": "77050",
+  "generated_at": "2026-05-24T20:38:35.842617Z",
+  "total_sales": 226,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 43,
+  "median_price": 113500.0,
+  "median_price_per_sqm": 1677.0334928229665,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 71,
+      "median_price": 42195.0
+    },
+    {
+      "year": 2022,
+      "sales": 47,
+      "median_price": 257109.1
+    },
+    {
+      "year": 2023,
+      "sales": 38,
+      "median_price": 80210.0
+    },
+    {
+      "year": 2024,
+      "sales": 32,
+      "median_price": 105000.0
+    },
+    {
+      "year": 2025,
+      "sales": 38,
+      "median_price": 170500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE LA JEANDRILLONNERIE",
+      "sales": 20,
+      "median_price_per_sqm": 1669.6969696969697
+    },
+    {
+      "street_name": "RUE DE CESAR",
+      "sales": 18,
+      "median_price_per_sqm": 1327.7777777777778
+    },
+    {
+      "street_name": "ROCHEMORT",
+      "sales": 18,
+      "median_price_per_sqm": 2706.4115789473685
+    },
+    {
+      "street_name": "BARBIGNY",
+      "sales": 17,
+      "median_price_per_sqm": 2205.8823529411766
+    },
+    {
+      "street_name": "BRANSLES",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 11,
+      "median_price_per_sqm": 4285.714285714285
+    },
+    {
+      "street_name": "RUE SAINT LOUP",
+      "sales": 10,
+      "median_price_per_sqm": 1475.5189692197566
+    },
+    {
+      "street_name": "AV DU GATINAIS",
+      "sales": 8,
+      "median_price_per_sqm": 961.8320610687023
+    },
+    {
+      "street_name": "BRANDARD",
+      "sales": 7,
+      "median_price_per_sqm": 1981.132075471698
+    },
+    {
+      "street_name": "RUE DU GUE",
+      "sales": 7,
+      "median_price_per_sqm": 1127.8195488721803
+    },
+    {
+      "street_name": "BOIS DE PONTLEVE",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES BORDES",
+      "sales": 6,
+      "median_price_per_sqm": 2045.4545454545455
+    },
+    {
+      "street_name": "LA CHEVRE",
+      "sales": 6,
+      "median_price_per_sqm": 1684.6153846153845
+    },
+    {
+      "street_name": "LES PRES DE BRANLES",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA COUR DIEU",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

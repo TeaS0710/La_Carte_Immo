@@ -1,0 +1,120 @@
+{
+  "commune": "Gurcy-le-Châtel",
+  "insee": "77223",
+  "generated_at": "2026-05-24T21:16:32.630903Z",
+  "total_sales": 118,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 32,
+  "median_price": 163000.0,
+  "median_price_per_sqm": 2111.6190476190477,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 45,
+      "median_price": 172000.0
+    },
+    {
+      "year": 2022,
+      "sales": 18,
+      "median_price": 267000.0
+    },
+    {
+      "year": 2023,
+      "sales": 7,
+      "median_price": 191814.0
+    },
+    {
+      "year": 2024,
+      "sales": 16,
+      "median_price": 230000.0
+    },
+    {
+      "year": 2025,
+      "sales": 32,
+      "median_price": 150000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE AMPERE",
+      "sales": 22,
+      "median_price_per_sqm": 1649.6451048951049
+    },
+    {
+      "street_name": "GURCY",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE CURIE",
+      "sales": 8,
+      "median_price_per_sqm": 2550.0
+    },
+    {
+      "street_name": "CHALAUTRE",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES MARNES",
+      "sales": 7,
+      "median_price_per_sqm": 2343.75
+    },
+    {
+      "street_name": "RUE BERLIOZ",
+      "sales": 6,
+      "median_price_per_sqm": 2420.0
+    },
+    {
+      "street_name": "RUE BRANLY",
+      "sales": 6,
+      "median_price_per_sqm": 2263.736263736264
+    },
+    {
+      "street_name": "RUE LAMARTINE",
+      "sales": 6,
+      "median_price_per_sqm": 1946.1538461538462
+    },
+    {
+      "street_name": "RUE DU MONTOIS",
+      "sales": 5,
+      "median_price_per_sqm": 1982.7586206896551
+    },
+    {
+      "street_name": "LES GUERENNERIES",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES ELOYS",
+      "sales": 5,
+      "median_price_per_sqm": 1681.159420289855
+    },
+    {
+      "street_name": "LE CLOS MACON",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BOIS DE TILLY",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA MOUTONNERIE",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "DERRIERE LES BOIS",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Choisy-en-Brie",
+  "insee": "77116",
+  "generated_at": "2026-05-24T20:49:24.977331Z",
+  "total_sales": 462,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 82,
+  "median_price": 170500.0,
+  "median_price_per_sqm": 2077.9220779220777,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 104,
+      "median_price": 226490.0
+    },
+    {
+      "year": 2022,
+      "sales": 116,
+      "median_price": 221000.0
+    },
+    {
+      "year": 2023,
+      "sales": 70,
+      "median_price": 168000.0
+    },
+    {
+      "year": 2024,
+      "sales": 73,
+      "median_price": 135000.0
+    },
+    {
+      "year": 2025,
+      "sales": 99,
+      "median_price": 145000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "CHOISY EN BRIE",
+      "sales": 49,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "VILLARS",
+      "sales": 34,
+      "median_price_per_sqm": 1896.551724137931
+    },
+    {
+      "street_name": "GRANDE RUE",
+      "sales": 29,
+      "median_price_per_sqm": 1666.6666666666667
+    },
+    {
+      "street_name": "RUE DE LA BOCHETIERE",
+      "sales": 26,
+      "median_price_per_sqm": 1795.2731092436975
+    },
+    {
+      "street_name": "LA BOULOIS",
+      "sales": 24,
+      "median_price_per_sqm": 2713.1782945736436
+    },
+    {
+      "street_name": "RUE GALLIE",
+      "sales": 20,
+      "median_price_per_sqm": 2045.4545454545455
+    },
+    {
+      "street_name": "COFFERY",
+      "sales": 17,
+      "median_price_per_sqm": 2592.5925925925926
+    },
+    {
+      "street_name": "RTE DE MELUN",
+      "sales": 15,
+      "median_price_per_sqm": 2356.32183908046
+    },
+    {
+      "street_name": "RTE DE LA FERTE GAUCHER",
+      "sales": 12,
+      "median_price_per_sqm": 2500.317073170732
+    },
+    {
+      "street_name": "RTE DE COULOMMIERS",
+      "sales": 12,
+      "median_price_per_sqm": 2279.310344827586
+    },
+    {
+      "street_name": "RTE DE REBAIS",
+      "sales": 10,
+      "median_price_per_sqm": 2386.3636363636365
+    },
+    {
+      "street_name": "LE BOIS CHARLOT",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "D 215",
+      "sales": 10,
+      "median_price_per_sqm": 1887.5
+    },
+    {
+      "street_name": "RUE DE LA FRESNOIS",
+      "sales": 9,
+      "median_price_per_sqm": 1601.4492753623188
+    },
+    {
+      "street_name": "RUE DU CLOS GILLET",
+      "sales": 8,
+      "median_price_per_sqm": 2492.297437416679
+    }
+  ]
+}

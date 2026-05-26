@@ -1,0 +1,306 @@
+{
+  "commune": "Champigny-sur-Marne",
+  "insee": "94017",
+  "generated_at": "2026-05-24T18:02:31.190486Z",
+  "total_sales": 8946,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 416,
+  "median_price": 265673.0,
+  "median_price_per_sqm": 4244.672897196262,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 2079,
+      "median_price": 269100.0
+    },
+    {
+      "year": 2022,
+      "sales": 2161,
+      "median_price": 275000.0
+    },
+    {
+      "year": 2023,
+      "sales": 1558,
+      "median_price": 256500.0
+    },
+    {
+      "year": 2024,
+      "sales": 1488,
+      "median_price": 255000.0
+    },
+    {
+      "year": 2025,
+      "sales": 1660,
+      "median_price": 270000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GENERAL DE GAULLE",
+      "sales": 881,
+      "median_price_per_sqm": 4375.0
+    },
+    {
+      "street_name": "RUE DE VERDUN",
+      "sales": 449,
+      "median_price_per_sqm": 3896.7741935483873
+    },
+    {
+      "street_name": "RUE DIDEROT",
+      "sales": 325,
+      "median_price_per_sqm": 3940.2985074626868
+    },
+    {
+      "street_name": "RUE DE MUSSELBURGH",
+      "sales": 303,
+      "median_price_per_sqm": 3704.261954261954
+    },
+    {
+      "street_name": "AV ROGER SALENGRO",
+      "sales": 205,
+      "median_price_per_sqm": 4203.125
+    },
+    {
+      "street_name": "BD DE STALINGRAD",
+      "sales": 201,
+      "median_price_per_sqm": 3901.785714285714
+    },
+    {
+      "street_name": "RES GABRIEL PERI",
+      "sales": 191,
+      "median_price_per_sqm": 3812.5996810207334
+    },
+    {
+      "street_name": "BD ARISTIDE BRIAND",
+      "sales": 170,
+      "median_price_per_sqm": 6576.923076923077
+    },
+    {
+      "street_name": "RUE ALEXANDRE FOURNY",
+      "sales": 156,
+      "median_price_per_sqm": 3001.754385964912
+    },
+    {
+      "street_name": "RUE GUY MOQUET",
+      "sales": 154,
+      "median_price_per_sqm": 3587.209302325581
+    },
+    {
+      "street_name": "RUE JEAN JAURES",
+      "sales": 118,
+      "median_price_per_sqm": 4543.402777777777
+    },
+    {
+      "street_name": "AV CARNOT",
+      "sales": 117,
+      "median_price_per_sqm": 5166.666666666667
+    },
+    {
+      "street_name": "CHE DU PRE DE L ETANG",
+      "sales": 115,
+      "median_price_per_sqm": 4600.0
+    },
+    {
+      "street_name": "RUE ALBERT THOMAS",
+      "sales": 105,
+      "median_price_per_sqm": 8088.235294117647
+    },
+    {
+      "street_name": "AV MAURICE THOREZ",
+      "sales": 92,
+      "median_price_per_sqm": 2654.2847749853886
+    }
+  ],
+  "sirene_targets_total": 743,
+  "sirene_agences_immo": 214,
+  "sirene_par_naf": [
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 165
+    },
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 151
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 94
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 90
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 72
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 52
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 44
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 40
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 15
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 10
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 9
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 1
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "879935013",
+      "nom": "ZHEYA",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "70 RUE GUY MOQUET 94500 CHAMPIGNY-SUR-MARNE",
+      "code_postal": "94500"
+    },
+    {
+      "siren": "802545426",
+      "nom": "ARNAUD IMMOBILIER SAS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "8 RUE D'ESTIENNE D'ORVES 94000 CRETEIL",
+      "code_postal": "94000"
+    },
+    {
+      "siren": "842682114",
+      "nom": "MONICA PRIETO",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "36 AVENUE LEON BLUM 92350 LE PLESSIS-ROBINSON",
+      "code_postal": "92350"
+    },
+    {
+      "siren": "320570740",
+      "nom": "JEAN GANNE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "6 RUE CHRYSOSTOME 69800 SAINT-PRIEST",
+      "code_postal": "69800"
+    },
+    {
+      "siren": "881493431",
+      "nom": "GINEVRA ADZABE (ADA ADZABE)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "APPARTEMENT 402 A 2 RUE DULCIE SEPTEMBER 94500 CHAMPIGNY-SUR-MARNE",
+      "code_postal": "94500"
+    },
+    {
+      "siren": "509175790",
+      "nom": "NELSON MASCATE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18 RUE DE L'EGLISE 94500 CHAMPIGNY-SUR-MARNE",
+      "code_postal": "94500"
+    },
+    {
+      "siren": "532883840",
+      "nom": "RP IMMO 94",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "55 RUE LOUIS TALAMONI 94500 CHAMPIGNY-SUR-MARNE",
+      "code_postal": "94500"
+    },
+    {
+      "siren": "833951734",
+      "nom": "FLORIAN DASSONVILLE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "6 VILLA NIEUPORT 75013 PARIS",
+      "code_postal": "75013"
+    },
+    {
+      "siren": "832251821",
+      "nom": "SYLVIE JIRMOUNSKY",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "267 ALLEE DE BORDEAUX 33470 GUJAN-MESTRAS",
+      "code_postal": "33470"
+    },
+    {
+      "siren": "517412995",
+      "nom": "MAKE BEST INVESTMENT",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "320 RUE SAINT-HONORE 75001 PARIS",
+      "code_postal": "75001"
+    },
+    {
+      "siren": "840074413",
+      "nom": "KATIA LE MOAL",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "21 QUAI GALLIENI 94500 CHAMPIGNY-SUR-MARNE",
+      "code_postal": "94500"
+    },
+    {
+      "siren": "849884150",
+      "nom": "ISABELLE KLEIN",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "119 AVENUE DU GENERAL DE GAULLE 94500 CHAMPIGNY-SUR-MARNE",
+      "code_postal": "94500"
+    },
+    {
+      "siren": "400529830",
+      "nom": "JACOB COHEN",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "16 RUE PASTEUR 94380 BONNEUIL-SUR-MARNE",
+      "code_postal": "94380"
+    },
+    {
+      "siren": "353403447",
+      "nom": "BEREC IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "32 RUE DU FOUR 94100 SAINT-MAUR-DES-FOSSES",
+      "code_postal": "94100"
+    },
+    {
+      "siren": "493199053",
+      "nom": "MIRAGE ESTATE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "BAT B C801 801 AVENUE VIRGINIE HERIOT 06190 ROQUEBRUNE-CAP-MARTIN",
+      "code_postal": "06190"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 58,
+  "sales_delta_pct": -31.8,
+  "median_price": 206570.0,
+  "median_ppsqm": 3235.576923076923,
+  "delta_ppsqm_pct": -95.9,
+  "notable_sales": [
+    {
+      "date": "2025-11-28",
+      "street": "RUE REMY BEAUDENUIT",
+      "type": "Maison",
+      "surface": 112,
+      "price": 350000.0
+    },
+    {
+      "date": "2025-10-30",
+      "street": "RUE DU PUITS D AFFETET",
+      "type": "Maison",
+      "surface": 130,
+      "price": 346750.0
+    },
+    {
+      "date": "2025-06-17",
+      "street": "RUE DU PUITS D AFFETET",
+      "type": "Maison",
+      "surface": 113,
+      "price": 319500.0
+    },
+    {
+      "date": "2025-10-21",
+      "street": "RUE DE LA VALLEE",
+      "type": "Maison",
+      "surface": 104,
+      "price": 316000.0
+    },
+    {
+      "date": "2025-10-31",
+      "street": "RUE DE PARIS",
+      "type": "Maison",
+      "surface": 90,
+      "price": 306000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:31:12.527631Z"
+}

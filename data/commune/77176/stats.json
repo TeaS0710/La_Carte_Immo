@@ -1,0 +1,120 @@
+{
+  "commune": "Faremoutiers",
+  "insee": "77176",
+  "generated_at": "2026-05-24T21:07:33.159389Z",
+  "total_sales": 700,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 76,
+  "median_price": 250000.0,
+  "median_price_per_sqm": 2703.3898305084745,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 161,
+      "median_price": 237400.0
+    },
+    {
+      "year": 2022,
+      "sales": 150,
+      "median_price": 241500.0
+    },
+    {
+      "year": 2023,
+      "sales": 145,
+      "median_price": 239000.0
+    },
+    {
+      "year": 2024,
+      "sales": 75,
+      "median_price": 265000.0
+    },
+    {
+      "year": 2025,
+      "sales": 169,
+      "median_price": 252000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DES ORMES",
+      "sales": 59,
+      "median_price_per_sqm": 2483.7662337662337
+    },
+    {
+      "street_name": "FAREMOUTIERS",
+      "sales": 50,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES CHARMES",
+      "sales": 47,
+      "median_price_per_sqm": 2096.846846846847
+    },
+    {
+      "street_name": "AV DU COMMANDANT ARNAUD",
+      "sales": 42,
+      "median_price_per_sqm": 3325.5360623781676
+    },
+    {
+      "street_name": "RUE DE L OBELISQUE",
+      "sales": 37,
+      "median_price_per_sqm": 2788.6458333333335
+    },
+    {
+      "street_name": "RUE DU BRAY",
+      "sales": 28,
+      "median_price_per_sqm": 3087.183718371837
+    },
+    {
+      "street_name": "RUE STE FARE",
+      "sales": 23,
+      "median_price_per_sqm": 2355.371900826446
+    },
+    {
+      "street_name": "BD PAUL NICLAUSSE",
+      "sales": 19,
+      "median_price_per_sqm": 2507.6341463414637
+    },
+    {
+      "street_name": "RUE PIERRE DE RONSARD",
+      "sales": 18,
+      "median_price_per_sqm": 3329.1139240506327
+    },
+    {
+      "street_name": "RUE ROBERT MARTIN",
+      "sales": 18,
+      "median_price_per_sqm": 3596.4912280701756
+    },
+    {
+      "street_name": "PL DU GEN DE GAULLE",
+      "sales": 16,
+      "median_price_per_sqm": 2551.4184397163117
+    },
+    {
+      "street_name": "RUE DU 27 AOUT",
+      "sales": 16,
+      "median_price_per_sqm": 2909.7222222222226
+    },
+    {
+      "street_name": "BD LOUIS DURAND",
+      "sales": 15,
+      "median_price_per_sqm": 2990.3846153846152
+    },
+    {
+      "street_name": "RUE DES PRIMEVERES",
+      "sales": 15,
+      "median_price_per_sqm": 2811.8811881188117
+    },
+    {
+      "street_name": "IMP DU MUGUET",
+      "sales": 15,
+      "median_price_per_sqm": 2693.800178412132
+    }
+  ]
+}

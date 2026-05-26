@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 1805,
+  "sales_delta_pct": 31.8,
+  "median_price": 310000.0,
+  "median_ppsqm": 5616.0,
+  "delta_ppsqm_pct": -0.4,
+  "notable_sales": [
+    {
+      "date": "2025-09-08",
+      "street": "RUE ROGER FRANCOIS",
+      "type": "Maison",
+      "surface": 170,
+      "price": 1310000.0
+    },
+    {
+      "date": "2025-10-23",
+      "street": "RUE SAINT GEORGES",
+      "type": "Maison",
+      "surface": 240,
+      "price": 1201350.0
+    },
+    {
+      "date": "2025-03-17",
+      "street": "RUE DE REIMS",
+      "type": "Maison",
+      "surface": 185,
+      "price": 1200000.0
+    },
+    {
+      "date": "2025-12-19",
+      "street": "RUE ROGER FRANCOIS",
+      "type": "Maison",
+      "surface": 143,
+      "price": 1175000.0
+    },
+    {
+      "date": "2025-03-10",
+      "street": "RUE EDMOND NOCARD",
+      "type": "Appartement",
+      "surface": 48,
+      "price": 1155000.0
+    }
+  ],
+  "generated_at": "2026-05-24T18:03:14.978384Z"
+}

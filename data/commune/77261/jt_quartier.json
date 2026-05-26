@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 94,
+  "sales_delta_pct": -32.4,
+  "median_price": 153000.0,
+  "median_ppsqm": 1856.532147742818,
+  "delta_ppsqm_pct": -9.2,
+  "notable_sales": [
+    {
+      "date": "2025-03-28",
+      "street": "AV DE LA GARE",
+      "type": "Maison",
+      "surface": 180,
+      "price": 328000.0
+    },
+    {
+      "date": "2025-12-23",
+      "street": "VILLENOUETTE",
+      "type": "Maison",
+      "surface": 118,
+      "price": 299000.0
+    },
+    {
+      "date": "2025-10-27",
+      "street": "RUE EMILE BRU",
+      "type": "Maison",
+      "surface": 103,
+      "price": 285000.0
+    },
+    {
+      "date": "2025-04-08",
+      "street": "RUE DES MOULINS",
+      "type": "Maison",
+      "surface": 146,
+      "price": 280000.0
+    },
+    {
+      "date": "2025-05-09",
+      "street": "AV DU GEN DE GAULLE",
+      "type": "Maison",
+      "surface": 147,
+      "price": 250000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:23:13.805321Z"
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Guermantes",
+  "insee": "77221",
+  "generated_at": "2026-05-24T21:16:18.035399Z",
+  "total_sales": 206,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 29,
+  "median_price": 581100.0,
+  "median_price_per_sqm": 4512.244897959184,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 43,
+      "median_price": 550000.0
+    },
+    {
+      "year": 2022,
+      "sales": 67,
+      "median_price": 1135000.0
+    },
+    {
+      "year": 2023,
+      "sales": 33,
+      "median_price": 485000.0
+    },
+    {
+      "year": 2024,
+      "sales": 26,
+      "median_price": 430000.0
+    },
+    {
+      "year": 2025,
+      "sales": 37,
+      "median_price": 428000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DES DEUX CHATEAUX",
+      "sales": 37,
+      "median_price_per_sqm": 4583.333333333333
+    },
+    {
+      "street_name": "RUE DE LA MADELEINE",
+      "sales": 34,
+      "median_price_per_sqm": 46916.666666666664
+    },
+    {
+      "street_name": "RUE BLANCHE HOTTINGUER",
+      "sales": 21,
+      "median_price_per_sqm": 4187.1947835738065
+    },
+    {
+      "street_name": "ALL DU CLOS CHARON",
+      "sales": 16,
+      "median_price_per_sqm": 12916.666666666666
+    },
+    {
+      "street_name": "ALL ROND DU CERF",
+      "sales": 13,
+      "median_price_per_sqm": 4108.8983050847455
+    },
+    {
+      "street_name": "VLA LES HERMIERES",
+      "sales": 10,
+      "median_price_per_sqm": 4725.0
+    },
+    {
+      "street_name": "RUE DES LILANDRY",
+      "sales": 6,
+      "median_price_per_sqm": 3036.019536019536
+    },
+    {
+      "street_name": "RUE ANDRE THIERRY",
+      "sales": 6,
+      "median_price_per_sqm": 4937.129059350504
+    },
+    {
+      "street_name": "VLA HARDOUIN MANSART",
+      "sales": 6,
+      "median_price_per_sqm": 3569.9813258636786
+    },
+    {
+      "street_name": "RUE LAUTREAMONT",
+      "sales": 5,
+      "median_price_per_sqm": 3060.9901937335567
+    },
+    {
+      "street_name": "ALL JEHAN DE BRIE",
+      "sales": 4,
+      "median_price_per_sqm": 4012.1111111111113
+    },
+    {
+      "street_name": "RUE ANDRE GIDE",
+      "sales": 4,
+      "median_price_per_sqm": 3497.972972972973
+    },
+    {
+      "street_name": "ALL ALAIN FOURNIER",
+      "sales": 4,
+      "median_price_per_sqm": 3886.145833333333
+    },
+    {
+      "street_name": "VLA LES BLANCHETS",
+      "sales": 4,
+      "median_price_per_sqm": 3811.3207547169814
+    },
+    {
+      "street_name": "ALL DU NID DE GRIVE",
+      "sales": 4,
+      "median_price_per_sqm": 4376.3302752293575
+    }
+  ]
+}

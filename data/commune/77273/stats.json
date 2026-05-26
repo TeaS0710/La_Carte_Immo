@@ -1,0 +1,120 @@
+{
+  "commune": "Marchémoret",
+  "insee": "77273",
+  "generated_at": "2026-05-24T21:25:01.643286Z",
+  "total_sales": 190,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 23,
+  "median_price": 170500.0,
+  "median_price_per_sqm": 3387.0967741935483,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 68,
+      "median_price": 169000.0
+    },
+    {
+      "year": 2022,
+      "sales": 36,
+      "median_price": 294000.0
+    },
+    {
+      "year": 2023,
+      "sales": 24,
+      "median_price": 165000.0
+    },
+    {
+      "year": 2024,
+      "sales": 35,
+      "median_price": 253889.9
+    },
+    {
+      "year": 2025,
+      "sales": 27,
+      "median_price": 285000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 46,
+      "median_price_per_sqm": 3068.914136710747
+    },
+    {
+      "street_name": "RUE DE LA GRANDE MARE",
+      "sales": 22,
+      "median_price_per_sqm": 3356.511350059737
+    },
+    {
+      "street_name": "LA GRANDE MARE",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES PUITS",
+      "sales": 17,
+      "median_price_per_sqm": 3432.6923076923076
+    },
+    {
+      "street_name": "RUE DU CHATEAU",
+      "sales": 16,
+      "median_price_per_sqm": 3723.404255319149
+    },
+    {
+      "street_name": "RUE DE VERRIERES",
+      "sales": 14,
+      "median_price_per_sqm": 3389.189189189189
+    },
+    {
+      "street_name": "LA FOLIE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 6,
+      "median_price_per_sqm": 2773.5849056603774
+    },
+    {
+      "street_name": "RUE DU VIVIER",
+      "sales": 5,
+      "median_price_per_sqm": 3728.395061728395
+    },
+    {
+      "street_name": "LA CROUILLERE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU JEU D ARC",
+      "sales": 4,
+      "median_price_per_sqm": 2587.9710144927535
+    },
+    {
+      "street_name": "RUE DU SAC",
+      "sales": 4,
+      "median_price_per_sqm": 3285.03893214683
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE",
+      "sales": 4,
+      "median_price_per_sqm": 926.6666666666666
+    },
+    {
+      "street_name": "GRANDE RUE",
+      "sales": 3,
+      "median_price_per_sqm": 3335.0134408602153
+    },
+    {
+      "street_name": "RUE RENAUDE",
+      "sales": 3,
+      "median_price_per_sqm": 3952.830188679245
+    }
+  ]
+}

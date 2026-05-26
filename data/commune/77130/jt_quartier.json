@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 34,
+  "sales_delta_pct": 70.0,
+  "median_price": 70000.0,
+  "median_ppsqm": 3181.818181818182,
+  "delta_ppsqm_pct": 9.8,
+  "notable_sales": [
+    {
+      "date": "2025-09-08",
+      "street": "RUE DE LA BRETAGNE",
+      "type": "Maison",
+      "surface": 121,
+      "price": 385000.0
+    },
+    {
+      "date": "2025-05-28",
+      "street": "CHE PARE",
+      "type": "Maison",
+      "surface": 111,
+      "price": 359000.0
+    },
+    {
+      "date": "2025-10-02",
+      "street": "RUE DE COURCELLES",
+      "type": "Maison",
+      "surface": 95,
+      "price": 298000.0
+    },
+    {
+      "date": "2025-08-19",
+      "street": "GRANDE RUE",
+      "type": "Maison",
+      "surface": 106,
+      "price": 295500.0
+    },
+    {
+      "date": "2025-10-29",
+      "street": "CHE PARE",
+      "type": "Maison",
+      "surface": 82,
+      "price": 292000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:57:24.295665Z"
+}

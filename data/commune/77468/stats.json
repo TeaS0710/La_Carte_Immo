@@ -1,0 +1,120 @@
+{
+  "commune": "Torcy",
+  "insee": "77468",
+  "generated_at": "2026-05-24T21:56:26.227255Z",
+  "total_sales": 2970,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 184,
+  "median_price": 229500.0,
+  "median_price_per_sqm": 3600.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 689,
+      "median_price": 220000.0
+    },
+    {
+      "year": 2022,
+      "sales": 700,
+      "median_price": 230000.0
+    },
+    {
+      "year": 2023,
+      "sales": 521,
+      "median_price": 222000.0
+    },
+    {
+      "year": 2024,
+      "sales": 582,
+      "median_price": 250000.0
+    },
+    {
+      "year": 2025,
+      "sales": 478,
+      "median_price": 225000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 191,
+      "median_price_per_sqm": 3934.4262295081967
+    },
+    {
+      "street_name": "AV DE LINGENFELD",
+      "sales": 151,
+      "median_price_per_sqm": 2962.209302325581
+    },
+    {
+      "street_name": "RUE PIERRE MENDES FRANCE",
+      "sales": 144,
+      "median_price_per_sqm": 3788.2675814751287
+    },
+    {
+      "street_name": "ALL DES FRERES LUMIERE",
+      "sales": 130,
+      "median_price_per_sqm": 90946.23188405797
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE",
+      "sales": 77,
+      "median_price_per_sqm": 2746.478873239437
+    },
+    {
+      "street_name": "RUE JULES VALLES",
+      "sales": 76,
+      "median_price_per_sqm": 3337.719298245614
+    },
+    {
+      "street_name": "RUE DU QUINCONCE",
+      "sales": 73,
+      "median_price_per_sqm": 3935.714285714286
+    },
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 68,
+      "median_price_per_sqm": 3807.6923076923076
+    },
+    {
+      "street_name": "RUE PABLO NERUDA",
+      "sales": 67,
+      "median_price_per_sqm": 3168.6746987951806
+    },
+    {
+      "street_name": "ALL DES TERRASSES",
+      "sales": 61,
+      "median_price_per_sqm": 2795.1388888888887
+    },
+    {
+      "street_name": "RUE DE LA MARE AUX MARCHAIS",
+      "sales": 56,
+      "median_price_per_sqm": 3798.076923076923
+    },
+    {
+      "street_name": "ALL JEAN ZAY",
+      "sales": 51,
+      "median_price_per_sqm": 2876.7123287671234
+    },
+    {
+      "street_name": "RUE RESIDENCE LES TILLEULS",
+      "sales": 51,
+      "median_price_per_sqm": 14081.632653061224
+    },
+    {
+      "street_name": "RUE DE VALMY",
+      "sales": 50,
+      "median_price_per_sqm": 3429.255748285599
+    },
+    {
+      "street_name": "SQ DE LA ROSERAIE",
+      "sales": 46,
+      "median_price_per_sqm": 4522.916666666666
+    }
+  ]
+}

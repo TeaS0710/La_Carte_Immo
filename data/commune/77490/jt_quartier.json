@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 140,
+  "sales_delta_pct": 268.4,
+  "median_price": 679893.11,
+  "median_ppsqm": 2493.3333333333335,
+  "delta_ppsqm_pct": 19.8,
+  "notable_sales": [
+    {
+      "date": "2025-07-04",
+      "street": "RUE DES BRULIS",
+      "type": "Maison",
+      "surface": 82,
+      "price": 242000.0
+    },
+    {
+      "date": "2025-04-22",
+      "street": "RUE SAINT VINCENT CHATON",
+      "type": "Maison",
+      "surface": 100,
+      "price": 233000.0
+    },
+    {
+      "date": "2025-06-20",
+      "street": "RUE A L EAU",
+      "type": "Maison",
+      "surface": 59,
+      "price": 230000.0
+    },
+    {
+      "date": "2025-09-26",
+      "street": "RUE DU MOULIN A VENT",
+      "type": "Maison",
+      "surface": 90,
+      "price": 224400.0
+    },
+    {
+      "date": "2025-12-08",
+      "street": "RUE DE LA JULIENNE",
+      "type": "Maison",
+      "surface": 55,
+      "price": 209000.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:03:07.088861Z"
+}

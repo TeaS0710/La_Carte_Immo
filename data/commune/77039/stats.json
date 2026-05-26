@@ -1,0 +1,120 @@
+{
+  "commune": "Boissise-la-Bertrand",
+  "insee": "77039",
+  "generated_at": "2026-05-24T20:36:59.926589Z",
+  "total_sales": 379,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 37,
+  "median_price": 295000.0,
+  "median_price_per_sqm": 3608.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 97,
+      "median_price": 285000.0
+    },
+    {
+      "year": 2022,
+      "sales": 97,
+      "median_price": 451000.0
+    },
+    {
+      "year": 2023,
+      "sales": 68,
+      "median_price": 280000.0
+    },
+    {
+      "year": 2024,
+      "sales": 44,
+      "median_price": 276500.0
+    },
+    {
+      "year": 2025,
+      "sales": 73,
+      "median_price": 175000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "L ANGLEE",
+      "sales": 50,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE FRANCOIS ROLIN",
+      "sales": 41,
+      "median_price_per_sqm": 8510.63829787234
+    },
+    {
+      "street_name": "RUE DE SEINE",
+      "sales": 30,
+      "median_price_per_sqm": 3983.7302917031184
+    },
+    {
+      "street_name": "LES COUBLANCS",
+      "sales": 30,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA TOUR MAUBOURG",
+      "sales": 25,
+      "median_price_per_sqm": 3125.0
+    },
+    {
+      "street_name": "LES EGREMONTS",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE FONTAINE BERGER",
+      "sales": 23,
+      "median_price_per_sqm": 2854.9036529680366
+    },
+    {
+      "street_name": "RUE DE LA REPUBLIQUE",
+      "sales": 20,
+      "median_price_per_sqm": 3172.268907563025
+    },
+    {
+      "street_name": "RUE DES BERGERES",
+      "sales": 19,
+      "median_price_per_sqm": 5153.846153846154
+    },
+    {
+      "street_name": "RUE DE L AUNETTE",
+      "sales": 16,
+      "median_price_per_sqm": 3589.714285714286
+    },
+    {
+      "street_name": "CHE DE BOISSETTES",
+      "sales": 14,
+      "median_price_per_sqm": 2969.9248120300754
+    },
+    {
+      "street_name": "RUE DES COUBLANCS",
+      "sales": 12,
+      "median_price_per_sqm": 3633.3333333333335
+    },
+    {
+      "street_name": "RUE DES JOIES",
+      "sales": 8,
+      "median_price_per_sqm": 4360.0
+    },
+    {
+      "street_name": "LE BAS BOIRE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DES ORMEAUX",
+      "sales": 6,
+      "median_price_per_sqm": 3728.9772727272725
+    }
+  ]
+}

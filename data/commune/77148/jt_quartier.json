@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 198,
+  "sales_delta_pct": 200.0,
+  "median_price": 20000.0,
+  "median_ppsqm": 2522.7272727272725,
+  "delta_ppsqm_pct": 14.2,
+  "notable_sales": [
+    {
+      "date": "2025-09-06",
+      "street": "RUE DU CYGNE",
+      "type": "Maison",
+      "surface": 126,
+      "price": 319000.0
+    },
+    {
+      "date": "2025-12-18",
+      "street": "RUE DE LA COMMANDERIE",
+      "type": "Maison",
+      "surface": 136,
+      "price": 270000.0
+    },
+    {
+      "date": "2025-12-22",
+      "street": "RUE DU BOIS BELLEAU",
+      "type": "Maison",
+      "surface": 119,
+      "price": 265000.0
+    },
+    {
+      "date": "2025-10-04",
+      "street": "RUE DU DOCTEUR SCHWEITZER",
+      "type": "Maison",
+      "surface": 76,
+      "price": 259000.0
+    },
+    {
+      "date": "2025-12-29",
+      "street": "RUE MONTANGLOS",
+      "type": "Maison",
+      "surface": 90,
+      "price": 255000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:00:25.951752Z"
+}

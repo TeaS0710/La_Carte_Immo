@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 37,
+  "sales_delta_pct": 131.2,
+  "median_price": 376180.0,
+  "median_ppsqm": 3009.44,
+  "delta_ppsqm_pct": 30.3,
+  "notable_sales": [
+    {
+      "date": "2025-12-23",
+      "street": "RUE DU CLOS CORBIN",
+      "type": "Maison",
+      "surface": 162,
+      "price": 660000.0
+    },
+    {
+      "date": "2025-07-15",
+      "street": "RUE DE SAINT AGNAN",
+      "type": "Maison",
+      "surface": 142,
+      "price": 465000.0
+    },
+    {
+      "date": "2025-11-28",
+      "street": "LE CLOSEAU",
+      "type": "Maison",
+      "surface": 117,
+      "price": 434300.0
+    },
+    {
+      "date": "2025-10-04",
+      "street": "RUE DE LA CROIX BOISEE",
+      "type": "Maison",
+      "surface": 125,
+      "price": 376180.0
+    },
+    {
+      "date": "2025-07-25",
+      "street": "RUE DE SAINT AGNAN",
+      "type": "Maison",
+      "surface": 120,
+      "price": 229000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:31:32.805706Z"
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 173,
+  "sales_delta_pct": 23.6,
+  "median_price": 175000.0,
+  "median_ppsqm": 3006.6826923076924,
+  "delta_ppsqm_pct": -2.6,
+  "notable_sales": [
+    {
+      "date": "2025-10-03",
+      "street": "CHE DE LA MALADRERIE",
+      "type": "Maison",
+      "surface": 122,
+      "price": 385000.0
+    },
+    {
+      "date": "2025-12-16",
+      "street": "RUE MOREAU DUCHESNE",
+      "type": "Maison",
+      "surface": 85,
+      "price": 350900.0
+    },
+    {
+      "date": "2025-06-28",
+      "street": "RUE DE L OURCQ",
+      "type": "Maison",
+      "surface": 136,
+      "price": 305000.0
+    },
+    {
+      "date": "2025-09-11",
+      "street": "ALL DU MOULIN",
+      "type": "Maison",
+      "surface": 90,
+      "price": 296000.0
+    },
+    {
+      "date": "2025-07-04",
+      "street": "ALL DU MOULIN",
+      "type": "Maison",
+      "surface": 115,
+      "price": 296000.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:01:06.638639Z"
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Évry-Grégy-sur-Yerre",
+  "insee": "77175",
+  "generated_at": "2026-05-24T21:07:19.071045Z",
+  "total_sales": 904,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 105,
+  "median_price": 308075.0,
+  "median_price_per_sqm": 3346.4566929133857,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 285,
+      "median_price": 325000.0
+    },
+    {
+      "year": 2022,
+      "sales": 161,
+      "median_price": 337450.0
+    },
+    {
+      "year": 2023,
+      "sales": 138,
+      "median_price": 297500.0
+    },
+    {
+      "year": 2024,
+      "sales": 198,
+      "median_price": 338400.0
+    },
+    {
+      "year": 2025,
+      "sales": 122,
+      "median_price": 315000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "EVRY",
+      "sales": 196,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE GRANDE RUE D'EVRY",
+      "sales": 58,
+      "median_price_per_sqm": 3084.11214953271
+    },
+    {
+      "street_name": "RUE DES PERRIERS",
+      "sales": 50,
+      "median_price_per_sqm": 2935.6633221850616
+    },
+    {
+      "street_name": "LA VARENNE",
+      "sales": 41,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE MARCHAIS MEUNIER",
+      "sales": 27,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA GRAVELLE",
+      "sales": 23,
+      "median_price_per_sqm": 3667.328370554177
+    },
+    {
+      "street_name": "RUE MADELEINE BOISSET",
+      "sales": 22,
+      "median_price_per_sqm": 3761.1650485436894
+    },
+    {
+      "street_name": "CHE DES ESSARTS",
+      "sales": 21,
+      "median_price_per_sqm": 2445.3451240481454
+    },
+    {
+      "street_name": "ALL DES MERISIERS",
+      "sales": 20,
+      "median_price_per_sqm": 3352.5252525252527
+    },
+    {
+      "street_name": "AV DES MARQUIS",
+      "sales": 19,
+      "median_price_per_sqm": 3032.520325203252
+    },
+    {
+      "street_name": "VC HAMEAU DE TREMBLESSEAUX",
+      "sales": 19,
+      "median_price_per_sqm": 2454.56769584577
+    },
+    {
+      "street_name": "CHE DU BREUIL",
+      "sales": 19,
+      "median_price_per_sqm": 4010.989010989011
+    },
+    {
+      "street_name": "LES ESSARTS",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DES GOUAIX",
+      "sales": 15,
+      "median_price_per_sqm": 3673.684210526316
+    },
+    {
+      "street_name": "CHE DES COTES",
+      "sales": 13,
+      "median_price_per_sqm": 4504.575075075076
+    }
+  ]
+}

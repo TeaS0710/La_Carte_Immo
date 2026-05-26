@@ -1,0 +1,120 @@
+{
+  "commune": "Quiers",
+  "insee": "77381",
+  "generated_at": "2026-05-24T21:36:25.041703Z",
+  "total_sales": 143,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 38,
+  "median_price": 256000.0,
+  "median_price_per_sqm": 2021.4285714285716,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 27,
+      "median_price": 256000.0
+    },
+    {
+      "year": 2022,
+      "sales": 39,
+      "median_price": 269000.0
+    },
+    {
+      "year": 2023,
+      "sales": 28,
+      "median_price": 248000.0
+    },
+    {
+      "year": 2024,
+      "sales": 19,
+      "median_price": 260000.0
+    },
+    {
+      "year": 2025,
+      "sales": 30,
+      "median_price": 244425.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "QUIERS",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE ST JACQUES",
+      "sales": 12,
+      "median_price_per_sqm": 1718.0672268907563
+    },
+    {
+      "street_name": "CHE DE MAINGUILLERME",
+      "sales": 10,
+      "median_price_per_sqm": 3368.6666666666665
+    },
+    {
+      "street_name": "PRES DU MARCHAIS BILLARD",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE ST MARTIN",
+      "sales": 7,
+      "median_price_per_sqm": 1831.6831683168316
+    },
+    {
+      "street_name": "RUE DE LA FORGE",
+      "sales": 7,
+      "median_price_per_sqm": 1914.1534391534392
+    },
+    {
+      "street_name": "RUE DU PUITS",
+      "sales": 6,
+      "median_price_per_sqm": 1898.876404494382
+    },
+    {
+      "street_name": "RUE DES MATHURINS",
+      "sales": 5,
+      "median_price_per_sqm": 2064.2201834862385
+    },
+    {
+      "street_name": "RUE DU CIMETIERE",
+      "sales": 5,
+      "median_price_per_sqm": 3809.5238095238096
+    },
+    {
+      "street_name": "LE PETIT TERTRE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA NOUE DE SAINT MARTIN",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "L EPINE BLANCHE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA PETITE ALLEU",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA FERMETE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES LOGES",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

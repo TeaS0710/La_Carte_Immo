@@ -1,0 +1,120 @@
+{
+  "commune": "Villeneuve-les-Bordes",
+  "insee": "77509",
+  "generated_at": "2026-05-24T22:06:17.177782Z",
+  "total_sales": 280,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 39,
+  "median_price": 230000.0,
+  "median_price_per_sqm": 2314.5212428662016,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 33,
+      "median_price": 215000.0
+    },
+    {
+      "year": 2022,
+      "sales": 100,
+      "median_price": 415000.0
+    },
+    {
+      "year": 2023,
+      "sales": 33,
+      "median_price": 210000.0
+    },
+    {
+      "year": 2024,
+      "sales": 23,
+      "median_price": 220000.0
+    },
+    {
+      "year": 2025,
+      "sales": 91,
+      "median_price": 230000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 23,
+      "median_price_per_sqm": 2130.0
+    },
+    {
+      "street_name": "VALJOUAN",
+      "sales": 22,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "VILLENEUVE-LES-BORDES",
+      "sales": 22,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA MARGOTTIERE",
+      "sales": 22,
+      "median_price_per_sqm": 2373.2650022904263
+    },
+    {
+      "street_name": "CLIMAT DES FOSSES",
+      "sales": 20,
+      "median_price_per_sqm": 3012.342122125895
+    },
+    {
+      "street_name": "RUE DES FOSSES",
+      "sales": 17,
+      "median_price_per_sqm": 3233.3333333333335
+    },
+    {
+      "street_name": "PIECE DES PELERINS",
+      "sales": 15,
+      "median_price_per_sqm": 2034.8837209302326
+    },
+    {
+      "street_name": "LES BOYERS",
+      "sales": 14,
+      "median_price_per_sqm": 3849.5875
+    },
+    {
+      "street_name": "PL DE LA MAIRIE",
+      "sales": 13,
+      "median_price_per_sqm": 5250.0
+    },
+    {
+      "street_name": "RUE DE LA GRAND MAISON",
+      "sales": 13,
+      "median_price_per_sqm": 2006.540994776289
+    },
+    {
+      "street_name": "LES BORDES",
+      "sales": 11,
+      "median_price_per_sqm": 3580.929419191919
+    },
+    {
+      "street_name": "RUE DES BORDES",
+      "sales": 8,
+      "median_price_per_sqm": 2750.0
+    },
+    {
+      "street_name": "RUE DU MONTOIS",
+      "sales": 8,
+      "median_price_per_sqm": 2176.0703918722784
+    },
+    {
+      "street_name": "RUE DE MELUN",
+      "sales": 6,
+      "median_price_per_sqm": 2370.689655172414
+    },
+    {
+      "street_name": "RUE DU PRESBYTERE",
+      "sales": 5,
+      "median_price_per_sqm": 2409.6385542168673
+    }
+  ]
+}

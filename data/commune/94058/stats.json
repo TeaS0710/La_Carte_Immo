@@ -1,0 +1,306 @@
+{
+  "commune": "Le Perreux-sur-Marne",
+  "insee": "94058",
+  "generated_at": "2026-05-24T18:03:24.498470Z",
+  "total_sales": 7792,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 176,
+  "median_price": 373800.0,
+  "median_price_per_sqm": 6171.875,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1797,
+      "median_price": 378800.0
+    },
+    {
+      "year": 2022,
+      "sales": 1979,
+      "median_price": 398000.0
+    },
+    {
+      "year": 2023,
+      "sales": 1472,
+      "median_price": 415000.0
+    },
+    {
+      "year": 2024,
+      "sales": 1143,
+      "median_price": 370000.0
+    },
+    {
+      "year": 2025,
+      "sales": 1401,
+      "median_price": 325600.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GENERAL DE GAULLE",
+      "sales": 641,
+      "median_price_per_sqm": 5937.5
+    },
+    {
+      "street_name": "AV PIERRE BROSSOLETTE",
+      "sales": 415,
+      "median_price_per_sqm": 6250.0
+    },
+    {
+      "street_name": "BD DE L ALSACE LORRAINE",
+      "sales": 412,
+      "median_price_per_sqm": 10822.777777777777
+    },
+    {
+      "street_name": "AV GABRIEL PERI",
+      "sales": 388,
+      "median_price_per_sqm": 5774.019607843137
+    },
+    {
+      "street_name": "AV LEDRU ROLLIN",
+      "sales": 351,
+      "median_price_per_sqm": 6583.333333333333
+    },
+    {
+      "street_name": "AV DU MARECHAL JOFFRE",
+      "sales": 252,
+      "median_price_per_sqm": 5723.050173869846
+    },
+    {
+      "street_name": "ALL DE BELLEVUE",
+      "sales": 197,
+      "median_price_per_sqm": 5582.579185520362
+    },
+    {
+      "street_name": "RUE DE L'EMBARCADERE",
+      "sales": 185,
+      "median_price_per_sqm": 5263.8
+    },
+    {
+      "street_name": "RUE VICTOR RECOURAT",
+      "sales": 179,
+      "median_price_per_sqm": 6463.414634146341
+    },
+    {
+      "street_name": "BD FOCH",
+      "sales": 179,
+      "median_price_per_sqm": 5755.813953488372
+    },
+    {
+      "street_name": "BD DE FONTENAY",
+      "sales": 178,
+      "median_price_per_sqm": 65182.488764044945
+    },
+    {
+      "street_name": "AV DU 8 MAI 1945",
+      "sales": 176,
+      "median_price_per_sqm": 10358.214553638409
+    },
+    {
+      "street_name": "RUE DE LA PAIX",
+      "sales": 152,
+      "median_price_per_sqm": 61890.10989010989
+    },
+    {
+      "street_name": "AV LAMARTINE",
+      "sales": 141,
+      "median_price_per_sqm": 5562.5
+    },
+    {
+      "street_name": "RUE DES FRATELLINI",
+      "sales": 128,
+      "median_price_per_sqm": 6436.920017675651
+    }
+  ],
+  "sirene_targets_total": 496,
+  "sirene_agences_immo": 195,
+  "sirene_par_naf": [
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 152
+    },
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 101
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 67
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 40
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 36
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 33
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 30
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 22
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 6
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 4
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 3
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 2
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "314776782",
+      "nom": "IMO GROUP",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "33 T AVENUE THIERS 93340 LE RAINCY",
+      "code_postal": "93340"
+    },
+    {
+      "siren": "320574742",
+      "nom": "AGENCE MODERNE J. LETANG IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "ET N°9 7 BOULEVARD DE LA LIBERTE 94170 LE PERREUX-SUR-MARNE",
+      "code_postal": "94170"
+    },
+    {
+      "siren": "834531030",
+      "nom": "SYLVIA DE MOURA",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "31 RUE DE LA PRAIRIE 94360 BRY-SUR-MARNE",
+      "code_postal": "94360"
+    },
+    {
+      "siren": "503818429",
+      "nom": "KARINE WATRIN",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "50 AVENUE JEAN ET MARCEL FONTENAILLE 13100 AIX-EN-PROVENCE",
+      "code_postal": "13100"
+    },
+    {
+      "siren": "537897589",
+      "nom": "IMMOSPID",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "95 AVENUE GEORGES CLEMENCEAU 94170 LE PERREUX-SUR-MARNE",
+      "code_postal": "94170"
+    },
+    {
+      "siren": "789621521",
+      "nom": "ROMAIN RAMBALDI",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "42 RUE DES FRATELLINI 94170 LE PERREUX-SUR-MARNE",
+      "code_postal": "94170"
+    },
+    {
+      "siren": "352764005",
+      "nom": "ANNE CAROLE IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "4 BOULEVARD DE STRASBOURG 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    },
+    {
+      "siren": "482673266",
+      "nom": "CONCILIO",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "67 AVENUE LEDRU-ROLLIN 94170 LE PERREUX-SUR-MARNE",
+      "code_postal": "94170"
+    },
+    {
+      "siren": "449079078",
+      "nom": "MICHEL LIENARD",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "BT C RDC  2 ET 4 2 AVENUE DU DOCTEUR FAUGEROUX 94170 LE PERREUX-SUR-MARNE",
+      "code_postal": "94170"
+    },
+    {
+      "siren": "819214628",
+      "nom": "IMMOVILLE - TRANSACTIONS (IMMOVILLE - TRANSACTIONS)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "118-130 118 AVENUE JEAN JAURES 75019 PARIS",
+      "code_postal": "75019"
+    },
+    {
+      "siren": "798762035",
+      "nom": "JULIEN TAIEB",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "35 BOULEVARD AUGUSTIN CIEUSSA 13007 MARSEILLE",
+      "code_postal": "13007"
+    },
+    {
+      "siren": "832615439",
+      "nom": "GILLIANE KEDINGER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "BATIMENT B 4 RUE CHARLES VII 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    },
+    {
+      "siren": "520026196",
+      "nom": "SABRINA BERNAVA (ALLOUNI)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "[NON-DIFFUSIBLE]",
+      "code_postal": "[NON-DIFFUSIBLE]"
+    },
+    {
+      "siren": "849624937",
+      "nom": "THEO GILLAIZEAU",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "67 AVENUE DU MARECHAL JOFFRE 94170 LE PERREUX-SUR-MARNE",
+      "code_postal": "94170"
+    },
+    {
+      "siren": "331567362",
+      "nom": "FGI",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "176 GRANDE RUE CHARLES DE GAULLE 94130 NOGENT-SUR-MARNE",
+      "code_postal": "94130"
+    }
+  ]
+}

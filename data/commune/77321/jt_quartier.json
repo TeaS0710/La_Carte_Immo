@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 25,
+  "sales_delta_pct": 8.7,
+  "median_price": 165000.0,
+  "median_ppsqm": 1713.2867132867134,
+  "delta_ppsqm_pct": -12.7,
+  "notable_sales": [
+    {
+      "date": "2025-12-12",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 143,
+      "price": 245000.0
+    },
+    {
+      "date": "2025-03-11",
+      "street": "CITE DE LA SUCRERIE",
+      "type": "Maison",
+      "surface": 128,
+      "price": 200000.0
+    },
+    {
+      "date": "2025-02-28",
+      "street": "CHE DE MONTLEON",
+      "type": "Maison",
+      "surface": 77,
+      "price": 189000.0
+    },
+    {
+      "date": "2025-10-30",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 84,
+      "price": 165000.0
+    },
+    {
+      "date": "2025-01-24",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 50,
+      "price": 114000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:31:02.052403Z"
+}

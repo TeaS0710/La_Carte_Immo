@@ -1,0 +1,32 @@
+{
+  "year": 2025,
+  "sales_year": 30,
+  "sales_delta_pct": 7.1,
+  "median_price": 200000.0,
+  "median_ppsqm": 1691.0361067503925,
+  "delta_ppsqm_pct": -19.8,
+  "notable_sales": [
+    {
+      "date": "2025-12-11",
+      "street": "MONTVINOT",
+      "type": "Maison",
+      "surface": 147,
+      "price": 264000.0
+    },
+    {
+      "date": "2025-12-19",
+      "street": "RUE DES TILLEULS",
+      "type": "Maison",
+      "surface": 120,
+      "price": 226000.0
+    },
+    {
+      "date": "2025-08-11",
+      "street": "MARCHAIS",
+      "type": "Maison",
+      "surface": 130,
+      "price": 206200.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:44:27.474024Z"
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Gouvernes",
+  "insee": "77209",
+  "generated_at": "2026-05-24T21:12:55.834806Z",
+  "total_sales": 276,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 29,
+  "median_price": 497000.0,
+  "median_price_per_sqm": 3806.587910798122,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 52,
+      "median_price": 522000.0
+    },
+    {
+      "year": 2022,
+      "sales": 78,
+      "median_price": 454500.0
+    },
+    {
+      "year": 2023,
+      "sales": 55,
+      "median_price": 275000.0
+    },
+    {
+      "year": 2024,
+      "sales": 43,
+      "median_price": 425000.0
+    },
+    {
+      "year": 2025,
+      "sales": 48,
+      "median_price": 555000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU HAUT VILLIERS",
+      "sales": 36,
+      "median_price_per_sqm": 4298.571428571428
+    },
+    {
+      "street_name": "AV DES DEUX CHATEAUX",
+      "sales": 31,
+      "median_price_per_sqm": 78.856
+    },
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 30,
+      "median_price_per_sqm": 4370.192307692308
+    },
+    {
+      "street_name": "RUE SAINT GERMAIN",
+      "sales": 29,
+      "median_price_per_sqm": 3803.3166666666666
+    },
+    {
+      "street_name": "LES HERMIERES",
+      "sales": 21,
+      "median_price_per_sqm": 662.2941176470588
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE",
+      "sales": 20,
+      "median_price_per_sqm": 3571.4285714285716
+    },
+    {
+      "street_name": "RUE DU BAS VILLIERS",
+      "sales": 16,
+      "median_price_per_sqm": 5067.961165048544
+    },
+    {
+      "street_name": "CHE MATHOU",
+      "sales": 12,
+      "median_price_per_sqm": 4022.6166832174777
+    },
+    {
+      "street_name": "RUE FERRE",
+      "sales": 8,
+      "median_price_per_sqm": 2919.84981649604
+    },
+    {
+      "street_name": "RUE DES CLOSEAUX",
+      "sales": 7,
+      "median_price_per_sqm": 4516.901408450704
+    },
+    {
+      "street_name": "LE VILLAGE",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "IMP DU HAUT VILLIERS",
+      "sales": 6,
+      "median_price_per_sqm": 3526.153846153846
+    },
+    {
+      "street_name": "RUE HERMIERES",
+      "sales": 6,
+      "median_price_per_sqm": 3642.391304347826
+    },
+    {
+      "street_name": "RUE DES PIERRES",
+      "sales": 6,
+      "median_price_per_sqm": 3354.4303797468356
+    },
+    {
+      "street_name": "LES FOURS",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

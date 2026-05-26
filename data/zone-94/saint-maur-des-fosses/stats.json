@@ -1,0 +1,125 @@
+{
+  "insee": "94068",
+  "commune": "Saint-Maur-des-Fossés",
+  "generated_at": "2026-05-23T11:10:15.006813Z",
+  "total_sales": 16786,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 440,
+  "median_price": 386000.0,
+  "median_price_per_sqm": 6320.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 3592,
+      "median_price": 400000.0,
+      "median_ppsqm": 6428.571428571428
+    },
+    {
+      "year": 2022,
+      "sales": 3834,
+      "median_price": 415000.0,
+      "median_ppsqm": 6698.25
+    },
+    {
+      "year": 2023,
+      "sales": 2894,
+      "median_price": 361600.0,
+      "median_ppsqm": 6270.2760084925685
+    },
+    {
+      "year": 2024,
+      "sales": 2835,
+      "median_price": 366300.0,
+      "median_ppsqm": 5996.875
+    },
+    {
+      "year": 2025,
+      "sales": 3631,
+      "median_price": 386000.0,
+      "median_ppsqm": 6010.2040816326535
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "BD DE CRETEIL",
+      "sales": 740,
+      "median_price_per_sqm": 6233.108108108108
+    },
+    {
+      "street_name": "AV DU BAC",
+      "sales": 550,
+      "median_price_per_sqm": 6710.526315789473
+    },
+    {
+      "street_name": "RUE GARIBALDI",
+      "sales": 363,
+      "median_price_per_sqm": 5375.0
+    },
+    {
+      "street_name": "AV FOCH",
+      "sales": 362,
+      "median_price_per_sqm": 5466.666666666667
+    },
+    {
+      "street_name": "BD DE CHAMPIGNY",
+      "sales": 340,
+      "median_price_per_sqm": 6671.1296129612965
+    },
+    {
+      "street_name": "BD DE LA MARNE",
+      "sales": 303,
+      "median_price_per_sqm": 9062.5
+    },
+    {
+      "street_name": "BD DE BELLECHASSE",
+      "sales": 288,
+      "median_price_per_sqm": 9286.559139784946
+    },
+    {
+      "street_name": "RUE DE LA VARENNE",
+      "sales": 263,
+      "median_price_per_sqm": 9641.486486486487
+    },
+    {
+      "street_name": "AV GABRIEL PERI",
+      "sales": 251,
+      "median_price_per_sqm": 5764.4724556489255
+    },
+    {
+      "street_name": "AV CARNOT",
+      "sales": 228,
+      "median_price_per_sqm": 6838.333333333334
+    },
+    {
+      "street_name": "AV MARINVILLE",
+      "sales": 214,
+      "median_price_per_sqm": 5974.666666666667
+    },
+    {
+      "street_name": "BD DU GENERAL GIRAUD",
+      "sales": 214,
+      "median_price_per_sqm": 5170.2889897301175
+    },
+    {
+      "street_name": "AV DE LA REPUBLIQUE",
+      "sales": 194,
+      "median_price_per_sqm": 6040.0
+    },
+    {
+      "street_name": "RUE LEDRU ROLLIN",
+      "sales": 182,
+      "median_price_per_sqm": 6098.0392156862745
+    },
+    {
+      "street_name": "AV DES PERDRIX",
+      "sales": 181,
+      "median_price_per_sqm": 5447.368421052632
+    }
+  ]
+}

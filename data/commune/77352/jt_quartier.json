@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 89,
+  "sales_delta_pct": -11.0,
+  "median_price": 226215.0,
+  "median_ppsqm": 2838.095238095238,
+  "delta_ppsqm_pct": -16.6,
+  "notable_sales": [
+    {
+      "date": "2025-03-20",
+      "street": "RUE JUDE DE CRENE",
+      "type": "Maison",
+      "surface": 150,
+      "price": 413910.0
+    },
+    {
+      "date": "2025-09-22",
+      "street": "AV DE LA GARE",
+      "type": "Maison",
+      "surface": 140,
+      "price": 398000.0
+    },
+    {
+      "date": "2025-07-18",
+      "street": "RUE DU MERISIER",
+      "type": "Maison",
+      "surface": 132,
+      "price": 374000.0
+    },
+    {
+      "date": "2025-12-30",
+      "street": "RUE DES PLAISES",
+      "type": "Maison",
+      "surface": 73,
+      "price": 353327.55
+    },
+    {
+      "date": "2025-09-26",
+      "street": "AV DE LA GARE",
+      "type": "Maison",
+      "surface": 125,
+      "price": 347000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:33:46.035690Z"
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 101,
+  "sales_delta_pct": 36.5,
+  "median_price": 292500.0,
+  "median_ppsqm": 3476.25,
+  "delta_ppsqm_pct": 18.3,
+  "notable_sales": [
+    {
+      "date": "2025-11-07",
+      "street": "RUE DES MILLEPERTHUIS",
+      "type": "Maison",
+      "surface": 135,
+      "price": 453940.0
+    },
+    {
+      "date": "2025-07-11",
+      "street": "RUE DE LAMPEZARD",
+      "type": "Maison",
+      "surface": 130,
+      "price": 376000.0
+    },
+    {
+      "date": "2025-06-17",
+      "street": "RUE DE LAMPEZARD",
+      "type": "Maison",
+      "surface": 133,
+      "price": 348000.0
+    },
+    {
+      "date": "2025-07-18",
+      "street": "RUE DES BLEUETS",
+      "type": "Maison",
+      "surface": 93,
+      "price": 340900.0
+    },
+    {
+      "date": "2025-10-03",
+      "street": "RUE CAMBACERES",
+      "type": "Maison",
+      "surface": 122,
+      "price": 335930.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:31:05.879964Z"
+}

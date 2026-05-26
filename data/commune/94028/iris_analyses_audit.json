@@ -1,0 +1,131 @@
+{
+  "summary": {
+    "n_analyses": 30,
+    "avg_factuality_score": null,
+    "min": null,
+    "max": null,
+    "iris_low_score": []
+  },
+  "per_iris": {
+    "940280304": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280210": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280405": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280212": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280303": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280401": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280104": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280302": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280102": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280207": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280408": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280209": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280406": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280201": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280204": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280103": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280403": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280307": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280205": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280306": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280101": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280407": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280404": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280202": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280402": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280301": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280208": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280206": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280305": {
+      "verified": null,
+      "reason": "no fiche found"
+    },
+    "940280215": {
+      "verified": null,
+      "reason": "no fiche found"
+    }
+  }
+}

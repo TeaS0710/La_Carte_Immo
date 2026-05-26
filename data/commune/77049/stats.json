@@ -1,0 +1,120 @@
+{
+  "commune": "Boutigny",
+  "insee": "77049",
+  "generated_at": "2026-05-24T20:38:28.229848Z",
+  "total_sales": 233,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 44,
+  "median_price": 266750.0,
+  "median_price_per_sqm": 2825.595238095238,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 40,
+      "median_price": 300000.0
+    },
+    {
+      "year": 2022,
+      "sales": 90,
+      "median_price": 330000.0
+    },
+    {
+      "year": 2023,
+      "sales": 30,
+      "median_price": 132500.0
+    },
+    {
+      "year": 2024,
+      "sales": 34,
+      "median_price": 254000.0
+    },
+    {
+      "year": 2025,
+      "sales": 39,
+      "median_price": 266750.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 50,
+      "median_price_per_sqm": 3234.9514563106795
+    },
+    {
+      "street_name": "RUE DE VINCELLES",
+      "sales": 24,
+      "median_price_per_sqm": 2039.365697593546
+    },
+    {
+      "street_name": "RUE DE LA CHAPELLE",
+      "sales": 15,
+      "median_price_per_sqm": 2561.7977528089887
+    },
+    {
+      "street_name": "PREVILLIERS",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE ROYALE",
+      "sales": 10,
+      "median_price_per_sqm": 4127.906976744186
+    },
+    {
+      "street_name": "BOUTIGNY",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE CRECY",
+      "sales": 9,
+      "median_price_per_sqm": 1764.7058823529412
+    },
+    {
+      "street_name": "GRANDE RUE",
+      "sales": 9,
+      "median_price_per_sqm": 2594.84126984127
+    },
+    {
+      "street_name": "LES MURGETS",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DE LA FORET",
+      "sales": 6,
+      "median_price_per_sqm": 2615.1960784313724
+    },
+    {
+      "street_name": "CHE DE BELOU",
+      "sales": 6,
+      "median_price_per_sqm": 2592.5925925925926
+    },
+    {
+      "street_name": "CHE DU RU DES CYGNES",
+      "sales": 6,
+      "median_price_per_sqm": 2913.725490196078
+    },
+    {
+      "street_name": "RUE DE PLAISANCE",
+      "sales": 6,
+      "median_price_per_sqm": 909.0909090909091
+    },
+    {
+      "street_name": "RUE FABRE D EGLANTINE",
+      "sales": 5,
+      "median_price_per_sqm": 2242.6612903225805
+    },
+    {
+      "street_name": "CHE DES CHAMPS FORTS",
+      "sales": 5,
+      "median_price_per_sqm": 4672.0
+    }
+  ]
+}

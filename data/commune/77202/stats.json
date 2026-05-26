@@ -1,0 +1,120 @@
+{
+  "commune": "La Genevraye",
+  "insee": "77202",
+  "generated_at": "2026-05-24T21:12:13.324744Z",
+  "total_sales": 259,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 42,
+  "median_price": 229880.0,
+  "median_price_per_sqm": 2473.75,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 52,
+      "median_price": 105000.0
+    },
+    {
+      "year": 2022,
+      "sales": 122,
+      "median_price": 487500.0
+    },
+    {
+      "year": 2023,
+      "sales": 20,
+      "median_price": 196800.0
+    },
+    {
+      "year": 2024,
+      "sales": 27,
+      "median_price": 300000.0
+    },
+    {
+      "year": 2025,
+      "sales": 38,
+      "median_price": 110000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LES PATURES",
+      "sales": 27,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BOIS DES BAUGES",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE MONTIGNY",
+      "sales": 19,
+      "median_price_per_sqm": 10201.793721973094
+    },
+    {
+      "street_name": "SOUS LES PETITS BOIS",
+      "sales": 17,
+      "median_price_per_sqm": 2258.3333333333335
+    },
+    {
+      "street_name": "LA GARENNE DE CUGNY",
+      "sales": 14,
+      "median_price_per_sqm": 554.52865064695
+    },
+    {
+      "street_name": "RTE DE LA GENEVRAYE",
+      "sales": 14,
+      "median_price_per_sqm": 2429.5355504587155
+    },
+    {
+      "street_name": "RTE DE NEMOURS",
+      "sales": 10,
+      "median_price_per_sqm": 2252.252252252252
+    },
+    {
+      "street_name": "CUGNY",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU BOURG",
+      "sales": 9,
+      "median_price_per_sqm": 3548.950970632155
+    },
+    {
+      "street_name": "ANCIEN CHEMIN DE SENS",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA TOUR",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE D EPISY",
+      "sales": 7,
+      "median_price_per_sqm": 8485.910714285714
+    },
+    {
+      "street_name": "ALL DES PLATANES",
+      "sales": 6,
+      "median_price_per_sqm": 2737.5
+    },
+    {
+      "street_name": "LA TRENTAINE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE A NICOT",
+      "sales": 5,
+      "median_price_per_sqm": 3177.127659574468
+    }
+  ]
+}

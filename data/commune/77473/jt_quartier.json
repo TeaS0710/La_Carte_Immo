@@ -1,0 +1,32 @@
+{
+  "year": 2025,
+  "sales_year": 49,
+  "sales_delta_pct": -31.9,
+  "median_price": 38520.9,
+  "median_ppsqm": 1799.863387978142,
+  "delta_ppsqm_pct": -48.9,
+  "notable_sales": [
+    {
+      "date": "2025-08-22",
+      "street": "RUE CREUSE",
+      "type": "Maison",
+      "surface": 108,
+      "price": 225000.0
+    },
+    {
+      "date": "2025-01-28",
+      "street": "RUE DE LA CROIX BONNARD",
+      "type": "Maison",
+      "surface": 65,
+      "price": 186000.0
+    },
+    {
+      "date": "2025-08-01",
+      "street": "RUE DE NANTEAU",
+      "type": "Maison",
+      "surface": 122,
+      "price": 185000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:58:28.854989Z"
+}

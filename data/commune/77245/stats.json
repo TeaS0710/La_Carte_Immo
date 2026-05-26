@@ -1,0 +1,120 @@
+{
+  "commune": "Laval-en-Brie",
+  "insee": "77245",
+  "generated_at": "2026-05-24T21:20:49.871575Z",
+  "total_sales": 118,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 34,
+  "median_price": 203979.0,
+  "median_price_per_sqm": 2043.452380952381,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 18,
+      "median_price": 256000.0
+    },
+    {
+      "year": 2022,
+      "sales": 19,
+      "median_price": 280000.0
+    },
+    {
+      "year": 2023,
+      "sales": 13,
+      "median_price": 135000.0
+    },
+    {
+      "year": 2024,
+      "sales": 21,
+      "median_price": 445000.0
+    },
+    {
+      "year": 2025,
+      "sales": 47,
+      "median_price": 170000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE GRANDE DU BUISSON",
+      "sales": 14,
+      "median_price_per_sqm": 1728.3950617283951
+    },
+    {
+      "street_name": "RUE SAINT LAURENT",
+      "sales": 12,
+      "median_price_per_sqm": 2105.2631578947367
+    },
+    {
+      "street_name": "LAVAL",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE D HEURTEBISE",
+      "sales": 8,
+      "median_price_per_sqm": 2906.818181818182
+    },
+    {
+      "street_name": "MAULNY",
+      "sales": 8,
+      "median_price_per_sqm": 2397.2602739726026
+    },
+    {
+      "street_name": "LA LONGUE RAIE",
+      "sales": 7,
+      "median_price_per_sqm": 1310.6796116504854
+    },
+    {
+      "street_name": "RUE DE L AIGLON",
+      "sales": 6,
+      "median_price_per_sqm": 2513.698630136986
+    },
+    {
+      "street_name": "CHAMPAUBERT",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA CHARITE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BOIS DES GLANDS",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES SOURCES",
+      "sales": 3,
+      "median_price_per_sqm": 1500.0
+    },
+    {
+      "street_name": "LE GLACEAU",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "HEURTEBISE",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES LARRIS",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE POT DE VINE",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

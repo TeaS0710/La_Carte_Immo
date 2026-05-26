@@ -1,0 +1,39 @@
+{
+  "year": 2025,
+  "sales_year": 37,
+  "sales_delta_pct": 311.1,
+  "median_price": 190000.0,
+  "median_ppsqm": 1431.111111111111,
+  "delta_ppsqm_pct": 58.1,
+  "notable_sales": [
+    {
+      "date": "2025-01-17",
+      "street": "RUE DU GRAND BOISSY",
+      "type": "Maison",
+      "surface": 160,
+      "price": 258700.0
+    },
+    {
+      "date": "2025-10-03",
+      "street": "RTE DE SAVIGNY",
+      "type": "Maison",
+      "surface": 131,
+      "price": 210000.0
+    },
+    {
+      "date": "2025-05-16",
+      "street": "RTE DE CHENOISE",
+      "type": "Maison",
+      "surface": 110,
+      "price": 206000.0
+    },
+    {
+      "date": "2025-10-14",
+      "street": "CHE DU CHENE GUILLEMEAU",
+      "type": "Maison",
+      "surface": 100,
+      "price": 190000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:40:11.689434Z"
+}

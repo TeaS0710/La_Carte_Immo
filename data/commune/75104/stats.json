@@ -1,0 +1,306 @@
+{
+  "commune": "Paris 4e Arrondissement",
+  "insee": "75104",
+  "generated_at": "2026-05-24T21:40:06.887954Z",
+  "total_sales": 6607,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 125,
+  "median_price": 658000.0,
+  "median_price_per_sqm": 13600.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1149,
+      "median_price": 645000.0
+    },
+    {
+      "year": 2022,
+      "sales": 1508,
+      "median_price": 650400.0
+    },
+    {
+      "year": 2023,
+      "sales": 1241,
+      "median_price": 600000.0
+    },
+    {
+      "year": 2024,
+      "sales": 1344,
+      "median_price": 740000.0
+    },
+    {
+      "year": 2025,
+      "sales": 1365,
+      "median_price": 690000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE SAINT ANTOINE",
+      "sales": 390,
+      "median_price_per_sqm": 13888.703703703704
+    },
+    {
+      "street_name": "RUE DES ARCHIVES",
+      "sales": 383,
+      "median_price_per_sqm": 38196.88504864311
+    },
+    {
+      "street_name": "RUE ST LOUIS EN L ILE",
+      "sales": 229,
+      "median_price_per_sqm": 15384.615384615385
+    },
+    {
+      "street_name": "RUE DU TEMPLE",
+      "sales": 213,
+      "median_price_per_sqm": 13972.602739726028
+    },
+    {
+      "street_name": "RUE DE RIVOLI",
+      "sales": 204,
+      "median_price_per_sqm": 13242.424242424242
+    },
+    {
+      "street_name": "RUE DE LA VERRERIE",
+      "sales": 189,
+      "median_price_per_sqm": 14820.0
+    },
+    {
+      "street_name": "RUE DU PETIT MUSC",
+      "sales": 181,
+      "median_price_per_sqm": 13944.444444444445
+    },
+    {
+      "street_name": "PL DES VOSGES",
+      "sales": 172,
+      "median_price_per_sqm": 54000.0
+    },
+    {
+      "street_name": "RUE DES TOURNELLES",
+      "sales": 158,
+      "median_price_per_sqm": 12918.627450980392
+    },
+    {
+      "street_name": "RUE QUINCAMPOIX",
+      "sales": 155,
+      "median_price_per_sqm": 40817.07317073171
+    },
+    {
+      "street_name": "RUE VIEILLE DU TEMPLE",
+      "sales": 151,
+      "median_price_per_sqm": 13223.111111111111
+    },
+    {
+      "street_name": "BD HENRI IV",
+      "sales": 139,
+      "median_price_per_sqm": 12631.578947368422
+    },
+    {
+      "street_name": "RUE SAINT PAUL",
+      "sales": 129,
+      "median_price_per_sqm": 13295.454545454546
+    },
+    {
+      "street_name": "RUE BEAUTREILLIS",
+      "sales": 121,
+      "median_price_per_sqm": 13083.316624895573
+    },
+    {
+      "street_name": "RUE DES FRANCS BOURGEOIS",
+      "sales": 111,
+      "median_price_per_sqm": 17389.024390243903
+    }
+  ],
+  "sirene_targets_total": 2043,
+  "sirene_agences_immo": 662,
+  "sirene_par_naf": [
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 800
+    },
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 339
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 233
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 222
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 164
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 90
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 78
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 61
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 23
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 18
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 12
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 3
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "791648132",
+      "nom": "ESPACES ATYPIQUES",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "1 B AVENUE DE LA REPUBLIQUE 75011 PARIS",
+      "code_postal": "75011"
+    },
+    {
+      "siren": "328695432",
+      "nom": "MICHAEL ZINGRAF REAL ESTATE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "53-54 53 BOULEVARD DE LA CROISETTE 06400 CANNES",
+      "code_postal": "06400"
+    },
+    {
+      "siren": "852339589",
+      "nom": "DANIEL FEAU CONSEIL IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "21 RUE D'ARTOIS 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "450623103",
+      "nom": "VANEAU",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "50 RUE DE CHATEAUDUN 75009 PARIS",
+      "code_postal": "75009"
+    },
+    {
+      "siren": "434086930",
+      "nom": "LEGGETT IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "42 ROUTE DE RIBERAC 24340 LA ROCHEBEAUCOURT-ET-ARGENTINE",
+      "code_postal": "24340"
+    },
+    {
+      "siren": "808801955",
+      "nom": "EV MMC FRANCE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "170 RUE DU FAUBOURG SAINT-HONORE 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "689801314",
+      "nom": "CPH IMMOBILIER (CPH IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "67 BOULEVARD BESSIERES 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "377941935",
+      "nom": "NATHALIE GARCIN PARIS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "5 RUE DE L'UNIVERSITE 75007 PARIS",
+      "code_postal": "75007"
+    },
+    {
+      "siren": "520639725",
+      "nom": "AGENCE DES ENFANTS ROUGES",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "44 RUE DE BRETAGNE 75003 PARIS",
+      "code_postal": "75003"
+    },
+    {
+      "siren": "414296954",
+      "nom": "DISTRICT (DISTRICT IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "31 RUE DES DEUX PONTS 75004 PARIS",
+      "code_postal": "75004"
+    },
+    {
+      "siren": "343004271",
+      "nom": "CORINNE MOUSTAFIADES MOUSTAFIOGLOU",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "[NON-DIFFUSIBLE]",
+      "code_postal": "[NON-DIFFUSIBLE]"
+    },
+    {
+      "siren": "343503967",
+      "nom": "P.B.",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 RUE CHOMEL 75007 PARIS",
+      "code_postal": "75007"
+    },
+    {
+      "siren": "502622723",
+      "nom": "ERELL CONSULTING (GROUPE EURO CONSEIL)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "91 RUE DU FAUBOURG SAINT-HONORE 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "532864337",
+      "nom": "NATHALIE LOUISY",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "14 AVENUE JEAN JAURES 92190 MEUDON",
+      "code_postal": "92190"
+    },
+    {
+      "siren": "823982285",
+      "nom": "SOFT",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "ZI DU VERT GALANT 88 AVENUE DU CHATEAU 95310 SAINT-OUEN-L'AUMONE",
+      "code_postal": "95310"
+    }
+  ]
+}

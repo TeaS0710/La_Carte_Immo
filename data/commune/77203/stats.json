@@ -1,0 +1,120 @@
+{
+  "commune": "Germigny-l'Évêque",
+  "insee": "77203",
+  "generated_at": "2026-05-24T21:12:21.270917Z",
+  "total_sales": 360,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 59,
+  "median_price": 328800.0,
+  "median_price_per_sqm": 3283.482142857143,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 104,
+      "median_price": 281000.0
+    },
+    {
+      "year": 2022,
+      "sales": 61,
+      "median_price": 290000.0
+    },
+    {
+      "year": 2023,
+      "sales": 82,
+      "median_price": 375000.0
+    },
+    {
+      "year": 2024,
+      "sales": 48,
+      "median_price": 345603.0
+    },
+    {
+      "year": 2025,
+      "sales": 65,
+      "median_price": 295900.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE SAINT FIACRE",
+      "sales": 35,
+      "median_price_per_sqm": 2936.1788617886177
+    },
+    {
+      "street_name": "RUE RES DES CENT ARPENTS",
+      "sales": 24,
+      "median_price_per_sqm": 3244.755244755245
+    },
+    {
+      "street_name": "RUE DEGAS",
+      "sales": 22,
+      "median_price_per_sqm": 2983.1932773109243
+    },
+    {
+      "street_name": "RUE DU CHATEAU",
+      "sales": 20,
+      "median_price_per_sqm": 3460.99592760181
+    },
+    {
+      "street_name": "ALL DE L EGLISE",
+      "sales": 18,
+      "median_price_per_sqm": 3285.714285714286
+    },
+    {
+      "street_name": "RTE DE REZEL",
+      "sales": 17,
+      "median_price_per_sqm": 2628.2051282051284
+    },
+    {
+      "street_name": "GERMIGNY",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES VIEILLES VIGNES",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ALL DES CHENES",
+      "sales": 12,
+      "median_price_per_sqm": 4682.677165354331
+    },
+    {
+      "street_name": "RUE MONET",
+      "sales": 11,
+      "median_price_per_sqm": 3557.252747252747
+    },
+    {
+      "street_name": "COUR DES PRES",
+      "sales": 11,
+      "median_price_per_sqm": 2479.6703296703295
+    },
+    {
+      "street_name": "RLE AUX LOUPS",
+      "sales": 11,
+      "median_price_per_sqm": 3782.8054298642537
+    },
+    {
+      "street_name": "ALL DE LA PIERRE",
+      "sales": 10,
+      "median_price_per_sqm": 2911.3333333333335
+    },
+    {
+      "street_name": "PIECES DE LA TRAVERSE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DE SAINT JEAN",
+      "sales": 9,
+      "median_price_per_sqm": 3126.8817204301076
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Boissy-le-Châtel",
+  "insee": "77042",
+  "generated_at": "2026-05-24T20:37:36.757842Z",
+  "total_sales": 1133,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 156,
+  "median_price": 203000.0,
+  "median_price_per_sqm": 2525.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 265,
+      "median_price": 223000.0
+    },
+    {
+      "year": 2022,
+      "sales": 282,
+      "median_price": 144000.0
+    },
+    {
+      "year": 2023,
+      "sales": 238,
+      "median_price": 229000.0
+    },
+    {
+      "year": 2024,
+      "sales": 198,
+      "median_price": 165000.0
+    },
+    {
+      "year": 2025,
+      "sales": 150,
+      "median_price": 230000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU BUISSON",
+      "sales": 47,
+      "median_price_per_sqm": 2846.153846153846
+    },
+    {
+      "street_name": "RUE DES BROSSES",
+      "sales": 44,
+      "median_price_per_sqm": 2395.698051948052
+    },
+    {
+      "street_name": "AV CHARLES DE GAULLE",
+      "sales": 42,
+      "median_price_per_sqm": 2516.4835164835163
+    },
+    {
+      "street_name": "RUE DU MORIN",
+      "sales": 34,
+      "median_price_per_sqm": 2255.813953488372
+    },
+    {
+      "street_name": "RUE DE SPEUSE",
+      "sales": 31,
+      "median_price_per_sqm": 2490.875912408759
+    },
+    {
+      "street_name": "RUE DE LA VACHERIE",
+      "sales": 31,
+      "median_price_per_sqm": 2513.8211382113823
+    },
+    {
+      "street_name": "RUE DE CHAMPAUGER",
+      "sales": 27,
+      "median_price_per_sqm": 2635.135135135135
+    },
+    {
+      "street_name": "RUE DE LA FERTE GAUCHER",
+      "sales": 26,
+      "median_price_per_sqm": 1904.7619047619048
+    },
+    {
+      "street_name": "RUE DE LA GRANGE AUX DIMES",
+      "sales": 26,
+      "median_price_per_sqm": 2527.4725274725274
+    },
+    {
+      "street_name": "RUE SAINT LAURENT",
+      "sales": 26,
+      "median_price_per_sqm": 2525.252525252525
+    },
+    {
+      "street_name": "RUE DES CARRIERES",
+      "sales": 26,
+      "median_price_per_sqm": 2632.9457364341088
+    },
+    {
+      "street_name": "ZAC DES 18 ARPENTS",
+      "sales": 25,
+      "median_price_per_sqm": 3791.6666666666665
+    },
+    {
+      "street_name": "RUE DES PEUPLIERS",
+      "sales": 25,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES PAPETERIES",
+      "sales": 24,
+      "median_price_per_sqm": 2818.872549019608
+    },
+    {
+      "street_name": "RUE DE LA FONTENELLE",
+      "sales": 20,
+      "median_price_per_sqm": 2769.230769230769
+    }
+  ]
+}

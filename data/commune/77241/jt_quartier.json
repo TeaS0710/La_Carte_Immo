@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 48,
+  "sales_delta_pct": -14.3,
+  "median_price": 222500.0,
+  "median_ppsqm": 3124.4232036914964,
+  "delta_ppsqm_pct": -3.3,
+  "notable_sales": [
+    {
+      "date": "2025-10-30",
+      "street": "RUE BARRE",
+      "type": "Appartement",
+      "surface": 132,
+      "price": 400000.0
+    },
+    {
+      "date": "2025-09-03",
+      "street": "RUE DES VANNEAUX",
+      "type": "Maison",
+      "surface": 114,
+      "price": 390600.0
+    },
+    {
+      "date": "2025-07-21",
+      "street": "RUE DES ROSES",
+      "type": "Maison",
+      "surface": 112,
+      "price": 377980.0
+    },
+    {
+      "date": "2025-06-17",
+      "street": "RUE DU TACOT",
+      "type": "Maison",
+      "surface": 103,
+      "price": 340000.0
+    },
+    {
+      "date": "2025-09-12",
+      "street": "RUE DU ROSSIGNOL",
+      "type": "Maison",
+      "surface": 120,
+      "price": 336000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:20:13.816883Z"
+}

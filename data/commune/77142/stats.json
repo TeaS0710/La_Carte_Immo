@@ -1,0 +1,120 @@
+{
+  "commune": "Crécy-la-Chapelle",
+  "insee": "77142",
+  "generated_at": "2026-05-24T20:59:34.431899Z",
+  "total_sales": 1108,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 142,
+  "median_price": 262000.0,
+  "median_price_per_sqm": 3229.1666666666665,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 279,
+      "median_price": 280000.0
+    },
+    {
+      "year": 2022,
+      "sales": 294,
+      "median_price": 262000.0
+    },
+    {
+      "year": 2023,
+      "sales": 206,
+      "median_price": 228000.0
+    },
+    {
+      "year": 2024,
+      "sales": 131,
+      "median_price": 260000.0
+    },
+    {
+      "year": 2025,
+      "sales": 198,
+      "median_price": 275000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE NATIONALE",
+      "sales": 47,
+      "median_price_per_sqm": 3571.4285714285716
+    },
+    {
+      "street_name": "AV CHARLES DE GAULLE",
+      "sales": 40,
+      "median_price_per_sqm": 3416.6666666666665
+    },
+    {
+      "street_name": "RUE DE MONTBARBIN",
+      "sales": 38,
+      "median_price_per_sqm": 3387.0967741935483
+    },
+    {
+      "street_name": "QUAI DES TANNERIES",
+      "sales": 36,
+      "median_price_per_sqm": 23733.552631578947
+    },
+    {
+      "street_name": "RUE SINOEL",
+      "sales": 35,
+      "median_price_per_sqm": 3346.1503464688176
+    },
+    {
+      "street_name": "RUE DESHUILLIERS",
+      "sales": 31,
+      "median_price_per_sqm": 3178.746928746929
+    },
+    {
+      "street_name": "RUE DE LIBERNON",
+      "sales": 30,
+      "median_price_per_sqm": 3683.5748792270533
+    },
+    {
+      "street_name": "RUE DU GENERAL LECLERC",
+      "sales": 28,
+      "median_price_per_sqm": 2990.0
+    },
+    {
+      "street_name": "RUE DE BOULEURS",
+      "sales": 28,
+      "median_price_per_sqm": 3522.935779816514
+    },
+    {
+      "street_name": "RUE DE TIRECHAPPE",
+      "sales": 24,
+      "median_price_per_sqm": 3307.6923076923076
+    },
+    {
+      "street_name": "RUE DE LA FERTE SOUS JOUARRE",
+      "sales": 21,
+      "median_price_per_sqm": 3464.056883888107
+    },
+    {
+      "street_name": "RUE DE ROISE",
+      "sales": 20,
+      "median_price_per_sqm": 3682.0809248554915
+    },
+    {
+      "street_name": "PL DU MARCHE",
+      "sales": 19,
+      "median_price_per_sqm": 2780.0
+    },
+    {
+      "street_name": "RUE DES BAULNES",
+      "sales": 19,
+      "median_price_per_sqm": 3488.8736263736264
+    },
+    {
+      "street_name": "RUE CHAMP DE L EAU",
+      "sales": 19,
+      "median_price_per_sqm": 3611.1111111111113
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Jossigny",
+  "insee": "77237",
+  "generated_at": "2026-05-24T21:19:39.958558Z",
+  "total_sales": 303,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 20,
+  "median_price": 447102.0,
+  "median_price_per_sqm": 51862.04081632653,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 44,
+      "median_price": 247140.0
+    },
+    {
+      "year": 2022,
+      "sales": 54,
+      "median_price": 246500.0
+    },
+    {
+      "year": 2023,
+      "sales": 44,
+      "median_price": 214000.0
+    },
+    {
+      "year": 2024,
+      "sales": 32,
+      "median_price": 286500.0
+    },
+    {
+      "year": 2025,
+      "sales": 129,
+      "median_price": 2541240.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "CRS DE LA GONDOIRE",
+      "sales": 139,
+      "median_price_per_sqm": 87628.96551724138
+    },
+    {
+      "street_name": "RUE DE TOURNAN",
+      "sales": 40,
+      "median_price_per_sqm": 3955.6962025316457
+    },
+    {
+      "street_name": "RUE DE LAGNY",
+      "sales": 31,
+      "median_price_per_sqm": 3659.225108225108
+    },
+    {
+      "street_name": "CLOS DU BOUT PECHERET",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE MEAUX",
+      "sales": 16,
+      "median_price_per_sqm": 3830.7201017811703
+    },
+    {
+      "street_name": "RUE FERRAILLE",
+      "sales": 12,
+      "median_price_per_sqm": 3721.311475409836
+    },
+    {
+      "street_name": "JOSSIGNY",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA CROIX BLANCHETOT",
+      "sales": 8,
+      "median_price_per_sqm": 2403.846153846154
+    },
+    {
+      "street_name": "RUE DU CHAMP DE LA VILLE",
+      "sales": 8,
+      "median_price_per_sqm": 3032.7868852459014
+    },
+    {
+      "street_name": "LES COLLINIERES",
+      "sales": 4,
+      "median_price_per_sqm": 888.8888888888889
+    },
+    {
+      "street_name": "CHE DE LA MOTTE",
+      "sales": 3,
+      "median_price_per_sqm": 2844.4444444444443
+    },
+    {
+      "street_name": "CHE DU COLOMBIER",
+      "sales": 3,
+      "median_price_per_sqm": 3976.7857142857138
+    },
+    {
+      "street_name": "ROC SUD",
+      "sales": 3,
+      "median_price_per_sqm": 3531.330151342721
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 2,
+      "median_price_per_sqm": 2987.8048780487807
+    },
+    {
+      "street_name": "LE PRE DE LA CAILLE",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

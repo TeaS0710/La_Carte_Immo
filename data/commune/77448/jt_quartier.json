@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 20,
+  "sales_delta_pct": 81.8,
+  "median_price": 243000.0,
+  "median_ppsqm": 1933.085501858736,
+  "delta_ppsqm_pct": -7.9,
+  "notable_sales": [
+    {
+      "date": "2025-03-18",
+      "street": "RUE DE JOUARRE",
+      "type": "Maison",
+      "surface": 269,
+      "price": 520000.0
+    },
+    {
+      "date": "2025-08-14",
+      "street": "RUE DU BAC",
+      "type": "Maison",
+      "surface": 150,
+      "price": 278000.0
+    },
+    {
+      "date": "2025-06-04",
+      "street": "RUE DE LA MAIRIE",
+      "type": "Maison",
+      "surface": 103,
+      "price": 272000.0
+    },
+    {
+      "date": "2025-02-14",
+      "street": "RUE DES RUISSEAUX",
+      "type": "Maison",
+      "surface": 119,
+      "price": 243000.0
+    },
+    {
+      "date": "2025-03-27",
+      "street": "RUE DES PETITS CLOS",
+      "type": "Maison",
+      "surface": 95,
+      "price": 242000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:47:15.634842Z"
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 18,
+  "sales_delta_pct": -21.7,
+  "median_price": 182500.0,
+  "median_ppsqm": 2632.0754716981132,
+  "delta_ppsqm_pct": 4.4,
+  "notable_sales": [
+    {
+      "date": "2025-06-23",
+      "street": "RTE DE NANGIS",
+      "type": "Maison",
+      "surface": 114,
+      "price": 294990.0
+    },
+    {
+      "date": "2025-12-29",
+      "street": "RUE DU PONT D ANCOEUR",
+      "type": "Maison",
+      "surface": 106,
+      "price": 279000.0
+    },
+    {
+      "date": "2025-12-09",
+      "street": "CHE PROCESSION SAINT MARC",
+      "type": "Maison",
+      "surface": 106,
+      "price": 265000.0
+    },
+    {
+      "date": "2025-10-17",
+      "street": "RUE DE LA MAIRIE",
+      "type": "Maison",
+      "surface": 90,
+      "price": 252000.0
+    },
+    {
+      "date": "2025-03-14",
+      "street": "RUE DES NEFLIERS",
+      "type": "Maison",
+      "surface": 80,
+      "price": 223000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:41:42.887507Z"
+}

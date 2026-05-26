@@ -1,0 +1,120 @@
+{
+  "commune": "Nanteau-sur-Lunain",
+  "insee": "77329",
+  "generated_at": "2026-05-24T21:31:40.527313Z",
+  "total_sales": 432,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 89,
+  "median_price": 142692.27,
+  "median_price_per_sqm": 2320.5081001472754,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 114,
+      "median_price": 9801.2
+    },
+    {
+      "year": 2022,
+      "sales": 87,
+      "median_price": 272100.0
+    },
+    {
+      "year": 2023,
+      "sales": 56,
+      "median_price": 308000.0
+    },
+    {
+      "year": 2024,
+      "sales": 115,
+      "median_price": 142692.27
+    },
+    {
+      "year": 2025,
+      "sales": 60,
+      "median_price": 57000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE LORREZ LE BOCAGE",
+      "sales": 34,
+      "median_price_per_sqm": 1894.2307692307693
+    },
+    {
+      "street_name": "LA METAIRIE",
+      "sales": 29,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE VILLEMARECHAL",
+      "sales": 16,
+      "median_price_per_sqm": 2339.2857142857147
+    },
+    {
+      "street_name": "RUE DES MOULINS",
+      "sales": 16,
+      "median_price_per_sqm": 2916.6666666666665
+    },
+    {
+      "street_name": "LE BOIS ROUGE",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BOIS JACOB",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE MAURICE LALLOY",
+      "sales": 12,
+      "median_price_per_sqm": 2397.553268327916
+    },
+    {
+      "street_name": "LES VIGNES DU MURGER",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES BRUYERES A LA BEAUDOIN",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES ORTURES",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA GAILLARDERIE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA TIMBARDERIE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA RICORDELLERIE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA VIGNE AUX PIONS",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CHEMIN GOGET",
+      "sales": 8,
+      "median_price_per_sqm": 4732.0
+    }
+  ]
+}

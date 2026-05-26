@@ -1,0 +1,120 @@
+{
+  "commune": "Mons-en-Montois",
+  "insee": "77298",
+  "generated_at": "2026-05-24T21:29:03.494154Z",
+  "total_sales": 159,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 38,
+  "median_price": 75000.0,
+  "median_price_per_sqm": 1861.6834875245304,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 24,
+      "median_price": 179000.0
+    },
+    {
+      "year": 2022,
+      "sales": 54,
+      "median_price": 32000.0
+    },
+    {
+      "year": 2023,
+      "sales": 32,
+      "median_price": 3000.0
+    },
+    {
+      "year": 2024,
+      "sales": 25,
+      "median_price": 50000.0
+    },
+    {
+      "year": 2025,
+      "sales": 24,
+      "median_price": 233750.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU CALVAIRE",
+      "sales": 18,
+      "median_price_per_sqm": 1609.2758491974619
+    },
+    {
+      "street_name": "LE BOUT DE LA RUE",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES PLANTES",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 15,
+      "median_price_per_sqm": 2304.3478260869565
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE DU VILLE",
+      "sales": 10,
+      "median_price_per_sqm": 1000.0
+    },
+    {
+      "street_name": "LE VILLAGE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CLOS AUX FOLLIOTS",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE PROVINS",
+      "sales": 7,
+      "median_price_per_sqm": 1705.4263565891472
+    },
+    {
+      "street_name": "LA COUR D EPINOST",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES REMPARTS",
+      "sales": 4,
+      "median_price_per_sqm": 2181.818181818182
+    },
+    {
+      "street_name": "DERRIERE LES FOSSES",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CLOS BOUARD",
+      "sales": 4,
+      "median_price_per_sqm": 2060.7447564877357
+    },
+    {
+      "street_name": "LE PETIT CLOS BOUARD",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MONTAGNES DES COULOUX",
+      "sales": 3,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE MAZON",
+      "sales": 2,
+      "median_price_per_sqm": 4010.4166666666665
+    }
+  ]
+}

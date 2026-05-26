@@ -1,0 +1,120 @@
+{
+  "commune": "Melun",
+  "insee": "77288",
+  "generated_at": "2026-05-24T21:27:34.386263Z",
+  "total_sales": 8066,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 241,
+  "median_price": 156800.0,
+  "median_price_per_sqm": 2978.723404255319,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 2212,
+      "median_price": 168000.0
+    },
+    {
+      "year": 2022,
+      "sales": 1857,
+      "median_price": 170000.0
+    },
+    {
+      "year": 2023,
+      "sales": 1483,
+      "median_price": 144000.0
+    },
+    {
+      "year": 2024,
+      "sales": 1220,
+      "median_price": 150000.0
+    },
+    {
+      "year": 2025,
+      "sales": 1294,
+      "median_price": 146250.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "BD DE L ALMONT",
+      "sales": 254,
+      "median_price_per_sqm": 1569.620253164557
+    },
+    {
+      "street_name": "BD ARISTIDE BRIAND",
+      "sales": 249,
+      "median_price_per_sqm": 2472.222222222222
+    },
+    {
+      "street_name": "BD DE MAINCY",
+      "sales": 249,
+      "median_price_per_sqm": 343927.68253968254
+    },
+    {
+      "street_name": "RUE DU GENERAL DE GAULLE",
+      "sales": 233,
+      "median_price_per_sqm": 2787.878787878788
+    },
+    {
+      "street_name": "RUE DE LA ROCHETTE",
+      "sales": 233,
+      "median_price_per_sqm": 3138.4615384615386
+    },
+    {
+      "street_name": "AV DU GENERAL PATTON",
+      "sales": 223,
+      "median_price_per_sqm": 2475.506072874494
+    },
+    {
+      "street_name": "RUE DES 3 MOULINS",
+      "sales": 191,
+      "median_price_per_sqm": 2738.636363636364
+    },
+    {
+      "street_name": "RUE ALBERT MOREAU",
+      "sales": 178,
+      "median_price_per_sqm": 2527.8082191780823
+    },
+    {
+      "street_name": "RUE SAINT LIESNE",
+      "sales": 166,
+      "median_price_per_sqm": 2478.0193236714977
+    },
+    {
+      "street_name": "AV THIERS",
+      "sales": 162,
+      "median_price_per_sqm": 3507.4626865671644
+    },
+    {
+      "street_name": "RUE CAMILLE FLAMMARION",
+      "sales": 150,
+      "median_price_per_sqm": 2792.407660738714
+    },
+    {
+      "street_name": "BD CHAMBLAIN",
+      "sales": 140,
+      "median_price_per_sqm": 3250.0
+    },
+    {
+      "street_name": "RUE DORE",
+      "sales": 140,
+      "median_price_per_sqm": 3061.2244897959185
+    },
+    {
+      "street_name": "RUE DAJOT",
+      "sales": 140,
+      "median_price_per_sqm": 3235.294117647059
+    },
+    {
+      "street_name": "RUE DE L ECLUSE",
+      "sales": 124,
+      "median_price_per_sqm": 3017.269005847953
+    }
+  ]
+}

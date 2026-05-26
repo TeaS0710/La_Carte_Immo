@@ -1,0 +1,120 @@
+{
+  "commune": "Roissy-en-Brie",
+  "insee": "77390",
+  "generated_at": "2026-05-24T21:37:33.253523Z",
+  "total_sales": 2185,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 232,
+  "median_price": 249000.0,
+  "median_price_per_sqm": 3551.010101010101,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 496,
+      "median_price": 259000.0
+    },
+    {
+      "year": 2022,
+      "sales": 525,
+      "median_price": 236000.0
+    },
+    {
+      "year": 2023,
+      "sales": 446,
+      "median_price": 250000.0
+    },
+    {
+      "year": 2024,
+      "sales": 385,
+      "median_price": 275000.0
+    },
+    {
+      "year": 2025,
+      "sales": 333,
+      "median_price": 230000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV WINSTON CHURCHILL",
+      "sales": 149,
+      "median_price_per_sqm": 3345.350763807285
+    },
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 122,
+      "median_price_per_sqm": 3983.8709677419356
+    },
+    {
+      "street_name": "AV DE LA PIERRERIE",
+      "sales": 121,
+      "median_price_per_sqm": 2542.241622078288
+    },
+    {
+      "street_name": "PL DES MAGNOLIAS",
+      "sales": 69,
+      "median_price_per_sqm": 2613.4523809523807
+    },
+    {
+      "street_name": "AV DU GEN LECLERC",
+      "sales": 68,
+      "median_price_per_sqm": 9832.912032355915
+    },
+    {
+      "street_name": "AV DU MAL FOCH",
+      "sales": 62,
+      "median_price_per_sqm": 4067.7966101694915
+    },
+    {
+      "street_name": "AV DE LA MALIBRAN",
+      "sales": 56,
+      "median_price_per_sqm": 70270.27027027027
+    },
+    {
+      "street_name": "AV JOSEPH BODIN BOISMORTIER",
+      "sales": 50,
+      "median_price_per_sqm": 3545.4545454545455
+    },
+    {
+      "street_name": "RUE GEORGES POMPIDOU",
+      "sales": 50,
+      "median_price_per_sqm": 4189.6551724137935
+    },
+    {
+      "street_name": "RES DU CENTRE COMMERCIAL",
+      "sales": 48,
+      "median_price_per_sqm": 2272.1883468834685
+    },
+    {
+      "street_name": "RUE DES VIOLETTES",
+      "sales": 43,
+      "median_price_per_sqm": 3571.4285714285716
+    },
+    {
+      "street_name": "ALL LA MARLIERE",
+      "sales": 40,
+      "median_price_per_sqm": 2465.753424657534
+    },
+    {
+      "street_name": "ALL DES SOURCES",
+      "sales": 33,
+      "median_price_per_sqm": 4223.913043478261
+    },
+    {
+      "street_name": "RUE DE L'EGALITE",
+      "sales": 29,
+      "median_price_per_sqm": 3473.913043478261
+    },
+    {
+      "street_name": "AV PIERRE CURIE",
+      "sales": 29,
+      "median_price_per_sqm": 4482.758620689655
+    }
+  ]
+}

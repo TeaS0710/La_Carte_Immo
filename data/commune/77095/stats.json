@@ -1,0 +1,120 @@
+{
+  "commune": "Charny",
+  "insee": "77095",
+  "generated_at": "2026-05-24T20:44:39.686815Z",
+  "total_sales": 335,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 42,
+  "median_price": 271950.0,
+  "median_price_per_sqm": 3388.349514563107,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 65,
+      "median_price": 270370.38
+    },
+    {
+      "year": 2022,
+      "sales": 87,
+      "median_price": 271950.0
+    },
+    {
+      "year": 2023,
+      "sales": 70,
+      "median_price": 227630.01
+    },
+    {
+      "year": 2024,
+      "sales": 68,
+      "median_price": 290000.0
+    },
+    {
+      "year": 2025,
+      "sales": 45,
+      "median_price": 252000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE VIGNE CROIX",
+      "sales": 71,
+      "median_price_per_sqm": 3554.2168674698796
+    },
+    {
+      "street_name": "RTE DE MESSY",
+      "sales": 30,
+      "median_price_per_sqm": 3586.4464285714284
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 27,
+      "median_price_per_sqm": 2944.4444444444443
+    },
+    {
+      "street_name": "CHOISY LE TEMPLE",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE BEL AIR",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES BLEUETS",
+      "sales": 13,
+      "median_price_per_sqm": 3200.2443609022557
+    },
+    {
+      "street_name": "RUE DES QUATRE VENTS",
+      "sales": 12,
+      "median_price_per_sqm": 3388.349514563107
+    },
+    {
+      "street_name": "AV MOZART",
+      "sales": 11,
+      "median_price_per_sqm": 3494.6236559139784
+    },
+    {
+      "street_name": "RUE MONTMARTRE",
+      "sales": 10,
+      "median_price_per_sqm": 3478.1033898305086
+    },
+    {
+      "street_name": "RUE DE BEAUVAIS",
+      "sales": 9,
+      "median_price_per_sqm": 1911.7367545735328
+    },
+    {
+      "street_name": "RUE DE MAUPERTHUIS",
+      "sales": 8,
+      "median_price_per_sqm": 2654.7619047619046
+    },
+    {
+      "street_name": "RUE DE L ARDOISE",
+      "sales": 7,
+      "median_price_per_sqm": 3148.5714285714284
+    },
+    {
+      "street_name": "VLA DES ROSES",
+      "sales": 6,
+      "median_price_per_sqm": 2763.186813186813
+    },
+    {
+      "street_name": "CHARNY",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA MAIRIE",
+      "sales": 5,
+      "median_price_per_sqm": 3455.128205128205
+    }
+  ]
+}

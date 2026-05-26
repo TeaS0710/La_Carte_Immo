@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 63,
+  "sales_delta_pct": -45.7,
+  "median_price": 150000.0,
+  "median_ppsqm": 1677.9661016949153,
+  "delta_ppsqm_pct": -14.9,
+  "notable_sales": [
+    {
+      "date": "2025-04-01",
+      "street": "RUE DE PROVINS",
+      "type": "Maison",
+      "surface": 95,
+      "price": 285000.0
+    },
+    {
+      "date": "2025-10-01",
+      "street": "RUE DES ECOLES",
+      "type": "Maison",
+      "surface": 111,
+      "price": 225000.0
+    },
+    {
+      "date": "2025-02-12",
+      "street": "RUE DE ROZAY EN BRIE",
+      "type": "Maison",
+      "surface": 90,
+      "price": 165000.0
+    },
+    {
+      "date": "2025-10-23",
+      "street": "RUE DE SAINTE MARIE",
+      "type": "Maison",
+      "surface": 91,
+      "price": 160000.0
+    },
+    {
+      "date": "2025-04-30",
+      "street": "RUE MARCEL DESGRANGES",
+      "type": "Maison",
+      "surface": 92,
+      "price": 150000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:40:35.315216Z"
+}

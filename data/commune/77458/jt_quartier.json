@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 191,
+  "sales_delta_pct": -45.3,
+  "median_price": 160000.0,
+  "median_ppsqm": 2019.3001443001444,
+  "delta_ppsqm_pct": -36.4,
+  "notable_sales": [
+    {
+      "date": "2025-03-13",
+      "street": "RUE TRAVERSIERE FONTENEILLES",
+      "type": "Appartement",
+      "surface": 72,
+      "price": 650000.0
+    },
+    {
+      "date": "2025-07-30",
+      "street": "RUE GAMBETTA",
+      "type": "Maison",
+      "surface": 350,
+      "price": 550000.0
+    },
+    {
+      "date": "2025-10-07",
+      "street": "RUE DU 21 AOUT",
+      "type": "Appartement",
+      "surface": 16,
+      "price": 366450.0
+    },
+    {
+      "date": "2025-12-10",
+      "street": "RUE BAUDIN",
+      "type": "Appartement",
+      "surface": 65,
+      "price": 316000.0
+    },
+    {
+      "date": "2025-10-15",
+      "street": "RUE DE GLANDELLES COUDRAY",
+      "type": "Maison",
+      "surface": 113,
+      "price": 232000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:52:42.977950Z"
+}

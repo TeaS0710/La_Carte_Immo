@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 106,
+  "sales_delta_pct": 488.9,
+  "median_price": 1171900.0,
+  "median_ppsqm": 2676.7676767676767,
+  "delta_ppsqm_pct": -14.3,
+  "notable_sales": [
+    {
+      "date": "2025-10-14",
+      "street": "RUE SAINT MARTIN",
+      "type": "Maison",
+      "surface": 198,
+      "price": 530000.0
+    },
+    {
+      "date": "2025-09-17",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 90,
+      "price": 470000.0
+    },
+    {
+      "date": "2025-12-19",
+      "street": "RTE DE CHATILLON",
+      "type": "Maison",
+      "surface": 129,
+      "price": 362000.0
+    },
+    {
+      "date": "2025-04-16",
+      "street": "RTE DE MOISENAY",
+      "type": "Maison",
+      "surface": 125,
+      "price": 285000.0
+    },
+    {
+      "date": "2025-03-31",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 94,
+      "price": 230000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:36:18.694772Z"
+}

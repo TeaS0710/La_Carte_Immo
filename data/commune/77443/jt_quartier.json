@@ -1,0 +1,32 @@
+{
+  "year": 2025,
+  "sales_year": 3,
+  "sales_delta_pct": -40.0,
+  "median_price": 283300.0,
+  "median_ppsqm": 2684.931506849315,
+  "delta_ppsqm_pct": -36.2,
+  "notable_sales": [
+    {
+      "date": "2025-08-01",
+      "street": "RUE DES PRES DES VIGNES",
+      "type": "Maison",
+      "surface": 146,
+      "price": 392000.0
+    },
+    {
+      "date": "2025-06-13",
+      "street": "RUE DES PRES DES VIGNES",
+      "type": "Maison",
+      "surface": 112,
+      "price": 283300.0
+    },
+    {
+      "date": "2025-03-14",
+      "street": "RUE DE LA TAVENOTERIE",
+      "type": "Maison",
+      "surface": 85,
+      "price": 262000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:45:20.322950Z"
+}

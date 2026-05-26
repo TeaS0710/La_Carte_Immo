@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 79,
+  "sales_delta_pct": -6.0,
+  "median_price": 180000.0,
+  "median_ppsqm": 1976.8518518518517,
+  "delta_ppsqm_pct": -9.3,
+  "notable_sales": [
+    {
+      "date": "2025-09-30",
+      "street": "RUE DE SAINT AILE",
+      "type": "Maison",
+      "surface": 168,
+      "price": 340000.0
+    },
+    {
+      "date": "2025-05-28",
+      "street": "RUE BLANCHE BARNAC",
+      "type": "Maison",
+      "surface": 127,
+      "price": 260000.0
+    },
+    {
+      "date": "2025-09-30",
+      "street": "RUE PASTEUR",
+      "type": "Maison",
+      "surface": 91,
+      "price": 240000.0
+    },
+    {
+      "date": "2025-06-30",
+      "street": "RUE SAINT LOUIS",
+      "type": "Maison",
+      "surface": 132,
+      "price": 226900.0
+    },
+    {
+      "date": "2025-09-03",
+      "street": "AV JEAN DE LA FONTAINE",
+      "type": "Maison",
+      "surface": 98,
+      "price": 220300.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:36:56.369035Z"
+}

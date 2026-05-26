@@ -1,0 +1,120 @@
+{
+  "commune": "Blennes",
+  "insee": "77035",
+  "generated_at": "2026-05-24T20:36:35.757346Z",
+  "total_sales": 481,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 87,
+  "median_price": 65000.0,
+  "median_price_per_sqm": 1625.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 97,
+      "median_price": 122500.0
+    },
+    {
+      "year": 2022,
+      "sales": 69,
+      "median_price": 155000.0
+    },
+    {
+      "year": 2023,
+      "sales": 51,
+      "median_price": 7225.0
+    },
+    {
+      "year": 2024,
+      "sales": 100,
+      "median_price": 111000.0
+    },
+    {
+      "year": 2025,
+      "sales": 164,
+      "median_price": 41168.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LE GRAND AUNOY",
+      "sales": 53,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "VILLOISEAU",
+      "sales": 22,
+      "median_price_per_sqm": 1315.7894736842104
+    },
+    {
+      "street_name": "LES CHAPELLES",
+      "sales": 21,
+      "median_price_per_sqm": 928.5714285714286
+    },
+    {
+      "street_name": "LAUNOY",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES ALOUETTES",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU CHEVAL BLANC",
+      "sales": 19,
+      "median_price_per_sqm": 1145.8333333333333
+    },
+    {
+      "street_name": "VILLENEUVE LES ORMES",
+      "sales": 18,
+      "median_price_per_sqm": 2412.2950819672133
+    },
+    {
+      "street_name": "LES PRES DES SORINS",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BLENNES",
+      "sales": 17,
+      "median_price_per_sqm": 1625.0
+    },
+    {
+      "street_name": "RUE STE GENEVIEVE",
+      "sales": 16,
+      "median_price_per_sqm": 1905.111111111111
+    },
+    {
+      "street_name": "VILLEMAUGIS",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA RAIE CREUSE",
+      "sales": 12,
+      "median_price_per_sqm": 927.1523178807947
+    },
+    {
+      "street_name": "RUE SAINT VICTOR",
+      "sales": 11,
+      "median_price_per_sqm": 1790.3561517113785
+    },
+    {
+      "street_name": "LES BASSES LOGES",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES PETITS BOIS",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

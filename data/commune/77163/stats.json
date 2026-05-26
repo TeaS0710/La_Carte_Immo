@@ -1,0 +1,120 @@
+{
+  "commune": "Douy-la-Ramée",
+  "insee": "77163",
+  "generated_at": "2026-05-24T21:02:57.087649Z",
+  "total_sales": 68,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 17,
+  "median_price": 160000.0,
+  "median_price_per_sqm": 2925.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 21,
+      "median_price": 600000.0
+    },
+    {
+      "year": 2022,
+      "sales": 14,
+      "median_price": 137700.0
+    },
+    {
+      "year": 2023,
+      "sales": 20,
+      "median_price": 87000.0
+    },
+    {
+      "year": 2024,
+      "sales": 7,
+      "median_price": 299900.0
+    },
+    {
+      "year": 2025,
+      "sales": 6,
+      "median_price": 154000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "NONGLOIRE",
+      "sales": 13,
+      "median_price_per_sqm": 6000.0
+    },
+    {
+      "street_name": "RUE DE VAUCOURTOIS",
+      "sales": 13,
+      "median_price_per_sqm": 2993.478260869565
+    },
+    {
+      "street_name": "RUE DU SAC",
+      "sales": 8,
+      "median_price_per_sqm": 1087.18487394958
+    },
+    {
+      "street_name": "LE VILLAGE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DE LA SOLORETTE",
+      "sales": 4,
+      "median_price_per_sqm": 1947.4025974025974
+    },
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 4,
+      "median_price_per_sqm": 2665.873015873016
+    },
+    {
+      "street_name": "RUE DES COQUELICOTS",
+      "sales": 4,
+      "median_price_per_sqm": 3389.7945205479455
+    },
+    {
+      "street_name": "RTE DE NONGLOIRE",
+      "sales": 4,
+      "median_price_per_sqm": 3420.408163265306
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 2,
+      "median_price_per_sqm": 4571.428571428572
+    },
+    {
+      "street_name": "LES VIGNES",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA CAVEE",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA COUTURE",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA RAMEE",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA ROSE",
+      "sales": 1,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE ANDRE GOISQUE",
+      "sales": 1,
+      "median_price_per_sqm": 2935.7798165137615
+    }
+  ]
+}

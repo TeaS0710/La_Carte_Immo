@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 387,
+  "sales_delta_pct": -25.9,
+  "median_price": 155000.0,
+  "median_ppsqm": 2551.0204081632655,
+  "delta_ppsqm_pct": -16.0,
+  "notable_sales": [
+    {
+      "date": "2025-12-12",
+      "street": "AV FRANKLIN ROOSEVELT",
+      "type": "Maison",
+      "surface": 163,
+      "price": 645000.0
+    },
+    {
+      "date": "2025-02-25",
+      "street": "AV DU GENERAL LECLERC",
+      "type": "Maison",
+      "surface": 219,
+      "price": 560000.0
+    },
+    {
+      "date": "2025-04-08",
+      "street": "RUE DE CONDE",
+      "type": "Maison",
+      "surface": 178,
+      "price": 510000.0
+    },
+    {
+      "date": "2025-05-21",
+      "street": "RUE DU PORT AUX MEULES",
+      "type": "Maison",
+      "surface": 260,
+      "price": 500000.0
+    },
+    {
+      "date": "2025-02-24",
+      "street": "RUE DE CHAMIGNY",
+      "type": "Maison",
+      "surface": 140,
+      "price": 456700.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:09:02.681249Z"
+}

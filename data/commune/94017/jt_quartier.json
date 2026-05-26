@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 1660,
+  "sales_delta_pct": 11.6,
+  "median_price": 270000.0,
+  "median_ppsqm": 4100.0,
+  "delta_ppsqm_pct": 1.7,
+  "notable_sales": [
+    {
+      "date": "2025-01-31",
+      "street": "CHE DE CONTRE HALAGE",
+      "type": "Maison",
+      "surface": 298,
+      "price": 1390000.0
+    },
+    {
+      "date": "2025-12-18",
+      "street": "RUE JOSEPHINE DE BEAUHARNAIS",
+      "type": "Maison",
+      "surface": 307,
+      "price": 1116000.0
+    },
+    {
+      "date": "2025-07-31",
+      "street": "RUE JOSEPHINE DE BEAUHARNAIS",
+      "type": "Maison",
+      "surface": 195,
+      "price": 1069000.0
+    },
+    {
+      "date": "2025-09-30",
+      "street": "RUE JULIETTE DE WILS",
+      "type": "Maison",
+      "surface": 92,
+      "price": 1000000.0
+    },
+    {
+      "date": "2025-04-14",
+      "street": "RUE ARLATEN",
+      "type": "Maison",
+      "surface": 127,
+      "price": 1000000.0
+    }
+  ],
+  "generated_at": "2026-05-24T18:02:31.187863Z"
+}

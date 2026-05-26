@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 273,
+  "sales_delta_pct": 16.7,
+  "median_price": 209000.0,
+  "median_ppsqm": 2522.1029411764703,
+  "delta_ppsqm_pct": -0.7,
+  "notable_sales": [
+    {
+      "date": "2025-12-19",
+      "street": "RUE DU MOULIN TROCHARD",
+      "type": "Maison",
+      "surface": 49,
+      "price": 550000.0
+    },
+    {
+      "date": "2025-12-29",
+      "street": "RUE DES MERISIERS",
+      "type": "Maison",
+      "surface": 209,
+      "price": 429500.0
+    },
+    {
+      "date": "2025-03-31",
+      "street": "RUE DE REBAIS",
+      "type": "Maison",
+      "surface": 165,
+      "price": 385000.0
+    },
+    {
+      "date": "2025-12-22",
+      "street": "RUE DES BOIS GALLOIS",
+      "type": "Maison",
+      "surface": 90,
+      "price": 380000.0
+    },
+    {
+      "date": "2025-11-14",
+      "street": "RUE DES BOIS GALLOIS",
+      "type": "Maison",
+      "surface": 140,
+      "price": 350000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:30:53.801288Z"
+}

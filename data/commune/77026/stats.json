@@ -1,0 +1,120 @@
+{
+  "commune": "Beauchery-Saint-Martin",
+  "insee": "77026",
+  "generated_at": "2026-05-24T20:35:20.225995Z",
+  "total_sales": 109,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 25,
+  "median_price": 138000.0,
+  "median_price_per_sqm": 1500.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 25,
+      "median_price": 237500.0
+    },
+    {
+      "year": 2022,
+      "sales": 48,
+      "median_price": 138000.0
+    },
+    {
+      "year": 2023,
+      "sales": 12,
+      "median_price": 126580.0
+    },
+    {
+      "year": 2024,
+      "sales": 12,
+      "median_price": 39000.0
+    },
+    {
+      "year": 2025,
+      "sales": 12,
+      "median_price": 155000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "BEAUCHERY",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHENETRON",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "SAINT MARTIN",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE LEON BINET",
+      "sales": 8,
+      "median_price_per_sqm": 1137.9310344827586
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE",
+      "sales": 7,
+      "median_price_per_sqm": 1650.6822330392456
+    },
+    {
+      "street_name": "RUE DE LA TOUR MAUROUARD",
+      "sales": 7,
+      "median_price_per_sqm": 1411.0429447852762
+    },
+    {
+      "street_name": "IMP DES PEUPLIERS",
+      "sales": 6,
+      "median_price_per_sqm": 1943.661971830986
+    },
+    {
+      "street_name": "RUE DE PALAIS",
+      "sales": 6,
+      "median_price_per_sqm": 1450.0
+    },
+    {
+      "street_name": "BONSAC",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA TOUR MAUROVOIR",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA VANNE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES TILLEULS",
+      "sales": 3,
+      "median_price_per_sqm": 2272.7272727272725
+    },
+    {
+      "street_name": "L ETANG",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PLESSIS LA TOUR",
+      "sales": 2,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU FORGERON",
+      "sales": 2,
+      "median_price_per_sqm": 1392.631403858949
+    }
+  ]
+}

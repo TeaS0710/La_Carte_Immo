@@ -1,0 +1,120 @@
+{
+  "commune": "Aubepierre-Ozouer-le-Repos",
+  "insee": "77010",
+  "generated_at": "2026-05-24T19:20:42.137205Z",
+  "total_sales": 292,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 51,
+  "median_price": 265000.0,
+  "median_price_per_sqm": 2738.095238095238,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 33,
+      "median_price": 265000.0
+    },
+    {
+      "year": 2022,
+      "sales": 86,
+      "median_price": 316500.0
+    },
+    {
+      "year": 2023,
+      "sales": 36,
+      "median_price": 265000.0
+    },
+    {
+      "year": 2024,
+      "sales": 71,
+      "median_price": 344590.0
+    },
+    {
+      "year": 2025,
+      "sales": 66,
+      "median_price": 95000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "PRE RENAULT",
+      "sales": 34,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L ORMOY",
+      "sales": 26,
+      "median_price_per_sqm": 3287.386363636364
+    },
+    {
+      "street_name": "YVERNAILLES",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES CLOSEAUX",
+      "sales": 15,
+      "median_price_per_sqm": 2226.890756302521
+    },
+    {
+      "street_name": "BOIS DES FOSSES",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "FROID CUL",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA CHAUSSEE",
+      "sales": 14,
+      "median_price_per_sqm": 2819.148936170213
+    },
+    {
+      "street_name": "RUE DU CHATEAU D EAU",
+      "sales": 13,
+      "median_price_per_sqm": 2187.5
+    },
+    {
+      "street_name": "HAM DE PECQUEUX",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "L EPINE BLANCHE",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "IMP DES ECOLES",
+      "sales": 9,
+      "median_price_per_sqm": 4000.0
+    },
+    {
+      "street_name": "PECQUEUX",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU JOUR",
+      "sales": 8,
+      "median_price_per_sqm": 7022.393822393822
+    },
+    {
+      "street_name": "BONFRUIT",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ALL DES TROENES",
+      "sales": 7,
+      "median_price_per_sqm": 2902.3809523809523
+    }
+  ]
+}

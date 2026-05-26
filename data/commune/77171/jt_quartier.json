@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 215,
+  "sales_delta_pct": 55.8,
+  "median_price": 205000.0,
+  "median_ppsqm": 3365.463917525773,
+  "delta_ppsqm_pct": 0.2,
+  "notable_sales": [
+    {
+      "date": "2025-07-11",
+      "street": "AV DE LA REPUBLIQUE",
+      "type": "Maison",
+      "surface": 160,
+      "price": 672025.0
+    },
+    {
+      "date": "2025-09-11",
+      "street": "RUE D EPINOUX",
+      "type": "Maison",
+      "surface": 75,
+      "price": 594420.0
+    },
+    {
+      "date": "2025-08-25",
+      "street": "RUE BELLE JOSEPHINE",
+      "type": "Maison",
+      "surface": 136,
+      "price": 494400.0
+    },
+    {
+      "date": "2025-01-31",
+      "street": "RUE MADEMOISELLE POULET",
+      "type": "Appartement",
+      "surface": 40,
+      "price": 492000.0
+    },
+    {
+      "date": "2025-12-23",
+      "street": "AV FOCH",
+      "type": "Maison",
+      "surface": 104,
+      "price": 477900.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:04:48.570083Z"
+}

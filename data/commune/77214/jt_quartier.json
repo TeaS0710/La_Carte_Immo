@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 14,
+  "sales_delta_pct": -12.5,
+  "median_price": 433875.0,
+  "median_ppsqm": 3438.238770685579,
+  "delta_ppsqm_pct": 34.2,
+  "notable_sales": [
+    {
+      "date": "2025-04-23",
+      "street": "ALL D ARIANE",
+      "type": "Maison",
+      "surface": 170,
+      "price": 550000.0
+    },
+    {
+      "date": "2025-12-08",
+      "street": "RUE SAINT DENIS",
+      "type": "Maison",
+      "surface": 150,
+      "price": 490000.0
+    },
+    {
+      "date": "2025-11-25",
+      "street": "ALL DU VIEUX MOULIN",
+      "type": "Maison",
+      "surface": 74,
+      "price": 450000.0
+    },
+    {
+      "date": "2025-11-19",
+      "street": "AV DE VESTA",
+      "type": "Maison",
+      "surface": 113,
+      "price": 440000.0
+    },
+    {
+      "date": "2025-02-26",
+      "street": "ALL DES PLEIADES",
+      "type": "Maison",
+      "surface": 74,
+      "price": 427750.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:13:45.863659Z"
+}

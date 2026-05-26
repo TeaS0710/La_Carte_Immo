@@ -1,0 +1,120 @@
+{
+  "commune": "Longperrier",
+  "insee": "77259",
+  "generated_at": "2026-05-24T21:22:54.339463Z",
+  "total_sales": 584,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 53,
+  "median_price": 200000.0,
+  "median_price_per_sqm": 3243.9024390243903,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 128,
+      "median_price": 174000.0
+    },
+    {
+      "year": 2022,
+      "sales": 146,
+      "median_price": 227500.0
+    },
+    {
+      "year": 2023,
+      "sales": 79,
+      "median_price": 179000.0
+    },
+    {
+      "year": 2024,
+      "sales": 109,
+      "median_price": 185000.0
+    },
+    {
+      "year": 2025,
+      "sales": 122,
+      "median_price": 295000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "CHE DU GAZON",
+      "sales": 75,
+      "median_price_per_sqm": 3383.6462450592885
+    },
+    {
+      "street_name": "RUE DE MAINCOURT",
+      "sales": 70,
+      "median_price_per_sqm": 3316.666666666667
+    },
+    {
+      "street_name": "RUE DU BORDET",
+      "sales": 65,
+      "median_price_per_sqm": 3202.939723320158
+    },
+    {
+      "street_name": "RUE DU VIVIER",
+      "sales": 46,
+      "median_price_per_sqm": 3295.4545454545455
+    },
+    {
+      "street_name": "LE GAZON",
+      "sales": 35,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE DU MEUNIER",
+      "sales": 26,
+      "median_price_per_sqm": 3022.7272727272725
+    },
+    {
+      "street_name": "RUE LE NOYER DE LA LOCQUE",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU PRESBYTERE",
+      "sales": 20,
+      "median_price_per_sqm": 3069.664031620553
+    },
+    {
+      "street_name": "RUE DE L'INDUSTRIE",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RLE A DUGUE",
+      "sales": 15,
+      "median_price_per_sqm": 3117.2856941110012
+    },
+    {
+      "street_name": "RUE JEHAN DE CHAMBLY",
+      "sales": 14,
+      "median_price_per_sqm": 3391.304347826087
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 10,
+      "median_price_per_sqm": 4281.504955659885
+    },
+    {
+      "street_name": "RUE DU CAPITAINE FARCOT",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "N 2 PARIS A MAUBEUGE",
+      "sales": 10,
+      "median_price_per_sqm": 6580.564968914395
+    },
+    {
+      "street_name": "RLE DU PONCEAU",
+      "sales": 9,
+      "median_price_per_sqm": 2572.6190476190477
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Chauconin-Neufmontiers",
+  "insee": "77335",
+  "generated_at": "2026-05-24T21:32:11.344724Z",
+  "total_sales": 469,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 64,
+  "median_price": 224000.0,
+  "median_price_per_sqm": 3219.385714285714,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 79,
+      "median_price": 225000.0
+    },
+    {
+      "year": 2022,
+      "sales": 113,
+      "median_price": 266000.0
+    },
+    {
+      "year": 2023,
+      "sales": 110,
+      "median_price": 172000.0
+    },
+    {
+      "year": 2024,
+      "sales": 87,
+      "median_price": 240000.0
+    },
+    {
+      "year": 2025,
+      "sales": 80,
+      "median_price": 220000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 54,
+      "median_price_per_sqm": 3120.885714285714
+    },
+    {
+      "street_name": "RUE CHARLES PEGUY",
+      "sales": 31,
+      "median_price_per_sqm": 3278.030303030303
+    },
+    {
+      "street_name": "RUE ST BARTHELEMY",
+      "sales": 31,
+      "median_price_per_sqm": 3619.325842696629
+    },
+    {
+      "street_name": "RUE PIERRE CHARTON",
+      "sales": 30,
+      "median_price_per_sqm": 3215.986394557823
+    },
+    {
+      "street_name": "RUE FRANCOIS DARU",
+      "sales": 28,
+      "median_price_per_sqm": 2766.4728682170544
+    },
+    {
+      "street_name": "RUE DESOYER",
+      "sales": 24,
+      "median_price_per_sqm": 3854.939668174962
+    },
+    {
+      "street_name": "RUE GEORGES FRISEZ",
+      "sales": 23,
+      "median_price_per_sqm": 2378.640776699029
+    },
+    {
+      "street_name": "NEUFMONTIERS",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "GRANDE RUE",
+      "sales": 18,
+      "median_price_per_sqm": 3105.4448225571223
+    },
+    {
+      "street_name": "ALL DE LA COURTILLE",
+      "sales": 17,
+      "median_price_per_sqm": 3427.7
+    },
+    {
+      "street_name": "CHE DE MONTASSIS",
+      "sales": 16,
+      "median_price_per_sqm": 2296.435272045028
+    },
+    {
+      "street_name": "RUE DU VIVIER",
+      "sales": 13,
+      "median_price_per_sqm": 3102.0
+    },
+    {
+      "street_name": "RUE LUCIEN ROOS",
+      "sales": 10,
+      "median_price_per_sqm": 4250.0
+    },
+    {
+      "street_name": "RUE DES JARDINS",
+      "sales": 9,
+      "median_price_per_sqm": 3497.5247524752476
+    },
+    {
+      "street_name": "RUE D OZIERES",
+      "sales": 9,
+      "median_price_per_sqm": 2638.7096774193546
+    }
+  ]
+}

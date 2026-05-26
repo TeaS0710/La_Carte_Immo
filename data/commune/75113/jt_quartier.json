@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 3884,
+  "sales_delta_pct": 1.9,
+  "median_price": 394590.0,
+  "median_ppsqm": 8875.0,
+  "delta_ppsqm_pct": -2.3,
+  "notable_sales": [
+    {
+      "date": "2025-07-30",
+      "street": "RUE LEON MAURICE NORDMANN",
+      "type": "Appartement",
+      "surface": 150,
+      "price": 2800000.0
+    },
+    {
+      "date": "2025-05-22",
+      "street": "RUE ALPHAND",
+      "type": "Maison",
+      "surface": 180,
+      "price": 2315000.0
+    },
+    {
+      "date": "2025-07-10",
+      "street": "PL PINEL",
+      "type": "Appartement",
+      "surface": 163,
+      "price": 2000310.0
+    },
+    {
+      "date": "2025-05-28",
+      "street": "RUE HENRI PAPE",
+      "type": "Maison",
+      "surface": 94,
+      "price": 1892800.0
+    },
+    {
+      "date": "2025-07-23",
+      "street": "RUE JONAS",
+      "type": "Appartement",
+      "surface": 105,
+      "price": 1890500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:42:01.032483Z"
+}

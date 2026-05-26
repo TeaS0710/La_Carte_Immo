@@ -1,0 +1,120 @@
+{
+  "commune": "Tigeaux",
+  "insee": "77466",
+  "generated_at": "2026-05-24T21:55:41.077629Z",
+  "total_sales": 260,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 27,
+  "median_price": 272500.0,
+  "median_price_per_sqm": 2920.689655172414,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 42,
+      "median_price": 275000.0
+    },
+    {
+      "year": 2022,
+      "sales": 97,
+      "median_price": 480000.0
+    },
+    {
+      "year": 2023,
+      "sales": 35,
+      "median_price": 270000.0
+    },
+    {
+      "year": 2024,
+      "sales": 33,
+      "median_price": 181825.0
+    },
+    {
+      "year": 2025,
+      "sales": 53,
+      "median_price": 171000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 47,
+      "median_price_per_sqm": 2824.324324324324
+    },
+    {
+      "street_name": "GRAVIN",
+      "sales": 35,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU GD MORIN",
+      "sales": 20,
+      "median_price_per_sqm": 3430.3463855421687
+    },
+    {
+      "street_name": "PENTE DE LAUNOY",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "TIGEAUX",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "REZY",
+      "sales": 15,
+      "median_price_per_sqm": 4151.244343891402
+    },
+    {
+      "street_name": "RUE DE VILLENEUVE-LE-COMTE",
+      "sales": 13,
+      "median_price_per_sqm": 3524.5449531163817
+    },
+    {
+      "street_name": "LE CHENE ROND",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DE FORT A FAIRE",
+      "sales": 10,
+      "median_price_per_sqm": 2790.6976744186045
+    },
+    {
+      "street_name": "CHE DE LAGNY",
+      "sales": 9,
+      "median_price_per_sqm": 2471.590909090909
+    },
+    {
+      "street_name": "BESSY",
+      "sales": 9,
+      "median_price_per_sqm": 9016.393442622952
+    },
+    {
+      "street_name": "RUE DE LA FORET",
+      "sales": 9,
+      "median_price_per_sqm": 2872.724897773739
+    },
+    {
+      "street_name": "RUE DE BREHAL",
+      "sales": 8,
+      "median_price_per_sqm": 3473.015873015873
+    },
+    {
+      "street_name": "CHE DE LA GARENNE",
+      "sales": 6,
+      "median_price_per_sqm": 4062.5
+    },
+    {
+      "street_name": "RUE DU GRAND MORIN",
+      "sales": 5,
+      "median_price_per_sqm": 2849.233716475096
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Nonville",
+  "insee": "77340",
+  "generated_at": "2026-05-24T21:32:46.402585Z",
+  "total_sales": 673,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 57,
+  "median_price": 54000.0,
+  "median_price_per_sqm": 2659.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 167,
+      "median_price": 90138.0
+    },
+    {
+      "year": 2022,
+      "sales": 126,
+      "median_price": 181000.0
+    },
+    {
+      "year": 2023,
+      "sales": 177,
+      "median_price": 35708.31
+    },
+    {
+      "year": 2024,
+      "sales": 87,
+      "median_price": 5757.68
+    },
+    {
+      "year": 2025,
+      "sales": 116,
+      "median_price": 254058.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LE MOCQUEBARIL",
+      "sales": 71,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 47,
+      "median_price_per_sqm": 2741.001564945227
+    },
+    {
+      "street_name": "LA PRAIRIE DE NONVILLE",
+      "sales": 37,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CAILLOUX",
+      "sales": 35,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PROCHE LE LANDY",
+      "sales": 30,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA PRAIRIE DU LANDY",
+      "sales": 29,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DE FONTAINEBLEAU",
+      "sales": 25,
+      "median_price_per_sqm": 2372.8813559322034
+    },
+    {
+      "street_name": "PROCHE LA PRAIRIE DU LANDY",
+      "sales": 25,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES BOIS DES ROCHES",
+      "sales": 24,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE CHERELLES",
+      "sales": 21,
+      "median_price_per_sqm": 3140.449438202247
+    },
+    {
+      "street_name": "LE SAUSSEAU",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES BEAUGERAULTS",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA TOURNELLE",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA VIGNE A THEMERAULT",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PROCHE LA COUTIERE",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

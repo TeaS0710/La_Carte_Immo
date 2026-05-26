@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 25,
+  "sales_delta_pct": 212.5,
+  "median_price": 205000.0,
+  "median_ppsqm": 2698.56210303458,
+  "delta_ppsqm_pct": 5.6,
+  "notable_sales": [
+    {
+      "date": "2025-08-25",
+      "street": "RUE DE LA MAISONNERAIE",
+      "type": "Maison",
+      "surface": 66,
+      "price": 354764.0
+    },
+    {
+      "date": "2025-08-07",
+      "street": "RUE DE L ISLE",
+      "type": "Maison",
+      "surface": 78,
+      "price": 313800.0
+    },
+    {
+      "date": "2025-07-15",
+      "street": "RUE DE LA PROCESSION",
+      "type": "Maison",
+      "surface": 109,
+      "price": 308450.0
+    },
+    {
+      "date": "2025-10-17",
+      "street": "RUE DES FUSEES",
+      "type": "Maison",
+      "surface": 90,
+      "price": 280000.0
+    },
+    {
+      "date": "2025-08-11",
+      "street": "RUE DE LA MAISONNERAIE",
+      "type": "Maison",
+      "surface": 76,
+      "price": 279794.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:43:04.306070Z"
+}

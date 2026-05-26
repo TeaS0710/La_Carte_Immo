@@ -1,0 +1,120 @@
+{
+  "commune": "Guignes",
+  "insee": "77222",
+  "generated_at": "2026-05-24T21:16:25.426537Z",
+  "total_sales": 938,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 79,
+  "median_price": 211300.0,
+  "median_price_per_sqm": 3003.6893203883496,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 281,
+      "median_price": 240600.0
+    },
+    {
+      "year": 2022,
+      "sales": 204,
+      "median_price": 252500.0
+    },
+    {
+      "year": 2023,
+      "sales": 130,
+      "median_price": 207500.0
+    },
+    {
+      "year": 2024,
+      "sales": 156,
+      "median_price": 185000.0
+    },
+    {
+      "year": 2025,
+      "sales": 167,
+      "median_price": 190000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE TROYES",
+      "sales": 124,
+      "median_price_per_sqm": 2750.0
+    },
+    {
+      "street_name": "RUE DE MEAUX",
+      "sales": 115,
+      "median_price_per_sqm": 3191.964285714286
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 85,
+      "median_price_per_sqm": 2259.1823491239456
+    },
+    {
+      "street_name": "RUE DU CHATEAU D EAU",
+      "sales": 54,
+      "median_price_per_sqm": 3149.1551459293396
+    },
+    {
+      "street_name": "RUE DU CHENE",
+      "sales": 47,
+      "median_price_per_sqm": 2898.9795918367345
+    },
+    {
+      "street_name": "RUE LOUIS PASTEUR",
+      "sales": 46,
+      "median_price_per_sqm": 3249.166666666667
+    },
+    {
+      "street_name": "RUE DE MORTRY",
+      "sales": 38,
+      "median_price_per_sqm": 3152.1739130434785
+    },
+    {
+      "street_name": "RUE DE SERVOLLES",
+      "sales": 33,
+      "median_price_per_sqm": 2392.857142857143
+    },
+    {
+      "street_name": "RUE DES CHAMPS",
+      "sales": 24,
+      "median_price_per_sqm": 3517.507327796776
+    },
+    {
+      "street_name": "RUE CLEMENT ADER",
+      "sales": 23,
+      "median_price_per_sqm": 3017.2413793103447
+    },
+    {
+      "street_name": "ALL DES MYOSOTIS",
+      "sales": 23,
+      "median_price_per_sqm": 3137.777777777778
+    },
+    {
+      "street_name": "RUE DE LA CROIX BLANCHE",
+      "sales": 18,
+      "median_price_per_sqm": 3043.478260869565
+    },
+    {
+      "street_name": "RUE DU BOIS DE VITRY",
+      "sales": 18,
+      "median_price_per_sqm": 3565.9257693211184
+    },
+    {
+      "street_name": "RUE DU PAVILLON",
+      "sales": 17,
+      "median_price_per_sqm": 3317.6470588235293
+    },
+    {
+      "street_name": "RUE DU BOIS BOULAY",
+      "sales": 16,
+      "median_price_per_sqm": 2844.0128660159717
+    }
+  ]
+}

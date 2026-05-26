@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 41,
+  "sales_delta_pct": 28.1,
+  "median_price": 232000.0,
+  "median_ppsqm": 2758.153846153846,
+  "delta_ppsqm_pct": 1.0,
+  "notable_sales": [
+    {
+      "date": "2025-09-25",
+      "street": "PL DE LA FONTAINE",
+      "type": "Maison",
+      "surface": 150,
+      "price": 423600.0
+    },
+    {
+      "date": "2025-09-29",
+      "street": "RUE MONTESQUIOU",
+      "type": "Maison",
+      "surface": 249,
+      "price": 384850.0
+    },
+    {
+      "date": "2025-05-06",
+      "street": "RUE DU PRE DENIS",
+      "type": "Maison",
+      "surface": 107,
+      "price": 360000.0
+    },
+    {
+      "date": "2025-11-17",
+      "street": "RUE DE L'OURSINE",
+      "type": "Maison",
+      "surface": 130,
+      "price": 350000.0
+    },
+    {
+      "date": "2025-07-21",
+      "street": "RUE DU PRE DENIS",
+      "type": "Maison",
+      "surface": 94,
+      "price": 281500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:26:09.508869Z"
+}

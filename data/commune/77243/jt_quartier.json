@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 712,
+  "sales_delta_pct": -12.2,
+  "median_price": 253550.0,
+  "median_ppsqm": 3967.391304347826,
+  "delta_ppsqm_pct": -7.1,
+  "notable_sales": [
+    {
+      "date": "2025-05-21",
+      "street": "QUAI DE LA GOURDINE",
+      "type": "Maison",
+      "surface": 180,
+      "price": 1166300.4
+    },
+    {
+      "date": "2025-05-12",
+      "street": "RUE MILON DE LAGNY",
+      "type": "Maison",
+      "surface": 102,
+      "price": 1100000.0
+    },
+    {
+      "date": "2025-07-31",
+      "street": "RUE MACHERET",
+      "type": "Maison",
+      "surface": 120,
+      "price": 810420.0
+    },
+    {
+      "date": "2025-08-28",
+      "street": "AV DEHOLLAIN",
+      "type": "Maison",
+      "surface": 190,
+      "price": 808200.0
+    },
+    {
+      "date": "2025-05-13",
+      "street": "BD DU MARECHAL GALLIENI",
+      "type": "Maison",
+      "surface": 214,
+      "price": 800000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:20:29.002327Z"
+}

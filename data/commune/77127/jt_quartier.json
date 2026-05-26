@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 91,
+  "sales_delta_pct": 19.7,
+  "median_price": 212800.0,
+  "median_ppsqm": 3289.74358974359,
+  "delta_ppsqm_pct": 9.2,
+  "notable_sales": [
+    {
+      "date": "2025-11-24",
+      "street": "RUE DES PETITES MAISONS",
+      "type": "Maison",
+      "surface": 152,
+      "price": 430000.0
+    },
+    {
+      "date": "2025-07-04",
+      "street": "ALL DES ALOUETTES",
+      "type": "Maison",
+      "surface": 96,
+      "price": 394000.0
+    },
+    {
+      "date": "2025-08-28",
+      "street": "RUE DES PETITES MAISONS",
+      "type": "Maison",
+      "surface": 117,
+      "price": 300000.0
+    },
+    {
+      "date": "2025-08-18",
+      "street": "RUE LEGRAND",
+      "type": "Maison",
+      "surface": 81,
+      "price": 295000.0
+    },
+    {
+      "date": "2025-05-13",
+      "street": "RUE CLAIRBELLE",
+      "type": "Maison",
+      "surface": 74,
+      "price": 280000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:54:09.089613Z"
+}

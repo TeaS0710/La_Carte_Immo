@@ -1,0 +1,120 @@
+{
+  "commune": "Moisenay",
+  "insee": "77295",
+  "generated_at": "2026-05-24T21:28:48.489381Z",
+  "total_sales": 283,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 62,
+  "median_price": 235000.0,
+  "median_price_per_sqm": 3012.8205128205127,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 77,
+      "median_price": 247000.0
+    },
+    {
+      "year": 2022,
+      "sales": 35,
+      "median_price": 50570.0
+    },
+    {
+      "year": 2023,
+      "sales": 65,
+      "median_price": 247000.0
+    },
+    {
+      "year": 2024,
+      "sales": 52,
+      "median_price": 211119.0
+    },
+    {
+      "year": 2025,
+      "sales": 54,
+      "median_price": 251604.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 23,
+      "median_price_per_sqm": 2879.6296296296296
+    },
+    {
+      "street_name": "RUE DES GALERNES",
+      "sales": 20,
+      "median_price_per_sqm": 3300.970873786408
+    },
+    {
+      "street_name": "MOISENAY",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L ECOLE",
+      "sales": 14,
+      "median_price_per_sqm": 4422.680412371134
+    },
+    {
+      "street_name": "LE PETIT MOISENAY",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L ENFER",
+      "sales": 12,
+      "median_price_per_sqm": 2270.7423580786026
+    },
+    {
+      "street_name": "RUE DES COUTURES",
+      "sales": 11,
+      "median_price_per_sqm": 3412.6969696969695
+    },
+    {
+      "street_name": "CHE DE LA PORTE DES CHAMPS",
+      "sales": 8,
+      "median_price_per_sqm": 3355.198695920345
+    },
+    {
+      "street_name": "LES HEURTS BAUDIN",
+      "sales": 8,
+      "median_price_per_sqm": 2692.3076923076924
+    },
+    {
+      "street_name": "RUE DU JUBILE",
+      "sales": 7,
+      "median_price_per_sqm": 3180.0
+    },
+    {
+      "street_name": "RUE DU PARC",
+      "sales": 7,
+      "median_price_per_sqm": 3354.5454545454545
+    },
+    {
+      "street_name": "LE MONTCEAU",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA FOSSE BOUTROUX",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "IMP DU PLEU",
+      "sales": 6,
+      "median_price_per_sqm": 2827.916038210156
+    },
+    {
+      "street_name": "LE MAZOT",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

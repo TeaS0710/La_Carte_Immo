@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 134,
+  "sales_delta_pct": 22.9,
+  "median_price": 339320.0,
+  "median_ppsqm": 2761.6279069767443,
+  "delta_ppsqm_pct": 4.8,
+  "notable_sales": [
+    {
+      "date": "2025-05-07",
+      "street": "AV JEAN COCTEAU",
+      "type": "Maison",
+      "surface": 116,
+      "price": 560000.0
+    },
+    {
+      "date": "2025-06-25",
+      "street": "RUE HENRI MATISSE",
+      "type": "Maison",
+      "surface": 150,
+      "price": 559000.0
+    },
+    {
+      "date": "2025-08-22",
+      "street": "AV JEAN COCTEAU",
+      "type": "Maison",
+      "surface": 172,
+      "price": 475000.0
+    },
+    {
+      "date": "2025-09-15",
+      "street": "RUE AUGUSTE RENOIR",
+      "type": "Maison",
+      "surface": 125,
+      "price": 378000.0
+    },
+    {
+      "date": "2025-11-26",
+      "street": "RUE SISLEY",
+      "type": "Maison",
+      "surface": 151,
+      "price": 370000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:37:25.134876Z"
+}

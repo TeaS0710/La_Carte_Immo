@@ -1,0 +1,120 @@
+{
+  "commune": "Le Châtelet-en-Brie",
+  "insee": "77100",
+  "generated_at": "2026-05-24T20:45:36.707403Z",
+  "total_sales": 634,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 111,
+  "median_price": 245000.0,
+  "median_price_per_sqm": 2869.918699186992,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 146,
+      "median_price": 250000.0
+    },
+    {
+      "year": 2022,
+      "sales": 121,
+      "median_price": 275000.0
+    },
+    {
+      "year": 2023,
+      "sales": 106,
+      "median_price": 252000.0
+    },
+    {
+      "year": 2024,
+      "sales": 110,
+      "median_price": 219204.76
+    },
+    {
+      "year": 2025,
+      "sales": 151,
+      "median_price": 244999.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU 26 AOUT 1944",
+      "sales": 38,
+      "median_price_per_sqm": 2958.904109589041
+    },
+    {
+      "street_name": "LA MUSSINE",
+      "sales": 35,
+      "median_price_per_sqm": 1528.301886792453
+    },
+    {
+      "street_name": "RUE DU CHATEAU DES DAMES",
+      "sales": 32,
+      "median_price_per_sqm": 2500.0
+    },
+    {
+      "street_name": "RUE DE LA LOGE AUX BERGERS",
+      "sales": 24,
+      "median_price_per_sqm": 1980.8823529411766
+    },
+    {
+      "street_name": "RUE DE RAMBOUILLOT",
+      "sales": 21,
+      "median_price_per_sqm": 2784.090909090909
+    },
+    {
+      "street_name": "RUE DU MOULIN",
+      "sales": 21,
+      "median_price_per_sqm": 3157.8947368421054
+    },
+    {
+      "street_name": "RTE DE LA COUDRE",
+      "sales": 20,
+      "median_price_per_sqm": 2640.3333333333335
+    },
+    {
+      "street_name": "RTE DE FONTAINE LE PORT",
+      "sales": 16,
+      "median_price_per_sqm": 3693.653846153846
+    },
+    {
+      "street_name": "RUE DES CHAMPARTS",
+      "sales": 15,
+      "median_price_per_sqm": 1000.0
+    },
+    {
+      "street_name": "RUE DE L HOTEL DE VILLE",
+      "sales": 15,
+      "median_price_per_sqm": 2074.712643678161
+    },
+    {
+      "street_name": "RUE DU HAM BRIARD",
+      "sales": 14,
+      "median_price_per_sqm": 2594.642857142857
+    },
+    {
+      "street_name": "RUE LOUIS PUISSANT",
+      "sales": 14,
+      "median_price_per_sqm": 3358.024691358025
+    },
+    {
+      "street_name": "RLE DES ROCHES",
+      "sales": 13,
+      "median_price_per_sqm": 3046.099290780142
+    },
+    {
+      "street_name": "CHE DES COURANCES",
+      "sales": 13,
+      "median_price_per_sqm": 2740.4698581560287
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 12,
+      "median_price_per_sqm": 3907.6923076923076
+    }
+  ]
+}

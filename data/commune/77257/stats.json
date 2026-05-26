@@ -1,0 +1,120 @@
+{
+  "commune": "Lizy-sur-Ourcq",
+  "insee": "77257",
+  "generated_at": "2026-05-24T21:22:31.022699Z",
+  "total_sales": 494,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 62,
+  "median_price": 185000.0,
+  "median_price_per_sqm": 2451.4285714285716,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 114,
+      "median_price": 152500.0
+    },
+    {
+      "year": 2022,
+      "sales": 120,
+      "median_price": 260000.0
+    },
+    {
+      "year": 2023,
+      "sales": 80,
+      "median_price": 220000.0
+    },
+    {
+      "year": 2024,
+      "sales": 95,
+      "median_price": 176000.0
+    },
+    {
+      "year": 2025,
+      "sales": 85,
+      "median_price": 166150.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE JEAN JAURES",
+      "sales": 57,
+      "median_price_per_sqm": 2142.8571428571427
+    },
+    {
+      "street_name": "RUE MAGU",
+      "sales": 52,
+      "median_price_per_sqm": 2415.1205936920223
+    },
+    {
+      "street_name": "ALL DU CANAL",
+      "sales": 35,
+      "median_price_per_sqm": 1941.1764705882351
+    },
+    {
+      "street_name": "AV GAMBETTA",
+      "sales": 32,
+      "median_price_per_sqm": 5920.0
+    },
+    {
+      "street_name": "RTE D OCQUERRE",
+      "sales": 23,
+      "median_price_per_sqm": 1852.457264957265
+    },
+    {
+      "street_name": "RUE DES MOULINS",
+      "sales": 23,
+      "median_price_per_sqm": 2229.227761485826
+    },
+    {
+      "street_name": "RUE DE LIZY",
+      "sales": 16,
+      "median_price_per_sqm": 2597.3790322580644
+    },
+    {
+      "street_name": "AV DU CHEMIN NOIR",
+      "sales": 16,
+      "median_price_per_sqm": 1782.608695652174
+    },
+    {
+      "street_name": "AV DE LA GARE",
+      "sales": 14,
+      "median_price_per_sqm": 3761.1301369863013
+    },
+    {
+      "street_name": "RUE DU CANAL",
+      "sales": 14,
+      "median_price_per_sqm": 2337.9032258064517
+    },
+    {
+      "street_name": "RUE ARISTIDE BRIAND",
+      "sales": 13,
+      "median_price_per_sqm": 2451.4285714285716
+    },
+    {
+      "street_name": "RUE DE ROQUEMONT",
+      "sales": 13,
+      "median_price_per_sqm": 1886.7924528301887
+    },
+    {
+      "street_name": "RUE ALBERT THOMAS",
+      "sales": 11,
+      "median_price_per_sqm": 2114.5833333333335
+    },
+    {
+      "street_name": "RTE DE CONGIS",
+      "sales": 11,
+      "median_price_per_sqm": 2712.328767123288
+    },
+    {
+      "street_name": "PL HAROUARD",
+      "sales": 10,
+      "median_price_per_sqm": 3572.5806451612902
+    }
+  ]
+}

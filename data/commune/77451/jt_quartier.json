@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 49,
+  "sales_delta_pct": 113.0,
+  "median_price": 330000.0,
+  "median_ppsqm": 2442.7480916030536,
+  "delta_ppsqm_pct": 12.5,
+  "notable_sales": [
+    {
+      "date": "2025-09-26",
+      "street": "RLE PAPILLON",
+      "type": "Maison",
+      "surface": 101,
+      "price": 342000.0
+    },
+    {
+      "date": "2025-07-24",
+      "street": "RUE ROBERT SOULAT",
+      "type": "Maison",
+      "surface": 150,
+      "price": 330000.0
+    },
+    {
+      "date": "2025-12-06",
+      "street": "RUE OMER GALISSANT",
+      "type": "Maison",
+      "surface": 131,
+      "price": 320000.0
+    },
+    {
+      "date": "2025-06-13",
+      "street": "HAM DES PERDRIETS",
+      "type": "Maison",
+      "surface": 62,
+      "price": 216450.0
+    },
+    {
+      "date": "2025-08-12",
+      "street": "PL DE LA FONTAINE VOISIN",
+      "type": "Maison",
+      "surface": 32,
+      "price": 128500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:48:04.184515Z"
+}

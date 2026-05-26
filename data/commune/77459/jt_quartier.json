@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 121,
+  "sales_delta_pct": 112.3,
+  "median_price": 185224.0,
+  "median_ppsqm": 1630.4347826086957,
+  "delta_ppsqm_pct": -9.3,
+  "notable_sales": [
+    {
+      "date": "2025-07-31",
+      "street": "RUE DE BOURG CHERI",
+      "type": "Maison",
+      "surface": 145,
+      "price": 370000.0
+    },
+    {
+      "date": "2025-07-04",
+      "street": "RUE DU PETIT PARACLET",
+      "type": "Maison",
+      "surface": 151,
+      "price": 349800.0
+    },
+    {
+      "date": "2025-12-22",
+      "street": "RUE DE CHALAUTRE",
+      "type": "Maison",
+      "surface": 110,
+      "price": 325000.0
+    },
+    {
+      "date": "2025-07-23",
+      "street": "RUE JULES FERRY",
+      "type": "Maison",
+      "surface": 151,
+      "price": 303292.0
+    },
+    {
+      "date": "2025-12-10",
+      "street": "RUE DU VIEUX CHATEAU",
+      "type": "Maison",
+      "surface": 132,
+      "price": 252500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:52:57.277092Z"
+}

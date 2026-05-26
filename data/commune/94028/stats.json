@@ -1,0 +1,306 @@
+{
+  "commune": "Créteil",
+  "insee": "94028",
+  "generated_at": "2026-05-24T18:02:44.935916Z",
+  "total_sales": 10924,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 307,
+  "median_price": 255900.0,
+  "median_price_per_sqm": 4414.285714285715,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 2676,
+      "median_price": 273250.0
+    },
+    {
+      "year": 2022,
+      "sales": 2402,
+      "median_price": 248350.0
+    },
+    {
+      "year": 2023,
+      "sales": 2314,
+      "median_price": 272000.0
+    },
+    {
+      "year": 2024,
+      "sales": 1518,
+      "median_price": 233000.0
+    },
+    {
+      "year": 2025,
+      "sales": 2014,
+      "median_price": 250000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GEN DE GAULLE",
+      "sales": 725,
+      "median_price_per_sqm": 71428.57142857143
+    },
+    {
+      "street_name": "AV LAFERRIERE",
+      "sales": 361,
+      "median_price_per_sqm": 4690.9375
+    },
+    {
+      "street_name": "RUE DU GENERAL LECLERC",
+      "sales": 297,
+      "median_price_per_sqm": 5515.0
+    },
+    {
+      "street_name": "RUE CHERET",
+      "sales": 267,
+      "median_price_per_sqm": 4394.642857142857
+    },
+    {
+      "street_name": "AV MAGELLAN",
+      "sales": 251,
+      "median_price_per_sqm": 4835.2967032967035
+    },
+    {
+      "street_name": "AV MAL DE LATTRE DE TASSIGNY",
+      "sales": 239,
+      "median_price_per_sqm": 5425.806451612903
+    },
+    {
+      "street_name": "RUE GUSTAVE EIFFEL",
+      "sales": 209,
+      "median_price_per_sqm": 203333.33333333334
+    },
+    {
+      "street_name": "RUE DES CLAVISIS",
+      "sales": 193,
+      "median_price_per_sqm": 39375.0
+    },
+    {
+      "street_name": "BD MONTAIGUT",
+      "sales": 186,
+      "median_price_per_sqm": 3025.158084914183
+    },
+    {
+      "street_name": "RUE DES ECOLES",
+      "sales": 184,
+      "median_price_per_sqm": 205882.35294117648
+    },
+    {
+      "street_name": "RUE DU GEN DE LARMINAT",
+      "sales": 177,
+      "median_price_per_sqm": 3322.028985507246
+    },
+    {
+      "street_name": "RUE MAURICE DEMENITROUX",
+      "sales": 172,
+      "median_price_per_sqm": 4457.333333333333
+    },
+    {
+      "street_name": "VLA PETIT PARC",
+      "sales": 164,
+      "median_price_per_sqm": 3151.1075949367087
+    },
+    {
+      "street_name": "RUE DU GAL DE LACHARRIERE",
+      "sales": 156,
+      "median_price_per_sqm": 4092.553191489362
+    },
+    {
+      "street_name": "PL SALVADOR ALLENDE",
+      "sales": 148,
+      "median_price_per_sqm": 4615.557065217392
+    }
+  ],
+  "sirene_targets_total": 759,
+  "sirene_agences_immo": 214,
+  "sirene_par_naf": [
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 186
+    },
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 169
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 114
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 69
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 57
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 39
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 39
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 33
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 30
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 15
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 6
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 2
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "503698664",
+      "nom": "FONCIA TRANSACTION FRANCE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18-19 - TOUR AURORE 18 PLACE DES REFLETS 92400 COURBEVOIE",
+      "code_postal": "92400"
+    },
+    {
+      "siren": "914326855",
+      "nom": "FONCIA DEVELOPPEMENT ET LOCATION",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "TOUR AURORE 18-19 PLACE DES REFLETS 92400 COURBEVOIE",
+      "code_postal": "92400"
+    },
+    {
+      "siren": "689801314",
+      "nom": "CPH IMMOBILIER (CPH IMMOBILIER)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "67 BOULEVARD BESSIERES 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "602620346",
+      "nom": "ID PROJETS (FC)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "55 CHEMIN DES ENGRENAUDS 13660 ORGON",
+      "code_postal": "13660"
+    },
+    {
+      "siren": "802545426",
+      "nom": "ARNAUD IMMOBILIER SAS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "8 RUE D'ESTIENNE D'ORVES 94000 CRETEIL",
+      "code_postal": "94000"
+    },
+    {
+      "siren": "834721870",
+      "nom": "KEVIN PHO",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "83 BOULEVARD JOHN KENNEDY 94000 CRETEIL",
+      "code_postal": "94000"
+    },
+    {
+      "siren": "511240921",
+      "nom": "LILA FRAIN (TERKI)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "50 AV DU MONT JOLI 06420 ROUBION",
+      "code_postal": "06420"
+    },
+    {
+      "siren": "507401933",
+      "nom": "MAYE CONSEIL",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "161 AVENUE VICTOR HUGO 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "512915521",
+      "nom": "ERIC BERTHOULOUX",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "RESIDENCE LA PALOMBIERE 21 RUE DU CAP 94000 CRETEIL",
+      "code_postal": "94000"
+    },
+    {
+      "siren": "753875723",
+      "nom": "AGENCE GRAND PARC",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "63 RUE DE VERSAILLES 78150 LE CHESNAY-ROCQUENCOURT",
+      "code_postal": "78150"
+    },
+    {
+      "siren": "820645117",
+      "nom": "YANNICK YOMELAN (YYCI)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 VILLA DES ACACIAS 78700 CONFLANS-SAINTE-HONORINE",
+      "code_postal": "78700"
+    },
+    {
+      "siren": "809869878",
+      "nom": "CRISTINA DIMITRIU",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "5 RUE DES FRANCS BOURGEOIS 75004 PARIS",
+      "code_postal": "75004"
+    },
+    {
+      "siren": "833230642",
+      "nom": "MARION GAILLARD",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18 AVENUE DE LA REPUBLIQUE 91170 VIRY-CHATILLON",
+      "code_postal": "91170"
+    },
+    {
+      "siren": "432808392",
+      "nom": "ETUDES ET CONSEILS UZAN (ETUDES ET CONSEILS UZAN)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "26 PLACE DU MARCHE SAINT-HONORE 75001 PARIS",
+      "code_postal": "75001"
+    },
+    {
+      "siren": "429680929",
+      "nom": "DANY RIGAIL",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "42 RUE DE FALKIRK 94000 CRETEIL",
+      "code_postal": "94000"
+    }
+  ]
+}

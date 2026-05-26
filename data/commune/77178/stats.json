@@ -1,0 +1,120 @@
+{
+  "commune": "Faÿ-lès-Nemours",
+  "insee": "77178",
+  "generated_at": "2026-05-24T21:08:01.057168Z",
+  "total_sales": 201,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 33,
+  "median_price": 187000.0,
+  "median_price_per_sqm": 2131.2667112299464,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 48,
+      "median_price": 234000.0
+    },
+    {
+      "year": 2022,
+      "sales": 47,
+      "median_price": 100000.0
+    },
+    {
+      "year": 2023,
+      "sales": 31,
+      "median_price": 199000.0
+    },
+    {
+      "year": 2024,
+      "sales": 43,
+      "median_price": 148000.0
+    },
+    {
+      "year": 2025,
+      "sales": 32,
+      "median_price": 215000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 30,
+      "median_price_per_sqm": 2036.0795454545455
+    },
+    {
+      "street_name": "LE VILLAGE",
+      "sales": 27,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PARC DE FAY",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES ROCHES",
+      "sales": 20,
+      "median_price_per_sqm": 2454.5454545454545
+    },
+    {
+      "street_name": "RUE DE MONTIVIER",
+      "sales": 11,
+      "median_price_per_sqm": 3038.961038961039
+    },
+    {
+      "street_name": "RUE DES PRES",
+      "sales": 10,
+      "median_price_per_sqm": 1859.8130841121495
+    },
+    {
+      "street_name": "ALL DES GATINES",
+      "sales": 8,
+      "median_price_per_sqm": 1610.0
+    },
+    {
+      "street_name": "LE BOURG",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LOT L OUCHE A CATHERINE",
+      "sales": 6,
+      "median_price_per_sqm": 2117.6470588235293
+    },
+    {
+      "street_name": "LE VILLAGE DE FAY",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 5,
+      "median_price_per_sqm": 2271.4285714285716
+    },
+    {
+      "street_name": "LA MONATE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ALL DES  GATINES",
+      "sales": 4,
+      "median_price_per_sqm": 1316.6666666666665
+    },
+    {
+      "street_name": "LES OUCHES DE FAY",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "IMP DE LA SAPINIERE",
+      "sales": 4,
+      "median_price_per_sqm": 5909.090909090909
+    }
+  ]
+}

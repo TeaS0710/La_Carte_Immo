@@ -1,0 +1,120 @@
+{
+  "commune": "Bray-sur-Seine",
+  "insee": "77051",
+  "generated_at": "2026-05-24T20:38:53.731160Z",
+  "total_sales": 444,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 69,
+  "median_price": 155000.0,
+  "median_price_per_sqm": 1854.8387096774193,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 105,
+      "median_price": 139000.0
+    },
+    {
+      "year": 2022,
+      "sales": 108,
+      "median_price": 169000.0
+    },
+    {
+      "year": 2023,
+      "sales": 44,
+      "median_price": 170000.0
+    },
+    {
+      "year": 2024,
+      "sales": 72,
+      "median_price": 205950.0
+    },
+    {
+      "year": 2025,
+      "sales": 115,
+      "median_price": 115000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DANTON",
+      "sales": 45,
+      "median_price_per_sqm": 2079.4166666666665
+    },
+    {
+      "street_name": "RUE DE BOURGOGNE",
+      "sales": 28,
+      "median_price_per_sqm": 1592.9203539823009
+    },
+    {
+      "street_name": "RUE VICTOR HUGO",
+      "sales": 24,
+      "median_price_per_sqm": 7037.037037037037
+    },
+    {
+      "street_name": "RUE DES FILOIRS",
+      "sales": 19,
+      "median_price_per_sqm": 2292.3076923076924
+    },
+    {
+      "street_name": "RUE DES PATURES",
+      "sales": 18,
+      "median_price_per_sqm": 2183.0051369863013
+    },
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 18,
+      "median_price_per_sqm": 1983.3333333333333
+    },
+    {
+      "street_name": "RUE DE LA PECHERIE",
+      "sales": 16,
+      "median_price_per_sqm": 1790.1960784313726
+    },
+    {
+      "street_name": "RUE DE LA PAIX",
+      "sales": 15,
+      "median_price_per_sqm": 2046.875
+    },
+    {
+      "street_name": "RUE D HENRIEN",
+      "sales": 13,
+      "median_price_per_sqm": 1599.5475113122172
+    },
+    {
+      "street_name": "BRAY",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU FOUR",
+      "sales": 11,
+      "median_price_per_sqm": 3928.5714285714284
+    },
+    {
+      "street_name": "RTE DE MONTIGNY",
+      "sales": 10,
+      "median_price_per_sqm": 1125.0
+    },
+    {
+      "street_name": "RUE DU GENERAL LECLERC",
+      "sales": 10,
+      "median_price_per_sqm": 2428.5714285714284
+    },
+    {
+      "street_name": "QUAI SAINT NICOLAS",
+      "sales": 10,
+      "median_price_per_sqm": 2482.1428571428573
+    },
+    {
+      "street_name": "RLE DES DEUX PORTES",
+      "sales": 9,
+      "median_price_per_sqm": 7363.636363636364
+    }
+  ]
+}

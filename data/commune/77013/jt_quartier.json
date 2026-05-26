@@ -1,0 +1,25 @@
+{
+  "year": 2025,
+  "sales_year": 14,
+  "sales_delta_pct": -22.2,
+  "median_price": 190000.0,
+  "median_ppsqm": 2500.0,
+  "delta_ppsqm_pct": 5.7,
+  "notable_sales": [
+    {
+      "date": "2025-07-08",
+      "street": "VILLERS",
+      "type": "Maison",
+      "surface": 122,
+      "price": 336000.0
+    },
+    {
+      "date": "2025-07-28",
+      "street": "LA BAUDERIE",
+      "type": "Maison",
+      "surface": 103,
+      "price": 257500.0
+    }
+  ],
+  "generated_at": "2026-05-24T19:21:12.165775Z"
+}

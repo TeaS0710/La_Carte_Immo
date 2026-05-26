@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 108,
+  "sales_delta_pct": 22.7,
+  "median_price": 450000.0,
+  "median_ppsqm": 3179.88,
+  "delta_ppsqm_pct": -7.9,
+  "notable_sales": [
+    {
+      "date": "2025-06-27",
+      "street": "RUE DE LA MARNE",
+      "type": "Maison",
+      "surface": 225,
+      "price": 765000.0
+    },
+    {
+      "date": "2025-10-23",
+      "street": "RUE DE LA VALLEE",
+      "type": "Maison",
+      "surface": 44,
+      "price": 620000.0
+    },
+    {
+      "date": "2025-01-03",
+      "street": "ALL DE LA BUTTE AUX BERGERS",
+      "type": "Maison",
+      "surface": 245,
+      "price": 585974.0
+    },
+    {
+      "date": "2025-06-25",
+      "street": "RUE DU PRE AUX MOUTONS",
+      "type": "Maison",
+      "surface": 198,
+      "price": 545000.0
+    },
+    {
+      "date": "2025-03-21",
+      "street": "RUE DE LA MARE AUX PRETRES",
+      "type": "Maison",
+      "surface": 179,
+      "price": 528250.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:47:55.713582Z"
+}

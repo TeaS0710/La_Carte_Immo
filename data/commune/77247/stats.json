@@ -1,0 +1,120 @@
+{
+  "commune": "Lescherolles",
+  "insee": "77247",
+  "generated_at": "2026-05-24T21:21:22.224518Z",
+  "total_sales": 217,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 41,
+  "median_price": 177000.0,
+  "median_price_per_sqm": 1805.5944055944055,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 44,
+      "median_price": 176500.0
+    },
+    {
+      "year": 2022,
+      "sales": 60,
+      "median_price": 96000.0
+    },
+    {
+      "year": 2023,
+      "sales": 57,
+      "median_price": 145000.0
+    },
+    {
+      "year": 2024,
+      "sales": 13,
+      "median_price": 110000.0
+    },
+    {
+      "year": 2025,
+      "sales": 43,
+      "median_price": 180000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LESCHEROLLES",
+      "sales": 28,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE ST MARS",
+      "sales": 23,
+      "median_price_per_sqm": 1610.4565537555227
+    },
+    {
+      "street_name": "RUE DE LA CROIX HARIOT",
+      "sales": 21,
+      "median_price_per_sqm": 1633.3333333333335
+    },
+    {
+      "street_name": "RUE DU SAUVAGEON",
+      "sales": 10,
+      "median_price_per_sqm": 1875.0
+    },
+    {
+      "street_name": "RUE DES COURTES SOUPES",
+      "sales": 9,
+      "median_price_per_sqm": 2440.0
+    },
+    {
+      "street_name": "RUE NOTRE DAME",
+      "sales": 9,
+      "median_price_per_sqm": 2210.714285714286
+    },
+    {
+      "street_name": "LES PETITS BOIS",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CLAIRES MARNES",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES PLEUX",
+      "sales": 6,
+      "median_price_per_sqm": 2738.636363636364
+    },
+    {
+      "street_name": "LES GRAVOTTES",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ROMNEL",
+      "sales": 6,
+      "median_price_per_sqm": 1464.0
+    },
+    {
+      "street_name": "RUE DE LA CROIX SAINT JEAN",
+      "sales": 5,
+      "median_price_per_sqm": 1632.090395480226
+    },
+    {
+      "street_name": "RUE DU FRANCHIN",
+      "sales": 4,
+      "median_price_per_sqm": 3928.5714285714284
+    },
+    {
+      "street_name": "LE PRE DION",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA GLOYERE",
+      "sales": 4,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

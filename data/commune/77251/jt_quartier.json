@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 425,
+  "sales_delta_pct": 22.5,
+  "median_price": 224000.0,
+  "median_ppsqm": 3337.121212121212,
+  "delta_ppsqm_pct": -8.5,
+  "notable_sales": [
+    {
+      "date": "2025-03-03",
+      "street": "RUE GIRAUDE",
+      "type": "Maison",
+      "surface": 136,
+      "price": 441770.0
+    },
+    {
+      "date": "2025-01-28",
+      "street": "RUE JATEAU",
+      "type": "Maison",
+      "surface": 105,
+      "price": 415000.0
+    },
+    {
+      "date": "2025-06-27",
+      "street": "RUE DE LA MESANGE BLEUE",
+      "type": "Maison",
+      "surface": 115,
+      "price": 393000.0
+    },
+    {
+      "date": "2025-09-29",
+      "street": "RUE FEDERICO FELLINI",
+      "type": "Maison",
+      "surface": 120,
+      "price": 390000.0
+    },
+    {
+      "date": "2025-02-03",
+      "street": "RUE DU CHENE PRIEUR",
+      "type": "Maison",
+      "surface": 95,
+      "price": 385000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:21:48.598380Z"
+}

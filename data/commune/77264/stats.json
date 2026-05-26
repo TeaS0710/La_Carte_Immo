@@ -1,0 +1,120 @@
+{
+  "commune": "Lumigny-Nesles-Ormeaux",
+  "insee": "77264",
+  "generated_at": "2026-05-24T21:23:33.033864Z",
+  "total_sales": 538,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 74,
+  "median_price": 310000.0,
+  "median_price_per_sqm": 2572.887323943662,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 115,
+      "median_price": 326000.0
+    },
+    {
+      "year": 2022,
+      "sales": 72,
+      "median_price": 305000.0
+    },
+    {
+      "year": 2023,
+      "sales": 111,
+      "median_price": 300000.0
+    },
+    {
+      "year": 2024,
+      "sales": 95,
+      "median_price": 280000.0
+    },
+    {
+      "year": 2025,
+      "sales": 145,
+      "median_price": 380000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DES SABLES",
+      "sales": 37,
+      "median_price_per_sqm": 2686.167304537999
+    },
+    {
+      "street_name": "RUE DU GAZONNET",
+      "sales": 27,
+      "median_price_per_sqm": 3357.1428571428573
+    },
+    {
+      "street_name": "RUE DE CHAMPLET",
+      "sales": 24,
+      "median_price_per_sqm": 3076.6666666666665
+    },
+    {
+      "street_name": "GRANDE RUE ORMEAUX",
+      "sales": 24,
+      "median_price_per_sqm": 2122.4489795918366
+    },
+    {
+      "street_name": "RUE DES ANTES",
+      "sales": 23,
+      "median_price_per_sqm": 2725.4271174118503
+    },
+    {
+      "street_name": "BOURBAUDOIN",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU GRAND MARRONNIER",
+      "sales": 18,
+      "median_price_per_sqm": 4062.5
+    },
+    {
+      "street_name": "LUMIGNY",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHAMPLET",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA VIGNOTTE",
+      "sales": 16,
+      "median_price_per_sqm": 2624.090909090909
+    },
+    {
+      "street_name": "RUE IRA ET EDITA MORRIS",
+      "sales": 16,
+      "median_price_per_sqm": 3060.839160839161
+    },
+    {
+      "street_name": "RUE IRA EDITA MORRIS",
+      "sales": 15,
+      "median_price_per_sqm": 2952.9411764705883
+    },
+    {
+      "street_name": "PL DU CALVAIRE",
+      "sales": 13,
+      "median_price_per_sqm": 2343.75
+    },
+    {
+      "street_name": "RUE DE CARROUGE",
+      "sales": 13,
+      "median_price_per_sqm": 2912.0
+    },
+    {
+      "street_name": "RUE DE L HOSPICE",
+      "sales": 12,
+      "median_price_per_sqm": 2440.5594405594406
+    }
+  ]
+}

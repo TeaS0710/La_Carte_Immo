@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 503,
+  "sales_delta_pct": 233.1,
+  "median_price": 12885505.94,
+  "median_ppsqm": 151594.18752941175,
+  "delta_ppsqm_pct": 4564.4,
+  "notable_sales": [
+    {
+      "date": "2025-10-28",
+      "street": "RUE SADI CARNOT",
+      "type": "Maison",
+      "surface": 131,
+      "price": 1726332.0
+    },
+    {
+      "date": "2025-05-16",
+      "street": "RUE RESIDENCE DE LA MADELAINE",
+      "type": "Maison",
+      "surface": 300,
+      "price": 650000.0
+    },
+    {
+      "date": "2025-03-27",
+      "street": "RUE DE L ARQUEBUSE",
+      "type": "Maison",
+      "surface": 115,
+      "price": 585000.0
+    },
+    {
+      "date": "2025-11-25",
+      "street": "RUE ARISTIDE BRIAND",
+      "type": "Maison",
+      "surface": 152,
+      "price": 478950.0
+    },
+    {
+      "date": "2025-07-17",
+      "street": "RUE SADI CARNOT",
+      "type": "Maison",
+      "surface": 103,
+      "price": 402750.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:07:03.813761Z"
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 191,
+  "sales_delta_pct": -19.7,
+  "median_price": 295000.0,
+  "median_ppsqm": 3000.0,
+  "delta_ppsqm_pct": 2.1,
+  "notable_sales": [
+    {
+      "date": "2025-06-25",
+      "street": "RUE DE LA MADELEINE",
+      "type": "Maison",
+      "surface": 285,
+      "price": 673800.0
+    },
+    {
+      "date": "2025-10-07",
+      "street": "RUE DE LA QUEUE DU LOUP",
+      "type": "Maison",
+      "surface": 160,
+      "price": 552000.0
+    },
+    {
+      "date": "2025-10-06",
+      "street": "RUE DE LA BUTTE AUX FONTAINES",
+      "type": "Maison",
+      "surface": 124,
+      "price": 490000.0
+    },
+    {
+      "date": "2025-10-30",
+      "street": "RUE DU BICHOT",
+      "type": "Maison",
+      "surface": 176,
+      "price": 449451.0
+    },
+    {
+      "date": "2025-08-13",
+      "street": "RUE DU PLAT D'ETAIN",
+      "type": "Maison",
+      "surface": 170,
+      "price": 399970.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:04:06.563435Z"
+}

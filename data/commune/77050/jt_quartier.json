@@ -1,0 +1,32 @@
+{
+  "year": 2025,
+  "sales_year": 38,
+  "sales_delta_pct": 18.8,
+  "median_price": 170500.0,
+  "median_ppsqm": 1535.4895104895104,
+  "delta_ppsqm_pct": -33.6,
+  "notable_sales": [
+    {
+      "date": "2025-07-28",
+      "street": "RUE DE LA JEANDRILLONNERIE",
+      "type": "Maison",
+      "surface": 165,
+      "price": 275500.0
+    },
+    {
+      "date": "2025-10-24",
+      "street": "LA CHEVRE",
+      "type": "Maison",
+      "surface": 130,
+      "price": 219000.0
+    },
+    {
+      "date": "2025-08-28",
+      "street": "RUE DE LA CHEVRE",
+      "type": "Maison",
+      "surface": 127,
+      "price": 215000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:38:35.839722Z"
+}

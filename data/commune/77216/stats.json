@@ -1,0 +1,120 @@
+{
+  "commune": "Grez-sur-Loing",
+  "insee": "77216",
+  "generated_at": "2026-05-24T21:14:48.873007Z",
+  "total_sales": 671,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 77,
+  "median_price": 233000.0,
+  "median_price_per_sqm": 2869.8505523066924,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 169,
+      "median_price": 155000.0
+    },
+    {
+      "year": 2022,
+      "sales": 269,
+      "median_price": 408304.0
+    },
+    {
+      "year": 2023,
+      "sales": 109,
+      "median_price": 242230.0
+    },
+    {
+      "year": 2024,
+      "sales": 52,
+      "median_price": 178000.0
+    },
+    {
+      "year": 2025,
+      "sales": 72,
+      "median_price": 208700.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE WILSON",
+      "sales": 53,
+      "median_price_per_sqm": 3073.803191489362
+    },
+    {
+      "street_name": "GREZ",
+      "sales": 44,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "L ARROSOIR",
+      "sales": 33,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE D HULAY",
+      "sales": 29,
+      "median_price_per_sqm": 2665.6858766233763
+    },
+    {
+      "street_name": "LES PRES DE BELLE ILE",
+      "sales": 28,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU VIEUX PONT",
+      "sales": 27,
+      "median_price_per_sqm": 2966.6666666666665
+    },
+    {
+      "street_name": "PATURE DE LA CLARETTE",
+      "sales": 25,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES NOUES",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOIS DE L ABREUVOIR",
+      "sales": 22,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE DESSOUS DES GUILLAUME D",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PARC DE HULAY",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES FOURS",
+      "sales": 19,
+      "median_price_per_sqm": 2256.9023569023566
+    },
+    {
+      "street_name": "LES MAZURES",
+      "sales": 18,
+      "median_price_per_sqm": 575.0605326876514
+    },
+    {
+      "street_name": "LES MURGERS",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DES ETANGS",
+      "sales": 14,
+      "median_price_per_sqm": 50745.70769230769
+    }
+  ]
+}

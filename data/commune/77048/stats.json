@@ -1,0 +1,120 @@
+{
+  "commune": "Bourron-Marlotte",
+  "insee": "77048",
+  "generated_at": "2026-05-24T20:38:20.239144Z",
+  "total_sales": 920,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 98,
+  "median_price": 300000.0,
+  "median_price_per_sqm": 3800.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 171,
+      "median_price": 364000.0
+    },
+    {
+      "year": 2022,
+      "sales": 226,
+      "median_price": 340000.0
+    },
+    {
+      "year": 2023,
+      "sales": 174,
+      "median_price": 290000.0
+    },
+    {
+      "year": 2024,
+      "sales": 168,
+      "median_price": 242500.0
+    },
+    {
+      "year": 2025,
+      "sales": 181,
+      "median_price": 286000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE MURGER",
+      "sales": 73,
+      "median_price_per_sqm": 3611.1111111111113
+    },
+    {
+      "street_name": "RUE DU GEN DE GAULLE",
+      "sales": 68,
+      "median_price_per_sqm": 3736.263736263736
+    },
+    {
+      "street_name": "BOURRON",
+      "sales": 41,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE BOURGEOISE",
+      "sales": 33,
+      "median_price_per_sqm": 2893.6170212765956
+    },
+    {
+      "street_name": "RUE MARCEAU",
+      "sales": 30,
+      "median_price_per_sqm": 5346.853146853147
+    },
+    {
+      "street_name": "MARLOTTE",
+      "sales": 29,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CASSIS",
+      "sales": 27,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES GRANDS REAGES",
+      "sales": 23,
+      "median_price_per_sqm": 4000.0
+    },
+    {
+      "street_name": "LES POIRIERS",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA FONTAINE AU SEL",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GRANDS REAGES DE BOURR",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE VILLEE DE ST EL",
+      "sales": 21,
+      "median_price_per_sqm": 3547.6764490095375
+    },
+    {
+      "street_name": "RUE DU GEN LECLERC",
+      "sales": 21,
+      "median_price_per_sqm": 3636.3636363636365
+    },
+    {
+      "street_name": "LES FOUGERES",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE AUGUSTE ALLONGE",
+      "sales": 18,
+      "median_price_per_sqm": 8000.0
+    }
+  ]
+}

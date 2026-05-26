@@ -1,0 +1,120 @@
+{
+  "commune": "Échouboulains",
+  "insee": "77164",
+  "generated_at": "2026-05-24T21:03:11.202086Z",
+  "total_sales": 192,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 26,
+  "median_price": 320000.0,
+  "median_price_per_sqm": 2696.078431372549,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 27,
+      "median_price": 247000.0
+    },
+    {
+      "year": 2022,
+      "sales": 36,
+      "median_price": 397000.0
+    },
+    {
+      "year": 2023,
+      "sales": 53,
+      "median_price": 4500000.0
+    },
+    {
+      "year": 2024,
+      "sales": 60,
+      "median_price": 658652.7
+    },
+    {
+      "year": 2025,
+      "sales": 16,
+      "median_price": 266500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "L ETANCON",
+      "sales": 38,
+      "median_price_per_sqm": 29801.324503311258
+    },
+    {
+      "street_name": "RUE ROBERT SCHUMAN",
+      "sales": 27,
+      "median_price_per_sqm": 2414.8039215686276
+    },
+    {
+      "street_name": "LE BOIS AUX GABONNES",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA BUTTE DU MOULIN",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA GNYGNARDERIE",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE PAUL DOUMER",
+      "sales": 10,
+      "median_price_per_sqm": 2684.5760233918127
+    },
+    {
+      "street_name": "ECHOU",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 6,
+      "median_price_per_sqm": 3066.1052631578946
+    },
+    {
+      "street_name": "RUE DU GEN LECLERC",
+      "sales": 6,
+      "median_price_per_sqm": 2158.3333333333335
+    },
+    {
+      "street_name": "RUE JEAN MERMOZ",
+      "sales": 6,
+      "median_price_per_sqm": 2649.304865938431
+    },
+    {
+      "street_name": "RUE DU MOULIN",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MARE ROUGE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 5,
+      "median_price_per_sqm": 2696.078431372549
+    },
+    {
+      "street_name": "DOM DE L ETANCON",
+      "sales": 4,
+      "median_price_per_sqm": 15045.060080106809
+    },
+    {
+      "street_name": "RUE GABONNE",
+      "sales": 3,
+      "median_price_per_sqm": 2379.464285714286
+    }
+  ]
+}

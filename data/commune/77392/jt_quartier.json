@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 41,
+  "sales_delta_pct": 95.2,
+  "median_price": 275000.0,
+  "median_ppsqm": 3371.5634711929238,
+  "delta_ppsqm_pct": -8.3,
+  "notable_sales": [
+    {
+      "date": "2025-03-24",
+      "street": "RUE DES PATURAGES",
+      "type": "Maison",
+      "surface": 137,
+      "price": 345000.0
+    },
+    {
+      "date": "2025-08-26",
+      "street": "ALL DES JEUX",
+      "type": "Maison",
+      "surface": 105,
+      "price": 337090.0
+    },
+    {
+      "date": "2025-08-29",
+      "street": "RUE DES MOISSONS",
+      "type": "Maison",
+      "surface": 94,
+      "price": 334900.0
+    },
+    {
+      "date": "2025-07-01",
+      "street": "RUE DES VERGERS",
+      "type": "Maison",
+      "surface": 96,
+      "price": 329000.0
+    },
+    {
+      "date": "2025-07-29",
+      "street": "RUE DES CHENES",
+      "type": "Maison",
+      "surface": 94,
+      "price": 317000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:37:54.514084Z"
+}

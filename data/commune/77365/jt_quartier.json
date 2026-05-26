@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 24,
+  "sales_delta_pct": 33.3,
+  "median_price": 332500.0,
+  "median_ppsqm": 2464.788732394366,
+  "delta_ppsqm_pct": 19.4,
+  "notable_sales": [
+    {
+      "date": "2025-02-03",
+      "street": "RUE DE LA VACHERIE",
+      "type": "Maison",
+      "surface": 130,
+      "price": 460000.0
+    },
+    {
+      "date": "2025-07-08",
+      "street": "RUE DE L ECHELLE",
+      "type": "Maison",
+      "surface": 143,
+      "price": 410000.0
+    },
+    {
+      "date": "2025-06-30",
+      "street": "RUE DE L ECHELLE",
+      "type": "Maison",
+      "surface": 142,
+      "price": 350000.0
+    },
+    {
+      "date": "2025-11-28",
+      "street": "RUE DE LA VACHERIE",
+      "type": "Maison",
+      "surface": 133,
+      "price": 315000.0
+    },
+    {
+      "date": "2025-01-03",
+      "street": "RUE DE L EGLISE",
+      "type": "Maison",
+      "surface": 150,
+      "price": 289000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:34:50.960444Z"
+}

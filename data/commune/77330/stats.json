@@ -1,0 +1,120 @@
+{
+  "commune": "Nanteuil-lès-Meaux",
+  "insee": "77330",
+  "generated_at": "2026-05-24T21:31:47.716580Z",
+  "total_sales": 1869,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 155,
+  "median_price": 215000.0,
+  "median_price_per_sqm": 3141.780330222541,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 388,
+      "median_price": 190000.0
+    },
+    {
+      "year": 2022,
+      "sales": 523,
+      "median_price": 180000.0
+    },
+    {
+      "year": 2023,
+      "sales": 292,
+      "median_price": 221500.0
+    },
+    {
+      "year": 2024,
+      "sales": 269,
+      "median_price": 213065.0
+    },
+    {
+      "year": 2025,
+      "sales": 397,
+      "median_price": 240000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE FERNAND COLLOT",
+      "sales": 109,
+      "median_price_per_sqm": 3500.0
+    },
+    {
+      "street_name": "RUE DU CHATEAU",
+      "sales": 108,
+      "median_price_per_sqm": 3052.5562922823196
+    },
+    {
+      "street_name": "RUE PIERRE MENDES FRANCE",
+      "sales": 77,
+      "median_price_per_sqm": 2915.6626506024095
+    },
+    {
+      "street_name": "AV FRANCOIS DE TESSAN",
+      "sales": 65,
+      "median_price_per_sqm": 3250.8680555555557
+    },
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 55,
+      "median_price_per_sqm": 3080.0
+    },
+    {
+      "street_name": "AV CHARLES DE GAULLE",
+      "sales": 50,
+      "median_price_per_sqm": 3507.8125
+    },
+    {
+      "street_name": "ALL DES CYGNES",
+      "sales": 49,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ALL PLON ET NOURRIT",
+      "sales": 48,
+      "median_price_per_sqm": 3436.457418788411
+    },
+    {
+      "street_name": "RUE JULES BLOT",
+      "sales": 48,
+      "median_price_per_sqm": 2938.8888888888887
+    },
+    {
+      "street_name": "RUE GALLIENI",
+      "sales": 44,
+      "median_price_per_sqm": 3069.9300699300697
+    },
+    {
+      "street_name": "CHE DU VIEUX NOIX",
+      "sales": 40,
+      "median_price_per_sqm": 3237.037037037037
+    },
+    {
+      "street_name": "RUE JEAN BARRAUD",
+      "sales": 35,
+      "median_price_per_sqm": 3047.6190476190477
+    },
+    {
+      "street_name": "RUE BENJAMIN BRUNET",
+      "sales": 34,
+      "median_price_per_sqm": 3500.0
+    },
+    {
+      "street_name": "ALL DE LA TUILERIE",
+      "sales": 33,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GORETS",
+      "sales": 32,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

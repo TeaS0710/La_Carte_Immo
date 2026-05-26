@@ -1,0 +1,39 @@
+{
+  "year": 2025,
+  "sales_year": 32,
+  "sales_delta_pct": -39.6,
+  "median_price": 235000.0,
+  "median_ppsqm": 1768.097643097643,
+  "delta_ppsqm_pct": 9.6,
+  "notable_sales": [
+    {
+      "date": "2025-06-04",
+      "street": "CHE DES GRANDS PLEUX",
+      "type": "Maison",
+      "surface": 228,
+      "price": 865575.0
+    },
+    {
+      "date": "2025-09-23",
+      "street": "CHE DE LA COUTURE",
+      "type": "Maison",
+      "surface": 108,
+      "price": 215000.0
+    },
+    {
+      "date": "2025-07-09",
+      "street": "RUE DE SERVOLLES",
+      "type": "Maison",
+      "surface": 60,
+      "price": 175000.0
+    },
+    {
+      "date": "2025-02-21",
+      "street": "ALL DES MESANGES",
+      "type": "Maison",
+      "surface": 44,
+      "price": 68000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:17:16.474267Z"
+}

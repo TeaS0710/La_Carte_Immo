@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 73,
+  "sales_delta_pct": 65.9,
+  "median_price": 175000.0,
+  "median_ppsqm": 2591.9380390776273,
+  "delta_ppsqm_pct": -33.2,
+  "notable_sales": [
+    {
+      "date": "2025-12-23",
+      "street": "CHE DES ECUREUILS",
+      "type": "Maison",
+      "surface": 299,
+      "price": 747400.0
+    },
+    {
+      "date": "2025-02-07",
+      "street": "RTE DE BOISETTES",
+      "type": "Maison",
+      "surface": 151,
+      "price": 425000.0
+    },
+    {
+      "date": "2025-04-10",
+      "street": "RUE DE LA REPUBLIQUE",
+      "type": "Maison",
+      "surface": 91,
+      "price": 335000.0
+    },
+    {
+      "date": "2025-01-31",
+      "street": "RUE DES COUBLANCS",
+      "type": "Maison",
+      "surface": 90,
+      "price": 327000.0
+    },
+    {
+      "date": "2025-09-30",
+      "street": "RUE FONTAINE BERGER",
+      "type": "Maison",
+      "surface": 122,
+      "price": 295000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:36:59.924096Z"
+}

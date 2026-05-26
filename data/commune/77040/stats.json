@@ -1,0 +1,120 @@
+{
+  "commune": "Boissise-le-Roi",
+  "insee": "77040",
+  "generated_at": "2026-05-24T20:37:18.503328Z",
+  "total_sales": 499,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 67,
+  "median_price": 378000.0,
+  "median_price_per_sqm": 3242.2222222222226,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 140,
+      "median_price": 485350.0
+    },
+    {
+      "year": 2022,
+      "sales": 112,
+      "median_price": 380000.0
+    },
+    {
+      "year": 2023,
+      "sales": 55,
+      "median_price": 290000.0
+    },
+    {
+      "year": 2024,
+      "sales": 107,
+      "median_price": 425000.0
+    },
+    {
+      "year": 2025,
+      "sales": 85,
+      "median_price": 378000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LES LONGUES RAIES",
+      "sales": 95,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE D AILLON",
+      "sales": 38,
+      "median_price_per_sqm": 3256.9444444444443
+    },
+    {
+      "street_name": "RUE DU CHATEAU",
+      "sales": 38,
+      "median_price_per_sqm": 8448.982362554516
+    },
+    {
+      "street_name": "ALL DE LA CORNICHE",
+      "sales": 27,
+      "median_price_per_sqm": 4294.642857142857
+    },
+    {
+      "street_name": "RUE DE PONTHIERRY",
+      "sales": 27,
+      "median_price_per_sqm": 3760.958205199888
+    },
+    {
+      "street_name": "RTE DE MELUN",
+      "sales": 23,
+      "median_price_per_sqm": 3586.808350100604
+    },
+    {
+      "street_name": "AV DU CHEVALIER DE BEAUSSE",
+      "sales": 16,
+      "median_price_per_sqm": 302680.7533112583
+    },
+    {
+      "street_name": "RUE DE BEL AIR",
+      "sales": 14,
+      "median_price_per_sqm": 2737.070707070707
+    },
+    {
+      "street_name": "ORGENOY",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE MEURSAULT",
+      "sales": 9,
+      "median_price_per_sqm": 3791.2087912087914
+    },
+    {
+      "street_name": "RTE NATIONALE 7",
+      "sales": 9,
+      "median_price_per_sqm": 9516.129032258064
+    },
+    {
+      "street_name": "LE POIRIER DE SAINT",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE MILLET",
+      "sales": 8,
+      "median_price_per_sqm": 3355.4918588873816
+    },
+    {
+      "street_name": "ALL DES VIOLETTES",
+      "sales": 8,
+      "median_price_per_sqm": 2869.791666666667
+    },
+    {
+      "street_name": "RUE DU BOISSONNET",
+      "sales": 8,
+      "median_price_per_sqm": 2789.915966386555
+    }
+  ]
+}

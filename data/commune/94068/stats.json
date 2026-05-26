@@ -1,0 +1,311 @@
+{
+  "commune": "Saint-Maur-des-Fossés",
+  "insee": "94068",
+  "generated_at": "2026-05-24T17:57:17.703483Z",
+  "total_sales": 16786,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 440,
+  "median_price": 386000.0,
+  "median_price_per_sqm": 6320.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 3592,
+      "median_price": 400000.0
+    },
+    {
+      "year": 2022,
+      "sales": 3834,
+      "median_price": 415000.0
+    },
+    {
+      "year": 2023,
+      "sales": 2894,
+      "median_price": 361600.0
+    },
+    {
+      "year": 2024,
+      "sales": 2835,
+      "median_price": 366300.0
+    },
+    {
+      "year": 2025,
+      "sales": 3631,
+      "median_price": 386000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "BD DE CRETEIL",
+      "sales": 740,
+      "median_price_per_sqm": 6233.108108108108
+    },
+    {
+      "street_name": "AV DU BAC",
+      "sales": 550,
+      "median_price_per_sqm": 6710.526315789473
+    },
+    {
+      "street_name": "RUE GARIBALDI",
+      "sales": 363,
+      "median_price_per_sqm": 5375.0
+    },
+    {
+      "street_name": "AV FOCH",
+      "sales": 362,
+      "median_price_per_sqm": 5466.666666666667
+    },
+    {
+      "street_name": "BD DE CHAMPIGNY",
+      "sales": 340,
+      "median_price_per_sqm": 6671.1296129612965
+    },
+    {
+      "street_name": "BD DE LA MARNE",
+      "sales": 303,
+      "median_price_per_sqm": 9062.5
+    },
+    {
+      "street_name": "BD DE BELLECHASSE",
+      "sales": 288,
+      "median_price_per_sqm": 9286.559139784946
+    },
+    {
+      "street_name": "RUE DE LA VARENNE",
+      "sales": 263,
+      "median_price_per_sqm": 9641.486486486487
+    },
+    {
+      "street_name": "AV GABRIEL PERI",
+      "sales": 251,
+      "median_price_per_sqm": 5764.4724556489255
+    },
+    {
+      "street_name": "AV CARNOT",
+      "sales": 228,
+      "median_price_per_sqm": 6838.333333333334
+    },
+    {
+      "street_name": "AV MARINVILLE",
+      "sales": 214,
+      "median_price_per_sqm": 5974.666666666667
+    },
+    {
+      "street_name": "BD DU GENERAL GIRAUD",
+      "sales": 214,
+      "median_price_per_sqm": 5170.2889897301175
+    },
+    {
+      "street_name": "AV DE LA REPUBLIQUE",
+      "sales": 194,
+      "median_price_per_sqm": 6040.0
+    },
+    {
+      "street_name": "RUE LEDRU ROLLIN",
+      "sales": 182,
+      "median_price_per_sqm": 6098.0392156862745
+    },
+    {
+      "street_name": "AV DES PERDRIX",
+      "sales": 181,
+      "median_price_per_sqm": 5447.368421052632
+    }
+  ],
+  "sirene_targets_total": 1245,
+  "sirene_agences_immo": 670,
+  "sirene_par_naf": [
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 392
+    },
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 264
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 255
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 74
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 72
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 55
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 50
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 26
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 23
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 16
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 15
+    },
+    {
+      "naf": "64.91Z",
+      "label": "64.91Z",
+      "count": 2
+    },
+    {
+      "naf": "47.11F",
+      "label": "47.11F",
+      "count": 1
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "503698664",
+      "nom": "FONCIA TRANSACTION FRANCE",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "18-19 - TOUR AURORE 18 PLACE DES REFLETS 92400 COURBEVOIE",
+      "code_postal": "92400"
+    },
+    {
+      "siren": "490072337",
+      "nom": "C & M GESTION (CIMM GESTION - GEST'IN)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "55 AVENUE JEAN KUNTZMANN 38330 MONTBONNOT-SAINT-MARTIN",
+      "code_postal": "38330"
+    },
+    {
+      "siren": "408344752",
+      "nom": "JCM (CIMM IMMOBILIER - IMMOLIAISON)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "55 AVENUE JEAN KUNTZMANN 38330 MONTBONNOT-SAINT-MARTIN",
+      "code_postal": "38330"
+    },
+    {
+      "siren": "302204177",
+      "nom": "PLURI-PUBLI",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "25 B AVENUE PIERRE GRENIER 92100 BOULOGNE-BILLANCOURT",
+      "code_postal": "92100"
+    },
+    {
+      "siren": "751189119",
+      "nom": "ACHETER DU NEUF.COM (ACHETER DU NEUF.COM)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "12 RUE FERRERE 33000 BORDEAUX",
+      "code_postal": "33000"
+    },
+    {
+      "siren": "322536988",
+      "nom": "JEAN-FRANCOIS LARDY",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "34 RUE CARVES 92120 MONTROUGE",
+      "code_postal": "92120"
+    },
+    {
+      "siren": "824672505",
+      "nom": "L'AGENCE SAINT MAUR (L'AGENCE SERRIS)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "BATIMENT B 2 AVENUE CHRISTIAN DOPPLER 77700 SERRIS",
+      "code_postal": "77700"
+    },
+    {
+      "siren": "789064722",
+      "nom": "REVOLIM",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "143 AVENUE SAINT DOMINIQUE 83700 SAINT-RAPHAEL",
+      "code_postal": "83700"
+    },
+    {
+      "siren": "907465322",
+      "nom": "CHRISTELLE JEUX",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "56 AVENUE VICTOR HUGO 77170 BRIE-COMTE-ROBERT",
+      "code_postal": "77170"
+    },
+    {
+      "siren": "314410036",
+      "nom": "ADELINO GOMES-GUARDA",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "116 AVENUE DE MARINVILLE 94100 SAINT-MAUR-DES-FOSSES",
+      "code_postal": "94100"
+    },
+    {
+      "siren": "444437388",
+      "nom": "MJT (GIF - IMMOBILIERE DES ARCADES)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "124 RUE DE TOCQUEVILLE 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "452923758",
+      "nom": "ESTATE INVESTMENTS LLC",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "15 EAST NORD STREET DOVER DELAWARE 19901 ETATS-UNIS",
+      "code_postal": null
+    },
+    {
+      "siren": "494673023",
+      "nom": "PROJET IMMO CONSEIL (NESTENN)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "67-69 67 AVENUE DE LA REPUBLIQUE 94100 SAINT-MAUR-DES-FOSSES",
+      "code_postal": "94100"
+    },
+    {
+      "siren": "750005886",
+      "nom": "CABINET GODEST MORLE IMMOBILIER (GEMALIA)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "3 RUE LEDRU ROLLIN 94100 SAINT-MAUR-DES-FOSSES",
+      "code_postal": "94100"
+    },
+    {
+      "siren": "753791250",
+      "nom": "INTERIMMO (INTERIMMO)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "ET 56 RUE LOUIS BRAILLE 67 BOULEVARD DE CRETEIL 94100 SAINT-MAUR-DES-FOSSES",
+      "code_postal": "94100"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Paley",
+  "insee": "77353",
+  "generated_at": "2026-05-24T21:33:53.627357Z",
+  "total_sales": 346,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 79,
+  "median_price": 94000.0,
+  "median_price_per_sqm": 2171.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 110,
+      "median_price": 73000.0
+    },
+    {
+      "year": 2022,
+      "sales": 64,
+      "median_price": 176750.0
+    },
+    {
+      "year": 2023,
+      "sales": 72,
+      "median_price": 67609.0
+    },
+    {
+      "year": 2024,
+      "sales": 39,
+      "median_price": 188000.0
+    },
+    {
+      "year": 2025,
+      "sales": 61,
+      "median_price": 232000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "PONT THIERRY",
+      "sales": 26,
+      "median_price_per_sqm": 2727.2727272727275
+    },
+    {
+      "street_name": "RTE DE LA VALLEE",
+      "sales": 15,
+      "median_price_per_sqm": 2042.0168067226891
+    },
+    {
+      "street_name": "BOIS DE VAUPUISEAU",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES CLOSEAUX",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA CROIX BLANCHE",
+      "sales": 13,
+      "median_price_per_sqm": 1853.3333333333333
+    },
+    {
+      "street_name": "BOIS DE LA RICHASSERIE",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CHEMIN DE SENS",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "IMP DES DADEES",
+      "sales": 12,
+      "median_price_per_sqm": 2145.5747806744794
+    },
+    {
+      "street_name": "RUE DES VIGNES",
+      "sales": 11,
+      "median_price_per_sqm": 1966.4073550212165
+    },
+    {
+      "street_name": "LES DADEES",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ROCHE MARTEAU",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RTE DES RICORDEAUX",
+      "sales": 10,
+      "median_price_per_sqm": 5531.914893617021
+    },
+    {
+      "street_name": "RTE DE LA CROIX BLANCHE",
+      "sales": 9,
+      "median_price_per_sqm": 2171.0
+    },
+    {
+      "street_name": "TESNIERE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BOIS LORRAIN",
+      "sales": 8,
+      "median_price_per_sqm": 23617.11229946524
+    }
+  ]
+}

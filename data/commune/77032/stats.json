@@ -1,0 +1,120 @@
+{
+  "commune": "Beton-Bazoches",
+  "insee": "77032",
+  "generated_at": "2026-05-24T20:36:02.859092Z",
+  "total_sales": 286,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 56,
+  "median_price": 150000.0,
+  "median_price_per_sqm": 1890.7563025210084,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 58,
+      "median_price": 110000.0
+    },
+    {
+      "year": 2022,
+      "sales": 65,
+      "median_price": 235000.0
+    },
+    {
+      "year": 2023,
+      "sales": 59,
+      "median_price": 90000.0
+    },
+    {
+      "year": 2024,
+      "sales": 61,
+      "median_price": 180000.0
+    },
+    {
+      "year": 2025,
+      "sales": 43,
+      "median_price": 218000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "BETON BAZOCHES",
+      "sales": 47,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA CLOTHEE",
+      "sales": 18,
+      "median_price_per_sqm": 802.9197080291971
+    },
+    {
+      "street_name": "RTE DEPARTEMENTALE 1004",
+      "sales": 16,
+      "median_price_per_sqm": 1569.3430656934306
+    },
+    {
+      "street_name": "RUE FARABEUF",
+      "sales": 14,
+      "median_price_per_sqm": 1773.0807577268195
+    },
+    {
+      "street_name": "RUE DU PONT DE L AUBETIN",
+      "sales": 11,
+      "median_price_per_sqm": 2370.833333333333
+    },
+    {
+      "street_name": "RUE DES ROSIERS",
+      "sales": 9,
+      "median_price_per_sqm": 2378.640776699029
+    },
+    {
+      "street_name": "LA GROUE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE TESSIER",
+      "sales": 9,
+      "median_price_per_sqm": 1676.6467065868264
+    },
+    {
+      "street_name": "RUE DU BOIS GOURRE",
+      "sales": 9,
+      "median_price_per_sqm": 1770.4918032786886
+    },
+    {
+      "street_name": "RUE DE L HOTEL DE VILLE",
+      "sales": 8,
+      "median_price_per_sqm": 2300.925925925926
+    },
+    {
+      "street_name": "LE BOIS ARTEAU",
+      "sales": 8,
+      "median_price_per_sqm": 2149.4845360824743
+    },
+    {
+      "street_name": "LES VIGNES",
+      "sales": 7,
+      "median_price_per_sqm": 2367.4242424242425
+    },
+    {
+      "street_name": "RTE NATIONALE",
+      "sales": 7,
+      "median_price_per_sqm": 1916.0519845451354
+    },
+    {
+      "street_name": "LA MARE A GUY",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MONTAUFOIN",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

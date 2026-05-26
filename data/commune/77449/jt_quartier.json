@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 412,
+  "sales_delta_pct": 9.0,
+  "median_price": 330000.0,
+  "median_ppsqm": 5150.943396226415,
+  "delta_ppsqm_pct": 5.2,
+  "notable_sales": [
+    {
+      "date": "2025-03-07",
+      "street": "IMP DU MOULIN",
+      "type": "Maison",
+      "surface": 136,
+      "price": 616600.0
+    },
+    {
+      "date": "2025-12-03",
+      "street": "ALL DES GASSETS",
+      "type": "Maison",
+      "surface": 132,
+      "price": 587450.0
+    },
+    {
+      "date": "2025-06-30",
+      "street": "CRS DU TAGE",
+      "type": "Appartement",
+      "surface": 111,
+      "price": 584250.0
+    },
+    {
+      "date": "2025-07-11",
+      "street": "RUE DU PRE THOMAS",
+      "type": "Maison",
+      "surface": 110,
+      "price": 562800.0
+    },
+    {
+      "date": "2025-05-07",
+      "street": "RUE DU CLOS DE L ETANG",
+      "type": "Maison",
+      "surface": 116,
+      "price": 555000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:47:31.662433Z"
+}

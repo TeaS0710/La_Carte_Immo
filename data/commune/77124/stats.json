@@ -1,0 +1,120 @@
+{
+  "commune": "Conches-sur-Gondoire",
+  "insee": "77124",
+  "generated_at": "2026-05-24T20:52:19.657219Z",
+  "total_sales": 294,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 37,
+  "median_price": 426250.0,
+  "median_price_per_sqm": 3865.0793650793653,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 57,
+      "median_price": 437900.0
+    },
+    {
+      "year": 2022,
+      "sales": 90,
+      "median_price": 490000.0
+    },
+    {
+      "year": 2023,
+      "sales": 48,
+      "median_price": 399500.0
+    },
+    {
+      "year": 2024,
+      "sales": 35,
+      "median_price": 245000.0
+    },
+    {
+      "year": 2025,
+      "sales": 64,
+      "median_price": 454000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RTE DE TOURNAN",
+      "sales": 57,
+      "median_price_per_sqm": 5104.166666666667
+    },
+    {
+      "street_name": "RUE DE LA VALLEE",
+      "sales": 33,
+      "median_price_per_sqm": 3541.807568438003
+    },
+    {
+      "street_name": "ALL DU BEAUVALLON",
+      "sales": 20,
+      "median_price_per_sqm": 3702.7863777089783
+    },
+    {
+      "street_name": "RUE DE L ORME BOSSU",
+      "sales": 19,
+      "median_price_per_sqm": 3850.0
+    },
+    {
+      "street_name": "RUE DU CHATELET",
+      "sales": 17,
+      "median_price_per_sqm": 3829.7645680196015
+    },
+    {
+      "street_name": "RUE DU FORT DU BOIS",
+      "sales": 17,
+      "median_price_per_sqm": 3628.5714285714284
+    },
+    {
+      "street_name": "ALL BEAUSEJOUR",
+      "sales": 13,
+      "median_price_per_sqm": 3590.934065934066
+    },
+    {
+      "street_name": "ALL DU POILU",
+      "sales": 11,
+      "median_price_per_sqm": 28414.990266060995
+    },
+    {
+      "street_name": "ALL DE L ERMITAGE",
+      "sales": 10,
+      "median_price_per_sqm": 5872.153209109731
+    },
+    {
+      "street_name": "RUE DU LAURENCON",
+      "sales": 10,
+      "median_price_per_sqm": 3141.025641025641
+    },
+    {
+      "street_name": "RLE BINETTE",
+      "sales": 8,
+      "median_price_per_sqm": 4052.6315789473683
+    },
+    {
+      "street_name": "ALL DE JOSSIGNY",
+      "sales": 6,
+      "median_price_per_sqm": 3951.127819548872
+    },
+    {
+      "street_name": "ALL DE CHANTELOUP",
+      "sales": 5,
+      "median_price_per_sqm": 3029.6052631578946
+    },
+    {
+      "street_name": "RUE FERRAILLES",
+      "sales": 5,
+      "median_price_per_sqm": 3738.4615384615386
+    },
+    {
+      "street_name": "RUE ANDRE GIDE",
+      "sales": 4,
+      "median_price_per_sqm": 3292.4812030075186
+    }
+  ]
+}

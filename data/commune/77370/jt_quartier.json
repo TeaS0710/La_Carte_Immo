@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 61,
+  "sales_delta_pct": -48.3,
+  "median_price": 190000.0,
+  "median_ppsqm": 2222.222222222222,
+  "delta_ppsqm_pct": 10.3,
+  "notable_sales": [
+    {
+      "date": "2025-11-21",
+      "street": "RUE DE LA MARDELLE",
+      "type": "Maison",
+      "surface": 80,
+      "price": 314100.0
+    },
+    {
+      "date": "2025-08-06",
+      "street": "RUE DES SABLES",
+      "type": "Maison",
+      "surface": 77,
+      "price": 240000.0
+    },
+    {
+      "date": "2025-03-03",
+      "street": "RUE DE LA VALLEE",
+      "type": "Maison",
+      "surface": 103,
+      "price": 237000.0
+    },
+    {
+      "date": "2025-03-07",
+      "street": "RUE DES JONQUILLES",
+      "type": "Maison",
+      "surface": 117,
+      "price": 235000.0
+    },
+    {
+      "date": "2025-01-10",
+      "street": "RUE NEUVE",
+      "type": "Maison",
+      "surface": 87,
+      "price": 201000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:35:12.405100Z"
+}

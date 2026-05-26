@@ -1,0 +1,120 @@
+{
+  "commune": "Dammarie-les-Lys",
+  "insee": "77152",
+  "generated_at": "2026-05-24T21:00:37.315775Z",
+  "total_sales": 3386,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 173,
+  "median_price": 172000.0,
+  "median_price_per_sqm": 2916.6666666666665,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 828,
+      "median_price": 159000.0
+    },
+    {
+      "year": 2022,
+      "sales": 883,
+      "median_price": 180000.0
+    },
+    {
+      "year": 2023,
+      "sales": 633,
+      "median_price": 174000.0
+    },
+    {
+      "year": 2024,
+      "sales": 541,
+      "median_price": 190000.0
+    },
+    {
+      "year": 2025,
+      "sales": 501,
+      "median_price": 155650.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU COLONEL FABIEN",
+      "sales": 273,
+      "median_price_per_sqm": 2926.587301587301
+    },
+    {
+      "street_name": "AV JEAN JAURES",
+      "sales": 226,
+      "median_price_per_sqm": 32494.566666666666
+    },
+    {
+      "street_name": "ALL DU PARC",
+      "sales": 162,
+      "median_price_per_sqm": 3000.0
+    },
+    {
+      "street_name": "RUE DU CAPORAL POUSSINEAU",
+      "sales": 156,
+      "median_price_per_sqm": 122096.0241935484
+    },
+    {
+      "street_name": "ALL DU SEQUOIA",
+      "sales": 134,
+      "median_price_per_sqm": 2819.2934782608695
+    },
+    {
+      "street_name": "AV ANATOLE FRANCE",
+      "sales": 120,
+      "median_price_per_sqm": 3128.2051282051284
+    },
+    {
+      "street_name": "RES DE LA BRETAGNE",
+      "sales": 119,
+      "median_price_per_sqm": 1666.6666666666667
+    },
+    {
+      "street_name": "RUE BEL OMBRE",
+      "sales": 110,
+      "median_price_per_sqm": 2848.214285714286
+    },
+    {
+      "street_name": "LA BUVETTE",
+      "sales": 103,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU PARC DES RIGOUTS",
+      "sales": 96,
+      "median_price_per_sqm": 2148.4375
+    },
+    {
+      "street_name": "AV DU MARECHAL FOCH",
+      "sales": 88,
+      "median_price_per_sqm": 2894.801545486477
+    },
+    {
+      "street_name": "RES DE L AQUITAINE",
+      "sales": 71,
+      "median_price_per_sqm": 1575.661297473031
+    },
+    {
+      "street_name": "AV P VAILLANT COUTURIER",
+      "sales": 60,
+      "median_price_per_sqm": 2884.9581061311346
+    },
+    {
+      "street_name": "AV EMILE ZOLA",
+      "sales": 57,
+      "median_price_per_sqm": 3085.0746268656717
+    },
+    {
+      "street_name": "ESP DE L EUROPE",
+      "sales": 57,
+      "median_price_per_sqm": 2815.3846153846152
+    }
+  ]
+}

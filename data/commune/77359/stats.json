@@ -1,0 +1,120 @@
+{
+  "commune": "Perthes",
+  "insee": "77359",
+  "generated_at": "2026-05-24T21:34:22.669550Z",
+  "total_sales": 528,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 66,
+  "median_price": 268000.0,
+  "median_price_per_sqm": 3372.8205128205127,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 114,
+      "median_price": 270000.0
+    },
+    {
+      "year": 2022,
+      "sales": 135,
+      "median_price": 209000.0
+    },
+    {
+      "year": 2023,
+      "sales": 78,
+      "median_price": 336000.0
+    },
+    {
+      "year": 2024,
+      "sales": 120,
+      "median_price": 202725.0
+    },
+    {
+      "year": 2025,
+      "sales": 81,
+      "median_price": 268000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE MELUN",
+      "sales": 43,
+      "median_price_per_sqm": 3143.6921296296296
+    },
+    {
+      "street_name": "RUE DU DOC SIFFRE",
+      "sales": 38,
+      "median_price_per_sqm": 3439.381774387796
+    },
+    {
+      "street_name": "RUE DE MILLY",
+      "sales": 37,
+      "median_price_per_sqm": 3538.068181818182
+    },
+    {
+      "street_name": "RUE LOUIS RODIER",
+      "sales": 34,
+      "median_price_per_sqm": 3174.1410256410254
+    },
+    {
+      "street_name": "RUE DE LA FOSSE AUX MOINES",
+      "sales": 27,
+      "median_price_per_sqm": 3902.439024390244
+    },
+    {
+      "street_name": "RUE DE CHAILLY",
+      "sales": 24,
+      "median_price_per_sqm": 3050.8474576271187
+    },
+    {
+      "street_name": "RUE DE SAINT GERMAIN",
+      "sales": 22,
+      "median_price_per_sqm": 3535.3535353535353
+    },
+    {
+      "street_name": "RUE DES GROUETTES",
+      "sales": 21,
+      "median_price_per_sqm": 2940.8492395631315
+    },
+    {
+      "street_name": "RUE DU GRAND MOULIN",
+      "sales": 21,
+      "median_price_per_sqm": 4911.111111111111
+    },
+    {
+      "street_name": "LES CARREAUX",
+      "sales": 20,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE FLEURY",
+      "sales": 19,
+      "median_price_per_sqm": 3250.0
+    },
+    {
+      "street_name": "LES SUGETS",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ALL DES ALISIERS",
+      "sales": 12,
+      "median_price_per_sqm": 12000.0
+    },
+    {
+      "street_name": "RUE GEORGES BOUET",
+      "sales": 11,
+      "median_price_per_sqm": 3518.739513422819
+    },
+    {
+      "street_name": "RUE DES BELLES VUES",
+      "sales": 11,
+      "median_price_per_sqm": 2994.5054945054944
+    }
+  ]
+}

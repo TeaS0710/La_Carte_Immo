@@ -1,0 +1,120 @@
+{
+  "commune": "Vernou-la-Celle-sur-Seine",
+  "insee": "77494",
+  "generated_at": "2026-05-24T22:03:32.992330Z",
+  "total_sales": 669,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 100,
+  "median_price": 237500.0,
+  "median_price_per_sqm": 2524.590163934426,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 200,
+      "median_price": 237500.0
+    },
+    {
+      "year": 2022,
+      "sales": 129,
+      "median_price": 215000.0
+    },
+    {
+      "year": 2023,
+      "sales": 90,
+      "median_price": 198000.0
+    },
+    {
+      "year": 2024,
+      "sales": 107,
+      "median_price": 249000.0
+    },
+    {
+      "year": 2025,
+      "sales": 143,
+      "median_price": 520000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU PANORAMA",
+      "sales": 35,
+      "median_price_per_sqm": 2902.0516717325227
+    },
+    {
+      "street_name": "RUE GRANDE RUE LA CELLE",
+      "sales": 30,
+      "median_price_per_sqm": 2240.0542495479203
+    },
+    {
+      "street_name": "MOULIN DE NANCHON",
+      "sales": 23,
+      "median_price_per_sqm": 1696.2619047619046
+    },
+    {
+      "street_name": "LES BRULIS",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BD DES GROUETTES",
+      "sales": 22,
+      "median_price_per_sqm": 2658.5365853658536
+    },
+    {
+      "street_name": "RUE DE TOURNANCIE",
+      "sales": 22,
+      "median_price_per_sqm": 2298.8505747126437
+    },
+    {
+      "street_name": "RUE DE LA MAIRIE",
+      "sales": 21,
+      "median_price_per_sqm": 3181.818181818182
+    },
+    {
+      "street_name": "LES LARRIS DE LA GARDE DIE",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE MONTOIR",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA MAISON BLANCHE",
+      "sales": 18,
+      "median_price_per_sqm": 2520.0
+    },
+    {
+      "street_name": "RTE DE VALENCE",
+      "sales": 18,
+      "median_price_per_sqm": 2396.3963963963965
+    },
+    {
+      "street_name": "RUE DU MONTOIR",
+      "sales": 17,
+      "median_price_per_sqm": 2863.6363636363635
+    },
+    {
+      "street_name": "LA THURELLE",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CHENOY",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MARANGIS",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Arbonne-la-Forêt",
+  "insee": "77006",
+  "generated_at": "2026-05-24T19:19:29.666035Z",
+  "total_sales": 342,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 52,
+  "median_price": 295000.0,
+  "median_price_per_sqm": 3392.3076923076924,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 73,
+      "median_price": 345300.0
+    },
+    {
+      "year": 2022,
+      "sales": 93,
+      "median_price": 200000.0
+    },
+    {
+      "year": 2023,
+      "sales": 71,
+      "median_price": 307000.0
+    },
+    {
+      "year": 2024,
+      "sales": 49,
+      "median_price": 315000.0
+    },
+    {
+      "year": 2025,
+      "sales": 56,
+      "median_price": 295000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LA MARE A LA COIFFARDE",
+      "sales": 25,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE NEUVE",
+      "sales": 24,
+      "median_price_per_sqm": 3673.404255319149
+    },
+    {
+      "street_name": "RUE DE LA GARE",
+      "sales": 23,
+      "median_price_per_sqm": 3312.25
+    },
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 20,
+      "median_price_per_sqm": 4962.711120859838
+    },
+    {
+      "street_name": "RUE JEAN MOULIN",
+      "sales": 19,
+      "median_price_per_sqm": 3441.0857142857144
+    },
+    {
+      "street_name": "LA LONGUE RAIE",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "AV DE LA LIBERATION",
+      "sales": 12,
+      "median_price_per_sqm": 3484.756097560976
+    },
+    {
+      "street_name": "LA BUTTE AUX LIEVRES",
+      "sales": 12,
+      "median_price_per_sqm": 1742.8571428571427
+    },
+    {
+      "street_name": "RUE DE FLEURY",
+      "sales": 11,
+      "median_price_per_sqm": 4895.833333333333
+    },
+    {
+      "street_name": "LA ROCHE DE L ETANG",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE NORD DE BASSE PLAINE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES TERRES DE L AIGUILLON",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA GRANDE RUE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES MONDELINOTTES",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA GARENNE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

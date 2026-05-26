@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 622,
+  "sales_delta_pct": 29.0,
+  "median_price": 183000.0,
+  "median_ppsqm": 3116.554054054054,
+  "delta_ppsqm_pct": 15.9,
+  "notable_sales": [
+    {
+      "date": "2025-08-12",
+      "street": "RUE DE LA PECHERIE",
+      "type": "Maison",
+      "surface": 200,
+      "price": 892000.0
+    },
+    {
+      "date": "2025-07-01",
+      "street": "AV DE FONTAINEBLEAU VENEUX",
+      "type": "Appartement",
+      "surface": 75,
+      "price": 860000.0
+    },
+    {
+      "date": "2025-03-27",
+      "street": "RUE PASTEUR",
+      "type": "Maison",
+      "surface": 169,
+      "price": 568200.0
+    },
+    {
+      "date": "2025-09-26",
+      "street": "RUE PASTEUR",
+      "type": "Maison",
+      "surface": 145,
+      "price": 560000.0
+    },
+    {
+      "date": "2025-01-24",
+      "street": "PL SAMOIS",
+      "type": "Maison",
+      "surface": 150,
+      "price": 550250.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:30:30.860736Z"
+}

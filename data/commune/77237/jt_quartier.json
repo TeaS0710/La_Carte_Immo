@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 129,
+  "sales_delta_pct": 303.1,
+  "median_price": 2541240.0,
+  "median_ppsqm": 156709.8,
+  "delta_ppsqm_pct": 3206.1,
+  "notable_sales": [
+    {
+      "date": "2025-03-11",
+      "street": "RUE FERRAILLE",
+      "type": "Maison",
+      "surface": 216,
+      "price": 515000.0
+    },
+    {
+      "date": "2025-11-21",
+      "street": "CHE DE LA MOTTE",
+      "type": "Maison",
+      "surface": 180,
+      "price": 512000.0
+    },
+    {
+      "date": "2025-02-21",
+      "street": "RUE FERRAILLE",
+      "type": "Maison",
+      "surface": 142,
+      "price": 505200.0
+    },
+    {
+      "date": "2025-03-11",
+      "street": "RUE DE TOURNAN",
+      "type": "Appartement",
+      "surface": 48,
+      "price": 395000.0
+    },
+    {
+      "date": "2025-04-14",
+      "street": "RUE DU CHAMP DE LA VILLE",
+      "type": "Maison",
+      "surface": 122,
+      "price": 370000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:19:39.956207Z"
+}

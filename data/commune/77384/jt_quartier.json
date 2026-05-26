@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 41,
+  "sales_delta_pct": 173.3,
+  "median_price": 251614.0,
+  "median_ppsqm": 3036.231884057971,
+  "delta_ppsqm_pct": -19.7,
+  "notable_sales": [
+    {
+      "date": "2025-11-21",
+      "street": "RUE FREDERIC SARAZIN",
+      "type": "Maison",
+      "surface": 321,
+      "price": 813293.25
+    },
+    {
+      "date": "2025-04-11",
+      "street": "RUE DE LA CROIX DES ANGES",
+      "type": "Maison",
+      "surface": 74,
+      "price": 419000.0
+    },
+    {
+      "date": "2025-02-04",
+      "street": "RUE FREDERIC SARAZIN",
+      "type": "Maison",
+      "surface": 150,
+      "price": 360000.0
+    },
+    {
+      "date": "2025-07-30",
+      "street": "RUE DE CRAMAYEL",
+      "type": "Maison",
+      "surface": 115,
+      "price": 340000.0
+    },
+    {
+      "date": "2025-06-30",
+      "street": "RUE DU CHEMIN VERT",
+      "type": "Maison",
+      "surface": 98,
+      "price": 336750.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:36:48.829857Z"
+}

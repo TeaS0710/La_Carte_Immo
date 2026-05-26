@@ -1,0 +1,120 @@
+{
+  "commune": "Bazoches-lès-Bray",
+  "insee": "77025",
+  "generated_at": "2026-05-24T20:35:07.929507Z",
+  "total_sales": 459,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 94,
+  "median_price": 54460.0,
+  "median_price_per_sqm": 1520.2702702702704,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 94,
+      "median_price": 135000.0
+    },
+    {
+      "year": 2022,
+      "sales": 62,
+      "median_price": 150000.0
+    },
+    {
+      "year": 2023,
+      "sales": 131,
+      "median_price": 56102.15
+    },
+    {
+      "year": 2024,
+      "sales": 102,
+      "median_price": 30864.15
+    },
+    {
+      "year": 2025,
+      "sales": 70,
+      "median_price": 50500.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LES PATURES DE CHAMP GRAND",
+      "sales": 26,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES ROISES",
+      "sales": 26,
+      "median_price_per_sqm": 1240.3846153846152
+    },
+    {
+      "street_name": "BAZOCHES",
+      "sales": 24,
+      "median_price_per_sqm": 75.0
+    },
+    {
+      "street_name": "RUE DU LAVOIR",
+      "sales": 23,
+      "median_price_per_sqm": 1820.246179966044
+    },
+    {
+      "street_name": "LA NOUE NOIRE",
+      "sales": 15,
+      "median_price_per_sqm": 921.0526315789474
+    },
+    {
+      "street_name": "RUE GRANDE",
+      "sales": 15,
+      "median_price_per_sqm": 1142.9219600725953
+    },
+    {
+      "street_name": "PUTEAU",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA POTERNE",
+      "sales": 13,
+      "median_price_per_sqm": 1526.347708894879
+    },
+    {
+      "street_name": "DEVANT L ECLUSE",
+      "sales": 13,
+      "median_price_per_sqm": 1779.4117647058824
+    },
+    {
+      "street_name": "RUE NEUVE",
+      "sales": 12,
+      "median_price_per_sqm": 2075.8720930232557
+    },
+    {
+      "street_name": "CHAMP AUX CANES",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BAYSE",
+      "sales": 12,
+      "median_price_per_sqm": 1136.3636363636363
+    },
+    {
+      "street_name": "LE BOUT DES VOIES",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DU PONT DES ROISES",
+      "sales": 9,
+      "median_price_per_sqm": 1778.0487804878048
+    },
+    {
+      "street_name": "RUE GRAVIERE",
+      "sales": 9,
+      "median_price_per_sqm": 1261.3636363636363
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 97,
+  "sales_delta_pct": 29.3,
+  "median_price": 172000.0,
+  "median_ppsqm": 2193.877551020408,
+  "delta_ppsqm_pct": 6.2,
+  "notable_sales": [
+    {
+      "date": "2025-11-03",
+      "street": "CHE DES HUYOTTES",
+      "type": "Maison",
+      "surface": 175,
+      "price": 417500.0
+    },
+    {
+      "date": "2025-05-20",
+      "street": "RUE PASTEUR",
+      "type": "Appartement",
+      "surface": 114,
+      "price": 340000.0
+    },
+    {
+      "date": "2025-08-29",
+      "street": "AV DE LA LIBERATION",
+      "type": "Appartement",
+      "surface": 45,
+      "price": 300000.0
+    },
+    {
+      "date": "2025-05-28",
+      "street": "RUE DES ACACIAS",
+      "type": "Maison",
+      "surface": 125,
+      "price": 260000.0
+    },
+    {
+      "date": "2025-04-01",
+      "street": "CHE DES MARAIS",
+      "type": "Maison",
+      "surface": 156,
+      "price": 250000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:38:50.992246Z"
+}

@@ -1,0 +1,32 @@
+{
+  "year": 2025,
+  "sales_year": 337,
+  "sales_delta_pct": 764.1,
+  "median_price": 270000.0,
+  "median_ppsqm": 1886.6666666666667,
+  "delta_ppsqm_pct": -19.8,
+  "notable_sales": [
+    {
+      "date": "2025-09-12",
+      "street": "RUE DE LA TOURELLE",
+      "type": "Maison",
+      "surface": 142,
+      "price": 335000.0
+    },
+    {
+      "date": "2025-07-11",
+      "street": "RUE DE LA VALLEE",
+      "type": "Maison",
+      "surface": 150,
+      "price": 283000.0
+    },
+    {
+      "date": "2025-08-20",
+      "street": "RUE DU PRESSOIR",
+      "type": "Maison",
+      "surface": 105,
+      "price": 269000.0
+    }
+  ],
+  "generated_at": "2026-05-24T19:19:48.009930Z"
+}

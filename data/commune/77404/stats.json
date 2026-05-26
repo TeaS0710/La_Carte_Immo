@@ -1,0 +1,120 @@
+{
+  "commune": "Sainte-Colombe",
+  "insee": "77404",
+  "generated_at": "2026-05-24T21:38:50.994626Z",
+  "total_sales": 468,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 89,
+  "median_price": 140000.0,
+  "median_price_per_sqm": 2066.6666666666665,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 119,
+      "median_price": 90000.0
+    },
+    {
+      "year": 2022,
+      "sales": 71,
+      "median_price": 150000.0
+    },
+    {
+      "year": 2023,
+      "sales": 106,
+      "median_price": 140000.0
+    },
+    {
+      "year": 2024,
+      "sales": 75,
+      "median_price": 155000.0
+    },
+    {
+      "year": 2025,
+      "sales": 97,
+      "median_price": 172000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GENERAL LECLERC",
+      "sales": 57,
+      "median_price_per_sqm": 1929.8245614035088
+    },
+    {
+      "street_name": "AV DE LA LIBERATION",
+      "sales": 22,
+      "median_price_per_sqm": 2822.770253002811
+    },
+    {
+      "street_name": "PRES DU BAS DE SEPTVEILLES",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BUT",
+      "sales": 17,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA PISSEROTTE",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE VICTOR HUGO",
+      "sales": 13,
+      "median_price_per_sqm": 2192.9824561403507
+    },
+    {
+      "street_name": "RUE DU STADE",
+      "sales": 11,
+      "median_price_per_sqm": 1633.888888888889
+    },
+    {
+      "street_name": "TRAVANCE",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA MALADIE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "SEPTVEILLES LE BAS",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES LATTEUX",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES PARREUX",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MOULIN DU PONT BENOIST",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE CHEMIN AUX BOEUFS",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE PASTEUR",
+      "sales": 8,
+      "median_price_per_sqm": 6481.481481481482
+    }
+  ]
+}

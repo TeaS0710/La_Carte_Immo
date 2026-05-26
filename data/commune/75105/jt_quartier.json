@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 2147,
+  "sales_delta_pct": 4.8,
+  "median_price": 531065.0,
+  "median_ppsqm": 12200.0,
+  "delta_ppsqm_pct": 0.0,
+  "notable_sales": [
+    {
+      "date": "2025-12-22",
+      "street": "RUE DE L ABBE DE L EPEE",
+      "type": "Appartement",
+      "surface": 247,
+      "price": 5930000.0
+    },
+    {
+      "date": "2025-05-19",
+      "street": "PL DU PANTHEON",
+      "type": "Appartement",
+      "surface": 195,
+      "price": 3860000.0
+    },
+    {
+      "date": "2025-10-24",
+      "street": "BD SAINT MICHEL",
+      "type": "Appartement",
+      "surface": 226,
+      "price": 3605000.0
+    },
+    {
+      "date": "2025-05-16",
+      "street": "PL DU PANTHEON",
+      "type": "Appartement",
+      "surface": 200,
+      "price": 3400000.0
+    },
+    {
+      "date": "2025-07-30",
+      "street": "QUAI DE LA TOURNELLE",
+      "type": "Appartement",
+      "surface": 161,
+      "price": 3365385.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:40:15.017364Z"
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 159,
+  "sales_delta_pct": 18.7,
+  "median_price": 258850.0,
+  "median_ppsqm": 4506.09756097561,
+  "delta_ppsqm_pct": 2.7,
+  "notable_sales": [
+    {
+      "date": "2025-12-26",
+      "street": "RUE JEAN JAURES",
+      "type": "Appartement",
+      "surface": 45,
+      "price": 718000.0
+    },
+    {
+      "date": "2025-07-31",
+      "street": "ALL DE L ORANGERIE",
+      "type": "Maison",
+      "surface": 149,
+      "price": 560000.0
+    },
+    {
+      "date": "2025-07-10",
+      "street": "ALL PIERRE LE CLERC",
+      "type": "Maison",
+      "surface": 180,
+      "price": 555000.0
+    },
+    {
+      "date": "2025-04-25",
+      "street": "RUE DES AZALEES",
+      "type": "Appartement",
+      "surface": 58,
+      "price": 525200.0
+    },
+    {
+      "date": "2025-07-30",
+      "street": "RUE CARNOT",
+      "type": "Maison",
+      "surface": 140,
+      "price": 510550.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:08:43.768966Z"
+}

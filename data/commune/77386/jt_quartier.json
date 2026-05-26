@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 76,
+  "sales_delta_pct": 46.2,
+  "median_price": 35000.0,
+  "median_ppsqm": 3012.8205128205127,
+  "delta_ppsqm_pct": -3.1,
+  "notable_sales": [
+    {
+      "date": "2025-12-23",
+      "street": "CHE DE PARIS",
+      "type": "Maison",
+      "surface": 234,
+      "price": 705000.0
+    },
+    {
+      "date": "2025-10-30",
+      "street": "RUE DES CHAMPS",
+      "type": "Maison",
+      "surface": 194,
+      "price": 665270.0
+    },
+    {
+      "date": "2025-06-13",
+      "street": "RUE DES CHAMPS",
+      "type": "Maison",
+      "surface": 228,
+      "price": 623600.0
+    },
+    {
+      "date": "2025-03-19",
+      "street": "CHE DE PARIS",
+      "type": "Maison",
+      "surface": 128,
+      "price": 350000.0
+    },
+    {
+      "date": "2025-12-18",
+      "street": "RUE GRANDE",
+      "type": "Maison",
+      "surface": 93,
+      "price": 236500.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:37:02.747989Z"
+}

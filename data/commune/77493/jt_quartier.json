@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 61,
+  "sales_delta_pct": 52.5,
+  "median_price": 275000.0,
+  "median_ppsqm": 2818.181818181818,
+  "delta_ppsqm_pct": 2.4,
+  "notable_sales": [
+    {
+      "date": "2025-12-17",
+      "street": "RUE JULES GUESDE",
+      "type": "Appartement",
+      "surface": 56,
+      "price": 448000.0
+    },
+    {
+      "date": "2025-06-17",
+      "street": "RUE JEAN JAURES",
+      "type": "Maison",
+      "surface": 126,
+      "price": 351050.0
+    },
+    {
+      "date": "2025-09-05",
+      "street": "RUE EDITH PIAF",
+      "type": "Maison",
+      "surface": 113,
+      "price": 348500.0
+    },
+    {
+      "date": "2025-06-20",
+      "street": "RUE JULES GUESDE",
+      "type": "Maison",
+      "surface": 76,
+      "price": 335000.0
+    },
+    {
+      "date": "2025-07-23",
+      "street": "RUE EDITH PIAF",
+      "type": "Maison",
+      "surface": 110,
+      "price": 329000.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:03:25.693000Z"
+}

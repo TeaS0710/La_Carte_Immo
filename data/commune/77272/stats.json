@@ -1,0 +1,120 @@
+{
+  "commune": "Maison-Rouge",
+  "insee": "77272",
+  "generated_at": "2026-05-24T21:24:41.724406Z",
+  "total_sales": 245,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 45,
+  "median_price": 140000.0,
+  "median_price_per_sqm": 1989.3617021276596,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 67,
+      "median_price": 140000.0
+    },
+    {
+      "year": 2022,
+      "sales": 50,
+      "median_price": 210000.0
+    },
+    {
+      "year": 2023,
+      "sales": 46,
+      "median_price": 91500.0
+    },
+    {
+      "year": 2024,
+      "sales": 29,
+      "median_price": 96250.0
+    },
+    {
+      "year": 2025,
+      "sales": 53,
+      "median_price": 148000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "MAISON-ROUGE",
+      "sales": 34,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LANDOY",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE LA CROIX BLANCHE",
+      "sales": 18,
+      "median_price_per_sqm": 1242.486570247934
+    },
+    {
+      "street_name": "LA MARE CORNILLAT",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU MONTOIS",
+      "sales": 14,
+      "median_price_per_sqm": 1940.0
+    },
+    {
+      "street_name": "RUE STE MARIE",
+      "sales": 11,
+      "median_price_per_sqm": 1785.7142857142858
+    },
+    {
+      "street_name": "RUE ST AUGUSTIN",
+      "sales": 8,
+      "median_price_per_sqm": 1263.1461038961038
+    },
+    {
+      "street_name": "RUE DU PAVE DU ROY",
+      "sales": 8,
+      "median_price_per_sqm": 1244.1680960548883
+    },
+    {
+      "street_name": "RUE DES PRES HAUTS",
+      "sales": 8,
+      "median_price_per_sqm": 2293.103448275862
+    },
+    {
+      "street_name": "RUE SAINT AUGUSTIN",
+      "sales": 7,
+      "median_price_per_sqm": 1335.803264604811
+    },
+    {
+      "street_name": "COURTEVROUST",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA CENIE",
+      "sales": 6,
+      "median_price_per_sqm": 1219.5121951219512
+    },
+    {
+      "street_name": "CHE DU MITOY",
+      "sales": 6,
+      "median_price_per_sqm": 2252.747252747253
+    },
+    {
+      "street_name": "RUE DES SOURCES",
+      "sales": 6,
+      "median_price_per_sqm": 2170.4319582740636
+    },
+    {
+      "street_name": "RUE DE LA TABLOTTE",
+      "sales": 6,
+      "median_price_per_sqm": 1905.072463768116
+    }
+  ]
+}

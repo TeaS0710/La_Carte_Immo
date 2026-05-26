@@ -1,0 +1,3 @@
+:HL["/La_Carte_Immo/_next/static/chunks/07o.fdt-zhj97.css","style"]
+:HL["/La_Carte_Immo/_next/static/chunks/0u5ylvb6c1oec.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"fFwLDs0iycAkbDrazfjN-"}

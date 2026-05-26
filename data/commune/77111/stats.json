@@ -1,0 +1,120 @@
+{
+  "commune": "Chessy",
+  "insee": "77111",
+  "generated_at": "2026-05-24T20:47:22.854711Z",
+  "total_sales": 1877,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 109,
+  "median_price": 306460.0,
+  "median_price_per_sqm": 4717.439664804469,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 414,
+      "median_price": 311250.0
+    },
+    {
+      "year": 2022,
+      "sales": 469,
+      "median_price": 307500.0
+    },
+    {
+      "year": 2023,
+      "sales": 350,
+      "median_price": 292000.0
+    },
+    {
+      "year": 2024,
+      "sales": 220,
+      "median_price": 271300.0
+    },
+    {
+      "year": 2025,
+      "sales": 424,
+      "median_price": 335000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU PRE VERSON",
+      "sales": 173,
+      "median_price_per_sqm": 3550.0
+    },
+    {
+      "street_name": "AV HERGE",
+      "sales": 123,
+      "median_price_per_sqm": 50000.0
+    },
+    {
+      "street_name": "RUE DES GRANDS PRES",
+      "sales": 106,
+      "median_price_per_sqm": 4637.68115942029
+    },
+    {
+      "street_name": "RUE DE LA FONTAINE ROUGE",
+      "sales": 92,
+      "median_price_per_sqm": 4761.9047619047615
+    },
+    {
+      "street_name": "RUE D ORSONVILLE",
+      "sales": 87,
+      "median_price_per_sqm": 4459.529496059231
+    },
+    {
+      "street_name": "RUE D ARIANE",
+      "sales": 75,
+      "median_price_per_sqm": 5634.920634920635
+    },
+    {
+      "street_name": "RUE DE LA GALMY",
+      "sales": 75,
+      "median_price_per_sqm": 5600.0
+    },
+    {
+      "street_name": "RUE DU CLOS GIRARD",
+      "sales": 74,
+      "median_price_per_sqm": 4132.52508361204
+    },
+    {
+      "street_name": "RUE DES COULOMMIERES",
+      "sales": 49,
+      "median_price_per_sqm": 5833.333333333333
+    },
+    {
+      "street_name": "CHE DES FOSSES ROUGES",
+      "sales": 49,
+      "median_price_per_sqm": 4386.503067484663
+    },
+    {
+      "street_name": "RUE DU FOSSE MIGNARD",
+      "sales": 47,
+      "median_price_per_sqm": 5177.215189873417
+    },
+    {
+      "street_name": "CHE DE LA GLACIERE",
+      "sales": 42,
+      "median_price_per_sqm": 4697.756897837435
+    },
+    {
+      "street_name": "PL NELSON MANDELA",
+      "sales": 39,
+      "median_price_per_sqm": 6653.846153846154
+    },
+    {
+      "street_name": "CHE DES MEUNIERS",
+      "sales": 36,
+      "median_price_per_sqm": 3745.030954708374
+    },
+    {
+      "street_name": "ALL DES MARAICHERS",
+      "sales": 35,
+      "median_price_per_sqm": 4836.638621794871
+    }
+  ]
+}

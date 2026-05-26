@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 85,
+  "sales_delta_pct": -20.6,
+  "median_price": 378000.0,
+  "median_ppsqm": 3037.037037037037,
+  "delta_ppsqm_pct": -20.4,
+  "notable_sales": [
+    {
+      "date": "2025-01-28",
+      "street": "RUE DE PONTHIERRY",
+      "type": "Maison",
+      "surface": 300,
+      "price": 1220250.0
+    },
+    {
+      "date": "2025-07-11",
+      "street": "ALL DE LA CORNICHE",
+      "type": "Maison",
+      "surface": 137,
+      "price": 740000.0
+    },
+    {
+      "date": "2025-07-18",
+      "street": "RTE DE MELUN",
+      "type": "Maison",
+      "surface": 224,
+      "price": 650000.0
+    },
+    {
+      "date": "2025-10-06",
+      "street": "RUE DU BOISSONNET",
+      "type": "Maison",
+      "surface": 227,
+      "price": 585000.0
+    },
+    {
+      "date": "2025-04-17",
+      "street": "RUE DE BEAUNE",
+      "type": "Maison",
+      "surface": 199,
+      "price": 535000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:37:18.500216Z"
+}

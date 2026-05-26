@@ -1,0 +1,120 @@
+{
+  "commune": "Lieusaint",
+  "insee": "77251",
+  "generated_at": "2026-05-24T21:21:48.600796Z",
+  "total_sales": 2373,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 121,
+  "median_price": 227000.0,
+  "median_price_per_sqm": 3606.55737704918,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 488,
+      "median_price": 211000.0
+    },
+    {
+      "year": 2022,
+      "sales": 544,
+      "median_price": 246995.0
+    },
+    {
+      "year": 2023,
+      "sales": 569,
+      "median_price": 221500.0
+    },
+    {
+      "year": 2024,
+      "sales": 347,
+      "median_price": 238000.0
+    },
+    {
+      "year": 2025,
+      "sales": 425,
+      "median_price": 224000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV MARGUERITE PEREY",
+      "sales": 258,
+      "median_price_per_sqm": 41830.0
+    },
+    {
+      "street_name": "RUE DU BOIS DU BRAY",
+      "sales": 171,
+      "median_price_per_sqm": 3621.7948717948716
+    },
+    {
+      "street_name": "AV PIERRE POINT",
+      "sales": 159,
+      "median_price_per_sqm": 3653.7550343520493
+    },
+    {
+      "street_name": "AV RENE CASSIN",
+      "sales": 125,
+      "median_price_per_sqm": 3657.1794871794873
+    },
+    {
+      "street_name": "RUE DE LA GRANDE FERME",
+      "sales": 108,
+      "median_price_per_sqm": 3439.0243902439024
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 103,
+      "median_price_per_sqm": 3214.285714285714
+    },
+    {
+      "street_name": "BD VICTOR SCHOELCHER",
+      "sales": 95,
+      "median_price_per_sqm": 3066.303615540085
+    },
+    {
+      "street_name": "BD OLYMPE DE GOUGES",
+      "sales": 87,
+      "median_price_per_sqm": 3352.4844720496894
+    },
+    {
+      "street_name": "RUE NEUVE",
+      "sales": 74,
+      "median_price_per_sqm": 3170.4545454545455
+    },
+    {
+      "street_name": "TRAIT D UNION",
+      "sales": 58,
+      "median_price_per_sqm": 3952.3809523809523
+    },
+    {
+      "street_name": "RUE PIERRE MECHAIN",
+      "sales": 54,
+      "median_price_per_sqm": 3389.830508474576
+    },
+    {
+      "street_name": "LE GROS BUISSON",
+      "sales": 52,
+      "median_price_per_sqm": 68953.37626262626
+    },
+    {
+      "street_name": "AV IQBAL MASIH",
+      "sales": 50,
+      "median_price_per_sqm": 3163.9921875
+    },
+    {
+      "street_name": "PL DU COLOMBIER",
+      "sales": 43,
+      "median_price_per_sqm": 2704.961926020408
+    },
+    {
+      "street_name": "PL DU CADRAN SOLAIRE",
+      "sales": 42,
+      "median_price_per_sqm": 2757.5757575757575
+    }
+  ]
+}

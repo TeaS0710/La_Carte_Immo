@@ -1,0 +1,120 @@
+{
+  "commune": "Courtry",
+  "insee": "77139",
+  "generated_at": "2026-05-24T20:59:19.405133Z",
+  "total_sales": 850,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 108,
+  "median_price": 314485.0,
+  "median_price_per_sqm": 3792.2413793103447,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 209,
+      "median_price": 329000.0
+    },
+    {
+      "year": 2022,
+      "sales": 216,
+      "median_price": 329157.5
+    },
+    {
+      "year": 2023,
+      "sales": 130,
+      "median_price": 275000.0
+    },
+    {
+      "year": 2024,
+      "sales": 152,
+      "median_price": 332250.0
+    },
+    {
+      "year": 2025,
+      "sales": 143,
+      "median_price": 290000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU GENERAL DE GAULLE",
+      "sales": 54,
+      "median_price_per_sqm": 3423.4234234234236
+    },
+    {
+      "street_name": "RUE DES BONNES VIGNES",
+      "sales": 52,
+      "median_price_per_sqm": 4032.2580645161293
+    },
+    {
+      "street_name": "AV DU FOND DE BERCON",
+      "sales": 34,
+      "median_price_per_sqm": 5296.620046620046
+    },
+    {
+      "street_name": "RUE DE LA MARE MADAME",
+      "sales": 33,
+      "median_price_per_sqm": 3928.5714285714284
+    },
+    {
+      "street_name": "RTE DU CHAT",
+      "sales": 31,
+      "median_price_per_sqm": 3851.2558041367665
+    },
+    {
+      "street_name": "RUE DES MESANGES",
+      "sales": 29,
+      "median_price_per_sqm": 4336.337369290039
+    },
+    {
+      "street_name": "RUE DU POTEAU",
+      "sales": 29,
+      "median_price_per_sqm": 126000.0
+    },
+    {
+      "street_name": "RUE DE LA BARRE",
+      "sales": 27,
+      "median_price_per_sqm": 3913.544106167057
+    },
+    {
+      "street_name": "L ETANG",
+      "sales": 27,
+      "median_price_per_sqm": 11737.0
+    },
+    {
+      "street_name": "RUE DU GENERAL LECLERC",
+      "sales": 26,
+      "median_price_per_sqm": 2625.4208754208753
+    },
+    {
+      "street_name": "RUE DES CHARDONNERETS",
+      "sales": 23,
+      "median_price_per_sqm": 4250.0
+    },
+    {
+      "street_name": "RUE AUGUSTE RODIN",
+      "sales": 21,
+      "median_price_per_sqm": 3248.797079807533
+    },
+    {
+      "street_name": "RUE DU GOULET",
+      "sales": 21,
+      "median_price_per_sqm": 4062.5
+    },
+    {
+      "street_name": "RUE DES CHARMES",
+      "sales": 18,
+      "median_price_per_sqm": 3684.2105263157896
+    },
+    {
+      "street_name": "RUE CHARLES VAN WYNGENE",
+      "sales": 18,
+      "median_price_per_sqm": 8140.54347826087
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Le Mesnil-Amelot",
+  "insee": "77291",
+  "generated_at": "2026-05-24T21:28:10.254033Z",
+  "total_sales": 398,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 36,
+  "median_price": 3500000.0,
+  "median_price_per_sqm": 78451.546875,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 21,
+      "median_price": 281006.6
+    },
+    {
+      "year": 2022,
+      "sales": 65,
+      "median_price": 325000.0
+    },
+    {
+      "year": 2023,
+      "sales": 64,
+      "median_price": 221558.35
+    },
+    {
+      "year": 2024,
+      "sales": 36,
+      "median_price": 145000.0
+    },
+    {
+      "year": 2025,
+      "sales": 212,
+      "median_price": 5020899.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE GUIVRY",
+      "sales": 164,
+      "median_price_per_sqm": 102467.32653061225
+    },
+    {
+      "street_name": "RUE DE CLAYE",
+      "sales": 27,
+      "median_price_per_sqm": 4000.0
+    },
+    {
+      "street_name": "L ECLANCHE",
+      "sales": 23,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA CROIX CHARON",
+      "sales": 15,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "L ENTREE DES TOUCHES",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE GOUBRON",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BOULAY",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU STADE SAUVANET",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GRANDS PRES",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA MALADRERIE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA PIECE DU GUE",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE BROUET",
+      "sales": 8,
+      "median_price_per_sqm": 3139.5348837209303
+    },
+    {
+      "street_name": "LE HAUT DE LA GRANDEBORNE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU BOSNIER",
+      "sales": 8,
+      "median_price_per_sqm": 3325.3347243957573
+    },
+    {
+      "street_name": "RUE DE PARIS",
+      "sales": 7,
+      "median_price_per_sqm": 25429.864253393665
+    }
+  ]
+}

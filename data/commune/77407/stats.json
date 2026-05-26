@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Fargeau-Ponthierry",
+  "insee": "77407",
+  "generated_at": "2026-05-24T21:39:12.967569Z",
+  "total_sales": 3103,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 213,
+  "median_price": 248770.0,
+  "median_price_per_sqm": 3134.9206349206347,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 644,
+      "median_price": 250000.0
+    },
+    {
+      "year": 2022,
+      "sales": 775,
+      "median_price": 295000.0
+    },
+    {
+      "year": 2023,
+      "sales": 520,
+      "median_price": 223133.0
+    },
+    {
+      "year": 2024,
+      "sales": 572,
+      "median_price": 256400.0
+    },
+    {
+      "year": 2025,
+      "sales": 592,
+      "median_price": 190000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DE FONTAINEBLEAU",
+      "sales": 333,
+      "median_price_per_sqm": 3225.7075471698113
+    },
+    {
+      "street_name": "RUE PAUL GAUGUIN",
+      "sales": 125,
+      "median_price_per_sqm": 3110.771113831089
+    },
+    {
+      "street_name": "RUE DU VIEUX MOULIN",
+      "sales": 106,
+      "median_price_per_sqm": 2257.0455386893746
+    },
+    {
+      "street_name": "RUE DE LA SAUSSAIE",
+      "sales": 98,
+      "median_price_per_sqm": 3197.222222222222
+    },
+    {
+      "street_name": "AV DE LA GARE",
+      "sales": 83,
+      "median_price_per_sqm": 3930.1191765980498
+    },
+    {
+      "street_name": "RUE DE LA FILEUSE",
+      "sales": 82,
+      "median_price_per_sqm": 3244.68085106383
+    },
+    {
+      "street_name": "IMP DU MOULIN DE LA SEINE",
+      "sales": 81,
+      "median_price_per_sqm": 2353.846153846154
+    },
+    {
+      "street_name": "ALL DE LA GUICHE",
+      "sales": 73,
+      "median_price_per_sqm": 3450.0
+    },
+    {
+      "street_name": "RUE JEAN FERRAT",
+      "sales": 69,
+      "median_price_per_sqm": 3058.823529411765
+    },
+    {
+      "street_name": "AV ALBERT BEAUFILS",
+      "sales": 62,
+      "median_price_per_sqm": 3186.213742393509
+    },
+    {
+      "street_name": "RUE DU CHATEAU",
+      "sales": 59,
+      "median_price_per_sqm": 3662.8571428571427
+    },
+    {
+      "street_name": "RUE ALFRED DARROUX",
+      "sales": 59,
+      "median_price_per_sqm": 3074.438202247191
+    },
+    {
+      "street_name": "ALL MAURICE PIKETTY",
+      "sales": 55,
+      "median_price_per_sqm": 3284.6153846153848
+    },
+    {
+      "street_name": "CHE DE VILLIERS",
+      "sales": 52,
+      "median_price_per_sqm": 3787.878787878788
+    },
+    {
+      "street_name": "MAIL DU MOULIN CLAIR",
+      "sales": 46,
+      "median_price_per_sqm": 2051.948051948052
+    }
+  ]
+}

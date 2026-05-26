@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 95,
+  "sales_delta_pct": 0.0,
+  "median_price": 255000.0,
+  "median_ppsqm": 2845.4545454545455,
+  "delta_ppsqm_pct": -3.2,
+  "notable_sales": [
+    {
+      "date": "2025-01-20",
+      "street": "RUE DE MELUN",
+      "type": "Maison",
+      "surface": 150,
+      "price": 411550.0
+    },
+    {
+      "date": "2025-05-13",
+      "street": "RUE DU PONT",
+      "type": "Maison",
+      "surface": 177,
+      "price": 404450.0
+    },
+    {
+      "date": "2025-07-04",
+      "street": "RUE DE LA PLANCHE",
+      "type": "Maison",
+      "surface": 20,
+      "price": 403200.0
+    },
+    {
+      "date": "2025-03-07",
+      "street": "RUE DE MOQUE PANIER",
+      "type": "Maison",
+      "surface": 130,
+      "price": 365000.0
+    },
+    {
+      "date": "2025-10-27",
+      "street": "RUE DE CHAMPEAUX",
+      "type": "Maison",
+      "surface": 150,
+      "price": 350450.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:51:16.534390Z"
+}

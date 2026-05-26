@@ -1,0 +1,120 @@
+{
+  "commune": "Esmans",
+  "insee": "77172",
+  "generated_at": "2026-05-24T21:05:02.396464Z",
+  "total_sales": 409,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 70,
+  "median_price": 190000.0,
+  "median_price_per_sqm": 2138.9981147320227,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 98,
+      "median_price": 185885.5
+    },
+    {
+      "year": 2022,
+      "sales": 69,
+      "median_price": 236000.0
+    },
+    {
+      "year": 2023,
+      "sales": 76,
+      "median_price": 120000.0
+    },
+    {
+      "year": 2024,
+      "sales": 122,
+      "median_price": 388248.95
+    },
+    {
+      "year": 2025,
+      "sales": 44,
+      "median_price": 235650.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LE TERTRE MAUBOEUF",
+      "sales": 22,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA REMISE DU BREAU",
+      "sales": 22,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "ESMANS",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES GRANDS CHAMPS",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE PETIT FOSSARD",
+      "sales": 18,
+      "median_price_per_sqm": 8354.775342465753
+    },
+    {
+      "street_name": "LA RUE BRETTE",
+      "sales": 16,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE D ENFER",
+      "sales": 15,
+      "median_price_per_sqm": 1956.5217391304348
+    },
+    {
+      "street_name": "LES MARAIS",
+      "sales": 14,
+      "median_price_per_sqm": 718.3908045977012
+    },
+    {
+      "street_name": "LE MOULIN BENOIST",
+      "sales": 14,
+      "median_price_per_sqm": 2135.4430379746836
+    },
+    {
+      "street_name": "PL DE LA MAIRIE",
+      "sales": 11,
+      "median_price_per_sqm": 1681.6239316239316
+    },
+    {
+      "street_name": "RUE DE LA PORTE DES ORMES",
+      "sales": 11,
+      "median_price_per_sqm": 1930.8510638297873
+    },
+    {
+      "street_name": "LE CHATEAU",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES ACACIAS",
+      "sales": 10,
+      "median_price_per_sqm": 2121.0237904303663
+    },
+    {
+      "street_name": "LE TERTRE BLANC",
+      "sales": 10,
+      "median_price_per_sqm": 1493.3333333333335
+    },
+    {
+      "street_name": "RTE DU PT FOSSARD",
+      "sales": 10,
+      "median_price_per_sqm": 11470.588235294117
+    }
+  ]
+}

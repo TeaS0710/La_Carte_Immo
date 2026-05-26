@@ -1,0 +1,120 @@
+{
+  "commune": "Chevru",
+  "insee": "77113",
+  "generated_at": "2026-05-24T20:47:39.610872Z",
+  "total_sales": 258,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 42,
+  "median_price": 234500.0,
+  "median_price_per_sqm": 2160.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 49,
+      "median_price": 237625.0
+    },
+    {
+      "year": 2022,
+      "sales": 32,
+      "median_price": 225700.0
+    },
+    {
+      "year": 2023,
+      "sales": 60,
+      "median_price": 234000.0
+    },
+    {
+      "year": 2024,
+      "sales": 65,
+      "median_price": 238000.0
+    },
+    {
+      "year": 2025,
+      "sales": 52,
+      "median_price": 460000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DU TREMBLOY",
+      "sales": 30,
+      "median_price_per_sqm": 2065.175
+    },
+    {
+      "street_name": "LA COMMANDERIE",
+      "sales": 29,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LARRUE",
+      "sales": 19,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE LE MEZ",
+      "sales": 18,
+      "median_price_per_sqm": 3201.754385964912
+    },
+    {
+      "street_name": "FAUJUS",
+      "sales": 14,
+      "median_price_per_sqm": 718.75
+    },
+    {
+      "street_name": "RUE CHARLES DE GAULLE",
+      "sales": 11,
+      "median_price_per_sqm": 2018.2692307692307
+    },
+    {
+      "street_name": "RUE DU BORDEAU",
+      "sales": 11,
+      "median_price_per_sqm": 2052.097780859917
+    },
+    {
+      "street_name": "RUE DU PERTHUIS",
+      "sales": 10,
+      "median_price_per_sqm": 2141.7832167832166
+    },
+    {
+      "street_name": "RUE DE L'ANCIENNE GARE",
+      "sales": 10,
+      "median_price_per_sqm": 5285.714285714285
+    },
+    {
+      "street_name": "RUE DES BOIS",
+      "sales": 10,
+      "median_price_per_sqm": 1775.7009345794393
+    },
+    {
+      "street_name": "RUE DU MONTCEL",
+      "sales": 8,
+      "median_price_per_sqm": 1623.1884057971015
+    },
+    {
+      "street_name": "LE TREMBLOY",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE FAUJUS",
+      "sales": 6,
+      "median_price_per_sqm": 2203.980801806889
+    },
+    {
+      "street_name": "RUE DE LARRUE",
+      "sales": 6,
+      "median_price_per_sqm": 2234.920634920635
+    },
+    {
+      "street_name": "LE PERTHUIS",
+      "sales": 5,
+      "median_price_per_sqm": 2254.901960784314
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 408,
+  "sales_delta_pct": 18.3,
+  "median_price": 215000.0,
+  "median_ppsqm": 2676.923076923077,
+  "delta_ppsqm_pct": -3.7,
+  "notable_sales": [
+    {
+      "date": "2025-11-21",
+      "street": "RUE DES VAUX LUISANTS",
+      "type": "Maison",
+      "surface": 242,
+      "price": 604000.0
+    },
+    {
+      "date": "2025-07-16",
+      "street": "RUE DES ORMESSONS",
+      "type": "Maison",
+      "surface": 180,
+      "price": 450000.0
+    },
+    {
+      "date": "2025-05-16",
+      "street": "RUE DE LA BASTE",
+      "type": "Maison",
+      "surface": 120,
+      "price": 440000.0
+    },
+    {
+      "date": "2025-04-25",
+      "street": "RUE D EGREFIN",
+      "type": "Maison",
+      "surface": 120,
+      "price": 426900.0
+    },
+    {
+      "date": "2025-05-27",
+      "street": "RUE D EGREFIN",
+      "type": "Maison",
+      "surface": 130,
+      "price": 415000.0
+    }
+  ],
+  "generated_at": "2026-05-24T22:02:25.489306Z"
+}

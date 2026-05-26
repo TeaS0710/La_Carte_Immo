@@ -1,0 +1,306 @@
+{
+  "commune": "Paris 2e Arrondissement",
+  "insee": "75102",
+  "generated_at": "2026-05-24T21:39:49.231358Z",
+  "total_sales": 5307,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 112,
+  "median_price": 605000.0,
+  "median_price_per_sqm": 12400.0,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 1096,
+      "median_price": 560000.0
+    },
+    {
+      "year": 2022,
+      "sales": 1185,
+      "median_price": 607000.0
+    },
+    {
+      "year": 2023,
+      "sales": 998,
+      "median_price": 580234.0
+    },
+    {
+      "year": 2024,
+      "sales": 1050,
+      "median_price": 672500.0
+    },
+    {
+      "year": 2025,
+      "sales": 978,
+      "median_price": 600000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE SAINT-DENIS",
+      "sales": 510,
+      "median_price_per_sqm": 12744.444444444445
+    },
+    {
+      "street_name": "RUE D ABOUKIR",
+      "sales": 289,
+      "median_price_per_sqm": 12000.0
+    },
+    {
+      "street_name": "RUE MONTMARTRE",
+      "sales": 215,
+      "median_price_per_sqm": 11603.77358490566
+    },
+    {
+      "street_name": "RUE POISSONNIERE",
+      "sales": 172,
+      "median_price_per_sqm": 18218.115942028984
+    },
+    {
+      "street_name": "RUE DE CLERY",
+      "sales": 160,
+      "median_price_per_sqm": 11666.666666666666
+    },
+    {
+      "street_name": "RUE DU CAIRE",
+      "sales": 153,
+      "median_price_per_sqm": 11776.437847866418
+    },
+    {
+      "street_name": "RUE BEAUREGARD",
+      "sales": 145,
+      "median_price_per_sqm": 11105.555555555555
+    },
+    {
+      "street_name": "RUE TIQUETONNE",
+      "sales": 145,
+      "median_price_per_sqm": 11598.333333333332
+    },
+    {
+      "street_name": "RUE SAINT-SAUVEUR",
+      "sales": 142,
+      "median_price_per_sqm": 11883.445945945947
+    },
+    {
+      "street_name": "RUE GRENETA",
+      "sales": 135,
+      "median_price_per_sqm": 11930.232558139534
+    },
+    {
+      "street_name": "RUE REAUMUR",
+      "sales": 133,
+      "median_price_per_sqm": 24588.557993730406
+    },
+    {
+      "street_name": "RUE SAINT FIACRE",
+      "sales": 111,
+      "median_price_per_sqm": 9961.642857142857
+    },
+    {
+      "street_name": "RUE DE RICHELIEU",
+      "sales": 110,
+      "median_price_per_sqm": 10649.724146714212
+    },
+    {
+      "street_name": "RUE DES JEUNEURS",
+      "sales": 105,
+      "median_price_per_sqm": 10962.566844919786
+    },
+    {
+      "street_name": "RUE VIVIENNE",
+      "sales": 97,
+      "median_price_per_sqm": 41702.12765957447
+    }
+  ],
+  "sirene_targets_total": 3450,
+  "sirene_agences_immo": 1001,
+  "sirene_par_naf": [
+    {
+      "naf": "56.10A",
+      "label": "Restauration traditionnelle",
+      "count": 1000
+    },
+    {
+      "naf": "70.10Z",
+      "label": "Sièges sociaux",
+      "count": 736
+    },
+    {
+      "naf": "68.31Z",
+      "label": "Agences immobilières",
+      "count": 612
+    },
+    {
+      "naf": "66.19B",
+      "label": "Courtage / intermédiation financière",
+      "count": 350
+    },
+    {
+      "naf": "68.32A",
+      "label": "Administration d'immeubles",
+      "count": 299
+    },
+    {
+      "naf": "56.30Z",
+      "label": "Débits de boissons",
+      "count": 187
+    },
+    {
+      "naf": "68.32B",
+      "label": "Supports juridiques",
+      "count": 90
+    },
+    {
+      "naf": "47.11B",
+      "label": "Supérette",
+      "count": 74
+    },
+    {
+      "naf": "47.81Z",
+      "label": "Commerce détail éventaires alim.",
+      "count": 65
+    },
+    {
+      "naf": "47.11D",
+      "label": "Supermarchés",
+      "count": 16
+    },
+    {
+      "naf": "87.10A",
+      "label": "Hébergement médicalisé personnes âgées",
+      "count": 13
+    },
+    {
+      "naf": "85.31Z",
+      "label": "Enseignement secondaire général",
+      "count": 8
+    }
+  ],
+  "sirene_top_agences": [
+    {
+      "siren": "510539018",
+      "nom": "ANGLE NEUF",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "IMM 19 LCL 19 BOULEVARD DES ITALIENS 75002 PARIS",
+      "code_postal": "75002"
+    },
+    {
+      "siren": "852339589",
+      "nom": "DANIEL FEAU CONSEIL IMMOBILIER",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "21 RUE D'ARTOIS 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "323998690",
+      "nom": "ESPACE EXPANSION",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "7 PLACE DU CHANCELIER ADENAUER 75016 PARIS",
+      "code_postal": "75016"
+    },
+    {
+      "siren": "513504498",
+      "nom": "GROUPE J L V (EVOLIS - EVOLIS PROPRIETAIRES - EVOLIS UTILISATEURS)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "24 B RUE DE BERRI 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "387468382",
+      "nom": "AFEDIM (AFEDIM) (AFEDIM)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "RAIFFEISEN 4 RUE FREDERIC-GUILLAUME RAIFFEISEN 67000 STRASBOURG",
+      "code_postal": "67000"
+    },
+    {
+      "siren": "488650417",
+      "nom": "IZIMMO",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "3 RUE EDOUARD BELIN 29200 BREST",
+      "code_postal": "29200"
+    },
+    {
+      "siren": "520639725",
+      "nom": "AGENCE DES ENFANTS ROUGES",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "44 RUE DE BRETAGNE 75003 PARIS",
+      "code_postal": "75003"
+    },
+    {
+      "siren": "379817190",
+      "nom": "LA TOUR IMMO TRANSACTION (LA TOUR IMMO)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "5 RUE CERNUSCHI 75017 PARIS",
+      "code_postal": "75017"
+    },
+    {
+      "siren": "417971959",
+      "nom": "CHRISTIE & CO (CHRISTIE + CO)",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "10 RUE LA FAYETTE 75009 PARIS",
+      "code_postal": "75009"
+    },
+    {
+      "siren": "833267289",
+      "nom": "VESTA HOME",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "CS5003 95 AVENUE DU PRESIDENT WILSON 93100 MONTREUIL",
+      "code_postal": "93100"
+    },
+    {
+      "siren": "953478898",
+      "nom": "STERN GROUP",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "28 BOULEVARD MALESHERBES 75008 PARIS",
+      "code_postal": "75008"
+    },
+    {
+      "siren": "503605263",
+      "nom": "ESPACES ATYPIQUES DEVELOPPEMENT",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "5 B RUE DES HAUDRIETTES 75003 PARIS",
+      "code_postal": "75003"
+    },
+    {
+      "siren": "852185495",
+      "nom": "B.Z.H PARTNERS",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "66 RUE MONGE 75005 PARIS",
+      "code_postal": "75005"
+    },
+    {
+      "siren": "819288499",
+      "nom": "SERRIS REIM",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "61 ROUTE D'ALLAUCH 13011 MARSEILLE",
+      "code_postal": "13011"
+    },
+    {
+      "siren": "834758575",
+      "nom": "H26 CONSULTING",
+      "naf": "68.31Z",
+      "naf_label": "Agences immobilières",
+      "adresse": "22 RUE LALO 75016 PARIS",
+      "code_postal": "75016"
+    }
+  ]
+}

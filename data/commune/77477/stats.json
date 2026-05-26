@@ -1,0 +1,120 @@
+{
+  "commune": "Ury",
+  "insee": "77477",
+  "generated_at": "2026-05-24T21:59:40.714446Z",
+  "total_sales": 288,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 48,
+  "median_price": 292000.0,
+  "median_price_per_sqm": 2714.3659383295894,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 50,
+      "median_price": 255000.0
+    },
+    {
+      "year": 2022,
+      "sales": 96,
+      "median_price": 225500.0
+    },
+    {
+      "year": 2023,
+      "sales": 59,
+      "median_price": 365600.0
+    },
+    {
+      "year": 2024,
+      "sales": 58,
+      "median_price": 390000.0
+    },
+    {
+      "year": 2025,
+      "sales": 25,
+      "median_price": 240000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DE L EGLISE",
+      "sales": 36,
+      "median_price_per_sqm": 3350.0
+    },
+    {
+      "street_name": "LA MARE A SOUTRY",
+      "sales": 32,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE FONTAINEBLEAU",
+      "sales": 30,
+      "median_price_per_sqm": 2155.688622754491
+    },
+    {
+      "street_name": "RUE BASSE",
+      "sales": 18,
+      "median_price_per_sqm": 2111.1111111111113
+    },
+    {
+      "street_name": "RUE DE LA BARRE",
+      "sales": 16,
+      "median_price_per_sqm": 2650.602409638554
+    },
+    {
+      "street_name": "BOIS DE CLAMART ET BARNOLE",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE VILLAGE",
+      "sales": 12,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CHE DU FOURNEAU",
+      "sales": 11,
+      "median_price_per_sqm": 2748.872180451128
+    },
+    {
+      "street_name": "CHE DE MELUN",
+      "sales": 10,
+      "median_price_per_sqm": 2335.329341317365
+    },
+    {
+      "street_name": "RUE DE MALESHERBES",
+      "sales": 10,
+      "median_price_per_sqm": 2083.3333333333335
+    },
+    {
+      "street_name": "LES CARRIERES",
+      "sales": 8,
+      "median_price_per_sqm": 4429.462021986461
+    },
+    {
+      "street_name": "CHE DES POSTES",
+      "sales": 7,
+      "median_price_per_sqm": 1824.8587570621469
+    },
+    {
+      "street_name": "VILLONNE",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE RECLOSES",
+      "sales": 6,
+      "median_price_per_sqm": 3812.5
+    },
+    {
+      "street_name": "LA MARE AUX CRAPAUDS",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

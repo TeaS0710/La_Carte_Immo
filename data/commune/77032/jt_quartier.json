@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 43,
+  "sales_delta_pct": -29.5,
+  "median_price": 218000.0,
+  "median_ppsqm": 1890.7563025210084,
+  "delta_ppsqm_pct": -6.5,
+  "notable_sales": [
+    {
+      "date": "2025-04-28",
+      "street": "RTE DEPARTEMENTALE 1004",
+      "type": "Maison",
+      "surface": 274,
+      "price": 430000.0
+    },
+    {
+      "date": "2025-07-17",
+      "street": "LES VIGNES",
+      "type": "Maison",
+      "surface": 132,
+      "price": 312500.0
+    },
+    {
+      "date": "2025-04-22",
+      "street": "RUE DES ROSIERS",
+      "type": "Maison",
+      "surface": 127,
+      "price": 232000.0
+    },
+    {
+      "date": "2025-05-15",
+      "street": "RTE DEPARTEMENTALE 1004",
+      "type": "Maison",
+      "surface": 119,
+      "price": 225000.0
+    },
+    {
+      "date": "2025-05-13",
+      "street": "RUE DU MANTEAU",
+      "type": "Maison",
+      "surface": 94,
+      "price": 218000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:36:02.855263Z"
+}

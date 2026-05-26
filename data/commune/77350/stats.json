@@ -1,0 +1,120 @@
+{
+  "commune": "Ozoir-la-Ferrière",
+  "insee": "77350",
+  "generated_at": "2026-05-24T21:33:36.739770Z",
+  "total_sales": 2591,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 259,
+  "median_price": 300000.0,
+  "median_price_per_sqm": 3875.2049180327867,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 655,
+      "median_price": 306000.0
+    },
+    {
+      "year": 2022,
+      "sales": 571,
+      "median_price": 295800.0
+    },
+    {
+      "year": 2023,
+      "sales": 427,
+      "median_price": 325000.0
+    },
+    {
+      "year": 2024,
+      "sales": 352,
+      "median_price": 284900.0
+    },
+    {
+      "year": 2025,
+      "sales": 586,
+      "median_price": 296000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "AV DU GENERAL DE GAULLE",
+      "sales": 458,
+      "median_price_per_sqm": 4390.243902439024
+    },
+    {
+      "street_name": "AV DU GENERAL LECLERC",
+      "sales": 167,
+      "median_price_per_sqm": 4169.398907103825
+    },
+    {
+      "street_name": "RUE PALAISOT",
+      "sales": 110,
+      "median_price_per_sqm": 3990.008620689655
+    },
+    {
+      "street_name": "LE PLUME VERT",
+      "sales": 78,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE BEAUROSE",
+      "sales": 70,
+      "median_price_per_sqm": 4270.1612903225805
+    },
+    {
+      "street_name": "RUE DANTON",
+      "sales": 54,
+      "median_price_per_sqm": 4117.64705882353
+    },
+    {
+      "street_name": "RUE DE FEROLLES",
+      "sales": 51,
+      "median_price_per_sqm": 8108.108108108108
+    },
+    {
+      "street_name": "RUE DE LA VERRERIE",
+      "sales": 46,
+      "median_price_per_sqm": 4036.4583333333335
+    },
+    {
+      "street_name": "RTE DE ROISSY",
+      "sales": 35,
+      "median_price_per_sqm": 3125.497881355932
+    },
+    {
+      "street_name": "AV DE LA BRUNERIE",
+      "sales": 33,
+      "median_price_per_sqm": 3839.6296296296296
+    },
+    {
+      "street_name": "RUE HENRI FRANCOIS",
+      "sales": 32,
+      "median_price_per_sqm": 2680.0
+    },
+    {
+      "street_name": "RUE DE LA PAIX",
+      "sales": 29,
+      "median_price_per_sqm": 4263.22
+    },
+    {
+      "street_name": "RUE DES CHANTIERS",
+      "sales": 29,
+      "median_price_per_sqm": 4871.794871794872
+    },
+    {
+      "street_name": "AV YERRES 3",
+      "sales": 25,
+      "median_price_per_sqm": 3818.076923076923
+    },
+    {
+      "street_name": "AV DU FOSSE DES MONNAIES",
+      "sales": 24,
+      "median_price_per_sqm": 3592.8571428571427
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 8722,
+  "sales_delta_pct": 6.5,
+  "median_price": 467000.0,
+  "median_ppsqm": 9871.303571428572,
+  "delta_ppsqm_pct": -0.6,
+  "notable_sales": [
+    {
+      "date": "2025-11-20",
+      "street": "RUE DU CDT LEANDRI",
+      "type": "Maison",
+      "surface": 225,
+      "price": 3425300.0
+    },
+    {
+      "date": "2025-05-26",
+      "street": "AV DE BRETEUIL",
+      "type": "Appartement",
+      "surface": 201,
+      "price": 3420000.0
+    },
+    {
+      "date": "2025-08-13",
+      "street": "RUE TOURNUS",
+      "type": "Maison",
+      "surface": 250,
+      "price": 2493750.0
+    },
+    {
+      "date": "2025-09-16",
+      "street": "ALL JOSEPH RECAMIER",
+      "type": "Appartement",
+      "surface": 134,
+      "price": 2390600.0
+    },
+    {
+      "date": "2025-07-30",
+      "street": "AV DE BRETEUIL",
+      "type": "Appartement",
+      "surface": 160,
+      "price": 2299300.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:42:43.619274Z"
+}

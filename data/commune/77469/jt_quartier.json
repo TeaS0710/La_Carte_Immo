@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 81,
+  "sales_delta_pct": 11.0,
+  "median_price": 269000.0,
+  "median_ppsqm": 2446.8652037617558,
+  "delta_ppsqm_pct": 17.4,
+  "notable_sales": [
+    {
+      "date": "2025-09-23",
+      "street": "RUE DE PARIS",
+      "type": "Maison",
+      "surface": 198,
+      "price": 561275.0
+    },
+    {
+      "date": "2025-09-29",
+      "street": "RUE DE PARIS",
+      "type": "Maison",
+      "surface": 80,
+      "price": 539000.0
+    },
+    {
+      "date": "2025-05-21",
+      "street": "RUE DES ROCHES",
+      "type": "Maison",
+      "surface": 240,
+      "price": 453000.0
+    },
+    {
+      "date": "2025-04-09",
+      "street": "RUE DE MALVOISINE",
+      "type": "Maison",
+      "surface": 174,
+      "price": 426000.0
+    },
+    {
+      "date": "2025-09-17",
+      "street": "RUE DE GRAND FONTAINE",
+      "type": "Maison",
+      "surface": 198,
+      "price": 373800.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:56:40.208033Z"
+}

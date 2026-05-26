@@ -1,0 +1,120 @@
+{
+  "commune": "Saint-Martin-en-Bière",
+  "insee": "77425",
+  "generated_at": "2026-05-24T21:41:28.224215Z",
+  "total_sales": 165,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 33,
+  "median_price": 370000.0,
+  "median_price_per_sqm": 3202.247191011236,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 51,
+      "median_price": 355000.0
+    },
+    {
+      "year": 2022,
+      "sales": 33,
+      "median_price": 470000.0
+    },
+    {
+      "year": 2023,
+      "sales": 27,
+      "median_price": 182000.0
+    },
+    {
+      "year": 2024,
+      "sales": 26,
+      "median_price": 370000.0
+    },
+    {
+      "year": 2025,
+      "sales": 28,
+      "median_price": 378050.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "RUE DES PLANTES",
+      "sales": 19,
+      "median_price_per_sqm": 4037.375
+    },
+    {
+      "street_name": "RUE DES FRANCS BOURGEOIS",
+      "sales": 15,
+      "median_price_per_sqm": 3202.247191011236
+    },
+    {
+      "street_name": "RUE DU CHAMPART",
+      "sales": 10,
+      "median_price_per_sqm": 3162.3931623931626
+    },
+    {
+      "street_name": "RUE DES SOURCES",
+      "sales": 10,
+      "median_price_per_sqm": 3146.5116279069766
+    },
+    {
+      "street_name": "RUE DE LA VALLEE",
+      "sales": 10,
+      "median_price_per_sqm": 2952.3809523809523
+    },
+    {
+      "street_name": "MACHERIN",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES ALLOIRS",
+      "sales": 8,
+      "median_price_per_sqm": 3271.276595744681
+    },
+    {
+      "street_name": "RUE DE LA FORET",
+      "sales": 8,
+      "median_price_per_sqm": 3128.125
+    },
+    {
+      "street_name": "PAS DU MARCHAIS",
+      "sales": 7,
+      "median_price_per_sqm": 7230.7692307692305
+    },
+    {
+      "street_name": "RUE DES LONGUES RAIES",
+      "sales": 6,
+      "median_price_per_sqm": 3088.4973900074574
+    },
+    {
+      "street_name": "LE CHEMIN DES ECOLIERS",
+      "sales": 6,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES NEUFS ARPENTS",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA COLINETTE",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PAS DU MUR A FLOQUET",
+      "sales": 5,
+      "median_price_per_sqm": 2000.0
+    },
+    {
+      "street_name": "ALL DE LA MOLETTERIE",
+      "sales": 4,
+      "median_price_per_sqm": 17325.0
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "year": 2025,
+  "sales_year": 13,
+  "sales_delta_pct": -62.9,
+  "median_price": 170000.0,
+  "median_ppsqm": 2143.318207282913,
+  "delta_ppsqm_pct": -7.1,
+  "notable_sales": [
+    {
+      "date": "2025-06-26",
+      "street": "IMP DES PLANTES",
+      "type": "Maison",
+      "surface": 119,
+      "price": 229000.0
+    },
+    {
+      "date": "2025-05-24",
+      "street": "RUE DU CIMETIERE",
+      "type": "Maison",
+      "surface": 75,
+      "price": 177170.0
+    },
+    {
+      "date": "2025-10-06",
+      "street": "RTE DU GRAND FLEIGNY",
+      "type": "Maison",
+      "surface": 68,
+      "price": 170000.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:37:39.960603Z"
+}

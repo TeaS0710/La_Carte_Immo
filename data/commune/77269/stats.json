@@ -1,0 +1,120 @@
+{
+  "commune": "Maincy",
+  "insee": "77269",
+  "generated_at": "2026-05-24T21:24:11.485605Z",
+  "total_sales": 456,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 60,
+  "median_price": 222500.0,
+  "median_price_per_sqm": 2990.185185185185,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 136,
+      "median_price": 187034.0
+    },
+    {
+      "year": 2022,
+      "sales": 93,
+      "median_price": 295100.0
+    },
+    {
+      "year": 2023,
+      "sales": 79,
+      "median_price": 315000.0
+    },
+    {
+      "year": 2024,
+      "sales": 71,
+      "median_price": 194000.0
+    },
+    {
+      "year": 2025,
+      "sales": 77,
+      "median_price": 215000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "LA RUE CREUSE",
+      "sales": 54,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE ALFRED ET EDME SOMMIER",
+      "sales": 45,
+      "median_price_per_sqm": 2560.0
+    },
+    {
+      "street_name": "RUE DU PAVE DE L EGLISE",
+      "sales": 34,
+      "median_price_per_sqm": 4951.056338028169
+    },
+    {
+      "street_name": "LE RU DE LA FONTAINE",
+      "sales": 27,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "DERRIERE L EGLISE",
+      "sales": 18,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE MARCEL GERTENER",
+      "sales": 17,
+      "median_price_per_sqm": 3079.3650793650795
+    },
+    {
+      "street_name": "RUE DE SIVRY",
+      "sales": 16,
+      "median_price_per_sqm": 2449.128774316744
+    },
+    {
+      "street_name": "CHE DE PRASLIN",
+      "sales": 13,
+      "median_price_per_sqm": 2315.7894736842104
+    },
+    {
+      "street_name": "CHE DU FIEF DE MONS",
+      "sales": 12,
+      "median_price_per_sqm": 2994.814814814815
+    },
+    {
+      "street_name": "RUE HORACE DE CHOISEUL",
+      "sales": 12,
+      "median_price_per_sqm": 2786.8852459016393
+    },
+    {
+      "street_name": "RUE DE MELUN",
+      "sales": 12,
+      "median_price_per_sqm": 2577.973819009676
+    },
+    {
+      "street_name": "LES MAISONS TETON",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES PLEUX",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA GOBELETTE",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES BASSES GUICHARDES",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

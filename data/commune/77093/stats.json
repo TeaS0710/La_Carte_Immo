@@ -1,0 +1,120 @@
+{
+  "commune": "La Chapelle-Moutils",
+  "insee": "77093",
+  "generated_at": "2026-05-24T20:44:27.477010Z",
+  "total_sales": 221,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 42,
+  "median_price": 145000.0,
+  "median_price_per_sqm": 1883.3333333333333,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 62,
+      "median_price": 150000.0
+    },
+    {
+      "year": 2022,
+      "sales": 61,
+      "median_price": 210050.0
+    },
+    {
+      "year": 2023,
+      "sales": 40,
+      "median_price": 42141.6
+    },
+    {
+      "year": 2024,
+      "sales": 28,
+      "median_price": 14550.0
+    },
+    {
+      "year": 2025,
+      "sales": 30,
+      "median_price": 200000.0
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "MARCHAIS",
+      "sales": 25,
+      "median_price_per_sqm": 3688.5245901639346
+    },
+    {
+      "street_name": "VOIGNY",
+      "sales": 21,
+      "median_price_per_sqm": 1658.3333333333333
+    },
+    {
+      "street_name": "RUE DU RELAIS DE POSTE",
+      "sales": 16,
+      "median_price_per_sqm": 2109.756097560976
+    },
+    {
+      "street_name": "LE MONTCEL",
+      "sales": 16,
+      "median_price_per_sqm": 2259.9397590361446
+    },
+    {
+      "street_name": "LE BOIS DES COMMUNES",
+      "sales": 14,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MOUTILS",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES BOIS DE MOUTILS",
+      "sales": 9,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DES TILLEULS",
+      "sales": 8,
+      "median_price_per_sqm": 2076.5873015873017
+    },
+    {
+      "street_name": "LA RECULEE",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LA CHAPELLE VERONGE",
+      "sales": 7,
+      "median_price_per_sqm": 1875.0
+    },
+    {
+      "street_name": "LES COURTILLOTS",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LES TENNIERES",
+      "sales": 6,
+      "median_price_per_sqm": 2666.446208112875
+    },
+    {
+      "street_name": "LES VIEILLES VIGNES",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "MARGOUYA",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "LE BOIS MERCIER",
+      "sales": 5,
+      "median_price_per_sqm": NaN
+    }
+  ]
+}

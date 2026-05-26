@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 15,
+  "sales_delta_pct": -11.8,
+  "median_price": 225000.0,
+  "median_ppsqm": 2110.091743119266,
+  "delta_ppsqm_pct": 0.6,
+  "notable_sales": [
+    {
+      "date": "2025-08-06",
+      "street": "RUE DU GUE MATHIEU",
+      "type": "Maison",
+      "surface": 103,
+      "price": 245000.0
+    },
+    {
+      "date": "2025-01-11",
+      "street": "RLE DE BEAUREGARD",
+      "type": "Maison",
+      "surface": 109,
+      "price": 230000.0
+    },
+    {
+      "date": "2025-11-21",
+      "street": "RUE DE GEINCOURT",
+      "type": "Maison",
+      "surface": 83,
+      "price": 229000.0
+    },
+    {
+      "date": "2025-10-10",
+      "street": "RUE DE LA LOGE",
+      "type": "Maison",
+      "surface": 111,
+      "price": 225000.0
+    },
+    {
+      "date": "2025-04-12",
+      "street": "RUE DES PATURES",
+      "type": "Maison",
+      "surface": 106,
+      "price": 164000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:51:13.525058Z"
+}

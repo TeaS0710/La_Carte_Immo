@@ -1,0 +1,39 @@
+{
+  "year": 2025,
+  "sales_year": 26,
+  "sales_delta_pct": -36.6,
+  "median_price": 196500.0,
+  "median_ppsqm": 2684.9056603773583,
+  "delta_ppsqm_pct": 5.5,
+  "notable_sales": [
+    {
+      "date": "2025-02-28",
+      "street": "RUE CHATEL",
+      "type": "Maison",
+      "surface": 106,
+      "price": 284600.0
+    },
+    {
+      "date": "2025-12-12",
+      "street": "IMP DU PRE L'EVEQUE",
+      "type": "Maison",
+      "surface": 98,
+      "price": 275000.0
+    },
+    {
+      "date": "2025-06-02",
+      "street": "RUE CHATEL",
+      "type": "Maison",
+      "surface": 86,
+      "price": 200000.0
+    },
+    {
+      "date": "2025-10-24",
+      "street": "RUE DES PRES",
+      "type": "Maison",
+      "surface": 108,
+      "price": 193000.0
+    }
+  ],
+  "generated_at": "2026-05-24T20:34:39.168113Z"
+}

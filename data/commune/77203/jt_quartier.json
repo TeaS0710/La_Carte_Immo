@@ -1,0 +1,46 @@
+{
+  "year": 2025,
+  "sales_year": 65,
+  "sales_delta_pct": 35.4,
+  "median_price": 295900.0,
+  "median_ppsqm": 2978.2505910165482,
+  "delta_ppsqm_pct": 5.5,
+  "notable_sales": [
+    {
+      "date": "2025-02-07",
+      "street": "RUE MONET",
+      "type": "Maison",
+      "surface": 157,
+      "price": 550364.0
+    },
+    {
+      "date": "2025-02-06",
+      "street": "CHE DES VIGNES",
+      "type": "Maison",
+      "surface": 128,
+      "price": 475000.0
+    },
+    {
+      "date": "2025-12-05",
+      "street": "RUE RENOIR",
+      "type": "Maison",
+      "surface": 188,
+      "price": 455000.0
+    },
+    {
+      "date": "2025-08-01",
+      "street": "ALL CEZANNE",
+      "type": "Maison",
+      "surface": 96,
+      "price": 440000.0
+    },
+    {
+      "date": "2025-07-11",
+      "street": "ALL SISLEY",
+      "type": "Maison",
+      "surface": 195,
+      "price": 436350.0
+    }
+  ],
+  "generated_at": "2026-05-24T21:12:21.268581Z"
+}

@@ -1,0 +1,120 @@
+{
+  "commune": "Coulombs-en-Valois",
+  "insee": "77129",
+  "generated_at": "2026-05-24T20:56:18.171279Z",
+  "total_sales": 242,
+  "years_covered": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "streets_with_sales": 51,
+  "median_price": 71000.0,
+  "median_price_per_sqm": 1766.566265060241,
+  "by_year": [
+    {
+      "year": 2021,
+      "sales": 42,
+      "median_price": 224000.0
+    },
+    {
+      "year": 2022,
+      "sales": 75,
+      "median_price": 159000.0
+    },
+    {
+      "year": 2023,
+      "sales": 13,
+      "median_price": 71000.0
+    },
+    {
+      "year": 2024,
+      "sales": 41,
+      "median_price": 158000.0
+    },
+    {
+      "year": 2025,
+      "sales": 71,
+      "median_price": 6273.25
+    }
+  ],
+  "top_streets": [
+    {
+      "street_name": "GR GRANDE RUE",
+      "sales": 26,
+      "median_price_per_sqm": 2138.0230880230883
+    },
+    {
+      "street_name": "LE VILLAGE",
+      "sales": 21,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DU PUITS D AMOUR",
+      "sales": 12,
+      "median_price_per_sqm": 1587.4125874125875
+    },
+    {
+      "street_name": "RUE DES MENETRIERS",
+      "sales": 12,
+      "median_price_per_sqm": 2533.855799373041
+    },
+    {
+      "street_name": "LE FLANC",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "PRES FERMES",
+      "sales": 11,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "CERTIGNY",
+      "sales": 10,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE SAINT GEORGES",
+      "sales": 8,
+      "median_price_per_sqm": 1621.4285714285713
+    },
+    {
+      "street_name": "LE CRAPAUD",
+      "sales": 8,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "RUE DE L AMANDIERE",
+      "sales": 8,
+      "median_price_per_sqm": 1818.1818181818182
+    },
+    {
+      "street_name": "RUE DES COPAINS",
+      "sales": 7,
+      "median_price_per_sqm": 2642.065142065142
+    },
+    {
+      "street_name": "VAUX-SOUS-COULOMBS",
+      "sales": 7,
+      "median_price_per_sqm": NaN
+    },
+    {
+      "street_name": "BOYENVAL",
+      "sales": 7,
+      "median_price_per_sqm": 1121.9512195121952
+    },
+    {
+      "street_name": "GRANDE RUE",
+      "sales": 6,
+      "median_price_per_sqm": 1272.7272727272727
+    },
+    {
+      "street_name": "RUE DES PRES",
+      "sales": 6,
+      "median_price_per_sqm": 2175.0
+    }
+  ]
+}
