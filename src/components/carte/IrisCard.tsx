@@ -117,10 +117,10 @@ export default function IrisCard({
     <aside
       className={[
         "absolute z-10 bg-white overflow-y-auto shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
-        // Mobile (< sm) : bottom sheet plein largeur attaché au bas
+        // < lg (mobile + tablette portrait) : bottom-sheet plein largeur
         "inset-x-0 bottom-0 max-h-[85dvh] rounded-t-2xl border-t border-[color:var(--line)]",
-        // Desktop (sm+) : carte flottante centrée
-        "sm:inset-x-auto sm:bottom-4 sm:left-1/2 sm:-translate-x-1/2 sm:w-[min(640px,calc(100vw-32px))] sm:max-h-[85vh] sm:rounded-2xl sm:border sm:border-[color:var(--line)]",
+        // ≥ lg : carte flottante centrée (laisse la place à la stack droite)
+        "lg:inset-x-auto lg:bottom-4 lg:left-1/2 lg:-translate-x-1/2 lg:w-[min(640px,calc(100vw-32px))] lg:max-h-[85vh] lg:rounded-2xl lg:border lg:border-[color:var(--line)]",
         // Print : remplace tout
         "print:static print:inset-auto print:translate-x-0 print:max-h-none",
       ].join(" ")}
@@ -128,7 +128,7 @@ export default function IrisCard({
       aria-labelledby="iris-card-title"
     >
       {/* ── Drag handle mobile (purement visuel, indicate qu'on peut scroller / fermer) ── */}
-      <div className="sm:hidden no-print flex justify-center pt-2 pb-1 sticky top-0 bg-white z-10 -mb-1">
+      <div className="lg:hidden no-print flex justify-center pt-2 pb-1 sticky top-0 bg-white z-10 -mb-1">
         <div className="w-10 h-1 rounded-full bg-[color:var(--line)]" aria-hidden="true" />
       </div>
 

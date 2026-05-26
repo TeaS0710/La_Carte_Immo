@@ -35,10 +35,10 @@ export default function PermitCard({
       className={[
         "absolute z-10 bg-white overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
         "inset-x-0 bottom-0 max-h-[85dvh] overflow-y-auto rounded-t-2xl border-t border-[color:var(--line)]",
-        "sm:inset-x-auto sm:bottom-4 sm:left-1/2 sm:-translate-x-1/2 sm:w-[min(420px,calc(100vw-32px))] sm:max-h-none sm:overflow-hidden sm:rounded-2xl sm:border sm:border-[color:var(--line)]",
+        "lg:inset-x-auto lg:bottom-4 lg:left-1/2 lg:-translate-x-1/2 lg:w-[min(420px,calc(100vw-32px))] lg:max-h-none lg:overflow-hidden lg:rounded-2xl lg:border lg:border-[color:var(--line)]",
       ].join(" ")}
     >
-      <div className="sm:hidden flex justify-center pt-2 pb-1 sticky top-0 bg-white z-20 -mb-1">
+      <div className="lg:hidden flex justify-center pt-2 pb-1 sticky top-0 bg-white z-20 -mb-1">
         <div className="w-10 h-1 rounded-full bg-[color:var(--line)]" aria-hidden="true" />
       </div>
       <header className="bg-white border-b border-[color:var(--line-soft)] px-5 pt-4 pb-3">

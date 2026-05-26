@@ -10,6 +10,7 @@ export default function FiltersBubble({
   setFilters,
   minYear,
   maxYear,
+  hideTrigger = false,
 }: {
   open: boolean;
   setOpen: (v: boolean) => void;
@@ -17,15 +18,24 @@ export default function FiltersBubble({
   setFilters: (f: MapFilters) => void;
   minYear: number;
   maxYear: number;
+  /** Sur mobile (< lg), masquer le bouton "Filtres" fermé pour éviter le
+   *  chevauchement avec une bottom-sheet ouverte. Le panel ouvert reste
+   *  affiché en bottom-sheet plein largeur (au-dessus de tout). */
+  hideTrigger?: boolean;
 }) {
   return (
     <>
-      {/* Bouton fermé — version compacte */}
+      {/* Bouton fermé — version compacte. Conflit `hidden` vs `inline-flex` :
+          on construit les classes display séparément pour que `hidden` ne soit
+          PAS suivi par `inline-flex` (sinon Tailwind override avec inline-flex). */}
       {!open && (
         <button
           type="button"
           onClick={() => setOpen(true)}
-          className="absolute top-4 left-4 z-10 inline-flex items-center gap-2 px-3.5 py-2 rounded-full bg-white text-ink font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border border-[color:var(--line)] hover:bg-[color:var(--brand)] hover:text-white hover:border-transparent transition"
+          className={[
+            "absolute top-4 left-4 z-10 items-center gap-2 px-3.5 py-2 rounded-full bg-white text-ink font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border border-[color:var(--line)] hover:bg-[color:var(--brand)] hover:text-white hover:border-transparent transition",
+            hideTrigger ? "hidden lg:inline-flex" : "inline-flex",
+          ].join(" ")}
           aria-label="Ouvrir les filtres"
         >
           <SlidersHorizontal size={14} />
@@ -41,7 +51,7 @@ export default function FiltersBubble({
             type="button"
             aria-label="Fermer les filtres"
             onClick={() => setOpen(false)}
-            className="sm:hidden fixed inset-0 z-[9] bg-black/30 backdrop-blur-[2px]"
+            className="lg:hidden fixed inset-0 z-[9] bg-black/30 backdrop-blur-[2px]"
           />
           <div
             className={[
@@ -49,13 +59,13 @@ export default function FiltersBubble({
               // Mobile : bottom-sheet plein largeur
               "inset-x-0 bottom-0 max-h-[85dvh] overflow-y-auto rounded-t-2xl border-t border-[color:var(--line)]",
               // Desktop : panneau top-left
-              "sm:inset-x-auto sm:bottom-auto sm:top-4 sm:left-4 sm:w-[340px] sm:max-w-[calc(100vw-32px)] sm:max-h-none sm:overflow-hidden sm:rounded-2xl sm:border sm:border-[color:var(--line)]",
+              "lg:inset-x-auto lg:bottom-auto lg:top-4 lg:left-4 lg:w-[340px] lg:max-w-[calc(100vw-32px)] lg:max-h-none lg:overflow-hidden lg:rounded-2xl lg:border lg:border-[color:var(--line)]",
             ].join(" ")}
             role="dialog"
             aria-label="Filtres carte"
           >
             {/* Drag handle mobile */}
-            <div className="sm:hidden flex justify-center pt-2 pb-1">
+            <div className="lg:hidden flex justify-center pt-2 pb-1">
               <div className="w-10 h-1 rounded-full bg-[color:var(--line)]" aria-hidden="true" />
             </div>
             <div className="flex items-center justify-between px-5 py-3.5 border-b border-[color:var(--line-soft)]">

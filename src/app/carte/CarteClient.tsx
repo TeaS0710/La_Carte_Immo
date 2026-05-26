@@ -120,17 +120,28 @@ export default function CarteClient({
         </div>
       )}
 
-      {/* Barre de navigation flottante top-center : breadcrumb + sélecteur ville */}
-      <div className="no-presentation absolute top-4 left-1/2 -translate-x-1/2 z-20 flex flex-col sm:flex-row items-center gap-2 bg-white/95 backdrop-blur-sm border border-[color:var(--line)] rounded-full px-3 py-1.5 shadow-[0_4px_16px_rgba(0,0,0,0.10)] max-w-[calc(100vw-32px)]">
-        <CarteBreadcrumb
-          items={[
-            { label: deptName, href: `/carte/dept/${commune.code_dept}/` },
-            { label: commune.nom },
-          ]}
-        />
-        <span className="hidden sm:inline-block w-px h-4 bg-[color:var(--line)]" />
-        <VilleSelector availableSlugs={availableSlugs} currentSlug={commune.slug} compact />
-      </div>
+      {/* Barre de navigation flottante top-center : breadcrumb + sélecteur ville
+          Mobile (< lg) : compacte, top-[72px] (sous le header global), cachée si
+                          une card de détail est ouverte (évite chevauchement avec
+                          le drag-handle et le header de la bottom-sheet).
+          Desktop (≥ lg) : top-4 centered avec sélecteur ville visible. */}
+      {(() => {
+        const anyCardOpen = !!(selected || selectedIris || selectedPipeline || selectedPermit);
+        return (
+          <div className={`no-presentation absolute z-20 left-1/2 -translate-x-1/2 top-[72px] lg:top-4 flex flex-col lg:flex-row items-center gap-2 bg-white/95 backdrop-blur-sm border border-[color:var(--line)] rounded-full px-3 py-1.5 shadow-[0_4px_16px_rgba(0,0,0,0.10)] max-w-[calc(100vw-120px)] lg:max-w-[calc(100vw-32px)] ${anyCardOpen ? "hidden lg:flex" : "flex"}`}>
+            <CarteBreadcrumb
+              items={[
+                { label: deptName, href: `/carte/dept/${commune.code_dept}/` },
+                { label: commune.nom },
+              ]}
+            />
+            <span className="hidden lg:inline-block w-px h-4 bg-[color:var(--line)]" />
+            <div className="hidden lg:block">
+              <VilleSelector availableSlugs={availableSlugs} currentSlug={commune.slug} compact />
+            </div>
+          </div>
+        );
+      })()}
 
       {/* Map fills the whole area — only render after mount to avoid SSR/MapLibre conflict */}
       {mounted ? (
@@ -152,7 +163,8 @@ export default function CarteClient({
         </div>
       )}
 
-      {/* Filters bubble (top-left) */}
+      {/* Filters bubble (top-left) — bouton fermé caché sur mobile quand card de
+          détail ouverte (le panel ouvert s'affiche en bottom-sheet au-dessus) */}
       <FiltersBubble
         open={filtersOpen}
         setOpen={setFiltersOpen}
@@ -160,6 +172,7 @@ export default function CarteClient({
         setFilters={setFilters}
         minYear={minYear}
         maxYear={maxYear}
+        hideTrigger={!!(selected || selectedIris || selectedPipeline || selectedPermit)}
       />
 
       {/* Right-side action stack — uniformisé desktop + mobile pour éviter superpositions
@@ -169,26 +182,29 @@ export default function CarteClient({
       */}
       {(() => {
         const anyCardOpen = !!(selected || selectedIris || selectedPipeline || selectedPermit);
-        // Classe de feedback tactile commune : pression visuelle au clic
+        // Feedback tactile commun (squeeze 95% au clic, ombre intérieure légère)
         const btnFeedback = "transition-all duration-150 ease-out active:scale-[0.95] active:shadow-inner";
         return (
       <div
         className={[
+          // Sur tablette portrait & mobile, on cache la stack quand une card est
+          // ouverte (la bottom-sheet prend tout l'écran). Au-delà de lg (1024px),
+          // l'IrisCard devient une carte flottante centrée et la stack reste utile.
           "no-presentation absolute top-[140px] right-4 z-30 flex flex-col items-end gap-2",
-          anyCardOpen ? "hidden sm:flex" : "flex",
+          anyCardOpen ? "hidden lg:flex" : "flex",
         ].join(" ")}
       >
-        {/* 1. Historique */}
+        {/* 1. Historique — bouton XL (le plus gros, brand) */}
         <button
           type="button"
           onClick={() => setMarketOpen(true)}
-          className={`inline-flex items-center gap-2 px-4 py-3 rounded-full bg-brand text-white font-medium text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong hover:shadow-[0_6px_20px_rgba(157,126,68,0.45)] min-h-[44px] ${btnFeedback}`}
+          className={`inline-flex items-center gap-2.5 px-5 py-3.5 rounded-full bg-brand text-white font-semibold text-[15px] shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong hover:shadow-[0_6px_22px_rgba(157,126,68,0.50)] min-h-[48px] ${btnFeedback}`}
         >
-          <History size={17} />
+          <History size={18} />
           Historique
         </button>
 
-        {/* 2. Prédire les futures ventes — gros bouton primaire qui toggle la couche pipeline */}
+        {/* 2. Prédire les futures ventes — bouton L (un peu plus petit que Historique) */}
         {(dataState?.hasPipeline ?? true) && (
           <button
             type="button"
@@ -199,43 +215,43 @@ export default function CarteClient({
                 ? "Masquer la prédiction des ventes (modèle DPE F/G × historique DVF)"
                 : "Afficher les logements à fort potentiel de vente sur 12 mois (DPE F/G + modèle de prédiction)"
             }
-            className={`inline-flex items-center gap-2 px-4 py-3 rounded-full font-medium text-[15px] min-h-[44px] ${btnFeedback} ${
+            className={`inline-flex items-center gap-2 px-4 py-3 rounded-full font-medium text-[14px] min-h-[44px] ${btnFeedback} ${
               filters.showPipeline
                 ? "bg-brand-strong text-white shadow-[0_4px_20px_rgba(157,126,68,0.55)] ring-2 ring-brand/30 hover:bg-brand"
                 : "bg-brand text-white shadow-[0_4px_16px_rgba(157,126,68,0.35)] hover:bg-brand-strong hover:shadow-[0_6px_20px_rgba(157,126,68,0.45)]"
             }`}
           >
-            <Target size={17} className={filters.showPipeline ? "animate-pulse" : ""} />
+            <Target size={16} className={filters.showPipeline ? "animate-pulse" : ""} />
             <span className="hidden sm:inline">Prédire les futures ventes</span>
             <span className="sm:hidden">Prédire ventes</span>
           </button>
         )}
 
-        {/* 3. Vue 3D — bouton principal (sorti du menu ⋮ à la demande utilisateur) */}
+        {/* 3. Vue 3D — bouton M (encore plus petit) */}
         <button
           type="button"
           onClick={() => setIs3d((v) => !v)}
           aria-pressed={is3d}
           aria-label={is3d ? "Désactiver la vue 3D" : "Activer la vue 3D"}
           title={is3d ? "Revenir en vue plate" : "Passer en vue 3D (relief des bâtiments)"}
-          className={`inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border min-h-[44px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${btnFeedback} ${
+          className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full font-medium text-[13px] shadow-[0_3px_12px_rgba(0,0,0,0.10)] border min-h-[40px] focus:outline-none focus:ring-2 focus:ring-brand-strong focus:ring-offset-2 ${btnFeedback} ${
             is3d
               ? "bg-brand text-white border-brand hover:bg-brand-strong"
               : "bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand"
           }`}
         >
-          <Box size={15} aria-hidden="true" />
-          <span className="hidden sm:inline">{is3d ? "Vue 3D activée" : "Vue 3D"}</span>
+          <Box size={14} aria-hidden="true" />
+          <span className="hidden sm:inline">{is3d ? "3D activée" : "Vue 3D"}</span>
           <span className="sm:hidden">3D</span>
         </button>
 
-        {/* 4. Vue Île-de-France (retour région) */}
+        {/* 4. Vue Île-de-France — bouton S (le plus petit avec texte) */}
         <a
           href="/carte/"
-          className={`inline-flex items-center gap-2 px-3.5 py-2.5 rounded-full font-medium text-[13px] shadow-[0_4px_16px_rgba(0,0,0,0.12)] border bg-white text-ink border-[color:var(--line)] hover:bg-surface-warm hover:border-brand min-h-[44px] ${btnFeedback}`}
+          className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full font-medium text-[12px] shadow-[0_2px_8px_rgba(0,0,0,0.08)] border bg-white text-ink-soft border-[color:var(--line)] hover:bg-surface-warm hover:border-brand hover:text-ink min-h-[36px] ${btnFeedback}`}
           title="Revenir à la vue Île-de-France entière"
         >
-          <MapPin size={14} className="text-brand-strong" aria-hidden="true" />
+          <MapPin size={12} className="text-brand-strong" aria-hidden="true" />
           <span className="hidden sm:inline">Vue Île-de-France</span>
           <span className="sm:hidden">IDF</span>
         </a>
@@ -328,7 +344,7 @@ export default function CarteClient({
         aria-label="Légende de la carte : intensité du volume de ventes, du plus faible au plus fort. Ronds = rues. Fonds colorés = quartiers IRIS."
         className={`no-presentation absolute bottom-4 left-4 z-10 bg-white rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.10)] border border-[color:var(--line)] px-4 py-3 text-[13px] text-ink max-w-[calc(100vw-32px)] ${
           (selected || selectedIris || selectedPipeline || selectedPermit)
-            ? "hidden sm:block"
+            ? "hidden lg:block"
             : ""
         }`}
       >

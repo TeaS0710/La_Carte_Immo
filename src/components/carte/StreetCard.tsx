@@ -153,13 +153,13 @@ export default function StreetCard({
         // Mobile : bottom sheet
         "inset-x-0 bottom-0 max-h-[85dvh] rounded-t-2xl border-t border-[color:var(--line)]",
         // Desktop : right drawer
-        "sm:inset-x-auto sm:top-0 sm:right-0 sm:bottom-0 sm:w-[460px] sm:max-h-none sm:rounded-none sm:border-t-0 sm:border-l sm:border-[color:var(--line)]",
+        "lg:inset-x-auto lg:top-0 lg:right-0 lg:bottom-0 lg:w-[460px] lg:max-h-none lg:rounded-none lg:border-t-0 lg:border-l lg:border-[color:var(--line)]",
         "print:static print:inset-auto print:max-h-none",
       ].join(" ")}
       role="dialog"
     >
       {/* Drag handle mobile */}
-      <div className="sm:hidden no-print flex justify-center pt-2 pb-1 shrink-0">
+      <div className="lg:hidden no-print flex justify-center pt-2 pb-1 shrink-0">
         <div className="w-10 h-1 rounded-full bg-[color:var(--line)]" aria-hidden="true" />
       </div>
       {/* Header */}
