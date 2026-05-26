@@ -170,7 +170,7 @@ export default function IrisCard({
           <button
             type="button"
             onClick={() => window.print()}
-            className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm min-w-[36px] min-h-[36px] flex items-center justify-center"
+            className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm min-w-[44px] min-h-[44px] flex items-center justify-center"
             aria-label="Imprimer la fiche / Enregistrer en PDF"
             title="Exporter en PDF brandé Prelys (pour mandat)"
           >
@@ -180,7 +180,7 @@ export default function IrisCard({
             href={ignOrthoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm min-w-[36px] min-h-[36px] flex items-center justify-center"
+            className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm min-w-[44px] min-h-[44px] flex items-center justify-center"
             aria-label="Vue aérienne IGN"
             title="Ouvrir la vue aérienne IGN"
           >
@@ -189,7 +189,7 @@ export default function IrisCard({
           <button
             type="button"
             onClick={onClose}
-            className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm min-w-[36px] min-h-[36px] flex items-center justify-center"
+            className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm min-w-[44px] min-h-[44px] flex items-center justify-center"
             aria-label="Fermer"
           >
             <X size={18} />
@@ -197,7 +197,7 @@ export default function IrisCard({
         </div>
       </header>
 
-      <div className="p-5 space-y-6">
+      <div className="p-4 sm:p-5 space-y-5 sm:space-y-6">
         {/* ── Story du quartier (1 ligne, généré côté front) ── */}
         <QuartierStory iris={iris} commune={commune} />
 

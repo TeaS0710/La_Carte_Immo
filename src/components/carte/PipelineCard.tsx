@@ -57,7 +57,7 @@ export default function PipelineCard({
           <button
             type="button"
             onClick={onClose}
-            className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm shrink-0 min-w-[36px] min-h-[36px] flex items-center justify-center"
+            className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm shrink-0 min-w-[44px] min-h-[44px] flex items-center justify-center"
             aria-label="Fermer"
           >
             <X size={18} />

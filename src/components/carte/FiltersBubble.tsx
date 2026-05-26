@@ -70,7 +70,7 @@ export default function FiltersBubble({
               <button
                 type="button"
                 onClick={() => setOpen(false)}
-                className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm min-w-[36px] min-h-[36px] flex items-center justify-center"
+                className="rounded-full p-2 text-ink-soft hover:text-ink hover:bg-surface-warm min-w-[44px] min-h-[44px] flex items-center justify-center"
                 aria-label="Fermer"
               >
                 <X size={18} />

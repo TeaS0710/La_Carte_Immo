@@ -68,7 +68,7 @@ export default function OnboardingHint({
       <button
         type="button"
         onClick={dismiss}
-        className="shrink-0 rounded-full p-1 text-ink-mute hover:text-ink hover:bg-surface-warm"
+        className="shrink-0 rounded-full p-2 text-ink-mute hover:text-ink hover:bg-surface-warm min-w-[36px] min-h-[36px] flex items-center justify-center"
         aria-label="Masquer ce conseil"
       >
         <X size={14} />
