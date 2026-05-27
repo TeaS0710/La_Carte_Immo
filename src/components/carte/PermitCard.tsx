@@ -33,9 +33,9 @@ export default function PermitCard({
       aria-modal="false"
       aria-label="Fiche bâtiment modifié"
       className={[
-        "absolute z-10 bg-white overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
-        "inset-x-0 bottom-0 max-h-[85dvh] overflow-y-auto rounded-t-2xl border-t border-[color:var(--line)]",
-        "lg:inset-x-auto lg:bottom-4 lg:left-1/2 lg:-translate-x-1/2 lg:w-[min(420px,calc(100vw-32px))] lg:max-h-none lg:overflow-hidden lg:rounded-2xl lg:border lg:border-[color:var(--line)]",
+        "absolute z-20 bg-white overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
+        "inset-x-0 bottom-0 max-h-[82dvh] overflow-y-auto rounded-t-2xl border-t border-[color:var(--line)] pb-[env(safe-area-inset-bottom)]",
+        "lg:inset-x-auto lg:bottom-4 lg:left-1/2 lg:-translate-x-1/2 lg:w-[min(420px,calc(100vw-32px))] lg:max-h-none lg:overflow-hidden lg:rounded-2xl lg:border lg:border-[color:var(--line)] lg:pb-0",
       ].join(" ")}
     >
       <div className="lg:hidden flex justify-center pt-2 pb-1 sticky top-0 bg-white z-20 -mb-1">

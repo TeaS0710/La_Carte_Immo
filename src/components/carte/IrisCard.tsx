@@ -116,11 +116,11 @@ export default function IrisCard({
   return (
     <aside
       className={[
-        "absolute z-10 bg-white overflow-y-auto shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
+        "absolute z-20 bg-white overflow-y-auto shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
         // < lg (mobile + tablette portrait) : bottom-sheet plein largeur
-        "inset-x-0 bottom-0 max-h-[85dvh] rounded-t-2xl border-t border-[color:var(--line)]",
+        "inset-x-0 bottom-0 max-h-[82dvh] rounded-t-2xl border-t border-[color:var(--line)] pb-[env(safe-area-inset-bottom)]",
         // ≥ lg : carte flottante centrée (laisse la place à la stack droite)
-        "lg:inset-x-auto lg:bottom-4 lg:left-1/2 lg:-translate-x-1/2 lg:w-[min(640px,calc(100vw-32px))] lg:max-h-[85vh] lg:rounded-2xl lg:border lg:border-[color:var(--line)]",
+        "lg:inset-x-auto lg:bottom-4 lg:left-1/2 lg:-translate-x-1/2 lg:w-[min(640px,calc(100vw-32px))] lg:max-h-[85dvh] lg:rounded-2xl lg:border lg:border-[color:var(--line)] lg:pb-0",
         // Print : remplace tout
         "print:static print:inset-auto print:translate-x-0 print:max-h-none",
       ].join(" ")}

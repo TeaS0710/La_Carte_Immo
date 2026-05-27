@@ -34,9 +34,9 @@ export default function PipelineCard({
       aria-modal="false"
       aria-labelledby="pipeline-card-title"
       className={[
-        "absolute z-10 bg-white overflow-y-auto shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
-        "inset-x-0 bottom-0 max-h-[85dvh] rounded-t-2xl border-t border-[color:var(--line)]",
-        "lg:inset-x-auto lg:bottom-4 lg:left-1/2 lg:-translate-x-1/2 lg:w-[min(480px,calc(100vw-32px))] lg:max-h-[85vh] lg:rounded-2xl lg:border lg:border-[color:var(--line)]",
+        "absolute z-20 bg-white overflow-y-auto shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
+        "inset-x-0 bottom-0 max-h-[82dvh] rounded-t-2xl border-t border-[color:var(--line)] pb-[env(safe-area-inset-bottom)]",
+        "lg:inset-x-auto lg:bottom-4 lg:left-1/2 lg:-translate-x-1/2 lg:w-[min(480px,calc(100vw-32px))] lg:max-h-[85dvh] lg:rounded-2xl lg:border lg:border-[color:var(--line)] lg:pb-0",
       ].join(" ")}
     >
       {/* Drag handle mobile */}

@@ -26,7 +26,7 @@ export default function RegionCarteClient({
   }, []);
 
   return (
-    <main className="relative w-full" style={{ height: "calc(100vh - 68px)" }}>
+    <main className="relative w-full h-[calc(100dvh-64px)] lg:h-[calc(100dvh-68px)]">
       {mounted ? (
         <RegionMap is3d={is3d} />
       ) : (

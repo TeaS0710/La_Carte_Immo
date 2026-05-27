@@ -126,8 +126,7 @@ export default function CarteClient({
 
   return (
     <main
-      className={`relative w-full ${presentation ? "presentation-mode" : ""}`}
-      style={{ height: "calc(100vh - 68px)" }}
+      className={`relative w-full h-[calc(100dvh-64px)] lg:h-[calc(100dvh-68px)] ${presentation ? "presentation-mode" : ""}`}
     >
       {/* Bouton "Quitter présentation" visible uniquement en mode présentation */}
       <button
@@ -153,7 +152,7 @@ export default function CarteClient({
       {(() => {
         const anyCardOpen = !!(selected || selectedIris || selectedPipeline || selectedPermit);
         return (
-          <div className={`no-presentation absolute z-20 left-1/2 -translate-x-1/2 top-[72px] lg:top-4 flex flex-col lg:flex-row items-center gap-2 bg-white/95 backdrop-blur-sm border border-[color:var(--line)] rounded-full px-3 py-1.5 shadow-[0_4px_16px_rgba(0,0,0,0.10)] max-w-[calc(100vw-120px)] lg:max-w-[calc(100vw-32px)] ${anyCardOpen ? "hidden lg:flex" : "flex"}`}>
+          <div className={`no-presentation absolute z-20 left-1/2 -translate-x-1/2 top-[68px] lg:top-4 flex-row items-center gap-2 bg-white lg:bg-white/95 lg:backdrop-blur-sm border border-[color:var(--line)] rounded-full px-3.5 py-2 lg:px-3 lg:py-1.5 shadow-[0_6px_18px_rgba(0,0,0,0.14)] lg:shadow-[0_4px_16px_rgba(0,0,0,0.10)] max-w-[calc(100vw-24px)] lg:max-w-[calc(100vw-32px)] ${anyCardOpen ? "hidden lg:flex" : "flex"}`}>
             <CarteBreadcrumb
               items={[
                 { label: deptName, href: `/carte/dept/${commune.code_dept}/` },

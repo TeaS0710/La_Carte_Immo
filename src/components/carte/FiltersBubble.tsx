@@ -64,11 +64,11 @@ export default function FiltersBubble({
             onMouseEnter={onHoverOpen}
             onMouseLeave={onHoverClose}
             className={[
-              "absolute z-10 bg-white overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
+              "absolute z-20 bg-white overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.18)]",
               // Mobile : bottom-sheet plein largeur
-              "inset-x-0 bottom-0 max-h-[85dvh] overflow-y-auto rounded-t-2xl border-t border-[color:var(--line)]",
+              "inset-x-0 bottom-0 max-h-[82dvh] overflow-y-auto rounded-t-2xl border-t border-[color:var(--line)] pb-[env(safe-area-inset-bottom)]",
               // Desktop : panneau top-left avec animation slide-in (filters-panel-enter dans globals.css)
-              "lg:inset-x-auto lg:bottom-auto lg:top-4 lg:left-4 lg:w-[340px] lg:max-w-[calc(100vw-32px)] lg:max-h-none lg:overflow-hidden lg:rounded-2xl lg:border lg:border-[color:var(--line)] lg:filters-panel-enter",
+              "lg:inset-x-auto lg:bottom-auto lg:top-4 lg:left-4 lg:w-[340px] lg:max-w-[calc(100vw-32px)] lg:max-h-none lg:overflow-hidden lg:rounded-2xl lg:border lg:border-[color:var(--line)] lg:filters-panel-enter lg:pb-0",
             ].join(" ")}
             role="dialog"
             aria-label="Filtres carte"

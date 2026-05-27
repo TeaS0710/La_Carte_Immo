@@ -151,9 +151,9 @@ export default function StreetCard({
       className={[
         "absolute z-20 bg-white overflow-y-auto flex flex-col shadow-[0_0_32px_rgba(0,0,0,0.08)]",
         // Mobile : bottom sheet
-        "inset-x-0 bottom-0 max-h-[85dvh] rounded-t-2xl border-t border-[color:var(--line)]",
+        "inset-x-0 bottom-0 max-h-[82dvh] rounded-t-2xl border-t border-[color:var(--line)] pb-[env(safe-area-inset-bottom)]",
         // Desktop : right drawer
-        "lg:inset-x-auto lg:top-0 lg:right-0 lg:bottom-0 lg:w-[460px] lg:max-h-none lg:rounded-none lg:border-t-0 lg:border-l lg:border-[color:var(--line)]",
+        "lg:inset-x-auto lg:top-0 lg:right-0 lg:bottom-0 lg:w-[460px] lg:max-h-none lg:rounded-none lg:border-t-0 lg:border-l lg:border-[color:var(--line)] lg:pb-0",
         "print:static print:inset-auto print:max-h-none",
       ].join(" ")}
       role="dialog"
