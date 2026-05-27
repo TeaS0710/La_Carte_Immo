@@ -74,14 +74,14 @@ function FooterCol({
         {title}
       </div>
       {links && (
-        <ul className="space-y-2">
+        <ul className="space-y-0.5">
           {links.map((l) => (
             <li key={l.label}>
               <a
                 href={l.href}
                 target={l.href.startsWith("http") ? "_blank" : undefined}
                 rel={l.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="text-white/70 hover:text-white transition"
+                className="inline-flex items-center min-h-[44px] py-2 -my-1 text-white/70 hover:text-white transition"
               >
                 {l.label}
               </a>

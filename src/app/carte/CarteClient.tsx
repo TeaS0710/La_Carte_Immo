@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { communeDataUrl } from "@/lib/url";
-import { History, Info, Box, Printer, Maximize2, Minimize2, MapPin, MoreVertical, X, Target, Hammer } from "lucide-react";
+import { History, Box, Printer, Maximize2, Minimize2, MapPin, MoreVertical, X, Target, Hammer } from "lucide-react";
 import type { CommuneStats, StreetProps } from "@/lib/types";
 import { DEFAULT_COMMUNE, type CommuneRef } from "@/lib/commune";
 import FiltersBubble from "@/components/carte/FiltersBubble";
@@ -67,7 +67,8 @@ export default function CarteClient({
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [marketOpen, setMarketOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
-  const [hintDismissed, setHintDismissed] = useState(false);
+  // Hint inline central retiré au profit du OnboardingHint (1ère visite uniquement)
+  // — voir <OnboardingHint /> plus bas dans le JSX.
   const [is3d, setIs3d] = useState(false);
   const [presentation, setPresentation] = useState(false);
   // Mobile only : toggle de la stack d'actions secondaires
@@ -121,9 +122,6 @@ export default function CarteClient({
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
-    const dismiss = () => setHintDismissed(true);
-    document.addEventListener("click", dismiss, { once: true });
-    return () => document.removeEventListener("click", dismiss);
   }, []);
 
   return (
@@ -377,46 +375,37 @@ export default function CarteClient({
         </>
       )}
 
-      {/* Legend (bottom-left) — fusion: ronds=rues, fond=quartiers
-          Masquée sur mobile (< sm) si une carte de détail est ouverte pour ne
-          pas cacher l'info utile. */}
+      {/* Legend — fusion: ronds=rues, fond=quartiers
+          Desktop (lg+) : bottom-4 left-4, version complète avec titre
+          Mobile (< lg) : version ULTRA compacte (barre + min/max seulement),
+                          cachée si une card de détail est ouverte. */}
       <div
         aria-label="Légende de la carte : intensité du volume de ventes, du plus faible au plus fort. Ronds = rues. Fonds colorés = quartiers IRIS."
-        className={`no-presentation absolute bottom-4 left-4 z-10 bg-white rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.10)] border border-[color:var(--line)] px-4 py-3 text-[13px] text-ink max-w-[calc(100vw-32px)] ${
+        className={`no-presentation absolute bottom-4 left-4 z-10 bg-white/95 backdrop-blur-sm rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.10)] border border-[color:var(--line)] text-ink max-w-[calc(100vw-32px)] px-3 py-2 lg:px-4 lg:py-3 ${
           (selected || selectedIris || selectedPipeline || selectedPermit)
             ? "hidden lg:block"
             : ""
         }`}
       >
-        <div className="text-[11px] uppercase tracking-[0.15em] text-ink-mute mb-2">
+        <div className="hidden lg:block text-[11px] uppercase tracking-[0.15em] text-ink-mute mb-2">
           Volume de ventes
         </div>
         <div className="flex items-center gap-1.5">
-          <span className="inline-block h-2.5 w-7 rounded-l-sm bg-[#d9e0d4]" />
-          <span className="inline-block h-2.5 w-7 bg-[#a8b8a3]" />
-          <span className="inline-block h-2.5 w-7 bg-[#e6cf9a]" />
-          <span className="inline-block h-2.5 w-7 bg-[#c09b5a]" />
-          <span className="inline-block h-2.5 w-7 bg-[#b54f3a]" />
-          <span className="inline-block h-2.5 w-7 rounded-r-sm bg-[#7a2810]" />
+          <span className="inline-block h-2 lg:h-2.5 w-5 lg:w-7 rounded-l-sm bg-[#d9e0d4]" />
+          <span className="inline-block h-2 lg:h-2.5 w-5 lg:w-7 bg-[#a8b8a3]" />
+          <span className="inline-block h-2 lg:h-2.5 w-5 lg:w-7 bg-[#e6cf9a]" />
+          <span className="inline-block h-2 lg:h-2.5 w-5 lg:w-7 bg-[#c09b5a]" />
+          <span className="inline-block h-2 lg:h-2.5 w-5 lg:w-7 bg-[#b54f3a]" />
+          <span className="inline-block h-2 lg:h-2.5 w-5 lg:w-7 rounded-r-sm bg-[#7a2810]" />
         </div>
-        <div className="flex items-center justify-between text-[11px] text-ink-mute mt-1 w-44">
+        <div className="flex items-center justify-between text-[10px] lg:text-[11px] text-ink-mute mt-0.5 lg:mt-1 w-32 lg:w-44">
           <span>Faible</span>
           <span>Fort</span>
         </div>
-        <div className="text-[11px] text-ink-mute mt-2 pt-2 border-t border-[color:var(--line-soft)]">
+        <div className="hidden lg:block text-[11px] text-ink-mute mt-2 pt-2 border-t border-[color:var(--line-soft)]">
           ● rues · ▢ quartiers IRIS
         </div>
       </div>
-
-      {/* Hint inline central — disparaît au premier clic */}
-      {!hintDismissed && !selected && !selectedIris && !selectedPipeline && !selectedPermit && !filtersOpen && (
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none transition-opacity">
-          <div className="bg-white/95 border border-[color:var(--line)] rounded-full px-4 py-2 text-[13px] text-ink-soft inline-flex items-center gap-2 shadow-sm">
-            <Info size={14} className="text-brand-strong" />
-            Cliquez sur un point (rue) ou une zone (quartier) pour voir les détails
-          </div>
-        </div>
-      )}
 
       {/* Onboarding 1re visite (persistant via localStorage) */}
       <OnboardingHint

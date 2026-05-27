@@ -66,7 +66,7 @@ export default function RegionMap({
 
       map.addControl(
         new maplibregl.NavigationControl({ showCompass: false, showZoom: true }),
-        "top-right",
+        "bottom-right",
       );
 
       map.on("mouseout", () => {
